@@ -2362,3 +2362,6 @@ FR: 392→397/401. Build: 1936→1941 (+5). Gate: check 0 | build 1941 | e2e 10/
 
 ## iter1192 · BUILD (i18n-DE) · de-63-israel-vs-cyprus · 00e06668
 - DE-63 SHIPPED: israel-vs-cyprus.md (Standard Hochdeutsch) — "Israel vs. Zypern: Welches Reiseziel wählen? (2026)". Mittelmeer-Strand + Geschichte-Vergleich; GYG + Skyscanner + Booking CTAs; 7 FAQs; 19 /de/* cross-links pre-verified. Smoke + a11y tests added. Gate: pnpm check 0 errors | build 1961 pages (+1) | test:e2e 2/2 targeted PASS. DE: 396→397/401. Only israel-for-serbian-travelers (P3) remains.
+
+## iter1193 · ES-79 batch · 0db919fb · 2026-08-13
+4 ES guides (LATAM tuteo): israel-for-german-travelers + petra-from-eilat-vs-amman + israel-zimmer-guide + new-luxury-hotels-israel-2026. ES: 393→397/401. Build: +4 pages (1961→1965). Gate green.
