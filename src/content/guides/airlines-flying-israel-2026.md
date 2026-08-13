@@ -61,7 +61,7 @@ faqs:
 | **ITA Airways** | Rome FCO | Twice daily from July 2026 (Italy's state carrier, Alitalia successor) |
 | **Eurowings** | Hamburg HAM, Düsseldorf DUS | New routes; resumed mid-July 2026 (Lufthansa Group LCC) |
 | **airBaltic** | Riga RIX | Resumed July 2026; El Al codeshare covers Baltic/Nordic connections |
-| **Wizz Air** | London Luton, Budapest, Vienna, Bucharest, and others | Low-cost; base fares exclude luggage |
+| **Wizz Air** | London Luton (LTN), Budapest (BUD), Vienna (VIE), Bucharest (OTP), Bratislava (BTS, from May 2026), Milan MXP (up to 14×/week summer 2026), Rome (FCO), Naples (NAP), Palermo (PMO), Venice (VCE), and others | Full TLV hub launched spring 2026 with based aircraft — Israel's largest budget-carrier presence. ~21 active routes, targeting ~50 long-term. Includes TLV↔Ramon Airport (ETH) domestic service. Base fares exclude luggage — compare total price at wizzair.com |
 | **Arkia** | Málaga AGP, Tokyo Narita NRT (Oct 2026) | Arkia's new Japan route opens Israel's first direct East Asia gateway |
 | **Israir** | Madrid MAD | Launching 25 October 2026, 3×/week on A320 — Israel's first low-cost TLV–Spain service; verify at israir.com |
 | **Aegean** | Athens ATH and Greek island airports | Good for combined Israel–Greece trips |
@@ -109,6 +109,8 @@ faqs:
 **Upcoming (not yet launched):**
 - **Delta BOS–TLV** (scheduled 24 October 2026): Daily Boston–Tel Aviv nonstop on A330-900neo — confirm at delta.com before booking.
 - **Israir TLV–MAD** (scheduled 25 October 2026): Tel Aviv–Madrid 3×/week on A320. Israel's first low-cost European route outside North America — verify at israir.com before booking.
+
+**Wizz Air TLV hub (spring 2026):** Wizz Air launched a full Tel Aviv base with based aircraft — the first Wizz Air hub in Israel. This enabled rapid network expansion to approximately 21 routes by summer 2026, with a long-term target of ~50 routes from TLV. New routes added in 2026 include Bratislava (BTS, May 2026), Naples (NAP), Palermo (PMO), and Venice (VCE); Milan MXP frequency was doubled to up to 14 flights per week for summer 2026. Additionally, a new domestic route between Tel Aviv Ben Gurion (TLV) and Ramon Airport (ETH/Eilat area) launched — the first domestic Wizz Air service in Israel, offering a budget option for reaching the Negev. Verify the current route list and schedules at wizzair.com, as hub expansion routes may be added or adjusted on short notice.
 
 **KLM suspension and resumption:** KLM suspended its Amsterdam–TLV service from 1 March 2026 (following renewed security concerns) and resumed on 26 July 2026. Travelers who booked KLM via Amsterdam during March–July 2026 were rerouted or refunded. Service is now active.
 

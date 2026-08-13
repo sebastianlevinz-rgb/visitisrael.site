@@ -59,7 +59,7 @@ faqs:
 | **ITA Airways** | Rome FCO | Deux fois par jour depuis juillet 2026 (compagnie nationale italienne, successeur d'Alitalia) |
 | **Eurowings** | Hambourg HAM, Düsseldorf DUS | Nouvelles liaisons ; reprise mi-juillet 2026 (filiale low-cost du groupe Lufthansa) |
 | **airBaltic** | Riga RIX | Reprise juillet 2026 ; code-share El Al couvre les connexions baltiques/nordiques |
-| **Wizz Air** | London Luton, Budapest, Vienne, Bucarest et autres | Low-cost ; tarifs de base hors bagages |
+| **Wizz Air** | London Luton (LTN), Budapest (BUD), Vienne (VIE), Bucarest (OTP), Bratislava (BTS, dès mai 2026), Milan MXP (jusqu'à 14×/semaine été 2026), Rome (FCO), Naples (NAP), Palerme (PMO), Venise (VCE) et autres | Hub TLV complet lancé printemps 2026 avec appareils basés — ~21 routes actives, objectif ~50. Inclut vol intérieur TLV↔Ramon (ETH). Tarifs de base hors bagages — comparer le prix total sur wizzair.com |
 | **Arkia** | Málaga AGP, Tokyo Narita NRT (oct. 2026) | La nouvelle liaison Japon d'Arkia ouvre la première passerelle directe d'Israël vers l'Asie de l'Est |
 | **Aegean** | Athènes ATH et aéroports des îles grecques | Idéal pour les combinés Israël–Grèce |
 | **KLM** | Amsterdam AMS | Reprise le 26 juillet 2026 (suspendu du 1er mars au 25 juillet) ; hub de correspondance pour l'Europe du Nord |
@@ -105,6 +105,8 @@ faqs:
 
 **À venir (pas encore lancé) :**
 - **Delta BOS–TLV** (prévu 24 octobre 2026) : vol quotidien Boston–Tel Aviv sur A330-900neo — confirmez sur delta.com avant de réserver.
+
+**Hub Wizz Air TLV (printemps 2026) :** Wizz Air a inauguré une base complète à Tel Aviv avec appareils stationnés — le premier hub Wizz Air en Israël. Cela a permis une expansion rapide du réseau à environ 21 routes actives à l'été 2026, avec un objectif à long terme d'environ 50 routes depuis TLV. Les nouvelles routes 2026 incluent Bratislava (BTS, mai 2026), Naples (NAP), Palerme (PMO) et Venise (VCE) ; la fréquence Milan MXP a été doublée jusqu'à 14 vols par semaine en été 2026. Une nouvelle route intérieure entre Tel Aviv Ben Gourion (TLV) et l'aéroport Ramon (ETH) a également été lancée — le premier service intérieur Wizz Air en Israël. Vérifiez la liste des routes et les horaires actuels sur wizzair.com.
 
 **Suspension et reprise de KLM :** KLM a suspendu sa liaison Amsterdam–TLV à partir du 1er mars 2026 (suite à de nouvelles préoccupations sécuritaires) et a repris le 26 juillet 2026. Les voyageurs ayant réservé KLM via Amsterdam entre mars et juillet 2026 ont été réacheminés ou remboursés. Le service est désormais actif.
 
