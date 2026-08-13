@@ -30,10 +30,10 @@ test.describe('Keyboard-operable tools', () => {
       }
     }
     expect(daysReached, '#days must be reachable by Tab').toBe(true);
-    await page.keyboard.press('Control+A');
-    await page.keyboard.type('14');
-    await page.waitForTimeout(800);
-    await expect(page.locator('#total')).not.toHaveText('$0');
+    // #days is a range slider (iter1202); use ArrowRight to change value, then verify total updates
+    await page.keyboard.press('ArrowRight');
+    await page.waitForTimeout(400);
+    await expect(page.locator('#total-range')).not.toHaveText('$0');
   });
 
   test('distance calculator: #swap button is Tab-reachable and swaps locations', async ({
