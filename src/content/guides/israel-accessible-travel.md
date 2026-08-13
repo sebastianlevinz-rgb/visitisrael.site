@@ -3,7 +3,7 @@ title: 'Accessible Travel in Israel: Wheelchair & Mobility Guide'
 description: 'Plan an accessible trip to Israel — wheelchair-friendly sites, adapted transport, mobility tips for Jerusalem and Tel Aviv, and the best accessible beaches.'
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Planning
-updatedAt: 2026-07-07
+updatedAt: 2026-08-13
 ctaHeading: 'Book accessible tours and accommodation in Israel'
 affiliateCtas:
   - partner: getyourguide
@@ -77,6 +77,8 @@ Several car rental companies at Ben Gurion Airport provide hand-control vehicles
 
 **Beaches:** Tel Aviv municipality provides **beach wheelchairs** (purpose-built chairs for sand) free of charge at several beaches in peak season (typically May–October). Contact the municipality's beach authority (tel-aviv.gov.il) to confirm current locations and availability before visiting.
 
+**SkyField Extreme Park** — built on the rooftop of Bloomfield Stadium in Jaffa, this is Israel's first extreme-sports park designed from the ground up for full inclusion. Five via-ferrata routes, a bungee jump, and a giant swing all have adaptive harness systems compatible with wheelchairs and mobility aids; a lift serves every level. The cliff-edge views over the Mediterranean from the stadium roof are accessible to all visitors regardless of which activities they participate in. Full details and pricing in the [SkyField guide](/skyfield-extreme-park-jaffa).
+
 ### The Dead Sea — Ein Bokek
 
 The **Ein Bokek resort strip** is one of the most accessible areas in Israel: flat, fully paved, with modern accessible hotel lobbies, ground-floor beach entrances and step-free access to the water. The distinctive buoyancy of the Dead Sea means wheelchair users who can transfer to the water with assistance can float independently. Hotel beach attendants are accustomed to helping guests with mobility needs. The [Dead Sea guide](/dead-sea-guide) covers the logistics of floating, what to bring, and how to combine a Dead Sea visit with Masada.
@@ -89,13 +91,17 @@ The **Ein Bokek resort strip** is one of the most accessible areas in Israel: fl
 
 [Caesarea National Park](/caesarea-guide) is one of the best-accessible archaeological sites in Israel. The coastal Roman ruins — the Crusader city gate, the harbour, the hippodrome and the amphitheatre — are connected by wide, smooth paths with minimal gradient. The **Caesarea Maritima** promenade follows the waterfront past the main monuments on a level, paved route. The amphitheatre has accessible seating and good sight lines. INPA (the Israel Nature and Parks Authority) is progressively upgrading accessibility across its park network; check parks.org.il for the current accessibility rating for each park before visiting.
 
-### Haifa — Bahá'í Gardens
+### Haifa — Bahá'í Gardens and cruise terminal
 
 The **Bahá'í World Centre terraced gardens** in [Haifa](/haifa) are a UNESCO World Heritage Site and one of Israel's most photographed landscapes. The **free daily guided tour** of the lower gardens (starting from Beit HaGafen / HaZionut Avenue) follows a partially paved route suitable for many wheelchair users; the terraced upper gardens involve a significant number of stairs and are not accessible to wheelchairs. Contact the Bahá'í World Centre (ganbahai.org.il) in advance to confirm the current accessibility route and any dedicated accessible tour times.
+
+**Haifa Cruise Terminal (opened May 2026)** — the new purpose-built international terminal is among the most accessibility-forward port facilities in the Eastern Mediterranean. The 5,500 m² facility is entirely step-free: wide check-in halls, 28 dedicated border-control booths, level boarding zones, and a direct covered connection to the bus terminal. Adapted vehicle access for shore excursion transport with ramps or lifts is available on request from tour operators. Cruise visitors with mobility needs arriving at Haifa will find this terminal significantly easier to navigate than older cruise terminals in the region.
 
 ### The Galilee
 
 The **Yigal Allon Museum at Kibbutz Ginosar** (Sea of Galilee) houses the 2,000-year-old ancient wooden boat and is fully accessible. The **Sea of Galilee promenade** at Tiberias is paved and flat. The [Church of the Annunciation](/nazareth) in Nazareth has lift access to the upper basilica. **Akko (Acre)**'s Crusader city is increasingly accessible: the main Crusader Halls (below-ground) are reached by a lift from the ground-level entrance, and the Knights' Halls are flat. The old harbour quarter has more uneven historic paving.
+
+**Rosh Hanikra** — the cable car (restored to operation in 2025 after a 2-year closure during the 2023–2025 security period) descends approximately 70 metres to the chalk-cliff sea grottos. The cable car ride itself is accessible; the cliff-top viewing platform and Ottoman railway tunnel displays above are navigable by wheelchair with assistance. The underground cave boardwalk (approximately 300 m with railings throughout) has sections of wet, slippery surface that make it challenging for unassisted wheelchair users — the above-cliff areas are the more reliably accessible option for visitors with mobility needs. The cable car does not operate on Shabbat or during storm warnings; check current access at kkl-jnf.org before travelling. Full site details in the [Rosh Hanikra guide](/rosh-hanikra-guide).
 
 ---
 
