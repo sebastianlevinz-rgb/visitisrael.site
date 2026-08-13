@@ -17507,3 +17507,9 @@ Mode rationale: iter1208%5=3 → BUILD tools rotation; no pure tools items ready
 Gate: pnpm check 0 errors | pnpm build 1973 pages (unchanged) | 11/11 targeted e2e PASS (smoke+a11y for /tower-of-david-guide + /de/tower-of-david-guide + /fr/tower-of-david-guide + /es/tower-of-david-guide).
 Ship: committed directly to master 53bed10b; pushed origin/master. CI in_progress at state-write.
 Next: iter1209 (1209%5=4 → REVIEW); review iter1208 tower-of-david changes + any outstanding from iters 1204–1207.
+
+## 2026-08-13T19:52Z · iter1209 · REVIEW · dead-sea-promenade-expansion-callout · e6d0e7af
+What: REVIEW pass identified freshness gap: dead-sea-guide.md and dead-sea-hotels-guide.md had no mention of the 2026 NIS 1B+ Ein Bokek promenade expansion confirmed by Times of Israel (7/17 hotel tenders awarded; southern promenade extension underway; manmade islands/jetties planned). Added honest callout blockquote to each EN guide. Existing hotel strip fully operational; no fabricated completion dates; framed as "ongoing project; check current status." Both updatedAt bumped to 2026-08-13. Mode: 1209%5=4 → REVIEW; quick safe fix shipped per REVIEW mode guidance.
+Gate: pnpm check 0 errors | build 1973 pages (unchanged) | 85/85 dead-sea targeted e2e PASS (smoke+a11y).
+Ship: committed e6d0e7af to master; pushed origin/master. CI in_progress at state-write.
+Next: iter1210 (1210%5=0 → RESEARCH); candidates: best-national-parks-israel hub (P2 seo-content, ready), israel-for-australian-travelers (P2 seo-content+monetization), israel-vs-dubai (P2 seo-content), bein-harim-vs-abraham-tours (P2 seo-content+monetization).

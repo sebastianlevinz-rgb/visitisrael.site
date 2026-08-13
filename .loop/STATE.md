@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1208
-- lastMode: BUILD
-- lastItem: tower-of-david-freshness-2026
-- lastResult: iter1208 BUILD (technical) — SHIPPED 53bed10b. Tower of David guide freshness update across all 4 locales (EN/DE/FR/ES): added full 2023 $40M renovation coverage (Angelica Della Rache Entrance Pavilion, 10 new immersive permanent galleries, VR time-travel experiences, contemporary art in cisterns); FAQ visit-duration updated 45–75 min → 75–105 min; updatedAt bumped to 2026-08-13 in all 4 locales; "worth revisiting if you visited before 2023" bullet added to EN + ES. No fabricated data. Mode rationale: tools rotation (1208%5=3) had no pure tools items ready (all tools shipped); fell through to technical per playbook. Gate: pnpm check 0 errors | build 1973 pages (unchanged) | 11/11 targeted e2e PASS (smoke+a11y for /tower-of-david-guide + /de/ + /fr/ + /es/ routes). Pushed 53bed10b; CI in_progress at state-write.
+- iteration: 1209
+- lastMode: REVIEW
+- lastItem: dead-sea-promenade-expansion-callout
+- lastResult: iter1209 REVIEW — SHIPPED e6d0e7af. Dead Sea guides freshness fix found during review: dead-sea-guide.md and dead-sea-hotels-guide.md were missing the 2026 Ein Bokek promenade expansion callout. Added a "> **2026 Ein Bokek expansion — ongoing construction:**" blockquote to each EN guide explaining: NIS 1B+ project, 7/17 hotel tenders awarded, southern promenade extension underway, manmade islands/jetties planned later, existing hotel strip fully operational and unaffected, no confirmed completion dates. Both updatedAt bumped to 2026-08-13. Honest framing throughout. Mode: 1209%5=4 → REVIEW per playbook. Gate: pnpm check 0 errors | build 1973 pages (unchanged) | 85/85 dead-sea-targeted e2e PASS (smoke+a11y). Pushed e6d0e7af; CI in_progress at state-write.
 
-- nextRotationCategory: technical (iter1209 → BUILD technical; 1210 → RESEARCH; 1211 → BUILD monetization; 1212 → BUILD seo-content; 1213 → BUILD tools)
+- nextRotationCategory: RESEARCH (iter1210%5=0 → RESEARCH; iter1211 → BUILD monetization; iter1212 → BUILD seo-content; iter1213 → BUILD tools; iter1214 → REVIEW)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-13T19:10Z
-- branch context: master at 53bed10b; EN=403/402, FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY)
+- updatedAt: 2026-08-13T19:52Z
+- branch context: master at e6d0e7af; EN=403/402, FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY)
 
 Notes: iter1200 RESEARCH — 256th research pass. Searched touristisrael.com, lonelyplanet.com, roughguides.com, tripadvisor.com, viator.com, getyourguide.com, nomadlist.com, digitalnomads.world, travelandtourworld.com, aviationa2z.com, igoogledisrael.com, harrysbaked.com, atly.com, israel21c.org, deadsea.com, giltravel.com, ynetnews.com, jfeed.com. Key findings: (1) best-markets-in-israel — confirmed missing; we have 4 individual market guides but no hub comparison page; onevasco.com + harrysbaked.com + atly.com + israel21c.org all rank for "best markets Israel"; high internal-link hub value → 6 individual market pages. (2) best-national-parks-israel — confirmed missing; we have israel-national-parks-pass.md + individual park guides but no "best 10-12 national parks" hub; Tourist Israel + TripAdvisor rank for this; 40+ parks in Israel; hub would link to masada-visitor-guide + dead-sea-guide + gamla-nature-reserve-guide + qumran-guide + israel-national-parks-pass etc. (3) Wizz Air hub expansion — airlines guide Wizz Air entry is minimal ("London Luton, Budapest, Vienna, Bucharest, and others"); reality: Wizz Air opened full hub at Ben Gurion May 2026, 21 routes (expanding to 50), based aircraft + TLV-Ramon domestic service launched, new routes: Bratislava, Palermo, Naples, Venice, doubled Milan (14x/week). Ryanair out permanently; easyJet March 2026 restart failed (planned late Oct 2026). (4) Rosh Hanikra: cable car closed 18 months (security); reopened May 2025 via tunnel first, cable car status now back; guide needs freshness update. 6 new BACKLOG items appended. No code changes; no gate run needed. Memory commit follows.
 

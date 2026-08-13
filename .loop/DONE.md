@@ -2405,3 +2405,6 @@ Corrected Israir TLV-MAD launch tense in israel-vs-spain (EN + ES): "launched 20
 
 ## iter1208 · 2026-08-13 · 53bed10b
 **tower-of-david-freshness-2026** (technical, S) — Updated tower-of-david-guide.md in all 4 locales (EN/DE/FR/ES) with 2023 $40M renovation content: Angelica Della Rache Entrance Pavilion, 10 new immersive permanent galleries (VR time-travel, interactive exhibits), contemporary art in ancient cisterns. FAQ visit duration corrected 45–75 min → 75–105 min across all locales. updatedAt frontmatter bumped to 2026-08-13 in all 4 files. "Worth revisiting if you came before 2023" bullet added to EN + ES. 11/11 targeted e2e pass (smoke+a11y for all 4 locale routes). Build: 1973 pages (unchanged). No fabricated data.
+
+## iter1209 · REVIEW · dead-sea-promenade-expansion-callout · e6d0e7af · 2026-08-13
+Added "2026 Ein Bokek expansion — ongoing construction" blockquote callout to dead-sea-guide.md and dead-sea-hotels-guide.md. NIS 1B+ development context for travelers visiting Ein Bokek 2026–2027; honest framing (existing strip unaffected, no fabricated dates). Value: freshness/accuracy for one of site's highest-traffic destination guides.
