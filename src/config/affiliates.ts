@@ -34,6 +34,9 @@ export const AFFILIATE_IDS = {
   DISCOVERCARS_AID: env('PUBLIC_DISCOVERCARS_AID', 'DISCOVERCARS_AID'),
   TIQETS_PARTNER: env('PUBLIC_TIQETS_PARTNER', 'TIQETS_PARTNER'),
   AMAZON_ASSOCIATE_TAG: env('PUBLIC_AMAZON_ASSOCIATE_TAG', 'AMAZON_ASSOCIATE_TAG'),
+  // Travel insurance comparison portals — mainstream trip-cancellation audience.
+  INSUREMYTRIP_AID: env('PUBLIC_INSUREMYTRIP_AID', 'INSUREMYTRIP_AID'),
+  SQUAREMOUTH_AID: env('PUBLIC_SQUAREMOUTH_AID', 'SQUAREMOUTH_AID'),
 } as const;
 
 export type Partner =
@@ -52,7 +55,9 @@ export type Partner =
   | 'welcomepickups'
   | 'kiwitaxi'
   | 'discovercars'
-  | 'tiqets';
+  | 'tiqets'
+  | 'insuremytrip'
+  | 'squaremouth';
 
 export interface PartnerMeta {
   id: Partner;
@@ -86,6 +91,8 @@ export const PARTNERS: Record<Partner, PartnerMeta> = {
   kiwitaxi: { id: 'kiwitaxi', label: 'Kiwitaxi', category: 'transfers' },
   discovercars: { id: 'discovercars', label: 'DiscoverCars', category: 'car' },
   tiqets: { id: 'tiqets', label: 'Tiqets', category: 'tickets' },
+  insuremytrip: { id: 'insuremytrip', label: 'InsureMyTrip', category: 'insurance' },
+  squaremouth: { id: 'squaremouth', label: 'Squaremouth', category: 'insurance' },
 };
 
 const q = (params: Record<string, string>) =>
@@ -170,6 +177,16 @@ export function affiliateUrl(
       return `https://www.tiqets.com/en/search?${q({
         partner: AFFILIATE_IDS.TIQETS_PARTNER,
         q: search,
+      })}`;
+    case 'insuremytrip':
+      return `https://www.insuremytrip.com/search-results/?${q({
+        affiliateID: AFFILIATE_IDS.INSUREMYTRIP_AID,
+        destination: 'Israel',
+      })}`;
+    case 'squaremouth':
+      return `https://www.squaremouth.com/search/?${q({
+        affiliateID: AFFILIATE_IDS.SQUAREMOUTH_AID,
+        destination: 'Israel',
       })}`;
   }
 }

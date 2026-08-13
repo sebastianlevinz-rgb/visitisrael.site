@@ -3,15 +3,23 @@ title: 'Travel Insurance for Israel: What You Need in 2026'
 description: 'Travel insurance for Israel: what to look for in medical and trip cover, how the regional situation affects policies, and how to choose a plan.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Planning
-updatedAt: 2026-06-25
-ctaHeading: 'Get covered before you go'
+updatedAt: 2026-08-13
+ctaHeading: 'Compare and buy travel insurance for Israel'
 affiliateCtas:
-  - partner: safetywing
-    title: 'Nomad Travel Medical Insurance'
-    description: 'Flexible travel-medical cover you can buy by the week or month, including while already abroad — popular with long-trip and remote travellers.'
+  - partner: insuremytrip
+    title: 'Compare Israel Travel Insurance Policies'
+    description: 'Search and compare dozens of trip-cancellation and medical policies side by side, filtered for your destination, travel dates and cover needs.'
     image: /images/regions/galilee/hero.jpg
-    rating: 4.5
-    reviews: 12000
+    cta: Compare policies
+  - partner: squaremouth
+    title: 'Find the Best Price for Israel Cover'
+    description: 'Zero-commission comparison: Squaremouth shows all available policies and their exact cover limits, so you can pick the right plan at the right price.'
+    image: /images/regions/galilee/hero.jpg
+    cta: Compare policies
+  - partner: safetywing
+    title: 'Flexible Travel Medical Insurance'
+    description: 'Subscription-style medical cover you can buy by the week or month, including while already travelling — popular with long-trip and backpacker travellers.'
+    image: /images/regions/galilee/hero.jpg
     cta: Get a quote
 faqs:
   - question: Do I need travel insurance for Israel?
@@ -63,6 +71,15 @@ Cover levels and prices vary significantly across insurers, traveller age, trip 
 - **Standard** covers the typical Israel city + heritage circuit comfortably.
 - **Comprehensive** is worth it for longer trips, expensive prepaid bookings (tours, flights) or if you want peace of mind on the medical limit.
 - **Adventure / backpacker** (subscription-style, e.g. SafetyWing) suits multi-month travellers, those who want diving cover in Eilat, or anyone combining Israel with regional travel.
+
+## Comparison portals vs. subscription products
+
+Most visitors to Israel are on a standard 1–2-week holiday — they need **trip-cancellation cover** as much as medical cover. The easiest way to find and compare policies is through a dedicated comparison portal:
+
+- **InsureMyTrip** and **Squaremouth** both aggregate dozens of insurers and let you filter by destination, travel dates, group size and the specific covers you need (cancellation, medical limit, adventure activities, "cancel for any reason" upgrades). All figures are live from the insurer — no estimates.
+- **SafetyWing** is a different model: a weekly or monthly subscription focused on travel medical cover, with no trip-cancellation element. It suits long-term or multi-destination travellers who need ongoing cover, not a one-off two-week policy.
+
+Neither portal type is inherently better — the right choice depends on your trip length, how much you have prepaid, and whether you want cancellation protection. Use the comparison tools below to get live quotes, then read the policy wording on the security/advisory exclusion clause before buying.
 
 ## The security-situation caveat
 
