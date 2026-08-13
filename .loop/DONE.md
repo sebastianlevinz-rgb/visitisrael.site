@@ -2425,3 +2425,4 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1212 · 2026-08-13 · BUILD seo-content
 - **best-national-parks-israel** → 91a15e20 · Hub guide ranking 11 INPA parks in comparison table; 7 FAQs; DiscoverCars + GYG CTAs; 12 cross-links; 2 e2e tests. Targets "best national parks Israel" / "INPA national parks 2026" head terms. Internal-link hub for masada-visitor-guide, gamla-nature-reserve-guide, qumran-guide, beit-shean-guide, nimrod-fortress-guide, timna-park-guide, caesarea-guide, etc.
+- iter1213 · 9237656e · **bein-harim-vs-abraham-tours** — New /bein-harim-vs-abraham-tours head-to-head: 7-row comparison table, 7 FAQs, GYG+Abraham+Viator CTAs, dense cross-links. High-purchase-intent "Bein Harim vs Abraham Tours" query captured. Build 1974→1975. 2/2 e2e PASS.

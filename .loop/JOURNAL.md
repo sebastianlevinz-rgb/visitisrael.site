@@ -17533,3 +17533,11 @@ What: new /best-national-parks-israel hub guide ranking 11 INPA parks in a compa
 Gate: pnpm check 0 errors | build 1973→1974 pages | test:e2e 2/2 targeted PASS.
 Ship: squash-merged 91a15e20; pushed origin/master. CI in_progress at state-write (normal Vercel pattern).
 Next: iter1213 (1213%5=3 → BUILD tools).
+
+## 2026-08-13T22:45Z · iter1213 · BUILD (seo-content, tools-fallthrough) · bein-harim-vs-abraham-tours · 9237656e
+What: New /bein-harim-vs-abraham-tours head-to-head comparison guide — the confirmed-missing dedicated 2-way page for Israel's two most searched tour operators (TripAdvisor forum + Nomadic Matt rank for "Bein Harim vs Abraham Tours"). 7-row comparison table (vehicle type, group size, price, pickup, Shabbat policy, cancellation, guide languages, best-for/not-ideal-for). Both operator profiles with honest strengths + caveats. 7 FAQs. 3 affiliate CTAs: GYG (Bein Harim query), Abraham Tours direct, Viator. Dense cross-links: masada-tours-compared, galilee-tours-compared, dead-sea-day-trip-comparison, best-holy-land-tours, best-tours-in-israel, israel-tour-operators-guide, getyourguide-vs-viator-israel. All cross-links verified present. No fabricated prices or ratings. No H1 in body. YAML double-quotes clean.
+Mode rationale: iter1213%5=3 → BUILD tools; all tools items SHIPPED; fell through to seo-content per playbook — bein-harim-vs-abraham-tours was top-listed P2 fallthrough candidate in STATE.md.
+Gate: pnpm check 0 errors | build 1974→1975 pages (+1) | 2/2 targeted e2e PASS (smoke + a11y).
+Ship: committed 9237656e to master; pushed origin/master. CI in_progress at state-write (normal Vercel pattern).
+Prod: Vercel auto-deploy triggered for 9237656e. Prior SHA CI state: in_progress at prior state-write.
+Next: iter1214 (1214%5=4 → REVIEW).
