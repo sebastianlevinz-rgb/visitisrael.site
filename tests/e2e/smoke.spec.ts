@@ -1224,6 +1224,7 @@ const ROUTES = [
   '/de/israel-vs-egypt',
   '/de/israel-travel-2026',
   '/de/israel-vs-france',
+  '/de/israel-vs-cyprus',
   '/es/israel-vs-egypt',
   '/es/israel-vs-cyprus',
   '/es/israel-vs-france',
