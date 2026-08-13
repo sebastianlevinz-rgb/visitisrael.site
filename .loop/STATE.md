@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1200
-- lastMode: RESEARCH
-- lastItem: research-1200-markets-parks-aviation
-- lastResult: iter1200 RESEARCH — 256th research pass. Searched touristisrael.com, lonelyplanet.com, roughguides.com, tripadvisor.com, viator.com, getyourguide.com, nomadlist.com, digitalnomads.world, travelandtourworld.com, aviationa2z.com, igoogledisrael.com, harrysbaked.com, atly.com, israel21c.org, deadsea.com, giltravel.com, ynetnews.com, jfeed.com. 6 new BACKLOG items appended. Key findings: best-markets-in-israel and best-national-parks-israel both confirmed missing as hub guides; Wizz Air hub details need expansion in airlines guide; Rosh Hanikra cable car reopened May 2025 after 18-month closure (guide needs freshness note). No code changes; no gate run needed. Memory commit follows.
+- iteration: 1201
+- lastMode: BUILD
+- lastItem: gay-tel-aviv
+- lastResult: iter1201 BUILD (seo-content) — gay-tel-aviv SHIPPED e8756b36. New /gay-tel-aviv EN guide: dedicated LGBTQ+ guide distinct from /lgbtq-travel-israel overview. Hilton Beach how-to, bar/club scene by quarter (Florentin: Shpagat/Pasáž; city centre: Lima Lima/Port Said; northern: OCD Club), annual events (Pride June + TLVFest Oct + White Night June), gay-friendly hotel areas, practical logistics (light rail, airport, insurance, eSIM). 6 FAQs. 14 cross-links all verified. 2 new e2e tests (smoke + a11y) 2/2 pass. Gate: pnpm check 0 errors | build 1972 pages (+1) | test:e2e 2/2 targeted pass. Squash-merged e8756b36; pushed origin/master. CI in_progress at state-write.
 
-- nextRotationCategory: seo-content (iter1201, 1201%5=1 → BUILD; top P2 seo-content: gay-tel-aviv, israel-for-australian-travelers, israel-vs-dubai, israel-vs-morocco, israel-vs-croatia, best-markets-in-israel)
+- nextRotationCategory: tools (iter1202, 1202%5=2 → BUILD; top P2 tools: trip-cost-calculator-enhanced)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-13T10:30Z
-- branch context: master at a8907b1a; EN=401/401 (COMPLETE), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY — all other ES gaps now CLOSED)
+- updatedAt: 2026-08-13T11:38Z
+- branch context: master at e8756b36; EN=402/402 (gay-tel-aviv added; previously 401+1 new), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY)
 
 Notes: iter1200 RESEARCH — 256th research pass. Searched touristisrael.com, lonelyplanet.com, roughguides.com, tripadvisor.com, viator.com, getyourguide.com, nomadlist.com, digitalnomads.world, travelandtourworld.com, aviationa2z.com, igoogledisrael.com, harrysbaked.com, atly.com, israel21c.org, deadsea.com, giltravel.com, ynetnews.com, jfeed.com. Key findings: (1) best-markets-in-israel — confirmed missing; we have 4 individual market guides but no hub comparison page; onevasco.com + harrysbaked.com + atly.com + israel21c.org all rank for "best markets Israel"; high internal-link hub value → 6 individual market pages. (2) best-national-parks-israel — confirmed missing; we have israel-national-parks-pass.md + individual park guides but no "best 10-12 national parks" hub; Tourist Israel + TripAdvisor rank for this; 40+ parks in Israel; hub would link to masada-visitor-guide + dead-sea-guide + gamla-nature-reserve-guide + qumran-guide + israel-national-parks-pass etc. (3) Wizz Air hub expansion — airlines guide Wizz Air entry is minimal ("London Luton, Budapest, Vienna, Bucharest, and others"); reality: Wizz Air opened full hub at Ben Gurion May 2026, 21 routes (expanding to 50), based aircraft + TLV-Ramon domestic service launched, new routes: Bratislava, Palermo, Naples, Venice, doubled Milan (14x/week). Ryanair out permanently; easyJet March 2026 restart failed (planned late Oct 2026). (4) Rosh Hanikra: cable car closed 18 months (security); reopened May 2025 via tunnel first, cable car status now back; guide needs freshness update. 6 new BACKLOG items appended. No code changes; no gate run needed. Memory commit follows.
 

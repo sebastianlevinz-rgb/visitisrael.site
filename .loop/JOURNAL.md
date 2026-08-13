@@ -17435,3 +17435,9 @@ Next: iter1200 (1200%5=0 → RESEARCH): competitor research pass.
 **4 new BACKLOG items appended** (2 seo-content S + 2 technical S). No code changes; no gate run needed.
 Gate: N/A (RESEARCH iteration — no shipping).
 Next: iter1201 (1201%5=1 → BUILD): seo-content category; recommend gay-tel-aviv (P2, S, no missing deps) or best-markets-in-israel (P2, S) or israel-for-australian-travelers (P2, S).
+
+## 2026-08-13T11:38Z · iter 1201 · BUILD (seo-content) · gay-tel-aviv · e8756b36
+What: New /gay-tel-aviv guide — dedicated LGBTQ+ neighbourhood-level guide distinct from the existing /lgbtq-travel-israel overview. Content: Hilton Beach how-to-visit (free entry, sunbed service, arrival tips), bar/club scene by quarter (Florentin: Shpagat & Pasáž; city centre: Lima Lima Bar & Port Said; northern TLV: OCD Club), annual events (Tel Aviv Pride June + TLVFest Oct + White Night June), gay-friendly hotel zones, practical logistics (light rail, airport arrivals, insurance, eSIM). 6 FAQs. 14 verified cross-links. 2 new e2e routes (smoke + a11y).
+Gate: pnpm check 0 errors | build 1972 pages (+1) | test:e2e 2/2 targeted pass.
+Ship: squash-merged e8756b36; pushed origin/master. CI in_progress at state-write (normal — Vercel auto-deploy from master push).
+Next: iter1202 (1202%5=2 → BUILD, tools): trip-cost-calculator-enhanced (P2).

@@ -2381,3 +2381,6 @@ FR: 392→397/401. Build: 1936→1941 (+5). Gate: check 0 | build 1941 | e2e 10/
 
 ## iter1199 · REVIEW · review-1199-israir-accuracy · 9dbefac8
 Corrected Israir TLV-MAD launch tense in israel-vs-spain (EN + ES): "launched 2025/2026" → "launching 25 October 2026". Full audit of 6 israel-vs-* guides passed all other checks.
+
+## iter1201 · BUILD (seo-content) · gay-tel-aviv · e8756b36
+- gay-tel-aviv SHIPPED: /gay-tel-aviv dedicated LGBTQ+ guide for Tel Aviv — Hilton Beach, bar/club scene by quarter (Florentin/city-centre/northern), Pride + TLVFest + White Night events, gay-friendly hotel zones, practical logistics. 6 FAQs, 14 cross-links, 2 e2e tests. Build 1971→1972 pages.
