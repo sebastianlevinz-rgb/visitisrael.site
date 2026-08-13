@@ -17363,3 +17363,15 @@ Gate: pnpm check 0 errors | build 1961→1965 pages (+4) | test:e2e 8/8 targeted
 Ship: squash-merged to master 0db919fb; pushed origin/master. CI in_progress at state-write.
 ES: 393→397/401. missing-ES: 8→4 (israel-for-serbian-travelers P3 + 3 vs-X EN guides pending ES).
 Next: iter1194 (1194%5=4 → REVIEW): meta-audit ES-79 batch guides (title/desc lengths + cross-links + H1 absence).
+
+## 2026-08-13T04:45Z · iter1194 · REVIEW · es-79-review-meta-audit · a06b9618
+What: Meta-audit of 4 ES-79 guides shipped iter1193 — israel-for-german-travelers, israel-zimmer-guide, new-luxury-hotels-israel-2026, petra-from-eilat-vs-amman (all ES).
+Findings and fixes:
+  (1) israel-for-german-travelers: title 82→56 chars (was over 65 hard limit); desc 179→130 (was over 160 hard limit).
+  (2) israel-zimmer-guide: desc 165→129 (was over 160 hard limit); /es/israel-shabbat-calendar→/israel-shabbat-calendar (broken locale-prefixed link; page is root-only); /es/where-to-stay/jerusalem→/where-to-stay/jerusalem (broken locale-prefixed link; page is root-only).
+  (3) new-luxury-hotels-israel-2026: desc 151→142 (was over 150 soft limit).
+  (4) petra-from-eilat-vs-amman: desc 193→147 (was over 160 hard limit).
+  H1: absent on all 4 guides (AUD-008 compliant). No fabricated prices/ratings on any guide.
+Gate: pnpm check 0 errors | build 1965 pages (no change from iter1193 baseline) | test:e2e 8/8 targeted smoke+a11y PASS (0 WCAG violations).
+Ship: committed a06b9618 to master; pushed origin/master. CI in_progress at state-write.
+Next: iter1195 (1195%5=0 → RESEARCH).
