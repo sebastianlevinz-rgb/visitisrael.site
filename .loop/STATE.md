@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1203
-- lastMode: BUILD
-- lastItem: wizz-air-hub-freshness
-- lastResult: iter1203 BUILD (technical) — wizz-air-hub-freshness SHIPPED 284517aa. Updated airlines-flying-israel-2026.md (EN/DE/FR/ES): expanded Wizz Air European table row from 4-word stub to full hub entry (10+ named routes with IATA codes: LTN/BUD/VIE/OTP/Bratislava BTS from May 2026/Milan MXP up to 14x/wk/FCO/NAP/PMO/VCE; ~21 active routes aiming for ~50; TLV↔Ramon ETH domestic service); added "Wizz Air TLV hub (spring 2026)" paragraph in Key changes section across all 4 locales with hub launch context, route expansion detail, and wizzair.com verification prompt; all changes include honest caveats. Gate: pnpm check 0 errors | build 1972 pages (unchanged — content update only) | test:e2e 8/8 targeted smoke+a11y PASS (0 WCAG violations across EN/DE/FR/ES). Committed 284517aa; pushed origin/master. CI in_progress at state-write.
+- iteration: 1204
+- lastMode: REVIEW
+- lastItem: airlines-updatedat-fix
+- lastResult: iter1204 REVIEW — audited iter1203 (wizz-air-hub-freshness), iter1202 (trip-cost-calculator-enhanced), iter1201 (gay-tel-aviv). Checks: (1) 18 unique internal link targets — all resolve; (2) no H1 in any body; (3) no fabricated exact prices or ratings; (4) honesty caveats present in airlines guide; (5) 0 WCAG violations across airlines/calculator/gay-tel-aviv pages. Found bug: DE/FR/ES airlines-flying-israel-2026.md had stale updatedAt: 2026-08-02 (all 3 were updated 2026-08-13 with Wizz Air hub content in iter1203). Fix applied: auto/airlines-updatedat-fix → squash-merged b7135b05. Gate: pnpm check 0 errors | build 1972 pages (unchanged) | test:e2e 12/12 targeted PASS (0 WCAG violations). Pushed origin/master. CI in_progress at state-write.
 
-- nextRotationCategory: review (iter1204, 1204%5=4 → REVIEW; recommend auditing the wizz-air freshness changes or a batch of recently shipped i18n guides)
+- nextRotationCategory: research (iter1205, 1205%5=0 → RESEARCH; after research iter1205 next BUILD = monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-13T13:55Z
-- branch context: master at 284517aa; EN=402/402, FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY)
+- updatedAt: 2026-08-13T15:05Z
+- branch context: master at b7135b05; EN=402/402, FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY)
 
 Notes: iter1200 RESEARCH — 256th research pass. Searched touristisrael.com, lonelyplanet.com, roughguides.com, tripadvisor.com, viator.com, getyourguide.com, nomadlist.com, digitalnomads.world, travelandtourworld.com, aviationa2z.com, igoogledisrael.com, harrysbaked.com, atly.com, israel21c.org, deadsea.com, giltravel.com, ynetnews.com, jfeed.com. Key findings: (1) best-markets-in-israel — confirmed missing; we have 4 individual market guides but no hub comparison page; onevasco.com + harrysbaked.com + atly.com + israel21c.org all rank for "best markets Israel"; high internal-link hub value → 6 individual market pages. (2) best-national-parks-israel — confirmed missing; we have israel-national-parks-pass.md + individual park guides but no "best 10-12 national parks" hub; Tourist Israel + TripAdvisor rank for this; 40+ parks in Israel; hub would link to masada-visitor-guide + dead-sea-guide + gamla-nature-reserve-guide + qumran-guide + israel-national-parks-pass etc. (3) Wizz Air hub expansion — airlines guide Wizz Air entry is minimal ("London Luton, Budapest, Vienna, Bucharest, and others"); reality: Wizz Air opened full hub at Ben Gurion May 2026, 21 routes (expanding to 50), based aircraft + TLV-Ramon domestic service launched, new routes: Bratislava, Palermo, Naples, Venice, doubled Milan (14x/week). Ryanair out permanently; easyJet March 2026 restart failed (planned late Oct 2026). (4) Rosh Hanikra: cable car closed 18 months (security); reopened May 2025 via tunnel first, cable car status now back; guide needs freshness update. 6 new BACKLOG items appended. No code changes; no gate run needed. Memory commit follows.
 

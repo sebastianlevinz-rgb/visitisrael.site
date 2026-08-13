@@ -1,6 +1,9 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
 ## iter1202 · BUILD (tools) · trip-cost-calculator-enhanced · c180f3b1
+
+## iter1204 · REVIEW · airlines-updatedat-fix · b7135b05
+- REVIEW pass: audited iter1203 wizz-air-hub, iter1202 trip-cost-calculator, iter1201 gay-tel-aviv. 18 internal links verified (100% resolve). 0 WCAG violations. No fabricated data. Found stale updatedAt: 2026-08-02 in DE/FR/ES airlines guides (should be 2026-08-13); fixed via 3-file frontmatter update. Gate: pnpm check 0 errors | build 1972 unchanged | test:e2e 12/12 targeted PASS.
 - trip-cost-calculator-enhanced SHIPPED. Enhanced /israel-trip-cost-calculator: days range slider 5–21 with live label + 21-day preset; group-size select (solo/couple/family 2+1); all outputs as ±15% ranges ($low–$high); breakdown table "Total"→"Range" column with per-row ranges; ILS shows range; cross-link added from /israel-cost-budget body; footer link to /israel-trip-cost-by-style added. 4 legacy tests updated; 7 new e2e tests — 11/11 targeted pass. Gate: pnpm check 0 errors | build 1972 (unchanged) | test:e2e 11/11 targeted. Squash-merged c180f3b1; pushed origin/master.
 
 ## iter1201 · BUILD (seo-content) · gay-tel-aviv · e8756b36

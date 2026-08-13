@@ -17453,3 +17453,10 @@ What: Expanded Wizz Air section in airlines-flying-israel-2026.md across all 4 l
 Gate: pnpm check 0 errors | build 1972 pages (unchanged — content-only update) | test:e2e 8/8 targeted smoke+a11y PASS (0 WCAG violations — all 4 locale variants).
 Ship: committed 284517aa to master; pushed origin/master. CI in_progress at state-write (normal — Vercel auto-deploy from master push).
 Next: iter1204 (1204%5=4 → REVIEW): audit a batch of recently shipped guides or wizz-air freshness accuracy.
+
+## 2026-08-13T15:05Z · iter1204 · REVIEW · airlines-updatedat-fix · b7135b05
+What: Review pass auditing 3 recently shipped items — iter1203 (wizz-air-hub-freshness), iter1202 (trip-cost-calculator-enhanced), iter1201 (gay-tel-aviv). Checks: (1) internal links — verified 18 unique link targets across all 3 pages; 100% resolve (cheap-flights-to-israel, ben-gurion-airport-guide, ben-gurion-airport-transfers, is-israel-safe, israel-cost-budget, tel-aviv-beach-guide, tel-aviv-nightlife, tel-aviv-pride-guide, israel-accommodation-guide, tel-aviv-light-rail, visa-information, israel-travel-insurance, israel-esim, first-time-in-israel, day-trips-from-tel-aviv, best-time-to-visit-israel, lgbtq-travel-israel, tel-aviv-bachelorette). (2) no H1 in any body — confirmed. (3) no fabricated exact prices or review counts — confirmed; affiliateCtas rating/reviews follow established platform-aggregate pattern. (4) honesty caveats present (airlines guide: multiple explicit "verify before booking" callouts). (5) a11y: 0 WCAG violations on all 3 pages. Found bug: DE/FR/ES airlines guides had updatedAt: 2026-08-02 despite being updated on 2026-08-13 in iter1203 — stale date would misrepresent verification freshness to readers.
+Fix: applied via auto/airlines-updatedat-fix branch — 3-file frontmatter correction.
+Gate: pnpm check 0 errors | build 1972 pages (unchanged) | test:e2e 12/12 targeted PASS (4 smoke + 4 a11y across EN/DE/FR/ES airlines + calculator + gay-tel-aviv).
+Ship: squash-merged b7135b05; pushed origin/master. CI in_progress at state-write.
+Next: iter1205 (1205%5=0 → RESEARCH): competitor discovery pass; after research next BUILD = monetization.
