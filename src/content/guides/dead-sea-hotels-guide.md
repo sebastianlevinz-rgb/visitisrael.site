@@ -3,7 +3,7 @@ title: 'Where to Stay at the Dead Sea: Best Hotels in Ein Bokek 2026'
 description: 'Dead Sea hotel guide: Ein Bokek resort strip picks at luxury and mid-range tiers, honest seasonal pricing, and the budget alternative at Ein Gedi.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Accommodation
-updatedAt: 2026-07-02
+updatedAt: 2026-08-13
 ctaHeading: 'Search Dead Sea hotels for your dates'
 affiliateCtas:
   - partner: booking
@@ -52,6 +52,8 @@ Ein Bokek is the only purpose-built hotel zone on the Israeli shore of the Dead 
 **Best for:** visitors who want maximum convenience — hotel beach steps from the room, mineral pool access, spa treatments, organised tours from the lobby, and the option of a sunrise float from the same private beach.
 
 **The honest trade-off:** Ein Bokek is functional, not charming. The strip exists for accommodation and resort services; there is very little to do in the evenings beyond the hotel restaurants and a short promenade walk. If your priority is the landscape and the experience of floating at dawn, that is precisely what Ein Bokek is built to deliver.
+
+> **2026 Ein Bokek resort expansion — ongoing:** Israel's Ministry of Tourism approved a NIS 1B+ development plan for Ein Bokek. As of 2026, site work is underway on a southern promenade extension; 7 of 17 new hotel tenders have been awarded, with manmade islands and jetties planned for later phases. **All existing hotels on the current 3.5 km strip remain fully operational.** Visitors in 2026–2027 may see construction cranes or fencing on the southern periphery of the strip — the active hotel zone and beaches are unaffected. The long-term plan adds 4,000–5,000 rooms to the strip; no confirmed opening dates have been released. Check current conditions directly with your hotel before arrival.
 
 ---
 

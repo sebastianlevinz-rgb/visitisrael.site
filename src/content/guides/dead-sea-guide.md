@@ -3,7 +3,7 @@ title: 'How to Visit the Dead Sea: Beaches, Floating & Tips (2026)'
 description: 'First-timer Dead Sea guide — floating technique, safety rules, best open beaches (Kalia, Ein Bokek), mud ritual, what to bring and how to get there.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Destinations
-updatedAt: 2026-06-29
+updatedAt: 2026-08-13
 ctaHeading: 'Book Dead Sea tours & hotels'
 affiliateCtas:
   - partner: getyourguide
@@ -96,6 +96,8 @@ Kalia Beach is 80 km from Jerusalem and approximately 45 minutes by car. It is t
 **Best for:** Overnight stays; spa treatments; visitors combining with Masada.
 
 Ein Bokek is the resort hub of the Israeli Dead Sea — a strip of hotels ranging from mid-range to high-end spa resorts, all clustered at the southernmost navigable stretch of shoreline. Hotel guests use their resort's private beach; some resorts sell day-passes to non-guests (₪100–200 range; check directly with the resort). If you are staying overnight, your hotel beach is typically the most comfortable and complete option.
+
+> **2026 Ein Bokek expansion — ongoing construction:** The Israeli government approved a NIS 1B+ (approx. US$270M) promenade and resort development for Ein Bokek. As of 2026, 7 of 17 planned hotel tenders have been awarded and site preparation is underway on the southern extension of the promenade; manmade islands and jetties are planned for later phases. **The existing Ein Bokek hotel strip and its beaches remain fully operational and are not directly affected by construction in 2026.** Travelers visiting Ein Bokek during 2026–2027 may notice construction activity on the southern periphery. No government-confirmed completion date has been announced — treat all timelines as subject to change. Check current conditions at [tourism.gov.il](https://www.tourism.gov.il) before booking.
 
 Ein Bokek is 20 minutes north of Masada on Route 90 — ideal for the classic Masada-sunrise-then-Dead-Sea combination.
 
