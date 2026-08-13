@@ -1,6 +1,6 @@
 ---
 title: "Nuevos hoteles de lujo en Israel 2026: las mejores aperturas"
-description: "El boom hotelero de Israel en 2026: Six Senses Tel Aviv, Nobu Hotel, The Yacht Herzliya y más de 14 nuevas propiedades. Qué esperar y cómo reservar."
+description: "El boom hotelero de Israel en 2026: Six Senses Tel Aviv, Nobu Hotel, The Yacht Herzliya y más de 14 aperturas. Qué esperar y cómo reservar."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Accommodation
 updatedAt: 2026-07-25

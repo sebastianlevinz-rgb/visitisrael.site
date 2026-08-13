@@ -1,6 +1,6 @@
 ---
-title: "Guía de viaje a Israel para viajeros de habla hispana con raíces alemanas (2026)"
-description: "Israel para viajeros hispanohablantes con raíces o vínculos alemanes: ETA-IL, conexiones Lufthansa y LATAM, adaptadores, seguros y comunidades de la diáspora germana en Israel."
+title: "Israel para hispanohablantes con raíces alemanas (2026)"
+description: "Israel para hispanohablantes con raíces alemanas: ETA-IL, vuelos vía Europa, adaptadores, seguros y diáspora germana en Israel."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-07-10

@@ -1,6 +1,6 @@
 ---
 title: "Petra desde Eilat o desde Amán: ¿qué ruta elegir?"
-description: "¿Visitar Petra desde Eilat (Israel) o desde Amán (Jordania)? Comparamos tiempos de trayecto, cruces de frontera, costes, excursión de un día vs. noche y cuál ruta conviene según tu viaje."
+description: "¿Petra desde Eilat o desde Amán? Comparamos tiempos de trayecto, cruces de frontera, costes, excursión de un día vs. noche y cuál ruta elegir."
 heroImage: /images/regions/eilat/hero.jpg
 category: Compare
 updatedAt: 2026-05-22

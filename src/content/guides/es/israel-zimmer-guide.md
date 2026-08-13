@@ -1,6 +1,6 @@
 ---
 title: "Guía de zimmers en Israel: cabañas rurales y B&B (2026)"
-description: "Los zimmers son las cabañas rurales y B&B más populares de Israel, alternativa favorita a los hoteles. Qué son, dónde encontrar los mejores y cómo reservar uno."
+description: "Los zimmers son las cabañas rurales y B&B más populares de Israel. Qué son, dónde encontrar los mejores y cómo reservar uno."
 heroImage: /images/regions/galilee/hero.jpg
 category: Accommodation
 updatedAt: 2026-06-26
@@ -105,7 +105,7 @@ Los complejos de zimmer románticos israelíes suelen exigir **una estancia mín
 
 **El coche es casi siempre imprescindible.** El carácter rural de los zimmers hace que el transporte público raramente llegue hasta ellos. Un [coche de alquiler](/es/car-rental-israel) es prácticamente un requisito previo para un viaje a un zimmer — especialmente para propiedades del Golán, la Alta Galilea y el Néguev. La [guía de conducción en Israel](/es/driving-in-israel) cubre los puntos prácticos relevantes.
 
-**Consideraciones sobre el Shabat.** El check-in del viernes debería realizarse antes del comienzo del Shabat al anochecer (la hora exacta varía según la temporada — consulta el [calendario Shabat de Israel](/es/israel-shabbat-calendar)). Algunos propietarios de zimmers observan el Shabat y no serán localizables por teléfono desde el viernes por la noche hasta el sábado por la noche.
+**Consideraciones sobre el Shabat.** El check-in del viernes debería realizarse antes del comienzo del Shabat al anochecer (la hora exacta varía según la temporada — consulta el [calendario Shabat de Israel](/israel-shabbat-calendar)). Algunos propietarios de zimmers observan el Shabat y no serán localizables por teléfono desde el viernes por la noche hasta el sábado por la noche.
 
 **Kashrut.** Los zimmers con autoservicio te permiten aprovisionarte en supermercados. Algunos complejos entregan una cesta de desayuno que puede o no estar certificada como kosher — si esto es importante para tu viaje, confírmalo directamente con el anfitrión.
 
@@ -113,7 +113,7 @@ Los complejos de zimmer románticos israelíes suelen exigir **una estancia mín
 
 ## Guías relacionadas
 
-- [Dónde alojarse en Jerusalén](/es/where-to-stay/jerusalem) — alojamiento en la capital de Israel
+- [Dónde alojarse en Jerusalén](/where-to-stay/jerusalem) — alojamiento en la capital de Israel
 - [Región de Galilea](/es/galilee) — contexto del paisaje y principales atractivos para viajes a zimmers en Galilea
 - [Región de los Altos del Golán](/es/golan) — bodegas, senderismo y meseta del Golán para estancias en zimmers
 - [Tiberíades y el Mar de Galilea](/es/tiberias-guide) — actividades desde una base a orillas del lago
