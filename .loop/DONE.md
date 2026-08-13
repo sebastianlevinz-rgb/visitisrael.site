@@ -2370,3 +2370,8 @@ FR: 392→397/401. Build: 1936→1941 (+5). Gate: check 0 | build 1941 | e2e 10/
 - israel-vs-italy: Jerusalem vs Rome civilisational depth comparison; UNESCO 9 vs 58; Sephardic Rome connection (Titus arch + Great Synagogue + Roman Jewish Ghetto); 12-row comparison table; food/beaches/costs/safety/visas sections; "choose Israel/Italy if" boxes; combination trip angle TLV→FCO 3.5h. 7 FAQs. GYG+Booking CTAs. EN: 398→399/401.
 - israel-vs-portugal: Atlantic vs Mediterranean; 1497 Portuguese forced conversion + 2015 Sephardic citizenship law; Algarve limestone cliffs vs Red Sea coral reef; Dead Sea comparison; cost table; 7 FAQs. GYG+Booking+DiscoverCars CTAs. EN: 399→400/401.
 - israel-vs-spain: 1492 Alhambra Decree / Sephardic expulsion (Ladino preservation); Alhambra + Mezquita vs Jerusalem Old City + Dome of the Rock; Israir TLV-MAD service noted; Camino de Santiago; "choose Israel/Spain if" boxes; 7 FAQs. GYG+Booking+DiscoverCars CTAs. EN: 400→401/401. EN BACKLOG COMPLETE.
+
+## iter1197 · es-80-batch-vs-italy-portugal-spain · 0881044a
+- **ES: israel-vs-italy** — LATAM tuteo; Jerusalén vs Roma civilisacional; 9 vs 58 UNESCO; conexión sefardí Arco de Tito; 7 FAQs; GYG+Booking CTAs
+- **ES: israel-vs-portugal** — LATAM tuteo; 1497 conversión forzada + ley retorno 2015; Atlántico vs Mar Rojo; 7 FAQs; GYG+Booking+DiscoverCars CTAs
+- **ES: israel-vs-spain** — LATAM tuteo; 1492 Decreto Alhambra; Alhambra/Mezquita vs Ciudad Vieja; Israir TLV-MAD; 7 FAQs; GYG+Booking+DiscoverCars CTAs

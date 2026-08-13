@@ -17398,3 +17398,10 @@ Gate: pnpm check 0 errors | build 1968 pagefind pages | test:e2e 6/6 targeted PA
 Ship: committed 3cc5e540 on master, pushed to origin/master. CI in_progress at state-write (normal).
 Prod: Vercel auto-deploy in progress; CI + Lighthouse in_progress for 3cc5e540.
 Next: iter1197 (1197%5=2 → BUILD): seo-content; recommend gay-tel-aviv or israel-vs-dubai or israel-for-australian-travelers (all P2 ready). Alternatively ES localization of new italy/portugal/spain guides.
+
+## 2026-08-13T08:10Z · iter 1197 · BUILD · es-80-batch-vs-italy-portugal-spain · 0881044a
+What: 3 ES guides (LATAM tuteo) — israel-vs-italy (Jerusalén vs Roma civilisacional; UNESCO 9 vs 58; Arco de Tito conexión sefardí; mesa levantina vs cocina regional italiana; costos/playas/seguridad; 7 FAQs; GYG+Booking CTAs), israel-vs-portugal (1497 conversión forzada + ley retorno Portugal 2015; Atlántico vs Mar Rojo/Mar Muerto; 7 FAQs; GYG+Booking+DiscoverCars CTAs; cross-links /es/israel-vs-spain+cheap-flights-to-israel), israel-vs-spain (1492 Decreto de la Alhambra; Alhambra/Mezquita vs Ciudad Vieja de Jerusalén; Israir TLV-MAD mencionado; 7 FAQs; GYG+Booking+DiscoverCars CTAs; cross-links /es/israel-for-spanish-travelers+israel-vs-portugal+israel-vs-greece). All /es/* cross-links pre-verified. No H1 in body; YAML clean; no fabricated prices/ratings.
+Gate: pnpm check 0 errors | build 1971 pages (+3 from 1968) | test:e2e 6/6 targeted smoke+a11y PASS (0 WCAG violations).
+Ship: committed 0881044a to master; pushed origin/master. CI in_progress at state-write (normal).
+ES: 397→400/401. Missing-ES: 1 (israel-for-serbian-travelers P3 ONLY — ES parity EFFECTIVELY COMPLETE).
+Next: iter1198 (1198%5=3 → BUILD): seo-content (gay-tel-aviv P2 or israel-for-australian-travelers P2) or technical (airlines-freshness-israir-madrid S).
