@@ -87,6 +87,7 @@ const ROUTES = [
   '/first-time-in-israel',
   '/israeli-food-cuisine-guide',
   '/best-holy-land-tours',
+  '/bein-harim-vs-abraham-tours',
   '/jerusalem-tours-compared',
   '/masada-tours-compared',
   '/galilee-tours-compared',

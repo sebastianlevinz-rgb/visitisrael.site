@@ -92,6 +92,7 @@ const ROUTES = [
   '/transport/ben-gurion-to-jerusalem',
   '/transport/ben-gurion-to-tel-aviv',
   '/transport/jerusalem-to-nazareth',
+  '/bein-harim-vs-abraham-tours',
   '/masada-tours-compared',
   '/galilee-tours-compared',
   '/petra-tours-compared',
