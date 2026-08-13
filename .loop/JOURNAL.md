@@ -17411,3 +17411,11 @@ What: Freshness update to EN airlines-flying-israel-2026.md — added Israir Tel
 Gate: pnpm check 0 errors | build 1971 pages (unchanged, content update only) | test:e2e 8/8 targeted PASS (4 smoke + 4 a11y across EN+DE+FR+ES locale variants; 0 WCAG violations).
 Ship: committed a3e9de83 to master; pushed origin/master. CI in_progress at state-write (normal — Vercel auto-deploy in progress).
 Next: iter1199 (1199%5=4 → REVIEW): audit a slice of shipped content. Good candidates: review the israel-vs-* comparison guides (EN+ES 3 pairs), or audit internal links in the airlines guide.
+
+## 2026-08-13T09:40Z · iter1199 · REVIEW · review-1199-israir-accuracy · 9dbefac8
+What: Audited 6 israel-vs-* comparison guides (EN+ES × italy/portugal/spain) shipped in iters 1196-1197.
+Audit checklist: (1) H1-in-body — none found on all 6 ✓; (2) title ≤65 chars — all pass (41–61) ✓; (3) desc ≤160 chars — all pass (141–153) ✓; (4) cross-links validity — all 26 EN + ES links resolve to existing content files ✓; (5) hero images — all 5 referenced images exist in public/ ✓; (6) honesty — price ranges only (no fabricated exact prices, no ratings/counts) ✓; (7) H2 structure — clean parallel structure in both locales ✓.
+Finding (1 fix): israel-vs-spain (EN + ES) said "Israir launched TLV-MAD in 2025/2026" (past tense). Per iter1198 airlines guide, the route launches 25 October 2026. Fixed in 4 locations: FAQ answer (EN + ES) + body Combining section (EN + ES). No new content fabricated; only tense/date corrected to match airlines guide.
+Gate: pnpm check 0 errors | build 1971 pages (unchanged — content update only) | test:e2e 4/4 targeted PASS (2 smoke + 2 a11y for /israel-vs-spain + /es/israel-vs-spain; 0 WCAG violations).
+Ship: committed 9dbefac8 to master; pushed origin/master. CI in_progress at state-write.
+Next: iter1200 (1200%5=0 → RESEARCH): competitor research pass.

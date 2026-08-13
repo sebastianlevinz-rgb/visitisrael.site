@@ -2378,3 +2378,6 @@ FR: 392→397/401. Build: 1936→1941 (+5). Gate: check 0 | build 1941 | e2e 10/
 
 ## iter1198 · 2026-08-13 · a3e9de83
 **airlines-freshness-israir-madrid** (technical, S) — Updated EN airlines-flying-israel-2026.md with Israir TLV–MAD (Madrid) route launching 25 October 2026 (3×/week, A320). Added to European routes table, Upcoming section, and new FAQ targeting "Is Israir flying from Spain to Israel?" query. Improves freshness signal and Spain-Israel aviation coverage.
+
+## iter1199 · REVIEW · review-1199-israir-accuracy · 9dbefac8
+Corrected Israir TLV-MAD launch tense in israel-vs-spain (EN + ES): "launched 2025/2026" → "launching 25 October 2026". Full audit of 6 israel-vs-* guides passed all other checks.
