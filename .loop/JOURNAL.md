@@ -17419,3 +17419,19 @@ Finding (1 fix): israel-vs-spain (EN + ES) said "Israir launched TLV-MAD in 2025
 Gate: pnpm check 0 errors | build 1971 pages (unchanged — content update only) | test:e2e 4/4 targeted PASS (2 smoke + 2 a11y for /israel-vs-spain + /es/israel-vs-spain; 0 WCAG violations).
 Ship: committed 9dbefac8 to master; pushed origin/master. CI in_progress at state-write.
 Next: iter1200 (1200%5=0 → RESEARCH): competitor research pass.
+
+## 2026-08-13T10:30Z · iter1200 · RESEARCH · research-1200-markets-parks-aviation
+
+**256th research pass.** Searched: touristisrael.com, lonelyplanet.com, roughguides.com, tripadvisor.com, viator.com, getyourguide.com, nomadlist.com, digitalnomads.world, travelandtourworld.com, aviationa2z.com, aerotime.aero, timesofisrael.com (blocked; data from search snippets), igoogledisrael.com, harrysbaked.com, atly.com, israel21c.org, deadsea.com, giltravel.com, ynetnews.com, jfeed.com, itinerary.expert/rosh-hanikra.
+
+**Key findings:**
+1. **best-markets-in-israel** (MISSING) — we have 4 individual market guides but no hub comparison/round-up page for "best markets in Israel". onevasco.com, harrysbaked.com, atly.com, israel21c.org all rank dedicated round-up guides. High internal-link hub to 4 existing market guides + cross-links to food guides. → new BACKLOG P2 seo-content S.
+2. **best-national-parks-israel** (MISSING) — we have israel-national-parks-pass.md + 1-2 individual park guides but no "best 10-12 national parks" hub. Tourist Israel "10 Best National Parks", TripAdvisor "15 Best" all rank. 40+ INPA parks; hub links to masada, dead-sea, gamla, qumran, beer-sheva, etc. → new BACKLOG P2 seo-content S.
+3. **Wizz Air hub expansion** — airlines guide Wizz Air entry is minimal. Reality: full hub launched Ben Gurion spring 2026, 21 routes (→50 target), new routes: Bratislava + Palermo + Naples + Venice + doubled Milan (14x/week). Domestic TLV↔Ramon service launched (novel). easyJet March restart failed; planned late Oct 2026. → new BACKLOG P2 technical S.
+4. **Rosh Hanikra cable car** — site closed ~Sept 2023 (security); reopened May 2025 via tunnel first; cable car now operational again (₪48 adult, 70m/60° steepest in world). Guide may need freshness note + current admission. → new BACKLOG P3 technical S.
+5. **Verified existing coverage** — confirmed we already have: digital-nomad-israel.md ✓, christmas-in-israel.md ✓, schottenstein-campus-jerusalem.md ✓, eilat-diving-snorkeling.md ✓, eilat-snorkeling-guide.md ✓, israel-honeymoon.md ✓, israel-water-parks.md ✓, israel-wellness-spa.md ✓, dead-sea-medical-tourism.md ✓, israel-photography-guide.md ✓, all 12 month guides ✓, new-luxury-hotels-israel-2026.md ✓ — good existing coverage depth.
+6. **Tourism context 2026** — US = 35.5% of arrivals (content match ✓), France = 11.4% (✓), UK = 7.6% (✓). July 2026: +28.6% vs July 2025 recovery YoY. Confirmed backlog priorities: gay-tel-aviv + israel-for-australian-travelers + israel-for-canadian-travelers + israel-vs-dubai + israel-vs-morocco + israel-vs-croatia all remain P2 ready for BUILD.
+
+**4 new BACKLOG items appended** (2 seo-content S + 2 technical S). No code changes; no gate run needed.
+Gate: N/A (RESEARCH iteration — no shipping).
+Next: iter1201 (1201%5=1 → BUILD): seo-content category; recommend gay-tel-aviv (P2, S, no missing deps) or best-markets-in-israel (P2, S) or israel-for-australian-travelers (P2, S).

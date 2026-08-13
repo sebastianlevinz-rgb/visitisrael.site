@@ -8863,3 +8863,22 @@ LP has a generic Petra page (Jordan-focused), not an Israel-perspective comparis
 **Israel vs Dubai gap:** viatravelers.com, tripbase.com, theworldtravelindex.com have TLV-vs-Dubai comparison pages. Zero editorial on major travel brands (LP, Rough Guides, Tourist Israel). touristisrael.com has a "how to visit Dubai from Israel" logistics page but no travel-decision comparison. Our site has no /israel-vs-dubai page despite it being confirmed missing (BACKLOG "SHIPPED iter968" annotation was incorrect — file never created).
 
 **Haifa Cable Car:** Tourist Israel (touristisrael.com/haifa-cable-cars), TripAdvisor, GetYourGuide, thingstodoinhaifa.com, trek.zone, wanderboat.ai all rank dedicated Haifa Cable Car pages. Our haifa-travel-guide.md mentions the cable car briefly but has no standalone attraction guide. Missing SEO target: "Haifa cable car guide 2026."
+
+### 2026-08-13 · iter1200 · Research pass 256 — market hubs + aviation + parks
+
+**New competitor pages discovered (not previously noted):**
+
+- **onevasco.com/markets/israel** — "12 Best Markets in Israel to Explore Like a Local" — comprehensive round-up with photos, descriptions, and practical tips for each market. No GYG affiliate integration; we can do better with affiliate CTAs and internal linking to our individual market guides.
+- **harrysbaked.com/best-markets-in-israel** — "8 Best Markets In Israel | A Local Guide's Picks (2026)" — strong local angle, includes Talpiot Haifa as a non-obvious pick, good practical timing tips.
+- **atly.com/israel/best-food-market** — crowd-sourced "25 Best Food Markets in Israel" — long list including lesser-known venues; high social sharing. No structured comparison table.
+- **israel21c.org/israels-11-top-food-markets** — authoritative editorial round-up with rich cultural context.
+- **giltravel.com/blog/8-most-beautiful-nature-parks-and-reserves-in-israel/** — "8 Most Beautiful Nature Parks and Reserves" — strong visual editorial for the parks gap.
+- **deadsea.com/dead-sea-spa-hotels-best-wellness-resorts-on-the-israeli-shore-compared/** — dedicated spa-hotel comparison page (Lot Spa, Herods, Crowne Plaza, Leonardo Club). Strong competitor for Dead Sea wellness — but our dead-sea-medical-tourism.md + israel-wellness-spa.md already cover this well.
+- **igoogledisrael.com/water-parks-in-israel-the-essential-guide/** — "Water Parks in Israel: The Essential Guide!" — covers Aqua Kef, Luna Gal, Shefayim, Yamit Park. Our israel-water-parks.md already covers this.
+- **itinerary.expert/israel/rosh-ha-nikra/** — "Rosh HaNikra: Israel's Stunning Sea Grottoes & Cable Car Guide 2026" — well-structured with current admission (₪48) and tip to arrive at 9am. Our rosh-hanikra-guide.md needs a freshness update for the May 2025 reopening.
+- **Wizz Air hub** — aviationa2z.com and travelandtourworld.com cover Wizz Air Israel hub in depth. Wizz Air now the dominant budget carrier (Ryanair permanently out, easyJet still suspended). Our airlines guide needs expanded Wizz Air section.
+
+**Key competitive observations:**
+- No competitor has a comprehensive, structured "best national parks Israel" guide with a sortable comparison table + INPA pass integration. Strong gap.
+- The markets round-up gap is confirmed: our individual market guides are deep (better than most competitors) but no hub/aggregation page exists.
+- Aviation: tourist-facing content on Wizz Air hub expansion is sparse — we could be first to feature a comprehensive budget-route table.
