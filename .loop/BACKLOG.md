@@ -40,7 +40,7 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 - [P2] (seo-content, S) **israel-vs-croatia.md** (EN new guide) — Croatia = top Mediterranean beach/history destination; "israel vs croatia" = zero editorial competitor; similar climate/summer-beach/history traveler profile; Adriatic vs Mediterranean comparison. Partners: GYG + Booking + DiscoverCars. Cross-links: is-israel-safe, best-time-to-visit-israel, israel-cost-budget, best-beaches-israel, israel-vs-greece, israel-vs-turkey, first-time-in-israel, visa-information. Effort: S. Status: ready.
 
 ### New tool
-- [P2] (tools, M) **trip-cost-calculator-enhanced** — Dedicated Israel trip cost calculator page with JS sliders: trip duration (5–21 days), travel style (budget/mid/luxury), group size (solo/couple/family 2+1); outputs per-day + total cost estimate broken down by accommodation/food/transport/activities/tours (ranges, never exact); directly competes with israeltraveladvisor.org for "how much does israel cost 2026" queries. Vanilla JS island; on-brand design; Playwright test required. Link from /israel-cost-budget and /israel-trip-cost-by-style. Effort: M. Status: ready.
+- [P2] (tools, M) **trip-cost-calculator-enhanced** — SHIPPED iter1202 c180f3b1. Range slider 5–21 days, group-size select, ±15% cost ranges throughout. 11/11 e2e pass.
 
 ## i18n — ready batches (next BUILD iterations)
 

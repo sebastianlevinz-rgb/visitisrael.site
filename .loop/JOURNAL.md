@@ -17441,3 +17441,9 @@ What: New /gay-tel-aviv guide — dedicated LGBTQ+ neighbourhood-level guide dis
 Gate: pnpm check 0 errors | build 1972 pages (+1) | test:e2e 2/2 targeted pass.
 Ship: squash-merged e8756b36; pushed origin/master. CI in_progress at state-write (normal — Vercel auto-deploy from master push).
 Next: iter1202 (1202%5=2 → BUILD, tools): trip-cost-calculator-enhanced (P2).
+
+## 2026-08-13T13:25Z · iter 1202 · BUILD (tools) · trip-cost-calculator-enhanced · c180f3b1
+What: Enhanced existing /israel-trip-cost-calculator page. Changed days number input to range slider (5–21 days) with live value label; added 21-day quick-preset button alongside 5/7/10/14; replaced travellers number input with group-size select (solo/couple/family 2+1). Changed all cost outputs from exact figures to ±15% ranges ("$1,100 – $1,500" format) — total display, ILS equivalent, and every breakdown table row now show ranges. Breakdown table "Total" column renamed "Range". Added cross-link from /israel-cost-budget body paragraph → /israel-trip-cost-calculator; added /israel-trip-cost-by-style to footer links on calculator page. Updated 4 legacy "Trip cost calculator v2" Playwright tests to match #total-range element and "Range" column header. Added 7 new e2e tests covering slider type, range format, 21-day preset, group-size selector, and cross-link from cost-budget guide.
+Gate: pnpm check 0 errors | build 1972 pages (unchanged — calculator was existing page) | test:e2e 11/11 targeted pass.
+Ship: squash-merged c180f3b1; pushed origin/master. CI in_progress at state-write (normal — Vercel auto-deploy from master push).
+Next: iter1203 (1203%5=3 → BUILD, technical): wizz-air-hub-freshness (P2, S).
