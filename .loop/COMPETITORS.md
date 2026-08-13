@@ -8882,3 +8882,26 @@ LP has a generic Petra page (Jordan-focused), not an Israel-perspective comparis
 - No competitor has a comprehensive, structured "best national parks Israel" guide with a sortable comparison table + INPA pass integration. Strong gap.
 - The markets round-up gap is confirmed: our individual market guides are deep (better than most competitors) but no hub/aggregation page exists.
 - Aviation: tourist-facing content on Wizz Air hub expansion is sparse — we could be first to feature a comprehensive budget-route table.
+
+---
+
+## iter1205 RESEARCH — 2026-08-13 — Monetization & Affiliate Gap Analysis
+
+**Sources checked:** tourradar.com, bookmundi.com, squaremouth.com, insuremytrip.com, nomadicmatt.com, happycar.com, getyourguide.com/israel, tripadvisor.com, travelandtourworld.com, touristisrael.com/israel-travel-2026.
+
+**Affiliate / monetization competitive patterns:**
+- **TourRadar** has "8 Best Luxury Israel Tours & Trips 2026/2027" and "10 Best Israel Tour Operators 2026/2027" — dedicated operator-comparison pages for high-intent queries. Our best-tours-in-israel.md covers broad tours; we lack a pure "tour operator comparison" page matching TourRadar's format.
+- **Bookmundi** "10 Best Israel Group Tours 2026/2027" ranks #1 for "israel group tours 2026" — structured package-comparison with departure dates and prices. Our israel-group-travel.md is planning-logistics focused, not package-comparison focused.
+- **Nomadic Matt** "Best Tour Companies in Israel 2026" — editorial format, ranks for "best Israel tour company". No direct CTA links; we can outperform on affiliate density.
+- **Squaremouth** + **InsureMyTrip** both rank for "Israel travel insurance 2026" with live quote comparison widgets. Our israel-travel-insurance.md has only SafetyWing (backpacker-medical niche). This is the single largest uncaptured affiliate revenue category currently.
+- **HappyCar** (EU car rental aggregator) ranks top 3 for "budget car rental Israel comparison". Not in our car rental guide. HappyCar has a direct affiliate program. Carwiz (local Israeli chain) growing search visibility.
+- **Tourist Israel** ranks for "shuttle from Ben Gurion airport to Tel Aviv" with GYG-bookable sherut/shuttle product. Our airport transfers guide covers private transfer + train; shared sherut is a clear gap.
+
+**New 2026 competitive advantage opportunities:**
+- **Tel Aviv Ottoman Railway Trail** — confirmed 2026 new free walking/cycling route. Tourist Israel 2026 round-up mentions it briefly. Zero editorial competitor. We can claim first-mover editorial position.
+- **Dead Sea promenade expansion** — construction confusion point for travelers. Times of Israel has factual coverage; no travel editorial competitor has created a "what travelers need to know" guide. Our dead-sea pages should add a callout box with honest framing.
+
+**Key competitive observations (iter1205):**
+- Insurance comparison is the largest uncaptured affiliate category. SafetyWing-only positioning misses mainstream 2-week-holiday visitor segment.
+- Airport transfers sherut gap is a quick win: budget travelers search this and find competitors ranking with GYG bookable links.
+- Our tour operator content is strong on editorial but thin on affiliate density at the conversion point (product-level CTAs vs. category-level CTAs).

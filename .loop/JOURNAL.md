@@ -17465,3 +17465,21 @@ Next: iter1205 (1205%5=0 → RESEARCH): competitor discovery pass; after researc
 What: Full e2e suite (run in background during iter1204 REVIEW) returned exit code 1 — 1 failure in keyboard.spec.ts:21 "cost calculator: #days input is Tab-reachable and updates total". Root cause: iter1202 (trip-cost-calculator-enhanced) converted #days from text input to type="range" slider and renamed #total → #total-range, but the keyboard test was not updated — it still used Ctrl+A+type("14") (incompatible with range inputs) and checked locator('#total') (selector no longer exists). Fix: updated interaction to ArrowRight keypress (correct for range sliders) + changed locator to #total-range.
 Gate: pnpm check 0 errors | test:e2e 12/12 targeted (keyboard + tools calculator tests) PASS.
 Ship: squash-merged 165a88d3; pushed origin/master. CI in_progress.
+
+## 2026-08-13T16:30Z · iter1205 · RESEARCH · research-1205-monetization-competition
+
+**257th research pass.** Searched: touristisrael.com (2026 round-up), getyourguide.com (Israel top tours), tourradar.com (Israel group/luxury), bookmundi.com (group tours), squaremouth.com, insuremytrip.com, nomadicmatt.com (tour operators), happycar.com, travelandtourworld.com, jpost.com, timesofisrael.com.
+
+**Key findings:**
+1. **travel-insurance-comparison-upgrade** (NEW P2 monetization S) — israel-travel-insurance.md has ONLY SafetyWing CTA. InsureMyTrip + Squaremouth both rank for "Israel travel insurance 2026" and have CPA affiliate programs. Adding 2 CTAs opens a new revenue stream (mainstream trip-cancellation insurance vs SafetyWing's backpacker-medical niche).
+2. **airport-transfers-sherut-upgrade** (NEW P2 monetization S) — ben-gurion-airport-transfers.md has no sherut section. Tourist Israel ranks for "shuttle from Ben Gurion airport" with GYG bookable product. Add sherut paragraph + Bein Harim GYG CTA.
+3. **bein-harim-vs-abraham-tours** (NEW P2 seo-content+monetization S-M) — No dedicated 2-way head-to-head page. TripAdvisor forum + Nomadic Matt rank for this high-purchase-intent query. Both operators are GYG affiliate partners.
+4. **car-rental-happycar-carwiz-update** (NEW P3 technical/freshness S) — HappyCar (EU aggregator) ranks top 3 for "budget car rental Israel"; absent from israel-car-rental-comparison.md. Carwiz (local Israeli brand) also unmentioned.
+5. **tel-aviv-ottoman-rail-trail** (NEW P3 seo-content S) — New 2026 walking/cycling route along decommissioned Ottoman railway alignment; confirmed Tourist Israel 2026 round-up. Zero competitor editorial. HaTachana already mentioned in neighborhoods guide; this extends context.
+6. **dead-sea-promenade-expansion-callout** (NEW P3 technical/freshness S) — NIS 1B+ Ein Bokek promenade expansion confirmed active; 7 of 17 hotel tenders awarded; manmade islands planned. Visitors will encounter construction. Callout box needed in dead-sea-guide.md + dead-sea-hotels-guide.md.
+
+**Verified existing coverage (no action needed):** Terminal 1 (airport guide ✓), Eilat luxury revival (eilat-hotels-guide ✓), Isrotel Kayma (dead-sea-hotels + new-luxury ✓), ETA-IL (israel-eta-guide ✓), israel-esim ✓, masada-tours-compared ✓, christian-pilgrimage-holy-land ✓, luxury-travel-israel ✓, israel-group-travel ✓, haifa-cruise-terminal-guide ✓, israel-travel-2026 ✓.
+
+**6 new BACKLOG items appended.** No code changes; no gate run needed.
+Gate: N/A (RESEARCH iteration — no shipping).
+Next: iter1206 (1206%5=1 → BUILD): monetization category; recommend travel-insurance-comparison-upgrade (P2, S, ready) or airport-transfers-sherut-upgrade (P2, S, ready).
