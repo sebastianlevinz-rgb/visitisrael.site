@@ -1613,6 +1613,7 @@ const ROUTES = [
   '/es/tel-aviv-light-rail',
   '/gay-tel-aviv',
   '/best-markets-in-israel',
+  '/ben-gurion-airport-transfers',
 ];
 
 for (const route of ROUTES) {
