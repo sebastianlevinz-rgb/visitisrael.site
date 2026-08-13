@@ -1320,6 +1320,11 @@ const ROUTES = [
   '/es/jerusalem-bethlehem-day-trip',
   '/es/luxury-travel-israel',
   '/es/israel-for-french-travelers',
+  '/es/tel-aviv-tours-compared',
+  '/es/qumran-guide',
+  '/es/water-hiking-israel',
+  '/es/layover-jerusalem',
+  '/es/tel-aviv-light-rail',
 ];
 
 for (const route of ROUTES) {
