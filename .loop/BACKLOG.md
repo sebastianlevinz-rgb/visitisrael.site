@@ -17,15 +17,9 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ## i18n — ready batches (next BUILD iterations)
 
-### ES-78 batch definition (iter1190 RESEARCH — 254th research pass)
+### ES-78 batch — SHIPPED iter1191 3335277d (ES 388→393/401)
 Guides: `tel-aviv-tours-compared.md` + `qumran-guide.md` + `water-hiking-israel.md` + `layover-jerusalem.md` + `tel-aviv-light-rail.md`
-All 5 confirmed MISSING from ES. All ES cross-links pre-verified. After ship: ES=393/398.
-- tel-aviv-tours-compared: Circuitos por Tel Aviv comparados — Jaffa, Bauhaus y tours nocturnos (2026) — GYG (Old Jaffa & Tel Aviv Walking Tours) + Viator (Food & Carmel Market Tours) + Civitatis (Night & Nightlife Tours) CTAs; 6 /es/* cross-links all ✓ (best-tours-in-israel, day-trips-from-tel-aviv, israel-food-tours-cooking-classes, jerusalem-tours-compared, tel-aviv-food-guide, tel-aviv-nightlife). Effort: S.
-- qumran-guide: Visitar Qumrán — Donde se encontraron los Rollos del Mar Muerto (2026) — GYG (Dead Sea & Qumran Day Tours from Jerusalem) + Abraham (Judean Desert & Dead Sea) + Viator (Private Qumran & Dead Sea Tours) CTAs; 4 /es/* cross-links all ✓ (car-rental-israel, israel-archaeology-experience, israel-museum-jerusalem, israel-national-parks-pass). Cross-links to dead-sea sub-pages (/dead-sea/ein-gedi) → use /es/ein-gedi-guide ✓. Effort: S.
-- water-hiking-israel: Senderismo acuático en Israel — Senderos nahal y pozas naturales — GYG (Ein Gedi & Dead Sea Day Tours) + Abraham (Guided Hikes in the Judean Desert) CTAs; all /es/* cross-links ✓ (is-israel-safe, israel-national-parks-pass, gan-hashlosha-guide, wadi-qelt-monastery-guide, nahal-alexander-guide, israel-kayaking, ein-gedi-guide, masada-dead-sea-day-trip). Effort: S.
-- layover-jerusalem: Escala en Jerusalén — Visitar la Ciudad Vieja entre vuelos — GYG (Jerusalem Layover Tours) + welcomepickups (Airport–Jerusalem Transfer) + Booking (Overnight Layover Hotels) CTAs; 8 /es/* cross-links all ✓ (ben-gurion-airport-guide, ben-gurion-airport-transfers, holy-sites-dress-code-etiquette, jerusalem-old-city-walking-tour, layover-tel-aviv, tower-of-david-guide, transportation, visa-information). Cross-link /1-day-jerusalem-itinerary ✓. Effort: S.
-- tel-aviv-light-rail: Tren Ligero de Tel Aviv (Línea Roja) — Guía turística 2026 — Airalo (Israel eSIM) + welcomepickups (Tel Aviv Airport Transfer) + GYG (Tel Aviv Walking Tour) CTAs; 5 /es/* cross-links all ✓ (ben-gurion-airport-guide, day-trips-from-tel-aviv, israel-travel-apps, shabbat-guide, transportation). Effort: S.
-Status: ready for next ES BUILD (iter1191).
+All 5 SHIPPED. Gate: pnpm check 0 errors | build 1960 | test:e2e 10/10. ES: 388→393/401.
 
 ### DE-63 mini-batch definition (iter1190 RESEARCH — ready for next DE BUILD after ES-78)
 Guides: `israel-vs-cyprus.md` (1 guide only; israel-for-serbian-travelers P3 deferred)
@@ -40,7 +34,7 @@ Status: ready for DE BUILD after ES-78.
 - new-luxury-hotels-israel-2026.md (S) — cross-links need ES verification before authoring. Effort: S.
 - petra-from-eilat-vs-amman.md (S) — short guide (43 lines); cross-links: border-crossings✓, eilat-tours-compared✓, petra-wadi-rum-from-eilat✓. Effort: S.
 5th guide for ES-79 batch: israel-for-serbian-travelers (P3) OR one new vs-X guide (israel-vs-italy or israel-vs-portugal once EN ships). After ES-79 ships: ES=397/398 (or 398/398 if P3 included).
-Status: pre-defined; not yet ready (awaiting ES-78 to ship first).
+Status: ready (ES-78 shipped iter1191). 5th guide options: israel-for-serbian-travelers (P3) or israel-vs-italy/israel-vs-portugal (new EN vs-X guides, ship EN first).
 
 ### FR-62/DE-61/ES-76 batch definition (iter1180 RESEARCH — 253rd research pass)
 EN=401, FR=392/401 (6 missing), DE=387/401 (11 missing), ES=379/401 (19 missing). All cross-links pre-verified per locale. Full detail in I18N-PLAN.md.

@@ -17344,3 +17344,10 @@ After ship: DE=397/398 (only P3 remaining).
 **New BACKLOG items added** (6): israel-vs-italy + israel-vs-portugal + israel-vs-spain + israel-vs-morocco + israel-vs-croatia (all EN P2 S seo-content) + trip-cost-calculator-enhanced (tools P2 M).
 
 No code changes, no gate needed. Memory updated; push follows.
+
+## 2026-08-13T01:45Z · iter 1191 · BUILD · es-78-batch
+What: 5 ES guides (LATAM tuteo) — tel-aviv-tours-compared (Circuitos por Tel Aviv comparados: Jaffa, Bauhaus y tours nocturnos; GYG/Viator/Civitatis CTAs; 6 FAQs) + qumran-guide (Visitar Qumrán: Rollos del Mar Muerto; GYG/Abraham/Viator CTAs; 6 FAQs) + water-hiking-israel (Senderismo acuático en Israel: senderos nahal y pozas naturales; GYG/Abraham CTAs; 6 FAQs) + layover-jerusalem (Escala en Jerusalén: visitar la Ciudad Vieja entre vuelos; GYG/welcomepickups/Booking CTAs; 6 FAQs) + tel-aviv-light-rail (Tren Ligero de Tel Aviv Línea Roja: guía turística 2026; Airalo/welcomepickups/GYG CTAs; 6 FAQs). All /es/* cross-links pre-verified. 10 new e2e routes added (5 smoke + 5 a11y).
+Gate: pnpm check 0 errors | build 1960 pages (+5) | test:e2e 10/10 targeted smoke+a11y PASS.
+Merge: squash-merged to master 3335277d; pushed origin/master. CI in_progress at state-write.
+Prod deploy: Vercel auto-deploy triggered; state written while in_progress.
+ES: 388→393/401. Missing-ES: 13→8. DE-63 (israel-vs-cyprus) ready for iter1192.
