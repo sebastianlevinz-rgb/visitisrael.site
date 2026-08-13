@@ -1,9 +1,9 @@
 ---
 title: 'Airlines Flying to Israel 2026: Current Status & Suspensions'
-description: 'Which airlines fly to Ben Gurion Airport (TLV) right now? Up-to-date table of active, suspended, and returning carriers — verified August 2026.'
+description: 'Which airlines fly to Ben Gurion Airport (TLV) right now? Up-to-date table of active, suspended, and returning carriers — verified 13 August 2026.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-08-02
+updatedAt: 2026-08-13
 ctaHeading: 'Compare current fares to Tel Aviv'
 affiliateCtas:
   - partner: skyscanner
@@ -25,11 +25,13 @@ faqs:
     answer: 'Nonstop US–Israel services as of August 2026: El Al from New York JFK, Newark (codeshare), Los Angeles LAX, San Francisco SFO (new Oct 2026), Miami MIA (seasonal), Chicago ORD, and Washington IAD; Delta from New York JFK (daily, resumed Sep 2025) and Atlanta ATL (3×/week Wed/Fri/Sun, launched April 2026); United from Newark EWR, Chicago ORD, and Washington IAD; Israir from New York JFK (low-cost nonstop, new Aug 2026); American Airlines from Miami MIA (seasonal). Delta Boston BOS is scheduled to launch 24 October 2026 (daily, A330-900neo) — verify at delta.com.'
   - question: Which European airlines resumed Israel flights in 2026?
     answer: 'Following the Israel–Iran escalation of early 2026, most major European carriers gradually resumed service by mid-2026: ITA Airways (Rome FCO) resumed; Air France (Paris CDG) resumed; Lufthansa (Frankfurt FRA) and SWISS (Zurich ZRH) resumed July 1, 2026; Eurowings (Hamburg HAM, Düsseldorf DUS — new routes) resumed mid-July 2026; airBaltic (Riga RIX) resumed July 2026. British Airways remains suspended. Always check the airline''s own website for current operational status before booking.'
+  - question: Is Israir flying from Spain to Israel in 2026?
+    answer: 'Yes — Israir is launching a new Tel Aviv (TLV)–Madrid (MAD) route on 25 October 2026, operating 3 times per week on an Airbus A320. This is Israir''s first European route outside the Ben Gurion–JFK axis and will offer a competitive low-cost option between Spain and Israel. Israir is an Israeli low-cost carrier, so compare total prices including checked luggage before booking. Verify the schedule and fares at israir.com — launch schedules may shift.'
   - question: Is Emirates flying to Israel?
     answer: 'No. Emirates permanently suspended all Tel Aviv service in 2024 and has not announced any restart. For Dubai connections, use FlyDubai, which operates frequent direct DXB–TLV flights. For Abu Dhabi, Etihad operates up to 6 daily AUH–TLV flights as of mid-2026.'
 ---
 
-**Last verified: 2 August 2026.** The airlines-to-Israel landscape has changed significantly since 2024. This page tracks which carriers are actively flying, which are suspended, and which are due to return. The aviation situation continues to evolve — **always verify directly with the airline before purchasing tickets.**
+**Last verified: 13 August 2026.** The airlines-to-Israel landscape has changed significantly since 2024. This page tracks which carriers are actively flying, which are suspended, and which are due to return. The aviation situation continues to evolve — **always verify directly with the airline before purchasing tickets.**
 
 ---
 
@@ -61,6 +63,7 @@ faqs:
 | **airBaltic** | Riga RIX | Resumed July 2026; El Al codeshare covers Baltic/Nordic connections |
 | **Wizz Air** | London Luton, Budapest, Vienna, Bucharest, and others | Low-cost; base fares exclude luggage |
 | **Arkia** | Málaga AGP, Tokyo Narita NRT (Oct 2026) | Arkia's new Japan route opens Israel's first direct East Asia gateway |
+| **Israir** | Madrid MAD | Launching 25 October 2026, 3×/week on A320 — Israel's first low-cost TLV–Spain service; verify at israir.com |
 | **Aegean** | Athens ATH and Greek island airports | Good for combined Israel–Greece trips |
 | **KLM** | Amsterdam AMS | Resumed 26 July 2026 (suspended March 1–July 25); connecting hub for Northern Europe |
 | **Austrian Airlines** | Vienna VIE | Connecting hub for Central and Eastern Europe |
@@ -105,6 +108,7 @@ faqs:
 
 **Upcoming (not yet launched):**
 - **Delta BOS–TLV** (scheduled 24 October 2026): Daily Boston–Tel Aviv nonstop on A330-900neo — confirm at delta.com before booking.
+- **Israir TLV–MAD** (scheduled 25 October 2026): Tel Aviv–Madrid 3×/week on A320. Israel's first low-cost European route outside North America — verify at israir.com before booking.
 
 **KLM suspension and resumption:** KLM suspended its Amsterdam–TLV service from 1 March 2026 (following renewed security concerns) and resumed on 26 July 2026. Travelers who booked KLM via Amsterdam during March–July 2026 were rerouted or refunded. Service is now active.
 
