@@ -3,7 +3,7 @@ title: "Fluggesellschaften nach Israel 2026: Aktueller Stand und Streichungen"
 description: "Airlines nach Ben Gurion (TLV): Tabelle aktiver, gestrichener und wiederkehrender Verbindungen — aktualisiert August 2026."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
-updatedAt: 2026-08-02
+updatedAt: 2026-08-13
 ctaHeading: "Aktuelle Tarife nach Tel Aviv vergleichen"
 affiliateCtas:
   - partner: skyscanner

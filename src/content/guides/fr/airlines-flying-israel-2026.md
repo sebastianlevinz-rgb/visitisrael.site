@@ -3,7 +3,7 @@ title: 'Compagnies vers Israël 2026 : état actuel et suspensions'
 description: "Compagnies vers Ben Gourion (TLV) : tableau des transporteurs actifs, suspendus et en reprise — mis à jour août 2026."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-08-02
+updatedAt: 2026-08-13
 ctaHeading: 'Comparez les tarifs actuels vers Tel Aviv'
 affiliateCtas:
   - partner: skyscanner

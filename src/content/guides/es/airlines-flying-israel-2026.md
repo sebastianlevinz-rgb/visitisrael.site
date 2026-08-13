@@ -3,7 +3,7 @@ title: 'Aerolíneas que Vuelan a Israel en 2026: Estado Actual y Suspensiones'
 description: '¿Qué aerolíneas vuelan al Aeropuerto Ben Gurion (TLV) ahora mismo? Tabla actualizada de portadoras activas, suspendidas y que reanudan servicio — verificada en agosto de 2026.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planificación
-updatedAt: 2026-08-02
+updatedAt: 2026-08-13
 ctaHeading: Compara tarifas actuales a Tel Aviv
 affiliateCtas:
   - partner: skyscanner
