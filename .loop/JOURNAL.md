@@ -17496,3 +17496,14 @@ What: New /best-markets-in-israel hub guide — the confirmed-missing hub page l
 Gate: pnpm check 0 errors | build 1973 pages (+1) | 2/2 targeted e2e PASS.
 Ship: squash-merged e339bad5 to master; pushed origin/master. CI in_progress at state-write.
 Next: iter1208 (1208%5=3 → BUILD tools); candidates: bein-harim-vs-abraham-tours (P2 seo-content+monetization) or airport-transfers-sherut-upgrade (P2 monetization).
+
+## 2026-08-13T19:10Z · iter1208 · BUILD (technical) · tower-of-david-freshness-2026 · 53bed10b
+What: Tower of David guide freshness update across all 4 locales (EN/DE/FR/ES). All guides were missing the 2023 $40M renovation details from the backlog research item. Changes applied uniformly:
+- EN (tower-of-david-guide.md): added "The 2023 renovation" section (Angelica Della Rache Entrance Pavilion, 10 new permanent galleries, VR time-travel, cistern contemporary art); FAQ visit duration 45–75 min → 75–105 min; added "worth revisiting if visited before 2023" bullet; updatedAt 2026-07-20 → 2026-08-13.
+- DE (de/tower-of-david-guide.md): added "Die Renovierung 2023: Was neu ist" section (Angelica-Della-Rache-Eingangspavillon, 10 neue permanente Galerien, VR-Zeitreiseerlebnisse, Zisternen-Kunst); FAQ 45–75 → 75–105 Min; updatedAt → 2026-08-13.
+- FR (fr/tower-of-david-guide.md): added "La rénovation de 2023 : les nouveautés" section (Pavillon d'Entrée Angelica Della Rache, 10 nouvelles galeries permanentes, voyages dans le temps en VR, art contemporain dans citernes); FAQ 45–75 → 75–105 min; updatedAt → 2026-08-13.
+- ES (es/tower-of-david-guide.md): added "La renovación de 2023: novedades" section (Pabellón de Entrada Angelica Della Rache, 10 nuevas galerías permanentes, viajes en el tiempo en RV, arte contemporáneo en cisternas); FAQ 45–75 → 75–105 min; added "vale la pena revisitar" bullet; updatedAt → 2026-08-13.
+Mode rationale: iter1208%5=3 → BUILD tools rotation; no pure tools items ready (all shipped); fell through to technical per playbook. Selected top-ready P2 technical item.
+Gate: pnpm check 0 errors | pnpm build 1973 pages (unchanged) | 11/11 targeted e2e PASS (smoke+a11y for /tower-of-david-guide + /de/tower-of-david-guide + /fr/tower-of-david-guide + /es/tower-of-david-guide).
+Ship: committed directly to master 53bed10b; pushed origin/master. CI in_progress at state-write.
+Next: iter1209 (1209%5=4 → REVIEW); review iter1208 tower-of-david changes + any outstanding from iters 1204–1207.

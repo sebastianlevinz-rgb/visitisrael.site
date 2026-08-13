@@ -29,7 +29,7 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 ## New items — iter1195 RESEARCH discoveries (2026-08-13)
 
 ### Technical freshness updates
-- [P2] (technical, S) **tower-of-david-freshness-2026** — Tower of David Museum $40M renovation completed 2023 with Angelina Della Rache Entrance Pavilion, 10 new immersive permanent galleries (using innovative technology, interactive exhibits, VR time-travel), and contemporary art in ancient cisterns. tower-of-david-guide.md may be pre-renovation. Read existing guide; if it doesn't mention Della Rache pavilion or 10-gallery layout, update description, hours context, and booking recommendation. Status: ready.
+- ~~[P2] (technical, S) **tower-of-david-freshness-2026**~~ — SHIPPED iter1208 53bed10b. Updated EN/DE/FR/ES tower-of-david guides with 2023 $40M renovation: Angelica Della Rache Entrance Pavilion, 10 new galleries, VR, cistern art. FAQ duration 45–75 → 75–105 min. updatedAt bumped all 4 locales.
 
 ### Seo-content: new EN guides (confirmed missing from content directory)
 - [P2] (seo-content+monetization, S) **gay-tel-aviv** — SHIPPED iter1201 e8756b36.
