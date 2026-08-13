@@ -21,11 +21,8 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 Guides: `tel-aviv-tours-compared.md` + `qumran-guide.md` + `water-hiking-israel.md` + `layover-jerusalem.md` + `tel-aviv-light-rail.md`
 All 5 SHIPPED. Gate: pnpm check 0 errors | build 1960 | test:e2e 10/10. ES: 388→393/401.
 
-### DE-63 mini-batch definition (iter1190 RESEARCH — ready for next DE BUILD after ES-78)
-Guides: `israel-vs-cyprus.md` (1 guide only; israel-for-serbian-travelers P3 deferred)
-Confirmed MISSING from DE; all DE cross-links pre-verified (akko✓, best-time-to-visit-israel✓, caesarea✓, dead-sea-guide✓, eilat-snorkeling-guide✓, first-time-in-israel✓, is-israel-safe✓, israel-cost-budget✓, israel-vs-egypt✓, israel-vs-greece✓, israel-vs-jordan✓, israel-vs-turkey✓, israel-vs-france✓, israeli-food-cuisine-guide✓, qumran-guide✓, tel-aviv-nightlife✓, visa-information✓).
-- israel-vs-cyprus: Israel oder Zypern? — Reisevergleich 2026 — Standard Hochdeutsch; Mittelmeer-Strand + Geschichte-Vergleich; GYG + Booking CTAs. After ship: DE=397/398 (only P3 remaining). Effort: S.
-Status: ready for DE BUILD after ES-78.
+### DE-63 mini-batch — SHIPPED iter1192 00e06668 (DE 396→397/401)
+Guide: israel-vs-cyprus.md SHIPPED. DE=397/401. Only israel-for-serbian-travelers (P3) remains.
 
 ### ES-79 batch definition (iter1190 RESEARCH — items remaining after ES-78)
 4 non-P3 ES guides still missing after ES-78 ships:

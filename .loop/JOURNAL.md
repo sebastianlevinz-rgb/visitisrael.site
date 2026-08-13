@@ -17351,3 +17351,8 @@ Gate: pnpm check 0 errors | build 1960 pages (+5) | test:e2e 10/10 targeted smok
 Merge: squash-merged to master 3335277d; pushed origin/master. CI in_progress at state-write.
 Prod deploy: Vercel auto-deploy triggered; state written while in_progress.
 ES: 388→393/401. Missing-ES: 13→8. DE-63 (israel-vs-cyprus) ready for iter1192.
+
+## 2026-08-13T02:52Z · iter1192 · BUILD (i18n-DE) · de-63-israel-vs-cyprus
+What: DE translation of israel-vs-cyprus.md — "Israel vs. Zypern: Welches Reiseziel wählen? (2026)". Standard Hochdeutsch (Sie); Mittelmeer-Strand + Geschichte-Vergleich; GYG + Skyscanner + Booking CTAs; 7 FAQs; all 19 /de/* cross-links pre-verified. Added /de/israel-vs-cyprus to smoke.spec.ts + a11y.spec.ts.
+Gate: pnpm check 0 errors | build 1961 pages (+1 from 1960) | test:e2e 2/2 targeted smoke+a11y PASS (+ 39/39 israel-vs comparison suite pass).
+Ship: committed 00e06668 to master; pushed origin/master. CI in_progress at state-write. DE: 396→397/401. Only israel-for-serbian-travelers (P3) remains.
