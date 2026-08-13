@@ -2365,3 +2365,8 @@ FR: 392→397/401. Build: 1936→1941 (+5). Gate: check 0 | build 1941 | e2e 10/
 
 ## iter1193 · ES-79 batch · 0db919fb · 2026-08-13
 4 ES guides (LATAM tuteo): israel-for-german-travelers + petra-from-eilat-vs-amman + israel-zimmer-guide + new-luxury-hotels-israel-2026. ES: 393→397/401. Build: +4 pages (1961→1965). Gate green.
+
+## iter1196 · BUILD (seo-content) · en-vs-batch-italy-portugal-spain · 3cc5e540
+- israel-vs-italy: Jerusalem vs Rome civilisational depth comparison; UNESCO 9 vs 58; Sephardic Rome connection (Titus arch + Great Synagogue + Roman Jewish Ghetto); 12-row comparison table; food/beaches/costs/safety/visas sections; "choose Israel/Italy if" boxes; combination trip angle TLV→FCO 3.5h. 7 FAQs. GYG+Booking CTAs. EN: 398→399/401.
+- israel-vs-portugal: Atlantic vs Mediterranean; 1497 Portuguese forced conversion + 2015 Sephardic citizenship law; Algarve limestone cliffs vs Red Sea coral reef; Dead Sea comparison; cost table; 7 FAQs. GYG+Booking+DiscoverCars CTAs. EN: 399→400/401.
+- israel-vs-spain: 1492 Alhambra Decree / Sephardic expulsion (Ladino preservation); Alhambra + Mezquita vs Jerusalem Old City + Dome of the Rock; Israir TLV-MAD service noted; Camino de Santiago; "choose Israel/Spain if" boxes; 7 FAQs. GYG+Booking+DiscoverCars CTAs. EN: 400→401/401. EN BACKLOG COMPLETE.

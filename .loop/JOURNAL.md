@@ -17391,3 +17391,10 @@ Next: iter1195 (1195%5=0 → RESEARCH).
 8. **BACKLOG INTEGRITY ISSUE**: ~50+ items tagged "SHIPPED iter968" in BACKLOG.md do NOT exist in src/content/guides/. iter968 was ES-36 (5 ES business/food guides). The nationality/vs-X guides tagged as "SHIPPED iter968" were never actually merged. All should be treated as active "ready" items. This is a data-only issue (BACKLOG annotations wrong); no content is lost; files simply need to be built.
 
 **7 new BACKLOG items appended** (see BACKLOG.md below). No code changes; no gate run needed. Memory commit follows.
+
+## 2026-08-13T06:50Z · iter 1196 · BUILD · en-vs-batch-italy-portugal-spain · 3cc5e540
+What: 3 new EN comparison guides — israel-vs-italy (Jerusalem vs Rome civilisational comparison; UNESCO 9 vs 58 table; Sephardic Rome connection Titus arch; food/beaches/costs/safety; 7 FAQs; GYG+Booking CTAs), israel-vs-portugal (Atlantic vs Mediterranean; 1497 Sephardic expulsion + 2015 Portuguese citizenship law; Algarve vs Red Sea/Dead Sea; 7 FAQs; GYG+Booking+DiscoverCars CTAs), israel-vs-spain (1492 Alhambra Decree / Sephardic expulsion; Alhambra/Mezquita vs Jerusalem Old City; Israir TLV-MAD noted; 7 FAQs; GYG+Booking+DiscoverCars CTAs). All cross-links pre-verified (all targets exist in EN). EN guide count: 398→401/401 — EN backlog COMPLETE. 6 new e2e routes (3 smoke + 3 a11y) added and pass.
+Gate: pnpm check 0 errors | build 1968 pagefind pages | test:e2e 6/6 targeted PASS.
+Ship: committed 3cc5e540 on master, pushed to origin/master. CI in_progress at state-write (normal).
+Prod: Vercel auto-deploy in progress; CI + Lighthouse in_progress for 3cc5e540.
+Next: iter1197 (1197%5=2 → BUILD): seo-content; recommend gay-tel-aviv or israel-vs-dubai or israel-for-australian-travelers (all P2 ready). Alternatively ES localization of new italy/portugal/spain guides.
