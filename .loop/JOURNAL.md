@@ -17646,3 +17646,10 @@ Gate: pnpm check 0 errors | build 1981→1982 pages (+1) | 2/2 targeted e2e PASS
 Ship: committed 6be5126d to master; pushed origin/master. CI in_progress at state-write (normal Vercel pattern — all prior SHAs = success).
 Prod: Vercel auto-deploy triggered for 6be5126d. CI/Lighthouse both in_progress at write time; normal pattern.
 Next: iter1228 (1228%5=3 → BUILD technical); top candidates: eilat-luxury-revival-freshness P2 S, ben-gurion-terminal3-freshness P3 XS, air-haifa-oct2026-route P3 XS, galilee-culinary-institute-oct2026 P3 XS.
+
+## 2026-08-14T14:55Z · iter 1228 · BUILD technical · eilat-luxury-revival-freshness · 2b7c4798
+What: Freshness update across 3 Eilat guides — Princess Hotel revival + Airport City ₪1B project + Almog Beach city-designation. (1) new-luxury-hotels-israel-2026.md: Princess Hotel Eilat + Airport City cluster rows added to at-a-glance table; new "Eilat" section covering ₪1B Airport City (5 luxury hotels, ~1,100 rooms, phased 2026–2027), Princess Hotel confirmed revival pathway per ITN Israel Travel News + TravelAndTourWorld (expected to reopen under new name; no official date set — "check Booking.com" framing throughout; 2027–2028 for additional capacity), Almog Beach city-designation; new Eilat FAQ. (2) eilat-travel-guide.md: 2026 developments callout box added to "Where to stay" section — Airport City ₪1B / Almog Beach 13 km coastal upgrade + city-managed beach designation; updatedAt 2026-07-02→2026-08-14. (3) eilat-hotels-guide.md: Princess Hotel paragraph updated with ITN source + "expected to reopen" honest framing; FAQ answer updated; Almog Beach 13 km upgrade callout added in 2025–2026 New Luxury Openings section; updatedAt 2026-07-29→2026-08-14. 2 new e2e routes: /eilat-hotels-guide added to smoke.spec.ts + a11y.spec.ts.
+Gate: pnpm check 0 errors | build 1982 pages (unchanged — freshness, no new pages) | 21/21 targeted e2e PASS.
+Ship: squash-merged 2b7c4798 to master; pushed origin/master. CI in_progress at state-write (normal pattern; prior SHAs all success).
+Prod: Vercel auto-deploy triggered. CI in_progress — normal.
+Next: iter1229 (1229%5=4 → REVIEW mode).

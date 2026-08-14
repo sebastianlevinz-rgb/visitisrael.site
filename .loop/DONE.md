@@ -2465,3 +2465,6 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1227 · BUILD (seo-content) · hamat-gader-guide · 6be5126d
 - **hamat-gader-guide**: New EN attraction guide for Hamat Gader (southern Golan Heights). Thermal mineral pools (42°C geothermal springs, ~600 m³/hr flow), Middle East's only crocodile farm (200+ Nile crocodiles; Fri/Sat shows), Roman bath complex ruins (2nd–5th c CE), 5th-century synagogue with Aramaic/Greek mosaic, 40-acre tropical parkland. Honest: private site (not INPA-covered), no clinical therapeutic claims, no fabricated prices. 7 FAQs; 2 CTAs (Booking + DiscoverCars); 6 cross-links. Build: 1981→1982 pages.
+
+## iter1228 · BUILD (technical/freshness) · eilat-luxury-revival-freshness · 2b7c4798
+- Freshness additions to 3 Eilat guides covering Princess Hotel revival (ITN/TravelAndTourWorld confirmed), Airport City ₪1B project (~1,100 rooms phased 2026–2027), and Almog Beach city-designation. new-luxury-hotels-israel-2026.md: new table rows + Eilat section + FAQ. eilat-travel-guide.md: 2026 developments callout box. eilat-hotels-guide.md: Princess Hotel framing updated + Almog Beach note. 2 new e2e tests for /eilat-hotels-guide. Build: 1982 pages (unchanged).

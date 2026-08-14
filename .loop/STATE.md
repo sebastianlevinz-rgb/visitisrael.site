@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1227
-- lastMode: BUILD seo-content
-- lastItem: iter1227-hamat-gader-guide
-- lastResult: iter1227 BUILD seo-content — hamat-gader-guide SHIPPED 6be5126d. New EN attraction guide for Hamat Gader (southern Golan Heights): thermal mineral pools (42°C, ~600 m³/hr geothermal flow), Middle East's only crocodile farm (200+ Nile crocodiles; shows Fri 13:00 + Sat 13:00/15:00), Roman bath complex ruins (2nd–5th c CE, one of the largest Roman thermae in the eastern Mediterranean), 5th-century synagogue with Aramaic/Greek mosaic. Honest framing: private site (NOT covered by INPA pass), no clinical therapeutic claims, no fabricated admission prices — directs to hamat-gader.com. 7 FAQs; 2 affiliate CTAs (Booking Tiberias/Golan hotels + DiscoverCars). Cross-links: golan-heights-guide✓, sea-of-galilee-guide✓, tiberias-guide✓, galilee-vs-golan-weekend✓, day-trips-from-tel-aviv✓, israel-national-parks-pass✓. Build: 1981→1982 pages. Gate: pnpm check 0 errors | build 1982 | 2/2 targeted e2e PASS. Committed 6be5126d; pushed master. CI in_progress at state-write (normal).
+- iteration: 1228
+- lastMode: BUILD technical
+- lastItem: iter1228-eilat-luxury-revival-freshness
+- lastResult: iter1228 BUILD technical — eilat-luxury-revival-freshness SHIPPED 2b7c4798. Freshness update across 3 Eilat guides: (1) new-luxury-hotels-israel-2026.md — added Princess Hotel Eilat + Airport City cluster rows to at-a-glance table; new "Eilat: Airport City and Princess Hotel revival" section covering ₪1B project, Princess Hotel confirmed revival pathway per ITN Israel Travel News + TravelAndTourWorld (expected to reopen under new name; no date set — honest "check Booking.com" framing throughout), Almog Beach city-designation; new Eilat FAQ; (2) eilat-travel-guide.md — added 2026 developments callout box in Where to Stay: Airport City ₪1B / 5 luxury properties / Almog Beach city-managed beach + 13 km coastal upgrade; updatedAt 2026-07-02→2026-08-14; (3) eilat-hotels-guide.md — updated Princess Hotel paragraph with ITN source and "expected to reopen" framing; updated FAQ; added Almog Beach 13 km upgrade note; updatedAt 2026-07-29→2026-08-14. 2 new e2e tests: /eilat-hotels-guide in smoke.spec.ts + a11y.spec.ts. Gate: pnpm check 0 errors | build 1982 pages (unchanged — freshness edits, no new pages) | 21/21 targeted e2e PASS. Committed 2b7c4798; pushed master. CI in_progress at state-write (normal).
 
-- nextRotationCategory: BUILD technical (iter1228%5=3 → BUILD; cycle: seo-content→technical; top candidates: eilat-luxury-revival-freshness P2 S, ben-gurion-terminal3-freshness P3 XS, air-haifa-oct2026-route P3 XS, galilee-culinary-institute-oct2026 P3 XS, car-rental-happycar-carwiz-update P3 S)
+- nextRotationCategory: BUILD seo-content (iter1229%5=4 → REVIEW; iter1229 REVIEW mode; after review: iter1230%5=0 → RESEARCH; then iter1231%5=1 → BUILD seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-14T14:20Z
-- branch context: master at 6be5126d; EN=412/401 (12 extra EN guides beyond original 401 plan), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+- updatedAt: 2026-08-14T14:55Z
+- branch context: master at 2b7c4798; EN=412/401 (12 extra EN guides beyond original 401 plan), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
 
 Notes: iter1227 BUILD seo-content — hamat-gader-guide SHIPPED 6be5126d. New EN attraction guide. Hamat Gader ~500K visitors/year; confirmed-missing vs Tourist Israel/Danny The Digger/Bein Harim. Private site (not INPA); car essential. 2/2 targeted PASS; build 1982 pages.
 
