@@ -17653,3 +17653,10 @@ Gate: pnpm check 0 errors | build 1982 pages (unchanged — freshness, no new pa
 Ship: squash-merged 2b7c4798 to master; pushed origin/master. CI in_progress at state-write (normal pattern; prior SHAs all success).
 Prod: Vercel auto-deploy triggered. CI in_progress — normal.
 Next: iter1229 (1229%5=4 → REVIEW mode).
+
+## 2026-08-14T15:58Z · iter 1229 · REVIEW · hamat-gader-backlinks · 7de55cdc
+What: REVIEW pass auditing iter1226–1228 (israel-for-canadian-travelers, eilat-luxury-revival-freshness, hamat-gader-guide). Audit checks: (1) cross-links — all EN slugs resolve; (2) H1 in body — clean; (3) SEO titles — unique; (4) hero + affiliate images — all exist; (5) honesty — Princess Hotel "no confirmed date" caveats present; AffiliateCard doesn't render rating/reviews phantom fields; (6) sitemap — hamat-gader-guide + israel-for-canadian-travelers confirmed present; (7) targeted e2e 12/12 pass pre-fix.
+Fix found: golan-heights-guide.md (primary Golan hub) and galilee-vs-golan-weekend.md had zero mention of Hamat Gader despite it being: (a) the ~500K/year visitor attraction in the southern Golan, (b) prominently cross-linking TO both guides, (c) the closest major attraction to Gamla. Added full ### Hamat Gader section to golan-heights-guide.md (Roman thermae, crocodile farm, 42°C mineral pools, INPA-pass not valid, car required, ~25 min from Tiberias, cross-link to /hamat-gader-guide); hiking trail table row added; bullet added to galilee-vs-golan-weekend.md "Choose Golan if" list.
+Gate: pnpm check 0 errors | build 1982 pages (unchanged — no new pages) | 16/16 targeted e2e (smoke+a11y) PASS.
+Ship: squash-merged 7de55cdc to master; pushed origin/master. CI in_progress at state-write (normal).
+Next: iter1230 (1230%5=0 → RESEARCH mode).
