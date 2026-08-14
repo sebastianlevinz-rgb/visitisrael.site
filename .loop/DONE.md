@@ -2444,3 +2444,6 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1219 · 4cc8f2e2 · 2026-08-14 · jaffa-flea-market-links-fix (REVIEW)
 - **jaffa-flea-market-links-fix**: Corrected 15 broken /guides/<slug> cross-links in jaffa-flea-market-guide.md to correct /<slug> format. No /guides/ directory exists in dist (site routes at /<slug>). Link checker: 0 broken link(s) across 1977 pages. Quick REVIEW fix shipped through gate.
+
+## iter1221 · 42b40f8f · 2026-08-14 · israel-for-australian-travelers (BUILD monetization)
+- **israel-for-australian-travelers**: New EN guide for Australian visitors. DFAT Level 3 advisory, ETA-IL, Emirates/Qantas via Dubai + SIA via Singapore flight table, ANZAC heritage (Beersheba 1917 Light Horse charge + CWGC Cemetery + Beer Sheva day trip), Type I→H adapter (same 230V/no converter), Medicare/HICAPS not valid, ANZ/CBA/Westpac EFTPOS clarification, Australian Embassy Tel Aviv. 3 CTAs: GYG + Booking + DiscoverCars. 6 FAQs. Build: 1977→1978 pages.
