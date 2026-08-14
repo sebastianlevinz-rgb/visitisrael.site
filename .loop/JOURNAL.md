@@ -17583,3 +17583,20 @@ Next: iter1219 (1219%5=4 → REVIEW); candidates: audit iter1218 freshness chang
 What: REVIEW audit of iter1217-shipped jaffa-flea-market-guide.md and iter1216-shipped negev-wine-guide.md. Primary finding: jaffa-flea-market-guide.md had all 15 cross-links using the wrong /guides/<slug> path prefix. Site routes guides at /<slug> (via [...slug].astro) — no /guides/ directory exists in dist. All other guides (best-markets-in-israel, negev-wine-guide, bein-harim-vs-abraham-tours, etc.) correctly use /<slug> format. negev-wine-guide.md was clean — all 9 cross-links verified correct. Quick fix: replaced all 15 /guides/<slug> occurrences with /<slug> in jaffa-flea-market-guide.md. Link checker confirmed 0 broken link(s) across 1977 pages after fix.
 Gate: pnpm check 0 errors | build 1977 pages (unchanged) | links.spec.ts + smoke + a11y for /jaffa-flea-market-guide — 3/3 PASS.
 Merge SHA: 4cc8f2e2; pushed origin/master. CI in_progress at state-write (normal pre-existing base-branch CI=failure pattern; Lighthouse in_progress expected success per prior runs).
+
+## 2026-08-14T05:50Z · iter1220 · RESEARCH · camping-ev-eilat-luxury-infrastructure-2026
+What: 266th research pass. Searched touristisrael.com/israel-travel-2026, travelmarketreport.com, travelandtourworld.com, thebrokebackpacker.com, nomadicmatt.com, iGoogledIsrael.com, matadornetwork.com, alltrails.com, tripadvisor.com, viator.com, jns.org, ynetnews.com, itn.co.il, israelis.co.il, passengerterminaltoday.com, aviationweek.com, haipo.co.il, jpost.com, nomadlawyer.org.
+
+Key findings (6 new BACKLOG items):
+1. **israel-camping-guide** (P2 seo-content M READY) — CONFIRMED MISSING: INPA campground network (10+ sites; Be'erot in Ramon Crater, Masada West, Horshat Tal, Akhziv, Nahal Amud, Gan HaShlosha); advance reservation only (parks.org.il); ranked by iGoogledIsrael.com, MatadorNetwork, AllTrails. We have glamping + campervan but NO tent camping guide.
+2. **israel-ev-road-trip** (P2 seo-content+technical S READY) — CONFIRMED MISSING: 163K EVs on Israeli roads (70% jump 2024); BYD major player; EVChargers-IL app; BYD announcing 3,000 fast chargers EU+Israel Q4 2026; Doralon/Enerjoy networks. Zero editorial competitor for "renting EV in Israel". Growing European eco-tourist niche.
+3. **eilat-luxury-revival-freshness** (P2 technical/freshness S READY) — Princess Hotel Eilat (~420 rooms, "decade in the dark") confirmed reopening; Airport City $1B investment → 5 new luxury resorts (+1,100 rooms targeting USA/UK/Germany/France); Almog Beach → first city-designated beach + 8-mile coastal upgrade. Princess NOT yet in new-luxury-hotels-israel-2026.md.
+4. **ben-gurion-terminal3-freshness** (P3 technical/freshness XS READY) — IAA tender issued mid-2026 for T3 expansion: eastern terminal ~50,000m² + underground facility ~20,000m²; capacity → 40M pax/year. Add "Future expansion" note to ben-gurion-airport-guide.md.
+5. **air-haifa-oct2026-route** (P3 technical/freshness XS READY) — Air Haifa BGA→ETM domestic route Oct 2026, up to 10 daily flights; winter 2026 flight volume +40%; runway extension in planning for future Europe/UAE routes. Update air-haifa-haifa-airport-guide.md.
+6. **galilee-culinary-institute-oct2026** (P3 technical/freshness XS READY) — GCI first academic year Oct 2026 confirmed (JNS + Ynetnews); visitor/VIP culinary programs open to public alongside academic program. Verify galilee-culinary-institute-gonen.md has Oct 2026 date.
+
+Verified existing coverage: camping-van ✓, glamping ✓, stargazing ✓, birdwatching ✓, archaeology ✓, LGBTQ ✓, solo female ✓, day-trips ✓, craft beer ✓, all cruise ports ✓, medical tourism ✓, kibbutz-volunteer (already in BACKLOG iter1210) ✓.
+
+Gate: N/A (RESEARCH — no code changes, no gate run).
+Ship: N/A. 6 new BACKLOG items appended; COMPETITORS.md updated with iter1220 findings.
+Next: iter1221 (1221%5=1 → BUILD monetization); candidates: nova-memorial-october-7-sites-guide (P2 M — careful framing, see §9 note), eilat-luxury-revival-freshness (P2 S, safe, ready), israel-kibbutz-volunteer-guide (P2 S), israel-for-australian-travelers (P2 S).

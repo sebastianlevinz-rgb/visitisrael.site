@@ -8972,3 +8972,53 @@ Searched: touristisrael.com (2026 round-up), lonelyplanet.com, roughguides.com, 
 - Nomadicmatt.com updated Israel budget road trip guide for 2026; our israel-road-trip.md covers similar ground.
 - bneimitzvahtrip.com is a niche site that owns Bar/Bat Mitzvah trip planning SERPs; their multi-post strategy means they dominate that niche. Our single guide is unlikely to beat them; worth monitoring but low priority.
 - Our tooling advantage (22 interactive tools) remains intact — no competitor has added new tools.
+
+### 2026-08-14 · iter1220 · Competitor research pass 266th
+
+**Searched:** touristisrael.com/israel-travel-2026, travelmarketreport.com, travelandtourworld.com, travelpulse.com, thebrokebackpacker.com, nomadicmatt.com, tripadvisor.com (shore excursions), viator.com (stargazing/archaeology), iGoogledIsrael.com, matadornetwork.com, alltrails.com, jns.org, ynetnews.com, itn.co.il, passengerterminaltoday.com, aviationweek.com, haipo.co.il.
+
+**Israel INPA Camping — CONFIRMED MISSING:**
+- iGoogledIsrael.com, Matador Network, AllTrails, Masa Israel all rank for "camping in Israel" / "camp Israel national parks". INPA runs 10+ designated campgrounds: Be'erot (inside Ramon Crater — only campsite IN the crater), Masada West, Horshat Tal, Akhziv, Nahal Amud, Gan HaShlosha. Online reservation required (parks.org.il). We have glamping-israel.md + israel-campervan.md but NO tent camping guide.
+- Added `israel-camping-guide` (P2, M) to BACKLOG.
+
+**Israel EV Road Trip — CONFIRMED MISSING:**
+- 163,000 EVs on Israeli roads in 2024 (70% YoY jump per Statista). BYD became Israel's #1 EV seller; EVChargers-IL app on Google Play for tourist EV trip planning; BYD announcing 3,000 fast chargers EU+Israel by Q4 2026; Doralon + Enerjoy charging networks. Zero editorial competitor for "EV road trip Israel" or "renting electric car Israel". Growing niche as European EV-accustomed tourists visit.
+- Added `israel-ev-road-trip` (P2, S) to BACKLOG.
+
+**Eilat Luxury Revival 2026 — freshness gap:**
+- Airport City committing 1B shekel to 5 new luxury resorts (+1,100 rooms); Princess Hotel Eilat (~420 rooms, iconic landmark, closed ~decade) confirmed reopening. Almog Beach → Eilat's first city-designated beach with new lifeguard station + 8-mile coastal promenade development.
+- ITN Israel Travel News ("The Princess Awakens") + TravelAndTourWorld + NomadLawyer confirm. Princess NOT in new-luxury-hotels-israel-2026.md.
+- Added `eilat-luxury-revival-freshness` (P2, S) to BACKLOG.
+
+**Ben Gurion Terminal 3 Expansion — infrastructure freshness:**
+- IAA issued public tender mid-2026 for T3 expansion: new eastern terminal ~50,000m² + underground baggage facility ~20,000m²; target capacity 40M pax/year. PassengerTerminalToday + AviationWeek confirm. Subject to planning approval.
+- Added `ben-gurion-terminal3-freshness` (P3, XS) to BACKLOG.
+
+**Air Haifa Oct 2026 domestic expansion:**
+- Air Haifa launching BGA→ETM (Ramon/Eilat) domestic route October 2026, up to 10 daily flights; 40% flight volume increase winter 2026; runway extension in planning for future Europe/UAE routes.
+- JPost + Haipo.co.il confirm. Not yet in air-haifa-haifa-airport-guide.md.
+- Added `air-haifa-oct2026-route` (P3, XS) to BACKLOG.
+
+**Galilee Culinary Institute Oct 2026 academic launch:**
+- GCI first full academic year starts October 2026 (soft launch confirmed Feb 2026). Visitor programs + VIP culinary events confirmed alongside academic program. JNS + Ynetnews confirm.
+- Need to verify galilee-culinary-institute-gonen.md has correct Oct 2026 launch date.
+- Added `galilee-culinary-institute-oct2026` (P3, XS) to BACKLOG.
+
+**Verified existing coverage (no action needed):**
+- astrotourism: `israel-stargazing.md` ✓
+- kibbutz volunteer: `israel-kibbutz-volunteer-guide` already in BACKLOG from iter1210 ✓
+- archaeological dig: `israel-archaeology-experience.md` + `beit-guvrin-caves-guide.md` ✓
+- birdwatching: `birdwatching-in-israel.md` ✓
+- day trips from TLV: `day-trips-from-tel-aviv.md` ✓
+- cruise ports: `cruise-shore-excursions-israel.md` + `haifa-cruise-terminal-guide.md` + `ashdod-cruise-port-excursions.md` ✓
+- solo female travel: `solo-female-travel-israel.md` ✓
+- LGBTQ: `lgbtq-travel-israel.md` + `gay-tel-aviv.md` ✓
+- medical tourism: `israel-medical-tourism.md` ✓
+- hiking: multiple trail guides + `israel-national-trail-hiking.md` ✓
+- craft beer: `israel-craft-beer.md` ✓
+
+**Competitor moat observations (iter1220):**
+- thebrokebackpacker.com updated "Backpacking Israel" guide for 2026; our `backpacking-israel.md` covers this ground. No gap.
+- Nomadicmatt.com ranks "budget Israel road trip" — our israel-road-trip.md + israel-cost-budget.md together cover this.
+- Tourist Israel now offers Gaza Border & Nova Festival tours as a bookable product — confirms high demand for nova-memorial content (in BACKLOG as P2).
+- EV road trip content is completely unaddressed by any Israel travel editorial competitor — genuine blue-ocean content opportunity.
