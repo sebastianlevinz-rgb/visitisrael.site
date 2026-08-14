@@ -17562,3 +17562,8 @@ What: 263rd research pass. Searched touristisrael.com (2026 round-up), lonelypla
 Gate: N/A (RESEARCH iteration — no shipping, no gate run).
 Ship: N/A. 4 new BACKLOG items appended; COMPETITORS.md updated.
 Next: iter1216 (1216%5=1 → BUILD monetization); top candidates: nova-memorial-october-7-sites-guide (P2, M, ready — careful sensitive framing required), negev-wine-guide (P2, S, ready — new this pass), jaffa-flea-market-guide (P2, S, ready — new this pass), israel-for-australian-travelers (P2, S, ready).
+
+## 2026-08-14T01:55Z · iter1216 · BUILD monetization · negev-wine-guide
+What: New EN guide `/negev-wine-guide` for Negev wine region, capitalising on its Protected Geographical Indication (PGI) status (May 11 2026) — the world's first desert wine appellation. Content: PGI context + terroir (altitude 200–900m; sandy/loamy soils; diurnal swing 20°C); 5 key wineries (Carmey Avdat/Nabatean UNESCO terraces, Ramat Negev, Kadesh Barnea, Beit El, Boker Valley); self-drive circuit (Kadesh Barnea → Sede Boker → Carmey Avdat → Mitzpe Ramon, 2 days); pairing with Makhtesh Ramon crater + stargazing glamping + Negev Incense Route; 7 FAQs; 3 affiliate CTAs (DiscoverCars car-essential CTA / GYG Negev wine tours / Booking Mitzpe Ramon hotels). No fabricated prices/ratings. Dense cross-links to negev-makhtesh-guide, mitzpe-ramon-guide, glamping-israel, israel-wine-wineries, judean-hills-wine-trail, car-rental-israel, driving-in-israel, negev-highway-40-guide, negev-incense-route, sde-boker-ein-avdat-guide. 2 new e2e tests added (smoke + a11y).
+Gate: pnpm check 0 errors | build 1975→1976 pages (+1) | 2/2 targeted e2e PASS.
+Merge SHA: e8761e7e; pushed origin/master. CI in_progress at state-write (normal — all prior SHAs = success).

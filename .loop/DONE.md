@@ -2429,3 +2429,6 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1214 · 2026-08-13 · ba535682
 **accessibility-2026-freshness** — Three targeted 2026 freshness additions to israel-accessible-travel.md: SkyField Extreme Park Jaffa (Israel's first fully-inclusive extreme park; Bloomfield Stadium rooftop; adaptive harness systems; cross-links /skyfield-extreme-park-jaffa), Haifa Cruise Terminal (opened May 2026; step-free 5,500 m², 28 border-control booths, adapted vehicle access), Rosh Hanikra cable car (restored 2025; honest dual note: cable car/cliff-top accessible, cave boardwalk slippery for unassisted wheelchair users; cross-links /rosh-hanikra-guide). updatedAt bumped 2026-07-07→2026-08-13.
+
+## iter1216 · BUILD (monetization) · negev-wine-guide · e8761e7e
+- New EN guide for Negev wine region (PGI May 2026; world's first desert wine appellation). Terroir, 5 wineries, self-drive circuit, Makhtesh Ramon pairing. DiscoverCars + GYG + Booking CTAs. 7 FAQs. 2 e2e tests. Build: 1975→1976 pages.
