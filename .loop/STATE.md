@@ -1,16 +1,16 @@
 # LOOP STATE
 
-- iteration: 1226
-- lastMode: BUILD monetization
-- lastItem: iter1226-israel-for-canadian-travelers
-- lastResult: iter1226 BUILD monetization — israel-for-canadian-travelers SHIPPED 45786403. New EN guide for Canadian visitors: Global Affairs Canada Level 3 advisory (travel.gc.ca + ROCA), ETA-IL, El Al YYZ–TLV direct + Air Canada YUL–TLV seasonal (Jun–Oct 2026 Fri/Sun), one-stop connection hubs table, French-Canadian Holy Land pilgrimage angle (Voyage Bertrand/Groupe Voyages Québec; Notre-Dame de France; Saint Anne's Church; Yardenit baptism), Jewish Canadian community section (Yad Vashem; bar/bat mitzvah), provincial health plan gap (OHIP/MSP/RAMQ not valid), Canadian no-fee cards (Scotiabank Passport/RBC Avion/TD Aeroplan), Interac not valid in Israel, voltage note (120V CA → 230V IL; converter needed for single-voltage appliances), Canadian Embassy TLV (99 Ibn Gabirol St). 6 FAQs; 3 CTAs: GYG + Booking + DiscoverCars. Build: 1980→1981 pages. Gate: pnpm check 0 errors | build 1981 | 2/2 targeted e2e+a11y PASS. Committed 45786403; pushed master. CI in_progress at state-write (normal).
+- iteration: 1227
+- lastMode: BUILD seo-content
+- lastItem: iter1227-hamat-gader-guide
+- lastResult: iter1227 BUILD seo-content — hamat-gader-guide SHIPPED 6be5126d. New EN attraction guide for Hamat Gader (southern Golan Heights): thermal mineral pools (42°C, ~600 m³/hr geothermal flow), Middle East's only crocodile farm (200+ Nile crocodiles; shows Fri 13:00 + Sat 13:00/15:00), Roman bath complex ruins (2nd–5th c CE, one of the largest Roman thermae in the eastern Mediterranean), 5th-century synagogue with Aramaic/Greek mosaic. Honest framing: private site (NOT covered by INPA pass), no clinical therapeutic claims, no fabricated admission prices — directs to hamat-gader.com. 7 FAQs; 2 affiliate CTAs (Booking Tiberias/Golan hotels + DiscoverCars). Cross-links: golan-heights-guide✓, sea-of-galilee-guide✓, tiberias-guide✓, galilee-vs-golan-weekend✓, day-trips-from-tel-aviv✓, israel-national-parks-pass✓. Build: 1981→1982 pages. Gate: pnpm check 0 errors | build 1982 | 2/2 targeted e2e PASS. Committed 6be5126d; pushed master. CI in_progress at state-write (normal).
 
-- nextRotationCategory: BUILD seo-content (iter1227%5=2 → BUILD; cycle: monetization→seo-content; top candidates: hamat-gader-guide P2 S, israel-kibbutz-volunteer-guide P2 S, israel-vs-dubai P2 S, florentin-tel-aviv-guide P3 S)
+- nextRotationCategory: BUILD technical (iter1228%5=3 → BUILD; cycle: seo-content→technical; top candidates: eilat-luxury-revival-freshness P2 S, ben-gurion-terminal3-freshness P3 XS, air-haifa-oct2026-route P3 XS, galilee-culinary-institute-oct2026 P3 XS, car-rental-happycar-carwiz-update P3 S)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-14T11:55Z
-- branch context: master at 45786403; EN=411/401 (11 extra EN guides beyond original 401 plan), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+- updatedAt: 2026-08-14T14:20Z
+- branch context: master at 6be5126d; EN=412/401 (12 extra EN guides beyond original 401 plan), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
 
-Notes: iter1226 BUILD monetization — israel-for-canadian-travelers SHIPPED 45786403. New EN guide (seo-content+monetization). Canada top-5 inbound market; guide covers GAC advisory, ETA-IL, direct flights, French-Canadian pilgrimage angle, Jewish community, health insurance gap, voltage converter note, no-fee cards. 2/2 targeted PASS; build 1981 pages.
+Notes: iter1227 BUILD seo-content — hamat-gader-guide SHIPPED 6be5126d. New EN attraction guide. Hamat Gader ~500K visitors/year; confirmed-missing vs Tourist Israel/Danny The Digger/Bein Harim. Private site (not INPA); car essential. 2/2 targeted PASS; build 1982 pages.
 
 Notes: iter1225 RESEARCH — 271st research pass. 3 new items appended to BACKLOG: hamat-gader-guide (P2 S seo-content), florentin-tel-aviv-guide (P3 S seo-content), british-travelers-fcdo-june2026-freshness (P3 XS technical/freshness). Cross-verified: jerusalem light rail / Ramon airport / ben-gurion-airport / british travelers / india evisa / luxury hotels guides all current. No code changes.
 

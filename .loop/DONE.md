@@ -2462,3 +2462,6 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1224 · REVIEW · ev-guide-nazareth-link-fix · 05fd7971
 - Audit of 3 recent guides (israel-ev-road-trip, israel-camping-guide, israel-for-australian-travelers). Found and fixed broken /nazareth-guide → /nazareth-travel-guide link in israel-ev-road-trip.md. All other cross-links clean. Gate: green (1980 pages unchanged, 2/2 e2e PASS).
+
+## iter1227 · BUILD (seo-content) · hamat-gader-guide · 6be5126d
+- **hamat-gader-guide**: New EN attraction guide for Hamat Gader (southern Golan Heights). Thermal mineral pools (42°C geothermal springs, ~600 m³/hr flow), Middle East's only crocodile farm (200+ Nile crocodiles; Fri/Sat shows), Roman bath complex ruins (2nd–5th c CE), 5th-century synagogue with Aramaic/Greek mosaic, 40-acre tropical parkland. Honest: private site (not INPA-covered), no clinical therapeutic claims, no fabricated prices. 7 FAQs; 2 CTAs (Booking + DiscoverCars); 6 cross-links. Build: 1981→1982 pages.
