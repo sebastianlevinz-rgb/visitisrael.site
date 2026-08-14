@@ -2468,3 +2468,6 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1228 · BUILD (technical/freshness) · eilat-luxury-revival-freshness · 2b7c4798
 - Freshness additions to 3 Eilat guides covering Princess Hotel revival (ITN/TravelAndTourWorld confirmed), Airport City ₪1B project (~1,100 rooms phased 2026–2027), and Almog Beach city-designation. new-luxury-hotels-israel-2026.md: new table rows + Eilat section + FAQ. eilat-travel-guide.md: 2026 developments callout box. eilat-hotels-guide.md: Princess Hotel framing updated + Almog Beach note. 2 new e2e tests for /eilat-hotels-guide. Build: 1982 pages (unchanged).
+
+## iter1231 · BUILD (seo-content) · israel-for-japanese-travelers · 26df3502
+- **israel-for-japanese-travelers**: New EN guide for Japanese tourists. ETA-IL entry (Japan visa-exempt), El Al NRT-TLV ~5x/week + Arkia NRT-TLV (launched Oct 25, 2026 — first Japan route competition), connecting via IST/HKG/AUH/DOH/SIN, PayPay/LINE Pay/Rakuten Pay/Suica not accepted (Visa/Mastercard only), critical 100V vs 230V voltage difference (Japan = unique 100V; converter needed for 100V-only devices), National Health Insurance not valid abroad, mobile/eSIM, cultural notes (Israeli directness, Shabbat), embassy contacts. 3 CTAs (GYG + Booking + DiscoverCars). 6 FAQs. 2 new e2e tests PASS. Build: 1982→1983 pages (+1).
