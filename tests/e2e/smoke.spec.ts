@@ -1620,6 +1620,7 @@ const ROUTES = [
   '/ben-gurion-airport-transfers',
   '/best-national-parks-israel',
   '/israel-camping-guide',
+  '/israel-ev-road-trip',
 ];
 
 for (const route of ROUTES) {
