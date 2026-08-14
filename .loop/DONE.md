@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1226 · BUILD (monetization) · israel-for-canadian-travelers · 45786403
+- New EN guide for Canadian visitors: GAC Level 3 advisory, ETA-IL, El Al YYZ + Air Canada YUL seasonal, French-Canadian pilgrimage angle, Jewish Canadian community, OHIP/MSP/RAMQ gap, Scotiabank Passport/RBC Avion/TD Aeroplan no-fee cards, Interac not valid in Israel, 120V→230V voltage converter note, Canadian Embassy TLV (99 Ibn Gabirol). 6 FAQs; 3 CTAs: GYG + Booking + DiscoverCars. Build: 1980→1981 pages.
+
 ## iter1211 · BUILD (monetization) · airport-transfers-sherut-upgrade · 6ff461af
 - Extended ben-gurion-airport-transfers.md (EN only; other locales not modified): added "Shared sherut" section (24h incl. Shabbat; ~₪65–80 to TLV, ~₪100–120 to JRS; prices as ranges; confirm in NIS); added "Shared shuttle" section (pre-booked fixed-departure vans, distinct from street sherut); expanded comparison table from 4→6 rows adding Shabbat + Best-for columns; added GetYourGuide as third affiliateCta (shared shuttle product) alongside WelcomePickups + KiwiTaxi; new sherut FAQ; description updated; updatedAt bumped 2026-08-13. Added /ben-gurion-airport-transfers to smoke + a11y ROUTES (2 new tests). Gate: pnpm check 0 errors | build 1973 pages (unchanged) | 6/6 targeted e2e PASS. Squash-merged 6ff461af; pushed origin/master. CI in_progress.
 

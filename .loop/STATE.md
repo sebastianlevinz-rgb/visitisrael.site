@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1225
-- lastMode: RESEARCH — 271st research pass (hamat-gader + florentin + fcdo-freshness)
-- lastItem: iter1225-research-271
-- lastResult: iter1225 RESEARCH — 3 new BACKLOG items discovered: (1) hamat-gader-guide (P2 S, seo-content) — 500K visitors/year thermal springs + crocodile farm + Roman ruins in southern Golan; confirmed gap vs Tourist Israel/Danny The Digger/Bein Harim; (2) florentin-tel-aviv-guide (P3 S, seo-content) — dedicated Florentin neighborhood page; Tourist Israel new 2026 tour; GYG commissionable; (3) british-travelers-fcdo-june2026-freshness (P3 XS, technical/freshness) — FCDO lifted blanket "advise against all travel" 3 Jun 2026; UK travel insurance implication. Verified: jerusalem-light-rail-guide (Green Line covered ✓), eilat-ramon-airport-guide (Wizz Air + international ✓), ben-gurion-airport-guide (Terminal 1 ✓), israel-for-british-travelers (mid-2026 tiered advice ✓), israel-for-indian-travelers (eVisa-B2 ✓), new-luxury-hotels-israel-2026 (R48 already added ✓). No code changes; no gate run.
+- iteration: 1226
+- lastMode: BUILD monetization
+- lastItem: iter1226-israel-for-canadian-travelers
+- lastResult: iter1226 BUILD monetization — israel-for-canadian-travelers SHIPPED 45786403. New EN guide for Canadian visitors: Global Affairs Canada Level 3 advisory (travel.gc.ca + ROCA), ETA-IL, El Al YYZ–TLV direct + Air Canada YUL–TLV seasonal (Jun–Oct 2026 Fri/Sun), one-stop connection hubs table, French-Canadian Holy Land pilgrimage angle (Voyage Bertrand/Groupe Voyages Québec; Notre-Dame de France; Saint Anne's Church; Yardenit baptism), Jewish Canadian community section (Yad Vashem; bar/bat mitzvah), provincial health plan gap (OHIP/MSP/RAMQ not valid), Canadian no-fee cards (Scotiabank Passport/RBC Avion/TD Aeroplan), Interac not valid in Israel, voltage note (120V CA → 230V IL; converter needed for single-voltage appliances), Canadian Embassy TLV (99 Ibn Gabirol St). 6 FAQs; 3 CTAs: GYG + Booking + DiscoverCars. Build: 1980→1981 pages. Gate: pnpm check 0 errors | build 1981 | 2/2 targeted e2e+a11y PASS. Committed 45786403; pushed master. CI in_progress at state-write (normal).
 
-- nextRotationCategory: BUILD monetization (iter1226%5=1 → BUILD monetization; top candidates: eilat-luxury-revival-freshness P2 S, nova-memorial-october-7-sites-guide P2 M, israel-for-canadian-travelers P2 S, hamat-gader-guide P2 S)
+- nextRotationCategory: BUILD seo-content (iter1227%5=2 → BUILD; cycle: monetization→seo-content; top candidates: hamat-gader-guide P2 S, israel-kibbutz-volunteer-guide P2 S, israel-vs-dubai P2 S, florentin-tel-aviv-guide P3 S)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-14T10:30Z
-- branch context: master at 05fd7971; EN=410/401 (10 extra EN guides beyond original 401 plan), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+- updatedAt: 2026-08-14T11:55Z
+- branch context: master at 45786403; EN=411/401 (11 extra EN guides beyond original 401 plan), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+
+Notes: iter1226 BUILD monetization — israel-for-canadian-travelers SHIPPED 45786403. New EN guide (seo-content+monetization). Canada top-5 inbound market; guide covers GAC advisory, ETA-IL, direct flights, French-Canadian pilgrimage angle, Jewish community, health insurance gap, voltage converter note, no-fee cards. 2/2 targeted PASS; build 1981 pages.
 
 Notes: iter1225 RESEARCH — 271st research pass. 3 new items appended to BACKLOG: hamat-gader-guide (P2 S seo-content), florentin-tel-aviv-guide (P3 S seo-content), british-travelers-fcdo-june2026-freshness (P3 XS technical/freshness). Cross-verified: jerusalem light rail / Ramon airport / ben-gurion-airport / british travelers / india evisa / luxury hotels guides all current. No code changes.
 
