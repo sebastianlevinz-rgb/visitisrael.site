@@ -111,6 +111,14 @@ Beyond the archaeology, Gamla is one of the best places in Israel to see **Griff
 
 Allow 2.5–3 hours for the full circuit to the archaeological site and back. Covered by the INPA National Parks Pass. See the [Gamla Nature Reserve guide](/gamla-nature-reserve-guide) for a full breakdown of the circuit, the vulture colony, and the waterfall.
 
+### Hamat Gader
+
+**Hamat Gader** is a privately operated site at the far south of the Golan Heights, tucked into a basalt river gorge where the Yarmouk River marks the border with Jordan and Syria. Its combination of 42°C thermal mineral pools, the **Middle East's only crocodile farm** (200+ Nile crocodiles; feeding shows on Fridays and Saturdays), and well-preserved Roman bath ruins makes it one of the most distinctive attractions in northern Israel.
+
+Unlike Gamla, Banias and Nimrod Fortress, Hamat Gader is **not covered by the INPA National Parks Pass** — it operates independently with its own admission structure. The Roman thermae ruins here were among the largest bath complexes in the eastern Mediterranean, and a 5th-century synagogue with a mosaic floor is included on site. Around half a million visitors come annually, the majority Israeli — which says something about the site's draw and explains why early arrival on weekends is advisable.
+
+Hamat Gader is approximately 25 minutes south of Tiberias via Route 98; a car is essential as no public bus serves the gorge. It pairs naturally with a Golan day that starts at Gamla or the Sea of Galilee shore and exits south through the Jordan Valley. See the full [Hamat Gader guide](/hamat-gader-guide) for practical information, show times and combined itinerary ideas.
+
 ### Mount Hermon
 
 **Mount Hermon** dominates the northern skyline of the Golan Heights. At 2,814 m at its peak (the accessible summit is at 2,224 m on the Israeli-administered section), it is the highest point reachable from Israel. In winter, the **Hermon ski resort** operates chairlifts, ski rental, and marked runs from the upper station.
@@ -131,7 +139,8 @@ The Golan Heights has excellent hiking through terrain that differs markedly fro
 | Banias Waterfall trail | Easy | 2 hrs | Hermon Stream, waterfalls, ancient mill |
 | Avital–Bental circuit | Easy–moderate | 2–3 hrs | Two volcanic craters, 360° views |
 | Yehudiyye Forest loop | Moderate | 4–5 hrs | Mixed terrain, Yehudiyye waterfall, basalt landscape |
-| Gamla circuit | Moderate | 2.5–3 hrs | Ruins, vulture colony, Gamla waterfall |
+| Gamla circuit | Moderate | 2.5–3 hrs | Ruins, vulture colony, Gamla waterfall
+Hamat Gader gorge trail | Easy | 1–2 hrs | Gorge, springs, Roman ruins (private site) |
 
 The **Israel National Trail** passes through the Golan Heights, and multi-day sections from Katzrin north to Mount Hermon are among the most scenic on the entire trail. Spring (March–May) is the best time for trail hiking; streams are full and the wildflower display is at its peak.
 

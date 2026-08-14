@@ -66,6 +66,7 @@ You want **highland drama and fewer crowds**. The Golan's basalt landscape — c
 - **[Nimrod Fortress](/golan/nimrod-fortress)** — a Crusader-then-Mamluk castle clinging to a ridge above the Banias valley; one of the most photogenic ruins in Israel
 - **Golan wine** — Golan Heights Winery (Yarden label) in Katzrin does excellent cellar-door tastings; Pelter and Bazelet HaGolan are boutique alternatives nearby
 - **Druze village hospitality** — lunch or coffee in Majdal Shams (the largest Druze village on the Golan) is a highlight of any northern trip; the Druze pita and mountain herbs are distinct from anything on the coast
+- **[Hamat Gader](/hamat-gader-guide)** — at the far southern tip of the Golan, a Roman thermae, 42°C mineral pools and the Middle East's only crocodile farm in one gorge; a natural add-on if you exit the Golan via Tiberias
 
 In **winter**, the Golan is the only option if you want skiing: Mount Hermon's slopes operate December to March, snow permitting.
 
