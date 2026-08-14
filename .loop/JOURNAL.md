@@ -17547,3 +17547,18 @@ What: REVIEW pass — selected accessibility-2026-freshness P3 quick fix (pre-li
 Gate: pnpm check 0 errors | build 1975 pages (unchanged) | 11/11 targeted e2e PASS (7 accessible-travel smoke+a11y + 4 unrelated from grep match).
 Ship: committed ba535682 to master; pushed origin/master. CI + Lighthouse in_progress at state-write (normal Vercel pattern — all prior SHAs = success).
 Next: iter1215 (1215%5=0 → RESEARCH); candidate: nova-memorial-october-7-sites-guide research/scoping, or competitor gap sweep (monetization/seo-content freshness).
+
+## 2026-08-14T00:35Z · iter1215 · RESEARCH · negev-wine-jaffa-flea-r48-visitor-surge
+What: 263rd research pass. Searched touristisrael.com (2026 round-up), lonelyplanet.com, roughguides.com, frommers.com, nomadicmatt.com, thebrokebackpacker.com, tripadvisor.com, viator.com, getyourguide.com, travelpulse.com, jpost.com, timesofisrael.com, wineindustryadvisor.com, winetourism.com, exclusiveisraeltours.com, bneimitzvahtrip.com, myisraelstay.com, paxnews.com.
+
+**Key findings:**
+1. **negev-wine-guide** (NEW P2 seo-content+monetization S) — CONFIRMED MISSING: zero "Negev wine" in any guide. Negev received Protected Geographical Indication (PGI) status May 2026. 60+ wineries, 1M+ bottles/year; first desert wine region globally at this status tier; comparable to Champagne/Napa/Rioja. JPost, Times of Israel, TravelPulse, Wine Industry Advisor all covered the PGI designation. We have golan-heights-wineries, galilee-wine-trail, judean-hills-wine-trail, israel-wine-wineries — but zero Negev wine content. Strong SEO: "Negev wine region", "Israel desert wine", "Negev winery tour". GYG wine tours + DiscoverCars CTAs. Added to BACKLOG as P2 S.
+2. **jaffa-flea-market-guide** (NEW P2 seo-content+monetization S) — CONFIRMED MISSING: we have jaffa-travel-guide.md (brief mention), jaffa-food-guide.md, jaffa-hotels-guide.md — but no standalone Shuk Hapishpishim guide. Tourist Israel, TripAdvisor, takeyourbackpack.com, kupi.com, levyisraeltours.com, Bein Harim all rank dedicated pages. GYG offers bookable Jaffa flea+food tours. Added to BACKLOG as P2 S.
+3. **r48-hotel-new-luxury-freshness** (NEW P3 technical/freshness XS) — R48 Hotel (1930s Bauhaus, internal garden, curated Israeli art; confirmed major 2026 boutique opening by JewishChronicle + myisraelstay.com) not in our new-luxury-hotels-israel-2026.md. One-paragraph addition. Added to BACKLOG as P3 XS.
+4. **canada-us-visitor-surge-callout** (NEW P3 technical/freshness XS) — PAX News confirmed Canada+US visitors to Israel up 73% in 2026; Israel investing $85M in N.Am tourism marketing. Brief recovery-signal callout for is-israel-safe.md or first-time-in-israel.md. Added to BACKLOG as P3 XS.
+
+**Verified existing coverage (no action needed):** digital-nomad-israel.md ✓, israel-road-trip.md ✓, wine trails (galilee+golan+judean-hills) ✓, eilat-diving-snorkeling.md ✓, israel-honeymoon.md ✓, israel-food-tours-cooking-classes.md ✓, bar-bat-mitzvah-israel.md ✓, glamping-israel.md ✓, sustainable-travel-israel.md ✓.
+
+Gate: N/A (RESEARCH iteration — no shipping, no gate run).
+Ship: N/A. 4 new BACKLOG items appended; COMPETITORS.md updated.
+Next: iter1216 (1216%5=1 → BUILD monetization); top candidates: nova-memorial-october-7-sites-guide (P2, M, ready — careful sensitive framing required), negev-wine-guide (P2, S, ready — new this pass), jaffa-flea-market-guide (P2, S, ready — new this pass), israel-for-australian-travelers (P2, S, ready).

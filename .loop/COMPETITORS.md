@@ -8938,3 +8938,37 @@ LP has a generic Petra page (Jordan-focused), not an Israel-perspective comparis
 - Tourist Israel, Bein Harim, Exclusive Israel Tours have major ADVANTAGE in dark/memorial tourism content that we completely lack. The Nova Memorial is arguably the highest-interest new site in Israel since 2023. Our gap here is material.
 - Our tooling advantage (22 interactive tools vs. Tourist Israel's zero) remains strong.
 - Kibbutz volunteer niche: MASA Israel dominates program pages; we can rank for DIY/comparison/planning intent.
+
+### 2026-08-14 · iter1215 · RESEARCH (263rd research pass)
+Searched: touristisrael.com (2026 round-up), lonelyplanet.com, roughguides.com, frommers.com (Israel), nomadicmatt.com, thebrokebackpacker.com, tripadvisor.com, viator.com, getyourguide.com, travelpulse.com, jpost.com, timesofisrael.com, wineindustryadvisor.com, winetourism.com, exclusiveisraeltours.com, bneimitzvahtrip.com, myisraelstay.com, thejewishchronicle.com, paxnews.com.
+
+**Negev Wine Region PGI — CONFIRMED major gap:**
+- Negev received Protected Geographical Indication status May 11 2026 (JPost, ToI, TravelPulse, Wine Industry Advisor, Atalayar). 60+ wineries; 1M+ bottles/year; comparable to Champagne/Napa in designation status.
+- We have golan-heights-wineries, galilee-wine-trail, judean-hills-wine-trail, israel-wine-wineries — but ZERO Negev wine content. Added `negev-wine-guide` to BACKLOG (P2, S).
+
+**Jaffa Flea Market — CONFIRMED missing dedicated guide:**
+- Tourist Israel, TripAdvisor, The Backpacker (takeyourbackpack.com), kupi.com, levyisraeltours.com, Bein Harim all rank dedicated Jaffa Flea Market (Shuk Hapishpishim) pages.
+- We have jaffa-travel-guide.md (brief mention) but no standalone guide. GYG offers bookable Jaffa flea market + food tours. Added `jaffa-flea-market-guide` to BACKLOG (P2, S).
+
+**2026 Hotel openings — partial gap:**
+- JewishChronicle + myisraelstay.com confirmed 17 new hotels in 2026; R48 Hotel (1930s Bauhaus restored, internal garden, Israeli art) among the most-noted boutique openings — NOT in our new-luxury-hotels-israel-2026.md. Added `r48-hotel-new-luxury-freshness` (P3, XS) to BACKLOG.
+
+**Canada/US visitor surge — freshness opportunity:**
+- PAX News confirmed Canada+US visitors to Israel up 73% in 2026; Israel investing $85M in North American tourism marketing. A one-line callout in is-israel-safe.md or first-time-in-israel.md as a recovery signal (honest framing: advisories still Level 3). Added `canada-us-visitor-surge-callout` (P3, XS) to BACKLOG.
+
+**Verified existing coverage (no action needed):**
+- Digital nomad guide: `digital-nomad-israel.md` already exists ✓
+- Road trip guides: `israel-road-trip.md` + `northern-israel-road-trip.md` ✓
+- Wine trails: galilee + Golan + Judean Hills all have dedicated guides ✓
+- Eilat diving: `eilat-diving-snorkeling.md` + `eilat-snorkeling-guide.md` + `eilat-dolphin-reef-guide.md` ✓
+- Honeymoon: `israel-honeymoon.md` ✓
+- Food tours: `israel-food-tours-cooking-classes.md` ✓
+- Bar/Bat Mitzvah: `bar-bat-mitzvah-israel.md` ✓ (bneimitzvahtrip.com ranks strongly but content category covered)
+- Glamping: `glamping-israel.md` ✓
+- Sustainable travel: `sustainable-travel-israel.md` ✓
+
+**Competitor moat observations (iter1215):**
+- Frommer's Israel ranks well for structured itineraries (1-week, 2-week) — our israel-5-vs-7-vs-10-days.md covers this; no gap.
+- Nomadicmatt.com updated Israel budget road trip guide for 2026; our israel-road-trip.md covers similar ground.
+- bneimitzvahtrip.com is a niche site that owns Bar/Bat Mitzvah trip planning SERPs; their multi-post strategy means they dominate that niche. Our single guide is unlikely to beat them; worth monitoring but low priority.
+- Our tooling advantage (22 interactive tools) remains intact — no competitor has added new tools.
