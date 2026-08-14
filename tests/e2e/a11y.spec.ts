@@ -1344,6 +1344,7 @@ const ROUTES = [
   '/best-markets-in-israel',
   '/ben-gurion-airport-transfers',
   '/best-national-parks-israel',
+  '/israel-camping-guide',
 ];
 
 for (const route of ROUTES) {
