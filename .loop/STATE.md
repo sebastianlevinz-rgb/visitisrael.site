@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1233
-- lastMode: BUILD monetization
-- lastItem: israel-for-dutch-travelers
-- lastResult: iter1233 BUILD monetization — israel-for-dutch-travelers SHIPPED 8b422f0e. New EN guide targeting Dutch visitors. KLM multiple daily AMS–TLV direct + Transavia seasonal + Corendon EIN–TLV; ETA-IL (Netherlands on visa-exempt list; ₪25; iaa.gov.il); iDEAL payment system gap (Dutch-only, not accepted in Israel — use Visa/Mastercard or Wise); OV-chipkaart irrelevant abroad; zorgverzekering (Dutch basic health insurance) not valid in Israel + EHIC not valid in Israel (EU-only coverage); reisverzekering recommended; 230V same as NL → Type F to Type H adapter only (no converter); Dutch-Jewish historical connections (Amsterdam Jodenbuurt, Portuguese-Israelite Synagogue 1675, Yad Vashem Names Database); bijbelgordel Protestant pilgrimage tradition; Netherlands Embassy Tel Aviv. 3 CTAs: GYG private Jerusalem tour + Booking + DiscoverCars. 6 FAQs. 2 new e2e tests (smoke + a11y) — 2/2 PASS. Gate: pnpm check 0 errors | build 1983→1984 pages (+1) | test:e2e 2/2 targeted PASS. Committed 8b422f0e; pushed master. CI in_progress at state-write (normal).
+- iteration: 1234
+- lastMode: REVIEW
+- lastItem: seasonal-guides-review-fix
+- lastResult: iter1234 REVIEW — seasonal-guides-review-fix SHIPPED 8b545da8. Audited israel-in-october.md + israel-in-september.md. Found 4 issues: (1) Rosh Hashanah 2026 date wrong in Oct guide — "Sep 12-14" corrected to "Sep 11-13" (matches Sep guide + Yom Kippur Sep 21 = 10 days after RH day 1 Sep 11); (2) /israel-shabbat-calendar broken link in both guides replaced with /shabbat-guide; (3) /israel-effective-days broken link in both guides replaced with /shabbat-guide; (4) /dead-sea broken link in Sep guide corrected to /dead-sea-guide. Both guides updatedAt bumped 2026-08-14. Also confirmed all cross-links in dutch + japanese guides (iter1231+1233) are clean. Gate: pnpm check 0 errors | build 1984 pages (unchanged) | 16/16 targeted e2e PASS. Committed 8b545da8; pushed master. CI in_progress at state-write (normal).
 
-- nextRotationCategory: REVIEW (iter1234%5=4 → REVIEW)
+- nextRotationCategory: RESEARCH (iter1235%5=0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-14T19:40Z
-- branch context: master at 8b422f0e; EN=414/401 (14 extra EN guides), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+- updatedAt: 2026-08-14T21:35Z
+- branch context: master at 8b545da8; EN=414/401 (14 extra EN guides), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
 
 Notes: iter1232 BUILD technical (tools-empty fallthrough) — airlines-delta-klm-aug2026-freshness SHIPPED 6158aced. Three confirmed factual errors corrected in airlines-flying-israel-2026.md: (1) KLM resumption date wrong — updated from 26 July to 25 August 2026 (NL Times + AirlineGeeks sources); added Larnaca (LCA) crew-stop caveat (crew overnight in Cyprus, not Israel — operationally important for same-day connections); (2) Delta ATL wrong — was listed as active (3×/week launched April 15); ACTUAL: suspended through 18 December 2026 per Delta News Hub; removed from "currently flying" table; added to suspended table + all prose references corrected; (3) Delta BOS wrong — was "scheduled Oct 24 2026"; ACTUAL: delayed indefinitely per Delta News Hub + Paddle Your Own Kanoo; updated throughout. updatedAt bumped to 2026-08-14. Gate: pnpm check 0 errors | build 1983 pages (unchanged) | test:e2e 3090/3090 PASS (23.3m). Committed 6158aced; pushed master. CI in_progress at state-write (normal).
 

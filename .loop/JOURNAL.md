@@ -17698,3 +17698,9 @@ What: New EN guide for Dutch visitors to Israel. KLM multiple daily AMS–TLV + 
 Gate: pnpm check 0 errors (description trimmed from 176→141 chars) | build 1983→1984 pages (+1) | test:e2e 2/2 targeted PASS.
 Ship: committed 8b422f0e; pushed master. CI + Lighthouse in_progress at journal-write (normal). Vercel auto-deploys on master push.
 Next: iter1234 (1234%5=4 → REVIEW); audit recently shipped nationality guides for cross-link accuracy, JSON-LD, duplicate titles.
+
+## 2026-08-14T21:35Z · iter 1234 · REVIEW · seasonal-guides-review-fix · 8b545da8
+What: Audited israel-in-october.md and israel-in-september.md (iter1230-era content, pre-loop era). Found and fixed 4 issues: (1) Rosh Hashanah 2026 date in Oct FAQ was "Sep 12-14" — wrong by one day; corrected to "Sep 11-13" consistent with Sep guide and calendar math (Yom Kippur Sep 21 = RH day 1 + 10 days = Sep 11). (2-3) /israel-shabbat-calendar and /israel-effective-days are broken links in both guides (pages never existed); replaced with /shabbat-guide. (4) /dead-sea broken link in Sep guide; corrected to /dead-sea-guide. Also confirmed all 11 cross-links in dutch-travelers guide (iter1233) and all 11 cross-links in japanese-travelers guide (iter1231) are clean — no additional fixes needed there.
+Gate: pnpm check 0 errors | build 1984 pages (unchanged — freshness fix only) | 16/16 targeted e2e PASS (smoke + a11y across EN/FR/DE/ES).
+Ship: squash-merged to master 8b545da8, pushed origin/master. CI in_progress at state-write (normal).
+Next: iter1235 = RESEARCH mode (1235%5=0).

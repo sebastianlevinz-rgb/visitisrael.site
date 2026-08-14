@@ -2475,3 +2475,6 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1233 · 2026-08-14 · israel-for-dutch-travelers · SHA 8b422f0e
 New EN guide for Dutch visitors. KLM AMS–TLV direct (multiple daily) + Transavia seasonal; iDEAL not accepted in Israel (Visa/Mastercard/Wise); zorgverzekering + EHIC invalid in Israel (reisverzekering essential); Type F→H adapter (no converter — 230V same); bijbelgordel pilgrimage circuit; Dutch-Jewish heritage (Esnoga 1675, Yad Vashem Names Database); Netherlands Embassy Tel Aviv. 3 CTAs + 6 FAQs. Build: 1984 pages. 2/2 e2e PASS.
+
+## iter1234 · REVIEW · seasonal-guides-review-fix · 8b545da8
+- Corrected Rosh Hashanah 2026 date in israel-in-october.md (Sep 12-14 → Sep 11-13); fixed 3 broken cross-links (/israel-shabbat-calendar x2 → /shabbat-guide; /israel-effective-days x2 → /shabbat-guide; /dead-sea → /dead-sea-guide) across September and October guides. Both updatedAt bumped 2026-08-14. Build unchanged (1984 pages); 16/16 e2e PASS.
