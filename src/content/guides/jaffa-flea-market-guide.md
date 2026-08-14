@@ -34,13 +34,13 @@ faqs:
   - question: Can you negotiate prices at the Jaffa Flea Market?
     answer: 'Haggling is expected and appropriate for stall vendors and outdoor dealers — starting at 20–30% below the asking price is a reasonable opening. Items with fixed price tags (typically in the permanent boutique shops) are usually non-negotiable. The best negotiating conditions are late in the day (vendors prefer selling to carrying items back), or mid-week when traffic is lighter. Paying cash helps — many stall vendors prefer it, and offering cash sometimes unlocks a discount that card payment would not. Do not haggle aggressively or disrespectfully; a friendly, patient style works better than pressure.'
   - question: What food is available at the Jaffa Flea Market?
-    answer: "The lanes around the market have some of the best eating in Tel Aviv. Abu Hassan (Ali Karavan) on HaDolphin Street, a short walk from the flea market entrance, is widely considered one of Israel's best hummus institutions — arrive before midday, as it sells out. Dr. Shakshuka on Beit Eshel Street has been feeding the flea market crowd since 1991 with its eponymous eggs-in-tomato-sauce dish and broader Libyan-Jewish menu. Margaret Tayar's restaurant, near the port, is the go-to for whole-fish Jaffa-style dining by the harbour. The market lanes themselves have coffee carts, juice bars, and falafel counters. For a wider Jaffa food overview, see the [Jaffa food guide](/guides/jaffa-food-guide)."
+    answer: "The lanes around the market have some of the best eating in Tel Aviv. Abu Hassan (Ali Karavan) on HaDolphin Street, a short walk from the flea market entrance, is widely considered one of Israel's best hummus institutions — arrive before midday, as it sells out. Dr. Shakshuka on Beit Eshel Street has been feeding the flea market crowd since 1991 with its eponymous eggs-in-tomato-sauce dish and broader Libyan-Jewish menu. Margaret Tayar's restaurant, near the port, is the go-to for whole-fish Jaffa-style dining by the harbour. The market lanes themselves have coffee carts, juice bars, and falafel counters. For a wider Jaffa food overview, see the [Jaffa food guide](/jaffa-food-guide)."
   - question: Is the Jaffa Flea Market worth visiting?
     answer: 'Yes — especially if you have any interest in antiques, vintage finds, or Judaica. The Shuk HaPishpeshim is one of the best antique markets in the Middle East, and unlike a formal auction house or antique shop, it operates as an open, unpredictable bazaar where genuine finds still surface at reasonable prices. Even for visitors with no buying intention, the flea market quarter is a distinct neighbourhood with a different character from the polished Old Port — rougher-edged, more local, and more interesting. A Sunday morning visit, followed by hummus at Abu Hassan, is a classic Tel Aviv itinerary.'
   - question: How do I get to the Jaffa Flea Market?
-    answer: "The flea market is in the Flea Market Quarter (Shuk HaPishpeshim district) of Old Jaffa, roughly 3–4 km south of central Tel Aviv. The most enjoyable approach is on foot along the seafront promenade from Jaffa Port (10 minutes south) or from Neve Tzedek/Florentin (15 minutes walking inland). From central Tel Aviv, the Red Line light rail stops near Jaffa — check the [Tel Aviv light rail guide](/guides/tel-aviv-light-rail) for the current closest stop. By taxi or rideshare (Gett, Yango), the journey from central Tel Aviv is 10–15 minutes depending on traffic. Parking in the Old Jaffa area is limited and paid; arriving on foot or by public transit is strongly recommended on Sunday mornings."
+    answer: "The flea market is in the Flea Market Quarter (Shuk HaPishpeshim district) of Old Jaffa, roughly 3–4 km south of central Tel Aviv. The most enjoyable approach is on foot along the seafront promenade from Jaffa Port (10 minutes south) or from Neve Tzedek/Florentin (15 minutes walking inland). From central Tel Aviv, the Red Line light rail stops near Jaffa — check the [Tel Aviv light rail guide](/tel-aviv-light-rail) for the current closest stop. By taxi or rideshare (Gett, Yango), the journey from central Tel Aviv is 10–15 minutes depending on traffic. Parking in the Old Jaffa area is limited and paid; arriving on foot or by public transit is strongly recommended on Sunday mornings."
   - question: What else is there to do near the Jaffa Flea Market?
-    answer: 'The Flea Market quarter sits at the southern end of Old Jaffa, within easy walking distance of the Old Port, the Ottoman Clock Tower, the Ilana Goor Museum, and Andromeda Hill. The [Skyfield Extreme Park Jaffa](/guides/skyfield-extreme-park-jaffa) — Israel''s first fully-inclusive rooftop extreme park at Bloomfield Stadium — is a short walk away and appeals especially to visitors with children. The broader [Jaffa travel guide](/guides/jaffa-travel-guide) covers all the main sites. For a full Tel Aviv and Jaffa combined day, the [Tel Aviv beach guide](/guides/tel-aviv-beach-guide) connects the waterfront promenade that links Old Jaffa to the city centre.'
+    answer: 'The Flea Market quarter sits at the southern end of Old Jaffa, within easy walking distance of the Old Port, the Ottoman Clock Tower, the Ilana Goor Museum, and Andromeda Hill. The [Skyfield Extreme Park Jaffa](/skyfield-extreme-park-jaffa) — Israel''s first fully-inclusive rooftop extreme park at Bloomfield Stadium — is a short walk away and appeals especially to visitors with children. The broader [Jaffa travel guide](/jaffa-travel-guide) covers all the main sites. For a full Tel Aviv and Jaffa combined day, the [Tel Aviv beach guide](/tel-aviv-beach-guide) connects the waterfront promenade that links Old Jaffa to the city centre.'
 ---
 
 The **Jaffa Flea Market** — Shuk HaPishpeshim in Hebrew, Suk el-Barakeh in Arabic — sprawls through the lanes of the Flea Market Quarter at the southern edge of Old Jaffa, a short walk from the ancient port. It is one of the oldest and most characterful markets in Israel: a place where you can still find Ottoman-era coins, early-statehood Judaica, Mandate-period furniture, and vinyl records from Israel's 1970s pop golden age — all heaped together in open stalls, covered alleys, and shopfront boutiques that have been trading here for generations.
@@ -122,7 +122,7 @@ The lanes around the market contain some of Tel Aviv's most iconic food institut
 
 **Margaret Tayar** is the old-school fish restaurant near the port — whole fish, simply grilled, by the seafront — a 10-minute walk from the market.
 
-The market lanes themselves have coffee carts and juice stalls on busier days. For a more detailed overview of Jaffa's food scene, see the [Jaffa food guide](/guides/jaffa-food-guide).
+The market lanes themselves have coffee carts and juice stalls on busier days. For a more detailed overview of Jaffa's food scene, see the [Jaffa food guide](/jaffa-food-guide).
 
 ---
 
@@ -130,22 +130,22 @@ The market lanes themselves have coffee carts and juice stalls on busier days. F
 
 The Flea Market Quarter is one stop on a wider Jaffa day. Most visitors combine it with:
 
-- **The Old Port (Nof Yam)**: 10 minutes' walk north, with fishing boats, art galleries, and seafood restaurants. The [Jaffa travel guide](/guides/jaffa-travel-guide) covers the full Old City and port circuit.
+- **The Old Port (Nof Yam)**: 10 minutes' walk north, with fishing boats, art galleries, and seafood restaurants. The [Jaffa travel guide](/jaffa-travel-guide) covers the full Old City and port circuit.
 - **The Ottoman Clock Tower and Old City lanes**: between the port and the market, with St. Peter's Church, Andromeda Hill viewpoint, and the Ilana Goor Museum.
-- **Skyfield Extreme Park Jaffa**: at nearby Bloomfield Stadium — Israel's first fully-inclusive rooftop extreme park with adaptive harness systems, open to visitors of all mobility levels. See the [Skyfield Extreme Park guide](/guides/skyfield-extreme-park-jaffa).
-- **The beach promenade north**: the 15–20 minute walk from Jaffa north along the seafront toward central Tel Aviv passes the Tayelet (promenade), Charles Clore Park, and the city's beaches. See the [Tel Aviv beach guide](/guides/tel-aviv-beach-guide).
+- **Skyfield Extreme Park Jaffa**: at nearby Bloomfield Stadium — Israel's first fully-inclusive rooftop extreme park with adaptive harness systems, open to visitors of all mobility levels. See the [Skyfield Extreme Park guide](/skyfield-extreme-park-jaffa).
+- **The beach promenade north**: the 15–20 minute walk from Jaffa north along the seafront toward central Tel Aviv passes the Tayelet (promenade), Charles Clore Park, and the city's beaches. See the [Tel Aviv beach guide](/tel-aviv-beach-guide).
 
 ---
 
 ## Comparing markets in Tel Aviv and Israel
 
-The Jaffa Flea Market specialises in antiques and second-hand goods; the **Carmel Market** ([tel-aviv-carmel-market](/guides/tel-aviv-carmel-market)) is the city's main produce and street food market; the **Nahalat Binyamin** ([nahalat-binyamin-market-tel-aviv](/guides/nahalat-binyamin-market-tel-aviv)) craft fair operates on Tuesdays and Fridays; and the **Sarona Market** ([sarona-market-tel-aviv](/guides/sarona-market-tel-aviv)) is an upscale food hall in the former Templar colony. The broader [best markets in Israel](/guides/best-markets-in-israel) guide compares all the main options across the country.
+The Jaffa Flea Market specialises in antiques and second-hand goods; the **Carmel Market** ([tel-aviv-carmel-market](/tel-aviv-carmel-market)) is the city's main produce and street food market; the **Nahalat Binyamin** ([nahalat-binyamin-market-tel-aviv](/nahalat-binyamin-market-tel-aviv)) craft fair operates on Tuesdays and Fridays; and the **Sarona Market** ([sarona-market-tel-aviv](/sarona-market-tel-aviv)) is an upscale food hall in the former Templar colony. The broader [best markets in Israel](/best-markets-in-israel) guide compares all the main options across the country.
 
 ---
 
 ## Practical information
 
-**Getting there:** On foot via the seafront promenade from central Tel Aviv (30 minutes) or from Neve Tzedek/Florentin (15 minutes). Red Line light rail to the nearest Jaffa stop; check the [Tel Aviv light rail guide](/guides/tel-aviv-light-rail) for the most current station. Taxi or rideshare from central Tel Aviv: 10–15 minutes.
+**Getting there:** On foot via the seafront promenade from central Tel Aviv (30 minutes) or from Neve Tzedek/Florentin (15 minutes). Red Line light rail to the nearest Jaffa stop; check the [Tel Aviv light rail guide](/tel-aviv-light-rail) for the most current station. Taxi or rideshare from central Tel Aviv: 10–15 minutes.
 
 **Parking:** Limited and paid in Old Jaffa. Sunday mornings are especially difficult. Public transit or walking is strongly recommended.
 
@@ -155,4 +155,4 @@ The Jaffa Flea Market specialises in antiques and second-hand goods; the **Carme
 
 **Photography:** Acceptable in the open market; ask before photographing individuals or private shopfronts.
 
-**Accessibility:** The flea market lanes are partly cobblestone and uneven; some indoor sections are accessible, others are not. The [Skyfield Extreme Park Jaffa](/guides/skyfield-extreme-park-jaffa) nearby is fully accessible for all mobility levels.
+**Accessibility:** The flea market lanes are partly cobblestone and uneven; some indoor sections are accessible, others are not. The [Skyfield Extreme Park Jaffa](/skyfield-extreme-park-jaffa) nearby is fully accessible for all mobility levels.
