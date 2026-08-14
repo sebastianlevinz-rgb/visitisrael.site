@@ -696,6 +696,7 @@ const ROUTES = [
   '/judean-hills-wine-trail',
   '/golan-heights-wineries',
   '/negev-wine-guide',
+  '/jaffa-flea-market-guide',
   '/israel-rainy-day-activities',
   '/atlit-detainee-camp-guide',
   '/beit-alfa-guide',
