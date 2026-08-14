@@ -3,7 +3,7 @@ title: 'New Luxury Hotels in Israel 2026: Best Openings'
 description: 'Israel 2026 luxury hotel surge: Six Senses Tel Aviv, Nobu Hotel, The Yacht Herzliya and 14+ new properties opening. What to expect and how to book.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Accommodation
-updatedAt: 2026-07-25
+updatedAt: 2026-08-14
 ctaHeading: 'Search 2026 new hotel openings'
 affiliateCtas:
   - partner: booking
@@ -58,6 +58,7 @@ Israel's hotel market entered its most active expansion phase in two decades in 
 | Dizengoff 99 | Dizengoff, Tel Aviv | Boutique |
 | Basel Complex Hotel | Central Tel Aviv | Urban luxury |
 | Leon Towers | Tel Aviv | Luxury complex |
+| R48 Hotel | Central Tel Aviv | Boutique heritage |
 | InterContinental Jerusalem | Near Old City, Jerusalem | Luxury (opening late summer 2026) |
 | The Yacht Hotel | Herzliya Marina | Marina resort |
 | Isrotel Kayma Dead Sea | Dead Sea | Eco-luxury spa |
@@ -84,6 +85,8 @@ Three Isrotel properties opened in 2025–2026, adding significant capacity at t
 **Dizengoff 99** occupies a position on one of Tel Aviv's most characterful streets — the Dizengoff Circle, independent cafés and White City apartments all within walking distance. It fills a gap between Isrotel's large resort hotels and the ultra-luxury tier with a boutique-scale property in a genuinely central location.
 
 **Basel Complex Hotel** (Central Tel Aviv) and **Leon Towers** add urban luxury options to Tel Aviv's expanding hotel stock. The **Palatin Hotel** (Fattal Group) rounds out the year's Tel Aviv additions. For all four, check Booking.com for current operational status and available room categories — phased openings are standard for new properties of this scale. For a complete picture of Tel Aviv accommodation by neighbourhood and budget, see our [best hotels in Tel Aviv guide](/best-hotels-tel-aviv).
+
+**R48 Hotel** brings something rare to Tel Aviv's boutique tier: a 1930s International Style building — the Bauhaus-influenced architecture that gives the city its UNESCO-listed White City character — meticulously restored as a small luxury hotel. The property's centrepiece is a sheltered internal garden, an unusual feature in dense central Tel Aviv. A curated collection of Israeli art runs through the public spaces, reflecting a design approach that treats the hotel as a cultural venue rather than just accommodation. R48 is one of the standout boutique openings of 2026 for visitors who want to stay inside the architectural story of Tel Aviv rather than alongside it. Check current availability and rates via Booking.com.
 
 ---
 

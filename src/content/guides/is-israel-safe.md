@@ -3,7 +3,7 @@ title: 'Is Israel Safe to Visit? An Honest 2026 Guide'
 description: 'A practical, honest look at safety in Israel for tourists: what to expect day to day, how to check current advice, regional notes and common-sense precautions.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-07-20
+updatedAt: 2026-08-14
 faqs:
   - question: Is Israel safe for tourists right now?
     answer: For most visitors most of the time, yes — the main tourist cities are heavily policed and day-to-day crime is low. Conditions can change with the regional security situation, however, so always check your own government's current travel advisory before and during your trip and follow local guidance.
@@ -33,6 +33,8 @@ Official travel advisories for Israel have improved materially in 2026. As of Ju
 - **Canada, Australia, Germany, France, Japan and several other governments** also revised their Israel advisories downward during 2026.
 
 **No advisory deems Israel risk-free.** All governments continue to advise against travel to the Gaza border area, the Golan Heights near the Syrian border, and much of the northern West Bank. For the current picture, always consult your own government's travel advisory page directly — not this guide.
+
+**Tourism recovery signal.** Reflecting the improved advisory picture, inbound tourism from North America accelerated sharply in early 2026: Canada and the United States recorded a combined +73% increase in arrivals versus the same period in 2025, according to industry tracking data. Israel's tourism authority responded with an $85 million North American marketing campaign for the year. This is a demand signal — it indicates that large numbers of travellers are again judging Israel a viable destination — but it is not a safety statement. Make your own assessment against current advisories and your personal risk tolerance.
 
 ## Regional notes
 

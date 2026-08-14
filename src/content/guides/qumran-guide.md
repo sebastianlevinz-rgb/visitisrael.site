@@ -3,7 +3,7 @@ title: 'Visiting Qumran: Where the Dead Sea Scrolls Were Found (2026)'
 description: 'Qumran National Park visitor guide — where the Dead Sea Scrolls were found. Cave 4, Essene settlement, how to get there and how to combine with a Dead Sea day.'
 heroImage: /images/regions/dead-sea/qumran.jpg
 category: Destinations
-updatedAt: 2026-06-26
+updatedAt: 2026-08-14
 ctaHeading: 'Book Dead Sea & Qumran tours'
 affiliateCtas:
   - partner: getyourguide
@@ -130,6 +130,8 @@ Qumran holds replica jars and context exhibits. The original manuscripts are not
 **Rockefeller Archaeological Museum, East Jerusalem.** Houses additional fragments and significant archaeological finds from Qumran excavations.
 
 Both museums are in Jerusalem, making them natural companions to a Qumran day trip — visit the discovery site in the morning, the scrolls themselves in the afternoon.
+
+**Coming 2027.** A new National Campus for the Archaeology of Israel — designed by Safdie Architects and expected to display the Dead Sea Scrolls alongside other national treasures from the Israel Antiquities Authority's collections — is under construction on the Hebrew University's Givat Ram campus in Jerusalem. No confirmed opening date has been announced as of mid-2026; do not plan around it for a 2026 trip. Watch the Israel Antiquities Authority website for updates.
 
 ---
 
