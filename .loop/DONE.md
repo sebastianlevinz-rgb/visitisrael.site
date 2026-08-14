@@ -2432,3 +2432,6 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1216 · BUILD (monetization) · negev-wine-guide · e8761e7e
 - New EN guide for Negev wine region (PGI May 2026; world's first desert wine appellation). Terroir, 5 wineries, self-drive circuit, Makhtesh Ramon pairing. DiscoverCars + GYG + Booking CTAs. 7 FAQs. 2 e2e tests. Build: 1975→1976 pages.
+
+## iter1217 · BUILD (seo-content) · jaffa-flea-market-guide · 818ea4da
+- New EN guide for Jaffa Flea Market (Shuk HaPishpeshim). Market layout, what to buy (Judaica/vinyl/coins/furniture/vintage fashion), hours, negotiation tips, food stops (Abu Hassan / Dr. Shakshuka / Margaret Tayar). GYG + Viator + Booking CTAs. 7 FAQs. Cross-links: 9 related guides. 2 e2e tests. Build: 1976→1977 pages.

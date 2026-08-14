@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1216
-- lastMode: BUILD monetization (iter1216%5=1) — negev-wine-guide
-- lastItem: iter1216-build-negev-wine-guide
-- lastResult: iter1216 BUILD — negev-wine-guide SHIPPED e8761e7e. New EN guide for Negev wine region (PGI May 2026, world's first desert wine appellation). Content: terroir (altitude 200–900m; desert soils; cold nights + hot days); Carmey Avdat (UNESCO Incense Route Nabatean winery), Ramat Negev Winery, Kadesh Barnea, Beit El, Boker Valley; self-drive circuit; 3 affiliate CTAs (DiscoverCars car essential / GYG guided tours / Booking Mitzpe Ramon hotels); 7 FAQs; cross-links: negev-makhtesh-guide, mitzpe-ramon-guide, glamping-israel, israel-wine-wineries, judean-hills-wine-trail, car-rental-israel, driving-in-israel, negev-highway-40-guide, negev-incense-route, sde-boker-ein-avdat-guide. Build: 1975→1976 pages (+1). Gate: pnpm check 0 errors | build 1976 pages | 2/2 targeted e2e PASS (smoke + a11y). Squash-merged e8761e7e; pushed origin/master. CI in_progress at state-write (normal).
+- iteration: 1217
+- lastMode: BUILD seo-content (iter1217%5=2) — jaffa-flea-market-guide
+- lastItem: iter1217-build-jaffa-flea-market-guide
+- lastResult: iter1217 BUILD — jaffa-flea-market-guide SHIPPED 818ea4da. New EN guide for Jaffa Flea Market (Shuk HaPishpeshim). Content: neighbourhood character + market layout (HaOlei HaGardom St → covered hall → boutiques); what to find (Judaica, vinyl, coins, furniture, vintage fashion); hours (Sun–Thu 09–17, Fri 09–14, Sat closed, Sat-night partial); negotiation tactics; food stops (Abu Hassan, Dr. Shakshuka, Margaret Tayar); 7 FAQs; practical info (transport, cash, parking, accessibility). 3 affiliate CTAs: GYG flea market + food tour / Viator Jaffa Old City / Booking Tel Aviv hotels. Cross-links: jaffa-food-guide, jaffa-travel-guide, skyfield-extreme-park-jaffa, tel-aviv-beach-guide, tel-aviv-light-rail, tel-aviv-carmel-market, nahalat-binyamin-market-tel-aviv, sarona-market-tel-aviv, best-markets-in-israel. 2 new e2e tests (smoke + a11y), both PASS. Build: 1976→1977 pages (+1). Gate: pnpm check 0 errors | build 1977 pages | 2/2 targeted e2e PASS. Squash-merged 818ea4da; pushed origin/master. Lighthouse CI success; main CI in_progress at state-write (normal).
 
-- nextRotationCategory: BUILD seo-content (iter1217%5=2 → BUILD; rotation resumes: seo-content category next)
+- nextRotationCategory: BUILD tools (iter1218%5=3 → BUILD; tools category next)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-14T01:55Z
-- branch context: master at e8761e7e; EN=406/401 (5 extra EN guides beyond original 401 plan + negev-wine-guide), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY)
+- updatedAt: 2026-08-14T02:45Z
+- branch context: master at 818ea4da; EN=407/401 (6 extra EN guides beyond original 401 plan + negev-wine-guide + jaffa-flea-market-guide), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY)
 
 Notes: iter1216 BUILD monetization — negev-wine-guide SHIPPED e8761e7e. Key findings: (1) negev-wine-guide CONFIRMED MISSING — Negev received PGI (Protected Geographical Indication) status May 2026; 60+ wineries; 1M+ bottles; zero Negev wine content anywhere on our site; JPost+ToI+TravelPulse all covered this; added as P2 S. (2) jaffa-flea-market-guide CONFIRMED MISSING — Tourist Israel, TripAdvisor, takeyourbackpack, kupi, Bein Harim all rank standalone pages; we have jaffa-travel-guide + jaffa-food-guide but no dedicated flea market guide; GYG bookable flea+food tours; added as P2 S. (3) r48-hotel-new-luxury-freshness — R48 Hotel (1930s Bauhaus, internal garden, Israeli art) confirmed 2026 opening not in our new-luxury-hotels-israel-2026.md; added as P3 XS. (4) canada-us-visitor-surge-callout — PAX News confirmed Canada+US visitors +73% in 2026; Israel investing $85M in N.Am marketing; brief callout for is-israel-safe.md or first-time-in-israel.md; added as P3 XS. Verified existing coverage: digital-nomad-israel.md ✓, road trip guides ✓, wine trails ✓, eilat diving ✓, honeymoon ✓, food tours ✓, bar-bat-mitzvah ✓, glamping ✓, sustainable-travel ✓.
 
