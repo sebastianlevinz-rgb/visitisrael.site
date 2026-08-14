@@ -397,6 +397,7 @@ const ROUTES = [
   '/tel-aviv-things-to-do',
   '/layover-jerusalem',
   '/eilat-travel-guide',
+  '/eilat-hotels-guide',
   '/eilat-ramon-airport-guide',
   '/air-haifa-haifa-airport-guide',
   '/eilat-beach-guide',

@@ -3,7 +3,7 @@ title: 'Eilat Travel Guide: Red Sea Beach City (2026)'
 description: 'Everything to plan your Eilat trip: beaches, Coral Beach Reserve, Dolphin Reef, Timna Park, tax-free shopping, how to get there and how many days to allow.'
 heroImage: /images/regions/eilat/hero.jpg
 category: Destinations
-updatedAt: 2026-07-02
+updatedAt: 2026-08-14
 ctaHeading: 'Book Eilat hotels and activities'
 affiliateCtas:
   - partner: booking
@@ -144,6 +144,8 @@ Driving gives you the flexibility to stop at Timna, Ein Bokek (Dead Sea) or any 
 ---
 
 ## Where to stay in Eilat
+
+> **2026 Eilat developments:** Eilat is mid-way through its largest hotel investment in decades. The Airport City project — a ₪1 billion development on land adjacent to the decommissioned Eilat domestic airport — is adding approximately five new luxury properties (~1,100 upscale rooms) in phases through 2026–2027, repositioning Eilat as a premium Red Sea destination for international travellers. Separately, Almog Beach is being designated as Eilat's first city-managed beach, with a new permanent lifeguard station and a 13 km coastal infrastructure upgrade covering the southern shoreline. Not all Airport City hotels are open simultaneously — check Booking.com for live availability. For the full new-openings picture, see the [new luxury hotels in Israel 2026](/new-luxury-hotels-israel-2026) guide.
 
 The **North Beach hotel strip** puts you steps from the main beach, the promenade, restaurants and Dolphin Reef — it is the right area for first-time visitors. The strip runs from the port lagoon south; the northern part (nearest the lagoon and Royal Beach hotels) is the most animated; the southern part (toward Isrotel and Princess hotels) is quieter and closer to Coral Beach.
 

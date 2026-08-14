@@ -1,6 +1,6 @@
 ---
 title: 'New Luxury Hotels in Israel 2026: Best Openings'
-description: 'Israel 2026 luxury hotel surge: Six Senses Tel Aviv, Nobu Hotel, The Yacht Herzliya and 14+ new properties opening. What to expect and how to book.'
+description: 'Israel 2026 luxury hotel surge: Six Senses Tel Aviv, Nobu Hotel, Yacht Herzliya, Eilat Airport City and 14+ new properties. What to expect and how to book.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Accommodation
 updatedAt: 2026-08-14
@@ -39,6 +39,8 @@ faqs:
     answer: 'For character, the Herzl Hotel Beersheba (converted Ottoman Governor''s House) and Canaan-Tzfat (a boutique property in mystical Safed) offer something no luxury brand hotel can replicate — a genuine sense of place rooted in Israeli history. Ein Hod Boutique Wellness Hotel, set in Israel''s singular artists'' colony on the Carmel coast, is another property where the location is the primary luxury. All three are small-scale and best booked well in advance via Booking.com.'
   - question: Is there a new eco-luxury hotel at the Dead Sea in 2026?
     answer: 'Yes — the Isrotel Kayma Dead Sea is a new eco-luxury concept targeting sustainability-conscious travellers who want the Dead Sea mineral spa experience in a less conventional resort setting. The Dead Sea corridor at Ein Bokek also has established 5-star alternatives including the Kempinski Hotel Ishtar and Herods Dead Sea. Check rates and facilities via Booking.com; new properties benefit from being reviewed by early guests before you commit.'
+  - question: Is there a new luxury hotel opening in Eilat in 2026?
+    answer: 'Eilat is undergoing its largest hotel investment cycle in years. The Airport City development — a ₪1 billion project on the former domestic airport site — is adding approximately five new luxury properties (around 1,100 upscale rooms total) in phases through 2026–2027. Not all Airport City hotels are simultaneously open; check Booking.com for current live availability. Separately, the historic Princess Hotel on Coral Beach road is on a planned revival pathway according to ITN Israel Travel News — but no confirmed reopening date has been set. Do not plan a trip around the Princess Hotel until a specific date is confirmed and live availability appears on Booking.com.'
   - question: Is the VERT Hotel at Mitzpe Ramon open in 2026?
     answer: 'The VERT Hotel at the Mitzpe Ramon crater rim — planned as a 260-room property by Africa Israel Hotels — is not expected to open until 2027–2028. Do not plan around it for a 2026 trip. For current Mitzpe Ramon accommodation — eco-lodges, boutique inns and glamping at the Makhtesh Ramon crater — see our Negev guide.'
 ---
@@ -65,6 +67,8 @@ Israel's hotel market entered its most active expansion phase in two decades in 
 | Herzl Hotel | Beersheba | Heritage boutique |
 | Canaan-Tzfat | Safed | Cultural boutique |
 | Ein Hod Boutique | Ein Hod, Carmel Coast | Wellness boutique |
+| Princess Hotel Eilat | Coral Beach, Eilat | Resort (planned revival — confirm before booking) |
+| Airport City cluster | Eilat | Luxury resort complex (phased openings 2026–2027) |
 
 ---
 
@@ -121,6 +125,20 @@ The year's most distinctive boutique openings are outside Tel Aviv — propertie
 **Canaan-Tzfat** (Safed) is a boutique opening in one of Israel's most atmospheric cities — the hilltop kabbalistic capital of the Galilee, whose lanes of artists' galleries, ancient synagogues and dramatic mountain light have drawn pilgrims and curious visitors for centuries. A well-positioned boutique hotel in Safed has been conspicuously absent from the market; the Canaan fills that gap. See the [Safed guide](/safed-tzfat-guide) for context on the city's character and what to do there.
 
 **Ein Hod Boutique Wellness Hotel** (Ein Hod artists' village, Carmel Coast) is arguably the most unusual new opening in the country: a small wellness property inside Israel's singular artists' colony — a UNESCO-recognised community of sculptors, painters and ceramicists on the western Carmel slope, 30 minutes south of Haifa. Yoga, pottery, gallery access and Carmel forest. For visitors interested in a retreat that is culturally specific rather than generically luxurious, this is a category of one. See the [Haifa travel guide](/haifa-travel-guide) for the broader Carmel Coast context.
+
+---
+
+## Eilat: Airport City cluster and the Princess Hotel revival
+
+Eilat's luxury hotel landscape is in its most significant transformation in decades — driven by a ₪1 billion Airport City development and the planned revival of the Princess Hotel, an iconic property that has been closed for the better part of a decade.
+
+**Airport City luxury cluster:** Built on land adjacent to the decommissioned Eilat domestic airport runway, the Airport City development is adding approximately five new luxury properties — roughly 1,100 upscale rooms — to Israel's southernmost resort city. These are being developed in phases through 2026 and into 2027, with openings staggered rather than simultaneous. The investment is explicitly targeting high-value leisure visitors from the USA, UK, Germany and France — a repositioning of Eilat as a premium international Red Sea destination rather than primarily a domestic resort. Check Booking.com for which Airport City properties are currently accepting reservations; availability for specific properties varies as the phased rollout continues.
+
+**Princess Hotel Eilat (planned revival):** The Princess Hotel on Eilat's Coral Beach road — an iconic ~420-room resort that operated for decades as one of Eilat's landmark family properties — is confirmed to be on a revival pathway according to reporting by ITN Israel Travel News and TravelAndTourWorld. The property closed and remained dark for years; the Airport City consortium has announced plans to reopen it, likely under a new name and with a repositioned luxury identity. **Honesty caveat:** no confirmed reopening date has been officially set as of mid-2026. Do not book travel around this property — check Booking.com for current status. If the revival proceeds on the timeline being discussed in the trade press, additional luxury room capacity is expected to come online by 2027–2028.
+
+**Almog Beach upgrade:** Eilat's Almog Beach is being designated as the city's first official city-managed beach, with a new permanent lifeguard station and a coastal infrastructure upgrade covering approximately 13 km of the Eilat shoreline. This is a quality-of-life improvement for the resort zone rather than a new hotel — but it raises the beach tier in the vicinity of the southern hotel zone. For the full beach comparison, see the [Eilat beach guide](/eilat-beach-guide).
+
+**For Eilat hotel options** at every tier — from budget guesthouses near the bus station to the North Beach resort strip and the Airport City luxury cluster — see our detailed [Eilat hotels guide](/eilat-hotels-guide).
 
 ---
 
