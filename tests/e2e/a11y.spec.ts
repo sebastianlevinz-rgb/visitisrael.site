@@ -941,6 +941,7 @@ const ROUTES = [
   '/fr/israel-vs-albania',
   '/fr/israel-vs-cyprus',
   '/fr/judean-hills-wine-trail',
+  '/negev-wine-guide',
   '/fr/sea-of-galilee-beaches',
   '/fr/northern-israel-road-trip',
   '/fr/israel-vs-turkey',

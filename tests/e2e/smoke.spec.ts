@@ -695,6 +695,7 @@ const ROUTES = [
   '/purim-in-israel',
   '/judean-hills-wine-trail',
   '/golan-heights-wineries',
+  '/negev-wine-guide',
   '/israel-rainy-day-activities',
   '/atlit-detainee-camp-guide',
   '/beit-alfa-guide',
