@@ -17692,3 +17692,9 @@ Ship: committed 6158aced to master; pushed origin/master. CI in_progress at stat
 Prod: Vercel auto-deploy triggered for 6158aced.
 Note: i18n versions (DE/FR/ES) of airlines-flying-israel-2026.md may carry the same errors — recommend a separate audit iteration.
 Next: iter1233 (1233%5=3 → BUILD monetization); top candidates: israel-for-dutch-travelers (P2 S), israel-for-polish-travelers (P2 S), israel-vs-dubai (P2 S), israel-vs-morocco (P2 S).
+
+## 2026-08-14T19:40Z · iter 1233 · BUILD monetization · israel-for-dutch-travelers · 8b422f0e
+What: New EN guide for Dutch visitors to Israel. KLM multiple daily AMS–TLV + Transavia seasonal + Corendon EIN–TLV; ETA-IL (Netherlands visa-exempt; ₪25; iaa.gov.il); iDEAL payment gap (Dutch-only platform, not accepted in Israel — Visa/Mastercard or Wise instead); OV-chipkaart not valid abroad; zorgverzekering (Dutch basisverzekering) + EHIC both invalid in Israel; reisverzekering essential (with explicit Israel clause warning); Type F Schuko → Type H adapter only (230V same); Dutch-Jewish heritage (Amsterdam Jodenbuurt, Esnoga 1675, Yad Vashem Names Database — ~75% Dutch Jewish community lost in Shoah); bijbelgordel Protestant/Reformed pilgrimage tradition; Netherlands Embassy Tel Aviv. 3 CTAs (GYG private Jerusalem tour + Booking + DiscoverCars). 6 FAQs. 2 new e2e tests (smoke + a11y).
+Gate: pnpm check 0 errors (description trimmed from 176→141 chars) | build 1983→1984 pages (+1) | test:e2e 2/2 targeted PASS.
+Ship: committed 8b422f0e; pushed master. CI + Lighthouse in_progress at journal-write (normal). Vercel auto-deploys on master push.
+Next: iter1234 (1234%5=4 → REVIEW); audit recently shipped nationality guides for cross-link accuracy, JSON-LD, duplicate titles.
