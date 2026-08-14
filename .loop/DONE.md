@@ -2435,3 +2435,9 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1217 · BUILD (seo-content) · jaffa-flea-market-guide · 818ea4da
 - New EN guide for Jaffa Flea Market (Shuk HaPishpeshim). Market layout, what to buy (Judaica/vinyl/coins/furniture/vintage fashion), hours, negotiation tips, food stops (Abu Hassan / Dr. Shakshuka / Margaret Tayar). GYG + Viator + Booking CTAs. 7 FAQs. Cross-links: 9 related guides. 2 e2e tests. Build: 1976→1977 pages.
+
+## iter1218 · b9ce9684 · 2026-08-14 · freshness-trio-2026
+- **r48-hotel-new-luxury-freshness**: R48 Hotel (1930s Bauhaus restoration, internal garden, Israeli art) added to new-luxury-hotels-israel-2026.md — table row + boutique section paragraph.
+- **canada-us-visitor-surge-callout**: "Tourism recovery signal" paragraph added to is-israel-safe.md — Canada+US +73% arrivals 2026, $85M N.Am campaign; framed as demand signal not safety assurance.
+- **national-campus-archaeology-2027-preview**: "Coming 2027" note added to qumran-guide.md — National Campus for the Archaeology of Israel (Safdie Architects, Hebrew U. Givat Ram; no confirmed date).
+- **rosh-hanikra-cable-car-freshness**: CLOSED — guide already up to date (updatedAt 2026-07-30 already had cable car restoration info).

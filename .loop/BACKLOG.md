@@ -11,9 +11,9 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 - ~~[P2] (seo-content+monetization, S) **jaffa-flea-market-guide**~~ — SHIPPED iter1217 818ea4da. Standalone EN guide for Shuk HaPishpeshim (Jaffa Flea Market): layout, Judaica/vinyl/coins, hours, negotiation tips, food stops, 7 FAQs, 3 CTAs, 9 cross-links.
 
 ### Technical freshness: XS targeted additions
-- [P3] (technical/freshness, XS) **r48-hotel-new-luxury-freshness** — R48 Hotel (Tel Aviv; 1930s International-Style Bauhaus building meticulously restored; internal garden; curated Israeli art collection) confirmed as major 2026 boutique opening by The Jewish Chronicle + myisraelstay.com "17 hotel openings shaping Israel's summer 2026". Not in our new-luxury-hotels-israel-2026.md. One-paragraph addition + table row to that existing guide. Honest framing: opened 2026; no fabricated room rates. Effort: XS. Status: ready [iter1215 research].
+- ~~[P3] (technical/freshness, XS) **r48-hotel-new-luxury-freshness**~~ — SHIPPED iter1218 b9ce9684. R48 Hotel added to new-luxury-hotels-israel-2026.md (table row + boutique section paragraph).
 
-- [P3] (technical/freshness, XS) **canada-us-visitor-surge-callout** — PAX News (paxnews.com) confirmed Canada + US visitors to Israel jumped 73% in early 2026 vs 2025, with Israel ramping up $85M tourism investment campaign targeting North American markets. Add a brief "Tourism recovery 2026" data point to is-israel-safe.md or first-time-in-israel.md (honesty: framed as a recovery signal, not safety assurance; State Dept/Global Affairs still at Level 3 as of guide publication). Effort: XS. Status: ready [iter1215 research].
+- ~~[P3] (technical/freshness, XS) **canada-us-visitor-surge-callout**~~ — SHIPPED iter1218 b9ce9684. "Tourism recovery signal" paragraph added to is-israel-safe.md.
 
 ## New items — iter1210 RESEARCH discoveries (2026-08-13)
 
@@ -23,7 +23,7 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ### Technical freshness updates (2026 new info — small targeted additions)
 - ~~[P3] (technical/freshness, S) **accessibility-2026-freshness**~~ — SHIPPED iter1214 ba535682. SkyField + Haifa cruise terminal + Rosh Hanikra cable car added to israel-accessible-travel.md.
-- [P3] (technical/freshness, XS) **national-campus-archaeology-2027-preview** — National Campus for the Archaeology of Israel (Safdie Architects; Leon Levy / Shelby White building, Hebrew University Givat Ram campus) will display the Dead Sea Scrolls + national treasures in a new public-facing visitor centre. As of March 2026, Visitor Experience centre is expected to open early 2027 (was originally hoped for 2026). Add a one-sentence "coming 2027" mention in qumran-guide.md (Dead Sea Scrolls discovery context) and/or any existing guide that covers Qumran or the Dead Sea Scrolls. Frame as: "A new National Campus for the Archaeology of Israel — housing the Dead Sea Scrolls and other national treasures — is expected to open on the Hebrew University campus in Jerusalem in 2027; no confirmed opening date has been released." HONESTY: do not claim it is open; no fabricated opening date. Effort: XS (1–2 sentence targeted addition to existing guide). Status: ready [iter1210 research]
+- ~~[P3] (technical/freshness, XS) **national-campus-archaeology-2027-preview**~~ — SHIPPED iter1218 b9ce9684. "Coming 2027" note added to qumran-guide.md.
 
 ## New items — iter1205 RESEARCH discoveries (2026-08-13)
 
@@ -46,7 +46,7 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ### Technical freshness updates
 
-- [P3] (technical, S) **rosh-hanikra-cable-car-freshness** — rosh-hanikra-guide.md may not reflect the 18-month closure and May 2025 reopening. Site closed ~September 2023 (security; proximity to Lebanon border). Reopened May 2025, initially via the historic British Mandate-era tunnel (cable car under refurbishment). Cable car operational status: as of 2025-2026 guides on TripAdvisor and ItineraryExpert, cable car is back and running (₪48 adult, includes round-trip cable car ride; 70m / 60° incline, steepest in world). Update guide: add reopening context + current admission + practical tips (arrive 9am; fruit bats in cave; combine with Rosh Hanikra beach below). Check existing guide to see what needs updating — avoid adding redundant content. Effort: S. Status: ready. [iter1200 research]
+- ~~[P3] (technical, S) **rosh-hanikra-cable-car-freshness**~~ — CLOSED iter1218: rosh-hanikra-guide.md already contained cable car restoration info (updatedAt 2026-07-30); no action needed.
 
 ## New items — iter1195 RESEARCH discoveries (2026-08-13)
 
