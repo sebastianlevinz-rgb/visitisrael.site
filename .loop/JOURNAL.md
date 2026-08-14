@@ -17660,3 +17660,22 @@ Fix found: golan-heights-guide.md (primary Golan hub) and galilee-vs-golan-weeke
 Gate: pnpm check 0 errors | build 1982 pages (unchanged — no new pages) | 16/16 targeted e2e (smoke+a11y) PASS.
 Ship: squash-merged 7de55cdc to master; pushed origin/master. CI in_progress at state-write (normal).
 Next: iter1230 (1230%5=0 → RESEARCH mode).
+
+## 2026-08-14T17:05Z · iter 1230 · RESEARCH · 272nd research pass · backlog-audit-new-nationality-guides
+What: RESEARCH mode (1230%5=0). Major backlog audit + new opportunity discovery. Two tracks: (1) filesystem audit of claimed-missing i18n items — found 16 stale BACKLOG items where guides already exist in repo or freshness info already in guides; (2) web research (Tourist Israel, TravelAndTourWorld, TravelPulse, ITN, Ynetnews, Simple Flying, Travel Agent Central, AllTrails, Saxum.org, IFCJ) for new 2026-2027 opportunities.
+
+Stale items confirmed shipped/covered (removed from BACKLOG): ES tel-aviv-things-to-do, ES qumran-guide, ES water-hiking-israel (iter1191 batch); DE tel-aviv-museums, DE nazareth-tours-compared (iter1186 area); FR nazareth-tours-compared (iter1177 batch); FR+DE israel-biblical-highway, FR+DE negev-makhtesh-guide (iter1183 area); FR+ES sarona-market-tel-aviv (iter1177 area); DE+ES purim-in-israel; FR jesus-trail-israel (iter1177 batch); FR+DE wedding-in-israel; FR+DE+ES israel-for-chinese-travelers; ben-gurion-terminal3-freshness (line 46 of ben-gurion-airport-guide.md — fully covered); galilee-culinary-institute-oct2026 (lines 29/33/44/64/86/147 of galilee-culinary-institute-gonen.md — fully covered); air-haifa-oct2026-route (line 69 of air-haifa-haifa-airport-guide.md — fully covered).
+
+New items appended to BACKLOG:
+1. israel-for-japanese-travelers (P2, S) — El Al TLV-NRT 5x/week + Arkia TLV-NRT launching Oct 25, 2026; Japan = top-5 global outbound market; zero competitor editorial; ETA-IL (visa-exempt); unique cultural angle.
+2. israel-for-dutch-travelers (P2, S) — KLM AMS-TLV multiple daily + Transavia TLV; Netherlands = consistent top-10 Israel source market; iDEAL not accepted; zero competitor editorial.
+3. israel-for-polish-travelers (P2, S) — LOT WAW-TLV + Wizz Air WAW-TLV; Poland = world's largest pre-WWII Jewish community; strong Catholic pilgrimage market; zero competitor editorial.
+4. sea-of-galilee-luxury-resorts-freshness (P3, XS) — Dream Island Resort Migdal (93 rooms, Mar 2027); Amnon Beach Resort Isrotel (200 suites, ~2028); Gordonia Golan Beach Hotel (planning). Add to new-luxury-hotels-israel-2026.md.
+5. emmaus-trail-guide (P3, S) — 20km Christian pilgrimage trail Judean Hills; Saxum Visitor Center Abu Ghosh → Emmaus Nicopolis; zero editorial competitor; GYG CTA.
+6. israel-for-brazilian-travelers (P3, S) — El Al GRU-TLV; Brazil = largest Jewish community in Latin America (~120K); ETA-IL (Brazil visa-exempt); PIX not accepted; zero competitor editorial.
+
+Verified still missing/valid: israel-for-serbian-travelers (FR+DE+ES), british-travelers-fcdo-june2026-freshness (June 3 insurance implication NOT in guide), florentin-tel-aviv-guide, nova-memorial-october-7-sites-guide, israel-kibbutz-volunteer-guide, car-rental-happycar-carwiz-update, israel-vs-dubai, israel-vs-morocco, israel-vs-croatia, haifa-cable-car-guide.
+
+Gate: N/A (RESEARCH — no code changes).
+Ship: N/A. 6 new BACKLOG items appended; 16 stale items cleaned from BACKLOG.
+Next: iter1231 (1231%5=1 → BUILD seo-content); top candidates: israel-for-japanese-travelers (P2 S, highly timely with Arkia NRT launch Oct 2026), israel-kibbutz-volunteer-guide (P2 S), florentin-tel-aviv-guide (P3 S), israel-vs-dubai (P2 S), israel-vs-morocco (P2 S).
