@@ -73,7 +73,7 @@ The classic day-trip is easy on a single charge. Park at the Ein Bokek hotels st
 
 ### Tel Aviv → Galilee loop (Highway 6 north, 155 km to Tiberias)
 
-Highway 6 (the north–south toll road) has Enerjoy fast chargers at the Hadera and Yokneam service plazas. From Tel Aviv you can reach [Tiberias](/tiberias-guide) or [Nazareth](/nazareth-guide) without a charging stop; a 20-minute fast-charge at Yokneam is enough to extend into the Golan Heights the same day. [Galilee wine trail](/galilee-wine-trail) wineries increasingly have guest chargers — confirm when booking tastings.
+Highway 6 (the north–south toll road) has Enerjoy fast chargers at the Hadera and Yokneam service plazas. From Tel Aviv you can reach [Tiberias](/tiberias-guide) or [Nazareth](/nazareth-travel-guide) without a charging stop; a 20-minute fast-charge at Yokneam is enough to extend into the Golan Heights the same day. [Galilee wine trail](/galilee-wine-trail) wineries increasingly have guest chargers — confirm when booking tastings.
 
 ### Haifa → Golan Heights loop (~200 km circuit)
 
