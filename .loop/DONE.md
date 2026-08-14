@@ -2450,3 +2450,9 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1222 · 93ff34c2 · 2026-08-14 · israel-camping-guide (BUILD seo-content)
 - **israel-camping-guide**: New EN guide for camping in Israel via INPA campground network. Type A (full facilities ₪60–100/pn) and Type B (basic ₪30–50/pn) campground types; booking inpa.gov.il (holiday periods 6–8 weeks ahead); wild camping legal prohibition (fines enforced); sites by region (Negev: Makhtesh Ramon crater rim / Nahal Ardon / Sede Boker; Galilee/Golan: Nahal Hermon-Banias / Horshat Tal / Nimrod Fortress; Dead Sea: Ein Gedi; Coastal: Achziv); Israel National Trail ~70 camping stations (Nov–Mar through-hiking season); gear essentials (5°C sleeping bag, spiral stakes, gas stove only — campfires absolutely prohibited under Israeli law, water logistics); summer heat warnings for Negev/Dead Sea (38–44°C genuine health risk). 3 CTAs: DiscoverCars + SafetyWing + GYG. 7 FAQs. 12 cross-links. Build: 1978→1979 pages.
+
+## iter1223 · BUILD (seo-content+technical, tools fallthrough) · israel-ev-road-trip · 991e796e
+- New EN guide /israel-ev-road-trip: EV rental (DiscoverCars, BYD/Kia/Tesla/PHEV), charging networks (Doralon AC / Enerjoy DC / BYD fast), EVChargers-IL app, best routes (TLV→Dead Sea, TLV→Galilee Hwy 6, Haifa→Golan, Negev circuit planning), range tips, hotel charging. 7 FAQs; 2 CTAs (DiscoverCars + SafetyWing). Build: 1979→1980 pages. Gate: green. Committed 991e796e.
+
+## iter1222 · BUILD (seo-content) · israel-camping-guide · 93ff34c2
+- New EN guide /israel-camping-guide: INPA Type A/B campgrounds, booking inpa.gov.il, wild camping prohibition, sites by region, Israel National Trail ~70 stations, gear essentials, campfire prohibition, summer heat warnings. 3 CTAs + 7 FAQs. Build: 1978→1979. Gate: green.
