@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1224
-- lastMode: REVIEW — ev-guide-nazareth-link-fix
-- lastItem: iter1224-review-ev-guide-nazareth-link
-- lastResult: iter1224 REVIEW — fixed broken /nazareth-guide link in israel-ev-road-trip.md. Correct slug is /nazareth-travel-guide. Full audit: israel-ev-road-trip — all other 10 cross-links OK, heroImage OK, title 57 chars, desc 149 chars, no H1 in body; israel-camping-guide — all 12 cross-links OK; israel-for-australian-travelers — all 10 cross-links OK. Gate: pnpm check 0 errors | build 1980 pages (unchanged) | 2/2 targeted e2e PASS (smoke + a11y /israel-ev-road-trip). Committed 05fd7971; pushed origin/master. CI in_progress at state-write (normal).
+- iteration: 1225
+- lastMode: RESEARCH — 271st research pass (hamat-gader + florentin + fcdo-freshness)
+- lastItem: iter1225-research-271
+- lastResult: iter1225 RESEARCH — 3 new BACKLOG items discovered: (1) hamat-gader-guide (P2 S, seo-content) — 500K visitors/year thermal springs + crocodile farm + Roman ruins in southern Golan; confirmed gap vs Tourist Israel/Danny The Digger/Bein Harim; (2) florentin-tel-aviv-guide (P3 S, seo-content) — dedicated Florentin neighborhood page; Tourist Israel new 2026 tour; GYG commissionable; (3) british-travelers-fcdo-june2026-freshness (P3 XS, technical/freshness) — FCDO lifted blanket "advise against all travel" 3 Jun 2026; UK travel insurance implication. Verified: jerusalem-light-rail-guide (Green Line covered ✓), eilat-ramon-airport-guide (Wizz Air + international ✓), ben-gurion-airport-guide (Terminal 1 ✓), israel-for-british-travelers (mid-2026 tiered advice ✓), israel-for-indian-travelers (eVisa-B2 ✓), new-luxury-hotels-israel-2026 (R48 already added ✓). No code changes; no gate run.
 
-- nextRotationCategory: RESEARCH (iter1225%5=0 → RESEARCH; iter1226%5=1 → BUILD monetization)
+- nextRotationCategory: BUILD monetization (iter1226%5=1 → BUILD monetization; top candidates: eilat-luxury-revival-freshness P2 S, nova-memorial-october-7-sites-guide P2 M, israel-for-canadian-travelers P2 S, hamat-gader-guide P2 S)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-14T09:45Z
+- updatedAt: 2026-08-14T10:30Z
 - branch context: master at 05fd7971; EN=410/401 (10 extra EN guides beyond original 401 plan), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+
+Notes: iter1225 RESEARCH — 271st research pass. 3 new items appended to BACKLOG: hamat-gader-guide (P2 S seo-content), florentin-tel-aviv-guide (P3 S seo-content), british-travelers-fcdo-june2026-freshness (P3 XS technical/freshness). Cross-verified: jerusalem light rail / Ramon airport / ben-gurion-airport / british travelers / india evisa / luxury hotels guides all current. No code changes.
 
 Notes: iter1224 REVIEW — ev-guide-nazareth-link-fix SHIPPED 05fd7971. Audit of iter1223 (israel-ev-road-trip), iter1222 (israel-camping-guide), iter1221 (israel-for-australian-travelers). Found: /nazareth-guide broken link in israel-ev-road-trip.md (correct slug: /nazareth-travel-guide). Fixed. All other cross-links clean across all 3 guides. SEO OK. 2/2 e2e PASS (build unchanged at 1980 pages).
 

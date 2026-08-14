@@ -9022,3 +9022,15 @@ Searched: touristisrael.com (2026 round-up), lonelyplanet.com, roughguides.com, 
 - Nomadicmatt.com ranks "budget Israel road trip" — our israel-road-trip.md + israel-cost-budget.md together cover this.
 - Tourist Israel now offers Gaza Border & Nova Festival tours as a bookable product — confirms high demand for nova-memorial content (in BACKLOG as P2).
 - EV road trip content is completely unaddressed by any Israel travel editorial competitor — genuine blue-ocean content opportunity.
+
+### 2026-08-14 · iter1225 · Multi-competitor sweep (271st research pass)
+Sources: Tourist Israel, Danny The Digger, Bein Harim, Gali&Golan, slavaguide.com, israel-in-photos.com, GetYourGuide (Florentin tours), JPost/JC/Jewish News (FCDO), Travel And Tour World, TripAdvisor.
+
+- **Hamat Gader**: Tourist Israel has a standalone attraction page; Danny The Digger, Bein Harim, israel-in-photos.com, Gali&Golan, slavaguide all have dedicated content. ~500K visitors/year (primarily Israeli). We have ZERO coverage — only brief mentions in Golan guides. Clear gap; add hamat-gader-guide (P2 S) to BACKLOG.
+- **Florentin Tel Aviv**: Tourist Israel launched "Tel Aviv Saturday Walking Tour: Florentin & Park HaMesila" as a new 2026 branded tour product. GetYourGuide has 2 commissionable Florentin-area walking tours. Our tel-aviv-neighborhoods-guide.md covers Florentin in a 166-line multi-neighborhood page (decent) but no standalone dedicated guide. Florentin is the fastest-growing solo traveler neighborhood search term for Tel Aviv per TripAdvisor.
+- **FCDO UK advisory**: FCDO lifted blanket "advise against all travel" for Israel on 3 June 2026 — confirmed by JPost, Jewish News UK, The Travel Magazine. This is widely searched by UK travelers who had been scared off by insurance invalidation. Our british-travelers guide is correct for current tiered state (mid-2026) but doesn't call out the June 3 pivot explicitly or the insurance revalidation implication.
+- **Jerusalem Green Line opened July 2026**: Partial first section (Malha–Binyanei HaUmah/Convention Centre) confirmed open July 2026. Our jerusalem-light-rail-guide.md already covers this (updatedAt 2026-07-22) — no action needed.
+- **Gordonia Migdal hotel**: ₪120M investment, ~2 years from opening at announcement (not open yet). Skip for now.
+- **17 hotel openings summer 2026**: The JC article mentions 17 hotels; our new-luxury-hotels-israel-2026.md was updated 2026-08-14 with R48. Gordonia Migdal/Montefiore 7 Rothschild could be future additions once open/confirmed.
+- **Bar/Bat Mitzvah trend**: 2026 travel trend; we already have bar-bat-mitzvah-israel.md ✓.
+- **Nova memorial demand**: Tourist Israel now sells Gaza Border & Nova Festival tours as a bookable product — confirms demand. nova-memorial-october-7-sites-guide remains P2 M in BACKLOG (careful framing per §9).

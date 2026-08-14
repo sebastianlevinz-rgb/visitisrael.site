@@ -17626,3 +17626,10 @@ What: REVIEW audit of iter1223-shipped israel-ev-road-trip.md and iter1222-shipp
 Gate: pnpm check 0 errors | build 1980 pages (unchanged) | 2/2 targeted e2e PASS (smoke + a11y /israel-ev-road-trip).
 Ship: committed 05fd7971 to master; pushed origin/master. CI in_progress at state-write (normal Vercel pattern — all prior SHAs = success).
 Next: iter1225 (1225%5=0 → RESEARCH); candidates: competitor sweep for monetization/freshness gaps (eilat-luxury-revival-freshness P2 S still ready; ben-gurion-terminal3-freshness P3 XS; air-haifa-oct2026-route P3 XS; galilee-culinary-institute-oct2026 P3 XS; israel-kibbutz-volunteer-guide P2 S; israel-vs-dubai P2 S; israel-for-canadian-travelers P2 S).
+
+## 2026-08-14T10:30Z · iter1225 · RESEARCH · 271st research pass
+What: Competitor + freshness sweep. Searched touristisrael.com, Bein Harim, Danny The Digger, slavaguide.com, israel-in-photos.com, TripAdvisor, goisrael, The JC, JPost, gov.uk/FCDO, GetYourGuide (Florentin tours), Travel And Tour World. Cross-checked existing guides: jerusalem-light-rail-guide (Green Line July 2026 ✓), eilat-ramon-airport-guide (Wizz Air international ✓), ben-gurion-airport-guide (Terminal 1 Jul 2026 ✓), israel-for-british-travelers (tiered FCDO mid-2026 ✓), israel-for-indian-travelers (eVisa-B2 July 2025 ✓), new-luxury-hotels-israel-2026 (R48 added iter1218 ✓).
+Findings: 3 new BACKLOG items: (1) hamat-gader-guide (P2 S) — 500K visitors/year thermal springs + only crocodile farm in Middle East + Roman ruins; gap vs Tourist Israel/Danny The Digger/Bein Harim; Booking+DiscoverCars affiliate. (2) florentin-tel-aviv-guide (P3 S) — dedicated Florentin neighborhood page; Tourist Israel new 2026 tour; GYG commissionable products. (3) british-travelers-fcdo-june2026-freshness (P3 XS) — FCDO lifted blanket "advise against all travel" 3 Jun 2026; UK insurance implication worth explicit callout.
+Gate: N/A (RESEARCH — no code changes).
+Ship: N/A.
+Next: iter1226 (1226%5=1 → BUILD monetization); top candidates: eilat-luxury-revival-freshness (P2 S, Booking CTAs, safe), israel-for-canadian-travelers (P2 S, 3 CTAs), hamat-gader-guide (P2 S, Booking+DiscoverCars).
