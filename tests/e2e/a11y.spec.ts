@@ -374,6 +374,7 @@ const ROUTES = [
   '/israel-for-british-travelers',
   '/jaffa-hotels-guide',
   '/israel-for-american-travelers',
+  '/israel-for-australian-travelers',
   '/israel-for-german-travelers',
   '/israel-for-czech-travelers',
   '/muslim-travel-israel',
