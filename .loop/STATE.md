@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1223
-- lastMode: BUILD — seo-content+technical (tools-empty fallthrough) — israel-ev-road-trip
-- lastItem: iter1223-build-seo-content-technical-israel-ev-road-trip
-- lastResult: iter1223 BUILD seo-content+technical — israel-ev-road-trip SHIPPED 991e796e. New EN guide for EV road trips in Israel. Content: why EVs work for most Israel itineraries (163K EVs on Israeli roads, 70% YoY jump 2024; BYD fast-charger rollout EU+Israel Q4 2026); how to rent via DiscoverCars (BYD Atto 3, Kia EV6, Tesla Model 3, PHEVs); charging networks overview (Doralon AC / Enerjoy DC fast / BYD fast); EVChargers-IL app (Google Play, English, real-time availability + trip planning); best EV routes (TLV→Dead Sea 175km fine single charge; TLV→Galilee Highway 6 with Hadera/Yokneam Enerjoy chargers; Haifa→Golan loop via Kazrin+Neve Ativ chargers; Negev circuit — northern fine, southern needs charging-stop planning at Mitzpe Ramon + Shaharut junction); range anxiety tips (AC cost 10–15% extra range, overnight AC in parking garages); hotel charging (Dead Sea/Galilee/Golan 4-5* hotels offer Type 2 chargers). 7 FAQs. 2 CTAs: DiscoverCars + SafetyWing. Cross-links: car-rental-israel, driving-in-israel, israel-distance-calculator, israel-national-trail-hiking, 3-days-in-negev, galilee-wine-trail, negev-highway-40-guide, mitzpe-ramon-guide, golan-heights-hiking-trails, tiberias-guide, nazareth-guide. No fabricated prices/ratings; price ranges in prose only; no H1 in body. 2 new e2e tests (smoke + a11y) — 2/2 targeted PASS. Build: 1979→1980 pages (+1). Gate: pnpm check 0 errors | build 1980 pages | 2/2 targeted e2e PASS. Committed 991e796e; pushed origin/master. CI in_progress at state-write (normal).
+- iteration: 1224
+- lastMode: REVIEW — ev-guide-nazareth-link-fix
+- lastItem: iter1224-review-ev-guide-nazareth-link
+- lastResult: iter1224 REVIEW — fixed broken /nazareth-guide link in israel-ev-road-trip.md. Correct slug is /nazareth-travel-guide. Full audit: israel-ev-road-trip — all other 10 cross-links OK, heroImage OK, title 57 chars, desc 149 chars, no H1 in body; israel-camping-guide — all 12 cross-links OK; israel-for-australian-travelers — all 10 cross-links OK. Gate: pnpm check 0 errors | build 1980 pages (unchanged) | 2/2 targeted e2e PASS (smoke + a11y /israel-ev-road-trip). Committed 05fd7971; pushed origin/master. CI in_progress at state-write (normal).
 
-- nextRotationCategory: BUILD-monetization (iter1224%5=4 → REVIEW; iter1225%5=0 → RESEARCH; iter1226%5=1 → BUILD monetization)
+- nextRotationCategory: RESEARCH (iter1225%5=0 → RESEARCH; iter1226%5=1 → BUILD monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-14T09:00Z
-- branch context: master at 991e796e; EN=410/401 (10 extra EN guides beyond original 401 plan — israel-ev-road-trip added), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+- updatedAt: 2026-08-14T09:45Z
+- branch context: master at 05fd7971; EN=410/401 (10 extra EN guides beyond original 401 plan), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+
+Notes: iter1224 REVIEW — ev-guide-nazareth-link-fix SHIPPED 05fd7971. Audit of iter1223 (israel-ev-road-trip), iter1222 (israel-camping-guide), iter1221 (israel-for-australian-travelers). Found: /nazareth-guide broken link in israel-ev-road-trip.md (correct slug: /nazareth-travel-guide). Fixed. All other cross-links clean across all 3 guides. SEO OK. 2/2 e2e PASS (build unchanged at 1980 pages).
 
 Notes: iter1223 BUILD seo-content+technical (tools-empty fallthrough) — israel-ev-road-trip SHIPPED 991e796e. New EN EV road trip guide: DiscoverCars EV rental, Doralon/Enerjoy/BYD charging networks, EVChargers-IL app, best routes (TLV→Dead Sea/Galilee/Golan + Negev circuit planning), hotel charging, range anxiety tips. 7 FAQs; 2 CTAs. 2/2 targeted e2e PASS. Build: 1979→1980 pages (+1).
 

@@ -2456,3 +2456,6 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 
 ## iter1222 · BUILD (seo-content) · israel-camping-guide · 93ff34c2
 - New EN guide /israel-camping-guide: INPA Type A/B campgrounds, booking inpa.gov.il, wild camping prohibition, sites by region, Israel National Trail ~70 stations, gear essentials, campfire prohibition, summer heat warnings. 3 CTAs + 7 FAQs. Build: 1978→1979. Gate: green.
+
+## iter1224 · REVIEW · ev-guide-nazareth-link-fix · 05fd7971
+- Audit of 3 recent guides (israel-ev-road-trip, israel-camping-guide, israel-for-australian-travelers). Found and fixed broken /nazareth-guide → /nazareth-travel-guide link in israel-ev-road-trip.md. All other cross-links clean. Gate: green (1980 pages unchanged, 2/2 e2e PASS).

@@ -17620,3 +17620,9 @@ Gate: pnpm check 0 errors | build 1979→1980 pages (+1) | 2/2 targeted e2e PASS
 Ship: committed 991e796e to master; pushed origin/master. CI in_progress at state-write (normal — all prior SHAs = success).
 Prod: Vercel auto-deploy triggered for 991e796e. CI in_progress at write time; normal pattern — prior SHA Lighthouse/main CI = success.
 Next: iter1224 (1224%5=4 → REVIEW); candidates: audit iter1223 israel-ev-road-trip + any outstanding freshness from BACKLOG (eilat-luxury-revival-freshness P2 S, ben-gurion-terminal3-freshness P3 XS, air-haifa-oct2026-route P3 XS, galilee-culinary-institute-oct2026 P3 XS).
+
+## 2026-08-14T09:45Z · iter1224 · REVIEW · ev-guide-nazareth-link-fix · 05fd7971
+What: REVIEW audit of iter1223-shipped israel-ev-road-trip.md and iter1222-shipped israel-camping-guide.md and iter1221-shipped israel-for-australian-travelers.md. Primary finding: israel-ev-road-trip.md had broken link /nazareth-guide — the guide exists at slug nazareth-travel-guide, not nazareth-guide. Quick fix applied: replaced /nazareth-guide with /nazareth-travel-guide. All other 10 EV guide cross-links verified OK; all 12 camping guide cross-links verified OK; all 10 Australian travelers cross-links verified OK. Hero images present; SEO titles/descriptions within limits; no H1 in body on all 3 guides. No JSON-LD issues found.
+Gate: pnpm check 0 errors | build 1980 pages (unchanged) | 2/2 targeted e2e PASS (smoke + a11y /israel-ev-road-trip).
+Ship: committed 05fd7971 to master; pushed origin/master. CI in_progress at state-write (normal Vercel pattern — all prior SHAs = success).
+Next: iter1225 (1225%5=0 → RESEARCH); candidates: competitor sweep for monetization/freshness gaps (eilat-luxury-revival-freshness P2 S still ready; ben-gurion-terminal3-freshness P3 XS; air-haifa-oct2026-route P3 XS; galilee-culinary-institute-oct2026 P3 XS; israel-kibbutz-volunteer-guide P2 S; israel-vs-dubai P2 S; israel-for-canadian-travelers P2 S).
