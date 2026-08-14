@@ -17578,3 +17578,8 @@ What: Three P3 XS freshness additions bundled as a single technical iteration. (
 Gate: pnpm check 0 errors | build 1977 pages (unchanged) | 19/19 targeted e2e PASS (smoke+a11y for /new-luxury-hotels-israel-2026 + /is-israel-safe + /qumran-guide across EN/FR/DE/ES locales).
 Merge SHA: b9ce9684; pushed origin/master. CI in_progress at state-write (normal Vercel pattern).
 Next: iter1219 (1219%5=4 → REVIEW); candidates: audit iter1218 freshness changes + any outstanding technical review from recent iters; or quick safe freshness fix (car-rental-happycar-carwiz-update P3 S; tel-aviv-ottoman-rail-trail P3 S).
+
+## 2026-08-14T04:50Z · iter1219 · REVIEW · jaffa-flea-market-links-fix · 4cc8f2e2
+What: REVIEW audit of iter1217-shipped jaffa-flea-market-guide.md and iter1216-shipped negev-wine-guide.md. Primary finding: jaffa-flea-market-guide.md had all 15 cross-links using the wrong /guides/<slug> path prefix. Site routes guides at /<slug> (via [...slug].astro) — no /guides/ directory exists in dist. All other guides (best-markets-in-israel, negev-wine-guide, bein-harim-vs-abraham-tours, etc.) correctly use /<slug> format. negev-wine-guide.md was clean — all 9 cross-links verified correct. Quick fix: replaced all 15 /guides/<slug> occurrences with /<slug> in jaffa-flea-market-guide.md. Link checker confirmed 0 broken link(s) across 1977 pages after fix.
+Gate: pnpm check 0 errors | build 1977 pages (unchanged) | links.spec.ts + smoke + a11y for /jaffa-flea-market-guide — 3/3 PASS.
+Merge SHA: 4cc8f2e2; pushed origin/master. CI in_progress at state-write (normal pre-existing base-branch CI=failure pattern; Lighthouse in_progress expected success per prior runs).

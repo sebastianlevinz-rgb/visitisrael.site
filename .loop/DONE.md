@@ -2441,3 +2441,6 @@ Research-only pass (no code shipped). Key discovery: Nova Memorial = most visite
 - **canada-us-visitor-surge-callout**: "Tourism recovery signal" paragraph added to is-israel-safe.md — Canada+US +73% arrivals 2026, $85M N.Am campaign; framed as demand signal not safety assurance.
 - **national-campus-archaeology-2027-preview**: "Coming 2027" note added to qumran-guide.md — National Campus for the Archaeology of Israel (Safdie Architects, Hebrew U. Givat Ram; no confirmed date).
 - **rosh-hanikra-cable-car-freshness**: CLOSED — guide already up to date (updatedAt 2026-07-30 already had cable car restoration info).
+
+## iter1219 · 4cc8f2e2 · 2026-08-14 · jaffa-flea-market-links-fix (REVIEW)
+- **jaffa-flea-market-links-fix**: Corrected 15 broken /guides/<slug> cross-links in jaffa-flea-market-guide.md to correct /<slug> format. No /guides/ directory exists in dist (site routes at /<slug>). Link checker: 0 broken link(s) across 1977 pages. Quick REVIEW fix shipped through gate.
