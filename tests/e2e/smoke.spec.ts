@@ -1622,6 +1622,7 @@ const ROUTES = [
   '/best-national-parks-israel',
   '/israel-camping-guide',
   '/israel-ev-road-trip',
+  '/hamat-gader-guide',
 ];
 
 for (const route of ROUTES) {
