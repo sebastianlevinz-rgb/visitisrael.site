@@ -335,6 +335,7 @@ const ROUTES = [
   '/israel-for-british-travelers',
   '/israel-for-american-travelers',
   '/israel-for-australian-travelers',
+  '/israel-for-canadian-travelers',
   '/israel-for-german-travelers',
   '/israel-for-swiss-travelers',
   '/israel-for-czech-travelers',

@@ -1346,6 +1346,7 @@ const ROUTES = [
   '/best-national-parks-israel',
   '/israel-camping-guide',
   '/israel-ev-road-trip',
+  '/israel-for-canadian-travelers',
 ];
 
 for (const route of ROUTES) {
