@@ -17704,3 +17704,15 @@ What: Audited israel-in-october.md and israel-in-september.md (iter1230-era cont
 Gate: pnpm check 0 errors | build 1984 pages (unchanged — freshness fix only) | 16/16 targeted e2e PASS (smoke + a11y across EN/FR/DE/ES).
 Ship: squash-merged to master 8b545da8, pushed origin/master. CI in_progress at state-write (normal).
 Next: iter1235 = RESEARCH mode (1235%5=0).
+
+## 2026-08-14T22:05Z · iter 1235 · RESEARCH · 273rd research pass · airlines-freshness-turkish-travelers
+What: RESEARCH mode (1235%5=0). Competitor + news sweep: Delta News Hub, Times of Israel, masaisrael.org, AirwayBuzz, Ynetnews, Calcalist (2.6M pax August), Fragomen, TravelBiz Monitor, Deccan Chronicle, Simple Flying, One Mile at a Time, TravelMarketReport, TravelPulse, touristisrael.com.
+Key findings:
+(1) URGENT accuracy issue: United Airlines EWR-TLV shown as currently active in our guide ("Newark resumed March 2025") but United was suspended during airport closure and is ONLY resuming Sept 8, 2026 (2x daily B787 Dreamliner per Times of Israel + AirwayBuzz). Air Canada YUL-TLV shown as "seasonal Jun-Oct 2026" but is suspended until Sept 7. Both corrections needed in airlines-flying-israel-2026.md + nationality guides.
+(2) Delta ATL+BOS resumed: Delta News Hub published "Delta restarts Tel Aviv service from Atlanta and Boston, following JFK resumption." Our iter1232 update shows ATL suspended through Dec 18 + BOS delayed indefinitely — those may now be stale. Exact restart dates unclear; need Delta News Hub check.
+(3) Ben Gurion "Operation Roaring Lion": airport closed 40 days (Feb 28–Apr 9, 2026) during Israel-Iran conflict. Fully open since April 9. 47 airlines now operating; July capacity +29% vs 2025. August 2026 extreme congestion: 2.6M pax, ~33% on-time, 40-min avg delay, 5 peak days (Aug 6/13/17/20/27 ~100K each). Advisory needed in ben-gurion-airport-guide.md.
+(4) Israir Asia routes: Delhi/Mumbai/Tokyo/Hanoi/Bangkok/Phuket announced. India routes pending DGCA approval. Israir section in airline guide needs expansion.
+(5) Turkish nationals require security clearance for Israeli visa (Fragomen confirmed); Turkish Airlines TLV suspended; TUS Airways operates IST-TLV. No dedicated EN guide for Turkish travelers — confirmed gap.
+(6) Wizz Air full hub: opened Ben Gurion May 2026, 21 routes expanding to 50, based A320 aircraft, TLV-ETM domestic launched, new cities include Bratislava/Palermo/Naples/Venice; Milan doubled to 14x/week. Our airline guide still has minimal Wizz Air entry.
+Gate: N/A (RESEARCH — no code changes).
+6 new BACKLOG items appended. Next: iter1236 (1236%5=1 → BUILD; top P2 candidates: airlines-post-roaring-lion-resumptions XS, israel-for-polish-travelers S, nova-memorial M, israel-vs-dubai S).
