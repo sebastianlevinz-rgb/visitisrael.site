@@ -3,7 +3,7 @@ title: 'Israel in September: Travel Guide — Events, Weather & Tips'
 description: 'Israel in September: Rosh Hashana, Yom Kippur bicycle day, 27–31°C peak beach weather, and grape harvest. Planning guide for the High Holiday month.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
-updatedAt: 2026-07-25
+updatedAt: 2026-08-14
 ctaHeading: 'Book your September Israel trip'
 affiliateCtas:
   - partner: booking
@@ -175,7 +175,7 @@ The Dead Sea in September is intensely hot — 34–38°C at the water's edge, w
 
 **Dead Sea hotel demand** spikes for Rosh Hashana and Yom Kippur as Israeli families escape the city holidays for a resort atmosphere. Book well ahead for those specific dates; outside the holiday period, availability is generally good.
 
-For full logistics, see the [Dead Sea guide](/dead-sea).
+For full logistics, see the [Dead Sea guide](/dead-sea-guide).
 
 ---
 
@@ -217,7 +217,7 @@ The key practical points for navigating September's holidays as a tourist:
 1. **Stock supplies the day before Yom Kippur.** Shops close the afternoon before — buy food, water, and anything you need in the morning.
 2. **Plan transport around the holiday.** No buses, trains, or taxis for approximately 25 hours during Yom Kippur. Taxis and hired cars can be arranged in advance through hotels for airport transfers on Yom Kippur (essential if you have a flight that day — confirm with your hotel well ahead).
 3. **Dress modestly at religious sites.** During the holidays, this matters more than usual — the sites are being used for active religious practice, not tourism.
-4. **Use the [Israel Shabbat calendar tool](/israel-shabbat-calendar)** to plan around regular weekly Shabbat closures on top of the holiday schedule.
+4. **Use the [Shabbat in Israel guide](/shabbat-guide)** to plan around regular weekly Shabbat closures on top of the holiday schedule.
 
 ---
 
@@ -232,4 +232,4 @@ September opens Israel's autumn season and sets up the months that follow:
 - [Traveling Israel during Jewish holidays](/traveling-israel-jewish-holidays): the complete practical guide to navigating all major Jewish holidays in Israel
 - [Best time to visit Israel](/best-time-to-visit-israel): the full 12-month planning matrix
 
-For day-by-day availability planning accounting for Yom Kippur and Shabbat closures, the [Israel effective days calculator](/israel-effective-days) shows how many usable tourist days your itinerary actually contains.
+For day-by-day availability planning accounting for Yom Kippur and Shabbat closures, the [Shabbat guide](/shabbat-guide) covers weekly closure patterns to factor into your itinerary.

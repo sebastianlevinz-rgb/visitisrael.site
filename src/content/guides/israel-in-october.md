@@ -3,7 +3,7 @@ title: 'Israel in October: Travel Guide — Events, Weather & Tips'
 description: 'Israel in October combines Jewish High Holidays, wine harvest, Hula Valley crane migration, and ideal 22–27°C weather — plus post-holiday prices 25–40% lower.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Planning
-updatedAt: 2026-07-25
+updatedAt: 2026-08-14
 ctaHeading: 'Book your October Israel experience'
 affiliateCtas:
   - partner: booking
@@ -28,7 +28,7 @@ faqs:
   - question: Is October a good time to visit Israel?
     answer: 'October is one of the best months to visit Israel — particularly the second half of the month. The first two weeks see the Jewish High Holidays (Rosh Hashanah, Yom Kippur, Sukkot, and Simchat Torah), which means Jerusalem and the Galilee are busy, accommodation prices are elevated, and some services are reduced during the holiest days. After Sukkot ends (typically around the 10th–14th of October, depending on the Hebrew calendar year), a remarkable quiet descends: prices drop, crowds thin, and the weather is ideal — 22–27°C on the coast, 18–24°C in Jerusalem, and the Mediterranean still warm enough for swimming (around 25°C). The Negev hiking season opens, the Hula Valley crane migration begins, and wine harvest season runs through the month. October combines compelling events with excellent conditions. Always verify exact holiday dates for your year at chabad.org/holidays, as they shift annually.'
   - question: What Jewish holidays fall in October in Israel?
-    answer: 'The Jewish High Holidays cluster in September–October and shape the whole month. Rosh Hashanah (Jewish New Year) falls in September or early October depending on the year; Yom Kippur follows 10 days later, then Sukkot begins 5 days after that. In 2026: Rosh Hashanah (Sep 12–14), Yom Kippur (Sep 21), Sukkot (Sep 25–Oct 2), Simchat Torah (Oct 2–3) — verify at chabad.org/holidays for other years. Yom Kippur is the most solemn day: all businesses close, public transport stops, and the streets fill with cyclists in a uniquely striking atmosphere. Sukkot is the most festive: temporary outdoor dining huts (sukkahs) appear everywhere, and Jerusalem hosts the mass Priestly Blessing at the Western Wall. After Simchat Torah ends, the holidays are over until December.'
+    answer: 'The Jewish High Holidays cluster in September–October and shape the whole month. Rosh Hashanah (Jewish New Year) falls in September or early October depending on the year; Yom Kippur follows 10 days later, then Sukkot begins 5 days after that. In 2026: Rosh Hashanah (Sep 11–13), Yom Kippur (Sep 21), Sukkot (Sep 25–Oct 2), Simchat Torah (Oct 2–3) — verify at chabad.org/holidays for other years. Yom Kippur is the most solemn day: all businesses close, public transport stops, and the streets fill with cyclists in a uniquely striking atmosphere. Sukkot is the most festive: temporary outdoor dining huts (sukkahs) appear everywhere, and Jerusalem hosts the mass Priestly Blessing at the Western Wall. After Simchat Torah ends, the holidays are over until December.'
   - question: What is the weather like in Israel in October?
     answer: 'October weather in Israel is outstanding. The coast (Tel Aviv, Haifa) sits at 22–27°C in early October, cooling to 20–24°C by month''s end. Jerusalem runs 18–24°C by day and 12–16°C at night — a light jacket needed for evenings. The Galilee and Golan Heights are 15–22°C. Eilat and the Negev remain warm (28–35°C) and dry. The sea temperature stays around 25°C through October, making beach swimming entirely viable. October is almost entirely dry across the country, with the first light rains possibly arriving in northern Israel toward month''s end. It is cooler and more pleasant than September, without the chilly evenings that arrive in November.'
   - question: How far ahead should I book for October in Israel?
@@ -163,7 +163,7 @@ This two-to-three-week window — the post-Sukkot lull — is the strategic oppo
 - **Negev hiking permits**: no permit required for most Negev trails (INPA-managed sites covered by National Parks Pass or separate entry fee).
 
 ### Shabbat and holiday closures
-October includes multiple full Jewish holiday closures (Yom Kippur, first/last days of Sukkot, Simchat Torah) in addition to regular weekly Shabbat. On each: public transport stops, most businesses close, and national parks may have reduced hours. Use the [Israel Shabbat calendar tool](/israel-shabbat-calendar) to check which days have full closures during your dates.
+October includes multiple full Jewish holiday closures (Yom Kippur, first/last days of Sukkot, Simchat Torah) in addition to regular weekly Shabbat. On each: public transport stops, most businesses close, and national parks may have reduced hours. Use the [Shabbat in Israel guide](/shabbat-guide) to understand which days have full closures during your dates.
 
 ---
 
@@ -177,4 +177,4 @@ October is the bridge between Israel's summer peak and winter quiet. The seasona
 - [Israel wine guide](/israel-wine-wineries): full winery map and regional tasting routes for the harvest season
 - [Birdwatching in Israel](/birdwatching-in-israel): Hula Valley crane logistics, Eilat spring birding, and the full birding calendar
 
-For independent travel planning by day and by region, the [Israel effective days calculator](/israel-effective-days) accounts for Shabbat and holiday closures when computing available activity days.
+For independent travel planning by day and by region, the [Israel Shabbat guide](/shabbat-guide) covers holiday and Shabbat closures when planning your available activity days.
