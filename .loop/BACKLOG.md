@@ -3,6 +3,11 @@
 Format: `- [P1] (category, effort S/M/L) Title — why valuable — impl sketch — status`
 Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
+## New items — iter1254 REVIEW discoveries (2026-08-15)
+
+### Technical/freshness: Hanukkah guide minor wording cleanup
+- [P3] (technical/freshness, XS) **hanukkah-nights-wording-fix** — hanukkah-in-israel.md practical logistics section says "The remaining seven nights in 2026 fall on Sunday through Saturday" but night 2 starts Saturday Dec 5 evening (Shabbat end), so the range is Saturday–Friday not Sunday–Saturday. Low visitor-impact (Shabbat overlap is correctly identified in the adjacent sentence); add as minor freshness item. Fix: change "Sunday through Saturday" to "Saturday through Friday". Effort: XS (1 line). Status: ready [iter1254 review].
+
 ## New items — iter1250 RESEARCH discoveries (2026-08-15) — 280th research pass
 
 ### Seo-content: Sukkot in Jerusalem — city-specific guide, highest hotel booking intent

@@ -17933,3 +17933,20 @@ Next: iter1249 (1249%5=4 → REVIEW mode).
 **SHA:** ba1f1759 → origin/master
 **CI:** in_progress at state-write (normal — all prior SHAs = success).
 **Next:** iter1254 (1254%5=4 → REVIEW; audit slice of recently-shipped seasonal/event guides — simchat-torah-in-israel, sukkot-in-jerusalem, hanukkah-in-israel).
+
+## 2026-08-15T19:10Z · iter 1254 · REVIEW · sukkot-date-fix
+
+Audited: simchat-torah-in-israel (iter1253), sukkot-in-jerusalem (iter1252), hanukkah-in-israel (iter1246).
+
+**Critical find:** Sept 25 2026 = Friday (not Thursday). Verified via: Simchat Torah = Sat Oct 3 → Shemini Atzeret = Oct 3 → Hoshana Raba (21 Tishrei) = Oct 2 → first Yom Tov (15 Tishrei) = Sept 26 (Saturday) → erev Sukkot = Sept 25 = Friday. Both Sukkot guides had Hoshana Raba as October 1 (wrong) and sukkot-in-jerusalem.md had all table day-names off by one.
+
+**Fixes shipped (3a1e5c09):** sukkot-in-jerusalem.md — corrected 3 day-of-week labels in table (Thu→Fri Sept 25, Fri→Sat Sept 26, Sat→Sun Sept 27), merged duplicate Hoshana Raba + Last-day-of-Sukkot rows into one correct "Friday, October 2" entry, updated 2 FAQ answers. sukkot-in-israel.md — corrected Hoshana Raba body text from October 1 to October 2.
+
+**Other audit findings (no action needed):** simchat-torah meta OK (62ch title, 155ch desc). hanukkah meta OK (63ch title, 151ch desc). All internal links verified (dead-sea.md, tower-of-david-guide.md, etc. all exist). Hero images on disk. Affiliate CTA schemas valid. H1-in-body: 0 violations. Honesty: no fabricated prices/ratings.
+
+**Minor noted (BACKLOG):** hanukkah-in-israel.md says "remaining seven nights fall on Sunday through Saturday" — night 2 actually starts Saturday Dec 5 evening (after Shabbat ends), so technically "Saturday through Friday." Not a visitor-misleading error; added to BACKLOG as low-priority cleanup.
+
+Gate: pnpm check 0 errors | build 1994 pages (unchanged) | 3/3 targeted smoke + 3/3 a11y (0 WCAG) + 1/1 links PASS. CI in_progress at state-write (normal).
+Ship: 3a1e5c09 pushed to master. CI in_progress.
+
+**Next:** iter1255 (1255%5=0 → RESEARCH).
