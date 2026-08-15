@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1237 · BUILD (seo-content) · israel-for-polish-travelers · ece377e4
+- New EN guide for Polish visitors: ETA-IL (iaa.gov.il ₪25), LOT vs Wizz Air WAW-TLV direct table (~3h 50min), NFZ/EKUZ not valid in Israel, PLN not exchangeable, Type E→H adapter (230V same), POLIN–Yad Vashem memory tourism, Anders Army 1942 British Mandate Palestine (CWGC Haifa + Rehovot cemeteries), Polish Catholic pilgrimage (Via Dolorosa/Yardenit/Nazareth/Bethlehem), Polish Embassy 16 Soutine St Tel Aviv. 3 CTAs: GYG + Booking + SafetyWing. 6 FAQs. Rule-1 fixes: airlines-flying-israel-2026.md Delta ATL restored to active (April 15 3×/week A350-900) + Delta BOS Oct 24 confirmed; israel-for-american-travelers.md ATL row added. Build: 1984→1985 pages (+1). Gate: pnpm check 0 errors | build 1985 | 2/2 targeted e2e PASS.
+
 ## iter1236 · BUILD (technical/freshness) · airlines-post-roaring-lion-resumptions · 7ad1c7c4
 - Corrected confirmed factual errors in 3 EN guides: United Airlines EWR/ORD/IAD shown as active → corrected to suspended (BGA closure; EWR resumes Sept 8 2026, 2× daily B787 Dreamliner; ORD/IAD TBC); Air Canada YUL shown as "Seasonal Jun–Oct 2026 (active)" → suspended until ~Sept 7 2026; Delta ATL "suspended through Dec 18" + BOS "indefinitely delayed" → "restart announced — confirm exact date at delta.com" (Delta News Hub confirmed restarts following JFK resumption). KLM resumed Aug 25 row confirmed. Gate: 3092/3092 e2e PASS (24.5m); build 1984 pages unchanged.
 

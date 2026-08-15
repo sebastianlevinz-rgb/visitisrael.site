@@ -17742,3 +17742,14 @@ Gate: N/A (RESEARCH — no code changes).
 **Push:** 7ad1c7c4 → origin/master
 
 **Notes:** Auto branch auto/airlines-post-roaring-lion-resumptions was local-only (same SHA as master); committed changes directly to master. No i18n variants affected (airlines guide exists only in EN; DE/FR/ES variants noted in backlog as `airlines-i18n-freshness-audit` P3).
+
+## 2026-08-15T01:10Z · iter 1237 · BUILD (seo-content) · israel-for-polish-travelers · ece377e4
+**What:** New EN guide for Polish visitors to Israel — one of the highest-value missing nationality guides given Poland's unique historical relationship with Israel (pre-WWII Poland home to world's largest Jewish population, 3.5M). Content: ETA-IL process (iaa.gov.il ₪25, 72h processing), LOT Polish Airlines vs Wizz Air WAW-TLV direct comparison table (~3h 50min nonstop), NFZ (Narodowy Fundusz Zdrowia) not valid in Israel + EKUZ not valid, PLN not exchangeable in Israel (withdraw NIS from ATM), Type E→H adapter only (both 230V — no converter needed), POLIN Museum–Yad Vashem memory tourism section, Anders Army (Polish II Corps via British Mandate Palestine 1942; CWGC Haifa Stella Maris Cemetery + Rehovot cemetery), Polish Catholic pilgrimage circuit (Via Dolorosa + Church of the Holy Sepulchre + Yardenit Jordan River baptism + Nazareth Basilica of the Annunciation), Polish Embassy 16 Soutine St Tel Aviv (MSZ portal gov.pl/web/izrael). 3 affiliate CTAs: GYG private Jerusalem tour (rating 4.9, 3100 reviews) + Booking Israel hotels + SafetyWing travel insurance. 6 FAQs. 9 internal cross-links.
+
+**Rule-1 fixes (bundled):** airlines-flying-israel-2026.md — Delta ATL restored to active carriers table (resumed April 15, 2026, 3×/week A350-900; prior run iter1236 had left it in an inconsistent state as "restart announced" after iter1232 had erroneously moved it to suspended); Delta BOS row updated to confirmed Oct 24, 2026 launch; description shortened from 175→144 chars. israel-for-american-travelers.md — Atlanta ATL row added to nonstop flight table with confirmed April 15 operational status.
+
+**Files:** src/content/guides/israel-for-polish-travelers.md (NEW) + tests/e2e/smoke.spec.ts + tests/e2e/a11y.spec.ts + airlines-flying-israel-2026.md (Rule-1) + israel-for-american-travelers.md (Rule-1)
+
+**Gate:** pnpm check ✅ 0 errors | pnpm build ✅ 1985 pages (+1) | 2/2 targeted e2e PASS (smoke + a11y)
+**Push:** ece377e4 → origin/master (direct commit on master; branch auto/israel-for-polish-travelers had no committed history)
+**Notes:** EN guide count now 415 (14 extra beyond 401-plan baseline). Next: iter1238 BUILD tools category (1238%5=3 → BUILD).
