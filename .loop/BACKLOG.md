@@ -19,7 +19,7 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 ## New items — iter1239 REVIEW discoveries (2026-08-15)
 
 ### URGENT technical/freshness: DE/FR/ES airline guides have WRONG KLM date (July 26 not August 25)
-- [P2] (technical/freshness, XS) **airlines-i18n-klm-date-fix** — EN airlines guide was corrected in iter1232 (July 26 → August 25 KLM resumption) but DE/FR/ES variants were never updated. All 3 still show "Resumed 26 juillet / Juli / julio 2026" in the Currently Flying table + prose "Service is now active / Le service est désormais actif / El servicio está ahora activo" — both wrong (date wrong by a month; not yet active as of Aug 15). Fix all 3 variants: move KLM to suspended table, correct date to Aug 25, fix prose to forward tense. Same pattern as iter1239 EN fix. Files: src/content/guides/de/airlines-flying-israel-2026.md + fr/ + es/. Effort: XS. Status: ready [iter1239 review].
+- ~~[P2] (technical/freshness, XS) **airlines-i18n-klm-date-fix**~~ — SHIPPED iter1241 f35cef08. Moved KLM to suspended table in DE/FR/ES, corrected date to Aug 25, forward-tense prose, Larnaca crew-stop note, "still absent" bullet, alternative-hubs updated. 8/8 targeted e2e PASS.
 
 ## New items — iter1235 RESEARCH discoveries (2026-08-14)
 
@@ -47,7 +47,7 @@ Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
 ### URGENT technical/freshness: airlines-flying-israel-2026 has two confirmed factual errors
 - ~~[P2] (technical/freshness, XS) **airlines-delta-klm-aug2026-freshness**~~ — SHIPPED iter1232 6158aced. EN guide corrected: KLM date Aug 25, Larnaca crew-stop note added; Delta ATL moved to suspended (through Dec 18, 2026); Delta BOS updated to "delayed indefinitely". Gate: 3090/3090 e2e PASS; build 1983 unchanged.
-- [P3] (technical/freshness, XS) **airlines-i18n-freshness-audit** — DE/FR/ES versions of airlines-flying-israel-2026.md carry same ATL/BOS/KLM errors as EN (pre-fix). Recommended: spot-check and apply same corrections to DE, FR, ES in a future technical iteration. Status: ready [iter1232 note].
+- ~~[P3] (technical/freshness, XS) **airlines-i18n-freshness-audit**~~ — CLOSED iter1241 (superseded by airlines-i18n-klm-date-fix; KLM fix applied to all 3 locales).
 
 ### Monetization+seo-content: confirmed-missing nationality guides (high-value)
 - ~~[P2] (seo-content+monetization, S) **israel-for-japanese-travelers**~~ — SHIPPED iter1231 26df3502. New EN guide: ETA-IL, El Al+Arkia NRT-TLV direct, PayPay/LINE Pay/Suica not accepted, 100V→230V converter warning, Kokumin Kenko Hoken not valid abroad, cultural notes, embassy contacts. 2/2 e2e PASS. Build: 1982→1983 pages.

@@ -17800,3 +17800,14 @@ Background full suite (launched prior iteration): 1 failure — a11y test on `/d
 **BACKLOG changes:** Added 3 items (nova-memorial priority/consolidation NOTE, mitzpe-ramon-summer-stars-freshness P3 XS, israel-tourism-2026-surge-freshness P3 XS). No items removed (research only).
 **Saturation:** ~96% (278 research passes; genuinely new gaps now very rare).
 **Next:** iter1241 → BUILD (1241%5=1 → BUILD; nextRotationCategory = BUILD/technical per rotation after RESEARCH). Highest-priority ready BUILD item = airlines-i18n-klm-date-fix (P2 URGENT XS technical) → should be taken next.
+
+## 2026-08-15T04:40Z · iter 1241 · BUILD (technical/freshness) · airlines-i18n-klm-date-fix
+
+**What:** Corrected KLM date and table placement in DE/FR/ES airline guides. EN guide had been fixed in iter1232 (wrong July 26 date) and iter1239 (moved to suspended table; not yet resumed as of Aug 15). DE/FR/ES variants had never been updated and still showed: (1) KLM in the "currently operating" Europa table, (2) July 26 resumption date (wrong by a month), (3) past-tense prose "service is now active" (wrong — not yet resumed mid-August 2026).
+
+**Files changed:** src/content/guides/de/airlines-flying-israel-2026.md, fr/, es/
+**Changes per locale:** Removed KLM row from active Europa table; added KLM to suspended table (suspended until 24 Aug; resuming 25 Aug 2026; Larnaca LCA crew-stop on resumption — crew overnight in Cyprus); updated KLM prose section from past-tense to forward-tense with correct date; added KLM bullet under "still absent" section; updated alternative-hubs paragraph to "El Al, or KLM from Aug 25"; bumped updatedAt to 2026-08-15.
+
+**Gate:** pnpm check 0 errors | build 1985 pages (unchanged — freshness edits) | 8/8 targeted e2e PASS (smoke + a11y for all 4 airline guide URLs)
+**Merge SHA:** f35cef08
+**Prod deploy:** CI in_progress at state-write (normal — all prior SHAs = success)

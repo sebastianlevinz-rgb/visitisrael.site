@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1241 · BUILD (technical/freshness) · airlines-i18n-klm-date-fix · f35cef08
+- Corrected KLM date and table placement in DE/FR/ES airline guides. EN was fixed in iter1232+1239; DE/FR/ES still showed July 26 (wrong) with KLM in active table. All 3 variants fixed: moved KLM to suspended table (resuming Aug 25 2026; Larnaca LCA crew-stop note), updated prose to forward tense, added "still absent" bullet, updated alternative-hubs to "El Al, or KLM from Aug 25". Build 1985 unchanged. 8/8 targeted e2e PASS.
+
 ## iter1237 · BUILD (seo-content) · israel-for-polish-travelers · ece377e4
 - New EN guide for Polish visitors: ETA-IL (iaa.gov.il ₪25), LOT vs Wizz Air WAW-TLV direct table (~3h 50min), NFZ/EKUZ not valid in Israel, PLN not exchangeable, Type E→H adapter (230V same), POLIN–Yad Vashem memory tourism, Anders Army 1942 British Mandate Palestine (CWGC Haifa + Rehovot cemeteries), Polish Catholic pilgrimage (Via Dolorosa/Yardenit/Nazareth/Bethlehem), Polish Embassy 16 Soutine St Tel Aviv. 3 CTAs: GYG + Booking + SafetyWing. 6 FAQs. Rule-1 fixes: airlines-flying-israel-2026.md Delta ATL restored to active (April 15 3×/week A350-900) + Delta BOS Oct 24 confirmed; israel-for-american-travelers.md ATL row added. Build: 1984→1985 pages (+1). Gate: pnpm check 0 errors | build 1985 | 2/2 targeted e2e PASS.
 

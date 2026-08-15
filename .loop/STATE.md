@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1240
-- lastMode: RESEARCH
-- lastItem: 278th-research-pass
-- lastResult: iter1240 RESEARCH — 278th research pass. Scanned touristisrael.com, beinharimtours.com, worldjewishtravel.org, Danny The Digger, Exclusive Israel Tours, TripAdvisor, GYG, ToI, TravelPulse, Forbes, semerenkogroup.com, mitzpe-ramon.co.il. KEY FINDINGS: (1) Nova Memorial confirmed Israel's most visited KKL-JNF site — 200K monthly visitors; ZERO editorial coverage from us; two conflicting backlog entries (P2 M ready iter1210 vs P2 M BLOCKED iter80); BLOCKED status should take precedence; flagged for human decision. (2) Tourism recovery June 2026: USA/Canada +73% YoY; 1.3M visitors full-year 2025. (3) Kassland Resort (West Bank) confirmed excluded per editorial policy. (4) National Campus Archaeology visitor experience: 2027 (already SHIPPED iter968/1218). (5) Mitzpe Ramon "Summer of Stars" annual August event confirmed; not yet named in our guides. NET-NEW BACKLOG: 3 items (nova-memorial priority NOTE, mitzpe-ramon-summer-stars-freshness P3 XS, israel-tourism-2026-surge-freshness P3 XS). No code changes; saturation ~96%.
+- iteration: 1241
+- lastMode: BUILD
+- lastItem: airlines-i18n-klm-date-fix
+- lastResult: iter1241 BUILD technical — airlines-i18n-klm-date-fix SHIPPED f35cef08. Corrected KLM date and table placement in DE/FR/ES airline guides. EN was fixed in iter1232+1239 but DE/FR/ES still showed July 26 (wrong date) and KLM in the "currently operating" table (wrong status). Fixed all 3 variants: removed KLM from active Europa table; added to suspended table (suspended until Aug 24; resuming Aug 25 2026; Larnaca LCA crew-stop on resumption); updated KLM prose section from past-tense "now active" to forward-tense "resuming Aug 25"; added KLM bullet to "still absent" section; updated alternative-hubs paragraph to "El Al, or KLM from Aug 25"; bumped updatedAt to 2026-08-15. Gate: pnpm check 0 errors | build 1985 pages (unchanged) | 8/8 targeted e2e PASS. CI in_progress at state-write (normal).
 
-- nextRotationCategory: BUILD/technical (iter1241%5=1 → BUILD; airlines-i18n-klm-date-fix P2 URGENT XS is the top ready technical item)
+- nextRotationCategory: BUILD/monetization (iter1242%5=2 → BUILD; after technical the rotation returns to monetization; top ready item: israel-for-turkish-travelers P3 S or car-rental-happycar-carwiz-update P3 S)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-15T04:00Z
-- branch context: master at 6d7f3d59; EN=415/401 (15 extra EN guides), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+- updatedAt: 2026-08-15T04:40Z
+- branch context: master at f35cef08; EN=415/401 (15 extra EN guides), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+
+Notes: iter1241 BUILD technical — airlines-i18n-klm-date-fix SHIPPED f35cef08. Corrected KLM date + table placement in DE/FR/ES airline guides (EN fixed in iter1232+1239; DE/FR/ES never updated). Removed KLM from active Europa table; added to suspended table (resuming 25 Aug 2026; Larnaca crew-stop); updated prose to forward tense; added "still absent" bullet; updated alternative-hubs. 8/8 targeted e2e PASS. Build 1985 unchanged.
 
 Notes: iter1232 BUILD technical (tools-empty fallthrough) — airlines-delta-klm-aug2026-freshness SHIPPED 6158aced. Three confirmed factual errors corrected in airlines-flying-israel-2026.md: (1) KLM resumption date wrong — updated from 26 July to 25 August 2026 (NL Times + AirlineGeeks sources); added Larnaca (LCA) crew-stop caveat (crew overnight in Cyprus, not Israel — operationally important for same-day connections); (2) Delta ATL wrong — was listed as active (3×/week launched April 15); ACTUAL: suspended through 18 December 2026 per Delta News Hub; removed from "currently flying" table; added to suspended table + all prose references corrected; (3) Delta BOS wrong — was "scheduled Oct 24 2026"; ACTUAL: delayed indefinitely per Delta News Hub + Paddle Your Own Kanoo; updated throughout. updatedAt bumped to 2026-08-14. Gate: pnpm check 0 errors | build 1983 pages (unchanged) | test:e2e 3090/3090 PASS (23.3m). Committed 6158aced; pushed master. CI in_progress at state-write (normal).
 
