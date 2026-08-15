@@ -3,7 +3,7 @@ title: 'Compagnies vers Israël 2026 : état actuel et suspensions'
 description: "Compagnies vers Ben Gourion (TLV) : tableau des transporteurs actifs, suspendus et en reprise — mis à jour août 2026."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-08-13
+updatedAt: 2026-08-15
 ctaHeading: 'Comparez les tarifs actuels vers Tel Aviv'
 affiliateCtas:
   - partner: skyscanner
@@ -62,7 +62,6 @@ faqs:
 | **Wizz Air** | London Luton (LTN), Budapest (BUD), Vienne (VIE), Bucarest (OTP), Bratislava (BTS, dès mai 2026), Milan MXP (jusqu'à 14×/semaine été 2026), Rome (FCO), Naples (NAP), Palerme (PMO), Venise (VCE) et autres | Hub TLV complet lancé printemps 2026 avec appareils basés — ~21 routes actives, objectif ~50. Inclut vol intérieur TLV↔Ramon (ETH). Tarifs de base hors bagages — comparer le prix total sur wizzair.com |
 | **Arkia** | Málaga AGP, Tokyo Narita NRT (oct. 2026) | La nouvelle liaison Japon d'Arkia ouvre la première passerelle directe d'Israël vers l'Asie de l'Est |
 | **Aegean** | Athènes ATH et aéroports des îles grecques | Idéal pour les combinés Israël–Grèce |
-| **KLM** | Amsterdam AMS | Reprise le 26 juillet 2026 (suspendu du 1er mars au 25 juillet) ; hub de correspondance pour l'Europe du Nord |
 | **Austrian Airlines** | Vienne VIE | Hub de correspondance pour l'Europe centrale et orientale |
 
 ### Moyen-Orient, Asie et Océanie
@@ -86,6 +85,7 @@ faqs:
 | **Turkish Airlines** | Suspendu. Aucune date de reprise annoncée | turkishairlines.com |
 | **Emirates** | Suspension permanente ; aucune reprise prévue | emirates.com |
 | **easyJet** | Suspendu. La reprise de mars 2026 n'a pas eu lieu. Prochaine reprise planifiée : fin octobre 2026 — **la date peut encore être reportée ; vérifiez sur easyjet.com avant de réserver** | easyjet.com |
+| **KLM** | Suspendu jusqu'au 24 août 2026 ; **reprise le 25 août 2026** — pas encore en service à mi-août 2026. Escale technique à Larnaca (LCA) à la reprise — l'équipage passe la nuit à Chypre, pas en Israël. Vérifiez le statut actuel sur klm.com | klm.com |
 | **Delta Boston (BOS)** | Lancement 24 octobre 2026 (quotidien, A330-900neo) — confirmez sur delta.com | delta.com |
 
 ---
@@ -108,10 +108,11 @@ faqs:
 
 **Hub Wizz Air TLV (printemps 2026) :** Wizz Air a inauguré une base complète à Tel Aviv avec appareils stationnés — le premier hub Wizz Air en Israël. Cela a permis une expansion rapide du réseau à environ 21 routes actives à l'été 2026, avec un objectif à long terme d'environ 50 routes depuis TLV. Les nouvelles routes 2026 incluent Bratislava (BTS, mai 2026), Naples (NAP), Palerme (PMO) et Venise (VCE) ; la fréquence Milan MXP a été doublée jusqu'à 14 vols par semaine en été 2026. Une nouvelle route intérieure entre Tel Aviv Ben Gourion (TLV) et l'aéroport Ramon (ETH) a également été lancée — le premier service intérieur Wizz Air en Israël. Vérifiez la liste des routes et les horaires actuels sur wizzair.com.
 
-**Suspension et reprise de KLM :** KLM a suspendu sa liaison Amsterdam–TLV à partir du 1er mars 2026 (suite à de nouvelles préoccupations sécuritaires) et a repris le 26 juillet 2026. Les voyageurs ayant réservé KLM via Amsterdam entre mars et juillet 2026 ont été réacheminés ou remboursés. Le service est désormais actif.
+**Suspension de KLM et prochaine reprise :** KLM a suspendu sa liaison Amsterdam–TLV à partir du 1er mars 2026 (suite à de nouvelles préoccupations sécuritaires). La reprise est prévue le **25 août 2026** — pas encore active à mi-août 2026. Les voyageurs ayant réservé KLM via Amsterdam entre mars et août 2026 ont été réacheminés ou remboursés. À la reprise, KLM effectuera une escale technique à Larnaca (Chypre) — l'équipage passe la nuit à Larnaca, pas en Israël. Vérifiez le statut opérationnel actuel sur klm.com avant de réserver.
 
 **Toujours absents :**
 - British Airways, Ryanair, Turkish Airlines, Emirates et easyJet sont toujours absentes du marché TLV en août 2026.
+- **KLM** est suspendue jusqu'au 24 août 2026 — reprise prévue le 25 août 2026.
 
 ---
 
@@ -121,7 +122,7 @@ faqs:
 
 **Comparez les tarifs de tous les transporteurs actifs** via un comparateur de vols avant de réserver. Avec un champ de transporteurs en service plus restreint qu'en 2023, certaines liaisons qui avaient 3–4 options concurrentes n'en ont plus que 1–2, et les prix le reflètent.
 
-**Envisagez des hubs alternatifs.** Avec Turkish Airlines suspendue et British Airways absente, certains voyageurs européens se connectent désormais via Paris (Air France), Amsterdam (KLM), Rome (ITA), Zurich (SWISS) ou Francfort (Lufthansa) plutôt que par leurs itinéraires habituels via Istanbul ou Londres. Effectuez une recherche via chaque hub pour trouver le meilleur tarif total.
+**Envisagez des hubs alternatifs.** Avec Turkish Airlines suspendue et British Airways absente, certains voyageurs européens se connectent désormais via Paris (Air France), Amsterdam (El Al, ou KLM à partir du 25 août 2026), Rome (ITA), Zurich (SWISS) ou Francfort (Lufthansa) plutôt que par leurs itinéraires habituels via Istanbul ou Londres. Effectuez une recherche via chaque hub pour trouver le meilleur tarif total.
 
 **Réservez des tarifs remboursables si possible** tant que la situation reste incertaine, en particulier pour les voyages dans les prochains mois.
 
