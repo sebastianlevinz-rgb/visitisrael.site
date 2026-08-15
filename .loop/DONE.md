@@ -2496,3 +2496,6 @@ Freshness update to ben-gurion-airport-guide.md: August 2026 peak-season advisor
 
 ## klm-not-yet-resumed-fix · SHA 6d7f3d59 · iter1239 REVIEW
 Fix incorrect KLM status in airlines-flying-israel-2026.md: KLM was listed as "Currently flying" with past-tense "Resumed 25 August 2026" and prose "Service is now active" — both wrong before Aug 25. Moved to Suspended/Uncertain table; corrected 5 prose references to forward tense. Gate: pnpm check 0 errors | build 1985 pages | 8/8 e2e PASS.
+
+## iter1242 · BUILD (monetization) · israel-for-turkish-travelers · 21f68637
+- New EN guide for Turkish visitors. Security clearance process (2–4 weeks Israeli Embassy Ankara / Consulate Istanbul; Turkey not on ETA-IL list); TUS Airways IST–TLV direct + indirect via Larnaca/Athens/Budapest (Turkish Airlines TLV suspended mid-2026); SGK not valid — SafetyWing CTA; TRY not exchangeable; Type C/F→H adapter (230V same); Ottoman heritage (Jerusalem walls Suleiman 1537–41, Akko walled city, Jaffa Mahmoudiya Mosque); Christian pilgrimage section; Al-Aqsa for Muslims; Turkish Embassy 1 Pinhas Rosen St Tel Aviv. 6 FAQs; 3 CTAs. Build: 1985→1986 pages (+1). 2/2 e2e PASS.

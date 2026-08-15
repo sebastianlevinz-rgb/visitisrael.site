@@ -17811,3 +17811,9 @@ Background full suite (launched prior iteration): 1 failure — a11y test on `/d
 **Gate:** pnpm check 0 errors | build 1985 pages (unchanged — freshness edits) | 8/8 targeted e2e PASS (smoke + a11y for all 4 airline guide URLs)
 **Merge SHA:** f35cef08
 **Prod deploy:** CI in_progress at state-write (normal — all prior SHAs = success)
+
+## 2026-08-15T05:40Z · iter 1242 · BUILD (monetization) · israel-for-turkish-travelers · 21f68637
+What: New EN guide for Turkish visitors to Israel. Turkey not on ETA-IL list — tourist visa + security clearance process (2–4 weeks, Israeli Embassy Ankara or Consulate Istanbul). Flights: TUS Airways IST–TLV direct; Turkish Airlines TLV suspended mid-2026; indirect via Larnaca (Cyprus Airways), Athens (Aegean/Ryanair), Budapest (Wizz Air). SGK health insurance not valid — SafetyWing CTA. Turkish lira not exchangeable — Visa/Mastercard + Wise. Type C/F → Type H adapter (same 230V, no converter). Ottoman heritage angle (Jerusalem walls by Suleiman the Magnificent 1537–41; Akko UNESCO walled city; Jaffa Mahmoudiya Mosque). Christian pilgrimage section (growing Turkish Evangelical market; Galilee + Jerusalem + Bethlehem sites). Al-Aqsa access for Muslim visitors. Turkish Embassy Tel Aviv (1 Pinhas Rosen St). 6 FAQs; 3 CTAs (GYG + Booking + SafetyWing). 2 new e2e tests added to smoke.spec.ts + a11y.spec.ts.
+Gate: pnpm check 0 errors | build 1985→1986 pages (+1) | 2/2 targeted e2e PASS.
+Ship: squash-merged to master 21f68637, pushed to origin/master. CI in_progress at state-write (normal).
+Next: iter1243 (1243%5=3 → BUILD/seo-content; top candidates: israel-kibbutz-volunteer-guide P2 S, florentin-tel-aviv-guide P3 S, emmaus-trail-guide P3 S).
