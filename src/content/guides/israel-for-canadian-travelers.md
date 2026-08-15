@@ -35,7 +35,7 @@ faqs:
   - question: What does Global Affairs Canada say about travelling to Israel?
     answer: 'Global Affairs Canada publishes live travel advisories at travel.gc.ca. The current designation for Israel is Level 3 ("Avoid non-essential travel") with a Level 4 ("Avoid all travel") for the Gaza Strip and the area within 80 km of the Gaza border. The main tourist destinations — Jerusalem, Tel Aviv, the Dead Sea, Galilee and Eilat — are not under Level 4 restriction as of mid-2026, but the overall security environment means travellers should exercise heightened caution throughout the country, monitor updates and register with the Registration of Canadians Abroad (ROCA) service at travel.gc.ca/travelling/registration. Advisories are updated in response to events and third-party summaries can go stale — always check the source directly.'
   - question: Are there direct flights from Canada to Israel?
-    answer: 'El Al operates direct flights between Toronto Pearson (YYZ) and Ben Gurion Airport (TLV) roughly once or twice a week (approximately 11–12 hours nonstop). Air Canada resumes its Montreal Trudeau (YUL) to TLV seasonal service June through October 2026 on Fridays and Sundays (approximately 11 hours nonstop). WestJet does not currently serve Israel. All other routing from Canadian cities requires a connection, most commonly via London, Paris, Frankfurt or Toronto; Air Canada, British Airways, Lufthansa, Air France and Turkish Airlines all serve TLV with one-stop itineraries from Canadian gateways. See the cheap flights to Israel guide for fare-tool tips and when to book.'
+    answer: 'El Al operates direct flights between Toronto Pearson (YYZ) and Ben Gurion Airport (TLV) roughly once or twice a week (approximately 11–12 hours nonstop). Air Canada''s Montreal Trudeau (YUL) to TLV seasonal service is currently suspended and scheduled to resume around September 7, 2026 — verify at aircanada.com. WestJet does not currently serve Israel. All other routing from Canadian cities requires a connection, most commonly via London, Paris, Frankfurt or Toronto; British Airways is suspended (planned restart late Oct 2026), Lufthansa and Air France are currently serving TLV, Turkish Airlines is suspended. See the cheap flights to Israel guide for fare-tool tips and when to book.'
   - question: Is my Canadian driving licence valid in Israel?
     answer: 'Yes. A valid Canadian provincial or territorial driving licence is accepted for renting and driving cars in Israel. Israel drives on the right-hand side of the road — the same as Canada — so the adjustment is straightforward for Canadian drivers. Most Israeli roads are well-maintained with signage in Hebrew, Arabic and English. GPS navigation is highly recommended; the Waze app (an Israeli-founded product) has excellent coverage. See the Israel driving guide for toll roads, fuel costs and highway tips.'
   - question: Does Canadian provincial health coverage (OHIP, MSP, RAMQ, etc.) cover medical costs in Israel?
@@ -70,9 +70,9 @@ Global Affairs Canada publishes live travel advice for Israel at **travel.gc.ca*
 | Departure | Carrier | Frequency | Approx. nonstop time |
 |---|---|---|---|
 | Toronto YYZ | El Al | ~1–2 × weekly | 11–12 hours |
-| Montreal YUL | Air Canada | Seasonal (Jun–Oct 2026); Fri + Sun | ~11 hours |
+| Montreal YUL | Air Canada | Suspended; resumes ~September 7, 2026 (Fri + Sun) — verify at aircanada.com | ~11 hours |
 
-El Al's Toronto–Tel Aviv service typically operates on narrow-to-wide body aircraft depending on season; book early as loads fill quickly, particularly around Jewish holidays. Air Canada's Montreal seasonal service is a popular choice for French-Canadian pilgrimage groups, church travel organisations and Quebec Jewish community travellers.
+El Al's Toronto–Tel Aviv service typically operates on narrow-to-wide body aircraft depending on season; book early as loads fill quickly, particularly around Jewish holidays. Air Canada's Montreal seasonal service (popular with French-Canadian pilgrimage groups, church travel organisations and Quebec Jewish community travellers) is currently suspended — expected to resume around September 7, 2026; verify at aircanada.com before booking.
 
 ### One-stop connections from other Canadian cities
 
@@ -221,7 +221,7 @@ The Embassy provides consular assistance to Canadian citizens in Israel for lost
 |---|---|
 | Visa requirement | None for tourists (ETA-IL required since Jan 2025; ₪25 — apply at iaa.gov.il) |
 | GAC advisory | Check travel.gc.ca; register with ROCA |
-| Direct flights | El Al YYZ–TLV (~weekly); Air Canada YUL–TLV seasonal (Jun–Oct 2026 Fri/Sun) |
+| Direct flights | El Al YYZ–TLV (~weekly); Air Canada YUL–TLV resumes ~Sep 7 2026 — verify at aircanada.com |
 | Total flight time | ~11–12 hours nonstop; 16–20 hours via connections |
 | Time zone (summer) | UTC+3 = 6 hours ahead of EDT (Toronto); 9 hours ahead of PDT (Vancouver) |
 | Currency | New Israeli Shekel (₪) — cards widely accepted |
