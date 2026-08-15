@@ -17853,3 +17853,8 @@ Gate: N/A (RESEARCH mode — no code changes, no build needed).
 Ship: No shipping this iteration.
 Prod: N/A.
 Memory commit: follows immediately.
+
+## 2026-08-15T09:40Z · iter 1246 · BUILD (monetization) · hanukkah-in-israel
+What: New EN guide for Hanukkah in Israel (Festival of Lights). 2026 dates Dec 4–12. Western Wall nightly lightings; Tower of David Hanukkah night programming (book ahead); Mahane Yehuda market sufganiyot + evening atmosphere; Safed Kabbalah candlelit Old Quarter walking tours; Tel Aviv public menorahs (Rabin/Dizengoff squares + Hilton Beach Chabad); Shabbat overlap logistics (Dec 4 first night coincides with Shabbat in 2026 — transport stops, plan ahead); Moreshet HaMaccabim Torch Relay from Modi'in (state ceremony since 1944); what stays open (everything — no Yom Tov restrictions, unlike Rosh Hashanah/Yom Kippur); booking urgency framing for domestic school-holiday travel surge. 7 FAQs; 2 affiliate CTAs (GYG Hanukkah tours + Booking Jerusalem hotels); 8 cross-links to existing guides (israel-in-december, christmas-in-israel, rosh-hashanah-in-israel, sukkot-in-israel, best-time-to-visit-israel, jerusalem-food-guide, best-hotels-jerusalem, safed-tzfat-guide).
+Gate: pnpm check 0 errors | build 1987→1988 pages (+1) | test:e2e 2/2 targeted PASS (smoke + a11y).
+Ship: committed 44bd0813; pushed origin/master. CI in_progress at state-write (normal — all prior SHAs = success).
