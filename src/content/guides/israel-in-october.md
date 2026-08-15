@@ -73,7 +73,7 @@ Five days after Yom Kippur, Sukkot begins — the most festive major Jewish holi
 
 **Birkat Kohanim** (the Priestly Blessing) at the Western Wall during Sukkot is one of Israel's most extraordinary public gatherings. Tens of thousands of people fill the Kotel plaza at dawn as kohanim (priestly-lineage Jews) extend their tallitot over the assembled crowd and chant the three-verse blessing. The sound is unlike anything else. Arrive no later than 6:30am for any position near the front; arrive by 5:30am if you want the plaza proper. This happens twice during Sukkot — check the exact mornings at the Western Wall Heritage Foundation (thekotel.org).
 
-Hotel prices in Jerusalem spike 30–50% during Sukkot week. Book 3–4 months ahead. The [traveling in Israel during Jewish holidays guide](/traveling-israel-jewish-holidays) has full logistics for managing the holiday calendar.
+Hotel prices in Jerusalem spike 30–50% during Sukkot week. Book 3–4 months ahead. The [traveling in Israel during Jewish holidays guide](/traveling-israel-jewish-holidays) has full logistics for managing the holiday calendar. For a Jerusalem-specific deep dive — the Jerusalem March, Tower of David Sukkot programming, and Old City hotel strategy — see the [Sukkot in Jerusalem guide](/sukkot-in-jerusalem).
 
 ---
 

@@ -218,7 +218,7 @@ For a full standalone guide — Ben Gurion Airport closure, the cycling promenad
 
 **Booking advice**: book two to four months ahead — equivalent caution to Passover. Sites are at their busiest on the intermediate days when Israeli domestic tourism peaks.
 
-For a full planning guide covering dates, the Western Wall Birkat Kohanim, Chol HaMoed logistics, and accommodation strategy, see the [Sukkot in Israel guide](/sukkot-in-israel).
+For a full planning guide covering dates, the Western Wall Birkat Kohanim, Chol HaMoed logistics, and accommodation strategy, see the [Sukkot in Israel guide](/sukkot-in-israel). If Jerusalem is your base, the dedicated [Sukkot in Jerusalem guide](/sukkot-in-jerusalem) covers the city-specific events — Birkat Kohanim, the Jerusalem March, and Tower of David Sukkot programming — plus hotel booking advice for the Old City area.
 
 ---
 

@@ -472,6 +472,7 @@ const ROUTES = [
   '/israel-kayaking',
   '/israel-visa-extension',
   '/sukkot-in-israel',
+  '/sukkot-in-jerusalem',
   '/hai-bar-yotvata-guide',
   '/yom-kippur-in-israel',
   '/3-days-in-eilat',
