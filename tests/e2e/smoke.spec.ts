@@ -473,6 +473,7 @@ const ROUTES = [
   '/israel-visa-extension',
   '/sukkot-in-israel',
   '/sukkot-in-jerusalem',
+  '/simchat-torah-in-israel',
   '/hai-bar-yotvata-guide',
   '/yom-kippur-in-israel',
   '/3-days-in-eilat',

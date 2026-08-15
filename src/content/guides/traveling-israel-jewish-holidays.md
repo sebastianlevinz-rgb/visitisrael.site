@@ -214,7 +214,7 @@ For a full standalone guide — Ben Gurion Airport closure, the cycling promenad
 
 - **Four Species (Arba Minim)**: throughout Sukkot, Jews carry and wave a lulav (palm frond, willow, and myrtle bound together) and etrog (a citron fruit). Markets selling these fill Jewish neighbourhoods in the days before the holiday — a colourful and distinctive sight.
 - **Jerusalem events**: the city hosts outdoor concerts, markets, and cultural events in the sukkot period. The Western Wall plaza holds major public prayers.
-- **Simchat Torah** (the last day): marks the completion of the annual Torah reading cycle. Synagogues celebrate with dancing, singing, and the Torah scrolls carried around the room seven times. The festivities at the Western Wall and the Great Synagogue in Jerusalem run late into the night.
+- **Simchat Torah** (the last day): marks the completion of the annual Torah reading cycle. Synagogues celebrate with dancing, singing, and the Torah scrolls carried around the room seven times. The festivities at the Western Wall, Mea She'arim street processions, and the Great Synagogue in Jerusalem run late into the night; Tel Aviv's Dizengoff Square hosts outdoor hakafot open to all. See the dedicated [Simchat Torah in Israel guide](/simchat-torah-in-israel) for visitor logistics, Mea She'arim etiquette, and Jerusalem vs Tel Aviv comparison.
 
 **Booking advice**: book two to four months ahead — equivalent caution to Passover. Sites are at their busiest on the intermediate days when Israeli domestic tourism peaks.
 

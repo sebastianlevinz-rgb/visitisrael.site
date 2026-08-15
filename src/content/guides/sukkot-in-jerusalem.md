@@ -139,6 +139,7 @@ See the [best hotels in Jerusalem guide](/best-hotels-jerusalem) for area-by-are
 ## Combine Sukkot in Jerusalem with more of Israel
 
 - **Sukkot in Israel**: the [national Sukkot guide](/sukkot-in-israel) covers the full country picture — Galilee crane migration, Negev national parks, Tel Aviv Chol HaMoed activities, and the holiday structure explained in full.
+- **Simchat Torah in Israel**: the day after Sukkot ends, Torah scrolls take to the streets in Mea She'arim and the Western Wall plaza fills with dancing. The [Simchat Torah guide](/simchat-torah-in-israel) covers visitor logistics, Mea She'arim etiquette, and the Tel Aviv Dizengoff Square celebrations.
 - **Israel in October**: Sukkot fills Jerusalem's last days of September and the first of October. The [Israel in October guide](/israel-in-october) covers the full post-holiday stretch — October birdwatching, cooler hiking, and the quieter weeks after the crowds leave.
 - **Best hotels in Jerusalem**: detailed area-by-area guide to every budget tier — Old City guesthouses to five-star properties. See [best hotels in Jerusalem](/best-hotels-jerusalem).
 - **Western Wall visit**: the [Western Wall guide](/western-wall-guide) covers the full plaza visit — tunnels, prayer etiquette, access, and what to expect at different times of year.

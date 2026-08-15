@@ -64,7 +64,7 @@ Understanding the **Yom Tov / Chol HaMoed** division is essential for planning w
 
 **Hoshana Raba** — October 1 in 2026: the seventh and final day of Sukkot. Still part of Chol HaMoed in practical terms (things are open), but the morning synagogue prayers have a special, solemn character. The Western Wall holds large morning services.
 
-**Shemini Atzeret / Simchat Torah** — October 3 in 2026: a full Yom Tov again. In Israel, these two holidays are observed on the same day. Public transport stops; the celebrations (particularly in Jerusalem) run late into the night.
+**Shemini Atzeret / Simchat Torah** — October 3 in 2026: a full Yom Tov again. In Israel, these two holidays are observed on the same day. Public transport stops; the celebrations (particularly in Jerusalem) run late into the night. Torah scrolls are taken into the streets of Mea She'arim and the Western Wall plaza fills with dancing and singing — see the [Simchat Torah in Israel guide](/simchat-torah-in-israel) for visitor logistics and what to expect.
 
 ## The Western Wall Birkat Kohanim
 
