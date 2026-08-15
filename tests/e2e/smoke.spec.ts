@@ -1631,6 +1631,9 @@ const ROUTES = [
   '/israel-camping-guide',
   '/israel-ev-road-trip',
   '/hamat-gader-guide',
+  '/fr/israel-for-serbian-travelers',
+  '/de/israel-for-serbian-travelers',
+  '/es/israel-for-serbian-travelers',
 ];
 
 for (const route of ROUTES) {
