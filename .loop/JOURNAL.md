@@ -17783,3 +17783,20 @@ Background full suite (launched prior iteration): 1 failure — a11y test on `/d
 **SHA:** 6d7f3d59 → origin/master
 **CI:** in_progress at state-write (normal pattern — all prior SHAs = success)
 **Next:** iter1240 (1240%5=0 → RESEARCH)
+
+## 2026-08-15T04:00Z · iter 1240 · RESEARCH · 278th research pass (NO SHIP)
+**Mode:** RESEARCH (1240%5=0). No code changed; no gate run; no merge.
+
+**What:** 278th competitor research sweep. Sources: touristisrael.com, beinharimtours.com, worldjewishtravel.org, Danny The Digger, Exclusive Israel Tours, TripAdvisor, GYG, Times of Israel, Travel And Tour World, TravelPulse, Forbes, semerenkogroup.com, mitzpe-ramon.co.il, friendsofiaa.org/Leon Levy Foundation, ynetnews.com, israelhayom.com.
+
+**Key findings:**
+1. **Nova Memorial demand — record high:** KKL-JNF + Times of Israel confirm Nova Music Festival Memorial at Re'im is Israel's most visited KKL-JNF site (7,000 visitors/day; 200,000/month). Competitor landscape: Tourist Israel (Sunday group tours), Bein Harim, World Jewish Travel, Danny The Digger, Exclusive Israel Tours, MyIsraelGuide all have dedicated pages. We have ZERO editorial coverage. Two conflicting BACKLOG entries exist (P2 M ready iter1210 vs P2 M BLOCKED iter80). BLOCKED entry should take precedence; flagged for human decision — do not autonomously author.
+2. **Tourism recovery 2026:** 1.3M visitors 2025 (+37%); June 2026 USA+Canada +73% YoY. Nov-Dec 2026 projected to approach 2019 records. Added P3 XS freshness item for best-time-to-visit-israel.md + first-time-in-israel.md.
+3. **Kassland Resort:** West Bank (Ma'ale Adumim); confirmed NOT to cover per editorial policy. Already handled in /de/israel-thermal-springs.md.
+4. **National Campus for Archaeology:** Full visitor experience confirmed 2027 (not 2026). Already SHIPPED iter968/iter1218. No action.
+5. **Mitzpe Ramon "Summer of Stars":** Confirmed annual August event (KKL-JNF + municipal); not named in our mitzpe-ramon-guide.md or israel-stargazing.md. Added P3 XS freshness note.
+6. **israel-in-august.md:** 6th consecutive confirmation of persistent gap (P2 S already in backlog since iter945/iter1010). High priority for next seo-content BUILD slot.
+
+**BACKLOG changes:** Added 3 items (nova-memorial priority/consolidation NOTE, mitzpe-ramon-summer-stars-freshness P3 XS, israel-tourism-2026-surge-freshness P3 XS). No items removed (research only).
+**Saturation:** ~96% (278 research passes; genuinely new gaps now very rare).
+**Next:** iter1241 → BUILD (1241%5=1 → BUILD; nextRotationCategory = BUILD/technical per rotation after RESEARCH). Highest-priority ready BUILD item = airlines-i18n-klm-date-fix (P2 URGENT XS technical) → should be taken next.

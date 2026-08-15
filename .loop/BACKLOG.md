@@ -3,6 +3,19 @@
 Format: `- [P1] (category, effort S/M/L) Title — why valuable — impl sketch — status`
 Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
+## New items — iter1240 RESEARCH discoveries (2026-08-15)
+
+### Priority confirmation: Nova Memorial is Israel's #1 most-visited site — consolidate BACKLOG
+- **nova-memorial NOTE:** Two conflicting BACKLOG entries exist (iter1210 line 107 = P2 M ready; iter80 line 728 = P2 M blocked:requires-human-editorial-review). The iter80 BLOCKED status predates and overrides the iter1210 "ready" classification. Per playbook safety rule §9: uncertain content → leave for human review. KKL-JNF confirms 200,000+ monthly visitors (7,000/day, Israel's most visited site). Tourist Israel / Bein Harim / World Jewish Travel / Danny The Digger / MyIsraelGuide / Exclusive Israel Tours all rank. Demand is extremely high and growing. Recommendation for human review: merge the two entries, decide on human-reviewed copy approach. Do NOT autonomously author until human editorial review clears it. [iter1240 research]
+
+### Freshness: Mitzpe Ramon "Summer of Stars" annual August event
+- [P3] (technical/freshness, XS) **mitzpe-ramon-summer-stars-freshness** — "Summer of Stars" (Kayitz shel Kochavim) is a confirmed annual August program at Mitzpe Ramon run by the Mitzpe Ramon municipality: professional telescope observation sessions, guided star talks, special Perseids viewing nights (mid-August). mitzpe-ramon.co.il/en confirms 2026 edition. Check mitzpe-ramon-guide.md + israel-stargazing.md for this named event; if the event isn't mentioned by name, add one paragraph with visiting logistics (free/low-cost entry; no advance booking; municipal observation point near Ramon crater rim; bring layers for desert nights). Effort: XS. Status: ready [iter1240 research].
+
+### Freshness: Israel tourism 2026 surge — booking urgency signal for peak guides
+- [P3] (technical/freshness, XS) **israel-tourism-2026-surge-freshness** — Tourism data confirms strong recovery momentum: 1.3M international visitors in 2025 (+37% vs 2024; Forbes Jan 2026); June 2026 USA+Canada arrivals +73% year-on-year (34,700 arrivals, Israel Ministry of Tourism); Israel forecasting record Nov-Dec 2026 season (semerenkogroup.com/israels-tourism-miracle; americaisraeltours.com/israel-tourism-comeback). Update best-time-to-visit-israel.md + first-time-in-israel.md with 2026 momentum note: advance booking especially important for Oct-Dec 2026 as demand surges. NOTE: canada-us-visitor-surge-callout was SHIPPED iter1218 for is-israel-safe.md; this is the best-time/first-time angle. Effort: XS. Status: ready [iter1240 research].
+
+---
+
 ## New items — iter1239 REVIEW discoveries (2026-08-15)
 
 ### URGENT technical/freshness: DE/FR/ES airline guides have WRONG KLM date (July 26 not August 25)

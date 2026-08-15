@@ -9034,3 +9034,30 @@ Sources: Tourist Israel, Danny The Digger, Bein Harim, Gali&Golan, slavaguide.co
 - **17 hotel openings summer 2026**: The JC article mentions 17 hotels; our new-luxury-hotels-israel-2026.md was updated 2026-08-14 with R48. Gordonia Migdal/Montefiore 7 Rothschild could be future additions once open/confirmed.
 - **Bar/Bat Mitzvah trend**: 2026 travel trend; we already have bar-bat-mitzvah-israel.md ✓.
 - **Nova memorial demand**: Tourist Israel now sells Gaza Border & Nova Festival tours as a bookable product — confirms demand. nova-memorial-october-7-sites-guide remains P2 M in BACKLOG (careful framing per §9).
+
+### 2026-08-15 · iter1240 · August 2026 tourism sweep (278th research pass)
+Sources: touristisrael.com, beinharimtours.com, worldjewishtravel.org, Danny The Digger, Exclusive Israel Tours, tripadvisor.com, getyourguide.com, timesofisrael.com, travelandtourworld.com, travelpulse.com, forbes.com, semerenkogroup.com, mitzpe-ramon.co.il, friendsofiaa.org/Leon Levy Foundation, ynetnews.com, israelhayom.com.
+
+**Nova Memorial demand — highest verified ever:**
+- KKL-JNF confirmed Nova Music Festival Memorial at Re'im is the single most visited KKL-JNF site in Israel (Times of Israel + ynetnews.com confirm 7,000 daily / 200,000 monthly visitors).
+- Competitor landscape: Tourist Israel (full tour product page, Sunday group tours $140/pp), Bein Harim (dedicated memorial site page), World Jewish Travel (visiting guide), Danny The Digger (standalone page), Exclusive Israel Tours (private tours ~$800), MyIsraelGuide, amazingjerusalem.com.
+- GYG/Viator affiliate products widely available. We have ZERO editorial coverage.
+- STATUS: Two conflicting BACKLOG entries (P2 M ready iter1210 vs P2 M BLOCKED iter80). BLOCKED entry should take precedence (requires human editorial review). Noted for human decision.
+
+**Tourism recovery — 2026 now recording highest numbers since 2019:**
+- 1.3M visitors in full-year 2025 (+37% vs 2024; Forbes Jan 2026).
+- June 2026: USA/Canada arrivals +73% year-on-year (34,700 in June alone; Israel Ministry of Tourism).
+- Nov-Dec 2026 projected to approach/surpass 2019 pre-conflict records.
+- Our is-israel-safe.md (updated iter1218 with Canada+US surge callout) partially covers this. best-time-to-visit-israel.md + first-time-in-israel.md need booking urgency note.
+
+**Kassland Resort — consciously excluded:**
+- Our /de/israel-thermal-springs.md correctly notes Kassland is in an occupied West Bank settlement (Ma'ale Adumim) and excludes it per editorial policy. No new action.
+
+**National Campus for Archaeology — confirmed 2027, not 2026:**
+- Schottenstein Campus visitor center NOT fully open to public in 2026; behind-the-scenes tours available; full visitor experience expected early 2027. canada-us-visitor-surge-callout + schottenstein guide already SHIPPED iter1218/iter968.
+
+**Mitzpe Ramon "Summer of Stars" — new annual event identified:**
+- Confirmed annual August branded program (municipal + KKL-JNF co-run); professional telescope observation, Perseids viewing nights. Not named in our mitzpe-ramon-guide.md or israel-stargazing.md. Minor freshness gap added as P3 XS.
+
+**Competitor saturation note (iter1240):**
+- After 278 research passes, the editorial backlog is extremely comprehensive. Genuinely new content gaps are now rare. The highest-value unshipped items remain: nova-memorial (BLOCKED human-review), israel-in-august (P2 ready), airlines-i18n-klm-date-fix (P2 URGENT technical). Competitor content refresh cycles are faster than our loop cycle for some breaking topics (airline suspensions, hotel openings); internal freshness REVIEW catches these well.
