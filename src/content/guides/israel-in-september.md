@@ -225,6 +225,7 @@ The key practical points for navigating September's holidays as a tourist:
 
 September opens Israel's autumn season and sets up the months that follow:
 
+- [Israel in August](/israel-in-august): the summer peak month before September — Perseids, festivals, and heat strategy
 - [Rosh Hashana in Israel](/rosh-hashanah-in-israel): the full holiday guide for Jewish New Year — atmosphere, synagogue access, and practical logistics
 - [Yom Kippur in Israel](/yom-kippur-in-israel): the complete guide to the Day of Atonement for tourists, including the Kol Nidre experience and Yom Kippur bicycle phenomenon
 - [Israel in autumn (September–November)](/israel-in-autumn): the full seasonal arc from the High Holidays through the crane migration

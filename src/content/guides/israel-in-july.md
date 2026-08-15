@@ -231,4 +231,5 @@ Light summer clothing throughout — thin linen or moisture-wicking fabrics. Car
 - [Sea of Galilee guide](/sea-of-galilee-guide): water activities, beaches, and logistics on the Kinneret
 - [Golan Heights guide](/golan-heights-guide): the coolest accessible area in Israel during the summer heat
 - [Masada visitor guide](/masada-visitor-guide): pre-dawn planning for the summer sunrise climb
+- [Israel in August](/israel-in-august): European family peak month — Perseids, Cocktail Festival, Sea of Galilee at 30°C
 - [Traveling in Israel on Jewish Holidays](/traveling-israel-jewish-holidays): Tisha B'Av and the Jewish holiday calendar for tourists
