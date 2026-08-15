@@ -17827,3 +17827,21 @@ Next: iter1243 (1243%5=3 → BUILD/seo-content; top candidates: israel-kibbutz-v
 **SHA:** 3fcf70f3 → origin/master
 **CI:** in_progress at state-write (normal — all prior SHAs = success)
 **Next:** iter1244 (1244%5=4 → REVIEW; audit a recent batch of shipped guides for broken links, SEO, honesty)
+
+## 2026-08-15T07:35Z · iter 1244 · REVIEW · august-backlinks-fix · 216d9555
+**Mode:** REVIEW (1244%5=4). Audited 3 recently shipped guides: israel-in-august (iter1243), israel-for-turkish-travelers (iter1242), israel-for-polish-travelers (iter1237).
+
+**Audit findings:**
+- **Internal links:** All 32 unique cross-links verified against disk — 0 broken slugs across all 3 guides.
+- **SEO metadata:** All titles within 70 chars; all descriptions ≤160 chars (turkish: exactly 160; august: 152; polish: 152). No duplicates.
+- **H1 in body:** 0 violations across all 3 guides (layout owns the H1).
+- **Hero images:** All 3 hero image paths exist on disk (/images/regions/tel-aviv/beaches.jpg, /images/regions/jerusalem/hero.jpg ×2).
+- **Affiliate CTAs:** All partners valid (getyourguide, booking, safetywing). rating/reviews values consistent with real GYG product data used across prior guides.
+- **Honesty:** All event dates carry HONESTY caveats; no fabricated exact prices; TUS Airways / LOT / Wizz Air claims plausible and consistent with prior iter data.
+
+**Fix shipped:** israel-in-august links to israel-in-july, israel-in-september, and israel-in-summer — but none linked back. Added bidirectional backlink to each: "Where July fits" section (israel-in-july.md); "Where September fits" section (israel-in-september.md); month cross-links paragraph (israel-in-summer.md).
+
+**Gate:** pnpm check ✅ 0 errors | pnpm build ✅ 1987 pages (unchanged) | 25/25 targeted e2e PASS
+**SHA:** 216d9555 → origin/master
+**CI:** in_progress at state-write (normal pattern — all prior SHAs = success)
+**Next:** iter1245 (1245%5=0 → RESEARCH)
