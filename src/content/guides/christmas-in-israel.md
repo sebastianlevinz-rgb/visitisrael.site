@@ -117,7 +117,7 @@ Nazareth — a city of roughly 75,000 residents, predominantly Arab, split betwe
 
 **The Basilica of the Annunciation**: Nazareth's main Christian landmark, built over the traditional site of the Archangel Gabriel's announcement to Mary, is open to visitors year-round and holds special services during the Christmas season. It is the largest church in the Middle East.
 
-**Getting there**: Nazareth is approximately 1.5 hours from Tel Aviv by bus (Egged/Kavim services) and 2 hours from Jerusalem. A day trip is very feasible; staying overnight allows the evening markets and the evening procession. See the [Nazareth travel guide](/nazareth-travel-guide) for accommodation and site-by-site detail.
+**Getting there**: Nazareth is approximately 1.5 hours from Tel Aviv by bus (Egged/Kavim services) and 2 hours from Jerusalem. A day trip is very feasible; staying overnight allows the evening markets and the evening procession. See the [Christmas in Nazareth guide](/christmas-in-nazareth) for the full festival programme — December 12 tree lighting, market dates, Christmas Eve parade logistics, and Mass timings — and the [Nazareth travel guide](/nazareth-travel-guide) for accommodation and site-by-site detail.
 
 ---
 
@@ -162,6 +162,7 @@ December through February is Israel's green season and its quietest:
 - [Israel in December](/israel-in-december) — full December planning guide covering Hanukkah, Christmas, Haifa's Holiday of Holidays, Eilat winter sun, and the Dead Sea
 - [Best time to visit Israel](/best-time-to-visit-israel) — full seasonal breakdown including winter advantages
 - [Church of the Holy Sepulchre guide](/church-holy-sepulchre-guide) — visitor information and denomination logistics
+- [Christmas in Nazareth guide](/christmas-in-nazareth) — tree lighting, market, Christmas Eve parade, Annunciation Mass, and Orthodox January celebrations
 - [Nazareth travel guide](/nazareth-travel-guide) — Old City, Basilica of the Annunciation, accommodation
 - [Dead Sea guide](/dead-sea-guide) — floating and resort options in winter warmth
 - [Border crossings guide](/border-crossings) — Checkpoint 300 and other West Bank crossing details

@@ -88,6 +88,7 @@ This guide covers what each major festival is actually like to attend — logist
 | **Meteor Festival** | September | Negev desert / Ramon Crater | Paid (₪450–900+) | Electronic music, camping, desert |
 | **Jerusalem Festival of Light** | June (~10 nights) | Jerusalem Old City | Free (main route) | All ages, photography, atmosphere |
 | **Tamar Music Festival** | October | Dead Sea shores | Paid (₪150–400) | Classical + world music |
+| **Red Sea Jazz Festival Eilat** | November | Eilat North Beach (open-air) | Paid (₪150–600+) | Jazz, world music, Red Sea setting |
 | **Tel Aviv International Jazz Festival** | May | Multiple TLV venues | Mix of free + paid | Jazz, urban, city culture |
 | **Eilat Chamber Music Festival** | December | Eilat venues | Paid (₪80–250) | Classical, Red Sea winter sun |
 | **Purim Celebrations (TLV)** | Feb/March | Dizengoff Square, Tel Aviv | Free | Costume culture, street party |
@@ -163,6 +164,26 @@ Tickets are sold via **tamarmusicfest.com**. Prices have ranged from approximate
 Accommodation options near the stage are the Ein Bokek resort hotels (several 4- and 5-star properties directly on the Dead Sea shore). Book significantly in advance for festival dates — the hotels here are the only accommodation in the area.
 
 **Cross-link:** [Dead Sea visitor guide](/dead-sea-guide) · [Masada visitor guide](/masada-visitor-guide) · [Israel wellness & spa guide](/israel-wellness-spa)
+
+---
+
+## Red Sea Jazz Festival Eilat
+
+**Eilat North Beach · November · 4 nights**
+
+The Red Sea Jazz Festival has run each November since 1987, drawing 70,000 attendees across four open-air nights on Eilat's Red Sea waterfront. International jazz headliners and Israel's leading improvisers perform on the King Beach and Sultan Beach stages, with the Jordanian and Saudi hills visible across the water. With 30+ concerts across the four evenings, the programme runs deep — clashing sets and spontaneous stage-hopping are part of the experience.
+
+November is one of Eilat's best months: daytime temperatures of 28–30°C, Red Sea water at 23–24°C, and Israeli school holidays not yet in effect. Snorkelling at the Coral Beach Nature Reserve, a Red Canyon hike, and a Timna Park visit round out a festival trip.
+
+### Tickets and logistics
+
+Tickets are sold via the official festival website. Single-evening passes and four-night multi-day passes are typically on sale from September; the Saturday-night finale is the first to sell out. Past editions have ranged from approximately ₪150 for a single-night standing ticket to ₪600+ for multi-day VIP — check the official site for current 2026 prices.
+
+Ramon Airport (HRL), 18 km north of Eilat, handles domestic flights from Ben Gurion Airport (45–55 minutes). Book return flights at the same time as your hotel: festival-weekend evening departures sell out early. North Beach hotels are the most convenient base — walking distance to both headline stages.
+
+**Full guide:** [Red Sea Jazz Festival Eilat 2026](/red-sea-jazz-festival-eilat) — 2026 dates, stage map, ticket types, hotel strategy, and Eilat daytime activities.
+
+**Cross-link:** [Eilat travel guide](/eilat-travel-guide) · [Eilat hotels guide](/eilat-hotels-guide) · [Israel in November](/israel-in-november)
 
 ---
 

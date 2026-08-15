@@ -89,6 +89,8 @@ Manger Square outside is accessible to all — and the atmosphere is extraordina
 
 For full logistics — pilgrim registration, crossing timing, Jerusalem Old City atmosphere — see the [Christmas in Israel guide](/christmas-in-israel).
 
+**Nazareth Christmas**: Israel's largest Arab-Christian Christmas celebration also falls in December: the December 12 tree lighting at Mary's Well Square, a week-long Christmas Market (Dec 12–19), the Christmas Eve parade on December 24, and Annunciation Mass on December 25. For the full programme see the [Christmas in Nazareth guide](/christmas-in-nazareth).
+
 ### Greek Orthodox Christmas — January 6–7
 
 The Greek Orthodox Christmas follows 13 days after the Latin celebration. The service at the Church of the Nativity is smaller and significantly less crowded — an intimate ceremony with fewer international tour groups. If you are Orthodox or simply prefer a less crowded experience of Bethlehem, this date is often more accessible and atmospheric.
