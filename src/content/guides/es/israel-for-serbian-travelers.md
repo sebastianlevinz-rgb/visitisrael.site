@@ -1,6 +1,6 @@
 ---
-title: "Israel para viajeros serbios: vuelos, ETA-IL y peregrinación ortodoxa (2026)"
-description: "Guía práctica de Israel para turistas serbios: ETA-IL obligatoria, vuelos Wizz Air Belgrado–Tel Aviv, peregrinación ortodoxa serbia, DinaCard no válida, adaptador eléctrico."
+title: "Israel para viajeros serbios: ETA-IL, vuelos y peregrinación (2026)"
+description: "Guía Israel para turistas serbios: ETA-IL, Wizz Air Belgrado–TLV, peregrinación ortodoxa, DinaCard no válida, adaptador eléctrico."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-15

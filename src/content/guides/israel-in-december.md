@@ -71,6 +71,8 @@ Hanukkah — the Festival of Lights — is an 8-night holiday celebrating the re
 
 **Dates shift annually:** In 2026, Hanukkah runs December 4–12. In 2027, it falls December 24–January 1 (an unusual overlap with Christmas). Always verify the current year''s dates at [hebcal.com](https://www.hebcal.com) or [chabad.org/holidays](https://www.chabad.org/holidays).
 
+For a dedicated visitor guide — what to see in Jerusalem and Safed, the Torch Relay, what stays open, and Shabbat overlap logistics — see the [Hanukkah in Israel guide](/hanukkah-in-israel).
+
 ---
 
 ## Christmas in Israel
@@ -233,6 +235,7 @@ All religious sites: covered shoulders and knees regardless of outside temperatu
 - [Israel in winter (December–February)](/israel-in-winter): the full three-month seasonal overview with Eilat, Dead Sea, and Jerusalem winter strategy
 - [Israel in January](/israel-in-january): Eilat at peak domestic season, the Dead Sea in quiet conditions, and Negev hiking without wildflower crowds
 - [Christmas in Israel](/christmas-in-israel): complete Bethlehem logistics, church booking requirements, Ministry of Tourism buses, Latin vs Orthodox vs Armenian Christmas dates
+- [Hanukkah in Israel](/hanukkah-in-israel): the complete visitor guide — Western Wall lightings, Safed candlelit walks, Tower of David programming, and Shabbat overlap logistics
 - [Traveling in Israel during Jewish holidays](/traveling-israel-jewish-holidays): what Hanukkah means in practice for transport, opening hours, and planning
 - [Eilat travel guide](/eilat-travel-guide): full Eilat activity map, beach breakdown, and accommodation tiers
 - [Dead Sea guide](/dead-sea-guide): beach choices, floating tips, safety, and the Ein Bokek resort strip

@@ -1,5 +1,5 @@
 ---
-title: "Israel für serbische Reisende: Flüge, ETA-IL und orthodoxe Pilgerreise (2026)"
+title: "Israel für Serben: Flüge, ETA-IL und orthodoxe Pilgerreise (2026)"
 description: "Praktischer Reiseführer Israel für Serben: ETA-IL-Pflicht, Wizz Air Belgrad–Tel Aviv, serbisch-orthodoxe Pilgerstätten, DinaCard ungültig, Steckeradapter."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning

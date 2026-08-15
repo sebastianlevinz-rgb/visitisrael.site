@@ -1,6 +1,6 @@
 ---
-title: "Israël pour les voyageurs serbes : vols, ETA-IL et pèlerinage orthodoxe (2026)"
-description: "Guide pratique Israël pour touristes serbes : ETA-IL obligatoire, vols Wizz Air Belgrade–Tel Aviv, pèlerinage orthodoxe serbe, DinaCard non valable, adaptateur électrique."
+title: "Israël pour les voyageurs serbes : ETA-IL, vols et pèlerinage (2026)"
+description: "Guide Israël pour Serbes : ETA-IL, vols Wizz Air Belgrade–TLV, pèlerinage orthodoxe, DinaCard non valable, adaptateur électrique."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Planning
 updatedAt: 2026-08-15
