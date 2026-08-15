@@ -17817,3 +17817,13 @@ What: New EN guide for Turkish visitors to Israel. Turkey not on ETA-IL list —
 Gate: pnpm check 0 errors | build 1985→1986 pages (+1) | 2/2 targeted e2e PASS.
 Ship: squash-merged to master 21f68637, pushed to origin/master. CI in_progress at state-write (normal).
 Next: iter1243 (1243%5=3 → BUILD/seo-content; top candidates: israel-kibbutz-volunteer-guide P2 S, florentin-tel-aviv-guide P3 S, emmaus-trail-guide P3 S).
+
+## 2026-08-15T07:00Z · iter 1243 · BUILD (seo-content) · israel-in-august · 3fcf70f3
+**What:** New EN seasonal guide `israel-in-august.md` — resolves 6-consecutive-research-confirmation gap (P2 S; confirmed missing from iter945/iter990/iter1010/iter1015/iter1020/iter1025/iter1040). Timely: today is August 15, Perseids peak.
+
+**Content:** Tel Aviv Cocktail Festival (annual August, city-wide craft cocktail route; honesty caveat on dates); Jerusalem Food Truck Festival (late Jul–mid-Aug, Armon Hanatziv Promenade, ~30 chefs, NIS 25–45/dish, all-kosher); Israeli Animation Festival Bat Yam; Mitzpe Ramon "Summer of Stars" / Perseids annual programme (from iter1240 research — professional telescope sessions, crater rim, free/low-cost, layers for cold nights); Sea of Galilee at 30°C (warmest of year; kayak/SUP/boat trip logistics); full heat strategy (7–11am outdoor / midday AC / 5pm+ evening); 7-region weather table including Mitzpe Ramon night temp; Elul begins late August (Jewish calendar atmospheric context before September High Holidays); late August grape harvest opening in Golan Heights (lead-in to September); Dead Sea + Masada summer safety warnings with cross-links; 7 FAQs; 3 CTAs (Booking + 2× GYG); 12 internal cross-links (all verified to exist on disk).
+
+**Gate:** pnpm check ✅ 0 errors (description trimmed 192→151 chars after lint-meta-length violation) | pnpm build ✅ 1986→1987 pages (+1) | 2/2 targeted e2e PASS (smoke /israel-in-august + a11y /israel-in-august)
+**SHA:** 3fcf70f3 → origin/master
+**CI:** in_progress at state-write (normal — all prior SHAs = success)
+**Next:** iter1244 (1244%5=4 → REVIEW; audit a recent batch of shipped guides for broken links, SEO, honesty)
