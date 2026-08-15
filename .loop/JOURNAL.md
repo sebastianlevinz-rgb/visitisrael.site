@@ -17891,3 +17891,17 @@ Next: iter1249 (1249%5=4 → REVIEW mode).
 **SHA:** 77e0a5e9 → origin/master
 **CI:** in_progress at state-write (normal — all prior SHAs = success)
 **Next:** iter1250 (1250%5=0 → RESEARCH mode)
+
+## 2026-08-15T14:15Z · iter 1250 · RESEARCH · research-pass-280
+**Mode:** RESEARCH (1250%5=0). 280th research pass. Sukkot-season gap scan.
+**Sources searched:** touristisrael.com (Sukkot city pages, Tamar Festival, Haifa Film Festival), secrettelaviv.com (Simchat Torah), takeyourbackpack.com + ecoisraeltours.com + tzurtours.com (Hula Valley dedicated guides), iTravelJerusalem.com (Sukkot events), tripadvisor.com (Haifa Film Festival intent), ICEJ feast.icej.org (Feast of Tabernacles SERP), allisraelnews.com (Jerusalem March).
+**Key insight:** touristisrael.com uses a city-split Sukkot model (4 separate city pages: Jerusalem, Tel Aviv, Negev/Dead Sea, Galilee) each ranking independently for hotel-booking queries with city-level intent. Our single sukkot-in-israel.md cannot capture this. Adding sukkot-in-jerusalem as P2 S (Sukkot Sep 25 = 6 weeks away, prime booking window now).
+**5 new BACKLOG items added:**
+1. sukkot-in-jerusalem (P2 S) — city-specific guide; Jerusalem Old City hotel booking peak; Birkat Kohanim + Jerusalem March + Tower of David; Booking + GYG CTAs.
+2. simchat-torah-in-israel (P3 S) — Torah dancing Oct 2–3; Mea She'arim + Dizengoff; secrettelaviv.com is only current coverage.
+3. tamar-festival-dead-sea (P3 S) — annual Sukkot classical music at Dead Sea/Masada; touristisrael.com thin; high hotel booking intent.
+4. haifa-international-film-festival-guide (P3 S) — 41st edition Oct 1–10 2026; 300,000+ attendees; zero editorial travel guide from any competitor.
+5. hula-valley-crane-migration-guide (P3 S) — dedicated Agamon HaHula Oct–Nov seasonal guide; separate query cluster from birdwatching-in-israel.md; Sunrise Safari Wagon booking hook.
+**Gate:** N/A (RESEARCH mode). **Ship:** No code changes. **Prod:** N/A.
+**COMPETITORS.md:** Updated with Sukkot-season findings. Saturation ~97%.
+**Next:** iter1251 (1251%5=1 → BUILD/technical; fallthrough to sukkot-in-jerusalem seo-content if no technical items ready — Sukkot timing makes it high priority).

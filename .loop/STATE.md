@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1249
-- lastMode: REVIEW
-- lastItem: review-seo-crosslinks
-- lastResult: iter1249 REVIEW — SEO metadata trimmed (FR/DE/ES Serbian guide titles 76–78→65–68 chars; FR/ES descriptions 171–173→129–130 chars); bidirectional cross-links added (israel-in-december→hanukkah-in-israel ×2; kibbutz-hotels-israel→kibbutz-volunteer-guide). SHIPPED 77e0a5e9. Gate: 0 errors | build 1992 pages (unchanged) | 21/21 targeted e2e PASS.
+- iteration: 1250
+- lastMode: RESEARCH
+- lastItem: research-pass-280
+- lastResult: iter1250 RESEARCH — 280th research pass. Sukkot-season gap scan. 5 new BACKLOG items: (1) sukkot-in-jerusalem P2 S (city-specific Sukkot guide; touristisrael.com city-split model; hotel booking peak); (2) simchat-torah-in-israel P3 S (distinct from sukkot-in-israel; Torah dancing Oct 2–3; secrettelaviv.com only current coverage); (3) tamar-festival-dead-sea P3 S (Sukkot classical music festival near Masada; touristisrael.com thin; high Dead Sea hotel booking intent); (4) haifa-international-film-festival-guide P3 S (41st edition Oct 1–10 2026; 300k+ attendees; zero editorial travel guide); (5) hula-valley-crane-migration-guide P3 S (dedicated Agamon HaHula Oct–Nov seasonal guide; distinct from birdwatching-in-israel.md). No code changes; RESEARCH-only iteration. Gate: N/A. Prod: N/A.
 
-- nextRotationCategory: BUILD/technical (iter1250%5=0 → RESEARCH; after RESEARCH nextBUILD = technical to rebalance from recent i18n streak)
+- nextRotationCategory: BUILD/technical (iter1251%5=1 → BUILD; category=technical to rebalance after recent i18n/seo-content streak; fallthrough to monetization or seo-content if no technical items ready)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-15T13:05Z
-- branch context: master at 77e0a5e9; EN=422 (21 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline.
+- updatedAt: 2026-08-15T14:15Z
+- branch context: master at aad2977d; EN=422 (21 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG has 5 new Sukkot-season items (sukkot-in-jerusalem P2 S is next highest-priority after technical BUILD; Sukkot Sep 25 = ~6 weeks away, timely to ship city guides now).
+
+Notes: iter1250 RESEARCH — 280th research pass. Sukkot-season gap scan. Sources: touristisrael.com (city-split Sukkot model + Tamar Festival + Haifa Film Festival), secrettelaviv.com (Simchat Torah), takeyourbackpack.com (Hula Valley), ecoisraeltours.com (Hula bird tour). Findings: touristisrael.com's city-split Sukkot model is the key monetization insight — 4 city pages ranking independently for hotel queries. We only have the national sukkot-in-israel.md. Added 5 new items to BACKLOG (see above). No code changes. Saturation ~97%; new gaps require niche seasonal/event angles.
 
 Notes: iter1249 REVIEW — Audited iters 1246–1248 (hanukkah-in-israel, israel-kibbutz-volunteer-guide, israel-for-serbian-travelers FR/DE/ES). Findings: (1) SEO metadata OOB: FR title 78 chars, DE title 77 chars, ES title 76 chars (all >70 limit); FR desc 171 chars, ES desc 173 chars (both >160 limit). Fixed: trimmed all within limits while preserving key terms. (2) Missing bidirectional link: israel-in-december had full Hanukkah section with 0 links to /hanukkah-in-israel; added to section body + "Where December fits" nav list. (3) Missing cross-link: kibbutz-hotels-israel had no link to kibbutz-volunteer-guide (volunteer guide linked to hotels but not vice-versa); added at page end. Internal links across all 3 audited guides: 0 broken. Hero/CTA images: all 4 paths verified on disk. Honesty: no fabricated prices/ratings. H1-in-body: 0 violations. Affiliate CTAs: all partners valid. SHIPPED 77e0a5e9; 21/21 targeted e2e PASS; build 1992 pages (unchanged).
 

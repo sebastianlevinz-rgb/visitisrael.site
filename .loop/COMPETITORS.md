@@ -9103,3 +9103,26 @@ Sources: touristisrael.com, beinharimtours.com, worldjewishtravel.org, Danny The
 - kibbutz hotels: covered in kibbutz-hotels-israel.md. ✓
 - Cruise excursions: covered in haifa-shore-excursions.md + ashdod-cruise-port-excursions.md + cruise-shore-excursions-israel.md. ✓
 - Day trips from TLV: covered in day-trips-from-tel-aviv.md. ✓
+
+### 2026-08-15 · iter 1250 · Sukkot-season gap scan (280th research pass)
+Sources: touristisrael.com (Sukkot city pages + Haifa Film Fest + Tamar Festival), secrettelaviv.com (Simchat Torah), takeyourbackpack.com (Hula Valley), ecoisraeltours.com (Hula bird tour), tripadvisor.com (Haifa Film Festival search intent), iTravelJerusalem.com (Sukkot events).
+
+**Key pattern gap — touristisrael.com city-split model for Sukkot:**
+touristisrael.com splits Sukkot into 4 separate city pages (Jerusalem, Tel Aviv, Negev/Dead Sea, Galilee) each ranking independently for hotel-booking queries. We have only a national sukkot-in-israel.md. City-split = higher conversion (searchers already in location-selection mode) + 4 independent ranking URLs. Adding sukkot-in-jerusalem as P2 S; other city pages can follow if it ranks.
+
+**Timely events with thin competitor coverage:**
+- Tamar Festival Dead Sea (touristisrael.com + event org only; no editorial travel guide): Added to BACKLOG P3 S.
+- Haifa International Film Festival (touristisrael.com thin page + haifaff.co.il only; roughguides.com zero): Added to BACKLOG P3 S.
+- Simchat Torah (secrettelaviv.com event listing only; no editorial guide): Added to BACKLOG P3 S.
+
+**Hula Valley crane migration:**
+Multiple competitors (touristisrael.com/hula-valley, takeyourbackpack.com, ecoisraeltours.com, tzurtours.com) have dedicated Hula Valley pages. Our birdwatching-in-israel.md covers it in overview; no standalone seasonal guide captures "Hula Valley cranes October" intent cluster. Added to BACKLOG P3 S.
+
+**Confirmed already-covered:**
+- israel-vs-morocco: already in BACKLOG (confirmed via grep).
+- Sukkot national guide: sukkot-in-israel.md shipped iter462.
+- birdwatching-in-israel.md: shipped iter968.
+- Holiday of Holidays Haifa: in BACKLOG from iter1245.
+- Eilat Underwater Observatory: in BACKLOG from iter1245.
+
+**Saturation note:** ~97% saturated; genuinely new editorial gaps require niche seasonal/event-specific angles. City-specific event pages (city-level Sukkot, festival-specific guides) are the remaining frontier with high-intent search traffic.
