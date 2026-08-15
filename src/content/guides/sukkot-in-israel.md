@@ -62,7 +62,7 @@ Understanding the **Yom Tov / Chol HaMoed** division is essential for planning w
 
 **Intermediate days (Chol HaMoed)** — September 27–October 1 in 2026: five days during which Israel is essentially open for business, with buses and trains running and all national parks and tourist sites operating. This is the busiest stretch: Israeli families flood every attraction simultaneously, so arriving early at any popular site is not optional — it is necessary. Masada, the Old City, Ein Gedi, and the Dead Sea beaches all reach capacity by mid-morning on Chol HaMoed.
 
-**Hoshana Raba** — October 1 in 2026: the seventh and final day of Sukkot. Still part of Chol HaMoed in practical terms (things are open), but the morning synagogue prayers have a special, solemn character. The Western Wall holds large morning services.
+**Hoshana Raba** — October 2 in 2026: the seventh and final day of Sukkot. Still part of Chol HaMoed in practical terms (things are open), but the morning synagogue prayers have a special, solemn character. The Western Wall holds large morning services.
 
 **Shemini Atzeret / Simchat Torah** — October 3 in 2026: a full Yom Tov again. In Israel, these two holidays are observed on the same day. Public transport stops; the celebrations (particularly in Jerusalem) run late into the night. Torah scrolls are taken into the streets of Mea She'arim and the Western Wall plaza fills with dancing and singing — see the [Simchat Torah in Israel guide](/simchat-torah-in-israel) for visitor logistics and what to expect.
 

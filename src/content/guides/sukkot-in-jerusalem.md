@@ -22,7 +22,7 @@ affiliateCtas:
     cta: Browse Jerusalem Sukkot tours
 faqs:
   - question: When is Sukkot 2026 in Jerusalem and how long does it last?
-    answer: 'Sukkot 2026 begins at sunset on Thursday, September 25, and ends at nightfall on Friday, October 2. Shemini Atzeret and Simchat Torah follow on Saturday, October 3. The full holiday spans nine days from the first evening through the end of Simchat Torah — nine days during which Jerusalem is at its most festive and most crowded. All Jewish holidays begin at sunset the evening before the listed date; the first full day of Sukkot 2026 is Friday, September 26.'
+    answer: 'Sukkot 2026 begins at sunset on Friday, September 25, and ends at nightfall on Friday, October 2. Shemini Atzeret and Simchat Torah follow on Saturday, October 3. The full holiday spans nine days from the first evening through the end of Simchat Torah — nine days during which Jerusalem is at its most festive and most crowded. All Jewish holidays begin at sunset the evening before the listed date; the first full day of Sukkot 2026 is Saturday, September 26.'
   - question: What is the Western Wall Birkat Kohanim and do I need a ticket?
     answer: 'No ticket or advance booking is required. The Birkat Kohanim (Priestly Blessing) is an ancient ceremony in which Kohanim — Jews of priestly descent — cover themselves with their tallitot and recite the threefold blessing from Numbers 6:24–26 over the thousands gathered in the Western Wall plaza. During Sukkot and Passover, a mass Birkat Kohanim draws tens of thousands of worshippers and observers to the plaza in the early morning. Arrive by 6:30am at the latest; the plaza fills fast. The Birkat Kohanim portion of the Shacharit morning service begins around 7:30–8:00am. Allow 30 minutes for security at the Old City gates. Dress modestly — covered shoulders and knees; free kippot and head scarves are available at the entrance. Separate men''s and women''s sections both have clear sightlines. Confirm the exact day for Birkat Kohanim closer to September — it shifts slightly each year.'
   - question: What is the Jerusalem March and can tourists participate?
@@ -30,7 +30,7 @@ faqs:
   - question: How far ahead should I book a Jerusalem hotel for Sukkot?
     answer: 'Book two to three months ahead as a minimum — Old City-adjacent hotels and Mamilla properties are regularly sold out 8–10 weeks before Sukkot. Sukkot is the second-busiest domestic travel week in Israel after Passover; hotels in central Jerusalem (Mamilla, Jaffa Gate area, City of David area) sell out first. The King David Hotel, American Colony, and Mamilla Hotel are typically the earliest to go. If you have a budget choice, apartments and guesthouses in the German Colony, Katamon, and Rehavia neighbourhoods offer good access to the Old City at lower prices — but these also fill up. Prices run 30–50% above shoulder-season rates during the holiday week. If you are flexible on timing, arriving two to three days before Sukkot starts (mid-September 2026) gives the same excellent autumn weather at lower prices.'
   - question: What is open and closed in Jerusalem during Sukkot?
-    answer: 'The first day (September 26) and Shemini Atzeret/Simchat Torah (October 3) are full Yom Tov days — public transport stops, Jewish-owned shops and restaurants close, and the city is quiet. The five intermediate days (Chol HaMoed, September 27–October 1) are fully operational: buses and trains run, the Old City is open, national parks and museums are busy, and restaurants operate with extended hours. Hoshana Raba (October 1) is the last day of Chol HaMoed and has a special morning service at the Western Wall but is otherwise open. Plan any inter-city travel for before the first day or after Simchat Torah ends.'
+    answer: 'The first day (September 26) and Shemini Atzeret/Simchat Torah (October 3) are full Yom Tov days — public transport stops, Jewish-owned shops and restaurants close, and the city is quiet. The five intermediate days (Chol HaMoed, September 27–October 1) are fully operational: buses and trains run, the Old City is open, national parks and museums are busy, and restaurants operate with extended hours. Hoshana Raba (October 2) is the last day of Sukkot and has a special morning service at the Western Wall but is otherwise open. Plan any inter-city travel for before the first day or after Simchat Torah ends.'
   - question: Is the Tower of David worth visiting during Sukkot?
     answer: 'Yes — the Tower of David Museum and Citadel run special Sukkot programming each year, including extended evening hours and additional performances of its acclaimed Night Spectacular light show projected onto the ancient walls. Tickets for the evening shows sell out weeks ahead during the holiday; book through the Tower of David website before you arrive. The citadel is also a striking place to visit in daylight during Chol HaMoed, but be prepared for crowds — allow 15–20 minutes queuing time even with a pre-booked ticket. See the [Tower of David guide](/tower-of-david-guide) for hours and ticketing details.'
   - question: Is there a festival or concert during Sukkot in Jerusalem?
@@ -45,14 +45,13 @@ Jerusalem during Sukkot is also, practically speaking, the most in-demand place 
 
 | Event | Date |
 |---|---|
-| First evening (Yom Tov begins) | Thursday, September 25 |
-| First day — full Yom Tov | Friday, September 26 |
-| Chol HaMoed begins | Saturday, September 27 |
-| Hoshana Raba | Thursday, October 1 |
-| Last day of Sukkot | Friday, October 2 |
+| First evening (Yom Tov begins) | Friday, September 25 |
+| First day — full Yom Tov (also Shabbat) | Saturday, September 26 |
+| Chol HaMoed begins | Sunday, September 27 |
+| Hoshana Raba (last day of Sukkot) | Friday, October 2 |
 | Shemini Atzeret / Simchat Torah | Saturday, October 3 |
 
-All Jewish holidays begin at sunset the evening before the date listed. The **first full day** of Sukkot 2026 is Friday, September 26, which also coincides with Shabbat — meaning the first day is a double closure (Yom Tov plus Shabbat). This is worth noting for logistics: Friday afternoon through Saturday night is the quietest stretch of the holiday.
+All Jewish holidays begin at sunset the evening before the date listed. The **first full day** of Sukkot 2026 is Saturday, September 26, which coincides with Shabbat — meaning the first day is a double closure (Yom Tov plus Shabbat). This is worth noting for logistics: Friday afternoon through Saturday night is the quietest stretch of the holiday.
 
 ## The Western Wall Birkat Kohanim
 
