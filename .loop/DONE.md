@@ -2531,3 +2531,6 @@ New /simchat-torah-in-israel guide (950w EN). Targets: "Simchat Torah Israel 202
 
 ## christmas-in-nazareth · ec156db2 · iter 1257
 City-specific Christmas guide for Nazareth (950w EN): Dec 12 tree lighting Mary's Well Square, Dec 12–19 Christmas Market, Dec 24 parade (Paul VI Street + fireworks), Dec 25 Church of Annunciation masses, Greek Orthodox (Jan 6–7) + Armenian (Jan 18–19) celebrations. Bus 343 logistics, parking. 2 CTAs, 6 FAQs, 6 cross-links. Targets pilgrimage/hotel-booking intent during Israel's largest Arab-Christian Christmas celebration.
+
+## iter1259 · REVIEW · review-cross-links-iter1259 · 1a12dda7
+- Audited christmas-in-nazareth + red-sea-jazz-festival-eilat. Fixed 3 missing bidirectional links: (1) christmas-in-israel.md → added /christmas-in-nazareth in Nazareth body + footer; (2) israel-in-december.md → added /christmas-in-nazareth callout in Christmas section body; (3) israel-music-festivals.md → added Red Sea Jazz Festival table row + full body section (was entirely absent despite being Israel's largest outdoor jazz event). Build 1996 unchanged. 24/24 targeted smoke+a11y PASS.

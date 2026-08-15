@@ -17994,3 +17994,12 @@ What: Two XS technical/freshness items bundled.
 (2) hanukkah-in-israel.md — fixed factual wording (iter1254 review item): "The remaining seven nights in 2026 fall on Sunday through Saturday" → "Saturday through Friday". Night 2 = Saturday Dec 5 evening; nights 2–8 = Saturday→Friday (Dec 11 eve), consistent with the guide's own Shabbat final-night note.
 Gate: pnpm check 0 errors | build 1996 pages (unchanged) | 7/7 targeted e2e+a11y PASS + full suite exit 0 confirmed.
 Merge: committed f3337517; pushed to origin/master. CI in_progress at state-write (normal).
+
+## 2026-08-15T23:41Z · iter 1259 · REVIEW · review-cross-links-iter1259
+What: Audited christmas-in-nazareth (iter1257) and red-sea-jazz-festival-eilat (iter1256) — the two STATE-nominated audit candidates. Three missing bidirectional link findings fixed:
+(1) christmas-in-israel.md — "Nazareth: Israel's Arab Christmas" section linked to /nazareth-travel-guide only; added /christmas-in-nazareth in the body paragraph and in the footer "Plan your Christmas trip" list. Return link was missing despite christmas-in-nazareth already linking to christmas-in-israel.
+(2) israel-in-december.md — Christmas section had no Nazareth mention in body (only in FAQ); added "Nazareth Christmas" callout paragraph after Bethlehem Latin Christmas sub-section with /christmas-in-nazareth link and key dates (Dec 12 tree lighting, Dec 12–19 market, Dec 24 parade, Dec 25 Mass).
+(3) israel-music-festivals.md — Red Sea Jazz Festival Eilat (Israel's largest outdoor jazz event, 70,000 attendees, running since 1987) entirely absent from the comparison table and body; added table row (Nov, Eilat North Beach, ₪150–600+) + full body section with tickets/logistics summary and /red-sea-jazz-festival-eilat link. red-sea-jazz-festival-eilat already linked to israel-music-festivals — gap was the return direction.
+Clean audit otherwise: both guides pass SEO title/desc limits; hero images verified on disk; all cross-links resolve; no H1 in body; no fabricated prices/ratings; affiliate partners valid.
+Gate: pnpm check 0 errors | build 1996 pages (unchanged) | 24/24 targeted smoke+a11y PASS.
+Merge: committed 1a12dda7; pushed to origin/master. CI in_progress at state-write (normal — prior SHA 060bf59a had CI=success for iter1258).
