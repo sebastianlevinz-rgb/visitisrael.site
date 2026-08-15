@@ -6,24 +6,26 @@
 >
 > One bounded slice per loop iteration. NEVER bulk-translate in one shot.
 
-## Current status snapshot (2026-08-12 iter1181 BUILD — ES-76 SHIPPED; EN=401, FR=392/401, DE=387/401, ES=383/401)
+## Current status snapshot (2026-08-15 iter1248 BUILD — israel-for-serbian-travelers FR/DE/ES SHIPPED 67943360; EN=422, FR=398/401, DE=398/401, ES=401/401)
 
 | Locale | Guides | Attractions | Regions | Itineraries |
 |--------|--------|-------------|---------|-------------|
-| en     | 401    | 65          | 11      | 6           |
-| fr     | 392    | 61          | 11      | 6           |
-| de     | 387    | 61          | 11      | 6           |
-| es     | 383    | 61          | 11      | 6           |
+| en     | 422    | 65          | 11      | 6           |
+| fr     | 398    | 61          | 11      | 6           |
+| de     | 398    | 61          | 11      | 6           |
+| es     | 401    | 61          | 11      | 6           |
 
-Note: EN=401 corrected (was 398 in iter1178 STATE; 3+ guides added in prior iterations without STATE update: israel-for-argentinian-travelers + israel-for-spanish-travelers + israel-vs-france + israel-for-german-travelers + israel-for-french-travelers + israel-for-swiss-travelers and others). FR-61/DE-60 SHIPPED (iter1177/1178). ES-76 SHIPPED iter1181 7c30ae83 (4 of 5 guides: tel-aviv-white-city + sarona-market-tel-aviv + nazareth-sea-of-galilee-day-trip + wedding-in-israel; petra-wadi-rum-from-eilat already existed). Missing-all-3 = 1 (israel-for-serbian-travelers P3). FR-62/DE-61 batch pending.
+Note: EN=422 (was 401 baseline; 21 new guides added by loop iterations since baseline). ES=401/401 = COMPLETE for the 401-guide tracked baseline. FR=398/401 (3 untracked gaps = new EN-only guides not yet batched). DE=398/401 (same). Missing-all-3 = 0 (israel-for-serbian-travelers P3 SHIPPED iter1248 67943360). Next i18n focus: batch the 21 untracked EN-only guides into FR/DE/ES over future iterations.
 
 **🎉 MILESTONE: ES + FR + DE monthly guides ALL COMPLETE** (iter996+iter997 ES-41+ES-42 SHIPPED — all 12 per-month guides jan-dec now exist in ES, FR, and DE)
 **🎉 MILESTONE: FR-60/DE-59/ES-74 trilogy COMPLETE** (iter1171-1173; audience-segmented "for-nationality" guides batch fully shipped)
+**🎉 MILESTONE: ES=401/401 COMPLETE** (iter1248 — all 401 tracked EN guides now have ES equivalents)
+**🎉 MILESTONE: missing-all-3 = 0** (iter1248 — israel-for-serbian-travelers was the last guide missing from all 3 locales)
 
-**Gaps to close (2026-08-12):**
-- fr guides: **6 missing** (392/401 — FR-61 SHIPPED iter1177 b56ccee2; **next FR BUILD = FR-62** — defined iter1180 below)
-- de guides: **11 missing** (387/401 — DE-60 SHIPPED iter1178 6484ee03; **next DE BUILD = DE-61** — defined iter1180 below)
-- es guides: **18 missing** (383/401 — ES-76 SHIPPED iter1181 7c30ae83; **next ES BUILD = ES-77** — see BACKLOG for candidates)
+**Gaps to close (2026-08-15):**
+- fr guides: **3 untracked** (398/401 — 3 new EN guides added after baseline, not yet batched into FR)
+- de guides: **3 untracked** (398/401 — same 3 EN guides not yet batched into DE)
+- es guides: **0 missing** from 401 baseline (401/401 COMPLETE); 21 new EN-only guides not yet batched
 - fr/de/es attractions: **4 missing each** (the 4 EN attractions added after Phase 4)
 
 ### FR-62 batch definition (iter1180 RESEARCH — ready for next FR BUILD)

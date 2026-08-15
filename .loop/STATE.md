@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1247
+- iteration: 1248
 - lastMode: BUILD
-- lastItem: israel-kibbutz-volunteer-guide
-- lastResult: iter1247 BUILD seo-content — israel-kibbutz-volunteer-guide SHIPPED 34230fb5. New EN guide for kibbutz volunteering: 4 pathways (MASA Israel free program for Jewish diaspora 18-30, Kibbutz Ulpan 5-month Hebrew immersion, independent Kibbutz Program placements, self-placement direct contact); daily life section (communal dining, shared accommodation, six-day working week, Shabbat, social life, Hebrew needs); visa section (ETA-IL + B/4 Volunteer Visa); cost/budget table; getting-there logistics. 6 FAQs; 2 affiliate CTAs (SafetyWing + Booking); 8 cross-links. 2/2 e2e PASS (smoke + a11y). Build: 1988→1989 pages (+1). CI in_progress at state-write (normal).
+- lastItem: israel-for-serbian-travelers-FR-DE-ES
+- lastResult: iter1248 BUILD i18n (tools-empty fallthrough) — israel-for-serbian-travelers FR+DE+ES SHIPPED 67943360. Last missing-all-3-locales guide. 3 locale files: ETA-IL + Wizz Air BEG→TLV + Srpski Manastir Svetog Đorđa pilgrimage + DinaCard limitation + Type F→H adapter. Smoke tests +3 routes (4/4 targeted PASS). Build: 1989→1992 pages (+3). CI in_progress at state-write (normal).
 
-- nextRotationCategory: BUILD/tools (iter1248%5=3 → BUILD; next category = tools per rotation after seo-content)
+- nextRotationCategory: BUILD/technical (iter1249%5=4 → REVIEW; but nextRotationCategory after i18n = technical to rebalance)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-15T10:45Z
-- branch context: master at 34230fb5; EN=419/401 (19 extra EN guides), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+- updatedAt: 2026-08-15T11:55Z
+- branch context: master at 67943360; EN=422 (21 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline.
+
+Notes: iter1248 BUILD i18n — israel-for-serbian-travelers FR+DE+ES SHIPPED 67943360. Last missing-all-3-locales guide. 3 locale files shipped: ETA-IL, Wizz Air BEG→TLV (seasonal 3h30), Srpski Manastir Svetog Đorđa (13th-century Serbian Orthodox monastery, Jerusalem Old City), DinaCard not accepted in Israel (Visa/Mastercard required), Type F Schuko → Type H adapter (same 230V). Smoke tests extended +3 routes; 4/4 targeted e2e PASS. Build 1989→1992 (+3). i18n MILESTONE: ES=401/401 complete for tracked baseline. FR=398/401 (3 untracked), DE=398/401 (3 untracked).
 
 Notes: iter1247 BUILD seo-content — israel-kibbutz-volunteer-guide SHIPPED 34230fb5. New EN kibbutz volunteer guide: MASA Israel (free, Jewish diaspora 18-30, 5-8 weeks), Kibbutz Ulpan (5 months, Hebrew immersion, open to non-Jewish), independent Kibbutz Program (1-3 months, pocket money ₪100-300/week), self-placement direct contact. Daily life: communal dining, shared rooms, 6-day week, Shabbat dinner. Visa: ETA-IL + B/4 for programs >90 days. 6 FAQs; SafetyWing + Booking CTAs; 8 cross-links. 2/2 e2e PASS. Build 1989 pages (+1). CI in_progress at state-write (normal).
 

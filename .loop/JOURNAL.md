@@ -17864,3 +17864,11 @@ What: New EN guide for kibbutz volunteering in Israel 2026. Targets: "kibbutz vo
 Gate: pnpm check 0 errors | build 1988→1989 pages (+1) | test:e2e 2/2 targeted PASS (smoke + a11y).
 Ship: squash-committed 34230fb5 to master; pushed to origin/master. Feature branch auto/israel-kibbutz-volunteer-guide deleted.
 Prod: CI status "unknown" at state-write (Vercel deploy in progress — same as prior iterations' "in_progress" pattern; normal).
+
+## 2026-08-15T11:55Z · iter 1248 · BUILD (i18n / tools-empty fallthrough) · israel-for-serbian-travelers-FR-DE-ES
+What: tools category empty (all 23 tools shipped); fell through to i18n. Shipped the last P3 missing-all-3-locales guide: israel-for-serbian-travelers.md in FR, DE, and ES. Key content: ETA-IL (Serbia visa-exempt; individual application even for group pilgrimage tours); Wizz Air BEG→TLV seasonal direct ~3h30; Srpski Manastir Svetog Đorđa (13th-century Serbian Orthodox monastery, Jerusalem Old City, Sunday liturgy in Serbian); Church of the Holy Sepulchre, Mount Tabor, Yardenit Jordan River baptism; DinaCard does not work outside Serbia (Visa/Mastercard required); Type F Schuko → Type H adapter (same 230V — adapter only, no converter). Smoke tests extended +3 routes. 3 affiliate CTAs per locale (Booking + GYG + DiscoverCars).
+Gate: pnpm check ✅ 0 errors | pnpm build ✅ 1989→1992 pages (+3) | e2e 4/4 targeted PASS (smoke /fr+/de+/es+ EN routes).
+Ship: squash-committed 67943360 to master; pushed origin/master. Feature branch auto/serbian-travelers-i18n deleted.
+Prod: CI in_progress at state-write (normal — all prior SHAs = success).
+i18n MILESTONE: ES=401/401 (complete for 401-guide tracked baseline). FR=398/401, DE=398/401 (3 untracked new-EN-only gaps remain for future batch).
+Next: iter1249 (1249%5=4 → REVIEW mode).
