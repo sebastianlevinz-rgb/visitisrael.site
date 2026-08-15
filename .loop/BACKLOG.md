@@ -3,6 +3,11 @@
 Format: `- [P1] (category, effort S/M/L) Title — why valuable — impl sketch — status`
 Priorities P0 (highest) → P3. Status: ready | blocked:<reason> | in-progress.
 
+## New items — iter1239 REVIEW discoveries (2026-08-15)
+
+### URGENT technical/freshness: DE/FR/ES airline guides have WRONG KLM date (July 26 not August 25)
+- [P2] (technical/freshness, XS) **airlines-i18n-klm-date-fix** — EN airlines guide was corrected in iter1232 (July 26 → August 25 KLM resumption) but DE/FR/ES variants were never updated. All 3 still show "Resumed 26 juillet / Juli / julio 2026" in the Currently Flying table + prose "Service is now active / Le service est désormais actif / El servicio está ahora activo" — both wrong (date wrong by a month; not yet active as of Aug 15). Fix all 3 variants: move KLM to suspended table, correct date to Aug 25, fix prose to forward tense. Same pattern as iter1239 EN fix. Files: src/content/guides/de/airlines-flying-israel-2026.md + fr/ + es/. Effort: XS. Status: ready [iter1239 review].
+
 ## New items — iter1235 RESEARCH discoveries (2026-08-14)
 
 ### URGENT technical/freshness: airlines guide shows United + Air Canada as active but both suspended

@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1238
-- lastMode: BUILD
-- lastItem: ben-gurion-2026-resilience-freshness
-- lastResult: iter1238 BUILD technical (tools-empty fallthrough) — ben-gurion-2026-resilience-freshness SHIPPED 2bb6760a. Freshness update to src/content/guides/ben-gurion-airport-guide.md: (1) New "August 2026 peak-season advisory" section: 2.6M passengers expected this month (+29% vs July 2025); ~33% on-time rate; 40-min avg delay; peak days approx 6/13/17/20/27 Aug (~100K pax each); advises 3.5h arrival (vs standard 3h), online check-in before arriving, check flight status on travel morning; (2) New "2026 recovery: Ben Gurion after Operation Roaring Lion" section: 40-day closure Feb 28–Apr 9, 2026; now fully open with 47 airlines; July capacity +29% vs 2025; $311M Terminal 3 expansion contract awarded July 2026; reassurance framing for travelers concerned about past disruption; (3) FAQ "How early should I arrive?" updated to mention 3.5h for August 2026; (4) Departures section header updated to mention August peak context; (5) updatedAt 2026-07-28→2026-08-15; description tightened to <160 chars. Also verified wizz-air-hub-may2026-freshness already applied (airlines guide already has full Wizz Air section with hub + 21 routes + domestic ETH service + new routes). Gate: pnpm check 0 errors | build 1985 pages (unchanged — freshness edits) | 8/8 targeted e2e PASS. SHA 2bb6760a; pushed origin/master. CI in_progress at state-write (normal).
+- iteration: 1239
+- lastMode: REVIEW
+- lastItem: klm-not-yet-resumed-fix
+- lastResult: iter1239 REVIEW — klm-not-yet-resumed-fix SHIPPED 6d7f3d59. Audit of recently shipped nationality guides (japanese, dutch, polish travelers — all cross-links clean) and airlines guide. Found: KLM was listed as "Currently flying" in Europe table with "Resumed 25 August 2026" (past tense) + prose saying "Service is now active" — both wrong on Aug 15 as KLM doesn't resume until Aug 25. Fix: moved KLM from Currently Flying table to Suspended/Uncertain table with correct "resuming 25 August 2026 — not yet operating" framing; updated 5 prose references; bumped updatedAt to 2026-08-15. Also discovered: DE/FR/ES airline guide variants still carry the old WRONG date (July 26) from before iter1232 — logged as P2 URGENT backlog item (airlines-i18n-klm-date-fix). Gate: pnpm check 0 errors | build 1985 pages (unchanged) | 8/8 airlines e2e PASS. SHA 6d7f3d59; pushed origin/master. CI in_progress at state-write (normal).
 
-- nextRotationCategory: REVIEW (iter1239%5=4 → REVIEW)
+- nextRotationCategory: RESEARCH (iter1240%5=0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-15T01:40Z
-- branch context: master at 2bb6760a; EN=415/401 (15 extra EN guides), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+- updatedAt: 2026-08-15T02:40Z
+- branch context: master at 6d7f3d59; EN=415/401 (15 extra EN guides), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
 
 Notes: iter1232 BUILD technical (tools-empty fallthrough) — airlines-delta-klm-aug2026-freshness SHIPPED 6158aced. Three confirmed factual errors corrected in airlines-flying-israel-2026.md: (1) KLM resumption date wrong — updated from 26 July to 25 August 2026 (NL Times + AirlineGeeks sources); added Larnaca (LCA) crew-stop caveat (crew overnight in Cyprus, not Israel — operationally important for same-day connections); (2) Delta ATL wrong — was listed as active (3×/week launched April 15); ACTUAL: suspended through 18 December 2026 per Delta News Hub; removed from "currently flying" table; added to suspended table + all prose references corrected; (3) Delta BOS wrong — was "scheduled Oct 24 2026"; ACTUAL: delayed indefinitely per Delta News Hub + Paddle Your Own Kanoo; updated throughout. updatedAt bumped to 2026-08-14. Gate: pnpm check 0 errors | build 1983 pages (unchanged) | test:e2e 3090/3090 PASS (23.3m). Committed 6158aced; pushed master. CI in_progress at state-write (normal).
 

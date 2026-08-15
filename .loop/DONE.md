@@ -2490,3 +2490,6 @@ New EN guide for Polish visitors. LOT vs Wizz Air WAW-TLV table; NFZ/EKUZ invali
 
 ## iter1238 · 2026-08-15 · ben-gurion-2026-resilience-freshness · SHA 2bb6760a
 Freshness update to ben-gurion-airport-guide.md: August 2026 peak-season advisory (2.6M passengers, ~33% on-time, 40-min avg delay, peak days 6/13/17/20/27 Aug, 3.5h arrival advice) + Operation Roaring Lion recovery note (40-day closure Feb-Apr 2026; 47 airlines now; +29% July capacity). updatedAt 2026-07-28→2026-08-15. Build: 1985 pages (unchanged). 8/8 e2e PASS.
+
+## klm-not-yet-resumed-fix · SHA 6d7f3d59 · iter1239 REVIEW
+Fix incorrect KLM status in airlines-flying-israel-2026.md: KLM was listed as "Currently flying" with past-tense "Resumed 25 August 2026" and prose "Service is now active" — both wrong before Aug 25. Moved to Suspended/Uncertain table; corrected 5 prose references to forward tense. Gate: pnpm check 0 errors | build 1985 pages | 8/8 e2e PASS.

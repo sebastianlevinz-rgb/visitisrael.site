@@ -17767,3 +17767,19 @@ Background full suite (launched prior iteration): 1 failure — a11y test on `/d
 **Gate:** pnpm check ✅ 0 errors | pnpm build ✅ 1985 pages (unchanged — freshness edit) | 8/8 targeted e2e PASS (4 smoke + 4 a11y across EN/FR/DE/ES variants)
 **Push:** 2bb6760a → origin/master
 **Notes:** CI in_progress at state-write (normal). Next: iter1239 REVIEW (1239%5=4 → REVIEW).
+
+## 2026-08-15T02:40Z · iter 1239 · REVIEW · klm-not-yet-resumed-fix · 6d7f3d59
+**What:** REVIEW iteration (1239%5=4). Audited 3 recently shipped nationality guides (israel-for-japanese-travelers, israel-for-dutch-travelers, israel-for-polish-travelers) and the airlines guide.
+
+**Nationality guides audit:** All cross-links verified clean across all 3 guides (9 links per guide average). No broken slugs. description lengths within 160 chars. No H1 in body. No fabricated data detected. affiliate CTAs use correct partner helpers. No issues — guides are correct.
+
+**Airlines guide issue found:** KLM was incorrectly listed in the "Currently flying" Europe table. After iter1232 corrected the resumption date from July 26 → August 25, the table still said "Resumed 25 August 2026" (past tense, ambiguous) and the prose said "Service is now active" — both wrong for any reader on or before August 24. A reader booking today (Aug 15) would be misled into thinking KLM Amsterdam is an available option when it's suspended for 10 more days.
+
+**Fix applied:** (1) Removed KLM from Currently Flying table; (2) Added KLM to Suspended/Uncertain table: "Suspended until 24 August 2026; resuming 25 August 2026 — not yet operating as of mid-August 2026"; (3) Fixed "Service is now active" → "Service is scheduled to resume on 25 August 2026 — not yet active"; (4) Added KLM bullet to "Still not flying" list; (5) Updated BA FAQ + booking-advice paragraph to note KLM suspension. updatedAt + "Last verified" bumped to 2026-08-15.
+
+**i18n discovery:** DE/FR/ES airline guide variants still carry the ORIGINAL wrong date (July 26, not August 25) from before iter1232 which only fixed EN. All 3 say "service is now active" with wrong date. Filed as P2 URGENT BACKLOG item: airlines-i18n-klm-date-fix.
+
+**Gate:** pnpm check ✅ 0 errors | pnpm build ✅ 1985 pages (unchanged — content edit) | test:e2e ✅ 8/8 airlines targeted PASS (a11y EN/DE/FR/ES + smoke EN/DE/FR/ES)
+**SHA:** 6d7f3d59 → origin/master
+**CI:** in_progress at state-write (normal pattern — all prior SHAs = success)
+**Next:** iter1240 (1240%5=0 → RESEARCH)
