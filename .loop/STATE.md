@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1244
-- lastMode: REVIEW
-- lastItem: august-backlinks-fix
-- lastResult: iter1244 REVIEW — august-backlinks-fix SHIPPED 216d9555. Audited 3 recently shipped guides (israel-in-august, israel-for-turkish-travelers, israel-for-polish-travelers): all 32 internal cross-links verified clean; SEO titles/descriptions within bounds; no H1 in body; hero images exist; affiliate CTAs valid. One fix found and shipped: israel-in-august (iter1243) had no bidirectional backlinks from the 3 hub pages it links to. Fixed: added israel-in-august cross-link to israel-in-july "Where July fits" section, israel-in-september "Where September fits" section, and israel-in-summer month cross-links paragraph. Gate: pnpm check 0 errors | build 1987 pages (unchanged) | 25/25 targeted e2e PASS.
+- iteration: 1245
+- lastMode: RESEARCH
+- lastItem: iter1245-research-pass
+- lastResult: iter1245 RESEARCH — 279th research pass. 6 new items appended to BACKLOG: hanukkah-in-israel (P2 S seo-content+monetization — zero hanukkah content; Tourist Israel has 5 dedicated pages), eilat-underwater-observatory-guide (P3 S seo-content+monetization — recently renovated shark tunnel; Tourist Israel + Danny The Digger rank), holiday-of-holidays-haifa (P3 S seo-content — December coexistence festival; haifa-travel-guide.md has 0 mentions), israel-michelin-food-freshness (P3 XS technical/freshness — Michelin Guide confirmed for Israel; La Liste 8 Israeli restaurants top 1000), tel-aviv-white-night-guide (P3 S seo-content — annual UNESCO anniversary all-night festival; tel-aviv-nightlife.md has 0 mentions), israel-dental-tourism-guide (P3 M seo-content+monetization — israel-medical-tourism.md has 0 dental mentions; growing medical tourism segment). Coverage confirmed for: Jerusalem Green Line light rail ✓, birdwatching/Hula festival ✓, stargazing ✓, solo travel ✓, wellness/spa ✓, cycling ✓, cruise excursions ✓, day trips from TLV ✓. No code changes; no gate run needed.
 
-- nextRotationCategory: BUILD/monetization (iter1245%5=0 → RESEARCH; rotation resets after REVIEW)
+- nextRotationCategory: BUILD/monetization (iter1246%5=1 → BUILD; next category = monetization per rotation after research)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-15T07:35Z
+- updatedAt: 2026-08-15T08:45Z
 - branch context: master at 216d9555; EN=417/401 (17 extra EN guides), FR=397/401, DE=397/401, ES=400/401; missing-FR=1 (israel-for-serbian-travelers P3), missing-DE=1 (israel-for-serbian-travelers P3), missing-ES=1 (israel-for-serbian-travelers P3 ONLY).
+
+Notes: iter1245 RESEARCH — 279th research pass. 6 new BACKLOG items: hanukkah-in-israel (P2 S), eilat-underwater-observatory-guide (P3 S), holiday-of-holidays-haifa (P3 S), israel-michelin-food-freshness (P3 XS), tel-aviv-white-night-guide (P3 S), israel-dental-tourism-guide (P3 M). Coverage confirmed for Jerusalem Green Line ✓, Hula festival ✓, stargazing ✓, solo travel ✓, cycling ✓, cruise ✓. No code changes.
 
 Notes: iter1243 BUILD seo-content — israel-in-august SHIPPED 3fcf70f3. New EN August seasonal guide resolving 6-consecutive-research-confirmation gap. Tel Aviv Cocktail Festival + Jerusalem Food Truck Festival + Israeli Animation Festival + Mitzpe Ramon Summer of Stars/Perseids + Kinneret 30°C + heat strategy + Elul + grape harvest lead-in. 7 FAQs; 3 CTAs; 12 cross-links. 2/2 e2e PASS. Build 1986→1987 pages (+1). CI in_progress at state-write (normal).
 

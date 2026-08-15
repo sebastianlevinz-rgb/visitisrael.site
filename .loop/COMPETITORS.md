@@ -9061,3 +9061,45 @@ Sources: touristisrael.com, beinharimtours.com, worldjewishtravel.org, Danny The
 
 **Competitor saturation note (iter1240):**
 - After 278 research passes, the editorial backlog is extremely comprehensive. Genuinely new content gaps are now rare. The highest-value unshipped items remain: nova-memorial (BLOCKED human-review), israel-in-august (P2 ready), airlines-i18n-klm-date-fix (P2 URGENT technical). Competitor content refresh cycles are faster than our loop cycle for some breaking topics (airline suspensions, hotel openings); internal freshness REVIEW catches these well.
+
+### 2026-08-15 · iter 1245 · RESEARCH — holiday festivals, culinary milestones, Eilat attraction gaps
+
+**Hanukkah content gap — Tourist Israel dominates, we have zero:**
+- Tourist Israel has 5 dedicated Hanukkah pages: "Hanukkah in Israel" (general), "Hanukkah in Jerusalem", "Hanukkah in Tel Aviv", "Hanukkah in Haifa", "Hanukkah in the North". All rank for "Hanukkah Israel travel", "things to do Hanukkah Israel", "visiting Israel December holidays".
+- We have complete coverage of Rosh Hashanah, Sukkot, Purim, Passover, Christmas — but ZERO Hanukkah. Clear asymmetric gap.
+- 2026 dates: December 4–12. Added P2 S item to BACKLOG.
+
+**Holiday of Holidays Haifa — confirmed gap:**
+- Tourist Israel + Carnifest.com rank for "Holiday of Holidays Haifa". Annual December festival in Wadi Nisnas + German Colony neighbourhood celebrates Jewish-Arab-Christian coexistence during Hanukkah + Christmas + Ramadan. Free entry, weekends in December (Thu-Sat), tens of thousands attend.
+- haifa-travel-guide.md: 0 mentions. Added P3 S item to BACKLOG. Strong pairing guide with hanukkah-in-israel.
+
+**Eilat Underwater Observatory Marine Park — Tourist Israel + Danny The Digger rank:**
+- Major Eilat attraction (6m-deep observatory tower, Coral 2000 submarine, recently renovated shark hall with 25m transparent tunnel + "Creatures from the Deep" exhibition — largest Shark Pool in Middle East).
+- We have eilat-dolphin-reef-guide.md and eilat-travel-guide.md but no dedicated Observatory guide. Danny The Digger, Lonely Planet, TripAdvisor all cover it as a standalone.
+- Added P3 S item to BACKLOG.
+
+**Michelin Guide entering Israel — major culinary tourism trigger:**
+- Tourism Ministry officially green-lit Michelin Guide for Israel (expanding from Abu Dhabi, Istanbul, Dubai to Israel). Tel Aviv is entry city.
+- 8 Israeli restaurants in La Liste top 1000 for 2026 (Chakra Jerusalem Best Israel 2025; Pastel/Grace TLV; Taizu TLV; Popina TLV; Mutra TLV). High-income culinary travelers track Michelin.
+- Our food guides (israeli-food-cuisine-guide.md, tel-aviv-food-guide.md) have no mention. Added P3 XS freshness item to BACKLOG.
+
+**Tel Aviv White Night (Laila Lavan) — annual UNESCO anniversary festival, unrepresented:**
+- Annual all-night arts festival (late June; 2026: June 25–26) marking TLV's 2003 UNESCO White City inscription. Free, city-wide: museums, galleries, rooftop events, outdoor concerts, art installations open all night.
+- Tourist Israel, Secret Tel Aviv, igoogledisrael, Carnifest.com all rank for it. tel-aviv-nightlife.md: 0 mentions.
+- Added P3 S item to BACKLOG.
+
+**Israel dental tourism — emerging segment, not in our medical tourism guides:**
+- Israel is an established destination for dental tourism: US/EU-trained dentists, English-speaking, Western-standard protocols, implant costs 50–70% below US/UK prices. bookimed.com + Jerusalem Post 2026 coverage confirm demand.
+- israel-medical-tourism.md has 0 dental mentions. Dead-sea-medical-tourism.md is spa/health focused.
+- Added P3 M item to BACKLOG.
+
+**Coverage confirmation (topics researched and found already covered):**
+- Jerusalem Green Line light rail: fully documented in jerusalem-light-rail-guide.md (first section opened July 2026 per guide's content, updatedAt 2026-07-22). ✓
+- Birdwatching Hula Valley / Hula Valley Bird Festival: well covered in birdwatching-in-israel.md including specific festival logistics. ✓
+- Israel stargazing: covered in israel-stargazing.md. ✓
+- Solo female / solo travel: covered in solo-travel-israel.md + solo-female-travel-israel.md. ✓
+- Israel wellness/spa: covered in israel-wellness-spa.md. ✓
+- Israel cycling: covered in cycling-in-israel.md + arava-mountain-biking.md + golan-heights-hiking-trails.md. ✓
+- kibbutz hotels: covered in kibbutz-hotels-israel.md. ✓
+- Cruise excursions: covered in haifa-shore-excursions.md + ashdod-cruise-port-excursions.md + cruise-shore-excursions-israel.md. ✓
+- Day trips from TLV: covered in day-trips-from-tel-aviv.md. ✓

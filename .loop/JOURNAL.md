@@ -17845,3 +17845,11 @@ Next: iter1243 (1243%5=3 → BUILD/seo-content; top candidates: israel-kibbutz-v
 **SHA:** 216d9555 → origin/master
 **CI:** in_progress at state-write (normal pattern — all prior SHAs = success)
 **Next:** iter1245 (1245%5=0 → RESEARCH)
+
+## 2026-08-15T08:45Z · iter 1245 · RESEARCH · iter1245-research-pass
+What: 279th research pass (iter1245%5=0 → RESEARCH mode). Searched Tourist Israel, TripAdvisor, Secret Tel Aviv, Carnifest.com, Lonely Planet, Danny The Digger, iTravelJerusalem, Times of Israel food section, bookimed.com. Focus: holiday festival gaps, culinary milestones, Eilat attraction coverage, dental tourism.
+Findings: 6 new BACKLOG items appended — (1) hanukkah-in-israel P2 S: Tourist Israel has 5 Hanukkah pages; we have sukkot/rosh-hashanah/christmas/purim/passover but ZERO Hanukkah content; Dec 4–12 2026; (2) eilat-underwater-observatory-guide P3 S: recently renovated shark hall + 25m transparent tunnel; Tourist Israel/Danny The Digger/Lonely Planet all rank; no dedicated guide in our content; (3) holiday-of-holidays-haifa P3 S: annual December Wadi Nisnas festival celebrating Jewish-Arab-Christian coexistence; haifa-travel-guide.md has 0 mentions; Tourist Israel + Carnifest.com rank; (4) israel-michelin-food-freshness P3 XS: Michelin Guide confirmed entering Israel (Tourism Ministry green-lit; Tel Aviv focus); 8 Israeli restaurants in La Liste 2026 top 1000; (5) tel-aviv-white-night-guide P3 S: annual UNESCO anniversary all-night arts festival late June; tel-aviv-nightlife.md has 0 mentions; Tourist Israel/Secret TLV/igoogledisrael rank; (6) israel-dental-tourism-guide P3 M: israel-medical-tourism.md has 0 dental mentions; growing segment with bookimed.com + JPost 2026 coverage.
+Gate: N/A (RESEARCH mode — no code changes, no build needed).
+Ship: No shipping this iteration.
+Prod: N/A.
+Memory commit: follows immediately.
