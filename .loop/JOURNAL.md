@@ -17753,3 +17753,6 @@ Gate: N/A (RESEARCH — no code changes).
 **Gate:** pnpm check ✅ 0 errors | pnpm build ✅ 1985 pages (+1) | 2/2 targeted e2e PASS (smoke + a11y)
 **Push:** ece377e4 → origin/master (direct commit on master; branch auto/israel-for-polish-travelers had no committed history)
 **Notes:** EN guide count now 415 (14 extra beyond 401-plan baseline). Next: iter1238 BUILD tools category (1238%5=3 → BUILD).
+
+## 2026-08-15T01:15Z · post-iter1237 · full e2e suite result
+Background full suite (launched prior iteration): 1 failure — a11y test on `/de/yam-caesarea-guide` with `net::ERR_CONNECTION_REFUSED` (preview server dropped mid-run after ~26 min). Content-correct — `/de/yam-caesarea-guide` is long-shipped. Infra flakiness: localhost:4321 server timed out during 3000+ test run. Not a regression from iter1237. No fix needed; monitor for recurrence.
