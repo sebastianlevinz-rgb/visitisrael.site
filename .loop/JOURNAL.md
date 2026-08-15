@@ -17950,3 +17950,21 @@ Gate: pnpm check 0 errors | build 1994 pages (unchanged) | 3/3 targeted smoke + 
 Ship: 3a1e5c09 pushed to master. CI in_progress.
 
 **Next:** iter1255 (1255%5=0 → RESEARCH).
+
+## 2026-08-15T20:00Z · iter 1255 · RESEARCH · research-pass-281
+**Mode:** RESEARCH (1255%5=0). 281st research pass. Winter/festival gap scan (Nov–Jan 2026/2027).
+**Sources searched:** touristisrael.com (November events, Red Sea Jazz Festival, Eilat Chamber Music Festival, Christmas Market Nazareth, Christmas in Jerusalem/Bethlehem), igoogledisrael.com (Christmas in Nazareth), carnifest.com (Red Sea Jazz Nov 11–14 + Eilat Chamber mid-Nov 2026 dates confirmed), secrettelaviv.com, Frommer's, wintersunexpert.com, thingstodoinisrael.com, wetravel.com (Orthodox pilgrimages), WebSearch queries × 8.
+
+**Key findings — 6 new BACKLOG items:**
+1. **red-sea-jazz-festival-eilat (P2 S)** — Red Sea Jazz Festival Nov 11–14, 2026 (Eilat, King Beach/Sultan Beach); 70,000 attendees; 35 concerts + 9–10/evening + workshops + jam sessions; annual since 1987. Zero editorial guides from any travel competitor. Strong Eilat hotel booking intent (4-night festival block). Confirmed via carnifest.com + Songkick + redseajazz.co.il. Time-sensitive: 3 months away.
+2. **christmas-in-nazareth (P2 S)** — Dec 12 tree lighting (Mary's Well; 30,000+ lights) + Dec 12–19 market + Dec 24 parade (15:30 Paul VI Street; 17:15 fireworks) + Dec 25 Mass (Church of Annunciation 07:00+10:00). touristisrael.com + igoogledisrael.com have dedicated pages; we have christmas-in-israel.md (national) but no city-specific Nazareth guide. 3M+ annual visitors; Christmas week hotels sell out; pilgrimage booking intent. Time-sensitive: ~4 months.
+3. **olive-harvest-galilee-guide (P3 S)** — Olive Branch Days Festival (Yemei HaZayit); 30-year anniversary; mid-Oct to early Nov; Galilee + Golan + valleys. Family olive picking + oil mill visits + fresh pita + oil tasting. touristisrael.com has Galilee Olive Oil Trail but no festival visitor guide. Unique agri-tourism niche with high dwell time.
+4. **eilat-chamber-music-festival (P3 S)** — Annual mid-November Eilat classical/chamber/opera festival; world-acclaimed musicians; touristisrael.com dedicated page; we have zero coverage. Complements red-sea-jazz-festival-eilat.
+5. **orthodox-christmas-bethlehem-jerusalem (P3 S)** — Greek Orthodox Christmas Jan 6–7 (Church of the Nativity midnight liturgy; Jerusalem Greek Quarter Mass); Armenian Jan 18–19 (St. James Convent Armenian Quarter Jerusalem). Zero editorial guides from any competitor targeting this specific combined pilgrim segment. High January booking intent for the Jan 6–7 peak.
+6. **jerusalem-knights-festival (P3 S)** — Annual November Old City Christian Quarter medieval reenactment; knight fights, period music/theater, torch-lit processions; appears in every November roundup but zero dedicated editorial guide.
+
+**Coverage confirmed already-done (no action needed):**
+- israel-in-november ✓, christmas-in-israel ✓, nazareth-travel-guide ✓, backpacking-israel ✓, first-time-in-israel ✓, solo-female-travel-israel ✓, israel-eta-guide ✓, eilat-travel-guide + eilat-hotels-guide + eilat-nightlife ✓ (none dedicated to jazz/music festivals).
+
+**Gate:** N/A (RESEARCH mode). **Ship:** No code changes. **Prod:** N/A.
+**Next:** iter1256 (1256%5=1 → BUILD; top candidate: red-sea-jazz-festival-eilat P2 S time-sensitive Nov event, or tamar-festival-dead-sea P3 S Sukkot-season item).

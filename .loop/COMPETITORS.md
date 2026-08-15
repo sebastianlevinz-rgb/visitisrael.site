@@ -9126,3 +9126,34 @@ Multiple competitors (touristisrael.com/hula-valley, takeyourbackpack.com, ecois
 - Eilat Underwater Observatory: in BACKLOG from iter1245.
 
 **Saturation note:** ~97% saturated; genuinely new editorial gaps require niche seasonal/event-specific angles. City-specific event pages (city-level Sukkot, festival-specific guides) are the remaining frontier with high-intent search traffic.
+
+### 2026-08-15 · iter 1255 · Winter/festival gap scan (281st research pass)
+Sources: touristisrael.com, igoogledisrael.com, carnifest.com, Frommer's, wintersunexpert.com, WebSearch (8 queries).
+
+**Red Sea Jazz Festival (Eilat, Nov 11–14 2026) — confirmed editorial gap:**
+- touristisrael.com + Carnifest.com + Songkick: only thin event listing pages; no editorial visitor guide from any travel site.
+- Festival facts: annual since 1987; King Beach + Sultan Beach Eilat venues; 70,000 total attendees; 35 concerts, 9–10/evening; 6 workshops with guest artists; nightly jam sessions. 2026 dates confirmed Nov 11–14.
+- Hotel booking intent: 4-night Eilat stay during Israel's biggest winter music festival = top conversion opportunity. We have eilat-travel-guide, eilat-hotels-guide, eilat-nightlife — none cover the jazz festival. Added P2 S to BACKLOG.
+
+**Eilat Chamber Music Festival (mid-November 2026) — secondary Eilat gap:**
+- touristisrael.com has a dedicated page ("world-acclaimed musicians and ensembles; chamber, orchestral, opera, dance, gypsy music"). Zero from roughguides/lonelyplanet/nomadicmatt.
+- Complements Red Sea Jazz; same November Eilat travel window. Added P3 S to BACKLOG.
+
+**Christmas in Nazareth — city-specific gap vs. national page:**
+- touristisrael.com/christmas-in-nazareth: dedicated page covering Mary's Well tree lighting Dec 12 + market Dec 12–19 + parade Dec 24 + Mass Dec 25. igoogledisrael.com: "Christmas in Nazareth: how and where to celebrate."
+- We have christmas-in-israel.md (national) + nazareth-travel-guide.md (general year-round). No city-specific Christmas guide. 3M+ annual Nazareth visitors; Christmas week = sellout for Nazareth hotels. Added P2 S to BACKLOG.
+
+**Orthodox Christmas Bethlehem/Jerusalem (Jan 6–7 + Jan 18–19) — pilgrim segment gap:**
+- All competitor guides focus on Dec 25 (Latin/Catholic Christmas). Greek Orthodox (Jan 6–7, Church of Nativity midnight liturgy; Jerusalem Greek Quarter) and Armenian (Jan 18–19, St. James Convent Jerusalem) draw thousands of distinct pilgrims — Eastern European, Middle Eastern Christian diaspora — who aren't served by Dec guides.
+- Zero editorial guides from touristisrael.com, roughguides, lonelyplanet, nomadicmatt specifically targeting the Jan Orthodox/Armenian combined program. Added P3 S to BACKLOG.
+
+**Jerusalem Knights Festival (November) — zero editorial coverage:**
+- Appears in every November events roundup (touristisrael.com "November in Israel", Frommer's calendar, thingstodoinisrael.com) but zero competitor has a dedicated editorial visitor guide.
+- Christian Quarter medieval reenactment; free-entry street festival; knight fights, period music, torch-lit processions. Usually first two weeks of November. Added P3 S to BACKLOG.
+
+**Olive Branch Days Festival (mid-Oct to early Nov) — thin competitor coverage:**
+- touristisrael.com has Galilee Olive Oil Trail + Olive Oil Industry pages but no dedicated Olive Days Festival visitor guide. carnifest.com has event listing.
+- 30-year-old annual festival across Galilee + Golan + valleys; family olive picking + oil mill + tasting. High dwell time agri-tourism niche. Added P3 S to BACKLOG.
+
+**Confirmed already-covered (no add):**
+- Israel in November ✓, Christmas in Israel ✓, Nazareth general guide ✓, backpacking ✓, solo female ✓, ETA-IL ✓, eilat general guides ✓.
