@@ -1,9 +1,9 @@
 ---
 title: 'Ben Gurion Airport Guide: Terminals, Security & Lounges (2026)'
-description: 'Ben Gurion Airport (TLV) guide: terminals, departures, security interview tips, 2026 lounges update, duty-free and onward transfers.'
+description: 'Ben Gurion Airport (TLV) guide 2026: terminals, security tips, August peak-season advisory, lounge update, duty-free and onward transfer options.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Transport
-updatedAt: 2026-07-28
+updatedAt: 2026-08-15
 ctaHeading: 'Sort your airport essentials before you fly'
 affiliateCtas:
   - partner: welcomepickups
@@ -28,7 +28,7 @@ faqs:
   - question: Does Priority Pass work at Ben Gurion Airport in 2026?
     answer: 'No. As of 1 January 2026, Priority Pass is no longer accepted at Ben Gurion Airport. The Dan Lounge closed permanently on 31 December 2025. The current lounge landscape is: Aspire Lounge (operated by Swissport, Concourse E, accessible via Elta/Max credit cards and select bank cards); Jetex Executive Terminal (Concourse C, accessible via American Express Platinum); and the King David Lounge (El Al, Terminal 3 Concourse D, renovated March 2025, available to El Al business class, LoungeKey, and select El Al loyalty cards). The lounge lineup evolves — verify the latest access conditions before your trip.'
   - question: How early should I arrive at Ben Gurion Airport?
-    answer: 'Arrive at least 3 hours before an international departure. Security screening at Ben Gurion uses a two-stage process — the pre-check interview before check-in, followed by standard security before the gate — and the pre-check queue can be long during peak morning hours (07:00–10:00) and Jewish holiday periods. Budget extra time if you are a first-time visitor, a solo traveller, or have recent travel stamps from Arab countries, as these factors may trigger more thorough screening.'
+    answer: 'Arrive at least 3 hours before an international departure — and allow 3.5 hours if you are travelling during August 2026, when the airport is at record capacity. Security screening at Ben Gurion uses a two-stage process — the pre-check interview before check-in, followed by standard security before the gate — and the pre-check queue can be long during peak morning hours (07:00–10:00) and Jewish holiday periods. Budget extra time if you are a first-time visitor, a solo traveller, or have recent travel stamps from Arab countries, as these factors may trigger more thorough screening.'
   - question: What questions are asked in the Ben Gurion Airport security interview?
     answer: 'Ben Gurion security staff ask a standard set of questions: where are you going, who do you know in Israel, what is the purpose of your visit, where are you staying, who packed your bags, and have you accepted anything from a third party. The interview is routine — most take under five minutes. Having your hotel address, a contact in Israel if applicable, and a clear travel itinerary ready speeds things up. Stay calm, answer directly, and avoid vague or inconsistent answers. A thorough secondary screening (full bag search and possible body scan) can sometimes follow; budget an extra 30–60 minutes if you think this applies to you.'
   - question: What duty-free is worth buying at Ben Gurion Airport?
@@ -40,6 +40,23 @@ faqs:
 ---
 
 **Ben Gurion International Airport (TLV)** handles virtually all international arrivals and departures to Israel. Understanding the layout, security process, and current lounge situation will make your journey significantly smoother — especially given a major change that took effect in January 2026.
+
+## August 2026 peak-season advisory
+
+**August 2026 is Ben Gurion's busiest period ever.** Israel's Ministry of Tourism expects approximately **2.6 million passengers** this month, representing a 29% jump over the same period in 2025. The surge has cut on-time performance to around **33%**, with an average departure delay of roughly 40 minutes across the month. Around five dates — approximately 6, 13, 17, 20 and 27 August — are each expected to handle close to 100,000 passengers.
+
+If your flight falls in August, take these steps:
+
+- **Allow at least 3.5 hours** before international departure (not the standard 3h — queues are longer than usual this month)
+- **Complete online check-in** before arriving at the airport
+- **Check your flight status** on the morning of travel via the airline app or iaa.gov.il
+- **Book airport transfers in advance** — cab waiting times at departures can extend significantly on peak days
+
+The airport is fully operational and well-staffed. The delays are a consequence of high demand, not any infrastructure issue. Patience and early arrival are your best tools.
+
+## 2026 recovery: Ben Gurion after Operation Roaring Lion
+
+Ben Gurion Airport closed for approximately 40 days — from 28 February to 9 April 2026 — during the Israel–Iran conflict known as Operation Roaring Lion. It has since fully recovered: as of July 2026, **47 airlines** are operating at TLV and passenger capacity is **up 29% compared to July 2025**. A $311 million Terminal 3 expansion contract was awarded in July 2026, targeting growth from ~16 million annual passengers toward 40 million over the long term. Day-to-day operations are normal; travellers should not have concerns about airport functionality.
 
 ## Terminal overview: T3 vs Terminal 1
 
@@ -59,7 +76,7 @@ International flights land into **Terminal 3 arrivals (Level 1)**. After landing
 
 ## Departures: timeline and process
 
-**Arrive at least 3 hours before your international flight.**
+**Arrive at least 3 hours before your international flight — 3.5 hours during August 2026 peak season.**
 
 ### Stage 1 — pre-check security interview (before check-in)
 
