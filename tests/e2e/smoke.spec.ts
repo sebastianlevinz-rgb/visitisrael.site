@@ -768,6 +768,7 @@ const ROUTES = [
   '/israel-in-july',
   '/israel-in-august',
   '/hanukkah-in-israel',
+  '/israel-kibbutz-volunteer-guide',
   '/airlines-flying-israel-2026',
   '/israel-in-december',
   '/israel-in-february',
