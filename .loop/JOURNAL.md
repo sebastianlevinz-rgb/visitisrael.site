@@ -17872,3 +17872,22 @@ Ship: squash-committed 67943360 to master; pushed origin/master. Feature branch 
 Prod: CI in_progress at state-write (normal — all prior SHAs = success).
 i18n MILESTONE: ES=401/401 (complete for 401-guide tracked baseline). FR=398/401, DE=398/401 (3 untracked new-EN-only gaps remain for future batch).
 Next: iter1249 (1249%5=4 → REVIEW mode).
+
+## 2026-08-15T13:05Z · iter 1249 · REVIEW · review-seo-crosslinks · 77e0a5e9
+**Mode:** REVIEW (1249%5=4). Audited iters 1246–1248: hanukkah-in-israel, israel-kibbutz-volunteer-guide, israel-for-serbian-travelers FR/DE/ES.
+
+**Audit findings:**
+- **SEO metadata OOB:** FR/DE/ES Serbian travelers guides had titles 76–78 chars (>70 limit); FR and ES descriptions 171–173 chars (>160 limit). Trimmed to 65–68 chars (titles) and 129–130 chars (descriptions) while preserving all key terms (ETA-IL, Wizz Air BEG–TLV, Orthodox pilgrimage, DinaCard, adapter).
+- **Missing bidirectional link:** israel-in-december has a dedicated "## Hanukkah" section but zero links to /hanukkah-in-israel. Added: (1) inline link at end of Hanukkah section body; (2) entry in "Where December fits" nav list.
+- **Missing cross-link:** kibbutz-hotels-israel.md had no link to /israel-kibbutz-volunteer-guide despite the volunteer guide linking to the hotels guide. Added cross-link at page footer.
+- **Internal links:** All cross-links in hanukkah-in-israel (12 targets) and kibbutz-volunteer-guide (8 targets) verified on disk — 0 broken.
+- **Hero/CTA images:** mahane-yehuda.jpg, old-city.jpg, western-wall.jpg, sea-of-galilee.jpg — all 4 verified present.
+- **Honesty:** 0 fabricated prices/ratings; all CTA partners valid (getyourguide, booking, safetywing, discovercars).
+- **H1 in body:** 0 violations across all audited guides.
+
+**Fix shipped:** 5 files changed — FR/DE/ES Serbian guide frontmatter (SEO trim) + israel-in-december (2 cross-link insertions) + kibbutz-hotels-israel (1 cross-link at footer).
+
+**Gate:** pnpm check 0 errors | build 1992 pages (unchanged) | 21/21 targeted e2e PASS (smoke + a11y for all affected routes)
+**SHA:** 77e0a5e9 → origin/master
+**CI:** in_progress at state-write (normal — all prior SHAs = success)
+**Next:** iter1250 (1250%5=0 → RESEARCH mode)
