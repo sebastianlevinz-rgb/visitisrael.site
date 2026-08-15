@@ -3,7 +3,7 @@ title: 'Israeli Food: The Complete Guide to What to Eat'
 description: 'Israeli food guide — must-try dishes (hummus, falafel, sabich, shakshuka, knafeh), regional specialities, top food markets and dietary notes for travellers.'
 heroImage: /images/regions/jerusalem/mahane-yehuda.jpg
 category: Food
-updatedAt: 2026-06-17
+updatedAt: 2026-08-15
 faqs:
   - question: What food is Israel famous for?
     answer: Hummus, falafel and sabich are the street-food icons; shakshuka is the brunch staple; knafeh is the great dessert. Beyond these, Israeli cuisine spans Levantine mezze and grills, North African and Yemenite dishes, Eastern European Jewish baking, and a celebrated modern restaurant scene in Tel Aviv and Jerusalem.
@@ -71,6 +71,14 @@ A guided food tour through any of these (sold on most tour platforms — see our
 ## Eating well on any budget
 
 Street food and market grazing keep costs low; mid-range restaurants and Tel Aviv's flagship dining climb fast. As a rough guide, a falafel or sabich pita costs around ₪20–35, a generous hummus plate ₪35–55, a casual sit-down meal ₪70–120 per person, and a mid-range restaurant dinner with a drink ₪150–250. Budget using our [cost & budget guide](/israel-cost-budget), tip around 10–12% at sit-down restaurants (often added as *sherut*), and let the markets do the heavy lifting. Tap water is safe and free on request.
+
+## International recognition: Michelin and La Liste
+
+Israel's dining scene has earned sustained international attention. The Michelin Guide — the world's most influential restaurant rating system — has confirmed plans to expand into Israel, with the Israel Ministry of Tourism publicly backing the initiative. Tel Aviv is the expected launch city for the first edition, following Michelin's regional expansion into Dubai, Abu Dhabi and Istanbul. The guide will introduce starred restaurants, Bib Gourmand value picks, and Michelin-recommended addresses across price points; for current ratings as they are published, check [guide.michelin.com](https://guide.michelin.com).
+
+Israel already features in La Liste, the Paris-based annual ranking of the world's 1,000 best restaurants. The 2026 edition included eight Israeli restaurants — seven in Tel Aviv and one in Jerusalem. Among those recognised: Chakra Jerusalem (winner, Best Restaurant in Israel at the World Culinary Awards 2025), and Tel Aviv establishments Pastel, Taizu, Popina and Mutra. For current rankings and bookings, see [laliste.com](https://laliste.com).
+
+For visitors planning a special-occasion dinner, this recognition points to a well-defined high-end tier above the casual options covered in our [Tel Aviv food guide](/tel-aviv-food-guide) and [Jerusalem food guide](/jerusalem-food-guide). Israel's restaurant scene has moved from street-food reputation to fine-dining contender in under a decade — a trajectory the Michelin launch is expected to accelerate.
 
 ## How to taste your way around the country
 

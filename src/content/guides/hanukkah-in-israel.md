@@ -119,7 +119,7 @@ Everything. Hanukkah has no Yom Tov restrictions. Public transport runs on norma
 
 ### The Shabbat overlap
 
-The only operational complication is Shabbat. In 2026, **December 4 (first candle night) falls on a Friday evening and December 5 is a Saturday** — the first night of Hanukkah coincides with the start of Shabbat. On Friday December 4, Shabbat candles are lit before the Hanukkah hanukkiah; public transport stops at sunset; Jewish-owned restaurants and shops close from Friday afternoon through Saturday evening. Plan accordingly if you arrive on the first day of Hanukkah. The remaining seven nights in 2026 fall on Sunday through Saturday, with the following Shabbat (December 11/12) coinciding with the final night — the same rules apply. See the [Shabbat guide](/shabbat-guide) for what to expect on Shabbat evenings anywhere in Israel.
+The only operational complication is Shabbat. In 2026, **December 4 (first candle night) falls on a Friday evening and December 5 is a Saturday** — the first night of Hanukkah coincides with the start of Shabbat. On Friday December 4, Shabbat candles are lit before the Hanukkah hanukkiah; public transport stops at sunset; Jewish-owned restaurants and shops close from Friday afternoon through Saturday evening. Plan accordingly if you arrive on the first day of Hanukkah. The remaining seven nights in 2026 fall on Saturday through Friday, with the following Shabbat (December 11/12) coinciding with the final night — the same rules apply. See the [Shabbat guide](/shabbat-guide) for what to expect on Shabbat evenings anywhere in Israel.
 
 ### Prices and booking
 
