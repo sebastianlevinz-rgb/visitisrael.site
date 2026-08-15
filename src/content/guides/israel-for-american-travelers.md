@@ -73,7 +73,8 @@ Several airlines operate nonstop services between the US and Ben Gurion Airport 
 
 | Route | Carriers | Notes |
 |---|---|---|
-| New York JFK | El Al, Israir, American | Israir low-cost nonstop launched Aug 2026 |
+| New York JFK | Delta, El Al, Israir, American | Delta daily JFK–TLV resumed Sep 2025; Israir low-cost nonstop launched Aug 2026 |
+| Atlanta ATL | Delta | Resumed April 15, 2026 (3×/week, Wed/Fri/Sun, A350-900) — check delta.com |
 | Newark EWR | El Al | United EWR–TLV suspended; scheduled to resume 8 September 2026 — verify at united.com |
 | Los Angeles LAX | El Al | Year-round |
 | San Francisco SFO | El Al | New West Coast gateway, from Oct 2026 |
@@ -81,7 +82,7 @@ Several airlines operate nonstop services between the US and Ben Gurion Airport 
 | Chicago ORD | El Al | United ORD–TLV suspended; restart date TBC — verify at united.com |
 | Washington IAD | — | United IAD–TLV suspended; restart date TBC — verify at united.com |
 
-**United Airlines update:** United suspended its EWR, ORD, and IAD–TLV routes during Israel's Ben Gurion Airport closure period (Operation Roaring Lion, Feb 28–Apr 9 2026). As of mid-August 2026, United is **not operating** US–Israel service. EWR–Tel Aviv is scheduled to resume **8 September 2026** (2× daily, B787 Dreamliner); ORD and IAD restart dates are TBC. Check united.com before booking. **Delta** resumed daily JFK–Tel Aviv service in September 2025; Delta has announced restart of Atlanta (ATL) and Boston (BOS) service — check delta.com for confirmed dates.
+**United Airlines:** Suspended its EWR, ORD, and IAD–TLV routes during Ben Gurion Airport closure (Operation Roaring Lion, Feb 28–Apr 9 2026). As of mid-August 2026, United is **not operating** US–Israel service. EWR–TLV resumes **September 8, 2026** (2× daily, B787 Dreamliner); ORD and IAD restart dates TBC — check united.com before booking. **Delta:** JFK resumed September 2025 (daily); ATL resumed April 15, 2026 (3×/week); BOS confirmed October 24, 2026 — check delta.com for current schedules.
 
 **El Al** runs the most nonstop frequencies year-round — often multiple daily departures from JFK — and tends to be price-competitive on the direct market. Flight time from New York is approximately 10–11 hours eastbound; from Los Angeles approximately 15–16 hours.
 
