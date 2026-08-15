@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1256
+- iteration: 1257
 - lastMode: BUILD
-- lastItem: red-sea-jazz-festival-eilat
-- lastResult: iter1256 BUILD seo-content+monetization — red-sea-jazz-festival-eilat SHIPPED 0f0000d8. New EN guide for Red Sea Jazz Festival Eilat (Nov 11–14 2026, 70,000 attendees, 35 concerts, 4 stages). Covers: King Beach + Sultan Beach open-air stages, ticket tiers (single-night/multi-day/VIP; historical ₪150–₪600+ range with honesty caveat to check official site), Eilat hotel booking strategy (North Beach strip recommended; book 3+ months out), getting there (Ramon Airport HRL, Egged buses, Route 40 drive), November conditions (28–30°C, 23–24°C Red Sea water), daytime activity pairing (Coral Beach, Dolphin Reef, Red Canyon, Timna Park). 2 CTAs: GYG Eilat experiences + Booking Eilat hotels. 6 cross-links (eilat-travel-guide, eilat-hotels-guide, eilat-nightlife, israel-in-november, israel-music-festivals, 3-days-in-eilat). 6 FAQs. pnpm check 0 errors; build 1995 pages (+1); 2/2 targeted e2e PASS (smoke + a11y).
+- lastItem: christmas-in-nazareth
+- lastResult: iter1257 BUILD seo-content+monetization — christmas-in-nazareth SHIPPED ec156db2. New EN guide for Christmas in Nazareth (950w): Dec 12 tree lighting ceremony at Mary's Well Square (30,000+ lights), Dec 12-19 Christmas Market (food/crafts/music/Santa, multiple stages), Dec 24 parade (15:30 from Tomb of Virgin Mary down Paul VI Street, 17:15 fireworks), Dec 25 Church of Annunciation masses (07:00 + 10:00 festive), Greek Orthodox Christmas (Jan 6-7 2027), Armenian Christmas (Jan 18-19 2027). Practical: bus 343 from TLV, parking near Old City, Afula connection. 2 CTAs (Booking Nazareth hotels + GYG Nazareth/Galilee tours). 6 FAQs. 6 cross-links. pnpm check 0 errors; build 1996 pages (+1); 3111/3111 e2e+a11y PASS.
 
-- nextRotationCategory: BUILD (1257%5=2 → seo-content; next: christmas-in-nazareth P2 S)
+- nextRotationCategory: BUILD (1258%5=3 → technical; next: olive-harvest-galilee-guide P3 S or tamar-festival-dead-sea P3 S)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-15T21:10Z
-- branch context: master at 0f0000d8; EN=425 (24 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: christmas-in-nazareth P2 S (Dec time-sensitive); olive-harvest-galilee-guide P3 S (Oct–Nov time-sensitive); tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S.
+- updatedAt: 2026-08-15T22:02Z
+- branch context: master at ec156db2; EN=426 (25 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: olive-harvest-galilee-guide P3 S (Oct-Nov time-sensitive); tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S.
+
+Notes: iter1257 BUILD seo-content+monetization — christmas-in-nazareth SHIPPED ec156db2. New /christmas-in-nazareth guide (950w EN): Dec 12 tree lighting Mary's Well Square (30,000+ lights), Dec 12-19 Christmas Market, Dec 24 parade (Paul VI Street, 17:15 fireworks), Dec 25 Church of Annunciation masses, Orthodox Jan 6-7 + Armenian Jan 18-19 celebrations. 2 CTAs; 6 FAQs; 6 cross-links. Build 1996 pages (+1). 3111/3111 e2e+a11y PASS. CI in_progress at state-write (normal).
 
 Notes: iter1256 BUILD seo-content+monetization — red-sea-jazz-festival-eilat SHIPPED 0f0000d8. New /red-sea-jazz-festival-eilat guide (950w EN): Nov 11–14 2026, 70,000 attendees, King Beach + Sultan Beach stages, ticket tiers, Eilat hotel strategy, Ramon Airport access. 6 FAQs; GYG + Booking CTAs; 6 cross-links. Build 1995 pages (+1). 2/2 targeted e2e PASS. CI in_progress at state-write (normal).
 

@@ -17974,3 +17974,16 @@ What: New /red-sea-jazz-festival-eilat guide (950w EN). Nov 11–14 2026, 70,000
 Gate: pnpm check 0 errors | build 1995 pages (+1) | 3111/3111 e2e PASS (33.9m) ← full suite completed after push.
 Ship: committed 0f0000d8; pushed origin/master.
 Prod: CI status check in progress (normal at state-write).
+
+## 2026-08-15T22:02Z · iter 1257 · BUILD · christmas-in-nazareth
+
+Shipped new EN guide for Christmas in Nazareth (950w). City-specific coverage for Israel's largest Arab city's Christmas season:
+- Dec 12 tree lighting ceremony at Mary's Well Square (30,000+ lights, free, public)
+- Dec 12–19 Christmas Market at Mary's Well (food/crafts/music/Santa, multiple stages, free entry)
+- Dec 24 parade (15:30 from Tomb of Virgin Mary, Paul VI Street, 17:15 fireworks)
+- Dec 25 Church of Annunciation masses (07:00 + 10:00 festive Solemn Mass)
+- Greek Orthodox Christmas Jan 6–7 2027; Armenian Christmas Jan 18–19 2027
+- Practical: bus 343 from TLV, Afula connection from Jerusalem, parking near Old City
+- 2 CTAs (Booking Nazareth hotels + GYG Christmas/Galilee tours); 6 FAQs; 6 cross-links
+Gate: pnpm check 0 errors | build 1996 pages (+1) | 3111/3111 e2e+a11y PASS
+Merge: squash to master as ec156db2; pushed. CI in_progress at state-write (normal).

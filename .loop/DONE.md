@@ -2525,3 +2525,6 @@ New /simchat-torah-in-israel guide (950w EN). Targets: "Simchat Torah Israel 202
 
 ## iter1256 · BUILD (seo-content+monetization) · red-sea-jazz-festival-eilat · 0f0000d8
 - New EN guide /red-sea-jazz-festival-eilat (950w): Red Sea Jazz Festival Nov 11–14 2026, Eilat. King Beach + Sultan Beach open-air stages, ticket tiers (single-night/multi-day/VIP), hotel booking strategy, Ramon Airport access, November conditions, daytime activity pairing. 6 FAQs; GYG + Booking CTAs; 6 cross-links. Build 1995 pages (+1). 3111/3111 e2e PASS.
+
+## christmas-in-nazareth · ec156db2 · iter 1257
+City-specific Christmas guide for Nazareth (950w EN): Dec 12 tree lighting Mary's Well Square, Dec 12–19 Christmas Market, Dec 24 parade (Paul VI Street + fireworks), Dec 25 Church of Annunciation masses, Greek Orthodox (Jan 6–7) + Armenian (Jan 18–19) celebrations. Bus 343 logistics, parking. 2 CTAs, 6 FAQs, 6 cross-links. Targets pilgrimage/hotel-booking intent during Israel's largest Arab-Christian Christmas celebration.
