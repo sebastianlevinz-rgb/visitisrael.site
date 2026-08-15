@@ -2504,3 +2504,6 @@ Fix incorrect KLM status in airlines-flying-israel-2026.md: KLM was listed as "C
 
 ## iter1246 · BUILD (monetization) · hanukkah-in-israel · 44bd0813
 - New EN Hanukkah guide: 8-night Festival of Lights Dec 4–12 2026; Western Wall menorahs; Tower of David night shows; Mahane Yehuda sufganiyot market; Safed Kabbalah candlelit tours; Tel Aviv public lightings; Shabbat-overlap logistics (night 1 = Shabbat in 2026); Torch Relay from Modi'in; no Yom Tov restrictions (everything stays open). 7 FAQs; GYG + Booking CTAs; 8 cross-links. Build 1988 pages (+1). 2/2 e2e PASS.
+
+## iter1247 · BUILD (seo-content) · israel-kibbutz-volunteer-guide · 34230fb5
+- New EN kibbutz volunteer guide: 4 pathways covered (MASA Israel free program for Jewish diaspora 18-30; Kibbutz Ulpan 5-month Hebrew immersion open to all; independent Kibbutz Program 1-3 months; self-placement direct contact). Daily life section: communal dining, shared accommodation, six-day working week, Shabbat dinner experience, social life. Visa: ETA-IL + B/4 Volunteer Visa for stays >90 days or formal programs. Cost/budget table. 6 FAQs. SafetyWing + Booking CTAs; 8 cross-links. Build: 1988→1989 pages (+1). 2/2 e2e PASS. [seo-content, P2 S]
