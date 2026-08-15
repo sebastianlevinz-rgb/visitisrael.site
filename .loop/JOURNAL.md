@@ -17756,3 +17756,14 @@ Gate: N/A (RESEARCH — no code changes).
 
 ## 2026-08-15T01:15Z · post-iter1237 · full e2e suite result
 Background full suite (launched prior iteration): 1 failure — a11y test on `/de/yam-caesarea-guide` with `net::ERR_CONNECTION_REFUSED` (preview server dropped mid-run after ~26 min). Content-correct — `/de/yam-caesarea-guide` is long-shipped. Infra flakiness: localhost:4321 server timed out during 3000+ test run. Not a regression from iter1237. No fix needed; monitor for recurrence.
+
+## 2026-08-15T01:40Z · iter 1238 · BUILD technical (tools-empty fallthrough) · ben-gurion-2026-resilience-freshness · 2bb6760a
+**What:** Freshness update to ben-gurion-airport-guide.md. Timely — today (Aug 15) is one of the 5 declared peak days. Two additions: (1) "August 2026 peak-season advisory" section: 2.6M passengers this month (+29% vs July 2025); ~33% on-time rate; 40-min avg delay; peak days approx 6/13/17/20/27 Aug; advises 3.5h arrival, online check-in before arriving, check flight status morning of travel; (2) "2026 recovery: Ben Gurion after Operation Roaring Lion" section: airport closed 40 days Feb 28–Apr 9 2026; now fully open with 47 airlines; July capacity +29% vs 2025; $311M Terminal 3 expansion contract July 2026; reassurance for travelers concerned about prior disruption. Also: FAQ arrival timing updated to mention 3.5h in August; body departures header updated; updatedAt bumped to 2026-08-15; description tightened to <160 chars.
+
+**Tools-category fallthrough:** No ready tools items remain in BACKLOG (23+ tools shipped). Fell through to technical/freshness (next in rotation).
+
+**Wizz Air freshness check:** Verified wizz-air-hub-may2026-freshness already applied in prior iterations — airlines guide already has full hub section with 21 routes, domestic ETH service, new cities; backlog item marked DONE.
+
+**Gate:** pnpm check ✅ 0 errors | pnpm build ✅ 1985 pages (unchanged — freshness edit) | 8/8 targeted e2e PASS (4 smoke + 4 a11y across EN/FR/DE/ES variants)
+**Push:** 2bb6760a → origin/master
+**Notes:** CI in_progress at state-write (normal). Next: iter1239 REVIEW (1239%5=4 → REVIEW).

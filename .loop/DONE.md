@@ -2484,3 +2484,9 @@ New EN guide for Dutch visitors. KLM AMS–TLV direct (multiple daily) + Transav
 
 ## iter1234 · REVIEW · seasonal-guides-review-fix · 8b545da8
 - Corrected Rosh Hashanah 2026 date in israel-in-october.md (Sep 12-14 → Sep 11-13); fixed 3 broken cross-links (/israel-shabbat-calendar x2 → /shabbat-guide; /israel-effective-days x2 → /shabbat-guide; /dead-sea → /dead-sea-guide) across September and October guides. Both updatedAt bumped 2026-08-14. Build unchanged (1984 pages); 16/16 e2e PASS.
+
+## iter1237 · 2026-08-15 · israel-for-polish-travelers · SHA ece377e4
+New EN guide for Polish visitors. LOT vs Wizz Air WAW-TLV table; NFZ/EKUZ invalid; PLN not exchangeable; Type E→H adapter; POLIN-Yad Vashem memory tourism; Anders Army CWGC heritage; Polish Catholic pilgrimage circuit; Polish Embassy Tel Aviv. 3 CTAs + 6 FAQs. Build: 1985 pages (+1). 2/2 e2e PASS.
+
+## iter1238 · 2026-08-15 · ben-gurion-2026-resilience-freshness · SHA 2bb6760a
+Freshness update to ben-gurion-airport-guide.md: August 2026 peak-season advisory (2.6M passengers, ~33% on-time, 40-min avg delay, peak days 6/13/17/20/27 Aug, 3.5h arrival advice) + Operation Roaring Lion recovery note (40-day closure Feb-Apr 2026; 47 airlines now; +29% July capacity). updatedAt 2026-07-28→2026-08-15. Build: 1985 pages (unchanged). 8/8 e2e PASS.
