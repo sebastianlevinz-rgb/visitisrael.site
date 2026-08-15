@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1236 · BUILD (technical/freshness) · airlines-post-roaring-lion-resumptions · 7ad1c7c4
+- Corrected confirmed factual errors in 3 EN guides: United Airlines EWR/ORD/IAD shown as active → corrected to suspended (BGA closure; EWR resumes Sept 8 2026, 2× daily B787 Dreamliner; ORD/IAD TBC); Air Canada YUL shown as "Seasonal Jun–Oct 2026 (active)" → suspended until ~Sept 7 2026; Delta ATL "suspended through Dec 18" + BOS "indefinitely delayed" → "restart announced — confirm exact date at delta.com" (Delta News Hub confirmed restarts following JFK resumption). KLM resumed Aug 25 row confirmed. Gate: 3092/3092 e2e PASS (24.5m); build 1984 pages unchanged.
+
 ## iter1226 · BUILD (monetization) · israel-for-canadian-travelers · 45786403
 - New EN guide for Canadian visitors: GAC Level 3 advisory, ETA-IL, El Al YYZ + Air Canada YUL seasonal, French-Canadian pilgrimage angle, Jewish Canadian community, OHIP/MSP/RAMQ gap, Scotiabank Passport/RBC Avion/TD Aeroplan no-fee cards, Interac not valid in Israel, 120V→230V voltage converter note, Canadian Embassy TLV (99 Ibn Gabirol). 6 FAQs; 3 CTAs: GYG + Booking + DiscoverCars. Build: 1980→1981 pages.
 

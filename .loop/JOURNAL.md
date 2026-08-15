@@ -17716,3 +17716,29 @@ Key findings:
 (6) Wizz Air full hub: opened Ben Gurion May 2026, 21 routes expanding to 50, based A320 aircraft, TLV-ETM domestic launched, new cities include Bratislava/Palermo/Naples/Venice; Milan doubled to 14x/week. Our airline guide still has minimal Wizz Air entry.
 Gate: N/A (RESEARCH — no code changes).
 6 new BACKLOG items appended. Next: iter1236 (1236%5=1 → BUILD; top P2 candidates: airlines-post-roaring-lion-resumptions XS, israel-for-polish-travelers S, nova-memorial M, israel-vs-dubai S).
+
+---
+
+## iter1236 · 2026-08-15 · BUILD (technical/freshness) · airlines-post-roaring-lion-resumptions
+
+**Item:** airlines-post-roaring-lion-resumptions (P2 URGENT, XS)
+**SHA:** 7ad1c7c4
+**Mode:** BUILD — technical/freshness fix to correct confirmed airline suspension inaccuracies
+
+**Summary:** Corrected 3 confirmed factual errors across 3 EN guides caused by the Ben Gurion Airport closure (Operation Roaring Lion, Feb 28–Apr 9, 2026) and post-closure airline schedule changes:
+
+1. **United Airlines EWR/ORD/IAD**: Guide showed United as "active (Newark resumed March 2025)" — corrected to suspended. EWR confirmed restart September 8, 2026 (2× daily B787 Dreamliner); ORD and IAD restart dates TBC. Note added with united.com as verification source.
+
+2. **Air Canada YUL**: Guide showed "Seasonal Jun–Oct 2026 (Fri/Sun)" as active — corrected to suspended until ~September 7, 2026. Verification note added.
+
+3. **Delta ATL/BOS**: Guide showed ATL "suspended through Dec 18, 2026" and BOS "delayed indefinitely" — updated to "restart announced following JFK resumption — confirm exact launch date at delta.com" (Delta News Hub confirmed restarts but no exact date published; honest framing per PLAYBOOK honesty rules — no fabricated dates).
+
+**KLM**: Aug 25 resumption confirmed and row updated (had been correct in guide but noted as a cross-check).
+
+**Files changed:** airlines-flying-israel-2026.md, israel-for-american-travelers.md, israel-for-canadian-travelers.md
+
+**Gate:** pnpm check ✅ | pnpm build ✅ (1984 pages unchanged) | 3092/3092 e2e PASS (24.5m)
+**CI:** in_progress at state-write (normal pattern — prior SHAs all succeeded)
+**Push:** 7ad1c7c4 → origin/master
+
+**Notes:** Auto branch auto/airlines-post-roaring-lion-resumptions was local-only (same SHA as master); committed changes directly to master. No i18n variants affected (airlines guide exists only in EN; DE/FR/ES variants noted in backlog as `airlines-i18n-freshness-audit` P3).
