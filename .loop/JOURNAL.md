@@ -17968,3 +17968,9 @@ Ship: 3a1e5c09 pushed to master. CI in_progress.
 
 **Gate:** N/A (RESEARCH mode). **Ship:** No code changes. **Prod:** N/A.
 **Next:** iter1256 (1256%5=1 → BUILD; top candidate: red-sea-jazz-festival-eilat P2 S time-sensitive Nov event, or tamar-festival-dead-sea P3 S Sukkot-season item).
+
+## 2026-08-15T21:10Z · iter 1256 · BUILD (seo-content+monetization) · red-sea-jazz-festival-eilat
+What: New /red-sea-jazz-festival-eilat guide (950w EN). Nov 11–14 2026, 70,000 attendees, 35 concerts, 4 open-air stages (King Beach + Sultan Beach as main venues). Covers: ticket tiers (single-night / multi-day / VIP; historical ₪150–₪600+ with honesty caveat to check official site), Eilat hotel booking strategy (North Beach strip within walking distance; book 3+ months ahead), getting there (Ramon Airport HRL 50-min domestic flight; Egged bus ~3h from Jerusalem; Route 40 drive ~3h from TLV), November conditions (28–30°C daytime, 23–24°C Red Sea water), daytime pairing (Coral Beach, Dolphin Reef, Red Canyon, Timna Park). 6 FAQs. 2 CTAs: GYG Eilat experiences + Booking Eilat hotels (destination=Eilat). 6 cross-links: eilat-travel-guide, eilat-hotels-guide, eilat-nightlife, israel-in-november, israel-music-festivals, 3-days-in-eilat. Tests: smoke + a11y entries added.
+Gate: pnpm check 0 errors | build 1995 pages (+1) | 3111/3111 e2e PASS (33.9m) ← full suite completed after push.
+Ship: committed 0f0000d8; pushed origin/master.
+Prod: CI status check in progress (normal at state-write).

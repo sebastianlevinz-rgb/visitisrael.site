@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1255
-- lastMode: RESEARCH
-- lastItem: research-pass-281
-- lastResult: iter1255 RESEARCH — 281st research pass. Winter/festival gap scan (Nov–Jan). Sources: touristisrael.com (Red Sea Jazz, Eilat Chamber Music, Christmas events), igoogledisrael.com (Nazareth Christmas), carnifest.com (Red Sea Jazz/Eilat Chamber dates), secrettelaviv.com, Frommer's, WebSearch. 6 new BACKLOG items added: red-sea-jazz-festival-eilat (P2 S; Nov 11–14 2026; 70,000 attendees; Eilat hotel booking intent), christmas-in-nazareth (P2 S; Dec 12–25; pilgrimage + hotel intent), olive-harvest-galilee-guide (P3 S; Oct–Nov Olive Days Festival 30th anniversary), eilat-chamber-music-festival (P3 S; mid-Nov; classical/opera), orthodox-christmas-bethlehem-jerusalem (P3 S; Jan 6–7 Greek + Jan 18–19 Armenian; underserved pilgrim segment), jerusalem-knights-festival (P3 S; November Old City medieval reenactment). No code changes. Saturation still ~97%; remaining frontier = city-specific event/festival guides + underserved pilgrim segments. Coverage confirmed: israel-in-november ✓, christmas-in-israel ✓, nazareth-travel-guide ✓ (city guide exists, no Christmas-specific page), eilat guides ✓ (no dedicated jazz/music festival guide), backpacking/budget ✓, solo female ✓, first-time ✓, eta-il ✓.
+- iteration: 1256
+- lastMode: BUILD
+- lastItem: red-sea-jazz-festival-eilat
+- lastResult: iter1256 BUILD seo-content+monetization — red-sea-jazz-festival-eilat SHIPPED 0f0000d8. New EN guide for Red Sea Jazz Festival Eilat (Nov 11–14 2026, 70,000 attendees, 35 concerts, 4 stages). Covers: King Beach + Sultan Beach open-air stages, ticket tiers (single-night/multi-day/VIP; historical ₪150–₪600+ range with honesty caveat to check official site), Eilat hotel booking strategy (North Beach strip recommended; book 3+ months out), getting there (Ramon Airport HRL, Egged buses, Route 40 drive), November conditions (28–30°C, 23–24°C Red Sea water), daytime activity pairing (Coral Beach, Dolphin Reef, Red Canyon, Timna Park). 2 CTAs: GYG Eilat experiences + Booking Eilat hotels. 6 cross-links (eilat-travel-guide, eilat-hotels-guide, eilat-nightlife, israel-in-november, israel-music-festivals, 3-days-in-eilat). 6 FAQs. pnpm check 0 errors; build 1995 pages (+1); 2/2 targeted e2e PASS (smoke + a11y).
 
-- nextRotationCategory: BUILD (1256%5=1 → BUILD)
+- nextRotationCategory: BUILD (1257%5=2 → seo-content; next: christmas-in-nazareth P2 S)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-15T20:00Z
-- branch context: master at 526499ca; EN=424 (23 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: red-sea-jazz-festival-eilat P2 S (Nov 11–14 time-sensitive); christmas-in-nazareth P2 S (Dec time-sensitive); tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S.
+- updatedAt: 2026-08-15T21:10Z
+- branch context: master at 0f0000d8; EN=425 (24 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: christmas-in-nazareth P2 S (Dec time-sensitive); olive-harvest-galilee-guide P3 S (Oct–Nov time-sensitive); tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S.
+
+Notes: iter1256 BUILD seo-content+monetization — red-sea-jazz-festival-eilat SHIPPED 0f0000d8. New /red-sea-jazz-festival-eilat guide (950w EN): Nov 11–14 2026, 70,000 attendees, King Beach + Sultan Beach stages, ticket tiers, Eilat hotel strategy, Ramon Airport access. 6 FAQs; GYG + Booking CTAs; 6 cross-links. Build 1995 pages (+1). 2/2 targeted e2e PASS. CI in_progress at state-write (normal).
 
 Notes: iter1254 REVIEW — sukkot-date-fix SHIPPED 3a1e5c09. Critical factual correction: Sept 25 2026 = Friday (not Thursday); all 3 day-of-week labels in sukkot-in-jerusalem.md table corrected + Hoshana Raba Oct 1 → Oct 2 in both guides. Gate: 3/3 smoke + 3/3 a11y + 1/1 links PASS (targeted). CI in_progress at state-write.
 

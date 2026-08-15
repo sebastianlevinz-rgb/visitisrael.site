@@ -2522,3 +2522,6 @@ New /simchat-torah-in-israel guide (950w EN). Targets: "Simchat Torah Israel 202
 
 ## iter1254 · REVIEW (date-fix) · sukkot-date-fix · 3a1e5c09
 - Corrected Sukkot 2026 day-of-week labels in sukkot-in-jerusalem.md (Thursday→Friday Sept 25; Friday→Saturday Sept 26; Saturday→Sunday Sept 27; Hoshana Raba Oct 1→Oct 2; merged duplicate Hoshana Raba + Last-day rows). Fixed FAQ: "Thursday, September 25" → "Friday"; "Hoshana Raba (October 1)" → "October 2". Fixed sukkot-in-israel.md body: Hoshana Raba Oct 1 → Oct 2. Build 1994 unchanged. 3/3 targeted smoke + 3/3 a11y PASS.
+
+## iter1256 · BUILD (seo-content+monetization) · red-sea-jazz-festival-eilat · 0f0000d8
+- New EN guide /red-sea-jazz-festival-eilat (950w): Red Sea Jazz Festival Nov 11–14 2026, Eilat. King Beach + Sultan Beach open-air stages, ticket tiers (single-night/multi-day/VIP), hotel booking strategy, Ramon Airport access, November conditions, daytime activity pairing. 6 FAQs; GYG + Booking CTAs; 6 cross-links. Build 1995 pages (+1). 3111/3111 e2e PASS.
