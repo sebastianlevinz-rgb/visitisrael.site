@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1250
-- lastMode: RESEARCH
-- lastItem: research-pass-280
-- lastResult: iter1250 RESEARCH — 280th research pass. Sukkot-season gap scan. 5 new BACKLOG items: (1) sukkot-in-jerusalem P2 S (city-specific Sukkot guide; touristisrael.com city-split model; hotel booking peak); (2) simchat-torah-in-israel P3 S (distinct from sukkot-in-israel; Torah dancing Oct 2–3; secrettelaviv.com only current coverage); (3) tamar-festival-dead-sea P3 S (Sukkot classical music festival near Masada; touristisrael.com thin; high Dead Sea hotel booking intent); (4) haifa-international-film-festival-guide P3 S (41st edition Oct 1–10 2026; 300k+ attendees; zero editorial travel guide); (5) hula-valley-crane-migration-guide P3 S (dedicated Agamon HaHula Oct–Nov seasonal guide; distinct from birdwatching-in-israel.md). No code changes; RESEARCH-only iteration. Gate: N/A. Prod: N/A.
+- iteration: 1251
+- lastMode: BUILD
+- lastItem: british-fcdo-june2026-freshness
+- lastResult: iter1251 BUILD technical — british-fcdo-june2026-freshness SHIPPED a350ee49. Updated israel-for-british-travelers.md: added June 2026 advisory change callout in FCDO section (FCDO lifted blanket 'advise against all travel' on 3 June 2026 per JPost/Jewish News/Travel Magazine; explained direct insurance implication for UK policies; warned pre-June 2026 policy holders to confirm reinstatement; named still-excluded zones: Gaza, parts of WB, northern border zone above Route 91); updated FCDO FAQ to specifically reference the 3 June 2026 lift date and Route 91 border zone framing; updated travel insurance FAQ with pre-June 2026 policy residual exclusion clause check; added cross-links to /israel-travel-insurance and /is-israel-safe. updatedAt bumped to 2026-08-15. Gate: pnpm check 0 errors | build 1992 pages (unchanged) | 8/8 targeted e2e PASS. CI in_progress at state-write (normal).
 
-- nextRotationCategory: BUILD/technical (iter1251%5=1 → BUILD; category=technical to rebalance after recent i18n/seo-content streak; fallthrough to monetization or seo-content if no technical items ready)
+- nextRotationCategory: BUILD/monetization (1252%5=2 → BUILD; after technical, rotate to monetization; fallthrough to seo-content if no monetization items ready — note: sukkot-in-jerusalem is P2 seo-content+monetization with Sukkot 6 weeks away, highest time-pressure item in BACKLOG)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-15T14:15Z
-- branch context: master at aad2977d; EN=422 (21 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG has 5 new Sukkot-season items (sukkot-in-jerusalem P2 S is next highest-priority after technical BUILD; Sukkot Sep 25 = ~6 weeks away, timely to ship city guides now).
+- updatedAt: 2026-08-15T16:00Z
+- branch context: master at a350ee49; EN=422 (21 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG: sukkot-in-jerusalem P2 S is next highest time-pressure item (Sukkot Sep 25 = 6 weeks away); british-fcdo-june2026-freshness now SHIPPED.
+
+Notes: iter1251 BUILD technical — british-fcdo-june2026-freshness SHIPPED a350ee49. Updated israel-for-british-travelers.md with FCDO June 3, 2026 blanket advisory lift: new callout paragraph in FCDO section; updated FCDO FAQ with specific lift date; updated travel insurance FAQ with pre-June 2026 policy residual exclusion clause warning. Cross-links to /israel-travel-insurance and /is-israel-safe. Build 1992 pages unchanged. 8/8 targeted e2e PASS. CI in_progress at state-write.
 
 Notes: iter1250 RESEARCH — 280th research pass. Sukkot-season gap scan. Sources: touristisrael.com (city-split Sukkot model + Tamar Festival + Haifa Film Festival), secrettelaviv.com (Simchat Torah), takeyourbackpack.com (Hula Valley), ecoisraeltours.com (Hula bird tour). Findings: touristisrael.com's city-split Sukkot model is the key monetization insight — 4 city pages ranking independently for hotel queries. We only have the national sukkot-in-israel.md. Added 5 new items to BACKLOG (see above). No code changes. Saturation ~97%; new gaps require niche seasonal/event angles.
 

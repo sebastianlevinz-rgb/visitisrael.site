@@ -17905,3 +17905,15 @@ Next: iter1249 (1249%5=4 → REVIEW mode).
 **Gate:** N/A (RESEARCH mode). **Ship:** No code changes. **Prod:** N/A.
 **COMPETITORS.md:** Updated with Sukkot-season findings. Saturation ~97%.
 **Next:** iter1251 (1251%5=1 → BUILD/technical; fallthrough to sukkot-in-jerusalem seo-content if no technical items ready — Sukkot timing makes it high priority).
+
+## 2026-08-15T16:00Z · iter 1251 · BUILD (technical) · british-fcdo-june2026-freshness
+**Mode:** BUILD/technical (1251%5=1). Item: british-travelers-fcdo-june2026-freshness (P3 XS, ready).
+**What:** Updated `src/content/guides/israel-for-british-travelers.md` with the FCDO June 3, 2026 blanket advisory lift and its direct UK travel insurance implications.
+- Added 'June 2026 advisory change' callout paragraph in FCDO section: FCDO lifted blanket "advise against all travel" on 3 June 2026 (elevated Iran-related tensions); now reverted to tiered area advice; direct insurance implication (policies excluding blanket-advisory destinations now generally valid again for Jerusalem/TLV/Dead Sea/Galilee/Eilat); warned pre-June 2026 policy holders to confirm reinstatement with insurer; still-excluded zones enumerated (Gaza, parts of WB, northern border above Route 91).
+- Updated FCDO FAQ answer: added specific June 3, 2026 lift date and Route 91 border zone framing.
+- Updated travel insurance FAQ: added pre-June 2026 policy residual exclusion clause check; cross-link to /israel-travel-insurance; retained existing policy recommendations.
+- updatedAt bumped to 2026-08-15.
+**Gate:** pnpm check 0 errors | build 1992 pages (unchanged) | 8/8 targeted e2e PASS (smoke + a11y EN/FR/DE/ES).
+**SHA:** a350ee49 → origin/master
+**CI:** in_progress at state-write (normal — all prior SHAs = success).
+**Next:** iter1252 (1252%5=2 → BUILD/monetization; sukkot-in-jerusalem P2 S is highest time-pressure item, Sukkot Sep 25 = 6 weeks away).
