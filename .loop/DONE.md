@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1258 · BUILD (technical/freshness) · michelin-la-liste-hanukkah-freshness · f3337517
+- (1) israeli-food-cuisine-guide.md: added "International Recognition: Michelin and La Liste" section (3 paragraphs). Michelin Guide confirmed for Israel; Tel Aviv launch city; La Liste 2026 8 Israeli restaurants named (Chakra Jerusalem WCA winner + Pastel/Taizu/Popina/Mutra TLV). No fabricated star counts; honest framing with links to official guides. Cross-links to /tel-aviv-food-guide + /jerusalem-food-guide. (2) hanukkah-in-israel.md: fixed "Sunday through Saturday" → "Saturday through Friday" for nights 2–8 (factual accuracy fix). Build 1996 unchanged. 7/7 targeted e2e+a11y PASS.
+
 ## iter1241 · BUILD (technical/freshness) · airlines-i18n-klm-date-fix · f35cef08
 - Corrected KLM date and table placement in DE/FR/ES airline guides. EN was fixed in iter1232+1239; DE/FR/ES still showed July 26 (wrong) with KLM in active table. All 3 variants fixed: moved KLM to suspended table (resuming Aug 25 2026; Larnaca LCA crew-stop note), updated prose to forward tense, added "still absent" bullet, updated alternative-hubs to "El Al, or KLM from Aug 25". Build 1985 unchanged. 8/8 targeted e2e PASS.
 

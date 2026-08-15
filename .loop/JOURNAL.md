@@ -17987,3 +17987,10 @@ Shipped new EN guide for Christmas in Nazareth (950w). City-specific coverage fo
 - 2 CTAs (Booking Nazareth hotels + GYG Christmas/Galilee tours); 6 FAQs; 6 cross-links
 Gate: pnpm check 0 errors | build 1996 pages (+1) | 3111/3111 e2e+a11y PASS
 Merge: squash to master as ec156db2; pushed. CI in_progress at state-write (normal).
+
+## 2026-08-15T23:01Z · iter 1258 · BUILD (technical) · michelin-la-liste-hanukkah-freshness
+What: Two XS technical/freshness items bundled.
+(1) israeli-food-cuisine-guide.md — added "International Recognition: Michelin and La Liste" section (3 paragraphs). Michelin Guide confirmed for Israel (Tourism Ministry backed); Tel Aviv expected launch city following Dubai/Abu Dhabi/Istanbul regional expansion. La Liste 2026: 8 Israeli restaurants (7 TLV, 1 JLM) — Chakra Jerusalem (World Culinary Awards Best Restaurant Israel 2025), Pastel/Taizu/Popina/Mutra TLV listed. Honest framing: no fabricated star counts; links to guide.michelin.com + laliste.com for current ratings. Cross-links to /tel-aviv-food-guide + /jerusalem-food-guide added. updatedAt bumped to 2026-08-15.
+(2) hanukkah-in-israel.md — fixed factual wording (iter1254 review item): "The remaining seven nights in 2026 fall on Sunday through Saturday" → "Saturday through Friday". Night 2 = Saturday Dec 5 evening; nights 2–8 = Saturday→Friday (Dec 11 eve), consistent with the guide's own Shabbat final-night note.
+Gate: pnpm check 0 errors | build 1996 pages (unchanged) | 7/7 targeted e2e+a11y PASS + full suite exit 0 confirmed.
+Merge: committed f3337517; pushed to origin/master. CI in_progress at state-write (normal).

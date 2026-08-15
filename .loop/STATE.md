@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1257
+- iteration: 1258
 - lastMode: BUILD
-- lastItem: christmas-in-nazareth
-- lastResult: iter1257 BUILD seo-content+monetization — christmas-in-nazareth SHIPPED ec156db2. New EN guide for Christmas in Nazareth (950w): Dec 12 tree lighting ceremony at Mary's Well Square (30,000+ lights), Dec 12-19 Christmas Market (food/crafts/music/Santa, multiple stages), Dec 24 parade (15:30 from Tomb of Virgin Mary down Paul VI Street, 17:15 fireworks), Dec 25 Church of Annunciation masses (07:00 + 10:00 festive), Greek Orthodox Christmas (Jan 6-7 2027), Armenian Christmas (Jan 18-19 2027). Practical: bus 343 from TLV, parking near Old City, Afula connection. 2 CTAs (Booking Nazareth hotels + GYG Nazareth/Galilee tours). 6 FAQs. 6 cross-links. pnpm check 0 errors; build 1996 pages (+1); 3111/3111 e2e+a11y PASS.
+- lastItem: michelin-la-liste-hanukkah-freshness
+- lastResult: iter1258 BUILD technical — michelin-la-liste + hanukkah-fix SHIPPED f3337517. (1) israeli-food-cuisine-guide.md: added "International Recognition: Michelin and La Liste" section (3 paragraphs). Michelin Guide confirmed for Israel (Tourism Ministry backed); Tel Aviv expected launch city; follows Dubai/Abu Dhabi/Istanbul expansion. La Liste 2026: 8 Israeli restaurants (7 TLV, 1 JLM) — Chakra Jerusalem won Best Restaurant Israel at World Culinary Awards 2025; Pastel/Taizu/Popina/Mutra TLV recognised. Honest framing: directs to guide.michelin.com + laliste.com — no fabricated star counts. Cross-links to /tel-aviv-food-guide + /jerusalem-food-guide. updatedAt bumped 2026-08-15. (2) hanukkah-in-israel.md: fixed factual wording — "Sunday through Saturday" → "Saturday through Friday" for nights 2–8 (Dec 5 eve → Dec 11 eve). Gate: pnpm check 0 errors | build 1996 pages (unchanged) | 7/7 targeted e2e+a11y PASS + full suite exit 0.
 
-- nextRotationCategory: BUILD (1258%5=3 → technical; next: olive-harvest-galilee-guide P3 S or tamar-festival-dead-sea P3 S)
+- nextRotationCategory: REVIEW (1259%5=4 → review; audit candidates: christmas-in-nazareth iter1257 + red-sea-jazz-festival-eilat iter1256 + recent seasonal guides)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-15T22:02Z
-- branch context: master at ec156db2; EN=426 (25 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: olive-harvest-galilee-guide P3 S (Oct-Nov time-sensitive); tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S.
+- updatedAt: 2026-08-15T23:01Z
+- branch context: master at f3337517; EN=426 (25 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: olive-harvest-galilee-guide P3 S (Oct-Nov time-sensitive); tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S.
+
+Notes: iter1258 BUILD technical — michelin-la-liste-hanukkah-freshness SHIPPED f3337517. Added Michelin/La Liste recognition section to food guide + fixed hanukkah nights wording. Build 1996 pages (unchanged). 7/7 targeted e2e+a11y PASS + full suite exit 0. CI in_progress at state-write (normal).
 
 Notes: iter1257 BUILD seo-content+monetization — christmas-in-nazareth SHIPPED ec156db2. New /christmas-in-nazareth guide (950w EN): Dec 12 tree lighting Mary's Well Square (30,000+ lights), Dec 12-19 Christmas Market, Dec 24 parade (Paul VI Street, 17:15 fireworks), Dec 25 Church of Annunciation masses, Orthodox Jan 6-7 + Armenian Jan 18-19 celebrations. 2 CTAs; 6 FAQs; 6 cross-links. Build 1996 pages (+1). 3111/3111 e2e+a11y PASS. CI in_progress at state-write (normal).
 
