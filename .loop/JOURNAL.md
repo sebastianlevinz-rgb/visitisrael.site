@@ -18186,3 +18186,9 @@ Discoveries:
 6. red-sea-winter-jazz-festival-eilat (seo-content, S) — touristisrael.com page for mid-Feb jazz event distinct from Nov Red Sea Jazz Festival; VERIFY recurring before building guide.
 
 No gate/build/ship (RESEARCH only). No CI triggered.
+
+## 2026-08-16T23:10Z · iter 1281 · BUILD · israel-for-thai-travelers
+What: New /israel-for-thai-travelers guide (~1,100w EN). Thailand has ~6-7M Christians, El Al 16x/week BKK+HKT direct flights summer 2026, Israir also added routes. Content: ETA-IL entry for Thai citizens (visa-exempt, ₪25, iaa.gov.il, 72h); flights from Bangkok+Phuket direct (9-10h); full Christian pilgrimage circuit (Via Dolorosa, Holy Sepulchre, Nazareth, Sea of Galilee boat, Yardenit, Bethlehem); Thai agricultural worker community (~25k-30k workers in kibbutzim/moshavim); PromptPay not accepted, Visa/Mastercard guide; Thai NHSO/SSO/CSMBS health insurance not valid abroad; Type A/B→H plug adapter; AIS/True/DTAC roaming + local SIM options; embassy contacts both ways. 3 affiliate CTAs: GYG Holy Land pilgrimage tour + Booking hotels + SafetyWing travel insurance. 6 FAQs; 7 cross-links verified all exist. meta description fixed to 157 chars (lint gate: max 160). Hero: /images/regions/jerusalem/hero.jpg (verified exists).
+Gate: pnpm check 0 errors | build 2007 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: squash-merged to master af4301b2, pushed.
+Prod: CI + Lighthouse in_progress at state-write (normal pattern for this repo).
