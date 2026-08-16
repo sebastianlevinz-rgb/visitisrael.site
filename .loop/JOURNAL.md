@@ -18073,3 +18073,9 @@ What: New /jerusalem-beer-festival guide (~950w EN). Israel's largest beer festi
 Gate: pnpm check 0 errors | pnpm build 1999 pages (+1) | 2/2 targeted e2e+a11y PASS.
 Ship: squash-merged ff278fef, pushed master.
 Prod: CI in_progress at state-write (normal pattern).
+
+## 2026-08-16T07:40Z · iter 1267 · BUILD-seo-content · sukkot-in-tel-aviv
+What: New /sukkot-in-tel-aviv guide (~1000w EN). Tel Aviv's secular Sukkot — city-split model gap (we had sukkot-in-israel + sukkot-in-jerusalem but NOT sukkot-in-tel-aviv). Covers: Hayarkon Park outdoor concerts (tribute acts Elton John/Led Zeppelin/Fleetwood Mac + Israeli headliners; ticketed evenings via Leaan.co.il; light rail to park), Dizengoff Square family celebrations (free, open-air), Mediterranean beach swimming at 26–28°C water temp, restaurant sukkot across Neve Tzedek/Rothschild/Florentin, International Storytelling Festival in nearby Givatayim, Tel Aviv vs Jerusalem comparison table (atmosphere/dress/transport/crowd). Hotel booking by neighbourhood: beachfront first (Hilton/Carlton/Isrotel sell out earliest); Neve Tzedek + Florentin best value. Sukkot Sep 25 = 6 weeks from pub date; booking urgency angle throughout. 7 FAQs; Booking.com TLV hotels + GYG TLV city tours CTAs; 6 cross-links (sukkot-in-israel, sukkot-in-jerusalem, israel-in-october, best-hotels-tel-aviv, tel-aviv-travel-guide, israel-events-festivals). EventSchema: Hayarkon Park, Sep 25–Oct 2 2026.
+Gate: pnpm check 0 errors | pnpm build 2000 pages (+1) | 2/2 targeted e2e+a11y PASS.
+Ship: committed 10515003, pushed master.
+Prod: CI in_progress at state-write (normal pattern).
