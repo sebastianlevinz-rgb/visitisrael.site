@@ -18079,3 +18079,9 @@ What: New /sukkot-in-tel-aviv guide (~1000w EN). Tel Aviv's secular Sukkot — c
 Gate: pnpm check 0 errors | pnpm build 2000 pages (+1) | 2/2 targeted e2e+a11y PASS.
 Ship: committed 10515003, pushed master.
 Prod: CI in_progress at state-write (normal pattern).
+
+## 2026-08-16T08:40Z · iter 1268 · BUILD-seo-content · akko-fringe-theatre-festival
+What: New /akko-fringe-theatre-festival guide (~1050w EN). Tools category empty (all 19 tools shipped) — fell through to seo-content, highest time-sensitive item: Acco Festival of Alternative Israeli Theatre during Sukkot Sep 26–Oct 1 2026.
+Content: Israel's biggest fringe theatre festival since 1983 (300,000+ visitors/year) in UNESCO Old Akko — Knights' Halls (Crusader underground), Pisan Quarter courtyards, and Old City alleys. 280+ performances: competition theatre (₪20–75/show + 4-day pass; accofestival.co.il), free street fire/physical theatre, Mango outdoor concerts, arts/crafts bazaar. Logistics: 1h train from TLV, 30min from Haifa; Akko Station → Old City 15min walk. Accommodation: Akko Old City (Efendi Hotel + boutique guesthouses, book 8–10wks ahead), Nahariya 10min north by train, Haifa 30min south (widest hotel choice). Sukkot week day-trip add-ons: Rosh Hanikra 20min north, Galilee wineries, Sea of Galilee. 7 FAQs; Booking (Akko/Nahariya/Haifa for Sukkot) + GYG (Akko Old City tours) CTAs. Bidirectional links: akko-acre-guide.md → festival callout section added in "What to combine nearby"; israel-events-festivals.md → Acco Festival paragraph added before music festivals reference. EventSchema: Sep 26–Oct 1 2026, Akko Old City (UNESCO World Heritage Site).
+Gate: pnpm check 0 errors | pnpm build 2001 pages (+1 from 2000) | 2/2 targeted smoke+a11y PASS.
+Merge: committed 099f0af1; pushed to origin/master. CI in_progress at state-write (normal pattern).
