@@ -18172,3 +18172,17 @@ What: REVIEW mode (1279%5=4). Audited the 3 guides shipped in iters 1276–1278:
 Gate: pnpm check 0 errors | pnpm build 2006 pages (unchanged) | pnpm test:e2e 3131/3131 PASS (26.5m).
 Ship: squash-merged to master 757d26a6, pushed to origin/master.
 Prod: Vercel auto-deploy triggered. Next: RESEARCH (iter1280; 1280%5=0→RESEARCH).
+
+## 2026-08-16T22:00Z · iter 1280 · RESEARCH · 286th-research-pass
+
+6 new BACKLOG items discovered. No code changes (RESEARCH mode).
+
+Discoveries:
+1. red-sea-guitar-festival-eilat (seo-content, S) — Annual Eilat guitar festival Feb/March; carnifest pages for 2026+2027; JPost 3 articles; completes Eilat music festival trilogy alongside Nov Red Sea Jazz + chamber music guide. Confirmed missing from BACKLOG+DONE.
+2. israel-for-thai-travelers (seo-content+monetization, S) — El Al 16x/week BKK+HKT; Thai nationals ETA-IL eligible; Christian pilgrims + Thai agricultural workers angle. No existing guide confirmed.
+3. israel-for-vietnamese-travelers (seo-content+monetization, S) — Arkia TLV-HAN direct since Jan 5 2026 (confirmed); 7M+ Vietnamese Catholics; IMPL NOTE: verify visa/ETA-IL status before building.
+4. fattal-rock-festival-eilat (seo-content, S) — Annual June rock festival by Fattal Hotels; touristisrael.com + carnifest dedicated pages; Jun 11-13 2026 edition. Confirmed missing.
+5. airlines-freshness-arkia-vietnam-elal-hanoi (technical/freshness, XS) — Arkia TLV-HAN absent from airlines guide; El Al HAN cancelled Aug 13 2026 (time-sensitive); Israir SEA status to verify.
+6. red-sea-winter-jazz-festival-eilat (seo-content, S) — touristisrael.com page for mid-Feb jazz event distinct from Nov Red Sea Jazz Festival; VERIFY recurring before building guide.
+
+No gate/build/ship (RESEARCH only). No CI triggered.
