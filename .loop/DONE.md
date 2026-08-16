@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1273 · BUILD (technical) · is-israel-safe-aug2026-freshness · 38c0b65a
+- P1 freshness update across all 4 language versions (EN, FR, DE, ES) of is-israel-safe guide. Corrected US State Dept advisory from Level 2 "Exercise Increased Caution" to Level 3 "Reconsider Travel"; added US Embassy Jerusalem general security alert (1 Aug 2026) with il.usembassy.gov link; updated section header July→August 2026; bumped updatedAt to 2026-08-16. Build 2003 pages (unchanged). 3125/3125 e2e+a11y PASS (32.3m).
+
 ## iter1263 · BUILD (technical) · technical-freshness-oct2026 · 720eba75
 - Mini-batch 3 XS freshness updates: (1) airlines-flying-israel-2026.md: Israir Asia/India expansion bullet (DEL/BOM/NRT/HAN/BKK/HKT; India pending DGCA; honest no-launch-date framing); (2) israel-for-indian-travelers.md: Watch-this-space callout Israir DEL+BOM pending DGCA; updatedAt → 2026-08-16; (3) air-haifa-haifa-airport-guide.md: runway extension in planning + winter 2026 +40% traffic notes; updatedAt → 2026-08-16. GCI Oct-2026 item closed (already covered). Build 1998 unchanged. 21/21 targeted PASS.
 

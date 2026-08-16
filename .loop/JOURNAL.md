@@ -18120,3 +18120,10 @@ What: New /hula-valley-crane-migration-guide (~950w EN). Dedicated seasonal guid
 Gate: pnpm check 0 errors (initial description 165ch→fixed to 142ch); build 2003 pages (+1); 2/2 targeted e2e+a11y PASS.
 Ship: committed 9f1b0d98, pushed to master.
 Prod: CI in_progress at state-write (normal pattern).
+
+## 2026-08-16T14:20Z · iter 1273 · BUILD-technical · is-israel-safe-aug2026-freshness
+What: P1 technical/freshness update — is-israel-safe guide across all 4 language versions (EN, FR, DE, ES). Mode = BUILD-technical (1273%5=3→BUILD; category=technical). P1 item from iter1065 research: US Embassy Jerusalem issued a general security alert on 1 August 2026; US State Dept advisory had moved to Level 3 "Reconsider Travel" but is-israel-safe.md + FR/DE/ES equivalents still showed Level 2 "Exercise Increased Caution" (stale from original iter643 ship).
+Changes: (1) EN is-israel-safe.md: corrected US advisory Level 2 → Level 3 "Reconsider Travel"; added "On 1 August 2026 the US Embassy in Jerusalem issued a general security alert" sentence with il.usembassy.gov link; updated section header "Current advisory status — July 2026" → "Current advisory status — August 2026"; updatedAt 2026-08-16. (2) FR is-israel-safe.md: Level 2 "Soyez vigilants" → Level 3 "Reconsidérer le voyage"; embassy alert paragraph in French (il.usembassy.gov link); header juillet → août; updatedAt 2026-08-16. (3) DE is-israel-safe.md: Stufe 2 → Stufe 3 "Von der Reise wird abgeraten"; embassy alert paragraph in German (il.usembassy.gov link); header Juli → August; updatedAt 2026-08-16. (4) ES is-israel-safe.md: Nivel 2 → Nivel 3 "Reconsidere el viaje"; embassy alert paragraph in Spanish (il.usembassy.gov link); header julio → agosto; updatedAt 2026-08-16.
+Gate: pnpm check 0 errors | pnpm build 2003 pages (unchanged — content-only edit, no new pages) | pnpm test:e2e 3125/3125 PASS (32.3m).
+Ship: committed 38c0b65a directly to master; pushed to origin/master.
+Prod: CI in_progress at state-write (normal pattern for this loop).
