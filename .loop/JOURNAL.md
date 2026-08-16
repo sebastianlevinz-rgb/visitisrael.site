@@ -18192,3 +18192,9 @@ What: New /israel-for-thai-travelers guide (~1,100w EN). Thailand has ~6-7M Chri
 Gate: pnpm check 0 errors | build 2007 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Ship: squash-merged to master af4301b2, pushed.
 Prod: CI + Lighthouse in_progress at state-write (normal pattern for this repo).
+
+## 2026-08-16T23:45Z · iter 1282 · BUILD (seo-content) · red-sea-guitar-festival-eilat
+What: New /red-sea-guitar-festival-eilat guide (~1,100w EN). Eilat's annual guitar music festival (typically February or March) — third leg of the Eilat music festival trilogy alongside the Red Sea Jazz Festival (Nov) and Eilat Chamber Music Festival (Dec). Content: Gulf of Aqaba waterfront stages; Israeli guitarists + international guest artists (rock, blues, acoustic, world); founded by Eilat Municipal Tourism Corporation under artistic director Ronnie Hoss; 6+ editions. Shoulder-season Eilat context (27–30°C, ideal snorkelling, better hotel pricing than summer); ticket buying via IsraTicket/Leaan (₪80–200 historical range); 3 affiliate CTAs (GYG day experiences + Booking.com + DiscoverCars); 6 FAQs; EventSchema. Bidirectional links: israel-music-festivals.md (table row + dedicated section after Chamber Music); israel-in-february.md (Eilat section callout). 7 cross-links.
+Gate: 0 check errors | build 2008 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: committed 933b8e12; pushed to origin/master. CI in_progress at state-write (normal pattern).
+Prod: prior CI success confirmed (3676f535); deploy in progress for new push.
