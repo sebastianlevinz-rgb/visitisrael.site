@@ -1,14 +1,18 @@
 # LOOP STATE
 
-- iteration: 1275
-- lastMode: RESEARCH
-- lastItem: research-pass-285
-- lastResult: iter1275 RESEARCH — 285th research pass. 3 net-new BACKLOG items added: israel-for-georgian-travelers (P3/S — Monastery of the Cross Jerusalem unique Georgian Orthodox heritage + 120K Georgian Jewish diaspora in Israel + direct TBS-TLV flights + ETA-IL eligible); israel-for-croatian-travelers (P3/S — Croatia Schengen/EU since Jan 2023 now ETA-IL eligible + 88% Catholic pilgrimage market + Akko/Caesarea coastal UNESCO resonance for Dubrovnik/Split travelers + Franciscan Custody connection); israel-for-azerbaijani-travelers (P3/S — Mountain Jews diaspora 100K+ in Israel + unique warm Israeli-Azerbaijani bilateral relationship + AZAL direct flights + IMPL NOTE: verify Azerbaijani visa status before building). All 3 confirmed zero hits in BACKLOG + DONE + guides directory. 285th pass at ~96% saturation (discovery rate 3/285). No code shipped.
+- iteration: 1276
+- lastMode: BUILD-seo-content
+- lastItem: shavuot-in-israel
+- lastResult: iter1276 BUILD-seo-content — shavuot-in-israel SHIPPED f10a57ff. New /shavuot-in-israel guide (~900w EN): Shavuot 2027 June 11-12 (Thu evening + Fri day rolling into Shabbat = 3-day closure identical to 2026 pattern). Western Wall dawn walk (4am logistics), Tikkun Leil Old City atmosphere + TLV secular venues, dairy food traditions, three-day closure prep guide. 7 FAQs; EventSchema 2027-06-11; 2 CTAs (Booking + GYG). Bidirectional links: traveling-israel-jewish-holidays + israel-in-june (section + events calendar). 2/2 targeted e2e+a11y PASS. Build 2004 (+1). CI in_progress at state-write (normal pattern).
 
-- nextRotationCategory: BUILD (1276%5=1 → BUILD)
+- nextRotationCategory: BUILD (1277%5=2 → BUILD; category=tools; if empty fall through to seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-16T16:30Z
-- branch context: master at f6b590c5 (iter1274 state, reset to origin/master); EN=433 (32 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities (updated after iter1275): israel-for-american-travelers i18n bundle P1 M; shavuot-in-israel P3 S; eilat-chamber-music-festival P3 S; darom-adom-festival P3 S; tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-greek-travelers P3 S; israel-for-hungarian-travelers P3 S; israel-for-romanian-travelers P3 S; israel-for-bulgarian-travelers P3 S; sounding-jerusalem-festival P3 S; bach-festival-jerusalem P3 S; utopia-science-fiction-festival-tel-aviv P3 S; docaviv-negev-festival P3 S; israel-for-georgian-travelers P3 S (NEW); israel-for-croatian-travelers P3 S (NEW); israel-for-azerbaijani-travelers P3 S (NEW).
+- updatedAt: 2026-08-16T17:50Z
+- branch context: master at f10a57ff; EN=434 (33 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). NOTE: israel-for-american-travelers FR/DE/ES files EXIST (confirmed); remove from BACKLOG in next review. BACKLOG top priorities (updated after iter1276): eilat-chamber-music-festival P3 S; darom-adom-festival P3 S; tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; sounding-jerusalem-festival P3 S; bach-festival-jerusalem P3 S; utopia-science-fiction-festival-tel-aviv P3 S; docaviv-negev-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-croatian-travelers P3 S; israel-for-azerbaijani-travelers P3 S (verify visa status first).
+
+Notes: iter1276 BUILD-seo-content — shavuot-in-israel SHIPPED f10a57ff. New /shavuot-in-israel guide (~900w EN): Shavuot 2027 dates June 11-12 (confirmed via traveling-jewish-holidays guide). Western Wall dawn walk (3:30-4:30am logistics), Tikkun Leil Old City + TLV cultural venues, dairy food (Mahane Yehuda/Carmel Market pre-holiday stalls, cheesecake, blintzes), three-day Shavuot+Shabbat 2027 closure window (Thu June 10 eve → Sat June 12 night). JerusalemvsTLV comparison. 7 FAQs; EventSchema. 2 CTAs: Booking.com + GYG. Bidirectional: traveling-israel-jewish-holidays (Shavuot booking-advice para callout), israel-in-june (Shavuot section + events calendar). Smoke + a11y +1 each; 2/2 targeted PASS. Build 2004 (+1). CI in_progress at state-write (normal).
+
+Notes: iter1275 RESEARCH — 285th research pass. 3 new items: israel-for-georgian-travelers, israel-for-croatian-travelers, israel-for-azerbaijani-travelers (verify visa). Saturation ~96%.
 
 Notes: iter1274 REVIEW — review-hoshana-rabbah-and-flyway-fix SHIPPED 9f482f7c. 2 factual corrections: Haifa Film Festival "first day of Hol HaMoed" → "Hoshana Rabbah, the final day"; Hula Valley events schema 500M birds attribution corrected to flyway-level framing. All internal + bidirectional links verified ✓. Build 2003 (unchanged). 3125/3125 PASS (25.2m).
 

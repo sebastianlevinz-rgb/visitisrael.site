@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1276 · BUILD-seo-content · shavuot-in-israel · f10a57ff
+- New /shavuot-in-israel guide (~900w EN): Shavuot 2027 (June 11-12, same Thu-rolls-into-Shabbat pattern as 2026). Western Wall pre-dawn convergence (4am logistics), Tikkun Leil all-night Torah study (Old City walk + TLV secular venues), dairy food traditions (Mahane Yehuda market, cheesecake, blintzes), three-day Shavuot+Shabbat closure window logistics. Jerusalem vs TLV comparison; 7 FAQs; EventSchema 2027-06-11 dawn service. CTAs: Booking.com Jerusalem + GYG Western Wall tour. Bidirectional links: traveling-israel-jewish-holidays (Shavuot section + guide callout), israel-in-june (Shavuot section note + events calendar entry). Smoke + a11y tests +1 each; 2/2 targeted PASS. Build 2004 pages (+1). CI in_progress at state-write (normal pattern).
+
 ## iter1274 · REVIEW · review-hoshana-rabbah-and-flyway-fix · 9f482f7c
 - REVIEW of iter1271–1273 ships. Found and corrected 2 factual errors: (1) haifa-international-film-festival-guide.md (FAQ + body) stated Oct 1 was "the first day of Sukkot Hol HaMoed" — Oct 1 = Tishri 21 = Hoshana Rabbah, the LAST day of Hol HaMoed; corrected to "Hoshana Rabbah (the final day of Sukkot Hol HaMoed)" in both FAQ and body. (2) hula-valley-crane-migration-guide.md events schema attributed 500M birds figure to Hula Valley specifically — the 500M figure is for the entire Syrian-African flyway through Israel; corrected to "Israel's most important stopover on the Syrian-African flyway, through which up to 500 million birds migrate annually." All internal links ✓; all bidirectional links ✓. Build 2003 pages (unchanged). 3125/3125 e2e+a11y PASS (25.2m).
 
