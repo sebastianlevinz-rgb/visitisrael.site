@@ -1369,6 +1369,7 @@ const ROUTES = [
   '/shavuot-in-israel',
   '/eilat-chamber-music-festival',
   '/darom-adom-festival',
+  '/israel-for-thai-travelers',
 ];
 
 for (const route of ROUTES) {
