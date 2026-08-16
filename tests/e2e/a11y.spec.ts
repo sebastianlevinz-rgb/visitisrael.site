@@ -1361,6 +1361,7 @@ const ROUTES = [
   '/hamat-gader-guide',
   '/olive-harvest-galilee-guide',
   '/tamar-festival-dead-sea',
+  '/jerusalem-beer-festival',
 ];
 
 for (const route of ROUTES) {

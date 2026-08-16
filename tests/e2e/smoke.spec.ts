@@ -1639,6 +1639,7 @@ const ROUTES = [
   '/es/israel-for-serbian-travelers',
   '/olive-harvest-galilee-guide',
   '/tamar-festival-dead-sea',
+  '/jerusalem-beer-festival',
 ];
 
 for (const route of ROUTES) {
