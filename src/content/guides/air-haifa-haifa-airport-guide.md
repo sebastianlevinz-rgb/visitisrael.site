@@ -3,7 +3,7 @@ title: 'Haifa Airport (HFA) & Air Haifa: Flights & Guide 2026'
 description: 'Haifa Airport (HFA) and Air Haifa guide: routes to Eilat, Cyprus and Greece, how to reach the city, and when HFA beats Ben Gurion.'
 heroImage: /images/regions/haifa/hero.jpg
 category: Transport
-updatedAt: 2026-07-23
+updatedAt: 2026-08-16
 ctaHeading: 'Book Haifa airport essentials'
 affiliateCtas:
   - partner: kiwitaxi
@@ -127,6 +127,8 @@ See the full [Haifa travel guide](/haifa-travel-guide) for the city's highlights
 
 - **Air Haifa is a young carrier** (launched September 2024); while it has operated reliably since launch, it does not yet have the decades-long track record of El Al or Arkia. As with any smaller carrier, consider comprehensive travel insurance that covers flight disruption
 - **Route changes**: Air Haifa has been expanding its network steadily — routes, frequencies and destinations announced at time of writing may have changed; always verify at [airhaifa.com](https://www.airhaifa.com)
+- **Runway extension in planning**: A runway extension project for Haifa Airport is in the planning stage. If approved and built, a longer runway would enable direct long-haul and medium-haul international routes to European and Gulf destinations beyond the short-hop connections currently possible. The project is not yet under construction — check iaa.gov.il for planning status updates.
+- **Winter 2026 traffic growth**: Haifa Airport is projecting approximately 40% higher passenger volumes in winter 2026 compared to winter 2025, driven by Air Haifa's expanding domestic and international network.
 - **Comparing fares**: use [Skyscanner](https://www.skyscanner.net) or [Google Flights](https://www.google.com/flights) to compare Air Haifa HFA departures against Ben Gurion alternatives — for some dates the time saving is not worth the price difference; for others it clearly is
 - **Airport code confusion**: HFA is sometimes confused with HER (Heraklion, Crete) or HFN (Hofn, Iceland) in search tools; always confirm the airport code when booking
 

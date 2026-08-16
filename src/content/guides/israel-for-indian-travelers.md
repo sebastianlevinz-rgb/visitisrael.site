@@ -3,7 +3,7 @@ title: 'Israel Travel Guide for Indian Visitors (2026)'
 description: 'Israel travel guide for Indian tourists: eVisa-B2 requirements, El Al Delhi–TLV flights, vegetarian food, Christian pilgrimage sites, UPI vs cards and more.'
 heroImage: /images/regions/nazareth/hero.jpg
 category: Planning
-updatedAt: 2026-07-25
+updatedAt: 2026-08-16
 ctaHeading: 'Book hotels, tours and car hire for your Israel trip'
 affiliateCtas:
   - partner: booking
@@ -102,6 +102,8 @@ If El Al's direct route is full or not price-competitive for your travel dates, 
 | Istanbul (IST) | Turkish Airlines | 9–12 hours from major Indian cities |
 
 There are no non-stop services from Mumbai, Bangalore, Chennai, Kolkata or Hyderabad at time of writing — travellers from these cities connect via Delhi or a Gulf hub.
+
+**Watch this space — Israir direct routes:** Israir, Israel's low-cost carrier, has announced planned direct services from Tel Aviv to Delhi (DEL) and Mumbai (BOM), subject to approval from India's DGCA (Directorate General of Civil Aviation). No confirmed launch date as of mid-August 2026 — check israir.com for the latest status.
 
 **When to book.** Fares from India to Israel are lowest in January–February and October (outside Israel's peak seasons). The most expensive periods are Passover (March–April), the Jewish High Holidays (September–October), the summer peak (July–August) and the Christmas–New Year window. See the [cheap flights guide](/cheap-flights-to-israel) for airline comparison tools.
 
