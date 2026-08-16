@@ -18166,3 +18166,9 @@ What: New /darom-adom-festival guide (~950w EN). Mode = BUILD-seo-content (1278%
 Gate: pnpm check — description 178ch violation on first pass (fixed to 158ch); then 0 errors | pnpm build 2006 pages (+1); build error on first pass (partner: discoverCars → partner: discovercars fix) | pnpm test:e2e 2/2 targeted PASS (smoke + WCAG 2A/2AA).
 Ship: committed e7be65e7, pushed to origin/master.
 Prod: CI in_progress at state-write (normal pattern). Next: REVIEW (iter1279; 1279%5=4→REVIEW).
+
+## 2026-08-16T21:10Z · iter 1279 · REVIEW · review-iter1276-1278-link-fixes
+What: REVIEW mode (1279%5=4). Audited the 3 guides shipped in iters 1276–1278: shavuot-in-israel, eilat-chamber-music-festival, darom-adom-festival. Checks run: (1) all declared internal links resolve (12/12 target files confirmed to exist); (2) all declared bidirectional links confirmed present in parent guides (traveling-israel-jewish-holidays✓, israel-in-june✓, red-sea-jazz-festival-eilat✓, israel-music-festivals✓, israel-in-november✓, israel-in-february✓, israel-spring-wildflowers✓); (3) no H1 in any guide body; (4) no fabricated exact prices — ranges used throughout; (5) pnpm check 0 errors. Review found 2 missed links: (a) israel-in-january.md body + FAQ both mentioned "Darom Adom festival" by name but linked only to israel-spring-wildflowers; (b) eilat-travel-guide.md had zero mention of either Eilat music festival. Fixed both through the full gate.
+Gate: pnpm check 0 errors | pnpm build 2006 pages (unchanged) | pnpm test:e2e 3131/3131 PASS (26.5m).
+Ship: squash-merged to master 757d26a6, pushed to origin/master.
+Prod: Vercel auto-deploy triggered. Next: RESEARCH (iter1280; 1280%5=0→RESEARCH).
