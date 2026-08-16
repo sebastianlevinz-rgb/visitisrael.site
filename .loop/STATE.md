@@ -1,16 +1,18 @@
 # LOOP STATE
 
-- iteration: 1260
-- lastMode: RESEARCH
-- lastItem: research-iter1260
-- lastResult: iter1260 RESEARCH — 282nd research pass. 3 confirmed new BACKLOG gaps: (1) shavuot-in-israel — confirmed MISSING EN guide; touristisrael.com + secrettelaviv.com + itraveljerusalem.com + jfeed.com all have dedicated pages; Shavuot 2026 = May 21–22 evening (leads into Shabbat = 3 consecutive holy days); Western Wall 4am sunrise walk draws tens of thousands; (2) darom-adom-festival — confirmed MISSING dedicated EN guide; touristisrael.com/darom-adom-festival/9365 + carnifest + israel-travel-secrets + igoogledisrael + israel-in-photos all have dedicated pages; Jan–Feb anemone blooming festival in Eshkol/northern Negev; distinct from israel-spring-wildflowers (wrong season, different region); (3) israel-drone-laws-guide — confirmed MISSING dedicated guide; propelrc.com + drone-laws.com + dronesgator.com + droneller.com all rank; photography guide has only 1 generic sentence; 2026 CAAI mandatory customs declaration + fines up 25% = high traveler need. Also verified: shavuot + darom adom missing from BACKLOG; competitive landscape confirms Israel travel content saturation ~98% for broad topics; new gaps are seasonal/niche/regulatory angles. No code changes this iteration.
+- iteration: 1261
+- lastMode: BUILD
+- lastItem: olive-harvest-galilee-guide
+- lastResult: iter1261 BUILD seo-content — olive-harvest-galilee-guide SHIPPED 3fabaf93. New /olive-harvest-galilee-guide guide (~950w EN): Yemei HaZayit (Olive Branch Days) 30th annual festival, mid-Oct to early Nov Galilee olive harvest. Covers harvest timing, Nazareth hill villages, Druze village groves (Peki'in, Beit Jann), Jordan Valley/Hula Valley corridor, Golan foothills, hand-picking activity, press demo + oil tasting, buying oil direct from producers, combining with wider Galilee trip (wine trail, Nazareth, Sea of Galilee). 7 FAQs; GYG + DiscoverCars CTAs; 7 cross-links. pnpm check 0 errors | build 1997 pages (+1) | 3113/3113 e2e+a11y PASS (27.3m). CI in_progress at state-write (normal).
 
-- nextRotationCategory: BUILD (1261%5=1 → build; category: seo-content)
+- nextRotationCategory: BUILD (1262%5=2 → build; category: tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-16T00:00Z
-- branch context: master at 1a12dda7; EN=426 (25 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: olive-harvest-galilee-guide P3 S (Oct-Nov time-sensitive); tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S; shavuot-in-israel P3 S (new iter1260); darom-adom-festival P3 S (new iter1260).
+- updatedAt: 2026-08-16T02:30Z
+- branch context: master at 3fabaf93; EN=427 (26 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S; shavuot-in-israel P3 S; darom-adom-festival P3 S; eilat-chamber-music-festival P3 S.
 
-Notes: iter1259 REVIEW — review-cross-links-iter1259 SHIPPED 1a12dda7. Fixed 3 missing bidirectional links: christmas-in-israel.md→/christmas-in-nazareth (body+footer), israel-in-december.md→/christmas-in-nazareth (Christmas section callout), israel-music-festivals.md→added Red Sea Jazz Festival table row + body section (was entirely absent). Build 1996 unchanged. 24/24 targeted smoke+a11y PASS. CI in_progress at state-write (normal).
+Notes: iter1261 BUILD seo-content — olive-harvest-galilee-guide SHIPPED 3fabaf93. New /olive-harvest-galilee-guide guide (950w EN): Yemei HaZayit (Olive Branch Days) 30th annual festival. Oct-Nov time-sensitive content; Oct harvest ~8 weeks from pub date. Build 1997 pages (+1). 3113/3113 e2e+a11y PASS. CI in_progress at state-write (normal).
+
+Notes: iter1260 RESEARCH — review-cross-links-iter1259 SHIPPED 1a12dda7. Fixed 3 missing bidirectional links: christmas-in-israel.md→/christmas-in-nazareth (body+footer), israel-in-december.md→/christmas-in-nazareth (Christmas section callout), israel-music-festivals.md→added Red Sea Jazz Festival table row + body section (was entirely absent). Build 1996 unchanged. 24/24 targeted smoke+a11y PASS. CI in_progress at state-write (normal).
 
 Notes: iter1258 BUILD technical — michelin-la-liste-hanukkah-freshness SHIPPED f3337517. Added Michelin/La Liste recognition section to food guide + fixed hanukkah nights wording. Build 1996 pages (unchanged). 7/7 targeted e2e+a11y PASS + full suite exit 0. CI in_progress at state-write (normal).
 
