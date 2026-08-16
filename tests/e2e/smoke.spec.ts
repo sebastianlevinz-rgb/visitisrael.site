@@ -1637,6 +1637,7 @@ const ROUTES = [
   '/fr/israel-for-serbian-travelers',
   '/de/israel-for-serbian-travelers',
   '/es/israel-for-serbian-travelers',
+  '/olive-harvest-galilee-guide',
 ];
 
 for (const route of ROUTES) {

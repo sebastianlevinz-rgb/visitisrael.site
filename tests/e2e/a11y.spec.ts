@@ -1359,6 +1359,7 @@ const ROUTES = [
   '/israel-ev-road-trip',
   '/israel-for-canadian-travelers',
   '/hamat-gader-guide',
+  '/olive-harvest-galilee-guide',
 ];
 
 for (const route of ROUTES) {
