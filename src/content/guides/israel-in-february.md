@@ -136,6 +136,10 @@ The Red Sea water temperature is 22–24°C — excellent for snorkelling and di
 
 The Coral Beach Nature Reserve — Eilat's protected reef ecosystem — offers good winter visibility. A 3mm wetsuit is comfortable for longer dives in February water. The reef itself is accessible by snorkel directly from the shore of the nature reserve.
 
+### Red Sea Guitar Festival
+
+The [Red Sea Guitar Festival](/red-sea-guitar-festival-eilat) takes place at Eilat's North Beach waterfront in February or March each year (exact dates vary; check [eilat.city](https://www.eilat.city) for confirmed current-year dates). Evening concerts feature Israeli guitarists and international guest artists across rock, blues, acoustic, and world music genres. The festival's shoulder-season timing means hotel availability and pricing are better than the summer peak. Tickets via IsraTicket or Leaan; typical single-evening range ₪80–200.
+
 For the full Eilat activity map, beach guide, and accommodation tiers, see the [Eilat travel guide](/eilat-travel-guide).
 
 ---

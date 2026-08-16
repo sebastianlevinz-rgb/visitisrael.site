@@ -91,6 +91,7 @@ This guide covers what each major festival is actually like to attend — logist
 | **Red Sea Jazz Festival Eilat** | November | Eilat North Beach (open-air) | Paid (₪150–600+) | Jazz, world music, Red Sea setting |
 | **Tel Aviv International Jazz Festival** | May | Multiple TLV venues | Mix of free + paid | Jazz, urban, city culture |
 | **Eilat Chamber Music Festival** | December | Eilat venues | Paid (₪80–250) | Classical, Red Sea winter sun |
+| **Red Sea Guitar Festival Eilat** | February or March | Eilat Red Sea waterfront | Paid (₪80–200) | Guitar across genres, shoulder-season Eilat |
 | **Purim Celebrations (TLV)** | Feb/March | Dizengoff Square, Tel Aviv | Free | Costume culture, street party |
 
 > **Dates shift each year.** Jewish calendar interactions (Rosh HaShanah, Sukkot, Purim timing) mean all autumn and spring festivals adjust by one to several weeks annually. Always verify with the official festival site before booking travel.
@@ -224,6 +225,26 @@ Tickets are available via **eilatfestival.co.il** (verify current site for the f
 **Full guide:** [Eilat Chamber Music Festival visitor guide](/eilat-chamber-music-festival) — dates, venues, programme, ticket types, and Eilat hotel strategy for the festival season.
 
 **Cross-link:** [Eilat travel guide](/eilat-travel-guide) · [Eilat diving & snorkelling](/eilat-diving-snorkeling) · [Best time to visit Israel](/best-time-to-visit-israel)
+
+---
+
+## Red Sea Guitar Festival Eilat
+
+**Eilat Red Sea waterfront · February or March · multi-evening**
+
+Eilat's dedicated guitar music festival takes place annually in February or March — the third leg of the city's music festival trilogy alongside the Red Sea Jazz Festival (November) and Eilat Chamber Music Festival (December). The festival features Israeli guitarists and international guest artists across genres including rock, blues, acoustic fingerstyle, and world music, with open-air and amphitheatre stages on Eilat's Gulf of Aqaba waterfront.
+
+### What to expect
+
+Evening concerts run over several festival nights against the Red Sea backdrop, with the Jordanian and Saudi mountains visible across the Gulf. The February–March timing gives the festival ideal outdoor weather: 27–30°C, calm seas, and Eilat's shoulder-season pricing. Unlike the Red Sea Jazz Festival's scale of 70,000 attendees, the guitar festival is a more focused, music-enthusiast event — concentrated around the instrument and its varied genres.
+
+### Tickets and logistics
+
+Tickets are available via **IsraTicket** (israelticket.co.il) and **Leaan** (leaan.co.il). Historical single-evening prices have ranged from approximately ₪80–200; multi-night passes offer better value. Exact dates are confirmed 2–4 months before each year's event — check [eilat.city](https://www.eilat.city) for current-year dates. February and March are Eilat's shoulder season: hotels offer better rates than July–August, with good North Beach availability when booked 6–8 weeks ahead.
+
+**Full guide:** [Red Sea Guitar Festival Eilat visitor guide](/red-sea-guitar-festival-eilat) — dates, venue format, ticket types, February/March Eilat weather, and travel logistics.
+
+**Cross-link:** [Eilat travel guide](/eilat-travel-guide) · [Eilat diving & snorkelling](/eilat-diving-snorkeling) · [Red Sea Jazz Festival Eilat](/red-sea-jazz-festival-eilat)
 
 ---
 

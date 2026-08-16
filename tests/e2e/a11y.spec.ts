@@ -1370,6 +1370,7 @@ const ROUTES = [
   '/eilat-chamber-music-festival',
   '/darom-adom-festival',
   '/israel-for-thai-travelers',
+  '/red-sea-guitar-festival-eilat',
 ];
 
 for (const route of ROUTES) {
