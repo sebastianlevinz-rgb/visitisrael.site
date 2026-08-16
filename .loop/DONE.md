@@ -2537,3 +2537,9 @@ City-specific Christmas guide for Nazareth (950w EN): Dec 12 tree lighting Mary'
 
 ## iter1259 · REVIEW · review-cross-links-iter1259 · 1a12dda7
 - Audited christmas-in-nazareth + red-sea-jazz-festival-eilat. Fixed 3 missing bidirectional links: (1) christmas-in-israel.md → added /christmas-in-nazareth in Nazareth body + footer; (2) israel-in-december.md → added /christmas-in-nazareth callout in Christmas section body; (3) israel-music-festivals.md → added Red Sea Jazz Festival table row + full body section (was entirely absent despite being Israel's largest outdoor jazz event). Build 1996 unchanged. 24/24 targeted smoke+a11y PASS.
+
+## olive-harvest-galilee-guide · 3fabaf93 · iter 1261
+New /olive-harvest-galilee-guide (950w EN): Yemei HaZayit (Olive Branch Days) 30th annual festival, Galilee olive harvest Oct–Nov 2026. Covers Nazareth hill villages, Druze grove villages (Peki'in, Beit Jann), Jordan Valley corridor, Golan foothills, hand-picking activity, press demo + oil tasting, buying oil direct from producers. 7 FAQs, GYG + DiscoverCars CTAs, 7 cross-links. 3113/3113 e2e+a11y PASS.
+
+## tamar-festival-dead-sea · dd5b4735 · iter 1262
+New /tamar-festival-dead-sea (950w EN): Israel's largest Sukkot classical music festival at the Dead Sea near Kibbutz Ein Gedi (since 1999; ~25,000 attendees/year). 2026 Chol HaMoed Sep 26–Oct 1. Open-air amphitheatre; IPhilharmonic + ICO + jazz + world music; 15–20 concerts/edition. Covers getting there, Dead Sea hotel strategy for Sukkot (Ein Bokek; book 3–4 months ahead), Masada sunrise + festival evening combo itinerary, Ein Gedi add-on. 7 FAQs, GYG Masada tours + Booking Ein Bokek hotels CTAs, 8 cross-links. Time-sensitive: Sukkot = 5.5 weeks from pub date; hotel booking demand at peak. 3115/3115 e2e+a11y PASS.

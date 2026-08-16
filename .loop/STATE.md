@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1261
+- iteration: 1262
 - lastMode: BUILD
-- lastItem: olive-harvest-galilee-guide
-- lastResult: iter1261 BUILD seo-content — olive-harvest-galilee-guide SHIPPED 3fabaf93. New /olive-harvest-galilee-guide guide (~950w EN): Yemei HaZayit (Olive Branch Days) 30th annual festival, mid-Oct to early Nov Galilee olive harvest. Covers harvest timing, Nazareth hill villages, Druze village groves (Peki'in, Beit Jann), Jordan Valley/Hula Valley corridor, Golan foothills, hand-picking activity, press demo + oil tasting, buying oil direct from producers, combining with wider Galilee trip (wine trail, Nazareth, Sea of Galilee). 7 FAQs; GYG + DiscoverCars CTAs; 7 cross-links. pnpm check 0 errors | build 1997 pages (+1) | 3113/3113 e2e+a11y PASS (27.3m). CI in_progress at state-write (normal).
+- lastItem: tamar-festival-dead-sea
+- lastResult: iter1262 BUILD seo-content — tamar-festival-dead-sea SHIPPED dd5b4735. New /tamar-festival-dead-sea guide (~950w EN): Israel's largest Sukkot classical music festival at the Dead Sea (since 1999, ~25,000 attendees/year). Covers 2026 Chol HaMoed dates (Sep 26–Oct 1), open-air amphitheatre at the Dead Sea shore near Kibbutz Ein Gedi, Israeli Philharmonic + chamber + jazz + world music programme, getting there from Jerusalem/Tel Aviv/Ein Bokek, Dead Sea hotel strategy for Sukkot (Isrotel/Herods/Leonardo; book 3–4 months ahead), classic Masada sunrise + Dead Sea float + festival evening itinerary, Ein Gedi add-on. 7 FAQs; GYG Masada tours + Booking Ein Bokek hotels CTAs; 8 cross-links. pnpm check 0 errors | build 1998 pages (+1) | 3115/3115 e2e+a11y PASS (31.3m). CI in_progress at state-write (normal).
 
-- nextRotationCategory: BUILD (1262%5=2 → build; category: tools)
+- nextRotationCategory: BUILD (1263%5=3 → build; category: technical)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-16T02:30Z
-- branch context: master at 3fabaf93; EN=427 (26 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S; shavuot-in-israel P3 S; darom-adom-festival P3 S; eilat-chamber-music-festival P3 S.
+- updatedAt: 2026-08-16T04:10Z
+- branch context: master at dd5b4735; EN=428 (27 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S; shavuot-in-israel P3 S; darom-adom-festival P3 S; eilat-chamber-music-festival P3 S.
+
+Notes: iter1262 BUILD seo-content — tamar-festival-dead-sea SHIPPED dd5b4735. New /tamar-festival-dead-sea guide (950w EN): Tamar Festival at Dead Sea near Ein Gedi — Israel's largest Sukkot classical music festival, Sep 26–Oct 1 2026. Sukkot Sep 25 = 5.5 weeks from pub date; Dead Sea Sukkot hotel booking demand peaks NOW. Build 1998 pages (+1). 3115/3115 e2e+a11y PASS (31.3m). CI in_progress at state-write (normal).
 
 Notes: iter1261 BUILD seo-content — olive-harvest-galilee-guide SHIPPED 3fabaf93. New /olive-harvest-galilee-guide guide (950w EN): Yemei HaZayit (Olive Branch Days) 30th annual festival. Oct-Nov time-sensitive content; Oct harvest ~8 weeks from pub date. Build 1997 pages (+1). 3113/3113 e2e+a11y PASS. CI in_progress at state-write (normal).
 
