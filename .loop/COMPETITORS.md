@@ -9180,3 +9180,38 @@ Sources: touristisrael.com, secrettelaviv.com, itraveljerusalem.com, jfeed.com, 
 
 **Verified already-covered (no add):**
 - Honeymoon ✓ (israel-honeymoon.md), national trail ✓ (israel-national-trail-hiking.md), solo female ✓ (solo-female-travel-israel.md), drone photography brief ✓ (in photography guide), surfing ✓ (israel-surfing.md), digital nomad ✓ (digital-nomad-israel.md), accessibility ✓ (israel-accessible-travel.md), Herzliya ✓ (herzliya-guide.md), wine trails ✓ (galilee-wine-trail + judean-hills-wine-trail + golan-heights-wineries + negev-wine-guide), zichron yaakov ✓, lag baomer ✓, passover ✓, pilgrim road ✓ (jerusalem-pilgrimage-road.md), photography ✓, wellness spa ✓ (israel-wellness-spa.md), jerusalem light rail ✓.
+
+### 2026-08-16 · iter 1265 · 283rd research pass — Sukkot-city-split, seasonal festivals, Jewish holidays gap scan
+Sources: touristisrael.com (Sukkot TLV, Akko Fringe, Jerusalem Beer Festival, Tel Aviv Jazz Festival), secrettelaviv.com (Sukkot TLV, NYE TLV), carnifest.com (Akko Fringe, Jerusalem Beer Festival, TLV Jazz), itraveljerusalem.com (Tu BiShvat Jerusalem), igoogledisrael.com (Jerusalem Beer Festival), wikipedia (Acco Festival of Alternative Israeli Theatre), israel21c.org (TLV jazz scene), songkick.com (TLV Jazz Festival Dec 2026).
+
+**Sukkot in Tel Aviv — city-split model gap:**
+- touristisrael.com has dedicated "Sukkot in Tel Aviv" page; secrettelaviv.com covers annually. We have sukkot-in-israel.md + sukkot-in-jerusalem.md but ZERO sukkot-in-tel-aviv.md. City-split = independent ranking for "Tel Aviv Sukkot" + hotel booking intent queries. TLV content is distinct: Hayarkon Park tribute concerts (Elton John, Led Zeppelin acts), Dizengoff Square family events, secular Israeli outdoor atmosphere vs. Jerusalem's religious experience, coastal weather advantage, city sukkahs in public parks. Booking urgency: Sukkot Sep 25 (6 weeks away). Added to BACKLOG P3 S.
+
+**Akko Fringe Theatre Festival — Israel's biggest theater festival, zero editorial guide:**
+- Annual festival since 1983 during Sukkot Hol HaMoed (2026: Sep 26 – Oct 1). 300,000 visitors/year; 280+ performances; 300+ artists (Israeli + international); UNESCO Old Akko Knights Halls + underground Crusader city as venues. touristisrael.com (dedicated page), carnifest.com (event listing), World Jewish Travel all cover it. Zero editorial visitor guides from Lonely Planet, Rough Guides, Nomadic Matt. Our akko-acre-guide.md has NO mention of the festival. Street theatre, fire performances, bazaars, family activities, Mango outdoor concerts. Added to BACKLOG P3 S.
+
+**Jerusalem Beer Festival — Israel's largest beer festival, zero dedicated guide:**
+- Annual festival (late August) in Jerusalem Independence Park. 20,000+ visitors, 120 brands, ~50,000 liters served. touristisrael.com, carnifest.com, igoogledisrael.com all have dedicated pages. We have israel-craft-beer.md (brewery overview) and israel-food-festivals.md (confirmed via grep: does NOT include Jerusalem Beer Festival). Live music + local craft Israeli beer section + international brands. Added to BACKLOG P3 S.
+
+**Tu BiShvat in Israel — confirmed MISSING Jewish holiday guide:**
+- The Jewish New Year of the Trees (Feb 2, 2027; evening Feb 1). We have 8 Jewish holiday guides but ZERO Tu BiShvat guide. itraveljerusalem.com/article/tu-bishvat-in-jerusalem; unpacked.media/tu-bishvat-guide-2026; Jerusalem Post travel section all have content. Visitor highlights: almond blossoms peak Jan-Feb (Galilee hillsides, Jerusalem slopes, Negev orchards — distinct winter bloom phenomenon); JNF tree-planting ceremony; Tu BiShvat seder (Seven Species fruit meal); Gazelle Valley Park Jerusalem nature walk; synagogue celebrations + botanical garden events. Added to BACKLOG P3 S.
+
+**Tel Aviv Jazz Festival — dedicated guide missing:**
+- Two annual TLV jazz events: (1) Tel Aviv International Jazz Festival (Dec 12-14 2026, Teder/Jaffa port area, artistic director Tzach Bar — songkick + carnifest + touristisrael all cover it); (2) New Orleans Jazz Festival at TLV Museum of Art (June 4-6 2026, family-friendly international artists). We have israel-music-festivals.md (1-line mention of "TLV Jazz Festival") + red-sea-jazz-festival-eilat.md (standalone Eilat guide) but NO dedicated TLV jazz guide. TLV jazz scene: Beer Bazaar, Levontin 7, Beit HaAmudim (3 shows 6 nights/week). Added to BACKLOG P3 S.
+
+**Confirmed already-covered (no add):**
+- Eilat scuba diving / Red Sea snorkeling: eilat-snorkeling-guide.md + eilat-diving-snorkeling.md ✓
+- Israel road trip / self-drive: israel-road-trip.md + northern-israel-road-trip.md + israel-ev-road-trip.md ✓
+- Israel water sports: israel-kayaking.md + israel-surfing.md ✓
+- Israel budget / trip cost: israel-trip-cost-by-style.md ✓
+- Israel Jordan border crossing: border-crossings.md + israel-jordan-itinerary.md ✓
+- LGBTQ+ / Gay TLV: gay-tel-aviv.md + lgbtq-travel-israel.md + tel-aviv-pride-guide.md ✓
+- Seniors travel: israel-for-seniors.md ✓
+- Jerusalem Festival of Light: jerusalem-festival-of-light.md ✓
+- Israel craft beer: israel-craft-beer.md ✓
+- Shopping guide: shopping-in-israel.md + israel-diamonds-jewelry.md + market guides ✓
+- Jerusalem nightlife: jerusalem-nightlife.md ✓
+- Marathon/running: sports-events-israel.md (covers TLV + JLM marathons) ✓
+- Church of Nativity: church-of-nativity-guide.md ✓
+- Motorcycle touring: israel-motorcycle-touring.md (shipped iter968) ✓
+- New Year's Eve / Sylvester: new-years-eve-israel.md (shipped iter968) ✓

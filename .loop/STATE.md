@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1264
-- lastMode: BUILD
-- lastItem: luxury-hotels-2026-freshness
-- lastResult: iter1264 BUILD technical — luxury-hotels-2026-freshness SHIPPED 1b636d71. Mini-batch of 3 XS technical/freshness updates: (1) best-hotels-jerusalem.md + new-luxury-hotels-israel-2026.md: InterContinental Jerusalem updated from "opening late summer 2026" → "now open, summer 2026" + Booking.com live-check link added; (2) new-luxury-hotels-israel-2026.md: Fattal Hotels 8-property pipeline note added (Palatin TLV already open; ~1,000 rooms 2026–2027); (3) new-luxury-hotels-israel-2026.md new section "Sea of Galilee: luxury pipeline 2027–2028" + cross-link note in best-hotels-sea-of-galilee.md (Dream Island Resort Migdal 93 rooms Mar 2027, Amnon Beach Isrotel 200+ suites 2027–2028, Gordonia Golan Beach planning stage). InterContinental watch item closed. pnpm check 0 errors | build 1998 pages (unchanged) | 3115/3115 e2e+a11y PASS (57.3m inflated from prior resource contention).
+- iteration: 1265
+- lastMode: RESEARCH
+- lastItem: research-iter1265
+- lastResult: iter1265 RESEARCH — 283rd research pass. 5 new BACKLOG items discovered: sukkot-in-tel-aviv (P3 S, city-split Sukkot model; touristisrael.com covers; we have Jerusalem not TLV); akko-fringe-theatre-festival (P3 S, Israel's biggest theater festival 300k visitors/yr; confirmed absent from BACKLOG/DONE; time-sensitive Sukkot Sep 26–Oct 1); jerusalem-beer-festival (P3 S, Israel's largest beer festival 20k+ visitors 120 brands late August; israel-food-festivals.md confirmed does NOT include it); tu-bishvat-in-israel (P3 S, Jewish New Year of Trees Feb 2 2027; confirmed MISSING from all 8 Jewish holiday guides; almond blossom season); tel-aviv-jazz-festival (P3 S, TLV Jazz Festival Dec 12-14 + NOLA Jazz at TLV Museum Jun 4-6; touristisrael+carnifest+songkick cover it; standalone guide missing). 14+ topics verified already-covered. No code changes.
 
-- nextRotationCategory: RESEARCH (1265%5=0 → research)
+- nextRotationCategory: BUILD-monetization (1266%5=1 → monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-16T05:08Z
-- branch context: master at 1b636d71; EN=428 (27 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S; shavuot-in-israel P3 S; darom-adom-festival P3 S; eilat-chamber-music-festival P3 S.
+- updatedAt: 2026-08-16T05:30Z
+- branch context: master at 1c9b2c72 (iter1264 state); EN=428 (27 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities (updated): sukkot-in-tel-aviv P3 S (NEW, time-sensitive); akko-fringe-theatre-festival P3 S (NEW, time-sensitive); haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S; shavuot-in-israel P3 S; darom-adom-festival P3 S; eilat-chamber-music-festival P3 S; jerusalem-beer-festival P3 S (NEW); tu-bishvat-in-israel P3 S (NEW); tel-aviv-jazz-festival P3 S (NEW).
 
 Notes: iter1264 BUILD technical — luxury-hotels-2026-freshness SHIPPED 1b636d71. Mini-batch: InterContinental Jerusalem now open (updated both guides + Booking.com link); Fattal Hotels 8-property pipeline note in luxury hotels guide; Sea of Galilee luxury pipeline 2027–2028 section (Dream Island Resort, Amnon Beach Isrotel, Gordonia Golan Beach). InterContinental watch item closed. Build 1998 unchanged. 3115/3115 e2e+a11y PASS (57.3m). CI in_progress at state-write (normal).
 
