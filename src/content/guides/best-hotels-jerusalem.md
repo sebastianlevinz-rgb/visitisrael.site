@@ -3,7 +3,7 @@ title: 'Best Hotels in Jerusalem 2026: Neighbourhood Guide & Picks'
 description: 'Best hotels in Jerusalem by neighbourhood: luxury near Jaffa Gate, boutique in German Colony, mid-range near Mahane Yehuda, and budget hostels near Old City.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Accommodation
-updatedAt: 2026-07-25
+updatedAt: 2026-08-16
 ctaHeading: 'Search Jerusalem hotels for your dates'
 affiliateCtas:
   - partner: booking
@@ -91,7 +91,7 @@ Several properties near **Emek Refaim** in the German Colony offer boutique-size
 
 **The American Colony Hotel** (East Jerusalem, Sheikh Jarrah) is in a category of its own: a 19th-century Ottoman pasha's mansion converted into a 93-room hotel in 1902, with a legendary courtyard, swimming pool surrounded by jasmine, and a reputation as neutral ground. Journalists covering the region have based themselves here for more than a century. The hotel is run to a high standard by the Natour family and has been a member of the Leading Hotels of the World. The East Jerusalem location is distinctly different from West Jerusalem luxury hotels — the atmosphere is more European colonial than contemporary Israeli design. It is about 2km from Jaffa Gate.
 
-**InterContinental Jerusalem** (near Old City, opening late summer 2026) is a significant new addition to this tier — the first major new luxury hotel in Jerusalem in more than a decade. The 237-room IHG property has a rooftop restaurant (L18), joins the Virtuoso preferred hotel network, and is positioned within walking distance of the Old City. An exact opening date has not been officially announced; check Booking.com for live availability before planning around it. For full context on this opening and the national 2026 hotel landscape, see the [new luxury hotels in Israel 2026 guide](/new-luxury-hotels-israel-2026).
+**InterContinental Jerusalem** (near Old City, now open summer 2026) is a significant new addition to this tier — the first major new luxury hotel in Jerusalem in more than a decade. The 237-room IHG property has a rooftop restaurant (L18), joins the Virtuoso preferred hotel network, and is positioned within walking distance of the Old City. Check [Booking.com for live availability and current rates](https://www.booking.com/city/il/jerusalem.html) — new luxury openings often have phased launches, and early guest reviews are the most reliable guide to current service levels. For full context on this opening and the national 2026 hotel landscape, see the [new luxury hotels in Israel 2026 guide](/new-luxury-hotels-israel-2026).
 
 **₪1,500–4,000+/night** covers the luxury range in Jerusalem, with suites at the Mamilla and Waldorf Astoria reaching the upper end during holiday peaks. The American Colony is priced at the upper-mid to luxury boundary and represents exceptional value for the atmosphere.
 
@@ -101,10 +101,10 @@ Several properties near **Emek Refaim** in the German Colony offer boutique-size
 
 | Priority | Recommended option |
 |---|---|
-| Old City access on foot | Mamilla Hotel, Waldorf Astoria Jerusalem, or InterContinental Jerusalem (opening late summer 2026) |
+| Old City access on foot | Mamilla Hotel, Waldorf Astoria Jerusalem, or InterContinental Jerusalem (now open, summer 2026) |
 | Best view of the Old City walls | Mamilla Hotel rooftop |
 | Grand historic building + full service | Waldorf Astoria Jerusalem |
-| Newest luxury opening, IHG brand | InterContinental Jerusalem (opening late summer 2026) |
+| Newest luxury opening, IHG brand | InterContinental Jerusalem (now open, summer 2026) |
 | Neutral / diplomatic / journalism atmosphere | American Colony Hotel |
 | Best value in a central location | Leonardo Boutique Jerusalem |
 | Backpacking / solo travel / hostel community | Abraham Hostel Jerusalem |
