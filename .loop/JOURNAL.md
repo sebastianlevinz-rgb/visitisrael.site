@@ -18046,3 +18046,13 @@ What: Mini-batch of 3 XS technical/freshness updates shipped under slug technica
 Also closed galilee-culinary-institute-oct2026 as already-covered — guide already fully documented October 2026 academic year launch in body, FAQ, and practical info sections.
 Gate: pnpm check 0 errors | build 1998 pages (unchanged) | 21/21 targeted e2e+a11y PASS (18s).
 Merge: squash-committed 720eba75; pushed to origin/master. CI in_progress at state-write (normal).
+
+## 2026-08-16T05:08Z · iter 1264 · BUILD (technical) · luxury-hotels-2026-freshness
+What: Mini-batch of 3 XS technical/freshness updates shipped as luxury-hotels-2026-freshness:
+(1) intercontinental-jerusalem-open-freshness: best-hotels-jerusalem.md + new-luxury-hotels-israel-2026.md — updated "opening late summer 2026" framing to "now open, summer 2026" throughout (at-a-glance table, Jerusalem section prose, FAQs, decision matrix); added Booking.com live-check link. Sources: Travel And Tour World + Virtuoso preferred hotel network.
+(2) fattal-hotels-8-properties-freshness: new-luxury-hotels-israel-2026.md — added Fattal Hotels 8-property pipeline note after The Yacht Hotel paragraph; Palatin Hotel (TLV) already open as first wave; ~1,000 rooms across multiple regions 2026–2027; honest Booking.com check framing. Sources: TravelMarketReport + TravelPulse.
+(3) sea-of-galilee-luxury-resorts-freshness: new-luxury-hotels-israel-2026.md new section "Sea of Galilee: luxury pipeline 2027–2028" + cross-link note in best-hotels-sea-of-galilee.md; Dream Island Resort Migdal (93 rooms, over-water bungalows, March 2027 target), Amnon Beach Resort Isrotel (200+ suites, northern shore, 2027–2028), Gordonia Golan Beach Hotel (planning stage, ~150 suites); honest "in development" framing. Sources: Ynetnews + Hospitality Design.
+InterContinental Jerusalem opening monitor (watch item) closed — confirmed open.
+Gate: pnpm check 0 errors | build 1998 pages (unchanged) | 3115/3115 e2e+a11y PASS (57.3m — inflated due to prior resource contention from parallel test suite run).
+Merge: squash-committed 1b636d71 (rebased onto f43f2074); pushed to origin/master.
+Note: iter1263 was taken by a parallel cloud run (technical-freshness-oct2026: Israir/Air Haifa/Indian traveler) while this suite's e2e tests were running. This iteration is therefore 1264.

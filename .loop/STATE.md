@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1263
+- iteration: 1264
 - lastMode: BUILD
-- lastItem: technical-freshness-oct2026
-- lastResult: iter1263 BUILD technical — technical-freshness-oct2026 SHIPPED 720eba75. Mini-batch of 3 XS technical/freshness updates: (1) airlines-flying-israel-2026.md: added "Israir Asia/India expansion" bullet to Key Changes — announced routes DEL/BOM/NRT/HAN/BKK/HKT; India routes pending DGCA approval; honest no-confirmed-date framing; (2) israel-for-indian-travelers.md: Watch-this-space callout for Israir DEL+BOM pending DGCA; updatedAt → 2026-08-16; (3) air-haifa-haifa-airport-guide.md: runway extension in planning note + winter 2026 ~40% traffic growth note; updatedAt → 2026-08-16. Also closed galilee-culinary-institute-oct2026 as already-covered (guide already had full Oct 2026 academic launch info). pnpm check 0 errors | build 1998 pages (unchanged) | 21/21 targeted e2e+a11y PASS.
+- lastItem: luxury-hotels-2026-freshness
+- lastResult: iter1264 BUILD technical — luxury-hotels-2026-freshness SHIPPED 1b636d71. Mini-batch of 3 XS technical/freshness updates: (1) best-hotels-jerusalem.md + new-luxury-hotels-israel-2026.md: InterContinental Jerusalem updated from "opening late summer 2026" → "now open, summer 2026" + Booking.com live-check link added; (2) new-luxury-hotels-israel-2026.md: Fattal Hotels 8-property pipeline note added (Palatin TLV already open; ~1,000 rooms 2026–2027); (3) new-luxury-hotels-israel-2026.md new section "Sea of Galilee: luxury pipeline 2027–2028" + cross-link note in best-hotels-sea-of-galilee.md (Dream Island Resort Migdal 93 rooms Mar 2027, Amnon Beach Isrotel 200+ suites 2027–2028, Gordonia Golan Beach planning stage). InterContinental watch item closed. pnpm check 0 errors | build 1998 pages (unchanged) | 3115/3115 e2e+a11y PASS (57.3m inflated from prior resource contention).
 
-- nextRotationCategory: REVIEW (1264%5=4 → review)
+- nextRotationCategory: RESEARCH (1265%5=0 → research)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-16T04:45Z
-- branch context: master at 720eba75; EN=428 (27 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S; shavuot-in-israel P3 S; darom-adom-festival P3 S; eilat-chamber-music-festival P3 S.
+- updatedAt: 2026-08-16T05:08Z
+- branch context: master at 1b636d71; EN=428 (27 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S; shavuot-in-israel P3 S; darom-adom-festival P3 S; eilat-chamber-music-festival P3 S.
+
+Notes: iter1264 BUILD technical — luxury-hotels-2026-freshness SHIPPED 1b636d71. Mini-batch: InterContinental Jerusalem now open (updated both guides + Booking.com link); Fattal Hotels 8-property pipeline note in luxury hotels guide; Sea of Galilee luxury pipeline 2027–2028 section (Dream Island Resort, Amnon Beach Isrotel, Gordonia Golan Beach). InterContinental watch item closed. Build 1998 unchanged. 3115/3115 e2e+a11y PASS (57.3m). CI in_progress at state-write (normal).
 
 Notes: iter1263 BUILD technical — technical-freshness-oct2026 SHIPPED 720eba75. Mini-batch: Israir Asia/India expansion section in airlines guide; Israir DEL+BOM watch-this-space in Indian travelers guide; Air Haifa runway extension in planning + winter 2026 +40% traffic in Haifa airport guide. GCI Oct 2026 item closed (already covered). Build 1998 unchanged. 21/21 targeted e2e+a11y PASS.
 

@@ -2546,3 +2546,12 @@ New /olive-harvest-galilee-guide (950w EN): Yemei HaZayit (Olive Branch Days) 30
 
 ## tamar-festival-dead-sea · dd5b4735 · iter 1262
 New /tamar-festival-dead-sea (950w EN): Israel's largest Sukkot classical music festival at the Dead Sea near Kibbutz Ein Gedi (since 1999; ~25,000 attendees/year). 2026 Chol HaMoed Sep 26–Oct 1. Open-air amphitheatre; IPhilharmonic + ICO + jazz + world music; 15–20 concerts/edition. Covers getting there, Dead Sea hotel strategy for Sukkot (Ein Bokek; book 3–4 months ahead), Masada sunrise + festival evening combo itinerary, Ein Gedi add-on. 7 FAQs, GYG Masada tours + Booking Ein Bokek hotels CTAs, 8 cross-links. Time-sensitive: Sukkot = 5.5 weeks from pub date; hotel booking demand at peak. 3115/3115 e2e+a11y PASS.
+
+## intercontinental-jerusalem-open-freshness · 1b636d71 · iter 1264
+InterContinental Jerusalem status updated to "now open, summer 2026" in best-hotels-jerusalem.md (decision matrix + prose) and new-luxury-hotels-israel-2026.md (at-a-glance table + Jerusalem section + 3 FAQs). Booking.com live-check link added. First luxury brand hotel in Jerusalem in a decade now correctly framed as open. Sources: Travel And Tour World + Virtuoso preferred hotel network.
+
+## fattal-hotels-8-properties-freshness · 1b636d71 · iter 1264
+Fattal Hotels 8-property pipeline note added to new-luxury-hotels-israel-2026.md after The Yacht Hotel paragraph: Palatin Hotel (Tel Aviv) already open as part of the wave; ~1,000 rooms across multiple regions and market tiers; honest Booking.com check framing. Source: TravelMarketReport + TravelPulse.
+
+## sea-of-galilee-luxury-resorts-freshness · 1b636d71 · iter 1264
+New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-hotels-israel-2026.md: Dream Island Resort Migdal (93 rooms, over-water bungalows, March 2027 target), Amnon Beach Resort Isrotel (200+ suites, northern shore, 2027–2028), Gordonia Golan Beach Hotel (planning stage, ~150 suites). Honest "in development / not yet bookable" framing. Cross-link pipeline note also added to best-hotels-sea-of-galilee.md useful links section. Source: Ynetnews + Hospitality Design.
