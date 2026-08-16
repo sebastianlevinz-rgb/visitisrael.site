@@ -144,7 +144,7 @@ Shavuot is the traditional Jewish dairy festival — a holiday when cheese, crea
 
 On the night of Shavuot, synagogues across Israel hold Tikkun Leil — an all-night Torah study session that runs from nightfall to dawn. In Jerusalem's Jewish Quarter and in Safed, most synagogues are open to respectful curious visitors for part of the evening. The experience of walking through the Old City at 2am to the sound of study and prayer from open doorways is something very few travellers think to do — and it is genuinely extraordinary.
 
-HONESTY: Shavuot is a one-day holiday in Israel (two days in the diaspora). Closures are limited to the holiday day itself — less disruptive than Passover or Yom Kippur. Specific synagogue visitor access varies; check with your hotel concierge or the Old City tourism office for current-year access.
+HONESTY: Shavuot is a one-day holiday in Israel (two days in the diaspora). Closures are limited to the holiday day itself — less disruptive than Passover or Yom Kippur. Specific synagogue visitor access varies; check with your hotel concierge or the Old City tourism office for current-year access. In 2027, Shavuot falls on Friday June 11 — rolling directly into Shabbat for a three-day closure window; see the dedicated [Shavuot in Israel guide](/shavuot-in-israel) for logistics.
 
 ---
 
@@ -194,7 +194,7 @@ Jerusalem in June is warm and dry — 24–28°C by day, comfortable 17–20°C 
 
 ## June events calendar
 
-**Shavuot** (late May / early June, date varies annually): Dairy food holiday; Tikkun Leil all-night study in synagogues; Machane Yehuda and Carmel Market at peak dairy-food display. Verify the exact date at [chabad.org/holidays](https://www.chabad.org/holidays) — it shifts each year.
+**Shavuot** (late May / early June, date varies annually): Dairy food holiday; Tikkun Leil all-night study in synagogues; Machane Yehuda and Carmel Market at peak dairy-food display; Western Wall dawn prayer gathering open to all visitors. Verify the exact date at [chabad.org/holidays](https://www.chabad.org/holidays) — it shifts each year. Full visitor guide: [Shavuot in Israel](/shavuot-in-israel).
 
 **Tel Aviv Pride Parade** (typically second week of June): World-scale Pride parade from Gan Meir to the beachfront; 200,000+ attendees; week-long build-up of events across the city. Exact date varies — verify at [tlv.gov.il](https://www.tlv.gov.il).
 

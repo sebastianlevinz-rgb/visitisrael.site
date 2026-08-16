@@ -112,7 +112,7 @@ For the full visitor guide — Meron's disruption history, Safed bonfire experie
 - **Western Wall at dawn**: a Shavuot tradition is to study Torah through the night and walk to the Western Wall for sunrise prayers. On Shavuot morning, the plaza fills with people who have been awake all night — a genuinely memorable scene.
 - **Cheesecake and blintzes** appear in cafes and bakeries in the days around the holiday.
 
-**Booking advice**: lighter tourist impact than the major holidays; one to two weeks ahead is usually fine. The Western Wall dawn scene is worth setting an early alarm for even if you are not participating in the all-night study.
+**Booking advice**: lighter tourist impact than the major holidays; one to two weeks ahead is usually fine. The Western Wall dawn scene is worth setting an early alarm for even if you are not participating in the all-night study. For the complete visitor guide covering the dawn walk, Tikkun Leil, dairy traditions, and the 2027 three-day closure window, see [Shavuot in Israel](/shavuot-in-israel).
 
 ---
 
