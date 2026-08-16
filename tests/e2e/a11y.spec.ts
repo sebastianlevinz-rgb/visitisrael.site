@@ -1364,6 +1364,7 @@ const ROUTES = [
   '/jerusalem-beer-festival',
   '/sukkot-in-tel-aviv',
   '/akko-fringe-theatre-festival',
+  '/haifa-international-film-festival-guide',
 ];
 
 for (const route of ROUTES) {

@@ -134,6 +134,8 @@ For the peak crane spectacle, see the November guide and the full [birdwatching 
 
 **Golan Heights harvest festivals**: Yarden Winery and several boutique Golan producers run harvest-adjacent tastings and events in October. No single consolidated festival; check individual winery websites.
 
+**Haifa International Film Festival (October 1–10):** Israel's oldest and largest film festival — 280+ screenings, free outdoor evenings in public squares, and 300,000+ attendees — runs across Cinematheque Haifa and city venues. The 41st edition opens October 1, 2026, during Sukkot Hol HaMoed. See the full [Haifa International Film Festival guide](/haifa-international-film-festival-guide) for tickets and visiting logistics.
+
 ---
 
 ## The post-Sukkot lull: Israel's best-kept secret
