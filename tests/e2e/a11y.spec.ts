@@ -1368,6 +1368,7 @@ const ROUTES = [
   '/hula-valley-crane-migration-guide',
   '/shavuot-in-israel',
   '/eilat-chamber-music-festival',
+  '/darom-adom-festival',
 ];
 
 for (const route of ROUTES) {

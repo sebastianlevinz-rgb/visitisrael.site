@@ -78,7 +78,7 @@ Arrive early on peak festival weekends (before 9am) — the bloom fields draw la
 
 The kalaniot bloom peaks in mid-to-late February in a high-rainfall year; a dry winter can push it to early March or produce a thin bloom. **Do not book a wildflower-specific trip without checking bloom status the week before travel.** Darom Adom's website updates bloom intensity regularly from January onwards.
 
-For a detailed guide to bloom locations, hiking routes, and how to time your visit, see [Israel spring wildflowers guide](/israel-spring-wildflowers).
+For the dedicated festival guide — bloom locations, shuttle logistics, programme details, and the Eshkol region sites — see the [Darom Adom festival guide](/darom-adom-festival). For the wider wildflower season across Israel, see the [Israel spring wildflowers guide](/israel-spring-wildflowers).
 
 ---
 

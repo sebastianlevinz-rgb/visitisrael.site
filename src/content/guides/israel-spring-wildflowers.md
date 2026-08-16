@@ -67,7 +67,7 @@ The bloom timing is entirely rainfall-dependent. A wet October–December sets u
 - Family events and educational programmes
 - Free admission to most routes
 
-**Dates change every year** and depend on rainfall — check [daromadom.co.il](https://www.daromadom.co.il) for the current year's programme. A good year with February rain produces extraordinary displays; a drought year may see the festival scale back. Never rely on last year's dates.
+**Dates change every year** and depend on rainfall — check [daromadom.co.il](https://www.daromadom.co.il) for the current year's programme. A good year with February rain produces extraordinary displays; a drought year may see the festival scale back. Never rely on last year's dates. For a dedicated guide covering the festival programme, Eshkol region bloom sites, shuttle logistics, and the security situation in the area, see the [Darom Adom festival guide](/darom-adom-festival).
 
 ### Top Negev wildflower sites
 
