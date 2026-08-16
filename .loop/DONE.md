@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1277 · BUILD-seo-content · eilat-chamber-music-festival · 434c16fe
+- New /eilat-chamber-music-festival guide (~900w EN): annual multi-day classical festival in Eilat (late November or December). Programme: chamber music, orchestral, opera highlights, world music/gypsy strands. Venues: indoor concert halls + hotel performance spaces + Red Sea waterfront outdoor stages. Ticket tiers ₪80–250 historical range. Hotel strategy for Eilat's quiet winter season. November daytime activities (Coral Beach, Red Canyon, Timna). Bidirectional links: red-sea-jazz-festival-eilat (companion festival callout), israel-music-festivals (full guide link), israel-in-november (Red Sea Jazz + Chamber Music added to events calendar). 2/2 targeted e2e+a11y PASS. Build 2005 (+1). CI in_progress at state-write (normal pattern).
+
 ## iter1276 · BUILD-seo-content · shavuot-in-israel · f10a57ff
 - New /shavuot-in-israel guide (~900w EN): Shavuot 2027 (June 11-12, same Thu-rolls-into-Shabbat pattern as 2026). Western Wall pre-dawn convergence (4am logistics), Tikkun Leil all-night Torah study (Old City walk + TLV secular venues), dairy food traditions (Mahane Yehuda market, cheesecake, blintzes), three-day Shavuot+Shabbat closure window logistics. Jerusalem vs TLV comparison; 7 FAQs; EventSchema 2027-06-11 dawn service. CTAs: Booking.com Jerusalem + GYG Western Wall tour. Bidirectional links: traveling-israel-jewish-holidays (Shavuot section + guide callout), israel-in-june (Shavuot section note + events calendar entry). Smoke + a11y tests +1 each; 2/2 targeted PASS. Build 2004 pages (+1). CI in_progress at state-write (normal pattern).
 

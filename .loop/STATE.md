@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1276
+- iteration: 1277
 - lastMode: BUILD-seo-content
-- lastItem: shavuot-in-israel
-- lastResult: iter1276 BUILD-seo-content — shavuot-in-israel SHIPPED f10a57ff. New /shavuot-in-israel guide (~900w EN): Shavuot 2027 June 11-12 (Thu evening + Fri day rolling into Shabbat = 3-day closure identical to 2026 pattern). Western Wall dawn walk (4am logistics), Tikkun Leil Old City atmosphere + TLV secular venues, dairy food traditions, three-day closure prep guide. 7 FAQs; EventSchema 2027-06-11; 2 CTAs (Booking + GYG). Bidirectional links: traveling-israel-jewish-holidays + israel-in-june (section + events calendar). 2/2 targeted e2e+a11y PASS. Build 2004 (+1). CI in_progress at state-write (normal pattern).
+- lastItem: eilat-chamber-music-festival
+- lastResult: iter1277 BUILD-seo-content — eilat-chamber-music-festival SHIPPED 434c16fe. New /eilat-chamber-music-festival guide (~900w EN): annual multi-day classical festival (late November or December). Programme: chamber/orchestral/opera/world-music/gypsy strands; indoor concert halls + hotel spaces + Red Sea waterfront outdoor stages; ticket tiers ₪80–250; hotel strategy for Eilat's quiet winter season; daytime activities (Coral Beach, Red Canyon, Timna). Bidirectional: red-sea-jazz-festival-eilat (companion callout), israel-music-festivals (full guide link), israel-in-november (both Eilat festivals added to events calendar). 2/2 targeted e2e+a11y PASS. Build 2005 (+1). CI in_progress at state-write (normal pattern).
 
-- nextRotationCategory: BUILD (1277%5=2 → BUILD; category=tools; if empty fall through to seo-content)
+- nextRotationCategory: BUILD (1278%5=3 → BUILD; category=technical)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-16T17:50Z
-- branch context: master at f10a57ff; EN=434 (33 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). NOTE: israel-for-american-travelers FR/DE/ES files EXIST (confirmed); remove from BACKLOG in next review. BACKLOG top priorities (updated after iter1276): eilat-chamber-music-festival P3 S; darom-adom-festival P3 S; tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; sounding-jerusalem-festival P3 S; bach-festival-jerusalem P3 S; utopia-science-fiction-festival-tel-aviv P3 S; docaviv-negev-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-croatian-travelers P3 S; israel-for-azerbaijani-travelers P3 S (verify visa status first).
+- updatedAt: 2026-08-16T18:40Z
+- branch context: master at 434c16fe; EN=435 (34 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1277): darom-adom-festival P3 S; tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; sounding-jerusalem-festival P3 S; bach-festival-jerusalem P3 S; utopia-science-fiction-festival-tel-aviv P3 S; docaviv-negev-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-croatian-travelers P3 S; israel-for-azerbaijani-travelers P3 S (verify visa status first).
 
 Notes: iter1276 BUILD-seo-content — shavuot-in-israel SHIPPED f10a57ff. New /shavuot-in-israel guide (~900w EN): Shavuot 2027 dates June 11-12 (confirmed via traveling-jewish-holidays guide). Western Wall dawn walk (3:30-4:30am logistics), Tikkun Leil Old City + TLV cultural venues, dairy food (Mahane Yehuda/Carmel Market pre-holiday stalls, cheesecake, blintzes), three-day Shavuot+Shabbat 2027 closure window (Thu June 10 eve → Sat June 12 night). JerusalemvsTLV comparison. 7 FAQs; EventSchema. 2 CTAs: Booking.com + GYG. Bidirectional: traveling-israel-jewish-holidays (Shavuot booking-advice para callout), israel-in-june (Shavuot section + events calendar). Smoke + a11y +1 each; 2/2 targeted PASS. Build 2004 (+1). CI in_progress at state-write (normal).
 
