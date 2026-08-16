@@ -155,6 +155,10 @@ If the Galilee is wet and the Jerusalem mornings are chilly, the south remains w
 
 **Tel Aviv cultural season:** Cameri Theatre, Habima, and Tel Aviv Museum of Art all begin their autumn programmes in November. Check individual venue websites for current schedules.
 
+**Red Sea Jazz Festival Eilat:** four evenings of open-air jazz and world music on the North Beach waterfront each November, drawing 70,000 attendees. See the [Red Sea Jazz Festival guide](/red-sea-jazz-festival-eilat) for 2026 dates and hotel strategy.
+
+**Eilat Chamber Music Festival:** the companion classical festival — a multi-day programme of chamber music, orchestral works, opera highlights, and world music in Eilat's indoor concert halls and waterfront stages, held in late November or December. See the [Eilat Chamber Music Festival guide](/eilat-chamber-music-festival) for details.
+
 **Eilat Marathon:** the Eilat International Marathon typically falls in late November or early December (exact date varies by year). The course runs along the Red Sea waterfront. If your November visit coincides with marathon weekend, book Eilat accommodation well in advance — the city fills with Israeli runners.
 
 ---

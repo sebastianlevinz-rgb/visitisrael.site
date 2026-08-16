@@ -1367,6 +1367,7 @@ const ROUTES = [
   '/haifa-international-film-festival-guide',
   '/hula-valley-crane-migration-guide',
   '/shavuot-in-israel',
+  '/eilat-chamber-music-festival',
 ];
 
 for (const route of ROUTES) {

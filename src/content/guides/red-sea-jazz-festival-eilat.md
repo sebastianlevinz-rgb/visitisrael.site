@@ -122,4 +122,5 @@ The Red Sea Jazz Festival fits naturally into a longer Eilat visit:
 - **Eilat nightlife**: beyond the festival, Eilat's restaurants, bars, and late-night scene — [Eilat nightlife guide](/eilat-nightlife).
 - **Israel in November**: the full November visitor picture across Israel — northern Galilee alternatives, Sukkot season, and climate context — [Israel in November guide](/israel-in-november).
 - **Israel music festivals**: the wider Israeli festival calendar with summer and autumn events — [Israel music festivals guide](/israel-music-festivals).
+- **Eilat Chamber Music Festival**: Eilat's companion classical festival in late November or December — indoor concert halls, opera highlights, and world music with a Red Sea backdrop — [Eilat Chamber Music Festival guide](/eilat-chamber-music-festival).
 - **3 days in Eilat**: a practical three-day Eilat itinerary to frame the festival in a longer Red Sea trip — [3 days in Eilat](/3-days-in-eilat).

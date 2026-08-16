@@ -221,6 +221,8 @@ Concerts are held in smaller auditoriums, hotel performance spaces, and occasion
 
 Tickets are available via **eilatfestival.co.il** (verify current site for the festival). Prices have typically ranged from ₪80 to ₪250 per concert. Eilat accommodation — particularly for the popular December–January winter sun period — should be booked well in advance.
 
+**Full guide:** [Eilat Chamber Music Festival visitor guide](/eilat-chamber-music-festival) — dates, venues, programme, ticket types, and Eilat hotel strategy for the festival season.
+
 **Cross-link:** [Eilat travel guide](/eilat-travel-guide) · [Eilat diving & snorkelling](/eilat-diving-snorkeling) · [Best time to visit Israel](/best-time-to-visit-israel)
 
 ---
