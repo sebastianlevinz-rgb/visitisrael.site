@@ -2555,3 +2555,6 @@ Fattal Hotels 8-property pipeline note added to new-luxury-hotels-israel-2026.md
 
 ## sea-of-galilee-luxury-resorts-freshness · 1b636d71 · iter 1264
 New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-hotels-israel-2026.md: Dream Island Resort Migdal (93 rooms, over-water bungalows, March 2027 target), Amnon Beach Resort Isrotel (200+ suites, northern shore, 2027–2028), Gordonia Golan Beach Hotel (planning stage, ~150 suites). Honest "in development / not yet bookable" framing. Cross-link pipeline note also added to best-hotels-sea-of-galilee.md useful links section. Source: Ynetnews + Hospitality Design.
+
+## iter1266 · BUILD (monetization) · jerusalem-beer-festival · ff278fef
+- New /jerusalem-beer-festival guide (~950w EN): Israel's largest beer festival, Independence Park Jerusalem, late August annually, 20,000+ visitors/2 evenings, 120+ brands (Israeli craft: Shapiro/Dancing Camel/Negev/Golan + international pavilions), live music, ₪50–80 tickets, no parking (light rail). Late-August Jerusalem accommodation strategy (sweet spot before Sukkot surge). 6 FAQs; GYG craft beer + Booking CTAs; 6 cross-links. 2/2 targeted e2e+a11y PASS. Build 1999 pages (+1).

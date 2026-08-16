@@ -18067,3 +18067,9 @@ Findings: 5 confirmed new BACKLOG gaps.
 (5) tel-aviv-jazz-festival (P3 S) — Tel Aviv International Jazz Festival (Dec 12-14 2026, Teder Jaffa port) + New Orleans Jazz Festival at TLV Museum of Art (June 4-6 2026); touristisrael.com + carnifest.com + songkick all dedicated pages; israel-music-festivals.md has 1-line mention (wrong month); no standalone guide; GYG + Booking CTAs.
 Verified-already-covered: eilat diving/snorkeling ✓, border crossings ✓, israel road trip ✓, water sports ✓, trip cost/budget ✓, LGBTQ+ ✓, seniors ✓, Jerusalem Festival of Light ✓, craft beer ✓, shopping ✓, motorcycle touring ✓ (iter968), new year's eve ✓ (iter968), sports/marathon ✓ (iter496), church of nativity ✓.
 No code changes this iteration. State advanced.
+
+## 2026-08-16T07:05Z · iter 1266 · BUILD-monetization · jerusalem-beer-festival
+What: New /jerusalem-beer-festival guide (~950w EN). Israel's largest beer festival at Independence Park (Gan HaAtzmaut) near King George St, Jerusalem — 20,000+ visitors over 2 evenings, late August, 120+ brands (Shapiro/Dancing Camel/Negev/Golan + international), live music, ₪50–80 tickets via jerusalem-beer-festival.co.il. Covers: venue logistics (light rail, zero parking), early-evening family atmosphere vs. late-night crowd, accommodation strategy (late August = sweet spot before Sukkot surge 4 weeks later), day itinerary pairing with Old City and Mahane Yehuda, year-round Jerusalem craft beer scene. 6 FAQs; GYG craft beer tour + Booking Jerusalem August CTA; 6 cross-links (israel-craft-beer, mahane-yehuda-market-guide, israel-events-festivals, israel-food-festivals, best-hotels-jerusalem, jerusalem-food-guide). events[] schema entry.
+Gate: pnpm check 0 errors | pnpm build 1999 pages (+1) | 2/2 targeted e2e+a11y PASS.
+Ship: squash-merged ff278fef, pushed master.
+Prod: CI in_progress at state-write (normal pattern).
