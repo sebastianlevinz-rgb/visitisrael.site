@@ -186,6 +186,7 @@ November sits at the hinge between Israel's autumn golden window and the beginni
 - [Israel in autumn (September–November)](/israel-in-autumn): the full seasonal arc covering October's holiday season and November's crane migration
 - [Israel in October](/israel-in-october): if your visit straddles October–November, the October guide covers the High Holiday and post-Sukkot lull
 - [Best time to visit Israel](/best-time-to-visit-israel): the full 12-month planning matrix
+- [Hula Valley Crane Migration Guide](/hula-valley-crane-migration-guide): dedicated Agamon HaHula visiting guide — Sunrise Safari booking, self-guided circuit, where to stay in Kiryat Shmona and Rosh Pinna, and October–February seasonal logistics
 - [Birdwatching in Israel](/birdwatching-in-israel): the complete birding calendar, Hula Valley logistics, and Eilat spring migration
 - [Israel wine guide](/israel-wine-wineries): the winery circuit for combining the Olive Branch Days with a wine harvest extension
 

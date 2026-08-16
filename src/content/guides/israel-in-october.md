@@ -122,7 +122,7 @@ The Agamon HaHula wetland in the northern Galilee marks the start of one of the 
 
 The **Sunrise Safari wagon** (KKL-JNF-operated tractor wagon; departs at approximately 5:15am and returns by 8am) reaches the crane roost before dawn as the birds take flight with the sunrise. Even with modest October numbers, the experience is striking and far less booked than the November peak weeks. Book at least 2–3 weeks ahead via [agamon-hahula.co.il](https://www.agamon-hahula.co.il/).
 
-For the peak crane spectacle, see the November guide and the full [birdwatching in Israel guide](/birdwatching-in-israel) for species, timing, and logistics.
+For the peak crane spectacle, see the [Israel in November guide](/israel-in-november) and the dedicated [Hula Valley crane migration guide](/hula-valley-crane-migration-guide) — which covers Agamon HaHula logistics, Sunrise Safari booking, and where to stay in the Upper Galilee. The full [birdwatching in Israel guide](/birdwatching-in-israel) covers species, Eilat, and the wider birding calendar.
 
 ---
 

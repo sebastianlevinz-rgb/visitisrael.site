@@ -1643,6 +1643,7 @@ const ROUTES = [
   '/sukkot-in-tel-aviv',
   '/akko-fringe-theatre-festival',
   '/haifa-international-film-festival-guide',
+  '/hula-valley-crane-migration-guide',
 ];
 
 for (const route of ROUTES) {
