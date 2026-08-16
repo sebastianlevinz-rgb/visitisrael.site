@@ -9215,3 +9215,18 @@ Sources: touristisrael.com (Sukkot TLV, Akko Fringe, Jerusalem Beer Festival, Te
 - Church of Nativity: church-of-nativity-guide.md ✓
 - Motorcycle touring: israel-motorcycle-touring.md (shipped iter968) ✓
 - New Year's Eve / Sylvester: new-years-eve-israel.md (shipped iter968) ✓
+
+### 2026-08-16 · iter 1270 · 284th research pass
+
+**Sources scanned:** touristisrael.com events/festivals/guides, secrettelaviv.com, soundingjerusalem.com, utopiafest.org.il, docaviv.co.il, carnifest.com, itraveljerusalem.com, travelandtourworld.com, travelandtourworld.com Blue Bird Airlines announcement, Jerusalem Baroque Orchestra jbo.co.il, israelbikenational trail ibt.org.il, JPost culture, Wizz Air route pages.
+
+**Patterns identified:**
+- touristisrael.com has dedicated pages for both Sounding Jerusalem Festival (early August) and Utopia Sci-Fi Festival (late December) — two niche cultural events with zero editorial coverage from Lonely Planet, Rough Guides, or any English-language competitor. These are our gaps to fill.
+- touristisrael.com has a Bach Festival in Jerusalem dedicated page (jbo.co.il) — annual; itraveljerusalem.com has event listing. Both lack editorial visitor guide depth.
+- touristisrael.com + docaviv.co.il confirm Docaviv Negev as annual recurring December event (3rd edition and ongoing); no English editorial guide exists.
+- Nationality guides gap confirmed: Greece, Hungary, Romania, Bulgaria all confirmed missing. Blue Bird Airlines (new carrier) expanding Greece-Bulgaria-Israel corridor in 2026 = new flight market.
+- Bulgarian WWII rescue story is uniquely compelling and rare for travel content — practically no English-language Israel travel site covers this angle.
+- Greek Orthodox pilgrimage to Holy Land is a major existing market but ZERO dedicated "for Greek travelers" editorial guide exists from any competitor.
+- Wizz Air Bucharest-TLV (OTP) and Budapest-TLV (BUD) both active/resumed routes in 2026 — growing Eastern European source markets.
+
+**Content patterns worth copying:** touristisrael.com's "festival deep-dive" format (event dates → what to expect → logistics → accommodation strategy → combining with nearby attractions → ticket links) works well and we should replicate for all 8 new items discovered this pass.

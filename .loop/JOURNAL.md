@@ -18094,3 +18094,17 @@ What: REVIEW pass on iter1266-1268 ships (jerusalem-beer-festival, sukkot-in-tel
 All image paths verified OK. JSON-LD: no fabricated ratings, correct @types (Event, FAQ). Hero images: all exist.
 Gate: pnpm check 0 errors | pnpm build 2001 pages (unchanged) | 6/6 targeted smoke + 6/6 a11y PASS.
 Ship: squash-merged 6799cb63, pushed master. CI in_progress at state-write (normal pattern).
+
+## 2026-08-16T11:10Z · iter 1270 · RESEARCH · research-iter1270
+What: 284th research/discovery pass. Mode = RESEARCH (1270 % 5 == 0). Scanned for content gaps using WebSearch against touristisrael.com, secrettelaviv.com, carnifest.com, itraveljerusalem.com, soundingjerusalem.com, utopiafest.org.il, docaviv.co.il, travelandtourworld.com, jpost.com, wikipedia.
+Findings: 8 confirmed new BACKLOG items.
+(1) israel-for-greek-travelers (P3 S) — Greek Orthodox Christian Holy Land pilgrimage market; Romaniote Jewish heritage; direct flights Aegean/Wizz Air/Blue Bird ATH-TLV; zero competitor editorial guide.
+(2) israel-for-hungarian-travelers (P3 S) — Wizz Air BUD-TLV hub; Dohány St Great Synagogue connection; ~200K Israelis of Hungarian origin; deep WWII memory tourism angle.
+(3) israel-for-romanian-travelers (P3 S) — Wizz Air OTP-TLV resumed May 28, 2026; Romania had largest pre-WWII Eastern European Jewish population; deep diaspora connection; 250K+ Romanian-origin Israelis.
+(4) israel-for-bulgarian-travelers (P3 S) — Bulgaria saved its 50,000 Jews in WWII (Dimitar Peshev; Bulgarian Church/Parliament resistance); Blue Bird Airlines new SOF-TLV; 70K Bulgarian Jews in Israel; unique positive historical angle.
+(5) sounding-jerusalem-festival (P3 S) — early August Jerusalem multi-genre music festival (classical+Jewish+Arab contemporary); touristisrael.com has page; soundingjerusalem.com official; no competitor editorial guide.
+(6) bach-festival-jerusalem (P3 S) — March 17-25, 2026 annual; 10th edition Jerusalem Baroque Orchestra; YMCA + Scottish Church venues; unique blindfolded gourmet+music event; touristisrael.com + itraveljerusalem have pages; no editorial guide.
+(7) utopia-science-fiction-festival-tel-aviv (P3 S) — late December TLV Cinematheque; 7-10 days sci-fi films/panels/art/parties; touristisrael.com + secrettelaviv confirm; utopiafest.org.il official; zero editorial guide.
+(8) docaviv-negev-festival (P3 S) — December documentary film festival in Yeruham/Dimona/Arad/Mitzpe Ramon; touristisrael.com has page; docaviv.co.il official; unique off-beaten-path Negev cultural tourism; 3rd annual edition and growing.
+Verified-already-covered: cycling-in-israel ✓, israel-national-bike-trail ✓, skyfield-extreme-park-jaffa ✓, schottenstein-campus-jerusalem ✓, israel-food-tours-cooking-classes ✓, israel-for-spanish/swiss/south-african/serbian/russian-speaking travelers all exist ✓.
+No code changes. State advanced.
