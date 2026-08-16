@@ -143,5 +143,5 @@ Tel Aviv's transport situation during Sukkot is more straightforward than Jerusa
 - **[Sukkot in Jerusalem](/sukkot-in-jerusalem)** — city-specific guide for the religious capital: Birkat Kohanim logistics, Jerusalem March, Tower of David programming, and hotel booking strategy
 - **[Israel in October](/israel-in-october)** — the broader October picture after the holiday: autumn hiking, cooler temperatures, and the quieter weeks
 - **[Best hotels in Tel Aviv](/best-hotels-tel-aviv)** — area-by-area recommendations across all budget tiers
-- **[Tel Aviv travel guide](/tel-aviv-travel-guide)** — the complete city guide: neighbourhoods, beaches, food, museums, and day trips
+- **[Things to do in Tel Aviv](/tel-aviv-things-to-do)** — the complete city guide: neighbourhoods, beaches, food, museums, and day trips
 - **[Israel events and festivals](/israel-events-festivals)** — the full calendar of major events across Israel year-round
