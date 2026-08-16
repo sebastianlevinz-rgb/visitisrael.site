@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1273
-- lastMode: BUILD-technical
-- lastItem: is-israel-safe-aug2026-freshness
-- lastResult: iter1273 BUILD-technical — is-israel-safe-aug2026-freshness SHIPPED 38c0b65a. P1 freshness update across all 4 language versions (EN, FR, DE, ES) of is-israel-safe guide: corrected US State Dept advisory from Level 2 "Exercise Increased Caution" to Level 3 "Reconsider Travel"; added US Embassy Jerusalem general security alert (1 Aug 2026) with il.usembassy.gov link; updated section header July→August 2026; bumped updatedAt to 2026-08-16. Build 2003 pages (unchanged — content-only edit). 3125/3125 e2e+a11y PASS (32.3m).
+- iteration: 1274
+- lastMode: REVIEW
+- lastItem: review-hoshana-rabbah-and-flyway-fix
+- lastResult: iter1274 REVIEW — review-hoshana-rabbah-and-flyway-fix SHIPPED 9f482f7c. Audited iter1271-1273 ships; found and fixed 2 factual errors: (1) Haifa Film Festival guide claimed Oct 1 was "the first day of Sukkot Hol HaMoed" — Oct 1 = Tishri 21 = Hoshana Rabbah, the LAST day of Hol HaMoed; corrected in both body and FAQ; (2) Hula Valley crane migration events schema attributed "500 million migratory birds pass through the Hula Valley annually" — the 500M figure applies to the entire Syrian-African flyway through Israel, not specifically the Hula Valley; corrected to accurate framing. All internal links ✓; all bidirectional links ✓. Build 2003 pages (unchanged). 3125/3125 e2e+a11y PASS (25.2m). CI in_progress at state-write (normal pattern).
 
-- nextRotationCategory: REVIEW (1274%5=4 → REVIEW)
+- nextRotationCategory: RESEARCH (1275%5=0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-16T14:20Z
-- branch context: master at 38c0b65a (iter1273 state); EN=433 (32 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities (updated after iter1273): israel-for-american-travelers i18n bundle P1 M; shavuot-in-israel P3 S; eilat-chamber-music-festival P3 S; darom-adom-festival P3 S; tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-greek-travelers P3 S; israel-for-hungarian-travelers P3 S; israel-for-romanian-travelers P3 S; israel-for-bulgarian-travelers P3 S; sounding-jerusalem-festival P3 S; bach-festival-jerusalem P3 S; utopia-science-fiction-festival-tel-aviv P3 S; docaviv-negev-festival P3 S.
+- updatedAt: 2026-08-16T15:00Z
+- branch context: master at 9f482f7c (iter1274 state); EN=433 (32 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities (updated after iter1274): israel-for-american-travelers i18n bundle P1 M; shavuot-in-israel P3 S; eilat-chamber-music-festival P3 S; darom-adom-festival P3 S; tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-greek-travelers P3 S; israel-for-hungarian-travelers P3 S; israel-for-romanian-travelers P3 S; israel-for-bulgarian-travelers P3 S; sounding-jerusalem-festival P3 S; bach-festival-jerusalem P3 S; utopia-science-fiction-festival-tel-aviv P3 S; docaviv-negev-festival P3 S.
+
+Notes: iter1274 REVIEW — review-hoshana-rabbah-and-flyway-fix SHIPPED 9f482f7c. 2 factual corrections: Haifa Film Festival "first day of Hol HaMoed" → "Hoshana Rabbah, the final day"; Hula Valley events schema 500M birds attribution corrected to flyway-level framing. All internal + bidirectional links verified ✓. Build 2003 (unchanged). 3125/3125 PASS (25.2m).
 
 Notes: iter1273 BUILD-technical — is-israel-safe-aug2026-freshness SHIPPED 38c0b65a. P1 freshness: US advisory Level 2→Level 3, embassy alert Aug 1 2026 added, header July→August, updatedAt bumped. All 4 locales (EN/FR/DE/ES) updated. Build 2003 pages (unchanged). 3125/3125 PASS (32.3m).
 

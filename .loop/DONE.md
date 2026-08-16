@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1274 · REVIEW · review-hoshana-rabbah-and-flyway-fix · 9f482f7c
+- REVIEW of iter1271–1273 ships. Found and corrected 2 factual errors: (1) haifa-international-film-festival-guide.md (FAQ + body) stated Oct 1 was "the first day of Sukkot Hol HaMoed" — Oct 1 = Tishri 21 = Hoshana Rabbah, the LAST day of Hol HaMoed; corrected to "Hoshana Rabbah (the final day of Sukkot Hol HaMoed)" in both FAQ and body. (2) hula-valley-crane-migration-guide.md events schema attributed 500M birds figure to Hula Valley specifically — the 500M figure is for the entire Syrian-African flyway through Israel; corrected to "Israel's most important stopover on the Syrian-African flyway, through which up to 500 million birds migrate annually." All internal links ✓; all bidirectional links ✓. Build 2003 pages (unchanged). 3125/3125 e2e+a11y PASS (25.2m).
+
 ## iter1273 · BUILD (technical) · is-israel-safe-aug2026-freshness · 38c0b65a
 - P1 freshness update across all 4 language versions (EN, FR, DE, ES) of is-israel-safe guide. Corrected US State Dept advisory from Level 2 "Exercise Increased Caution" to Level 3 "Reconsider Travel"; added US Embassy Jerusalem general security alert (1 Aug 2026) with il.usembassy.gov link; updated section header July→August 2026; bumped updatedAt to 2026-08-16. Build 2003 pages (unchanged). 3125/3125 e2e+a11y PASS (32.3m).
 

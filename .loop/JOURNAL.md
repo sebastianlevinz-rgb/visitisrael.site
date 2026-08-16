@@ -18127,3 +18127,13 @@ Changes: (1) EN is-israel-safe.md: corrected US advisory Level 2 → Level 3 "Re
 Gate: pnpm check 0 errors | pnpm build 2003 pages (unchanged — content-only edit, no new pages) | pnpm test:e2e 3125/3125 PASS (32.3m).
 Ship: committed 38c0b65a directly to master; pushed to origin/master.
 Prod: CI in_progress at state-write (normal pattern for this loop).
+
+## 2026-08-16T15:00Z · iter 1274 · REVIEW · review-hoshana-rabbah-and-flyway-fix
+What: REVIEW mode (1274%5=4). Audited iter1271–1273 ships for factual accuracy, broken links, and missing bidirectional links. Found and corrected 2 factual errors:
+(1) haifa-international-film-festival-guide.md (iter1271): FAQ and body text both stated Oct 1 was "the first day of Sukkot Hol HaMoed." Calendar verification: Sukkot 2026 begins Sep 26 (Tishri 15; 1 day Yom Tov in Israel); Hol HaMoed runs Sep 27–Oct 1; Oct 1 = Tishri 21 = Hoshana Rabbah = LAST day of Hol HaMoed (not first). Fixed both occurrences: "the first day of Sukkot Hol HaMoed" → "Hoshana Rabbah (Tishri 21, the final day of Sukkot Hol HaMoed)" (FAQ) and "opening on Hoshana Rabbah (the final day of Sukkot Hol HaMoed)" (body).
+(2) hula-valley-crane-migration-guide.md (iter1272): Events schema description attributed "Up to 500 million migratory birds pass through the Hula Valley annually" — the 500M figure applies to the entire Syrian-African flyway through all of Israel, not specifically the Hula Valley. Corrected to: "The Hula Valley is Israel's most important stopover on the Syrian-African flyway, through which up to 500 million birds migrate annually."
+Link audit: all internal links resolved to existing content files ✓; all bidirectional links present ✓ (birdwatching-in-israel→hula-valley, israel-in-october→hula-valley+haifa-film-festival, israel-in-november→hula-valley, israel-events-festivals→haifa-film-festival, haifa-travel-guide→haifa-film-festival).
+Gate: pnpm check 0 errors | pnpm build 2003 pages (unchanged) | pnpm test:e2e 3125/3125 PASS (25.2m).
+Ship: squash-merged review branch, committed 9f482f7c to master, pushed to origin/master.
+Prod: CI in_progress at state-write (normal pattern for this loop).
+Next: RESEARCH (iter1275; 1275%5=0).
