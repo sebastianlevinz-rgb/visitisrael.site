@@ -3,7 +3,7 @@ title: '¿Es seguro visitar Israel? Guía honesta 2026'
 description: 'Un análisis práctico y honesto de la seguridad en Israel para turistas: qué esperar en el día a día, cómo consultar los consejos oficiales y precauciones de sentido común.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planificación
-updatedAt: 2026-07-20
+updatedAt: 2026-08-16
 faqs:
   - question: ¿Es seguro Israel para los turistas en este momento?
     answer: Para la mayoría de los visitantes y en la mayoría de las circunstancias, sí. Las principales ciudades turísticas cuentan con una fuerte presencia policial y la delincuencia cotidiana es baja. Sin embargo, las condiciones pueden cambiar según la situación de seguridad regional, por lo que siempre se debe consultar el consejo de viaje oficial del propio gobierno antes y durante el viaje.
@@ -23,12 +23,12 @@ Para la gran mayoría de los visitantes, un viaje a Israel es tranquilo y sin in
 
 Israel se encuentra en una región donde la situación de seguridad puede cambiar, a veces con rapidez. Lo más importante que puede hacer es **consultar el consejo de viaje oficial de su propio gobierno** (por ejemplo, el Departamento de Estado de EE. UU., la FCDO del Reino Unido o su equivalente) **antes de reservar y de nuevo antes de volar**, y mantener un ojo en las noticias locales durante su estancia. Estos avisos ofrecen orientación actualizada por zonas e indicarán los lugares que conviene evitar.
 
-## Estado actual de los avisos — julio de 2026
+## Estado actual de los avisos — agosto de 2026
 
-Los avisos de viaje oficiales para Israel han mejorado notablemente en 2026. A partir de julio de 2026:
+Los avisos de viaje oficiales para Israel mejoraron notablemente durante el primer semestre de 2026, aunque la situación continuó evolucionando a lo largo del verano. A partir de agosto de 2026:
 
 - **FCDO del Reino Unido:** actualizó su orientación sobre Israel en junio de 2026, retirando al país de la categoría de mayor riesgo "no viajar". La mayoría de las zonas turísticas tienen ahora la calificación "actúe con precaución". Se mantienen advertencias específicas para la zona de exclusión de la frontera con Gaza, el norte de Cisjordania y las áreas cercanas a las fronteras libanesa y siria.
-- **Departamento de Estado de EE. UU.:** clasifica a Israel en el Nivel 2 — "Extreme precaución" — por debajo de las designaciones más altas de Nivel 3 y Nivel 4.
+- **Departamento de Estado de EE. UU.:** clasifica a Israel en el Nivel 3 — "Reconsidere el viaje". El 1 de agosto de 2026, la Embajada de EE. UU. en Jerusalén emitió una alerta de seguridad general. Consulte los [avisos de seguridad de la Embajada de EE. UU. en Jerusalén](https://il.usembassy.gov/u-s-citizen-services/security-and-travel-information/) y la [página de Israel del Departamento de Estado](https://travel.state.gov/content/travel/en/international-travel/International-Travel-Country-Information-Pages/Israel.html) para obtener el aviso más actualizado.
 - **Agencia Europea de Seguridad Aérea (EASA):** reclasificó el espacio aéreo israelí del Boletín de Zona de Conflicto a una Nota Informativa el 8 de julio de 2026, reflejando un menor riesgo de aviación para la mayoría de las rutas.
 - **Canadá, Australia, Alemania, Francia, Japón y otros gobiernos** también revisaron a la baja sus avisos de viaje a Israel durante 2026.
 
