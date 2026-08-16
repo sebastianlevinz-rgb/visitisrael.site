@@ -3,7 +3,7 @@ title: 'Eilat Travel Guide: Red Sea Beach City (2026)'
 description: 'Everything to plan your Eilat trip: beaches, Coral Beach Reserve, Dolphin Reef, Timna Park, tax-free shopping, how to get there and how many days to allow.'
 heroImage: /images/regions/eilat/hero.jpg
 category: Destinations
-updatedAt: 2026-08-14
+updatedAt: 2026-08-16
 ctaHeading: 'Book Eilat hotels and activities'
 affiliateCtas:
   - partner: booking
@@ -170,6 +170,18 @@ The overall hotel tier range in Eilat: budget guesthouses ₪350–600/night; mi
 **Negev highlights**: driving north from Eilat, you pass through the southern Arava desert (excellent stargazing at night), Timna Park (25 km), the Maktesh HaKatan small crater, and eventually reach Mitzpe Ramon and the Makhtesh Ramon — the world's largest erosion crater — in 2 hours. The crater rim, 300 metres above the Negev plateau, is a sharp contrast to the coastal resort feel of Eilat. Combine as a self-drive if you have a car.
 
 **Arava mountain biking**: the Yahel–Timna singletrack (opened 2026) is a 100+ km desert MTB route running from Kibbutz Yahel (55 km north of Eilat) south through volcanic basalt ridges and limestone wadis to Timna Park. Part of a broader 350+ km Eilot trail network — the largest desert mountain biking infrastructure in Israel. Season: October–March. A rental car is needed to reach the start point at Kibbutz Yahel. See the [Arava mountain biking guide](/arava-mountain-biking) for trail details, logistics and bike hire.
+
+---
+
+## Eilat events and festivals
+
+Eilat's late-autumn calendar is anchored by two annual music events that draw visitors specifically for the festivals rather than the beach:
+
+**[Red Sea Jazz Festival](/red-sea-jazz-festival-eilat)**: held over four nights each November on the North Beach waterfront, drawing around 70,000 attendees across multiple outdoor stages. One of Israel's largest outdoor music events; a high-energy contrast to the city's usual resort atmosphere.
+
+**[Eilat Chamber Music Festival](/eilat-chamber-music-festival)**: companion classical festival held in late November or December, with chamber music, orchestral works, opera highlights, and world music across indoor concert halls and Red Sea waterfront stages. Smaller and more intimate than the jazz festival; the November/December timing coincides with Eilat's most comfortable weather and quietest hotel period.
+
+Both festivals fall during Eilat's ideal visitor season — 22–26°C, clear skies, uncrowded beaches — making a late-November trip particularly good value compared to summer or Sukkot.
 
 ---
 
