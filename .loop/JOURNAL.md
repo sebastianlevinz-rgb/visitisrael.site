@@ -18114,3 +18114,9 @@ What: New /haifa-international-film-festival-guide (~1050w EN). Israel's oldest 
 Gate: pnpm check 0 errors; build 2002 pages (+1 from iter1270 1 page); 2/2 targeted e2e+a11y PASS.
 Ship: committed 261bf4b1, pushed to master.
 Prod: CI in_progress at state-write (normal pattern for this loop).
+
+## 2026-08-16T12:45Z · iter 1272 · BUILD-seo-content · hula-valley-crane-migration-guide
+What: New /hula-valley-crane-migration-guide (~950w EN). Dedicated seasonal guide for Agamon HaHula crane spectacle (Oct–Feb). Covers: Agamon HaHula vs Hula Nature Reserve distinction (KKL-JNF vs INPA; INPA pass does NOT cover Agamon); Sunrise Safari Wagon booking logistics (4–6 weeks ahead for Nov weekends; ~5:00–5:15am departure); 11km self-guided paved circuit (key stops: crane hides, Water Buffalo Field, Pelican promontory, Kingfisher stream); seasonal timing table (late Oct first arrivals → Nov peak 35K–50K cranes → Dec–Jan sustained → Feb departing); Hula Valley Bird Festival note (November; check agamon-hahula.co.il annually); where to stay (Kiryat Shmona 7km north; Rosh Pinna 15km south; Kibbutz Kfar Blum 5km north; Metula for Banias combo); getting there (car essential for Sunrise Safari pre-5am; public transport to Kiryat Shmona + taxi). 7 FAQs. Event schema 2026-10-20 to 2027-02-28. CTAs: Booking.com Upper Galilee (Kiryat Shmona/Rosh Pinna) + DiscoverCars car rental. Bidirectional links: birdwatching-in-israel (new cross-link row added), israel-in-october (updated crane callout to reference dedicated guide), israel-in-november (new cross-link row added). Mode was BUILD-tools (1272%5=2→BUILD) but no tools items in backlog → fell through to seo-content. TIME-SENSITIVE: October crane arrival ~6 weeks away.
+Gate: pnpm check 0 errors (initial description 165ch→fixed to 142ch); build 2003 pages (+1); 2/2 targeted e2e+a11y PASS.
+Ship: committed 9f1b0d98, pushed to master.
+Prod: CI in_progress at state-write (normal pattern).
