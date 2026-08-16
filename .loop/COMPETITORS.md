@@ -9157,3 +9157,26 @@ Sources: touristisrael.com, igoogledisrael.com, carnifest.com, Frommer's, winter
 
 **Confirmed already-covered (no add):**
 - Israel in November ✓, Christmas in Israel ✓, Nazareth general guide ✓, backpacking ✓, solo female ✓, ETA-IL ✓, eilat general guides ✓.
+
+### 2026-08-16 · iter 1260 · 282nd research pass — Seasonal/Niche/Regulatory gap scan
+Sources: touristisrael.com, secrettelaviv.com, itraveljerusalem.com, jfeed.com, carnifest.com, israel-travel-secrets.com, igoogledisrael.com, israel-in-photos.com, americaisraeltours.com, propelrc.com, drone-laws.com, dronesgator.com, droneller.com, thejc.com, travelandtourworld.com, myisraelstay.com.
+
+**Shavuot in Israel — confirmed MISSING dedicated guide:**
+- touristisrael.com/shavuot-in-israel; secrettelaviv.com/tickets/shavuot; itraveljerusalem.com/article/shavuot-events-in-jerusalem all have content. We have 8 Jewish holiday guides (Passover, Purim, Sukkot, Rosh HaShanah, Hanukkah, Simchat Torah, Yom Kippur, Lag BaOmer) but ZERO Shavuot guide.
+- Key visitor draw: Western Wall 4am sunrise walk (tens of thousands; open to all); 2026 Shabbat overlap makes logistics uniquely challenging (3 consecutive closure days). Strong hotel booking intent (Jerusalem fills). Added P3 S to BACKLOG.
+
+**Darom Adom Festival — confirmed MISSING dedicated English guide:**
+- touristisrael.com/darom-adom-festival/9365; carnifest.com; israel-travel-secrets.com; igoogledisrael.com; israel-in-photos.com all have dedicated standalone pages. We only mention Darom Adom briefly in monthly guides (israel-in-winter, israel-in-january, israel-in-february) and in israel-spring-wildflowers.md (WRONG season — spring wildflowers are March-May; Darom Adom = Jan-Feb).
+- Red anemone carpet festival in Eshkol/northern Negev; mountain bike marathons + concerts + farm tours; high dwell-time content; own-car rental affiliate hook (no public transit to Eshkol). Added P3 S to BACKLOG. Note: Eshkol area Oct 7 2023 — check current status framing carefully.
+
+**Israel drone laws — confirmed MISSING dedicated guide:**
+- propelrc.com/drone-laws-in-israel; drone-laws.com/drone-laws-in-israel; dronesgator.com; droneller.com all rank for "Israel drone laws 2026". Our photography guide has 1 inaccurate sentence (says CAAF; correct is CAAI). Growing sub-segment: content creators, travel filmmakers. 2026 enforcement tightened (fines +25%; customs declaration trap at Ben Gurion). Added P3 S to BACKLOG.
+
+**Luxury hotel wave 2026 — mostly covered, one freshness gap:**
+- Six Senses Tel Aviv: confirmed planning/opening; new-luxury-hotels-israel-2026.md already covers it in all locales. No separate action needed.
+- InterContinental Jerusalem: confirmed opened summer 2026 (239 rooms on King George St; rooftop L18 restaurant; accepted into Virtuoso luxury network). Freshness update item already in BACKLOG as intercontinental-jerusalem-open-freshness (P3 XS). Confirm that guide says "now open" not "upcoming."
+- The Yacht Herzliya: 325 rooms, 2 pools, opened June 2026. Already in new-luxury-hotels-israel-2026.md. No separate action.
+- Kassland Resort Ma'ale Adumim: large thermal spa + water park complex opened May 2026. HUMAN REVIEW REQUIRED (Ma'ale Adumim = Israeli settlement in West Bank; framing must be accurate + factual; political neutrality essential). Do not autonomously add to content.
+
+**Verified already-covered (no add):**
+- Honeymoon ✓ (israel-honeymoon.md), national trail ✓ (israel-national-trail-hiking.md), solo female ✓ (solo-female-travel-israel.md), drone photography brief ✓ (in photography guide), surfing ✓ (israel-surfing.md), digital nomad ✓ (digital-nomad-israel.md), accessibility ✓ (israel-accessible-travel.md), Herzliya ✓ (herzliya-guide.md), wine trails ✓ (galilee-wine-trail + judean-hills-wine-trail + golan-heights-wineries + negev-wine-guide), zichron yaakov ✓, lag baomer ✓, passover ✓, pilgrim road ✓ (jerusalem-pilgrimage-road.md), photography ✓, wellness spa ✓ (israel-wellness-spa.md), jerusalem light rail ✓.

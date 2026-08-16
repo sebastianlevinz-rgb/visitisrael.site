@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1259
-- lastMode: REVIEW
-- lastItem: review-cross-links-iter1259
-- lastResult: iter1259 REVIEW — christmas-in-nazareth + red-sea-jazz cross-link fixes SHIPPED 1a12dda7. Audited christmas-in-nazareth (iter1257) and red-sea-jazz-festival-eilat (iter1256). Three missing bidirectional links fixed: (1) christmas-in-israel.md had no return link to /christmas-in-nazareth — added in body paragraph + footer list; (2) israel-in-december.md Christmas section had Nazareth only in FAQ, not body — added callout paragraph with Dec 12 tree lighting/Dec 12–19 market/Dec 24 parade/Dec 25 Mass summary and /christmas-in-nazareth link; (3) israel-music-festivals.md entirely missing Red Sea Jazz Festival (70,000 attendees, since 1987) — added table row (Nov, Eilat North Beach, ₪150–600+) + full body section with tickets/logistics + /red-sea-jazz-festival-eilat link. Both audited guides otherwise clean: SEO title/desc within limits; hero images on disk; all cross-links resolve; no H1 in body; no fabricated content; affiliate partners valid. Gate: pnpm check 0 errors | build 1996 pages (unchanged) | 24/24 targeted smoke+a11y PASS. Committed 1a12dda7; pushed origin/master. CI in_progress at state-write (normal — prior SHA 060bf59a CI=success).
+- iteration: 1260
+- lastMode: RESEARCH
+- lastItem: research-iter1260
+- lastResult: iter1260 RESEARCH — 282nd research pass. 3 confirmed new BACKLOG gaps: (1) shavuot-in-israel — confirmed MISSING EN guide; touristisrael.com + secrettelaviv.com + itraveljerusalem.com + jfeed.com all have dedicated pages; Shavuot 2026 = May 21–22 evening (leads into Shabbat = 3 consecutive holy days); Western Wall 4am sunrise walk draws tens of thousands; (2) darom-adom-festival — confirmed MISSING dedicated EN guide; touristisrael.com/darom-adom-festival/9365 + carnifest + israel-travel-secrets + igoogledisrael + israel-in-photos all have dedicated pages; Jan–Feb anemone blooming festival in Eshkol/northern Negev; distinct from israel-spring-wildflowers (wrong season, different region); (3) israel-drone-laws-guide — confirmed MISSING dedicated guide; propelrc.com + drone-laws.com + dronesgator.com + droneller.com all rank; photography guide has only 1 generic sentence; 2026 CAAI mandatory customs declaration + fines up 25% = high traveler need. Also verified: shavuot + darom adom missing from BACKLOG; competitive landscape confirms Israel travel content saturation ~98% for broad topics; new gaps are seasonal/niche/regulatory angles. No code changes this iteration.
 
-- nextRotationCategory: RESEARCH (1260%5=0 → research)
+- nextRotationCategory: BUILD (1261%5=1 → build; category: seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-15T23:43Z
-- branch context: master at 1a12dda7; EN=426 (25 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: olive-harvest-galilee-guide P3 S (Oct-Nov time-sensitive); tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S.
+- updatedAt: 2026-08-16T00:00Z
+- branch context: master at 1a12dda7; EN=426 (25 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities: olive-harvest-galilee-guide P3 S (Oct-Nov time-sensitive); tamar-festival-dead-sea P3 S; haifa-international-film-festival-guide P3 S; hula-valley-crane-migration-guide P3 S; shavuot-in-israel P3 S (new iter1260); darom-adom-festival P3 S (new iter1260).
 
 Notes: iter1259 REVIEW — review-cross-links-iter1259 SHIPPED 1a12dda7. Fixed 3 missing bidirectional links: christmas-in-israel.md→/christmas-in-nazareth (body+footer), israel-in-december.md→/christmas-in-nazareth (Christmas section callout), israel-music-festivals.md→added Red Sea Jazz Festival table row + body section (was entirely absent). Build 1996 unchanged. 24/24 targeted smoke+a11y PASS. CI in_progress at state-write (normal).
 

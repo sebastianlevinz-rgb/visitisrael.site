@@ -18003,3 +18003,13 @@ What: Audited christmas-in-nazareth (iter1257) and red-sea-jazz-festival-eilat (
 Clean audit otherwise: both guides pass SEO title/desc limits; hero images verified on disk; all cross-links resolve; no H1 in body; no fabricated prices/ratings; affiliate partners valid.
 Gate: pnpm check 0 errors | build 1996 pages (unchanged) | 24/24 targeted smoke+a11y PASS.
 Merge: committed 1a12dda7; pushed to origin/master. CI in_progress at state-write (normal — prior SHA 060bf59a had CI=success for iter1258).
+
+## 2026-08-16T00:00Z · iter 1260 · RESEARCH · research-iter1260
+What: 282nd research/discovery pass. Scanned for new content gaps using WebSearch/WebFetch against touristisrael.com, secrettelaviv.com, itraveljerusalem.com, jfeed.com, carnifest.com, israel-travel-secrets.com, igoogledisrael.com, israel-in-photos.com, americaisraeltours.com, propelrc.com, drone-laws.com, dronesgator.com, thejc.com, travelandtourworld.com, myisraelstay.com.
+Findings: 3 confirmed new BACKLOG gaps.
+(1) shavuot-in-israel (P3 S) — confirmed MISSING from all 426 EN guides. We have 8 Jewish holiday guides but zero Shavuot. Western Wall 4am sunrise walk (tens of thousands, open to all) + Tikkun Leil all-night learning + dairy dining + 3-day closure overlap (Shabbat 2026) = high-value visitor content. touristisrael + secrettelaviv + itraveljerusalem all have dedicated pages.
+(2) darom-adom-festival (P3 S) — confirmed MISSING dedicated EN guide. Our israel-spring-wildflowers.md covers March–May (wrong season); Darom Adom = Jan–Feb, Eshkol Region/northern Negev. touristisrael.com + carnifest + israel-travel-secrets + igoogledisrael + israel-in-photos all have standalone guides. Mountain bike marathons + concerts + farm tours + red anemone carpet = high dwell-time seasonal content with car rental affiliate hook.
+(3) israel-drone-laws-guide (P3 S) — confirmed MISSING dedicated guide. Photography guide has 1 inaccurate sentence only. propelrc + drone-laws.com + dronesgator + droneller all rank for "Israel drone laws 2026." 2026: fines up 25%; customs declaration mandatory at Ben Gurion for ALL drones (tourist trap). Growing content-creator segment.
+Verified-already-covered: honeymoon ✓, national trail ✓, solo female ✓, surfing ✓, digital nomad ✓, accessibility ✓, photography ✓, wellness spa ✓, all monthly guides ✓, pilgrims road ✓, light rail ✓, wine trails ✓.
+Luxury hotel freshness: InterContinental Jerusalem open-freshness already in BACKLOG P3 XS; Six Senses TLV + The Yacht Herzliya already in new-luxury-hotels-israel-2026.md; Kassland Ma'ale Adumim = human review required (settlement framing).
+No code changes this iteration. State advanced.
