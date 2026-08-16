@@ -2583,3 +2583,12 @@ New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-ho
 
 ## iter1272 · BUILD-seo-content · hula-valley-crane-migration-guide · 9f1b0d98
 - [SHIPPED iter1272 → 9f1b0d98] (seo-content, S) Hula Valley Crane Migration Guide (/hula-valley-crane-migration-guide) — dedicated seasonal guide for Agamon HaHula crane spectacle. Agamon HaHula vs Hula Nature Reserve; Sunrise Safari Wagon booking; 11km self-guided circuit; seasonal timing table; accommodation (Kiryat Shmona/Rosh Pinna/Kfar Blum); getting there (car essential). 7 FAQs; Event schema Oct 2026–Feb 2027. Booking Upper Galilee + DiscoverCars CTAs. Bidirectional links to birdwatching-in-israel, israel-in-october, israel-in-november. Build 2003 pages (+1). 2/2 targeted e2e+a11y PASS. TIME-SENSITIVE: October crane arrival ~6 weeks away.
+
+## iter1276 · BUILD-seo-content · shavuot-in-israel · f10a57ff
+- [SHIPPED iter1276 → f10a57ff] (seo-content, S) Shavuot in Israel guide (/shavuot-in-israel) — Jewish harvest festival visitor guide: 2027 dates June 11-12, Western Wall dawn walk, Tikkun Leil, dairy traditions, three-day Shabbat+Shavuot closure window. Jerusalem vs TLV. 7 FAQs; EventSchema; Booking + GYG CTAs. Bidirectional: traveling-jewish-holidays, israel-in-june. Build 2004 (+1). 2/2 PASS.
+
+## iter1277 · BUILD-seo-content · eilat-chamber-music-festival · 434c16fe
+- [SHIPPED iter1277 → 434c16fe] (seo-content, S) Eilat Chamber Music Festival guide (/eilat-chamber-music-festival) — annual classical music festival late November/December. Chamber/orchestral/opera/world-music/gypsy strands; indoor + Red Sea waterfront outdoor stages; tickets ₪80–250. Bidirectional: red-sea-jazz-festival-eilat, israel-music-festivals, israel-in-november. 6 FAQs; Booking Eilat CTA. Build 2005 (+1). 2/2 PASS.
+
+## iter1278 · BUILD-seo-content · darom-adom-festival · e7be65e7
+- [SHIPPED iter1278 → e7be65e7] (seo-content, S) Darom Adom Festival guide (/darom-adom-festival) — Israel's red kalaniot anemone wildflower festival, Eshkol region northern Negev. Annual Jan–Feb (dates rainfall-dependent; check daromadom.co.il). Best sites: Shokeda Forest, Moshav Patish, Ruhama Badlands. Festival: bike marathons, live music, Bedouin tents, agricultural tours. Security note: Eshkol post-Oct 7 resumed tourism 2026; advise checking gov.il. 7 FAQs; GYG + DiscoverCars CTAs; EventSchema Feb 2027 approx. Bidirectional: israel-in-february, israel-spring-wildflowers. Build 2006 (+1). 2/2 PASS.
