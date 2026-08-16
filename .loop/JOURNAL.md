@@ -18085,3 +18085,12 @@ What: New /akko-fringe-theatre-festival guide (~1050w EN). Tools category empty 
 Content: Israel's biggest fringe theatre festival since 1983 (300,000+ visitors/year) in UNESCO Old Akko — Knights' Halls (Crusader underground), Pisan Quarter courtyards, and Old City alleys. 280+ performances: competition theatre (₪20–75/show + 4-day pass; accofestival.co.il), free street fire/physical theatre, Mango outdoor concerts, arts/crafts bazaar. Logistics: 1h train from TLV, 30min from Haifa; Akko Station → Old City 15min walk. Accommodation: Akko Old City (Efendi Hotel + boutique guesthouses, book 8–10wks ahead), Nahariya 10min north by train, Haifa 30min south (widest hotel choice). Sukkot week day-trip add-ons: Rosh Hanikra 20min north, Galilee wineries, Sea of Galilee. 7 FAQs; Booking (Akko/Nahariya/Haifa for Sukkot) + GYG (Akko Old City tours) CTAs. Bidirectional links: akko-acre-guide.md → festival callout section added in "What to combine nearby"; israel-events-festivals.md → Acco Festival paragraph added before music festivals reference. EventSchema: Sep 26–Oct 1 2026, Akko Old City (UNESCO World Heritage Site).
 Gate: pnpm check 0 errors | pnpm build 2001 pages (+1 from 2000) | 2/2 targeted smoke+a11y PASS.
 Merge: committed 099f0af1; pushed to origin/master. CI in_progress at state-write (normal pattern).
+
+## 2026-08-16T09:55Z · iter 1269 · REVIEW · review-sukkot-links-fix
+What: REVIEW pass on iter1266-1268 ships (jerusalem-beer-festival, sukkot-in-tel-aviv, akko-fringe-theatre-festival). Audited: internal links, image paths, bidirectional cross-links, JSON-LD, hero images. Findings + fixes:
+1. Dead link in sukkot-in-tel-aviv.md: /tel-aviv-travel-guide (slug does not exist) → fixed to /tel-aviv-things-to-do. (Note: iter1267 JOURNAL entry also records this wrong slug — the guide was shipped with the dead link.)
+2. Missing bidirectional link in sukkot-in-israel.md: "Combining Sukkot" section linked to /sukkot-in-jerusalem but omitted /sukkot-in-tel-aviv. Added Tel Aviv bullet (Hayarkon Park concerts, beach, sukkah-terrace dining).
+3. Missing bidirectional link in israel-in-october.md: Sukkot paragraph linked /sukkot-in-jerusalem but not /sukkot-in-tel-aviv. Added sentence with both city-specific links.
+All image paths verified OK. JSON-LD: no fabricated ratings, correct @types (Event, FAQ). Hero images: all exist.
+Gate: pnpm check 0 errors | pnpm build 2001 pages (unchanged) | 6/6 targeted smoke + 6/6 a11y PASS.
+Ship: squash-merged 6799cb63, pushed master. CI in_progress at state-write (normal pattern).

@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1268
-- lastMode: BUILD-seo-content
-- lastItem: akko-fringe-theatre-festival
-- lastResult: iter1268 BUILD-seo-content — akko-fringe-theatre-festival SHIPPED 099f0af1. New /akko-fringe-theatre-festival guide (~1050w EN): Israel's biggest fringe theatre festival (since 1983; 300,000+ visitors/year) during Sukkot Hol HaMoed Sep 26–Oct 1 2026. UNESCO Old Akko venue (Knights' Halls, Crusader underground, Pisan Quarter courtyards). 280+ performances: competition theatre (₪30–75), free street fire/physical theatre, Mango outdoor concerts, arts bazaar. Logistics: 1h train from TLV, 30min from Haifa. Accommodation: Akko Old City (very limited, 8–10wks ahead), Nahariya 10min north, Haifa 30min south. 7 FAQs; Booking Akko/Nahariya/Haifa + GYG Akko tours CTAs. Bidirectional links added to akko-acre-guide (festival callout) + israel-events-festivals (Acco paragraph). Smoke + a11y tests +1 each; 2/2 targeted PASS. Build 2001 pages (+1). CI in_progress at state-write (normal pattern).
+- iteration: 1269
+- lastMode: REVIEW
+- lastItem: review-sukkot-links-fix
+- lastResult: iter1269 REVIEW — review-sukkot-links-fix SHIPPED 6799cb63. Audited iter1266-1268 ships. Fixes: (1) dead link /tel-aviv-travel-guide → /tel-aviv-things-to-do in sukkot-in-tel-aviv.md; (2) missing bidirectional link to /sukkot-in-tel-aviv added to sukkot-in-israel.md "Combining Sukkot" section; (3) missing bidirectional link to /sukkot-in-tel-aviv added to israel-in-october.md Sukkot paragraph. All hero images verified OK; JSON-LD no fabricated ratings. Build 2001 pages unchanged. 6/6 targeted smoke + 6/6 a11y PASS. CI in_progress at state-write (normal pattern).
 
-- nextRotationCategory: BUILD-technical (1269%5=4 → REVIEW)
+- nextRotationCategory: BUILD-seo-content (1270%5=0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-16T08:40Z
+- updatedAt: 2026-08-16T09:55Z
 - branch context: master at 099f0af1 (iter1268 state); EN=431 (30 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). i18n MILESTONE: ES complete for 401-guide baseline. BACKLOG top priorities (updated): haifa-international-film-festival-guide P3 S (Oct 1–10, time-sensitive); hula-valley-crane-migration-guide P3 S (Oct migration, time-sensitive); shavuot-in-israel P3 S; darom-adom-festival P3 S; eilat-chamber-music-festival P3 S; tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S.
+
+Notes: iter1269 REVIEW — review-sukkot-links-fix SHIPPED 6799cb63. Audited iter1266-1268 ships; fixed 1 dead link + 2 missing bidirectional links.
 
 Notes: iter1268 BUILD-seo-content — akko-fringe-theatre-festival SHIPPED 099f0af1. New /akko-fringe-theatre-festival guide (~1050w EN): Israel's biggest fringe theatre festival (since 1983; 300,000+ visitors/year) during Sukkot Hol HaMoed Sep 26–Oct 1 2026. UNESCO Old Akko venue (Knights' Halls, Crusader underground, Pisan Quarter courtyards). 280+ performances: competition theatre (₪30–75), free street fire/physical theatre, Mango outdoor concerts, arts bazaar. Logistics: 1h train from TLV, 30min from Haifa. Accommodation: Akko Old City (very limited, 8–10wks ahead), Nahariya 10min north, Haifa 30min south. 7 FAQs; Booking Akko/Nahariya/Haifa + GYG Akko tours CTAs. Bidirectional links added to akko-acre-guide (festival callout) + israel-events-festivals (Acco paragraph). Smoke + a11y tests +1 each; 2/2 targeted PASS. Build 2001 pages (+1). CI in_progress at state-write (normal pattern).
 
