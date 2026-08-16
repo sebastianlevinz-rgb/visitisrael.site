@@ -18137,3 +18137,13 @@ Gate: pnpm check 0 errors | pnpm build 2003 pages (unchanged) | pnpm test:e2e 31
 Ship: squash-merged review branch, committed 9f482f7c to master, pushed to origin/master.
 Prod: CI in_progress at state-write (normal pattern for this loop).
 Next: RESEARCH (iter1275; 1275%5=0).
+
+## 2026-08-16T16:30Z · iter 1275 · RESEARCH · research-pass-285
+What: RESEARCH mode (1275%5=0). 285th research pass at ~96% saturation. Searched for nationality guide gaps, event content gaps, and 2026 freshness opportunities. Investigated competitors: touristisrael.com, goisrael.com, lonelyplanet.com, roughguides.com, gettyourguide.com, nomadmatt.com.
+Findings: 3 net-new BACKLOG items confirmed (zero matches in BACKLOG + DONE + guides directory for all 3):
+(1) israel-for-georgian-travelers (P3/S): Georgian Orthodox pilgrimage to Monastery of the Cross (unique 5th-c Georgian heritage site in Jerusalem, now Greek Orthodox administered); ~120K Mountain Jews / Kartvelian Jews diaspora in Israel; TBS→TLV direct flights; ETA-IL eligible since Jan 2025.
+(2) israel-for-croatian-travelers (P3/S): Croatia Schengen/EU since Jan 2023 → ETA-IL eligible; 88% Catholic population with strong Franciscan tradition; Akko/Caesarea coastal UNESCO heritage resonates with Dubrovnik/Split travelers; Croatia Airlines ZAG-TLV direct.
+(3) israel-for-azerbaijani-travelers (P3/S): Mountain Jews diaspora (100K+ in Israel from Quba/Krasnaya Sloboda community); unique warm Israeli-Azerbaijani bilateral ties; AZAL direct GYD-TLV. IMPL NOTE: verify Azerbaijani visa status before building (may require traditional B/2 visa, not ETA-IL).
+Previously investigated but eliminated (already covered): biblical-highway freshness (already in BACKLOG line 2358 as P3/S), israel-for-mexican-travelers (SHIPPED iter968), israel-for-greek-travelers (SHIPPED iter968), israel-for-hungarian-travelers (SHIPPED iter968), rosh-hashanah-in-israel (file exists), lag-baomer-israel (SHIPPED iter968), tisha-bav-in-israel (SHIPPED iter968).
+No code shipped.
+Next: BUILD (iter1276; 1276%5=1).

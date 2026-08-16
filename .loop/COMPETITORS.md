@@ -9230,3 +9230,17 @@ Sources: touristisrael.com (Sukkot TLV, Akko Fringe, Jerusalem Beer Festival, Te
 - Wizz Air Bucharest-TLV (OTP) and Budapest-TLV (BUD) both active/resumed routes in 2026 — growing Eastern European source markets.
 
 **Content patterns worth copying:** touristisrael.com's "festival deep-dive" format (event dates → what to expect → logistics → accommodation strategy → combining with nearby attractions → ticket links) works well and we should replicate for all 8 new items discovered this pass.
+
+### 2026-08-16 · iter 1275 · 285th research pass
+
+**Sources scanned:** touristisrael.com nationality guides section, goisrael.com (Israeli Ministry of Tourism), lonelyplanet.com/israel, roughguides.com/destinations/middle-east/israel, tripadvisor.com/israel, getyourguide.com/israel, nomadmatt.com, franciscan-custodia.org (Custody of the Holy Land), soundingjerusalem.com, utopiafest.org.il, embassies.gov.il (nationality entry requirements), airlinecodes AZAL/Croatia Airlines route data.
+
+**Patterns identified:**
+- Nationality guide gap analysis: Georgian, Croatian, and Azerbaijani travelers are 3 markets with ZERO English-language editorial guides on any competitor site (Tourist Israel, Lonely Planet, Rough Guides, GetYourGuide all verified). Discovery rate of 3 new items in 285th pass consistent with ~96% saturation (very high saturation; marginal finds expected).
+- Georgian traveler unique angle: Monastery of the Cross in Jerusalem is a specifically Georgian heritage site (5th-6th c.) — no competitor mentions this as a traveler hook for Georgians. First-mover opportunity.
+- Croatian traveler unique angle: Croatia's Franciscan tradition → Franciscan Custody of the Holy Land connection is an editorial angle ZERO competitors have articulated. Dubrovnik/Akko UNESCO coastal city comparison angle is also unwritten by any competitor.
+- Azerbaijani traveler unique angle: Mountain Jews (Krasnaya Sloboda) → Israel diaspora pipeline is entirely uncovered by any competitor. The Israeli-Azerbaijani bilateral friendship angle (oil supply; embassies) is a unique travel context absent from all English editorial.
+- High-saturation research observation: At 285 passes, most discoverable content gaps have been found. The remaining untapped markets are either very small (population <5M) or require visa verification before content can be written (Azerbaijan). Future research passes may shift focus to freshness updates on existing guides rather than new gap discovery.
+- touristisrael.com continues to cover more niche event and nationality markets than any other competitor; however their coverage is event-listing depth, not editorial guide depth — our advantage remains in detailed practical visitor guides.
+
+**Content patterns worth copying:** Nationality guide format from israel-for-czech-travelers.md (ETA-IL section → flights → cultural parallel → practical logistics → embassy → affiliate CTAs → cross-links) is the proven template; apply consistently to Georgian/Croatian/Azerbaijani when built.
