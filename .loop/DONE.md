@@ -2565,3 +2565,6 @@ New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-ho
 
 ## iter1269 · REVIEW · review-sukkot-links-fix · 6799cb63
 - REVIEW pass on iter1266-1268: fixed dead link /tel-aviv-travel-guide → /tel-aviv-things-to-do in sukkot-in-tel-aviv.md; added /sukkot-in-tel-aviv bidirectional links to sukkot-in-israel.md and israel-in-october.md. 6/6 targeted tests PASS.
+
+## iter1271 · BUILD-seo-content · haifa-international-film-festival-guide · 261bf4b1
+- [SHIPPED iter1271 → 261bf4b1] (seo-content, S) Haifa International Film Festival 2026 guide (/haifa-international-film-festival-guide) — Israel's oldest and largest film festival, 41st edition Oct 1–10 2026. Cinematheque Haifa + free outdoor screenings at Hadar HaCarmel + Carmel Center squares. 280+ screenings, 300,000+ attendees; tickets ₪40–80. TIME-SENSITIVE: Oct 1 = 6 weeks from publish. Bidirectional links to haifa-travel-guide, israel-in-october, israel-events-festivals. 7 FAQs. Booking Haifa + GYG CTAs. Build 2002 pages (+1). 2/2 targeted e2e+a11y PASS.

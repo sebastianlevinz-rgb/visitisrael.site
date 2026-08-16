@@ -18108,3 +18108,9 @@ Findings: 8 confirmed new BACKLOG items.
 (8) docaviv-negev-festival (P3 S) — December documentary film festival in Yeruham/Dimona/Arad/Mitzpe Ramon; touristisrael.com has page; docaviv.co.il official; unique off-beaten-path Negev cultural tourism; 3rd annual edition and growing.
 Verified-already-covered: cycling-in-israel ✓, israel-national-bike-trail ✓, skyfield-extreme-park-jaffa ✓, schottenstein-campus-jerusalem ✓, israel-food-tours-cooking-classes ✓, israel-for-spanish/swiss/south-african/serbian/russian-speaking travelers all exist ✓.
 No code changes. State advanced.
+
+## 2026-08-16T11:55Z · iter 1271 · BUILD-seo-content · haifa-international-film-festival-guide
+What: New /haifa-international-film-festival-guide (~1050w EN). Israel's oldest and largest film festival — 41st edition, est. 1983. Oct 1–10 2026, Cinematheque Haifa + outdoor venues. 280+ screenings, 300,000+ attendees. International + Israeli competition tracks. Free outdoor screenings at Hadar HaCarmel and Carmel Center squares (no ticket). Individual tickets ₪40–80; multi-film passes available. TIME-SENSITIVE: Oct 1 is 6 weeks from publish date; Sukkot Hol HaMoed opening drives hotel booking urgency. 7 FAQs. CTAs: Booking.com Haifa (German Colony hotel urgency) + GYG Haifa city tours. Bidirectional links: haifa-travel-guide (film festival callout para added at end of planning section), israel-in-october (Haifa film festival entry added to October events calendar), israel-events-festivals (new paragraph entry alongside Acco Festival). Smoke + a11y +1 each; 2/2 targeted PASS.
+Gate: pnpm check 0 errors; build 2002 pages (+1 from iter1270 1 page); 2/2 targeted e2e+a11y PASS.
+Ship: committed 261bf4b1, pushed to master.
+Prod: CI in_progress at state-write (normal pattern for this loop).
