@@ -22,7 +22,7 @@ affiliateCtas:
     cta: Browse Haifa tours and day trips
 faqs:
   - question: When is the Haifa International Film Festival 2026?
-    answer: 'The 41st Haifa International Film Festival runs October 1–10, 2026. The festival runs annually during the Sukkot and post-Sukkot period, which in 2026 means it opens on the first day of Sukkot Hol HaMoed and extends into the quieter post-holiday week. Exact programme and screening times are published at haifaff.co.il in late August or September — always verify dates there as they occasionally shift by a day or two between editions.'
+    answer: 'The 41st Haifa International Film Festival runs October 1–10, 2026. The festival runs annually during the Sukkot and post-Sukkot period, which in 2026 means it opens on Hoshana Rabbah (Tishri 21, the final day of Sukkot Hol HaMoed) and extends into the quieter post-holiday week. Exact programme and screening times are published at haifaff.co.il in late August or September — always verify dates there as they occasionally shift by a day or two between editions.'
   - question: How much do tickets cost for the Haifa film festival?
     answer: 'Individual screening tickets are typically in the ₪40–80 range depending on venue and whether it is a competition premiere or standard programme slot. Multi-film passes (5-film, 10-film) offer better value if you plan to see several screenings — check haifaff.co.il for the current pass structure. A number of outdoor screenings in public squares across Haifa (Hadar HaCarmel, Carmel Center) are free and open to all without any ticket. The Cinematheque Haifa box office and the festival''s online ticketing are both available; for popular premieres and closing-night screenings, buy online ahead.'
   - question: Where do the screenings take place?
@@ -46,7 +46,7 @@ events:
 
 Israel's oldest and largest film festival has been running since 1983. Forty-one editions in, the **Haifa International Film Festival** draws around 300,000 visitors over 10 days each October, making it one of the most attended cultural events in the country and the definitive annual showcase for both international and Israeli cinema.
 
-The 2026 edition runs **October 1–10** — opening on the first day of Sukkot Hol HaMoed and running through the quieter post-holiday week that follows. For visitors, this timing is near-ideal: Haifa during Sukkot is festive and full of atmosphere, and the post-holiday days from October 3 onwards are among the most comfortable in the Israeli travel year.
+The 2026 edition runs **October 1–10** — opening on Hoshana Rabbah (the final day of Sukkot Hol HaMoed) and running through the quieter post-holiday week that follows. For visitors, this timing is near-ideal: Haifa during Sukkot is festive and full of atmosphere, and the post-holiday days from October 3 onwards are among the most comfortable in the Israeli travel year.
 
 ## What is the Haifa International Film Festival?
 

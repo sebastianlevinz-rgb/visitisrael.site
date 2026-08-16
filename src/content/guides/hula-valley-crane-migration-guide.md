@@ -36,7 +36,7 @@ faqs:
     answer: "The Hula Valley is one of Israel's richest birding sites throughout the year, not only during the crane migration. In autumn and winter alongside the cranes: White Pelicans in large flocks, Great White Egrets, Black Storks, Marsh Harriers, Eurasian Bitterns, Pygmy Cormorants, and numerous duck species including Shoveler, Teal, and Pintail. In spring and summer (April–June): Purple Herons, Little Bitterns, Black-crowned Night Herons, Common Kingfishers, and breeding passerines in the papyrus reedbeds. Year-round from the self-guided circuit: Water Buffaloes in their conservation enclosure and wild boar in the surrounding vegetation. Greater Spotted Eagles and White-tailed Eagles appear in small numbers in winter."
 events:
   - name: Hula Valley Crane Migration 2026–2027
-    description: 'Up to 500 million migratory birds pass through the Hula Valley annually; the Eurasian Crane spectacle peaks at Agamon HaHula from late October through January, with up to 50,000 cranes roosting simultaneously at the November peak.'
+    description: 'The Hula Valley is Israel''s most important stopover on the Syrian-African flyway, through which up to 500 million birds migrate annually; the Eurasian Crane spectacle peaks at Agamon HaHula from late October through January, with up to 50,000 cranes roosting simultaneously at the November peak.'
     startDate: '2026-10-20'
     endDate: '2027-02-28'
     locationName: 'Agamon HaHula'
