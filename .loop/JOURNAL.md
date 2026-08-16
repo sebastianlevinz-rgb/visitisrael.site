@@ -18037,3 +18037,12 @@ Second affiliate image: /images/regions/dead-sea/ein-bokek.jpg verified at publi
 Smoke + a11y test routes extended: '/tamar-festival-dead-sea' added to both ROUTES arrays.
 Gate: pnpm check 0 errors | build 1998 pages (+1 from 1997) | 3115/3115 e2e+a11y PASS (31.3m full suite, 2 workers).
 Merge: squash-committed dd5b4735; pushed to origin/master. CI in_progress at state-write (normal).
+
+## 2026-08-16T04:45Z · iter 1263 · BUILD (technical) · technical-freshness-oct2026
+What: Mini-batch of 3 XS technical/freshness updates shipped under slug technical-freshness-oct2026:
+(1) airlines-flying-israel-2026.md: Added "Israir Asia/India expansion (announced, pending approval)" bullet to Key Changes section — routes to DEL/BOM/NRT/HAN/BKK/HKT; India routes pending India DGCA regulatory clearance; Tokyo/SE Asia in more advanced planning stage; honest no-confirmed-date framing; check israir.com.
+(2) israel-for-indian-travelers.md: Added "Watch this space — Israir direct routes" callout under flights section; Israir planned DEL+BOM direct routes pending DGCA approval; updatedAt → 2026-08-16.
+(3) air-haifa-haifa-airport-guide.md: Added two Planning-notes bullets — runway extension project in planning (not yet under construction; would enable longer-haul routes to Europe/Gulf) + winter 2026 traffic ~40% higher than winter 2025; updatedAt → 2026-08-16.
+Also closed galilee-culinary-institute-oct2026 as already-covered — guide already fully documented October 2026 academic year launch in body, FAQ, and practical info sections.
+Gate: pnpm check 0 errors | build 1998 pages (unchanged) | 21/21 targeted e2e+a11y PASS (18s).
+Merge: squash-committed 720eba75; pushed to origin/master. CI in_progress at state-write (normal).
