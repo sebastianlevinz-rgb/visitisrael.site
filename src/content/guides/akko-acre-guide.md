@@ -111,6 +111,8 @@ A taxi from the Old City takes about ten minutes. If you are combining Akko with
 
 **Caesarea (60 km south)** — the Roman theatre, Crusader walls and Herodian harbour ruins of [Caesarea](/caesarea) pair well on a longer road-trip day along the northern coast.
 
+**Acco Festival of Alternative Israeli Theatre (annual, Sukkot Hol HaMoed)** — every year during Sukkot, the Old City transforms into the stage for Israel's largest fringe theatre festival: 300,000 visitors, 280+ performances, fire and street theatre in the very alleys you are walking now. The Knights' Halls become intimate theatre venues; the courtyards host the Mango outdoor concerts. See the [Acco Festival guide](/akko-fringe-theatre-festival) for 2026 dates, tickets, and accommodation advice.
+
 **Nahal Kziv water hike (45 min east)** — a forested limestone canyon in the hills east of Akko with clear pools, small waterfalls and ancient water mills, flowing October–May. One of the best water hikes in northern Israel and a natural pairing with an Akko day for drivers. See the [water hiking Israel guide](/water-hiking-israel) for trail details and what to bring.
 
 **Yam l'Yam multi-day trail (start point)** — Akko (specifically Achziv, 4 km north of Nahariya) is the Mediterranean starting point of the Yam l'Yam "Sea to Sea" trail — an 89 km walk through Upper Galilee ending at the Sea of Galilee. Spending a day in Akko before setting out on the trail on Day 1 is the standard approach. See the [Yam l'Yam hiking guide](/yam-lyam-sea-to-sea-hike) for stage breakdown, accommodation and transport logistics.

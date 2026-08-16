@@ -1363,6 +1363,7 @@ const ROUTES = [
   '/tamar-festival-dead-sea',
   '/jerusalem-beer-festival',
   '/sukkot-in-tel-aviv',
+  '/akko-fringe-theatre-festival',
 ];
 
 for (const route of ROUTES) {
