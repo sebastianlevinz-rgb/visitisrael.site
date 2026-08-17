@@ -99,7 +99,7 @@ No direct flights exist from Australia. New for 2026: **Arkia** launched the fir
 
 Direct service between South America and Israel has historically been limited to occasional charters, but **El Al** is launching a scheduled TLV–Buenos Aires Ezeiza (EZE) route from **29 November 2026** — the first-ever regular direct connection between Israel and South America. Argentina has a Jewish community of roughly 180,000–200,000, making it the largest in South America, and the route targets diaspora family travel as well as the broader Argentine tourist market.
 
-Verify the current schedule at el-al.com before booking, as launch-date service can be subject to adjustment. Travelers from other South American cities (São Paulo, Rio, Santiago) will continue to connect via European hubs (most commonly Madrid or Amsterdam) or via Miami and New York on a two-leg itinerary to TLV.
+Verify the current schedule at el-al.com before booking, as launch-date service can be subject to adjustment. **El Al also operates a direct nonstop service between Tel Aviv and São Paulo Guarulhos (GRU)** — verify the current schedule and frequency at elal.com, as days of operation vary by season. Travelers from São Paulo on the El Al GRU–TLV direct can expect approximately 11 hours of flight time. From Rio de Janeiro (GIG) and other Brazilian cities, the most popular connecting options are TAP Portugal via Lisbon, LATAM via Madrid, or Turkish Airlines via Istanbul. Travelers from Santiago (Chile), Bogotá, Lima and other South American cities continue to route via European hubs or Miami/New York. See the [Israel for Brazilian travelers guide](/israel-for-brazilian-travelers) for Brazil-specific flight options, ETA-IL entry and practical tips.
 
 ## How far in advance to book
 
