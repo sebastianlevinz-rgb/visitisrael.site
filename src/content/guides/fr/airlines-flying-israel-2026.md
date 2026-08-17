@@ -3,7 +3,7 @@ title: 'Compagnies vers Israël 2026 : état actuel et suspensions'
 description: "Compagnies vers Ben Gourion (TLV) : tableau des transporteurs actifs, suspendus et en reprise — mis à jour août 2026."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-08-15
+updatedAt: 2026-08-17
 ctaHeading: 'Comparez les tarifs actuels vers Tel Aviv'
 affiliateCtas:
   - partner: skyscanner
@@ -60,7 +60,7 @@ faqs:
 | **Eurowings** | Hambourg HAM, Düsseldorf DUS | Nouvelles liaisons ; reprise mi-juillet 2026 (filiale low-cost du groupe Lufthansa) |
 | **airBaltic** | Riga RIX | Reprise juillet 2026 ; code-share El Al couvre les connexions baltiques/nordiques |
 | **Wizz Air** | London Luton (LTN), Budapest (BUD), Vienne (VIE), Bucarest (OTP), Bratislava (BTS, dès mai 2026), Milan MXP (jusqu'à 14×/semaine été 2026), Rome (FCO), Naples (NAP), Palerme (PMO), Venise (VCE) et autres | Hub TLV complet lancé printemps 2026 avec appareils basés — ~21 routes actives, objectif ~50. Inclut vol intérieur TLV↔Ramon (ETH). Tarifs de base hors bagages — comparer le prix total sur wizzair.com |
-| **Arkia** | Málaga AGP, Tokyo Narita NRT (oct. 2026) | La nouvelle liaison Japon d'Arkia ouvre la première passerelle directe d'Israël vers l'Asie de l'Est |
+| **Arkia** | Málaga AGP, Hanoï HAN (depuis jan. 2026, appareils en leasing), Tokyo Narita NRT (oct. 2026) | Hanoï lancé le 5 janvier 2026 via appareils non-israéliens en leasing — seule liaison directe TLV–Vietnam ; liaison Japon (oct. 2026) ouvre la passerelle Asie de l'Est |
 | **Aegean** | Athènes ATH et aéroports des îles grecques | Idéal pour les combinés Israël–Grèce |
 | **Austrian Airlines** | Vienne VIE | Hub de correspondance pour l'Europe centrale et orientale |
 
@@ -98,6 +98,7 @@ faqs:
 - **Delta ATL–TLV** (15 avril 2026) : Atlanta–Tel Aviv 3×/semaine (mer./ven./dim.) sur A350-900. Deuxième porte d'entrée américaine de Delta après JFK.
 - **Israir JFK–TLV** (août 2026) : premier transporteur low-cost américain en direct depuis Israël, en concurrence directe avec El Al sur les tarifs.
 - **El Al SFO–TLV** (octobre 2026) : premier service direct côte Ouest États-Unis–Israël.
+- **Arkia TLV–HAN** (janvier 2026) : premier vol direct Israël–Vietnam, lancé le 5 janvier 2026 via appareils non-israéliens en leasing — seule liaison directe TLV–Hanoï. El Al avait annoncé une liaison TLV–HAN mais l'a **annulée le 13 août 2026** après refus des autorités de sécurité israéliennes d'approuver la route pour des appareils et équipages israéliens. Arkia (via appareils en leasing) n'est pas concernée.
 - **Arkia TLV–NRT** (octobre 2026) : premier service direct Israël–Japon, ouvrant l'itinéraire vers l'Asie de l'Est.
 - **El Al TLV–EZE** (29 novembre 2026) : premier service direct schedulé Israël–Argentine, ciblant les voyages de la communauté juive sud-américaine.
 - **Eurowings HAM/DUS** (juillet 2026) : nouvelles liaisons low-cost allemandes.

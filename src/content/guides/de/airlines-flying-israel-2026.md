@@ -3,7 +3,7 @@ title: "Fluggesellschaften nach Israel 2026: Aktueller Stand und Streichungen"
 description: "Airlines nach Ben Gurion (TLV): Tabelle aktiver, gestrichener und wiederkehrender Verbindungen — aktualisiert August 2026."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planung
-updatedAt: 2026-08-15
+updatedAt: 2026-08-17
 ctaHeading: "Aktuelle Tarife nach Tel Aviv vergleichen"
 affiliateCtas:
   - partner: skyscanner
@@ -60,7 +60,7 @@ faqs:
 | **Eurowings** | Hamburg HAM, Düsseldorf DUS | Neue Strecken; Wiederaufnahme Mitte Juli 2026 (Billigflug-Tochter der Lufthansa Group) |
 | **airBaltic** | Riga RIX | Wiederaufnahme Juli 2026; El Al Code-Share deckt baltische/nordische Anschlüsse ab |
 | **Wizz Air** | London Luton (LTN), Budapest (BUD), Wien (VIE), Bukarest (OTP), Bratislava (BTS, ab Mai 2026), Mailand MXP (bis zu 14×/Woche Sommer 2026), Rom (FCO), Neapel (NAP), Palermo (PMO), Venedig (VCE) u. a. | Vollständiger TLV-Hub seit Frühjahr 2026 mit stationierten Flugzeugen — ca. 21 aktive Strecken, Ziel ~50. Inkl. Inlandsflug TLV↔Ramon (ETH). Grundtarife ohne Gepäck — Gesamtpreis auf wizzair.com vergleichen |
-| **Arkia** | Málaga AGP, Tokio Narita NRT (Okt. 2026) | Arkias neue Japan-Strecke eröffnet Israels erste Direktverbindung nach Ostasien |
+| **Arkia** | Málaga AGP, Hanoi HAN (seit Jan. 2026, geleaste Maschinen), Tokio Narita NRT (Okt. 2026) | Hanoi gestartet 5. Januar 2026 via geleaste Flugzeuge (nicht-israelisch registriert) — einzige direkte TLV–Vietnam-Verbindung; Japan-Strecke (Okt. 2026) öffnet den Ostasien-Gateway |
 | **Aegean** | Athen ATH und griechische Insel-Flughäfen | Ideal für Israel-Griechenland-Kombireisen |
 | **Austrian Airlines** | Wien VIE | Umsteigedrehkreuz für Mittel- und Osteuropa |
 
@@ -98,6 +98,7 @@ faqs:
 - **Delta ATL–TLV** (15. April 2026): Atlanta–Tel Aviv 3×/Woche (Mi/Fr/So) auf A350-900. Deltas zweites US-Drehkreuz neben JFK.
 - **Israir JFK–TLV** (August 2026): erste israelische Billigfluglinie direkt aus den USA, in direktem Wettbewerb mit El Al bei den Tarifen.
 - **El Al SFO–TLV** (Oktober 2026): erster Direktflug Westküste USA–Israel.
+- **Arkia TLV–HAN** (Januar 2026): erster Israel–Vietnam-Direktflug, gestartet 5. Januar 2026 via geleaste nicht-israelisch registrierte Flugzeuge — derzeit die einzige direkte TLV–Hanoi-Verbindung. El Al plante ebenfalls eine TLV–HAN-Route, **strich sie jedoch am 13. August 2026**, nachdem israelische Sicherheitsbehörden die Genehmigung für israelische Flugzeuge und Crews auf dieser Strecke verweigerten. Arkia (via Leasingflugzeuge) ist davon nicht betroffen.
 - **Arkia TLV–NRT** (Oktober 2026): erster Israel–Japan-Direktflug, der die Ostasien-Route öffnet.
 - **El Al TLV–EZE** (29. November 2026): erster geplanter Israel–Argentinien-Direktflug, mit Fokus auf südamerikanisch-jüdische Gemeinschaftsreisen.
 - **Eurowings HAM/DUS** (Juli 2026): neue günstige deutsche Strecken.

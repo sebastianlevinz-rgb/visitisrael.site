@@ -1,9 +1,9 @@
 ---
 title: 'Airlines Flying to Israel 2026: Current Status & Suspensions'
-description: 'Which airlines fly to Ben Gurion Airport (TLV) right now? Active carriers, suspended routes and returning airlines — updated 15 August 2026.'
+description: 'Which airlines fly to Ben Gurion Airport (TLV) right now? Active carriers, suspended routes and returning airlines — updated 17 August 2026.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
-updatedAt: 2026-08-15
+updatedAt: 2026-08-17
 ctaHeading: 'Compare current fares to Tel Aviv'
 affiliateCtas:
   - partner: skyscanner
@@ -31,7 +31,7 @@ faqs:
     answer: 'No. Emirates permanently suspended all Tel Aviv service in 2024 and has not announced any restart. For Dubai connections, use FlyDubai, which operates frequent direct DXB–TLV flights. For Abu Dhabi, Etihad operates up to 6 daily AUH–TLV flights as of mid-2026.'
 ---
 
-**Last verified: 15 August 2026.** The airlines-to-Israel landscape has changed significantly since 2024. This page tracks which carriers are actively flying, which are suspended, and which are due to return. The aviation situation continues to evolve — **always verify directly with the airline before purchasing tickets.**
+**Last verified: 17 August 2026.** The airlines-to-Israel landscape has changed significantly since 2024. This page tracks which carriers are actively flying, which are suspended, and which are due to return. The aviation situation continues to evolve — **always verify directly with the airline before purchasing tickets.**
 
 ---
 
@@ -62,7 +62,7 @@ faqs:
 | **Eurowings** | Hamburg HAM, Düsseldorf DUS | New routes; resumed mid-July 2026 (Lufthansa Group LCC) |
 | **airBaltic** | Riga RIX | Resumed July 2026; El Al codeshare covers Baltic/Nordic connections |
 | **Wizz Air** | London Luton (LTN), Budapest (BUD), Vienna (VIE), Bucharest (OTP), Bratislava (BTS, from May 2026), Milan MXP (up to 14×/week summer 2026), Rome (FCO), Naples (NAP), Palermo (PMO), Venice (VCE), and others | Full TLV hub launched spring 2026 with based aircraft — Israel's largest budget-carrier presence. ~21 active routes, targeting ~50 long-term. Includes TLV↔Ramon Airport (ETH) domestic service. Base fares exclude luggage — compare total price at wizzair.com |
-| **Arkia** | Málaga AGP, Tokyo Narita NRT (Oct 2026) | Arkia's new Japan route opens Israel's first direct East Asia gateway |
+| **Arkia** | Málaga AGP, Hanoi HAN (since Jan 2026, leased aircraft), Tokyo Narita NRT (Oct 2026) | Hanoi launched January 5, 2026 via leased non-Israeli aircraft — the only direct TLV–Vietnam service; Japan route (Oct 2026) opens full East Asian gateway |
 | **Israir** | Madrid MAD | Launching 25 October 2026, 3×/week on A320 — Israel's first low-cost TLV–Spain service; verify at israir.com |
 | **Aegean** | Athens ATH and Greek island airports | Good for combined Israel–Greece trips |
 | **Austrian Airlines** | Vienna VIE | Connecting hub for Central and Eastern Europe |
@@ -102,6 +102,7 @@ faqs:
 **New routes launched in 2026:**
 - **Israir JFK–TLV** (August 2026): Israel's first low-cost US carrier nonstop, directly competing with El Al on fares.
 - **El Al SFO–TLV** (October 2026): First direct West Coast US–Israel service.
+- **Arkia TLV–HAN** (January 2026): First-ever direct Israel–Vietnam nonstop, launched January 5, 2026, operated via leased non-Israeli-registered aircraft — currently the only direct TLV–Hanoi connection. El Al separately announced a TLV–HAN route but **cancelled it on August 13, 2026** after Israeli security authorities declined to grant approvals for Israeli aircraft and crews on this route; Arkia (using leased aircraft) is unaffected and continues operating.
 - **Arkia TLV–NRT** (October 2026): First direct Israel–Japan service, opening East Asian routing.
 - **El Al TLV–EZE** (29 November 2026): First scheduled direct Israel–Argentina service, targeting South American Jewish community travel.
 - **Eurowings HAM/DUS** (July 2026): New German LCC routes.
@@ -112,7 +113,7 @@ faqs:
 - **Delta ATL–TLV** (April 2026): Atlanta–Tel Aviv resumed April 15, 2026, 3×/week (Wed/Fri/Sun) on A350-900. Operating now — verify current schedule at delta.com.
 - **Delta BOS–TLV** (October 2026): Boston–Tel Aviv confirmed to launch October 24, 2026 (daily, A330-900neo) — not yet operating; verify at delta.com before booking.
 - **Israir TLV–MAD** (scheduled 25 October 2026): Tel Aviv–Madrid 3×/week on A320. Israel's first low-cost European route outside North America — verify at israir.com before booking.
-- **Israir Asia/India expansion (announced, pending approval):** Israir has announced planned routes from Tel Aviv to Delhi (DEL), Mumbai (BOM), Tokyo Narita (NRT), Hanoi (HAN), Bangkok (BKK) and Phuket (HKT). India routes (DEL/BOM) require DGCA (India's Directorate General of Civil Aviation) regulatory clearance before launch; Tokyo and Southeast Asia routes are in a more advanced planning stage. No confirmed launch dates as of mid-August 2026 — monitor israir.com for the latest status.
+- **Israir Asia/India expansion (announced, pending approval):** Israir has announced planned routes from Tel Aviv to Delhi (DEL), Mumbai (BOM), Tokyo Narita (NRT), Hanoi (HAN), Bangkok (BKK) and Phuket (HKT). India routes (DEL/BOM) require DGCA (India's Directorate General of Civil Aviation) regulatory clearance before launch; Southeast Asia routes (HAN, BKK, HKT) and Tokyo (NRT) are in a more advanced planning stage. Note: Arkia already operates TLV–HAN via leased aircraft (since January 2026), and El Al's planned HAN route was cancelled August 13, 2026. No confirmed Israir launch dates as of mid-August 2026 — monitor israir.com for the latest.
 
 **Wizz Air TLV hub (spring 2026):** Wizz Air launched a full Tel Aviv base with based aircraft — the first Wizz Air hub in Israel. This enabled rapid network expansion to approximately 21 routes by summer 2026, with a long-term target of ~50 routes from TLV. New routes added in 2026 include Bratislava (BTS, May 2026), Naples (NAP), Palermo (PMO), and Venice (VCE); Milan MXP frequency was doubled to up to 14 flights per week for summer 2026. Additionally, a new domestic route between Tel Aviv Ben Gurion (TLV) and Ramon Airport (ETH/Eilat area) launched — the first domestic Wizz Air service in Israel, offering a budget option for reaching the Negev. Verify the current route list and schedules at wizzair.com, as hub expansion routes may be added or adjusted on short notice.
 
