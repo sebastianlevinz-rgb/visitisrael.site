@@ -2633,3 +2633,6 @@ New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-ho
 
 ## iter1298 · BUILD-seo-content+monetization · israel-for-georgian-travelers · 9a9a848f
 - [SHIPPED iter1298 → 9a9a848f] New /israel-for-georgian-travelers (~1,200w EN): ETA-IL entry (Georgia visa-exempt); Georgian Airways TBS→TLV direct (~2.5–3h); Monastery of the Cross visitor guide (5th–6th century Georgian Orthodox heritage, Valley of the Cross west Jerusalem, Shota Rustaveli association, Greek Orthodox Patriarchate since 17th century; Mon–Fri ~10:00–17:00); Georgian Jewish diaspora (100k–120k; Ashdod, Ramle, Netanya, Holon, Beersheba); Georgian–Israeli wine culture parallels; GEL not exchangeable; Type C/F → Type H adapter; Georgian UHC not valid abroad. 3 CTAs: GYG + Booking.com + DiscoverCars. 6 FAQs; 7 cross-links. Build 2016 (+1). 2/2 targeted smoke+a11y PASS.
+
+## iter1302 — israel-for-nepali-travelers · 9230eec6
+New /israel-for-nepali-travelers (~1,200w EN). VISA-CRITICAL: Nepal NOT on ETA-IL list; B/2 Tourist Visa via Embassy of Israel in Kathmandu (5-15 working days). No direct KTM→TLV flights (connect DXB/DOH/AUH/BKK, ~9-12h). Pilgrimage angle: ~2M Nepali Christians + Buddhist interfaith context. NPR not exchangeable; Type C/D → Type H adapter; no health reciprocity. 3 CTAs; 6 FAQs; 6 cross-links.

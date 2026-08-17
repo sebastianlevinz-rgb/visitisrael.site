@@ -18363,3 +18363,9 @@ What: New /jacob-ladder-festival (~1,100w EN) — Israel's longest-running folk 
 Gate: 0 check errors | build 2017 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Ship: squash-merged to master 5f575057, pushed to origin/master. CI in_progress at state-write (normal pattern).
 Next: iter1302 = BUILD (1302%5=2 → monetization rotation).
+
+## 2026-08-17T20:45Z · iter 1302 · BUILD-seo-content+monetization · israel-for-nepali-travelers
+What: New /israel-for-nepali-travelers (~1,200w EN). VISA-CRITICAL content gap — Nepal is NOT on Israel's ETA-IL eligible countries list; Nepali passport holders require a B/2 Tourist Visa through Embassy of Israel in Kathmandu (5-15 working days; passport 6m+, bank statements, hotel confirmation, return ticket, travel insurance; apply 4-6 weeks ahead). No direct KTM→TLV flights; connect via Dubai (Flydubai/Emirates), Doha (Qatar Airways), Abu Dhabi (Etihad) or Bangkok (~9-12h). ~2M Nepali Christians (Catholic + evangelical Protestant) → Holy Land pilgrimage circuit (Holy Sepulchre, Via Dolorosa, Bethlehem, Yardenit, Nazareth, Sea of Galilee); Buddhist interfaith peace-pilgrimage context. NPR not exchangeable (bring USD/EUR or ATM NIS). Type C/D → Type H adapter (230V compatible). No Nepal-Israel health reciprocity. 3 CTAs (GYG Jerusalem tour, Booking.com, DiscoverCars). 6 FAQs; 6 cross-links: visa-information, christian-pilgrimage-holy-land, cheap-flights-to-israel, is-israel-safe, israel-cost-budget, first-time-in-israel. Smoke + a11y tests +1 each.
+Gate: 0 check errors | build 2018 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: committed to master 9230eec6, pushed to origin/master. CI in_progress at state-write (normal pattern).
+Next: iter 1303 = BUILD (1303%5=3 → BUILD; tools/technical rotation).
