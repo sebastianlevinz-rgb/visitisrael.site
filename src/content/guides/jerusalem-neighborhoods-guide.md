@@ -72,9 +72,9 @@ The Jewish Quarter occupies the southern section of the Old City and was largely
 
 **Stay here if:** proximity to the Western Wall and full Old City immersion are your primary goals. Not suited to visitors wanting nightlife or a diverse restaurant scene — the quarter observes Shabbat strictly and closes early.
 
-**Key sites:** Western Wall Plaza; Hurva Synagogue; Cardo; Burnt House Museum; Ramparts Walk access from Zion Gate.
+**Key sites:** Western Wall Plaza; Hurva Synagogue; Cardo; Burnt House Museum; [Ramparts Walk](/jerusalem-ramparts-walk) access from Zion Gate (south route end-point).
 
-More: [Western Wall visitor guide](/jerusalem/western-wall) · [3 Days in Jerusalem itinerary](/itineraries/3-days-in-jerusalem) · [Jerusalem Old City walking tour](/jerusalem-old-city-walking-tour).
+More: [Western Wall visitor guide](/jerusalem/western-wall) · [Jerusalem Ramparts Walk guide](/jerusalem-ramparts-walk) · [3 Days in Jerusalem itinerary](/itineraries/3-days-in-jerusalem) · [Jerusalem Old City walking tour](/jerusalem-old-city-walking-tour).
 
 ---
 

@@ -1653,6 +1653,7 @@ const ROUTES = [
   '/israel-drone-laws-guide',
   '/israel-working-holiday-visa',
   '/fattal-rock-festival-eilat',
+  '/jerusalem-ramparts-walk',
 ];
 
 for (const route of ROUTES) {
