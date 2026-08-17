@@ -18344,3 +18344,16 @@ Audit findings — 5 fix groups applied:
 Gate: 0 check errors | build 2016 pages (unchanged) | 56/56 targeted smoke+a11y PASS | 1/1 link check PASS (dead link fixed enabled this to pass).
 Ship: committed 80f9e1b4, pushed to origin/master. CI in_progress at state-write (normal pattern).
 Next: iter 1300 = RESEARCH (1300%5==0 → 290th research pass).
+
+## 2026-08-17T19:10Z · iter 1300 · RESEARCH · research-1300-iter290-festivals-country-guides
+What: 290th research pass (1300%5==0). Searched touristisrael.com, carnifest.com, Jerusalem Post, ITN, Jerusalem Tourism, Carnifest, jlfestival.com, Israel Travel Advisor, wineindustryadvisor.com, travelandtourworld.com, JPost for competitor gaps and new content opportunities. De-duped against all existing .loop/ files and src/content/guides/ directory. No code changes.
+6 net-new BACKLOG items confirmed:
+  1. jacob-ladder-festival — Jacob's Ladder Folk Music Festival, Kibbutz Kfar Blum; Dec 31-Jan 2 + spring; jlfestival.com; confirmed recurring; zero editorial guide anywhere.
+  2. golan-cherries-festival — Eretz HaGolan annual festival May-June; cherry picking + wine + culture; Jerusalem Post confirmed.
+  3. new-years-eve-israel — Sylvester/Dec 31 guide; touristisrael.com has 2 dedicated pages for this content; not covered by our site.
+  4. ba-li-galil-festival — 4th annual Ba Li Galil culinary festival, Western Galilee; Jerusalem Post covered; confirmed recurring.
+  5. israel-for-nepali-travelers — VISA-CRITICAL: Nepali citizens require B/2 Tourist Visa, NOT ETA-IL; confirmed via hinterlandtravel.com + Sherpa; 30M population.
+  6. israel-festival-jerusalem — The Israel Festival (since 1961), annual performing arts July-Aug; touristisrael.com + israel-festival.org; zero editorial guide.
+Items confirmed NOT in BACKLOG or DONE: all 6 above.
+Items confirmed in DONE/SITE (no action): israel-for-nordic-travelers (iter756 covers Sweden/Norway/Denmark/Finland combined), jerusalem-festival-of-light (guide exists), red-sea-guitar-festival-eilat (guide exists), israel-for-hungarian-travelers (already in BACKLOG iter1270), israel-for-romanian-travelers (already in BACKLOG iter1270).
+Prod: no deploy (research-only). Next: iter1301 = BUILD (1301%5=1, seo-content rotation).
