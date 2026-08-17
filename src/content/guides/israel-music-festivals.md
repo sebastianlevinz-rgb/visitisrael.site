@@ -295,6 +295,26 @@ The Dead Sea En Bokek resort strip (25–35 km east via Route 31) is the most pr
 
 ---
 
+## Jacob's Ladder Folk Music Festival
+
+**Kibbutz Kfar Blum, Upper Galilee · December 31–January 2 (winter) and May (spring) · Ticketed (All-In)**
+
+Jacob's Ladder is Israel's longest-running folk and world music festival — described by its organisers as "Israel's Friendliest Music Festival" — held twice yearly at the Pastoral Hotel, Kibbutz Kfar Blum, on the banks of the Jordan River in the Upper Galilee. The festival's musical scope is deliberately broad: folk, bluegrass, world music, Irish jigs, country rock, blues, and bagpipes.
+
+The **All-In Ticket** covers all main stage performances, music workshops, wellness sessions (Tai Chi, Chi Gong, yoga), guided nature walks in the Hula Valley, jam circles, and children's activities. Unlike the large-scale commercial festivals on this page, Jacob's Ladder is an intimate, participatory gathering — informal sessions and workshop music are as central as the main stage programme.
+
+**Two annual editions**:
+- **Winter edition**: held over New Year's Eve (Dec 31–Jan 2 approximately); a unique alternative to urban countdown parties — folk music in the Jordan Valley on New Year's Eve; Upper Galilee nights are cold (5–10°C), so pack layers
+- **Spring edition**: typically May; Upper Galilee in its greenest season; warm days (20–26°C)
+
+Verify current dates and artist lineup at [jlfestival.com](https://www.jlfestival.com) — both are announced in the months before each edition.
+
+**Full guide:** [Jacob's Ladder Festival visitor guide](/jacob-ladder-festival) — both editions, Kfar Blum setting, getting there from Tel Aviv and Haifa, accommodation options, and what to pack for winter Galilee.
+
+**Cross-link:** [3 days in Galilee](/3-days-in-galilee) · [Galilee region guide](/galilee) · [Kibbutz hotels Israel](/kibbutz-hotels-israel) · [Israel in December](/israel-in-december)
+
+---
+
 ## Purim in Tel Aviv: the world's most colourful street party
 
 **Dizengoff Square, Tel Aviv · February or March · Free**

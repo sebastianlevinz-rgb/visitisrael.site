@@ -91,7 +91,7 @@ The Upper and Lower Galilee have several smaller kibbutz guesthouses that offer 
 
 **Kibbutz Hagoshrim** (Upper Galilee, near the Hermon stream / Banias) has a guesthouse with access to the Ayun Nature Reserve and easy reach of the Golan border region. Chalets and garden rooms; swimming pool; suitable for families.
 
-**Kibbutz Kfar Blum** (Hula Valley, northeast Galilee) is set in the fertile Hula nature-reserve corridor with birding-friendly grounds and an outdoor swimming pool. The Hula Valley autumn cranes migration (October–November) draws wildlife tourists to this area; Kfar Blum is the natural base.
+**Kibbutz Kfar Blum** (Hula Valley, northeast Galilee) is set in the fertile Hula nature-reserve corridor with birding-friendly grounds and an outdoor swimming pool. The Hula Valley autumn cranes migration (October–November) draws wildlife tourists to this area; Kfar Blum is the natural base. Kfar Blum is also the home of the [Jacob's Ladder Folk Music Festival](/jacob-ladder-festival) — held twice a year (winter New Year's Eve edition and spring May edition) at the Pastoral Hotel on the kibbutz grounds; the hotel fills months ahead for the winter edition.
 
 **Price range for Galilee guesthouses:** ₪550–900/room/night, generally including breakfast.
 

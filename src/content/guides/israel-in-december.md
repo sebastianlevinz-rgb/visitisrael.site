@@ -196,7 +196,7 @@ Tel Aviv is the most relaxed major destination in December. The summer frenzy is
 
 **Greek Orthodox Christmas** (January 6–7): Church of the Nativity, Bethlehem. Smaller, less crowded than the Latin Christmas. Also celebrated in churches across the Galilee and Jerusalem.
 
-**New Year''s Eve** (December 31): Tel Aviv beachfront, Dizengoff Square, Namal (port) — public celebrations. Book restaurants 3–4 weeks ahead.
+**New Year''s Eve** (December 31): Tel Aviv beachfront, Dizengoff Square, Namal (port) — public celebrations. Book restaurants 3–4 weeks ahead. An alternative: the [Jacob's Ladder Folk Music Festival](/jacob-ladder-festival) at Kibbutz Kfar Blum in the Upper Galilee — a folk and world music gathering spanning New Year's Eve on the banks of the Jordan River. Upper Galilee nights are cold (5–10°C); book accommodation at the Pastoral Hotel or nearby kibbutz guesthouses well ahead.
 
 HONESTY: Hanukkah dates shift annually and can fall partly or entirely in November in some years. Holiday of Holidays programming changes annually. Always verify exact dates for all December events before planning travel — never assume fixed December dates for any Hebrew calendar holiday.
 

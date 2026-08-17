@@ -1657,6 +1657,7 @@ const ROUTES = [
   '/jerusalem-ramparts-walk',
   '/arad-festival-guide',
   '/israel-for-georgian-travelers',
+  '/jacob-ladder-festival',
 ];
 
 for (const route of ROUTES) {
