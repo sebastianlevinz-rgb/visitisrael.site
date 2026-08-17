@@ -18326,3 +18326,9 @@ Gate: 0 check errors | build 2015 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Ship: squash-merged to master c42789ba, pushed to origin/master.
 Prod: CI in_progress at state-write (normal pattern). Pre-existing CI failure on prior commit a4c382e5 (not caused by this change; pure content addition).
 Next: iter 1298 = BUILD (1298%5=3 → BUILD; aim tools/technical or monetization, seo-content has dominated recent iters).
+
+## 2026-08-17T16:42Z · iter 1298 · BUILD (seo-content+monetization) · israel-for-georgian-travelers
+What: New /israel-for-georgian-travelers (~1,200w EN) — comprehensive planning guide for Georgian passport holders. ETA-IL entry requirements (Georgia visa-exempt; ₪25; 72h advance; iaa.gov.il); Georgian Airways TBS→TLV direct (~2.5–3h) + Turkish Airlines via IST fallback; Monastery of the Cross visitor deep-dive (Valley of the Cross west Jerusalem — 5th–6th century Georgian Orthodox heritage site, Shota Rustaveli association, Georgian-language frescoes; passed to Greek Orthodox Patriarchate 17th century; Mon–Fri ~10:00–17:00, dress code); Georgian Jewish diaspora community map (100k–120k Mountain Jews; Ashdod largest with Georgian Quarter, Ramle, Netanya, Holon, Beersheba); Georgian–Israeli wine culture parallels (qvevri/Saperavi/Rkatsiteli → Galilee/Golan Heights/Judean Hills modern viticulture; cross-link israel-wine-wineries); GEL not exchangeable (bring USD/EUR or ATM NIS); Type C/F → Type H adapter (230V compatible); Georgian UHC not valid abroad; SIM options; embassy contacts. 3 CTAs: GYG Jerusalem private tour, Booking.com, DiscoverCars. 6 FAQs; 7 cross-links all verified. 2 test routes added (smoke + a11y).
+Gate: pnpm check 0 errors | build 2016 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Merge: squash-merged to master 9a9a848f, pushed to origin/master.
+CI: in_progress at state-write (normal pattern; Vercel auto-deploys on master push).
