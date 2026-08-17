@@ -1650,6 +1650,7 @@ const ROUTES = [
   '/israel-for-thai-travelers',
   '/red-sea-guitar-festival-eilat',
   '/israel-for-brazilian-travelers',
+  '/israel-drone-laws-guide',
 ];
 
 for (const route of ROUTES) {
