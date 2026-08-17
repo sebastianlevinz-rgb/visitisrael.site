@@ -18242,3 +18242,9 @@ What: Fixed Rosh Hashanah 5787 dates that were wrong throughout rosh-hashanah-in
 Gate: 0 check errors | build 2008 pages (unchanged) | 10/10 targeted smoke+a11y PASS.
 Ship: squash-merged to master af9a12fc, pushed.
 Prod: CI in_progress at state-write (normal pattern).
+
+## 2026-08-17T04:40Z · iter 1287 · BUILD-seo-content · israel-for-brazilian-travelers
+What: New /israel-for-brazilian-travelers guide (~1,300w EN). P2 item — Brazil = world's 3rd-largest Jewish diaspora (~120k Jews; SP, Rio, Porto Alegre, Recife), largest Catholic nation (125M Catholics), ~50M evangelicals — a major Israel pilgrimage market with ZERO editorial competitor coverage. Key content: ETA-IL (₪25, visa-exempt); El Al GRU→TLV direct nonstop (~11h; verify at elal.com); TAP via Lisbon, LATAM via Madrid alternates; full Catholic pilgrimage circuit (Via Dolorosa, Holy Sepulchre, Nativity Bethlehem, Sea of Galilee, Yardenit, Basilica Annunciation Nazareth); evangelical angle (Western Wall, Beatitudes, Capernaum, Masada); Jewish heritage (Florentin TLV Brazilian-Israeli community, Yad Vashem); CRITICAL voltage safety: Brazil has 127V (São Paulo, Rio, Curitiba, Brasília) AND 220V (Belo Horizonte, Recife, Manaus) cities vs Israel 230V — 127V-city residents need converter + Type H adapter for non-dual-voltage devices; Pix/TED/Boleto not accepted (Visa/Mastercard + Nubank works); 6 FAQs; 3 CTAs (GYG Christian pilgrimage + Booking + SafetyWing). Bidirectional: christian-pilgrimage-holy-land (Brazil callout added at end), cheap-flights-to-israel (GRU direct updated + cross-link to new guide). smoke+a11y tests +1 each.
+Gate: 0 check errors | build 2009 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: squash-merged to master c1ae1856, pushed.
+Prod: CI in_progress at state-write (normal pattern).

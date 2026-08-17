@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1286
-- lastMode: BUILD-technical
-- lastItem: rosh-hashanah-september-date-consistency
-- lastResult: iter1286 BUILD-technical — rosh-hashanah-september-date-consistency SHIPPED af9a12fc. Corrected Rosh Hashanah 5787 dates throughout rosh-hashanah-in-israel.md (off by 1 day throughout: was "Wed Sep 10 – Fri Sep 12" → correct "Fri Sep 11 – Sun Sep 13"; was "Sukkot Sat Sep 26" → correct "Fri Sep 25 eve"; transport logistics dates corrected; shofar/Shabbat note was wrong — 2026 Day 1 FALLS on Shabbat, shofar postponed to Day 2 only — prior note said the opposite). israel-in-september.md: one parenthetical fixed ("eve of Sep 11" was "eve of Sep 10"). Gate: 0 check errors | build 2008 pages (unchanged) | 10/10 targeted smoke+a11y PASS. CI in_progress (normal).
+- iteration: 1287
+- lastMode: BUILD-seo-content
+- lastItem: israel-for-brazilian-travelers
+- lastResult: iter1287 BUILD-seo-content — israel-for-brazilian-travelers SHIPPED c1ae1856. New /israel-for-brazilian-travelers guide (~1,300w EN): P2 item — world's 3rd-largest Jewish diaspora (~120k), largest Catholic nation (125M Catholics), ~50M evangelicals; El Al GRU→TLV direct nonstop (~11h; verify elal.com); TAP via Lisbon, LATAM via Madrid alternates; Catholic pilgrimage circuit (Via Dolorosa, Holy Sepulchre, Nativity, Sea of Galilee, Yardenit, Nazareth Basilica); evangelical angle (Western Wall, Beatitudes, Capernaum, Masada); Jewish heritage (Florentin TLV Brazilian-Israeli community, Yad Vashem); CRITICAL voltage safety note — Brazil has 127V (São Paulo, Rio, Curitiba, Brasília) AND 220V (BH, Recife, Manaus) cities vs Israel 230V — Type H adapter + converter needed for 127V devices; Pix/TED/Boleto not accepted; 6 FAQs; 3 CTAs (GYG Christian pilgrimage + Booking + SafetyWing). Bidirectional: christian-pilgrimage-holy-land (Brazil callout added), cheap-flights-to-israel (GRU direct updated + cross-link). Gate: 0 check errors | build 2009 pages (+1) | 2/2 targeted smoke+a11y PASS. CI in_progress (normal).
 
-- nextRotationCategory: BUILD (1287%5=2 → BUILD; category=seo-content)
+- nextRotationCategory: REVIEW (1288%5=3 → BUILD; but cycle: 1288%5=3 → BUILD; category=tools)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-17T03:38Z
-- branch context: master at af9a12fc; EN=438 (37 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1286): israel-for-brazilian-travelers P2 (monetization/seo-content; El Al direct TLV-GRU — next BUILD category=seo-content fits); israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-austrian-travelers P3 S; israel-for-belgian-travelers P3 S; israel-with-babies-toddlers P3 S.
+- updatedAt: 2026-08-17T04:40Z
+- branch context: master at c1ae1856; EN=439 (38 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1287): israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-austrian-travelers P3 S; israel-for-belgian-travelers P3 S; israel-with-babies-toddlers P3 S; israel-winter-hiking-guide P3 S.
 
 Notes: iter1284 REVIEW — review-1284-guitar-links-thai-honesty SHIPPED f65f243d. Audited iter1281-1283: 3 fixes — removed fabricated rating/reviews from Thai guide CTA (honesty); added guitar festival to eilat-travel-guide events section (bidirectional link); added guitar festival to israel-in-march calendar (bidirectional link). Gate: 0 check errors | build 2008 pages (unchanged) | 19/19 targeted smoke+a11y PASS. Vercel in_progress (normal).
 

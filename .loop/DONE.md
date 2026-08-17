@@ -2604,3 +2604,6 @@ New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-ho
 
 ## iter1286 · BUILD-technical (freshness) · rosh-hashanah-september-date-consistency · af9a12fc
 - [SHIPPED iter1286 → af9a12fc] (technical/freshness, XS) Corrected Rosh Hashanah 5787 dates throughout rosh-hashanah-in-israel.md — holiday was off by 1 day throughout: 1 Tishrei 5787 = Saturday Sep 12 (begins sunset Fri Sep 11, concludes nightfall Sun Sep 13). Fixed: FAQ dates, body dates section, transport logistics, Sukkot date (Fri Sep 25 eve, not Sat Sep 26 eve), and critically the shofar/Shabbat note which was logically reversed (2026 Day 1 falls ON Shabbat → shofar only Day 2). Also fixed israel-in-september.md: one parenthetical "eve of Sep 10" → "eve of Sep 11". Gate: 0 errors | 2008 pages unchanged | 10/10 targeted smoke+a11y PASS. Verified via web search (hebcal.com/chabad.org).
+
+## iter1287 · BUILD-seo-content · israel-for-brazilian-travelers · c1ae1856
+- New /israel-for-brazilian-travelers guide (~1,300w EN): P2 item. Brazil = world's 3rd-largest Jewish diaspora, largest Catholic nation (125M), ~50M evangelicals. El Al GRU→TLV direct; TAP via Lisbon; LATAM via Madrid. Full Catholic + evangelical pilgrimage circuit. Critical 127V/220V voltage safety note for Brazilian cities. Pix/TED/Boleto not accepted. 6 FAQs; 3 CTAs. 2/2 targeted PASS. Build 2009 pages (+1).
