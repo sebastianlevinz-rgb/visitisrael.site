@@ -65,6 +65,10 @@ If you hold a Turkish passport, apply well in advance of your intended travel da
 
 Philippine passport holders are on Israel's visa-exempt list — **no visa application needed**. However, since January 2025, Filipino citizens must obtain an ETA-IL (₪25) at iaa.gov.il at least 72 hours before travel. For the full Filipino-specific guide — flights from Manila, GCash in Israel, PhilHealth abroad, Catholic pilgrimage sites, and OFW-family visit logistics — see our dedicated [Israel for Filipino travelers guide](/israel-for-filipino-travelers).
 
+## Working Holiday Visa (Australia, NZ, Austria, Germany, Czech Republic, South Korea)
+
+Citizens of six countries — Australia, New Zealand, Austria, Germany, Czech Republic, and South Korea — can apply for an Israeli **Working Holiday Visa (WHV)** that permits a stay of up to 12 months with the right to work legally. Unlike a tourist permit, the WHV requires a formal application at the Israeli Embassy in your home country before departure, and allows employment (with a maximum of three months per single employer). It is a genuine work-permitted stay, not an extended tourist visa. For full details — eligibility, the application process, what work is permitted, and how to plan 12 months in Israel — see the [Israel Working Holiday Visa guide](/israel-working-holiday-visa).
+
 ## Before you go
 
 Not sure which category applies to your passport? Use our [Visa & ETA-IL checker](/israel-visa-eta-checker) for an instant result by nationality — covers 150+ countries.

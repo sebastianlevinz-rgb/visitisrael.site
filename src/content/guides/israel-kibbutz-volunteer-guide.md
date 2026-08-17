@@ -118,6 +118,8 @@ For volunteers, the practical experience still includes:
 
 **B/4 Volunteer Visa (over 90 days, or formal programs):** Required for the Kibbutz Ulpan and MASA Israel programs. Apply through the Israeli Embassy or Consulate in your home country. The visa must be issued before you arrive; it cannot be obtained in Israel. Apply 6–8 weeks before your program start date. Your kibbutz or program organiser will provide a letter of invitation.
 
+**Working Holiday Visa (AU, NZ, AT, DE, CZ, KR):** Citizens of Australia, New Zealand, Austria, Germany, Czech Republic, and South Korea have an additional option — the Israeli Working Holiday Visa, which permits a 12-month stay with the legal right to work for any Israeli employer (max 3 months per employer). A kibbutz agricultural stint can be one component of a wider working holiday: 2–3 months on a kibbutz during harvest season, then onward to hospitality or teaching work in Tel Aviv or Eilat. The WHV requires a formal application at the Israeli Embassy in your home country before departure. See the [Israel Working Holiday Visa guide](/israel-working-holiday-visa) for the full eligibility and application details.
+
 **Travel insurance:** Required by most formal programs and strongly recommended for all stays. Your home health insurance does not cover you in Israel. See [Israel travel insurance](/israel-travel-insurance) for options — SafetyWing Nomad Insurance is widely used by kibbutz volunteers for its affordable monthly cost.
 
 ---
