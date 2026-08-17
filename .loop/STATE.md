@@ -1,11 +1,11 @@
 # LOOP STATE
 
-- iteration: 1289
-- lastMode: REVIEW
-- lastItem: review-iter1289-link-fixes
-- lastResult: iter1289 REVIEW — review-iter1289-link-fixes SHIPPED 533f1f22. Audited iter1286 (rosh-hashanah date fix), iter1287 (brazil guide), iter1288 (drone guide). All 15 internal link targets verified ✓. H1 constraints ✓. Honesty ✓ (no fabricated prices). Dates ✓ (RH 5787 Sep 11-13; shofar/Shabbat Sat Day1 note). Found + fixed 3 missing bidirectional links: (1) ben-gurion-airport-guide customs step → drone declaration warning + /israel-drone-laws-guide; (2) israel-photography-tours closing → drone laws context + /israel-drone-laws-guide; (3) jewish-heritage-israel closing → Brazilian diaspora callout + /israel-for-brazilian-travelers. Gate: 0 check errors | build 2010 pages (unchanged) | 22/22 targeted smoke+a11y PASS. CI in_progress (normal).
+- iteration: 1290
+- lastMode: RESEARCH
+- lastItem: research-iter1290-288th-pass
+- lastResult: iter1290 RESEARCH — 288th research pass. 7 net-new BACKLOG items: israel-for-slovak-travelers (Wizz Air BTS→TLV launched May 28 2026, 3x/week, from $85); israel-for-slovenian-travelers (direct LJU→TLV ~6h via Israir/El Al; 2M pop); israel-for-cypriot-travelers (Wizz Air/Tus Airways/Air Haifa, flights from £15; 1.2M pop); israel-for-maltese-travelers (KM Malta Airlines direct MLA→TLV launched May 27 2026, 2x/week, from $207); jerusalem-ramparts-walk (₪25; north+south routes; 1.5h each; extended summer hours to 21:00); israel-working-holiday-visa (bilateral agreements AU/NZ/AT/DE/CZ/KR; high-intent searchers); israel-for-baltic-travelers (Estonia+Latvia+Lithuania combined; airBaltic RIX→TLV; ~6M pop; EU+Schengen). No code changes. Saturation ~97%.
 
-- nextRotationCategory: monetization (1290%5=0 → RESEARCH; next BUILD after that = monetization)
+- nextRotationCategory: monetization (1291%5=1 → BUILD; category = monetization)
 - higgsfieldSpent: 0
 - updatedAt: 2026-08-17T06:50Z
 - branch context: master at 533f1f22; EN=440 (39 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (unchanged after REVIEW): israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-austrian-travelers P3 S; israel-for-belgian-travelers P3 S; israel-with-babies-toddlers P3 S; israel-winter-hiking-guide P3 S.

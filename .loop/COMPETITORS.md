@@ -9258,3 +9258,24 @@ Sources: touristisrael.com (Sukkot TLV, Akko Fringe, Jerusalem Beer Festival, Te
 - Saturation estimate: ~97%. Discovery rate slowing to ~9 net-new items per research pass. Most medium and large source markets now have guides; remaining gaps are smaller markets, demographic variants, and seasonal/experiential variants.
 - touristisrael.com coverage: Strong on nationality guides for European markets (UK, Germany, France, Italy) and major LATAM (Brazil being the clear gap they have not filled either). Their content depth is event-listing level; our advantage is editorial depth + affiliate monetization integration.
 - Competitor format observations: No competitor has addressed the "babies/toddlers in Israel" demographic gap at all — Lonely Planet, Rough Guides, nomadmatt.com all cover "families" generically. This is a green-field topic.
+
+## iter1290 RESEARCH findings (2026-08-17) — 288th research pass
+
+**Sources checked:** hinterlandtravel.com (Slovenia, Cyprus visa requirements), skyscanner.net (Malta, Cyprus, Slovakia flight data), ynetnews.com (KM Malta Airlines MLA-TLV launch announcement), globalworkandtravel.com (Israel WHV guide), jerusalemtourism.org (Ramparts Walk guide), tripadvisor.com (Ramparts Walk reviews), nomadicniko.com (Ramparts Walk southern route), laidbacktrip.com (Ramparts Walk guide), pami.co.il (Ramparts Walk), funinjerusalem.com (Ramparts Walk), embassies.gov.il (Working Holiday Visa program), goabroad.travel (WHV eligible countries), moving2canada.com (WHV country list).
+
+**New route freshness (May–June 2026):**
+- Wizz Air BTS→TLV launched May 28, 2026 (Bratislava→Tel Aviv; 3×/week; Airbus A321neo; from $85 one-way) — Slovakia had NO direct Israel connection before this; creates first-mover guide opportunity
+- KM Malta Airlines (national carrier) launched direct MLA→TLV on May 27, 2026 (twice weekly, Wed+Sun; introductory fares from $207) — first national carrier direct route between Malta and Israel; also served by Ryanair/Wizz Air Malta/Aegean (Skyscanner: "400 direct flights/week total" for all carriers combined)
+
+**Competitor gap analysis:**
+- touristisrael.com: no "for Slovak travelers" page, no "for Slovenian travelers" page, no "for Cypriot travelers" page (only island comparison articles), no "for Maltese travelers" page, no "Jerusalem Ramparts Walk" dedicated guide
+- igoogledisrael.com + carnifest.com: same gaps confirmed for all 5 topics above
+- globalworkandtravel.com: DOES have an "Israel Working Holiday Visa: The Complete Guide" — confirmed competitor coverage of a topic we lack; good reference for our own guide structure
+- No competitor has a "for Baltic travelers" combined guide (Estonia+Latvia+Lithuania); airBaltic route RIX→TLV covered only in airline-listing aggregators, not editorial travel guides
+
+**Patterns identified:**
+- Small EU island/micro-state markets (Cyprus, Malta) are systematically uncovered despite having regular direct flights to Israel; cheapness of the Cyprus route (£15 one-way) makes this a top casual-travel market we're missing entirely
+- Central/Eastern European smaller markets (Slovakia, Slovenia, Baltic states) all gained new or improved direct connectivity to Israel in 2025–2026 but no competitors have updated their content to match
+- Working Holiday Visa content is a consistent competitor gap across all Israel travel sites; high commercial intent (young adults actively planning long stays = large affiliate booking value)
+- Jerusalem experiential guides (Ramparts Walk, Ramparts South route) are covered only at superficial review-aggregator level by competitors; no editorial depth guide exists anywhere
+- Saturation estimate: ~97%. Most major markets and categories now covered; remaining gaps are smaller EU markets, experiential/activity niches, and visa-category variants.

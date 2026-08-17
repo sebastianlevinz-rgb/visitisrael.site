@@ -18260,3 +18260,15 @@ What: Audited iter1286 (rosh-hashanah-in-israel date fix), iter1287 (israel-for-
 Gate: 0 check errors | build 2010 pages (unchanged) | 22/22 targeted smoke+a11y PASS.
 Ship: squash-merged to master 533f1f22, pushed.
 Prod: CI in_progress at state-write (normal pattern).
+
+## 2026-08-17T08:10Z · iter 1290 · RESEARCH · 288th-research-pass
+What: 288th research pass (iter1290 = 1290%5==0 → RESEARCH mode). Researched 4 competitor sources (touristisrael.com, hinterlandtravel.com, globalworkandtravel.com, skyscanner.net/ynetnews.com/KM Malta Airlines announcements) plus WebSearch across 8 topic areas. 7 net-new BACKLOG items discovered (all confirmed absent from BACKLOG.md + DONE.md + src/content/guides/):
+1. israel-for-slovak-travelers — Wizz Air BTS→TLV launched May 28 2026 (3×/week, A321neo, from $85)
+2. israel-for-slovenian-travelers — Israir/El Al LJU→TLV direct; Schengen ETA-IL; 2M pop
+3. israel-for-cypriot-travelers — ultra-cheap flights (Wizz Air/Tus Airways from £15, ~1h); Cyprus EU
+4. israel-for-maltese-travelers — KM Malta Airlines direct MLA→TLV launched May 27 2026 (2×/week, from $207); Knights of Malta editorial angle
+5. jerusalem-ramparts-walk — ₪25 Suleiman-era wall walk; 2 routes; summer hours to 21:00; confirmed gap vs competitors
+6. israel-working-holiday-visa — 6 bilateral agreements (AU/NZ/AT/DE/CZ/KR); high-intent searchers; rated P2/M
+7. israel-for-baltic-travelers — Estonia+Latvia+Lithuania combined; airBaltic RIX→TLV; "Jerusalem of Lithuania" heritage angle; 6M combined pop
+No gate/build/ship (RESEARCH mode). No CI triggered. Saturation estimate: ~97%.
+Next: BUILD (iter1291; 1291%5=1 → BUILD; category = monetization).
