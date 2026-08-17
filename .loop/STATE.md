@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1283
-- lastMode: BUILD (technical/freshness)
-- lastItem: airlines-freshness-arkia-vietnam-elal-hanoi
-- lastResult: iter1283 BUILD-technical — airlines-freshness-arkia-vietnam-elal-hanoi SHIPPED 0c2b8c11. Freshness update all 4 locales (EN/FR/DE/ES) of airlines-flying-israel-2026.md: (1) Added Arkia TLV–HAN route (launched Jan 5, 2026, leased non-Israeli aircraft, only direct Israel–Vietnam service) to Arkia table row; (2) Added Arkia TLV–HAN bullet in "New routes" section + El Al HAN cancellation note (Aug 13, 2026 — Israeli security authority denied approval for Israeli aircraft/crews); (3) Updated Israir Asia/India expansion note (EN) with HAN context (Arkia operational, El Al cancelled, Israir pending); (4) Bumped updatedAt to 2026-08-17 all 4 locales. Gate: 0 check errors | build 2008 pages (unchanged) | 8/8 targeted smoke+a11y PASS. CI in_progress at state-write (normal pattern).
+- iteration: 1284
+- lastMode: REVIEW
+- lastItem: review-1284-guitar-links-thai-honesty
+- lastResult: iter1284 REVIEW — review-1284-guitar-links-thai-honesty SHIPPED f65f243d. Audited iter1281-1283 ships (israel-for-thai-travelers, red-sea-guitar-festival-eilat, airlines-freshness). 3 fixes: (1) Removed fabricated rating: 4.8 + reviews: 3100 from Thai guide GYG affiliate CTA (honesty violation); (2) Added guitar festival paragraph to eilat-travel-guide.md events section (bidirectional link gap); (3) Added guitar festival entry to israel-in-march.md March events calendar (bidirectional link gap). updatedAt bumped on both modified guides. Gate: 0 check errors | build 2008 pages (unchanged) | 19/19 targeted smoke+a11y PASS. Vercel deploy in_progress at state-write (normal pattern).
 
-- nextRotationCategory: REVIEW (1284%5=4 → REVIEW)
+- nextRotationCategory: RESEARCH (1285%5=0 → RESEARCH)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-17T00:43Z
+- updatedAt: 2026-08-17T01:34Z
 - branch context: master at 0c2b8c11; EN=438 (37 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1283): israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; sounding-jerusalem-festival P3 S; bach-festival-jerusalem P3 S; israel-for-georgian-travelers P3 S; israel-for-croatian-travelers P3 S; israel-for-greek-travelers P3 S.
+
+Notes: iter1284 REVIEW — review-1284-guitar-links-thai-honesty SHIPPED f65f243d. Audited iter1281-1283: 3 fixes — removed fabricated rating/reviews from Thai guide CTA (honesty); added guitar festival to eilat-travel-guide events section (bidirectional link); added guitar festival to israel-in-march calendar (bidirectional link). Gate: 0 check errors | build 2008 pages (unchanged) | 19/19 targeted smoke+a11y PASS. Vercel in_progress (normal).
 
 Notes: iter1283 BUILD-technical — airlines-freshness-arkia-vietnam-elal-hanoi SHIPPED 0c2b8c11. Freshness update all 4 locales of airlines guide: Arkia TLV-HAN added (Jan 2026, leased aircraft, only direct Israel-Vietnam service); El Al HAN cancellation noted (Aug 13, 2026, security denial); Israir HAN context updated. Gate: 0 check errors | build 2008 pages (unchanged) | 8/8 targeted smoke+a11y PASS. CI in_progress (normal).
 
