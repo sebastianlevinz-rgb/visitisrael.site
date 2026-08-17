@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1287
-- lastMode: BUILD-seo-content
-- lastItem: israel-for-brazilian-travelers
-- lastResult: iter1287 BUILD-seo-content — israel-for-brazilian-travelers SHIPPED c1ae1856. New /israel-for-brazilian-travelers guide (~1,300w EN): P2 item — world's 3rd-largest Jewish diaspora (~120k), largest Catholic nation (125M Catholics), ~50M evangelicals; El Al GRU→TLV direct nonstop (~11h; verify elal.com); TAP via Lisbon, LATAM via Madrid alternates; Catholic pilgrimage circuit (Via Dolorosa, Holy Sepulchre, Nativity, Sea of Galilee, Yardenit, Nazareth Basilica); evangelical angle (Western Wall, Beatitudes, Capernaum, Masada); Jewish heritage (Florentin TLV Brazilian-Israeli community, Yad Vashem); CRITICAL voltage safety note — Brazil has 127V (São Paulo, Rio, Curitiba, Brasília) AND 220V (BH, Recife, Manaus) cities vs Israel 230V — Type H adapter + converter needed for 127V devices; Pix/TED/Boleto not accepted; 6 FAQs; 3 CTAs (GYG Christian pilgrimage + Booking + SafetyWing). Bidirectional: christian-pilgrimage-holy-land (Brazil callout added), cheap-flights-to-israel (GRU direct updated + cross-link). Gate: 0 check errors | build 2009 pages (+1) | 2/2 targeted smoke+a11y PASS. CI in_progress (normal).
+- iteration: 1288
+- lastMode: BUILD-seo-content+technical
+- lastItem: israel-drone-laws-guide
+- lastResult: iter1288 BUILD-seo-content+technical — israel-drone-laws-guide SHIPPED 1a8af36c. New /israel-drone-laws-guide (~900w EN): complete tourist guide to CAAI drone regulations — mandatory Ben Gurion customs declaration (all weights including sub-250g), CAAI registration portal (1–2 week timeline), 50m altitude limit, 250m separation rule, 2km airport buffer, no-fly zones (Jerusalem sensitive areas, military zones, border exclusion zones), 2026 fine increases (NIS 1,000–3,000; +25%), best accessible locations (Ramon Crater rim, Galilee farmland, Caesarea coastal plain), honest case for photography tours as permit-free alternative. Fixed "CAAF" → "CAAI" typo in israel-photography-guide.md FAQ + added link to new drone guide (bidirectional). 6 FAQs; 2 GYG CTAs; 6 cross-links. Smoke + a11y tests +1 each; 2/2 targeted PASS. Build 2010 pages (+1). CI in_progress (normal). Rotation: tools category had no ready items → fell through to technical (seo-content+technical hybrid).
 
-- nextRotationCategory: REVIEW (1288%5=3 → BUILD; but cycle: 1288%5=3 → BUILD; category=tools)
+- nextRotationCategory: monetization (1289%5=4 → REVIEW; category after technical = monetization for next BUILD iter)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-17T04:40Z
-- branch context: master at c1ae1856; EN=439 (38 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1287): israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-austrian-travelers P3 S; israel-for-belgian-travelers P3 S; israel-with-babies-toddlers P3 S; israel-winter-hiking-guide P3 S.
+- updatedAt: 2026-08-17T05:50Z
+- branch context: master at 1a8af36c; EN=440 (39 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1288): israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-austrian-travelers P3 S; israel-for-belgian-travelers P3 S; israel-with-babies-toddlers P3 S; israel-winter-hiking-guide P3 S.
 
 Notes: iter1284 REVIEW — review-1284-guitar-links-thai-honesty SHIPPED f65f243d. Audited iter1281-1283: 3 fixes — removed fabricated rating/reviews from Thai guide CTA (honesty); added guitar festival to eilat-travel-guide events section (bidirectional link); added guitar festival to israel-in-march calendar (bidirectional link). Gate: 0 check errors | build 2008 pages (unchanged) | 19/19 targeted smoke+a11y PASS. Vercel in_progress (normal).
 

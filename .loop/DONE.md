@@ -2607,3 +2607,6 @@ New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-ho
 
 ## iter1287 · BUILD-seo-content · israel-for-brazilian-travelers · c1ae1856
 - New /israel-for-brazilian-travelers guide (~1,300w EN): P2 item. Brazil = world's 3rd-largest Jewish diaspora, largest Catholic nation (125M), ~50M evangelicals. El Al GRU→TLV direct; TAP via Lisbon; LATAM via Madrid. Full Catholic + evangelical pilgrimage circuit. Critical 127V/220V voltage safety note for Brazilian cities. Pix/TED/Boleto not accepted. 6 FAQs; 3 CTAs. 2/2 targeted PASS. Build 2009 pages (+1).
+
+## iter1288 · BUILD-seo-content+technical · israel-drone-laws-guide · 1a8af36c
+- New /israel-drone-laws-guide (~900w EN): complete tourist guide to CAAI drone laws — mandatory customs declaration (all weights), CAAI registration, 50m altitude limit, no-fly zones, 2026 fine increases (NIS 1,000–3,000; +25%), best legal locations. Fixed CAAF→CAAI typo in photography guide FAQ + bidirectional link. 6 FAQs; 2 GYG CTAs; 6 cross-links (photography-guide, photography-tours, adventure-sports, ben-gurion-airport, visa-information, first-time-in-israel). Build 2010 (+1). 2/2 targeted smoke+a11y PASS.

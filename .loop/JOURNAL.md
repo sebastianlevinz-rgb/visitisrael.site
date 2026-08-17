@@ -18248,3 +18248,9 @@ What: New /israel-for-brazilian-travelers guide (~1,300w EN). P2 item — Brazil
 Gate: 0 check errors | build 2009 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Ship: squash-merged to master c1ae1856, pushed.
 Prod: CI in_progress at state-write (normal pattern).
+
+## 2026-08-17T05:50Z · iter 1288 · BUILD-seo-content+technical · israel-drone-laws-guide
+What: New /israel-drone-laws-guide (~900w EN) — complete tourist guide to CAAI drone regulations: mandatory Ben Gurion customs declaration for ALL drones (including sub-250g, a common tourist trap), CAAI online portal registration (1–2 week timeline), operational rules (50m altitude, 250m separation, 2km airport buffer, visual LOS, no night flying), no-fly zones (Jerusalem sensitive areas, military zones, border exclusion zones — verify at caa.gov.il interactive map), 2026 enforcement update (fines NIS 1,000–3,000, +25% from prior year), best accessible legal locations (Ramon Crater rim, Galilee farmland, Caesarea coastal plain), and the honest case for guided photography tours as the permit-free alternative. Fixed "CAAF" → "CAAI" typo in israel-photography-guide.md FAQ + added bidirectional link to new drone guide. Tools rotation category had no ready items; fell through to technical hybrid (seo-content+technical).
+Gate: 0 check errors | build 2010 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: squash-merged to master 1a8af36c, pushed.
+Prod: CI in_progress at state-write (normal).
