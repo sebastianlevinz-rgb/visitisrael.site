@@ -18293,3 +18293,12 @@ Content: Two-route visitor guide. North route (Jaffa Gate→Lions' Gate, ~1.5h):
 Gate: 0 check errors | build 2013 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Ship: committed to master 18a05862, pushed. CI in_progress at state-write (normal pattern).
 Next: iter 1294 = REVIEW (1294%5==4). Audit iter1291–1293 (israel-working-holiday-visa, fattal-rock-festival-eilat, jerusalem-ramparts-walk).
+
+## 2026-08-17T13:20Z · iter 1294 · REVIEW · review-1294-eilat-festival-crosslinks
+What: REVIEW pass — audited iter1291-1293 ships (israel-working-holiday-visa, fattal-rock-festival-eilat, jerusalem-ramparts-walk).
+Audit results: All declared bidirectional links confirmed in place for all three guides. All cross-link target files exist. No H1 in any guide body. No fabricated exact prices or ratings.
+Gap found: fattal-rock-festival-eilat references red-sea-jazz-festival-eilat and eilat-chamber-music-festival in its "Eilat music festival calendar" section, but neither guide had a back-link to fattal — the cross-link was not symmetric for 2 of the 4 declared partners.
+Fix: (1) red-sea-jazz-festival-eilat.md: added Fattal Rock Festival bullet to "Combining the festival" cross-link section; (2) eilat-chamber-music-festival.md: added Fattal Rock Festival paragraph to closing cross-link section, noting three-festival calendar (June rock + November jazz + November/December classical).
+Gate: 0 check errors | build 2013 pages (unchanged) | 6/6 targeted smoke+a11y PASS (red-sea-jazz-festival-eilat, eilat-chamber-music-festival, fattal-rock-festival-eilat).
+Ship: committed to master 5bf8a560, pushed. CI in_progress at state-write (normal pattern).
+Next: iter 1295 = RESEARCH (1295%5==0). 289th research pass.

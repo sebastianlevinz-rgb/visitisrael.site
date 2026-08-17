@@ -2618,3 +2618,6 @@ New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-ho
 
 ## iter1293 · jerusalem-ramparts-walk · 18a05862
 - [SHIPPED iter1293 → 18a05862] (seo-content, S) Jerusalem Ramparts Walk guide (/jerusalem-ramparts-walk) — two-route visitor guide to walking Jerusalem's Suleiman-era (1530s) Old City walls. North route Jaffa Gate→Lions' Gate ~1.5h (above Muslim+Christian Quarters); south route Jaffa Gate→Dung Gate ~1.5h (above Armenian+Jewish Quarters). ₪25 single / ₪35 combined; 2026 extended summer hours to 21:00 (north, Sun–Thu). Photography tips + accessibility warning (uneven stone, no lifts). 6 FAQs; 2 CTAs (Booking + GYG). Bidirectional: jerusalem-neighborhoods-guide + 1-day-jerusalem-itinerary + western-wall-guide. Build 2013 (+1). 2/2 targeted smoke+a11y PASS.
+
+## iter1294 · review-1294-eilat-festival-crosslinks · 5bf8a560
+- [SHIPPED iter1294 → 5bf8a560] (review, XS) REVIEW iter1294: fixed missing back-links to fattal-rock-festival-eilat. red-sea-jazz-festival-eilat.md: added Fattal Rock Festival to "Combining the festival" cross-link section. eilat-chamber-music-festival.md: added Fattal Rock Festival paragraph to closing section, completing the three-festival Eilat annual calendar (June rock + November jazz + November/December classical). 6/6 targeted smoke+a11y PASS. Build 2013 (unchanged).
