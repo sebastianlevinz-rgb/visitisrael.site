@@ -3,7 +3,7 @@ title: 'Israel in March: Wildflowers, Purim & Spring Hiking'
 description: 'March in Israel: Purim street parties, red anemone wildflowers in the Negev, spring hiking before Easter crowds, and ideal weather from Eilat to the Galilee.'
 heroImage: /images/regions/galilee/hero.jpg
 category: Planning
-updatedAt: 2026-07-26
+updatedAt: 2026-08-17
 ctaHeading: 'Plan your March Israel trip'
 affiliateCtas:
   - partner: booking
@@ -184,6 +184,8 @@ Tel Aviv in March is genuinely pleasant — warming toward summer without the he
 ## March events calendar
 
 **Darom Adom wildflower festival** (typically 1–2 weekends in late February or early/mid-March, depending on bloom — announced 2–4 weeks ahead): Eshkol region Negev. Bloom trails, Bedouin tents, guided nature walks. Free at most sites. Check [daromadom.co.il](https://www.daromadom.co.il) for current-year dates.
+
+**[Red Sea Guitar Festival Eilat](/red-sea-guitar-festival-eilat)** (annually in February or March — exact dates announced 2–4 months ahead; check [eilat.city](https://www.eilat.city)): Eilat's dedicated guitar music festival on the North Beach waterfront. Israeli guitarists and international guests across rock, blues, and acoustic genres; 27–30°C shoulder-season weather; single-evening tickets historically ₪80–200.
 
 **Purim** (date shifts annually per Hebrew calendar — 2027: March 22–23; verify at [hebcal.com](https://www.hebcal.com)): Costume street parties in Tel Aviv (Rothschild Boulevard), family parade in Jerusalem, Megillah readings nationwide. No site closures. Tel Aviv accommodation books out months ahead for Purim weekend.
 

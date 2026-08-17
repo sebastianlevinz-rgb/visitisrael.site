@@ -12,8 +12,6 @@ affiliateCtas:
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Israel Christian pilgrimage Holy Land tour
     priceFrom: 75
-    rating: 4.8
-    reviews: 3100
     cta: See Holy Land tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation for Your Trip'

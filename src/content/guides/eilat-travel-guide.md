@@ -3,7 +3,7 @@ title: 'Eilat Travel Guide: Red Sea Beach City (2026)'
 description: 'Everything to plan your Eilat trip: beaches, Coral Beach Reserve, Dolphin Reef, Timna Park, tax-free shopping, how to get there and how many days to allow.'
 heroImage: /images/regions/eilat/hero.jpg
 category: Destinations
-updatedAt: 2026-08-16
+updatedAt: 2026-08-17
 ctaHeading: 'Book Eilat hotels and activities'
 affiliateCtas:
   - partner: booking
@@ -181,7 +181,9 @@ Eilat's late-autumn calendar is anchored by two annual music events that draw vi
 
 **[Eilat Chamber Music Festival](/eilat-chamber-music-festival)**: companion classical festival held in late November or December, with chamber music, orchestral works, opera highlights, and world music across indoor concert halls and Red Sea waterfront stages. Smaller and more intimate than the jazz festival; the November/December timing coincides with Eilat's most comfortable weather and quietest hotel period.
 
-Both festivals fall during Eilat's ideal visitor season — 22–26°C, clear skies, uncrowded beaches — making a late-November trip particularly good value compared to summer or Sukkot.
+**[Red Sea Guitar Festival](/red-sea-guitar-festival-eilat)**: held annually in February or March on the North Beach waterfront, featuring Israeli guitarists and international guest artists across rock, blues, acoustic, and world music genres. More intimate than the jazz festival; the February–March timing delivers warm shoulder-season weather (27–30°C) with uncrowded beaches and good hotel value.
+
+These three festivals — jazz in November, chamber music in December, guitar in February or March — make Eilat one of Israel's most consistently music-active cities from autumn through spring.
 
 ---
 
