@@ -9244,3 +9244,17 @@ Sources: touristisrael.com (Sukkot TLV, Akko Fringe, Jerusalem Beer Festival, Te
 - touristisrael.com continues to cover more niche event and nationality markets than any other competitor; however their coverage is event-listing depth, not editorial guide depth — our advantage remains in detailed practical visitor guides.
 
 **Content patterns worth copying:** Nationality guide format from israel-for-czech-travelers.md (ETA-IL section → flights → cultural parallel → practical logistics → embassy → affiliate CTAs → cross-links) is the proven template; apply consistently to Georgian/Croatian/Azerbaijani when built.
+
+### 2026-08-17 · iter 1285 · 287th research pass
+
+**Sources scanned:** local content directory (438 EN guide slugs enumerated and cross-checked against BACKLOG+DONE), israel-in-september.md + rosh-hashanah-in-israel.md (calendar date cross-check), airlines-flying-israel-2026.md (El Al TLV-GRU route confirmation), solo-female-travel-israel.md + israel-with-kids.md + israel-hiking-trails.md (existing guide scope analysis), journeywoman.com (women 50+ travel market data), hebcal.com (Hebrew calendar authority), El Al route press releases (TLV-GRU direct service), Austrian Airlines and Brussels Airlines route data.
+
+**Patterns identified:**
+- LATAM gap confirmed: Brazil is the largest untapped LATAM source market with a DIRECT TLV flight (El Al TLV-GRU). No competitor has a dedicated "Israel for Brazilian travelers" editorial guide. The voltage angle (Brazil's non-standard 127V grid vs. Israel 220V) is a unique practical hook that no other Israel guide covers for any nationality — first-mover opportunity.
+- Mexican traveler content: BACKLOG entry cancelled — research agent confirmed during iter1275 that israel-for-mexican-travelers was shipped in iter968. Do not rebuild.
+- EU direct-flight markets with zero coverage: Austrian Airlines operates 41x/week VIE-TLV — the highest frequency by a European carrier other than El Al/Wizz — yet zero "for Austrian travelers" guide exists on touristisrael.com, Lonely Planet, or Rough Guides. Same gap for Belgium (Brussels Airlines BRU-TLV, Antwerp Jewish community diamond-trade angle).
+- Demographic-variant guide gaps: The existing "solo female travel" and "with kids" guides serve broad audiences; 50+ women and babies/toddlers have distinct needs (different accommodation preferences, safety protocols, stroller logistics) that competitors don't serve with dedicated content.
+- Rosh Hashana date discrepancy identified: israel-in-september.md and rosh-hashanah-in-israel.md give inconsistent 2026 dates. This is a live factual error visible to users now and must be the first fix in the next BUILD iteration before the holiday arrives.
+- Saturation estimate: ~97%. Discovery rate slowing to ~9 net-new items per research pass. Most medium and large source markets now have guides; remaining gaps are smaller markets, demographic variants, and seasonal/experiential variants.
+- touristisrael.com coverage: Strong on nationality guides for European markets (UK, Germany, France, Italy) and major LATAM (Brazil being the clear gap they have not filled either). Their content depth is event-listing level; our advantage is editorial depth + affiliate monetization integration.
+- Competitor format observations: No competitor has addressed the "babies/toddlers in Israel" demographic gap at all — Lonely Planet, Rough Guides, nomadmatt.com all cover "families" generically. This is a green-field topic.
