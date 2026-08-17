@@ -18198,3 +18198,8 @@ What: New /red-sea-guitar-festival-eilat guide (~1,100w EN). Eilat's annual guit
 Gate: 0 check errors | build 2008 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Ship: committed 933b8e12; pushed to origin/master. CI in_progress at state-write (normal pattern).
 Prod: prior CI success confirmed (3676f535); deploy in progress for new push.
+
+## 2026-08-17T00:43Z · iter 1283 · BUILD (technical/freshness) · airlines-freshness-arkia-vietnam-elal-hanoi
+What: Freshness update across all 4 locale versions (EN/FR/DE/ES) of airlines-flying-israel-2026.md. (1) Added Arkia TLV–HAN (Hanoi) to Arkia table row — launched January 5, 2026 via leased non-Israeli-registered aircraft; currently the only direct Israel–Vietnam service; (2) Added dedicated "Arkia TLV–HAN" bullet in "New routes launched in 2026" section with note that El Al separately planned TLV–HAN but cancelled August 13, 2026 after Israeli security authorities denied approval for Israeli aircraft/crews on this route; (3) Updated Israir Asia/India expansion note (EN) to clarify that Arkia already operates TLV–HAN, El Al's HAN was cancelled, and Israir HAN remains pending with no confirmed date; (4) Bumped updatedAt to 2026-08-17 and "Last verified" date in all 4 locale files.
+Gate: 0 check errors | build 2008 pages (unchanged) | 8/8 targeted smoke+a11y PASS (all 4 locales; EN/FR/DE/ES airlines pages).
+Ship: committed 0c2b8c11; pushed to origin/master. CI in_progress at state-write (normal pattern).

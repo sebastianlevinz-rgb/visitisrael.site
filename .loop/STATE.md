@@ -1,14 +1,16 @@
 # LOOP STATE
 
-- iteration: 1282
-- lastMode: BUILD
-- lastItem: red-sea-guitar-festival-eilat
-- lastResult: iter1282 BUILD-seo-content — red-sea-guitar-festival-eilat SHIPPED 933b8e12. New /red-sea-guitar-festival-eilat guide (~1,100w EN): Eilat's dedicated guitar music festival (annually February or March); Gulf of Aqaba waterfront stages; Israeli guitarists + international guest artists (rock, blues, acoustic, world); shoulder-season Eilat context (27–30°C, ideal snorkelling, better hotel pricing than summer); ticket buying via IsraTicket/Leaan (₪80–200 range); travel logistics (Ramon Airport, bus, car). 3 affiliate CTAs: GYG Eilat day experiences + Booking.com hotels + DiscoverCars. 6 FAQs; EventSchema. Bidirectional links added: israel-music-festivals (table row + dedicated section), israel-in-february (Eilat section callout). 7 cross-links. 2/2 targeted smoke+a11y PASS. Build 2008 pages (+1). CI in_progress at state-write (normal pattern).
+- iteration: 1283
+- lastMode: BUILD (technical/freshness)
+- lastItem: airlines-freshness-arkia-vietnam-elal-hanoi
+- lastResult: iter1283 BUILD-technical — airlines-freshness-arkia-vietnam-elal-hanoi SHIPPED 0c2b8c11. Freshness update all 4 locales (EN/FR/DE/ES) of airlines-flying-israel-2026.md: (1) Added Arkia TLV–HAN route (launched Jan 5, 2026, leased non-Israeli aircraft, only direct Israel–Vietnam service) to Arkia table row; (2) Added Arkia TLV–HAN bullet in "New routes" section + El Al HAN cancellation note (Aug 13, 2026 — Israeli security authority denied approval for Israeli aircraft/crews); (3) Updated Israir Asia/India expansion note (EN) with HAN context (Arkia operational, El Al cancelled, Israir pending); (4) Bumped updatedAt to 2026-08-17 all 4 locales. Gate: 0 check errors | build 2008 pages (unchanged) | 8/8 targeted smoke+a11y PASS. CI in_progress at state-write (normal pattern).
 
-- nextRotationCategory: BUILD (1283%5=3 → BUILD; tools category in rotation)
+- nextRotationCategory: REVIEW (1284%5=4 → REVIEW)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-16T23:45Z
-- branch context: master at 933b8e12; EN=438 (37 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1282): israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; airlines-freshness-arkia-vietnam-elal-hanoi P3 XS; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; sounding-jerusalem-festival P3 S; bach-festival-jerusalem P3 S; israel-for-georgian-travelers P3 S; israel-for-croatian-travelers P3 S.
+- updatedAt: 2026-08-17T00:43Z
+- branch context: master at 0c2b8c11; EN=438 (37 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1283): israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; sounding-jerusalem-festival P3 S; bach-festival-jerusalem P3 S; israel-for-georgian-travelers P3 S; israel-for-croatian-travelers P3 S; israel-for-greek-travelers P3 S.
+
+Notes: iter1283 BUILD-technical — airlines-freshness-arkia-vietnam-elal-hanoi SHIPPED 0c2b8c11. Freshness update all 4 locales of airlines guide: Arkia TLV-HAN added (Jan 2026, leased aircraft, only direct Israel-Vietnam service); El Al HAN cancellation noted (Aug 13, 2026, security denial); Israir HAN context updated. Gate: 0 check errors | build 2008 pages (unchanged) | 8/8 targeted smoke+a11y PASS. CI in_progress (normal).
 
 Notes: iter1282 BUILD-seo-content — red-sea-guitar-festival-eilat SHIPPED 933b8e12. New /red-sea-guitar-festival-eilat guide (~1,100w EN). Gate: 0 check errors | build 2008 pages (+1) | 2/2 targeted smoke+a11y PASS. CI in_progress (normal).
 
