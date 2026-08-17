@@ -1,13 +1,13 @@
 # LOOP STATE
 
-- iteration: 1295
-- lastMode: RESEARCH
-- lastItem: 289th-research-pass
-- lastResult: iter1295 RESEARCH — 289th research pass. 3 net-new BACKLOG items confirmed (all verified absent from BACKLOG.md + DONE.md + src/content/guides/): (1) arad-festival-guide — Israel's 40+ year Hebrew music festival in Arad (Negev Desert), annual late August, mostly free/low-cost, zero competitor editorial guide; (2) nataraj-festival-dead-sea — annual 3-day spiritual dance/music/meditation festival at cliff-top Metzoke Dragot above Dead Sea (typically November, ~200–400 attendees, intimate hidden-gem venue); (3) abu-gosh-music-festival — biannual vocal/world music festival in 12th-century Crusader Benedictine monastery church in Abu Gosh since 1980 (October Sukkot + June Shavuot windows). Also verified: El Al SFO, Delta ATL/BOS, United EWR, Israir JFK all already captured in airlines guide + american travelers guide — no freshness items needed. No code changes; no gate/build/ship. Saturation estimate: ~97%.
+- iteration: 1296
+- lastMode: BUILD
+- lastItem: israel-vs-dubai
+- lastResult: iter1296 BUILD-seo-content — israel-vs-dubai SHIPPED 706a8469. New /israel-vs-dubai comparison guide (~1,400w EN): 10-criteria table (history, beaches, food, luxury hotels, nightlife, nature, safety, costs, visa, LGBTQ+); honest framing — 3,000-year civilisational depth vs ultra-modern spectacle; Abraham Accords direct-flight context (TLV→DXB 3.5h); 12-day combination trip routing; 5 FAQs; 3 CTAs (Skyscanner, GYG, Booking); 12 internal cross-links. Also found: is-israel-safe freshness P1 item was already shipped in origin/master (updatedAt: 2026-08-16, Level 3 / Aug 1 alert already added) — marked DONE in BACKLOG. Gate: 0 check errors | build 2014 pages (+1) | 2/2 targeted smoke+a11y PASS. CI in_progress at state-write (normal pattern).
 
-- nextRotationCategory: BUILD (1296%5=1 → BUILD)
+- nextRotationCategory: BUILD (1297%5=2 → BUILD; aim for tools/technical — recent BUILDs seo-content heavy)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-17T13:41Z
+- updatedAt: 2026-08-17T14:52Z
 - branch context: master at 5bf8a560; EN=443 (42 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities: arad-festival-guide P3 S (new iter1295); nataraj-festival-dead-sea P3 S (new iter1295); abu-gosh-music-festival P3 S (new iter1295); red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-austrian-travelers P3 S; israel-for-belgian-travelers P3 S; israel-with-babies-toddlers P3 S; israel-winter-hiking-guide P3 S; israel-for-slovak-travelers P3 S; israel-for-slovenian-travelers P3 S; israel-for-cypriot-travelers P3 S; israel-for-maltese-travelers P3 S; israel-for-baltic-travelers P3 S.
 
 Notes: iter1291 BUILD-seo-content+monetization — israel-working-holiday-visa SHIPPED 31ffd052. New /israel-working-holiday-visa guide (~1,200w EN): P2 item — comprehensive guide to Israel's bilateral Working Holiday Visa agreements with 6 countries (AU/NZ/AT/DE/CZ/KR). Eligibility table, application process, 3-month single-employer rule, permitted work types (agriculture/hospitality/English teaching), 12-month region-by-region planning sequence, practical setup on arrival (bank/SIM/accommodation). 3 CTAs: Booking.com (long-stay), DiscoverCars (road trips), GYG (experiences). 7 FAQs. Bidirectional links: visa-information (new WHV section), digital-nomad-israel (WHV exception note in extend-stay FAQ), israel-kibbutz-volunteer-guide (WHV context in visa section). Gate: 0 check errors | build 2011 pages (+1) | 2/2 targeted smoke+a11y PASS. CI in_progress at state-write (normal pattern).

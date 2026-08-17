@@ -18310,3 +18310,12 @@ What: 289th research pass (iter1295 = 1295%5==0 → RESEARCH mode). At ~97% satu
 3. abu-gosh-music-festival — biannual vocal/world music festival in 12th-century Crusader Benedictine monastery church in Abu Gosh village since 1980; October (Sukkot) + June (Shavuot); Baroque/Renaissance/world music; international soloists; combines naturally with Abu Gosh hummus restaurants; abugoshfestival.co.il + touristisrael.com cover it but zero competitor editorial guide
 No gate/build/ship (RESEARCH mode). No CI triggered. Saturation estimate: ~97%.
 Next: BUILD (iter1296; 1296%5=1 → BUILD; category = seo-content or monetization).
+
+## 2026-08-17T14:52Z · iter 1296 · BUILD-seo-content · israel-vs-dubai
+What: New /israel-vs-dubai comparison guide (~1,400w EN). P2 seo-content+monetization — destination comparison for the post-Abraham-Accords era (direct TLV↔DXB/AUH flights since Sep 2020).
+Content: 10-criteria side-by-side comparison table (history/heritage, beaches/waterfront, food scene, luxury hotels, nightlife, outdoor/nature, safety, costs, visa/entry, LGBTQ+ friendliness); honest framing — 3,000+ year civilisational depth (Israel) vs ultra-modern spectacle (Dubai); Abraham Accords direct-flight context (El Al/Etihad/FlyDubai TLV→DXB ~3.5h); "Who should visit Israel" vs "Who should visit Dubai" decision sections; 12–14 day combination routing (Jerusalem→Dead Sea→Masada→Tel Aviv→DXB); LGBTQ+ honest contrast (Tel Aviv = world-leading; UAE = criminal offence). 5 FAQs. 3 affiliate CTAs: Skyscanner (TLV-DXB flights), GYG (Israel tours), Booking.com (Israel hotels). 12 internal cross-links (israel-vs-jordan, israel-vs-egypt, israel-vs-turkey, israel-vs-greece, israel-for-gulf-travelers, first-time-in-israel, israel-cost-budget, is-israel-safe, visa-information, tel-aviv-nightlife, eilat-travel-guide, best-hotels-tel-aviv).
+Side discovery: is-israel-safe freshness P1 (Aug 1 US Embassy alert, Level 3) was pre-shipped in origin/master (updatedAt: 2026-08-16, iter1273 38c0b65a) — no action needed; marked DONE in BACKLOG.
+Gate: 0 check errors | build 2014 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: squash-merged to master 706a8469, pushed.
+Prod: CI status unknown at state-write (GitHub status API returned no checks — normal for first minutes of CI run).
+Next: iter 1297 = BUILD (1297%5=2 → BUILD; aim tools/technical — recent BUILDs seo-content heavy).

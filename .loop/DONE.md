@@ -2621,3 +2621,6 @@ New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-ho
 
 ## iter1294 · review-1294-eilat-festival-crosslinks · 5bf8a560
 - [SHIPPED iter1294 → 5bf8a560] (review, XS) REVIEW iter1294: fixed missing back-links to fattal-rock-festival-eilat. red-sea-jazz-festival-eilat.md: added Fattal Rock Festival to "Combining the festival" cross-link section. eilat-chamber-music-festival.md: added Fattal Rock Festival paragraph to closing section, completing the three-festival Eilat annual calendar (June rock + November jazz + November/December classical). 6/6 targeted smoke+a11y PASS. Build 2013 (unchanged).
+
+## iter1296 · BUILD-seo-content · israel-vs-dubai · 706a8469
+- [SHIPPED iter1296 → 706a8469] (seo-content+monetization, S) New /israel-vs-dubai comparison guide (~1,400w EN): P2 item. 10-criteria comparison table (history, beaches, food, luxury hotels, nightlife, nature, safety, costs, visa, LGBTQ+); honest framing — 3,000-year civilisational depth vs ultra-modern spectacle; Abraham Accords direct-flight context (TLV→DXB 3.5h); 12-day combination trip routing; 5 FAQs; 3 CTAs (Skyscanner flights, GYG Israel tours, Booking.com hotels); 12 internal cross-links. Build 2014 pages (+1). 2/2 targeted smoke+a11y PASS.
