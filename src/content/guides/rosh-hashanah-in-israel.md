@@ -3,7 +3,7 @@ title: 'Rosh Hashanah in Israel: Jewish New Year Travel Guide (2026)'
 description: "Experience Rosh Hashanah in Israel — Western Wall Musaf prayers, Tashlich on the Yarkon, honey cakes and High Holiday atmosphere. 2026 dates and booking tips."
 heroImage: /images/regions/jerusalem/western-wall.jpg
 category: Planning
-updatedAt: 2026-07-04
+updatedAt: 2026-08-17
 ctaHeading: 'Book your High Holiday accommodation early'
 affiliateCtas:
   - partner: booking
@@ -26,7 +26,7 @@ affiliateCtas:
     cta: See experiences
 faqs:
   - question: When is Rosh Hashanah 2026 in Israel?
-    answer: "Rosh Hashanah 5787 begins at sunset on Wednesday, September 10, 2026, and concludes at nightfall on Friday, September 12. The two-day holiday is followed ten days later by Yom Kippur (September 21, 2026). In 2027, Rosh Hashanah falls around late September — check a Jewish calendar such as Hebcal (hebcal.com) or the Chabad calendar for exact current-year dates, as all Jewish holidays shift by several weeks from year to year in the Gregorian calendar."
+    answer: "Rosh Hashanah 5787 begins at sunset on Friday, September 11, 2026, and concludes at nightfall on Sunday, September 13. The two-day holiday is followed ten days later by Yom Kippur (September 21, 2026). In 2027, Rosh Hashanah falls around late September — check a Jewish calendar such as Hebcal (hebcal.com) or the Chabad calendar for exact current-year dates, as all Jewish holidays shift by several weeks from year to year in the Gregorian calendar."
   - question: Can non-Jewish visitors attend Rosh Hashanah services at the Western Wall?
     answer: "Yes. The Western Wall plaza is open to all respectful visitors throughout the High Holiday season. The Musaf service on Rosh Hashanah morning draws tens of thousands of worshippers to the plaza, and respectful observers are welcome to watch from the plaza perimeter. Dress modestly (covered shoulders and knees for both men and women; head covering for men in the prayer area). The Kotel Tunnels tours are suspended on Rosh Hashanah itself but reopen the following day."
   - question: What is Tashlich and where can I see it in Israel?
@@ -47,13 +47,13 @@ This guide covers the 2026 High Holiday season — what to expect, where to be, 
 
 ## Dates and the Jewish calendar
 
-**Rosh Hashanah 5787** begins at sunset on **Wednesday, 10 September 2026** and concludes at nightfall on **Friday, 12 September 2026**. The holiday is two days.
+**Rosh Hashanah 5787** begins at sunset on **Friday, 11 September 2026** and concludes at nightfall on **Sunday, 13 September 2026**. The holiday is two days.
 
 The **Ten Days of Awe** (Aseret Yemei Teshuva) — the solemn period between Rosh Hashanah and Yom Kippur — runs from 11 September through 21 September 2026.
 
 **Yom Kippur 5787** falls on **Monday, 21 September 2026** (begins evening of 20 September).
 
-**Sukkot** follows one week after Yom Kippur, beginning the evening of **Saturday, 26 September 2026**.
+**Sukkot** follows one week after Yom Kippur, beginning the evening of **Friday, 25 September 2026**.
 
 For 2027 and later years, always verify dates with [Hebcal](https://www.hebcal.com) or the Chabad calendar — the Jewish calendar shifts by up to several weeks in the Gregorian calendar from year to year.
 
@@ -149,11 +149,11 @@ The High Holiday season is Jerusalem's most competitive accommodation window. Ho
 
 ## Practical logistics
 
-**Transport**: all public transport stops for the two days of Rosh Hashanah (buses, trains, light rail, and intercity services). The same rules apply as [Shabbat](/shabbat-guide) but for two consecutive days. Plan arrivals and inter-city movements for the day before the holiday begins (before sunset on September 10) or wait until the holiday ends (nightfall on September 12). Walking is the dominant mode in Jerusalem and Tel Aviv during the holiday.
+**Transport**: all public transport stops for the two days of Rosh Hashanah (buses, trains, light rail, and intercity services). The same rules apply as [Shabbat](/shabbat-guide) but for two consecutive days. Plan arrivals and inter-city movements for the day before the holiday begins (before sunset on September 11) or wait until the holiday ends (nightfall on September 13). Walking is the dominant mode in Jerusalem and Tel Aviv during the holiday.
 
 **Restaurants and shops**: Jewish-owned restaurants and shops close for both days of Rosh Hashanah. Arab-Israeli neighbourhoods (East Jerusalem Muslim Quarter, Jaffa, Nazareth, Akko Arab Quarter) continue operating. Hotel restaurants remain open throughout the holiday. In Tel Aviv, a small number of non-kosher/Arab-owned restaurants stay open.
 
-**The shofar on Shabbat**: if the first day of Rosh Hashanah falls on Shabbat, the traditional ruling (followed in Israel) suspends the shofar blowing on the first day and moves it to the second. In 2026, September 12 is a Friday — so the two days are Wednesday–Friday, with no Shabbat overlap, and the shofar is blown on both days.
+**The shofar on Shabbat**: if the first day of Rosh Hashanah falls on Shabbat, the traditional ruling (followed in Israel) suspends the shofar blowing on the first day and moves it to the second. In 2026, September 12 is a Saturday — the first day of Rosh Hashanah falls on Shabbat, so the shofar is not blown on September 12 and is sounded only on the second day, Sunday 13 September 2026.
 
 **Safety note**: the High Holiday season involves large crowds at the Western Wall, in the Jewish Quarter, and in public spaces across the country. Follow [standard Old City safety guidance](/is-israel-safe) and expect security checks at all major holy sites to be thorough and slow during peak holiday times.
 

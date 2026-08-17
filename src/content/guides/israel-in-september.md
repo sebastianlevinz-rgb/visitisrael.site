@@ -59,7 +59,7 @@ Always verify the exact dates for your year at [chabad.org/holidays](https://www
 
 ## Rosh Hashana: the Jewish New Year
 
-Rosh Hashana — literally "head of the year" — is a two-day holiday observed with a mix of solemnity and celebration. In 2026 it falls on September 11–13 (eve of September 10 through nightfall September 13); verify for other years.
+Rosh Hashana — literally "head of the year" — is a two-day holiday observed with a mix of solemnity and celebration. In 2026 it falls on September 11–13 (eve of September 11 through nightfall September 13); verify for other years.
 
 ### The atmosphere
 
