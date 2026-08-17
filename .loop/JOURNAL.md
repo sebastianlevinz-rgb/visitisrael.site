@@ -18272,3 +18272,5 @@ What: 288th research pass (iter1290 = 1290%5==0 → RESEARCH mode). Researched 4
 7. israel-for-baltic-travelers — Estonia+Latvia+Lithuania combined; airBaltic RIX→TLV; "Jerusalem of Lithuania" heritage angle; 6M combined pop
 No gate/build/ship (RESEARCH mode). No CI triggered. Saturation estimate: ~97%.
 Next: BUILD (iter1291; 1291%5=1 → BUILD; category = monetization).
+
+stopped: STOP flag
