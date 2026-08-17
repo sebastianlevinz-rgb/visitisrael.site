@@ -92,6 +92,8 @@ This guide covers what each major festival is actually like to attend — logist
 | **Tel Aviv International Jazz Festival** | May | Multiple TLV venues | Mix of free + paid | Jazz, urban, city culture |
 | **Eilat Chamber Music Festival** | December | Eilat venues | Paid (₪80–250) | Classical, Red Sea winter sun |
 | **Red Sea Guitar Festival Eilat** | February or March | Eilat Red Sea waterfront | Paid (₪80–200) | Guitar across genres, shoulder-season Eilat |
+| **Fattal Rock Festival Eilat** | June | Eilat North Beach (Fattal Hotels) | Hotel package / IsraTicket | Israeli rock, Red Sea beachfront |
+| **Arad Music Festival** | Late August | Arad city, Negev | Free or low-cost | Hebrew music, community gathering, Negev |
 | **Purim Celebrations (TLV)** | Feb/March | Dizengoff Square, Tel Aviv | Free | Costume culture, street party |
 
 > **Dates shift each year.** Jewish calendar interactions (Rosh HaShanah, Sukkot, Purim timing) mean all autumn and spring festivals adjust by one to several weeks annually. Always verify with the official festival site before booking travel.
@@ -265,6 +267,31 @@ The primary access route is a **Fattal hotel package** at the Royal Beach or Clu
 **Full guide:** [Fattal Rock Festival Eilat visitor guide](/fattal-rock-festival-eilat) — dates, headliners, hotel package access, June Eilat conditions, and day-trip planning.
 
 **Cross-link:** [Eilat travel guide](/eilat-travel-guide) · [Eilat diving & snorkelling](/eilat-diving-snorkeling) · [Israel in June](/israel-in-june)
+
+---
+
+## Arad Music Festival
+
+**Arad city, Negev · Late August · Free or low-cost**
+
+The Arad Music Festival is one of Israel's oldest and most beloved cultural events — an annual late-August gathering in the Negev desert town of Arad that has run continuously since **1982**. For three days, the festival fills Arad's open-air stages with Hebrew-language Israeli music: folk, mizrahi, rock, and contemporary singer-songwriters performing exclusively in Hebrew to a predominantly Israeli audience.
+
+Unlike the other festivals on this page, Arad is not a commercial event. Entry has historically been free or very low-cost — the community-festival model is central to its identity. The programme is built around Hebrew musical identity: **shira b'tzibbur** (communal singing circles), beloved Israeli artists, and the folk traditions that shaped Israeli musical culture, rather than international headliners or global pop. Tens of thousands of Israelis attend across the three days, making it one of the most-attended summer cultural events in the country.
+
+### What to expect
+
+- **Daytime**: shira b'tzibbur circles, Israeli folk, family-oriented stages
+- **Evenings**: headline Israeli rock and mizrahi acts, the highlight programme
+
+The festival is held on Arad's dedicated open-air grounds, within the town itself. Arad sits at approximately 600 m elevation — noticeably cooler than the Dead Sea valley below, though late-August daytime temperatures still reach 35–38°C. Evening concerts are considerably more comfortable.
+
+### Getting there and accommodation
+
+The Dead Sea En Bokek resort strip (25–35 km east via Route 31) is the most practical base for international visitors: a 30–40 minute drive puts you at the festival and back at a mineral-pool hotel for the rest of the day. Beer Sheva (45 km west) connects by Egged bus (lines 380/389).
+
+**Full guide:** [Arad Music Festival visitor guide](/arad-festival-guide) — dates, music programme, practical tips for August in the Negev, and combining with Dead Sea and Masada.
+
+**Cross-link:** [3 days in the Negev itinerary](/3-days-in-negev) · [Dead Sea visitor guide](/dead-sea-guide) · [Mitzpe Ramon guide](/mitzpe-ramon-guide) · [Israel in August](/israel-in-august)
 
 ---
 

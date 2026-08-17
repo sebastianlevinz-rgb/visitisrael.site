@@ -240,6 +240,7 @@ Light summer clothing — thin linen or moisture-wicking fabrics. Strong sunbloc
 - [Israel in summer (June–August)](/israel-in-summer): the full seasonal overview — heat strategy, water parks, summer festival calendar
 - [Best time to visit Israel](/best-time-to-visit-israel): how August compares across the full 12-month planning matrix
 - [Israel events and festivals](/israel-events-festivals): the complete annual events and festivals calendar
+- [Arad Music Festival guide](/arad-festival-guide): Israel's oldest Hebrew music festival (since 1982) — late August in the Negev, free or low-cost entry, community singing and Israeli folk and rock
 - [Dead Sea guide](/dead-sea-guide): summer safety detail and practical logistics
 - [Sea of Galilee guide](/sea-of-galilee-guide): water activities, beaches, and logistics on the Kinneret
 - [Golan Heights guide](/golan-heights-guide): the coolest accessible region in Israel during the summer heat

@@ -77,6 +77,7 @@ For a regularly updated summary of which airlines are currently operating, which
 | Arkia | Málaga AGP | New Jul 2026; weekly direct — see [Israel for Spanish visitors](/israel-for-spanish-travelers) |
 | Israir | Madrid MAD | New from Oct 2026; 3×/week A320 |
 | airBaltic | Riga RIX | Resumed July 2026 with El Al codeshare; connects Baltic/Nordic passengers via Riga hub |
+| Georgian Airways (Airzena) | Tbilisi TBS | Direct TBS–TLV service (~2.5–3h); primary carrier for travellers from Georgia — see [Israel for Georgian visitors](/israel-for-georgian-travelers) |
 | Eurowings | Hamburg HAM, Düsseldorf DUS | New routes from July 2026; Lufthansa Group LCC — base fares exclude checked luggage |
 | Wizz Air | London Luton, Budapest, Vienna, Bucharest and others | Ultra-low base fares; luggage add-ons |
 | British Airways | London Heathrow (LHR) — *Suspended* | BA has suspended its Heathrow–TLV service; scheduled to resume from late October 2026 — verify current status at ba.com before booking |
