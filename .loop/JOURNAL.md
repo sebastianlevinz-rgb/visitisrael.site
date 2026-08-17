@@ -18286,3 +18286,10 @@ What: New /fattal-rock-festival-eilat guide (~1,100w EN). Annual 3-night Israeli
 Gate: 0 check errors | build 2012 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Ship: squash-merged to master 39156e8d, pushed.
 Prod: CI in_progress at state-write (normal pattern).
+
+## 2026-08-17T11:50Z · iter 1293 · BUILD-seo-content · jerusalem-ramparts-walk
+What: New /jerusalem-ramparts-walk guide (~1,000w EN). P3 seo-content — dedicated visitor guide to walking Jerusalem's Suleiman-era (1530s) Old City walls. Tools rotation had zero unshipped items; technical P2 items either DONE or BLOCKED:human-review → fell through to seo-content; selected highest-priority confirmed-ready item (jerusalem-ramparts-walk).
+Content: Two-route visitor guide. North route (Jaffa Gate→Lions' Gate, ~1.5h): above Muslim+Christian Quarters; Damascus Gate marketplace views; Hinnom Valley panorama; Crusader towers. South route (Jaffa Gate→Dung Gate, ~1.5h): above Armenian+Jewish Quarters; Mount Zion views; Western Wall area glimpses. Pricing table: ₪25 single / ₪35 combined. 2026 summer extended hours: Sun–Thu 09:00–21:00 (north section). Eastern section permanently closed (Temple Mount perimeter — explicitly noted). Photography tips: golden-hour valley views; avoid midday harsh limestone light. Accessibility warning: uneven medieval stone; no lifts; not suitable for wheelchairs/strollers/vertigo. Tickets: Jaffa Gate tower entrance or Tower of David. 6 FAQs; 2 CTAs (Booking Old City hotels + GYG Jerusalem walking tours). Bidirectional: jerusalem-neighborhoods-guide (Ramparts Walk link in Jewish Quarter key sites section + More: links); 1-day-jerusalem-itinerary (walls mention + guide link in closing paragraph); western-wall-guide (south route→Dung Gate→plaza added to Combined visits line). smoke.spec.ts +1 route; a11y.spec.ts +1 route.
+Gate: 0 check errors | build 2013 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: committed to master 18a05862, pushed. CI in_progress at state-write (normal pattern).
+Next: iter 1294 = REVIEW (1294%5==4). Audit iter1291–1293 (israel-working-holiday-visa, fattal-rock-festival-eilat, jerusalem-ramparts-walk).
