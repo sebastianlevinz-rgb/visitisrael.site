@@ -1655,6 +1655,7 @@ const ROUTES = [
   '/israel-working-holiday-visa',
   '/fattal-rock-festival-eilat',
   '/jerusalem-ramparts-walk',
+  '/arad-festival-guide',
 ];
 
 for (const route of ROUTES) {
