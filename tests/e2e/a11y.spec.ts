@@ -1380,6 +1380,7 @@ const ROUTES = [
   '/arad-festival-guide',
   '/israel-for-georgian-travelers',
   '/jacob-ladder-festival',
+  '/israel-for-nepali-travelers',
 ];
 
 for (const route of ROUTES) {
