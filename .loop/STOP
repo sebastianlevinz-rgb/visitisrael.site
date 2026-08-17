@@ -1,0 +1,32 @@
+# LOOP DETENIDO
+
+Fecha: 2026-08-17
+Autorizado por: Sebastian (dueño del proyecto)
+
+La generación autónoma de contenido está CONGELADA por decisión de negocio.
+
+Motivo: el loop corrió sin supervisión desde el 2026-06-23 (routine creada ese día)
+hasta el 2026-08-17, acumulando 1.302 iteraciones, 2.554 commits en master y ~2.018
+páginas construidas. El sitio quedó superpoblado: demasiadas páginas, demasiadas
+categorías, calidad sin verificar. La propia loop declaraba "saturación ~97%" y
+seguía generando igual.
+
+El proyecto entra en fase de CONSOLIDACIÓN, no de crecimiento. Ver ROADMAP.md.
+
+## Doble candado
+
+1. Routine `trig_01T9XFcuEQq8fBQa2M2yTEVX` ("Visit Israel — autonomous SEO loop
+   (hourly)", cron `23 * * * *`) desactivada vía API con `enabled: false` el
+   2026-08-17T21:03:55Z. No dispara.
+
+2. Este archivo. El paso 0 del prompt de la routine dice: si existe `.loop/STOP`,
+   escribir una línea en `.loop/JOURNAL.md` y TERMINAR sin producir contenido.
+   Es el respaldo por si alguien reactiva la routine desde claude.ai.
+
+## NO BORRAR
+
+Borrar este archivo reactiva la generación automática de páginas.
+Solo Sebastian puede autorizar su eliminación, y solo cuando la fase de
+consolidación haya cerrado.
+
+Constancia completa: /gestion/auditoria/loop-detenido.md
