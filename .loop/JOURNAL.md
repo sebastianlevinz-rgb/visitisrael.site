@@ -18332,3 +18332,15 @@ What: New /israel-for-georgian-travelers (~1,200w EN) — comprehensive planning
 Gate: pnpm check 0 errors | build 2016 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Merge: squash-merged to master 9a9a848f, pushed to origin/master.
 CI: in_progress at state-write (normal pattern; Vercel auto-deploys on master push).
+
+## 2026-08-17T18:05Z · iter 1299 · REVIEW · review-1299-link-fixes
+What: REVIEW pass (1299%5==4). Audited iter1296 (israel-vs-dubai), iter1297 (arad-festival-guide), iter1298 (israel-for-georgian-travelers).
+Audit findings — 5 fix groups applied:
+  1. DEAD LINK: israel-vs-dubai.md had /vegan-israel-guide (non-existent) → corrected to /vegan-vegetarian-israel (actual file slug). Caught by links.spec.ts / check-links.mjs.
+  2. Arad Music Festival absent from israel-music-festivals.md: neither the festivals-at-a-glance table nor the body had a section for it. Added full Arad Music Festival section (Late August, Arad/Negev, free or low-cost, shira b'tzibbur, Hebrew folk/rock) with link to /arad-festival-guide. Also added missing Fattal Rock Festival row to the table (June, Eilat North Beach, hotel package / IsraTicket).
+  3. Arad back-links added: israel-in-august.md (Where August fits section) + 3-days-in-negev.md (More section).
+  4. israel-vs-dubai absent from More: sections of 4 comparison guides: israel-vs-jordan, israel-vs-egypt, israel-vs-turkey, israel-vs-greece — all cross-link each other but omitted the newly shipped Dubai guide. Added to all four.
+  5. Georgian travelers back-links: christian-pilgrimage-holy-land.md (Georgia/Monastery of the Cross callout appended at end alongside existing Serbia + Brazil callouts); cheap-flights-to-israel.md (Georgian Airways TBS-TLV row added to From UK and Europe airline table).
+Gate: 0 check errors | build 2016 pages (unchanged) | 56/56 targeted smoke+a11y PASS | 1/1 link check PASS (dead link fixed enabled this to pass).
+Ship: committed 80f9e1b4, pushed to origin/master. CI in_progress at state-write (normal pattern).
+Next: iter 1300 = RESEARCH (1300%5==0 → 290th research pass).
