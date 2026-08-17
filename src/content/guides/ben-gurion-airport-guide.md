@@ -70,7 +70,7 @@ International flights land into **Terminal 3 arrivals (Level 1)**. After landing
 
 1. **Passport control**: Israeli citizens use e-gates; foreign nationals queue at manned booths. Have your ETA-IL or visa documentation ready — see the [visa guide](/visa-information) if you are unsure whether you need one.
 2. **Baggage reclaim**: carousels are in the main arrivals hall; the belt number is displayed on overhead screens once your flight lands.
-3. **Customs**: most visitors walk through the green channel. Red channel is for those with goods to declare (above duty-free allowances, cash over $20,000, or regulated items).
+3. **Customs**: most visitors walk through the green channel. Red channel is for those with goods to declare (above duty-free allowances, cash over $20,000, or regulated items). **Drones must be declared regardless of weight** — the sub-250g exemption used in European regulations does not apply in Israel; undeclared drones can be confiscated immediately. See the [Israel drone laws guide](/israel-drone-laws-guide) for the full customs and CAAI registration process.
 4. **Arrivals hall**: [car rental desks](/car-rental-israel) are on the ground floor of the arrivals hall (Avis, Hertz, Budget, Sixt, Eldan). ATMs, a currency exchange counter, a pharmacy, and a convenience store are all in the same hall.
 5. **Onward transport**: train station is accessible via a direct link below the arrivals hall. Taxi rank and transfer pick-up area are at the exit of the hall. For full options, see the [airport transfers guide](/ben-gurion-airport-transfers).
 

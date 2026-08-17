@@ -130,4 +130,4 @@ Most Israeli photography guide operators differentiate their tours by experience
 
 ---
 
-Photography tours pair naturally with [Israel's best photo locations](/israel-photography-guide) for planning which sites to cover independently outside tour hours, and with [birdwatching in Israel](/birdwatching-in-israel) if wildlife photography is a priority.
+Photography tours pair naturally with [Israel's best photo locations](/israel-photography-guide) for planning which sites to cover independently outside tour hours, and with [birdwatching in Israel](/birdwatching-in-israel) if wildlife photography is a priority. For visitors considering aerial photography, note that drone flying in Israel requires CAAI registration and a mandatory Ben Gurion customs declaration — the full process is covered in the [Israel drone laws guide](/israel-drone-laws-guide). For most locations (including Jerusalem, Tel Aviv and the major archaeological sites), guided photography tours are the practical permit-free alternative.
