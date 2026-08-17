@@ -127,4 +127,6 @@ If both festivals fall in the same calendar window, combining a trip around both
 
 ---
 
+Eilat's year-round music calendar also includes the **[Fattal Rock Festival Eilat](/fattal-rock-festival-eilat)** each June — 3 evenings of Israeli rock headliners at Fattal Hotels' North Beach beachfront. Together, these three festivals (June rock, November jazz, November/December classical) give Eilat one of the most diverse annual music calendars of any Israeli city.
+
 For the full picture of Israeli music events, see the [Israel music festivals guide](/israel-music-festivals). For planning a longer Eilat stay around either festival, the [Eilat travel guide](/eilat-travel-guide) covers the city's beach zones, transport, dining, and practical logistics in detail.
