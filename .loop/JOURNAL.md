@@ -18254,3 +18254,9 @@ What: New /israel-drone-laws-guide (~900w EN) — complete tourist guide to CAAI
 Gate: 0 check errors | build 2010 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Ship: squash-merged to master 1a8af36c, pushed.
 Prod: CI in_progress at state-write (normal).
+
+## 2026-08-17T06:50Z · iter 1289 · REVIEW · review-iter1289-link-fixes
+What: Audited iter1286 (rosh-hashanah-in-israel date fix), iter1287 (israel-for-brazilian-travelers), iter1288 (israel-drone-laws-guide). All internal links resolve (15 distinct targets verified). H1 constraints met. No fabricated prices/ratings. Dates correct (RH 5787 Sep 11-13 ✓; shofar/Shabbat note ✓). 3 missing bidirectional links found and fixed: (1) ben-gurion-airport-guide.md customs step → added mandatory drone declaration note + link to drone guide; (2) israel-photography-tours.md closing paragraph → added drone laws context + link to drone guide; (3) jewish-heritage-israel.md closing paragraph → added Brazilian Jewish diaspora callout + link to israel-for-brazilian-travelers.
+Gate: 0 check errors | build 2010 pages (unchanged) | 22/22 targeted smoke+a11y PASS.
+Ship: squash-merged to master 533f1f22, pushed.
+Prod: CI in_progress at state-write (normal pattern).

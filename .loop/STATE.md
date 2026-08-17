@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1288
-- lastMode: BUILD-seo-content+technical
-- lastItem: israel-drone-laws-guide
-- lastResult: iter1288 BUILD-seo-content+technical — israel-drone-laws-guide SHIPPED 1a8af36c. New /israel-drone-laws-guide (~900w EN): complete tourist guide to CAAI drone regulations — mandatory Ben Gurion customs declaration (all weights including sub-250g), CAAI registration portal (1–2 week timeline), 50m altitude limit, 250m separation rule, 2km airport buffer, no-fly zones (Jerusalem sensitive areas, military zones, border exclusion zones), 2026 fine increases (NIS 1,000–3,000; +25%), best accessible locations (Ramon Crater rim, Galilee farmland, Caesarea coastal plain), honest case for photography tours as permit-free alternative. Fixed "CAAF" → "CAAI" typo in israel-photography-guide.md FAQ + added link to new drone guide (bidirectional). 6 FAQs; 2 GYG CTAs; 6 cross-links. Smoke + a11y tests +1 each; 2/2 targeted PASS. Build 2010 pages (+1). CI in_progress (normal). Rotation: tools category had no ready items → fell through to technical (seo-content+technical hybrid).
+- iteration: 1289
+- lastMode: REVIEW
+- lastItem: review-iter1289-link-fixes
+- lastResult: iter1289 REVIEW — review-iter1289-link-fixes SHIPPED 533f1f22. Audited iter1286 (rosh-hashanah date fix), iter1287 (brazil guide), iter1288 (drone guide). All 15 internal link targets verified ✓. H1 constraints ✓. Honesty ✓ (no fabricated prices). Dates ✓ (RH 5787 Sep 11-13; shofar/Shabbat Sat Day1 note). Found + fixed 3 missing bidirectional links: (1) ben-gurion-airport-guide customs step → drone declaration warning + /israel-drone-laws-guide; (2) israel-photography-tours closing → drone laws context + /israel-drone-laws-guide; (3) jewish-heritage-israel closing → Brazilian diaspora callout + /israel-for-brazilian-travelers. Gate: 0 check errors | build 2010 pages (unchanged) | 22/22 targeted smoke+a11y PASS. CI in_progress (normal).
 
-- nextRotationCategory: monetization (1289%5=4 → REVIEW; category after technical = monetization for next BUILD iter)
+- nextRotationCategory: monetization (1290%5=0 → RESEARCH; next BUILD after that = monetization)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-17T05:50Z
-- branch context: master at 1a8af36c; EN=440 (39 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1288): israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-austrian-travelers P3 S; israel-for-belgian-travelers P3 S; israel-with-babies-toddlers P3 S; israel-winter-hiking-guide P3 S.
+- updatedAt: 2026-08-17T06:50Z
+- branch context: master at 533f1f22; EN=440 (39 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (unchanged after REVIEW): israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-austrian-travelers P3 S; israel-for-belgian-travelers P3 S; israel-with-babies-toddlers P3 S; israel-winter-hiking-guide P3 S.
 
 Notes: iter1284 REVIEW — review-1284-guitar-links-thai-honesty SHIPPED f65f243d. Audited iter1281-1283: 3 fixes — removed fabricated rating/reviews from Thai guide CTA (honesty); added guitar festival to eilat-travel-guide events section (bidirectional link); added guitar festival to israel-in-march calendar (bidirectional link). Gate: 0 check errors | build 2008 pages (unchanged) | 19/19 targeted smoke+a11y PASS. Vercel in_progress (normal).
 

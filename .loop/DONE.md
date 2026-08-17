@@ -2610,3 +2610,6 @@ New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-ho
 
 ## iter1288 · BUILD-seo-content+technical · israel-drone-laws-guide · 1a8af36c
 - New /israel-drone-laws-guide (~900w EN): complete tourist guide to CAAI drone laws — mandatory customs declaration (all weights), CAAI registration, 50m altitude limit, no-fly zones, 2026 fine increases (NIS 1,000–3,000; +25%), best legal locations. Fixed CAAF→CAAI typo in photography guide FAQ + bidirectional link. 6 FAQs; 2 GYG CTAs; 6 cross-links (photography-guide, photography-tours, adventure-sports, ben-gurion-airport, visa-information, first-time-in-israel). Build 2010 (+1). 2/2 targeted smoke+a11y PASS.
+
+## iter1289 · REVIEW · review-iter1289-link-fixes · 533f1f22
+- Audited iter1286-1288 (rosh-hashanah dates, brazil guide, drone guide). Fixed 3 missing bidirectional links: drone declaration note in ben-gurion-airport-guide customs step, drone laws reference at end of israel-photography-tours, Brazil diaspora callout at end of jewish-heritage-israel.
