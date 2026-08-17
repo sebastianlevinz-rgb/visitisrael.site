@@ -138,11 +138,12 @@ Activities to combine with festival evenings:
 
 The guitar festival is the third leg of Eilat's annual music festival trilogy:
 
+- **June** — [Fattal Rock Festival Eilat](/fattal-rock-festival-eilat): 3-night Israeli rock weekend at Fattal Hotels' beachfront; hotel package access; Gulf of Aqaba waterfront stages.
 - **November** — [Red Sea Jazz Festival Eilat](/red-sea-jazz-festival-eilat): 70,000 attendees across four open-air nights; Israel's largest jazz event.
 - **December** — [Eilat Chamber Music Festival](/eilat-chamber-music-festival): Five days of classical chamber music in intimate indoor venues.
 - **February or March** — Red Sea Guitar Festival: Guitar-focused programme across genres on the Red Sea waterfront.
 
-Together these three festivals make Eilat one of Israel's most consistently music-active cities from autumn through spring.
+Together these festivals — rock in June, jazz in November, classical in December, guitar in February or March — make Eilat one of Israel's most consistently music-active cities across the full calendar year.
 
 For the full Israeli festival calendar — including spring and summer events in Jerusalem, the Negev, and Tel Aviv — see the [Israel music festivals guide](/israel-music-festivals).
 

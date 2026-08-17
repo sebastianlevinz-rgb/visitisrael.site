@@ -204,6 +204,8 @@ Jerusalem in June is warm and dry — 24–28°C by day, comfortable 17–20°C 
 
 **White Night / Laila Lavan** (late June, one night): 70+ venues open free all night across Tel Aviv; free concerts, museum access, gallery openings, architectural tours.
 
+**Fattal Rock Festival Eilat** (typically second week of June, 3 evenings): Israeli rock and pop-rock headliners — Chanan Ben Ari headlined the 2026 edition — on outdoor Gulf of Aqaba waterfront stages at Fattal Hotels' North Beach properties in Eilat. Hotel package access (Royal Beach / Club Hotel Eilat by Fattal) is the primary route; external tickets sometimes available via IsraTicket. June Eilat delivers ideal summer evenings of 26–28°C for outdoor rock concerts. Full guide: [Fattal Rock Festival Eilat](/fattal-rock-festival-eilat).
+
 HONESTY: All of the above event dates shift by 1–2 weeks annually. Never plan travel around specific June dates without first verifying the current year's schedule at the relevant official sources — tlv.gov.il, the Jerusalem Festival of Light official site, and chabad.org/holidays for Shavuot.
 
 ---

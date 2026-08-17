@@ -183,7 +183,9 @@ Eilat's late-autumn calendar is anchored by two annual music events that draw vi
 
 **[Red Sea Guitar Festival](/red-sea-guitar-festival-eilat)**: held annually in February or March on the North Beach waterfront, featuring Israeli guitarists and international guest artists across rock, blues, acoustic, and world music genres. More intimate than the jazz festival; the February–March timing delivers warm shoulder-season weather (27–30°C) with uncrowded beaches and good hotel value.
 
-These three festivals — jazz in November, chamber music in December, guitar in February or March — make Eilat one of Israel's most consistently music-active cities from autumn through spring.
+**[Fattal Rock Festival](/fattal-rock-festival-eilat)**: an annual 3-night Israeli rock festival held each June at Fattal Hotels' beachfront properties (Royal Beach and Club Hotel Eilat). Organised by the Fattal Hotels Group, the festival features Israeli rock headliners — Chanan Ben Ari headlined the 2026 edition — on outdoor Gulf of Aqaba waterfront stages. Festival access is primarily via Fattal hotel packages; external tickets are sometimes available through IsraTicket. June Eilat delivers warm summer evenings of 26–28°C: ideal for outdoor rock concerts.
+
+These four festivals — rock in June, jazz in November, chamber music in December, guitar in February or March — give Eilat one of Israel's most diverse year-round music event calendars.
 
 ---
 

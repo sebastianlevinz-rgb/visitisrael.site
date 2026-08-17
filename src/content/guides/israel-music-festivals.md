@@ -232,7 +232,7 @@ Tickets are available via **eilatfestival.co.il** (verify current site for the f
 
 **Eilat Red Sea waterfront · February or March · multi-evening**
 
-Eilat's dedicated guitar music festival takes place annually in February or March — the third leg of the city's music festival trilogy alongside the Red Sea Jazz Festival (November) and Eilat Chamber Music Festival (December). The festival features Israeli guitarists and international guest artists across genres including rock, blues, acoustic fingerstyle, and world music, with open-air and amphitheatre stages on Eilat's Gulf of Aqaba waterfront.
+Eilat's dedicated guitar music festival takes place annually in February or March — part of the city's year-round music festival calendar alongside the Fattal Rock Festival (June), Red Sea Jazz Festival (November), and Eilat Chamber Music Festival (December). The festival features Israeli guitarists and international guest artists across genres including rock, blues, acoustic fingerstyle, and world music, with open-air and amphitheatre stages on Eilat's Gulf of Aqaba waterfront.
 
 ### What to expect
 
@@ -245,6 +245,26 @@ Tickets are available via **IsraTicket** (israelticket.co.il) and **Leaan** (lea
 **Full guide:** [Red Sea Guitar Festival Eilat visitor guide](/red-sea-guitar-festival-eilat) — dates, venue format, ticket types, February/March Eilat weather, and travel logistics.
 
 **Cross-link:** [Eilat travel guide](/eilat-travel-guide) · [Eilat diving & snorkelling](/eilat-diving-snorkeling) · [Red Sea Jazz Festival Eilat](/red-sea-jazz-festival-eilat)
+
+---
+
+## Fattal Rock Festival Eilat
+
+**Eilat Red Sea waterfront · June · 3 evenings**
+
+The Fattal Rock Festival is an annual Israeli rock weekend at Eilat's North Beach, organised by the Fattal Hotels Group and staged across their beachfront properties — the Royal Beach and Club Hotel Eilat. Unlike the municipally-run Jazz and Guitar festivals, the Rock Festival is built into Fattal's hotel programme: staying at either Fattal property during festival week typically includes festival access as part of the hotel package.
+
+### What to expect
+
+Israeli rock and pop-rock headliners perform across three evenings on outdoor waterfront stages facing the Gulf of Aqaba, with the Jordanian and Saudi mountains visible across the water. Chanan Ben Ari — one of Israel's most commercially successful rock artists — headlined the 2026 edition. The June timing places the festival in ideal outdoor-concert weather: warm evenings of 26–28°C with no rain and a calm Red Sea.
+
+### Tickets and logistics
+
+The primary access route is a **Fattal hotel package** at the Royal Beach or Club Hotel Eilat, which typically includes festival access. Standalone external tickets are sometimes available via IsraTicket (israelticket.co.il) — check fattal.co.il for the current year's package format and IsraTicket for standalone availability. Exact June dates are confirmed by Fattal Hotels Group each year; the 2026 edition ran June 11–13.
+
+**Full guide:** [Fattal Rock Festival Eilat visitor guide](/fattal-rock-festival-eilat) — dates, headliners, hotel package access, June Eilat conditions, and day-trip planning.
+
+**Cross-link:** [Eilat travel guide](/eilat-travel-guide) · [Eilat diving & snorkelling](/eilat-diving-snorkeling) · [Israel in June](/israel-in-june)
 
 ---
 

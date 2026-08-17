@@ -1652,6 +1652,7 @@ const ROUTES = [
   '/israel-for-brazilian-travelers',
   '/israel-drone-laws-guide',
   '/israel-working-holiday-visa',
+  '/fattal-rock-festival-eilat',
 ];
 
 for (const route of ROUTES) {
