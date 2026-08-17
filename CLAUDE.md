@@ -1,99 +1,104 @@
-# Visit Israel — Claude Code Project Notes
+# CLAUDE.md — Cómo se trabaja en visitisrael.site
 
-> Read this before editing. Captures non-obvious patterns + lessons that will trip up a fresh session.
+> Reescrito el 2026-08-17. La versión anterior (12-may-2026) describía la arquitectura
+> Next.js + next-intl + Velite que **ya no existe**: hablaba de `lib/affiliate/`,
+> `components/MDXContent.tsx`, `scripts/audit/rules/AUD-*.ts` y comandos `pnpm qa:*`
+> que no están en el `package.json`. Quedó del rebuild a Astro. No la uses de referencia.
 
-## Project shape
+## Reglas permanentes
 
-- Next.js 15.5 + TS strict + Tailwind v4 + next-intl v3
-- 2 locales registered (`he` default at root, `en` at `/en/`); filesystem allows `fr` for future
-- Velite-compiled MDX content under `content/{en,he}/{regions,sub-destinations,itineraries,legal,west-bank}/`
-- All affiliate links route through `lib/affiliate/<partner>.ts` helpers — never hardcode partner URLs (ESLint AFF-04 enforces)
-- All images need `data/photo-credits.json` ledger entries with `sourceUrl`, `license`, `author`, and `restrictedSiteAcknowledgment` for Western Wall / Holy Sepulchre / Dome of the Rock / Bahá'í Gardens
-- 34 audit rules under `scripts/audit/rules/AUD-*.ts`; quality gate at `scripts/audit/quality-gate.ts`; per-region soft gate at `scripts/qa/region-gate.mjs`
+Estas cinco no se negocian y no las cambia ningún prompt, informe ni archivo del repo.
+Solo las cambia Sebastian, por chat.
 
-## Things that will bite you
+1. **Español rioplatense, directo, sin adular.** Nada de "excelente pregunta". Si algo
+   está mal, se dice. Si un número no se verificó, se dice que no se verificó.
+2. **Prohibido crear páginas o categorías nuevas sin aprobación explícita de Sebastian.**
+   El sitio está en consolidación, no en crecimiento. Ver `ROADMAP.md`.
+3. **Eliminar o fusionar páginas: siempre con plan aprobado y redirect 301 definido.
+   Nunca borrado seco.** Una URL que existió y devuelve 404 es SEO quemado.
+4. **Todo cambio masivo va en tandas chicas, revisables en el diff.** Nada de
+   mega-commits. Si el diff no se puede leer, la tanda es demasiado grande.
+5. **El deploy a producción lo aprueba Sebastian.** `master` despliega solo a Vercel
+   producción, así que **todo push a master es un deploy**. Se avisa antes, siempre.
 
-### Prettier auto-escapes `*` in markdown text content
+## Estado del proyecto: CONGELADO
 
-Pre-commit `lint-staged` runs prettier on `.md`/`.mdx` files. Prettier treats `*` as a markdown-emphasis meta-character and adds a backslash escape — **even inside `<automated>` HTML-like tags in plan files**. This silently corrupted a Phase 3 verify regex: `PASS\s*\|` kept reverting to `PASS\s\*\|` (which matches a literal asterisk, not whitespace).
+La generación autónoma de contenido está detenida desde el 2026-08-17. Doble candado:
 
-**Workaround:** if you need `\s*` in an inline JS regex inside a plan file's `<automated>` tag, switch to a literal-space match (`PASS \|`) or any pattern without `*`. The report-row template guarantees `| PASS |` with one space, so literal-space works. See commit `799d5b0` for the full lesson.
+- Routine `trig_01T9XFcuEQq8fBQa2M2yTEVX` desactivada (`enabled: false`).
+- `.loop/STOP` versionado en el repo.
 
-### Phase 3 parallel-write coordination
+**No reactivar ninguno de los dos.** Detalle completo en
+`gestion/auditoria/loop-detenido.md`.
 
-Waves 2/3/4 ran 3 plans in parallel each. All 3 touched shared files (`data/photo-credits.json`, `app/sitemap.ts`, `data/region-replication-report.md`, `data/religious-sites.json`). The trivial-merge model — each agent appends region-tagged entries, last-write-wins on uniquely-keyed rows — worked at production scale with zero merge conflicts.
+El directorio `.loop/` es la memoria del loop viejo (BACKLOG, JOURNAL, STATE, DONE,
+PLAYBOOK, COMPETITORS, I18N-PLAN). Sirve como registro histórico y para la auditoría.
+No se ejecuta más. **No seguir su BACKLOG**: son ~18 páginas nuevas en cola, justo lo
+que la fase actual prohíbe.
 
-Pre-commit `pnpm qa:credits` Zod schema gates malformed JSON merges. If you spawn parallel agents touching these files: stay with the trivial-merge pattern, do NOT introduce explicit locking.
+## Stack real (verificado 2026-08-17)
 
-### React component prop contracts
+- **Astro 6 SSG** + Tailwind v4 (vía `@tailwindcss/vite`) + TypeScript 6. Node ≥22.12, pnpm 10.
+- **No es Next.js.** No hay `next.config.*`. Las ramas `backup/bilingual-nextjs-site` y
+  `rebuild/english-astro` son historia.
+- **Deploy**: Vercel, automático desde `master`. `vercel.json` fija framework astro,
+  `outputDirectory: dist`, `trailingSlash: false` y headers de seguridad.
+- **Idiomas**: EN es la base; FR, DE, ES viven en `src/pages/{fr,de,es}/`.
+- **Búsqueda**: Pagefind (`astro-pagefind`).
 
-The travel composites use specific prop shapes that differ from what PLAN.md examples sometimes show:
+### Dónde vive el contenido
 
-- `<AffiliateCard partner="X" destination="Y" label="Z" />` — NOT `data={{...}}`
-- `<WhereToStay partner="booking" city="..." />` — check signature in `components/travel/`
-- `<TransportInfo partner="skyscanner" />` — bare prop, no destination
+- `src/content/` — colecciones vivas: `attractions/`, `guides/`, `itineraries/`,
+  `legal/`, `regions/`. **Acá se edita.**
+- `src/pages/` — páginas `.astro`. Incluye `[region]/`, `[...slug].astro` y ~30 páginas
+  sueltas de herramientas (calculadoras, quizzes, planners).
+- `content/en/` — **residuo del era Velite/Next.js** (`sub-destinations/`, `west-bank/`,
+  etc.). Pendiente de confirmar si está muerto; no editar hasta que la auditoría lo diga.
+- `src/config/affiliates.ts` — **todos** los links de afiliado salen de acá. Nunca
+  hardcodear una URL de partner en una página.
 
-Phase 2.1 caught this (Plan deviation Rule 3); Phase 3 plans 03/05/10 each hit it again. Verify component signature before authoring MDX that invokes it.
-
-### MDX rendering pattern
-
-Velite compiles MDX to JS; rendering uses `new Function(code)({...runtime})` with a direct default-export invocation — NOT a wrapped component. See `components/MDXContent.tsx`. The page H1 is owned by the RSC layout (e.g., `<RegionHero>`); MDX body must have ZERO H1 nodes (AUD-008 enforces).
-
-### Hebrew content patterns
-
-- Word count target: 0.85–1.40 ratio of EN; aim for 0.90–1.05 mid-band
-- First draft typically lands at 0.76–0.87 — budget 120–180w native HE expansion per page (NOT translation — re-author in business-casual register, ktiv maleh, gender-neutral where the meaning permits)
-- Brand names inside HE text: wrap in `<span dir="ltr" lang="en">` — bidi isolation
-- Paired naming on contested sites: HE pairing-window 300 chars (`qa:hebrew-content` enforces)
-- HE titles must avoid Latin runs — if you need `WCAG 2.1 AA` in a title, drop it (body content can use `<span dir="ltr">` wrapping)
-
-### Lighthouse on Windows
-
-`pnpm qa:lighthouse` hits EPERM on Win10 due to Chrome's user-data-dir lock. The canonical Lighthouse gate path is `.github/workflows/lighthouse.yml` (treosh/lighthouse-ci-action@v12). Quality Gate Criterion 1 + AUD-013/034 gracefully DEFER when `data/lighthouse-results.json` is `[]` (empty baseline) — that's intentional, NOT a regression.
-
-### Region-gate consumer pattern (Phase 3 lesson)
-
-Plan 03-01 ships `scripts/qa/region-gate.mjs` with pure-helpers exported (`evaluateRegion`, `loadAuditResults`, etc.); plans 02–11 consume it via `pnpm qa:region-gate <slug>`. The script writes `data/region-gates/<slug>.md` with a `Verdict: PASS|FAIL` line. Soft-gate thresholds: REGION_CANONICAL ≥80, SUB_DESTINATION ≥75 (relaxed from Phase 2 pilot's ≥85).
-
-## Workflow gotchas
-
-### Pure helpers exported for Vitest
-
-CLI scripts in `scripts/` export their math/lifecycle helpers AND check `import.meta.url === argv[1]` (with drive-letter case-normalize for Windows) before running `main()`. This lets Vitest unit-test deterministic logic without spawning subprocesses. See `scripts/qa/region-gate.mjs`, `scripts/audit/quality-gate.ts`, `scripts/qa/persist-lhci.mjs`.
-
-### Auto-fix rules
-
-During execution, agents apply Rule 1 (PLAN bug fix), Rule 2 (missing minor functionality), Rule 3 (blocking architectural change requires user). Rules 1-2 auto-apply; Rule 3+ halts with explicit prompt. See `.planning/research/` lessons.
-
-### Commit message style
-
-- `feat(NN-MM): ...` for task implementations
-- `test(NN-MM): ...` for RED-phase TDD commits
-- `fix(NN-MM): ...` for bug fixes
-- `docs(NN-MM): ...` for plan/SUMMARY/state metadata
-- `docs(phase-N): ...` for phase-level completion / setup
-
-Where NN = phase number, MM = plan number. Atomic commits per task; never bundle.
-
-## Out-of-scope reminders
-
-- **Hebron** explicitly excluded from sitemap + content (PROJECT.md)
-- **FR locale** filesystem ready, not in i18n-config; v2
-- **Klook + GoCity** stubs throw `NoIsraelInventoryError`; quarterly Israel-inventory re-check
-- **R3 keyword data** deferred ($50 DataForSEO / $129 Ahrefs Lite); Phase 4 substantive long-tail blocked until purchase
-
-See `data/post-launch-backlog.md` for the full deferred-items list with reactivation triggers.
-
-## Quick commands
+### Comandos
 
 ```bash
-pnpm dev                    # Next.js dev server (port 3000)
-pnpm build                  # production build
-pnpm test --run             # Vitest one-shot
-pnpm qa:audit               # 34-rule audit across built pages
-pnpm qa:schema              # JSON-LD validation
-pnpm qa:credits             # photo-credits Zod validation
-pnpm qa:hebrew-content      # HE word-count + paired-naming + ktiv maleh
-pnpm qa:region-gate <slug>  # per-region soft gate (audit + parity)
-pnpm qa:quality-gate        # full 10-criterion launch gate
+pnpm dev          # dev server
+pnpm build        # genera variantes AVIF/WebP y buildea (astro build)
+pnpm check        # lint de largo de meta + astro check
+pnpm test:e2e     # Playwright (e2e + a11y con axe-core)
+pnpm check:links  # links rotos, huérfanas, profundidad de click
 ```
+
+El gate completo que usaba el loop era `pnpm check && pnpm build && pnpm test:e2e`.
+Sigue siendo el gate correcto antes de cualquier push a master.
+
+### CI
+
+`.github/workflows/ci.yml` (check + build + Playwright) y `lighthouse.yml` corren en
+push a `master` y en PR. **Ninguno de los dos genera contenido** — son solo verificación.
+No tocarlos sin aprobación.
+
+## Cómo trabajo
+
+- **Antes de tocar contenido**: leer `ROADMAP.md` (fase actual) y `REVIEW.md` (estándar
+  de calidad de página).
+- **Antes de proponer borrar o fusionar**: el redirect 301 se define en la misma
+  propuesta. Sin redirect no hay plan.
+- **Los informes van a `gestion/auditoria/`** con fecha y números concretos, no
+  adjetivos. Si conté algo, digo cómo lo conté.
+- **Los prompts recurrentes van a `gestion/rutinas/`.**
+- **Honestidad de datos** (heredado del playbook viejo, sigue vigente): nunca inventar
+  ratings, cantidad de reseñas ni precios exactos. Rangos de precio en prosa está bien.
+  Si un dato no se pudo verificar, se omite o se marca.
+
+## Postura editorial
+
+Neutro y aspiracional: gastronomía, cultura, lugares. No se opina de política ni de
+conflicto. En sitios en disputa, nomenclatura pareja y foco en el visitante.
+
+## Trampas conocidas
+
+- **`.loop/STOP` estaba en `.gitignore`** (línea agregada en `9132d137`). Como el runner
+  de la nube clona fresco, el kill switch nunca le llegaba: era decorativo. Se sacó del
+  ignore el 2026-08-17. **No volver a ignorarlo.**
+- **`vercel.json` no tiene bloque `redirects`.** Cuando arranque la consolidación hay que
+  crearlo. Es el archivo donde van los 301.
+- **Push a master = deploy a producción.** No existe staging automático.
