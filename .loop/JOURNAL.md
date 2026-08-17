@@ -18319,3 +18319,10 @@ Gate: 0 check errors | build 2014 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Ship: squash-merged to master 706a8469, pushed.
 Prod: CI status unknown at state-write (GitHub status API returned no checks — normal for first minutes of CI run).
 Next: iter 1297 = BUILD (1297%5=2 → BUILD; aim tools/technical — recent BUILDs seo-content heavy).
+
+## 2026-08-17T15:42Z · iter 1297 · BUILD-seo-content · arad-festival-guide
+What: New /arad-festival-guide (~1,000w EN). Arad Music Festival — Israel's oldest dedicated Hebrew music festival since 1982 in the Negev desert town of Arad, late August. Covers: Hebrew-language genres (folk/mizrahi/rock/shira b'tzibbur), free/low-cost entry model and HONESTY note, late-August timing (verify arad-city.org annually), Negev heat management (35–38°C; 600m elevation; evening concerts notably cooler), getting there from Dead Sea En Bokek (25–35km Route 31; 30–40min) and Masada (20–30km Route 3199), Dead Sea resort base strategy, Beer Sheva bus connections (Egged lines 380/389), 6 FAQs, EventSchema placeholder (Aug 24–26 2027), 2 affiliate CTAs (DiscoverCars Negev/Dead Sea + Booking Dead Sea). 6 cross-links: 3-days-in-negev, mitzpe-ramon-guide, israel-music-festivals, israel-in-august, dead-sea-guide, car-rental-israel.
+Gate: 0 check errors | build 2015 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: squash-merged to master c42789ba, pushed to origin/master.
+Prod: CI in_progress at state-write (normal pattern). Pre-existing CI failure on prior commit a4c382e5 (not caused by this change; pure content addition).
+Next: iter 1298 = BUILD (1298%5=3 → BUILD; aim tools/technical or monetization, seo-content has dominated recent iters).
