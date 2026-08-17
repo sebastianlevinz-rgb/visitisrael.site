@@ -18280,3 +18280,9 @@ What: New /israel-working-holiday-visa guide (~1,200w EN). P2 monetization item 
 Gate: 0 check errors | build 2011 pages (+1) | 2/2 targeted smoke+a11y PASS.
 Ship: squash-merged to master 31ffd052, pushed.
 Prod: CI in_progress at state-write (normal pattern).
+
+## 2026-08-17T10:45Z · iter 1292 · BUILD-seo-content · fattal-rock-festival-eilat
+What: New /fattal-rock-festival-eilat guide (~1,100w EN). Annual 3-night Israeli rock festival at Fattal Hotels' beachfront (Royal Beach + Club Hotel Eilat), typically June. Chanan Ben Ari headlined 2026 (Jun 11–13). Hotel package access (fattal.co.il) + external tickets via IsraTicket/Leaan when available. Guide covers: what the festival is, dates/timing (June), venues (Fattal Hotels North Beach Eilat beachfront), ticket access (hotel package primary; IsraTicket external), June Eilat conditions (30–33°C, calm Red Sea), daytime activity pairings (Coral Beach, Red Canyon, Timna, Dolphin Reef), accommodation strategy (Fattal package vs. North Beach alternatives), getting-to-Eilat logistics (Ramon Airport, Egged, car). EventSchema 2027 placeholder (Jun 10–12). 6 FAQs. 2 CTAs: GYG (Eilat day activities) + Booking (North Beach hotels). Bidirectional: eilat-travel-guide (added Rock Festival to events section; "three" → "four" festivals); israel-in-june (added Rock Festival to June events calendar); israel-music-festivals (added new Rock Festival section after Guitar Festival); red-sea-guitar-festival-eilat (updated festival list + "trilogy" → year-round framing).
+Gate: 0 check errors | build 2012 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: squash-merged to master 39156e8d, pushed.
+Prod: CI in_progress at state-write (normal pattern).
