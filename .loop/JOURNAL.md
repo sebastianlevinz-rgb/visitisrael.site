@@ -18357,3 +18357,9 @@ What: 290th research pass (1300%5==0). Searched touristisrael.com, carnifest.com
 Items confirmed NOT in BACKLOG or DONE: all 6 above.
 Items confirmed in DONE/SITE (no action): israel-for-nordic-travelers (iter756 covers Sweden/Norway/Denmark/Finland combined), jerusalem-festival-of-light (guide exists), red-sea-guitar-festival-eilat (guide exists), israel-for-hungarian-travelers (already in BACKLOG iter1270), israel-for-romanian-travelers (already in BACKLOG iter1270).
 Prod: no deploy (research-only). Next: iter1301 = BUILD (1301%5=1, seo-content rotation).
+
+## 2026-08-17T19:57Z · iter 1301 · BUILD-seo-content · jacob-ladder-festival
+What: New /jacob-ladder-festival (~1,100w EN) — Israel's longest-running folk and world music festival at the Pastoral Hotel, Kibbutz Kfar Blum, Upper Galilee. Two annual editions: winter (Dec 31–Jan 2 New Year's Eve alternative) and spring (May). All-In Ticket covers all main stage, workshops, guided walks, jam circles, children's activities. EventSchema for winter 2026–27. 2 CTAs (Booking.com + DiscoverCars). 6 FAQs; 6 cross-links. Bidirectional links added to israel-music-festivals.md (full section), israel-in-december.md (NYE events calendar), kibbutz-hotels-israel.md (Kfar Blum entry). Smoke + a11y tests +1 each.
+Gate: 0 check errors | build 2017 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: squash-merged to master 5f575057, pushed to origin/master. CI in_progress at state-write (normal pattern).
+Next: iter1302 = BUILD (1302%5=2 → monetization rotation).

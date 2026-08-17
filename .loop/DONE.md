@@ -1,5 +1,8 @@
 # DONE (shipped — do NOT re-do; basis for REVIEW mode)
 
+## iter1301 · BUILD-seo-content · jacob-ladder-festival · 5f575057
+- New /jacob-ladder-festival (~1,100w EN): Israel's longest-running folk/world music festival at Kibbutz Kfar Blum, Upper Galilee. Two editions per year: winter (Dec 31–Jan 2) and spring (May). Covers All-In Ticket scope, Pastoral Hotel setting, getting there from TLV/Haifa, accommodation tiers, winter packing guide, Dan/Banias side-trips. EventSchema + 2 CTAs + 6 FAQs. Bidirectional links: israel-music-festivals, israel-in-december, kibbutz-hotels-israel. 2/2 targeted smoke+a11y PASS. Build 2017 (+1). CI in_progress at state-write (normal pattern).
+
 ## iter1282 · BUILD-seo-content · red-sea-guitar-festival-eilat · 933b8e12
 - New /red-sea-guitar-festival-eilat guide (~1,100w EN): Eilat's annual guitar music festival (typically February or March). Completes the Eilat music festival trilogy (Jazz Nov + Chamber Music Dec + Guitar Feb/Mar). Gulf of Aqaba waterfront stages; Israeli guitarists + international guest artists (rock, blues, acoustic, world); launched by Eilat Municipal Tourism Corporation (artistic director Ronnie Hoss; 6+ editions). Shoulder-season Eilat context (27–30°C, snorkelling, better pricing than summer). Ticket buying via IsraTicket/Leaan (₪80–200 historical range). 3 affiliate CTAs (GYG Eilat experiences + Booking.com + DiscoverCars). 6 FAQs; EventSchema (startDate: 2027-02-01 placeholder). Bidirectional links: israel-music-festivals.md (table row + dedicated section after Chamber Music), israel-in-february.md (Eilat section callout). 7 cross-links. 2/2 targeted smoke+a11y PASS. Build 2008 pages (+1). CI in_progress at state-write (normal pattern).
 
