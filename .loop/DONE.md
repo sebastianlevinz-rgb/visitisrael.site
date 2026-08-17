@@ -2613,3 +2613,4 @@ New "Sea of Galilee: luxury pipeline 2027–2028" section added to new-luxury-ho
 
 ## iter1289 · REVIEW · review-iter1289-link-fixes · 533f1f22
 - Audited iter1286-1288 (rosh-hashanah dates, brazil guide, drone guide). Fixed 3 missing bidirectional links: drone declaration note in ben-gurion-airport-guide customs step, drone laws reference at end of israel-photography-tours, Brazil diaspora callout at end of jewish-heritage-israel.
+- **israel-working-holiday-visa** — SHIPPED iter1291 31ffd052. New /israel-working-holiday-visa guide (~1,200w EN): complete guide to Israel's bilateral WHV agreements with 6 countries (AU/NZ/AT/DE/CZ/KR). Eligibility table, application process, permitted work (agriculture/hospitality/English teaching, max 3 months per employer), 12-month planning sequence by region. 3 CTAs: Booking.com + DiscoverCars + GYG. 7 FAQs. Bidirectional: visa-information + digital-nomad-israel + israel-kibbutz-volunteer-guide.

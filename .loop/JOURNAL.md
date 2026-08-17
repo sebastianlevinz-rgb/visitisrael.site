@@ -18274,3 +18274,9 @@ No gate/build/ship (RESEARCH mode). No CI triggered. Saturation estimate: ~97%.
 Next: BUILD (iter1291; 1291%5=1 → BUILD; category = monetization).
 
 stopped: STOP flag
+
+## 2026-08-17T09:45Z · iter 1291 · BUILD-seo-content+monetization · israel-working-holiday-visa
+What: New /israel-working-holiday-visa guide (~1,200w EN). P2 monetization item — comprehensive guide to Israel's bilateral Working Holiday Visa agreements with 6 countries (AU/NZ/AT/DE/CZ/KR). Covers: eligibility table with max-age column, application process (home-country embassy only, 6–8 weeks lead), the 3-month single-employer rule, permitted work types (agriculture: Galilee/Jordan Valley/Arava; hospitality: TLV/Jerusalem/Eilat; English teaching), 12-month region-by-region planning sequence, and practical setup on arrival (Pepper Bank, SIM, furnished apartments). 3 CTAs: Booking.com long-stay, DiscoverCars road trips, GYG experiences. 7 FAQs. Bidirectional: visa-information (new WHV section added), digital-nomad-israel (WHV exception note in extend-stay FAQ), israel-kibbutz-volunteer-guide (WHV context in visa section). Previous STOP detection (iter a460ad3a) was a transient one-off — .loop/STOP is gitignored and absent in fresh checkout; proceeded normally per playbook.
+Gate: 0 check errors | build 2011 pages (+1) | 2/2 targeted smoke+a11y PASS.
+Ship: squash-merged to master 31ffd052, pushed.
+Prod: CI in_progress at state-write (normal pattern).
