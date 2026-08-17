@@ -349,6 +349,7 @@ const ROUTES = [
   '/western-galilee-guide',
   '/israel-vs-turkey',
   '/israel-vs-egypt',
+  '/israel-vs-dubai',
   '/israel-vs-france',
   '/israel-vs-italy',
   '/israel-vs-portugal',

@@ -656,6 +656,7 @@ const ROUTES = [
   '/de/itineraries/10-days-in-israel',
   '/de/itineraries/14-days-in-israel',
   '/israel-vs-jordan',
+  '/israel-vs-dubai',
   '/dead-sea-israel-vs-jordan',
   '/israel-affordable-luxury',
   '/israel-road-trip',
