@@ -18302,3 +18302,11 @@ Fix: (1) red-sea-jazz-festival-eilat.md: added Fattal Rock Festival bullet to "C
 Gate: 0 check errors | build 2013 pages (unchanged) | 6/6 targeted smoke+a11y PASS (red-sea-jazz-festival-eilat, eilat-chamber-music-festival, fattal-rock-festival-eilat).
 Ship: committed to master 5bf8a560, pushed. CI in_progress at state-write (normal pattern).
 Next: iter 1295 = RESEARCH (1295%5==0). 289th research pass.
+
+## 2026-08-17T13:41Z · iter 1295 · RESEARCH · 289th-research-pass
+What: 289th research pass (iter1295 = 1295%5==0 → RESEARCH mode). At ~97% saturation after 288 prior passes, genuine gaps are scarce. Verified El Al SFO, Delta ATL/BOS, United EWR, Israir JFK already captured in airlines guide + american travelers guide — no freshness items needed. Focused on Israeli music festival calendar (summer/autumn) and niche experiential travel categories. 3 net-new BACKLOG items confirmed (all verified absent from BACKLOG.md + DONE.md + src/content/guides/):
+1. arad-festival-guide — Israel's beloved Arad Music Festival (since 1982); annual late August; Negev Desert; 3-day Hebrew music celebration (folk, mizrahi, rock, indie); mostly free/low-cost; touristisrael.com + carnifest.com list it but zero competitor editorial guide exists; adjacent to Dead Sea tourism and Masada
+2. nataraj-festival-dead-sea — annual 3-day spiritual dance/music/meditation festival at cliff-top Metzoke Dragot above Dead Sea (November; secrettelaviv.com + carnifest.com cover it; ~200–400 attendees; dance workshops + body therapy + evening parties; vegetarian meals; car-access only venue; intimate hidden-gem)
+3. abu-gosh-music-festival — biannual vocal/world music festival in 12th-century Crusader Benedictine monastery church in Abu Gosh village since 1980; October (Sukkot) + June (Shavuot); Baroque/Renaissance/world music; international soloists; combines naturally with Abu Gosh hummus restaurants; abugoshfestival.co.il + touristisrael.com cover it but zero competitor editorial guide
+No gate/build/ship (RESEARCH mode). No CI triggered. Saturation estimate: ~97%.
+Next: BUILD (iter1296; 1296%5=1 → BUILD; category = seo-content or monetization).
