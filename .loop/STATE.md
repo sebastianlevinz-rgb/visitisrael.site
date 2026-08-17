@@ -1,14 +1,14 @@
 # LOOP STATE
 
-- iteration: 1285
-- lastMode: RESEARCH
-- lastItem: 287th-research-pass
-- lastResult: iter1285 RESEARCH — 287th research pass. 9 new BACKLOG items: (1) israel-for-brazilian-travelers P2 (El Al TLV-GRU direct, 3rd largest Jewish diaspora, 125M Catholics, ETA-IL eligible, voltage warning 127V vs 220V dual-standard); (2) israel-for-mexican-travelers P3 (130M people, 110M Catholics, Jewish ~45K, no direct TLV flight, verify ETA-IL); (3) israel-for-colombian-travelers P3 (51M people, 75% Catholic, Jewish ~5K, verify ETA-IL); (4) israel-for-austrian-travelers P3 (Austrian Airlines 41x/week VIE-TLV, Theodor Herzl birthplace angle, EHIC not valid); (5) israel-for-belgian-travelers P3 (Brussels Airlines BRU-TLV, Antwerp Jewish community ~15K, diamond trade ties, EHIC not valid, bilingual); (6) israel-with-babies-toddlers P3 (strollers on cobblestones, formula, MDA 101, Shabbat logistics); (7) israel-winter-hiking-guide P3 (winter is best desert season, flash flood protocol, wildflower connection); (8) israel-solo-women-over-50 P3 (JourneyWoman-confirmed market, boutique hotels, small-group tours); (9) rosh-hashanah-september-date-consistency P3 XS URGENT (date discrepancy: israel-in-september.md says Sep 11-13 and Sukkot Sep 25; rosh-hashanah-in-israel.md says Sep 10-12 and Sukkot Sep 26 — verify against hebcal.com and fix before holiday ~5 weeks away). No code shipped.
+- iteration: 1286
+- lastMode: BUILD-technical
+- lastItem: rosh-hashanah-september-date-consistency
+- lastResult: iter1286 BUILD-technical — rosh-hashanah-september-date-consistency SHIPPED af9a12fc. Corrected Rosh Hashanah 5787 dates throughout rosh-hashanah-in-israel.md (off by 1 day throughout: was "Wed Sep 10 – Fri Sep 12" → correct "Fri Sep 11 – Sun Sep 13"; was "Sukkot Sat Sep 26" → correct "Fri Sep 25 eve"; transport logistics dates corrected; shofar/Shabbat note was wrong — 2026 Day 1 FALLS on Shabbat, shofar postponed to Day 2 only — prior note said the opposite). israel-in-september.md: one parenthetical fixed ("eve of Sep 11" was "eve of Sep 10"). Gate: 0 check errors | build 2008 pages (unchanged) | 10/10 targeted smoke+a11y PASS. CI in_progress (normal).
 
-- nextRotationCategory: BUILD (1286%5=1 → BUILD; category=monetization)
+- nextRotationCategory: BUILD (1287%5=2 → BUILD; category=seo-content)
 - higgsfieldSpent: 0
-- updatedAt: 2026-08-17T02:30Z
-- branch context: master at f65f243d; EN=438 (37 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1285): rosh-hashanah-september-date-consistency P3 XS URGENT (fix before holiday ~5wks away); israel-for-brazilian-travelers P2 (monetization/seo-content; El Al direct TLV-GRU); israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-austrian-travelers P3 S; israel-for-belgian-travelers P3 S.
+- updatedAt: 2026-08-17T03:38Z
+- branch context: master at af9a12fc; EN=438 (37 above 401 baseline), FR=398/401, DE=398/401, ES=401/401; missing-FR=3 (untracked EN-only guides), missing-DE=3 (untracked), missing-ES=0 (COMPLETE for 401 baseline). BACKLOG top priorities (updated after iter1286): israel-for-brazilian-travelers P2 (monetization/seo-content; El Al direct TLV-GRU — next BUILD category=seo-content fits); israel-for-vietnamese-travelers P3 S (verify visa first); fattal-rock-festival-eilat P3 S; red-sea-winter-jazz-festival-eilat P3 S (verify recurring); tu-bishvat-in-israel P3 S; tel-aviv-jazz-festival P3 S; israel-for-georgian-travelers P3 S; israel-for-austrian-travelers P3 S; israel-for-belgian-travelers P3 S; israel-with-babies-toddlers P3 S.
 
 Notes: iter1284 REVIEW — review-1284-guitar-links-thai-honesty SHIPPED f65f243d. Audited iter1281-1283: 3 fixes — removed fabricated rating/reviews from Thai guide CTA (honesty); added guitar festival to eilat-travel-guide events section (bidirectional link); added guitar festival to israel-in-march calendar (bidirectional link). Gate: 0 check errors | build 2008 pages (unchanged) | 19/19 targeted smoke+a11y PASS. Vercel in_progress (normal).
 

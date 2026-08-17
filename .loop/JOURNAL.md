@@ -18236,3 +18236,9 @@ Previously investigated / confirmed already-covered this pass (no BACKLOG add):
 
 No gate/build/ship (RESEARCH mode). No CI triggered.
 Next: BUILD (iter1286; 1286%5=1 → BUILD; category=monetization; top priority = rosh-hashanah-september-date-consistency XS fix OR israel-for-brazilian-travelers P2).
+
+## 2026-08-17T03:38Z · iter 1286 · BUILD-technical · rosh-hashanah-september-date-consistency
+What: Fixed Rosh Hashanah 5787 dates that were wrong throughout rosh-hashanah-in-israel.md (off by 1 day). Correct dates verified via web search (hebcal.com): 1 Tishrei 5787 = Saturday Sep 12, 2026 (begins sunset Fri Sep 11). Changes: (1) FAQ + body dates corrected "Wed Sep 10–Fri Sep 12" → "Fri Sep 11–Sun Sep 13"; (2) Sukkot corrected "Sat Sep 26 eve" → "Fri Sep 25 eve"; (3) Transport logistics updated Sep 10/12 → Sep 11/13; (4) Shofar/Shabbat note REVERSED — 2026 Day 1 falls on Shabbat (Sep 12=Sat), so shofar postponed to Day 2 only (Sep 13). Also fixed israel-in-september.md parenthetical: "eve of Sep 10" → "eve of Sep 11" (one line; dates summary Sep 11-13 was already correct).
+Gate: 0 check errors | build 2008 pages (unchanged) | 10/10 targeted smoke+a11y PASS.
+Ship: squash-merged to master af9a12fc, pushed.
+Prod: CI in_progress at state-write (normal pattern).
