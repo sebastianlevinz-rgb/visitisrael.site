@@ -13,9 +13,9 @@ import { locales, entryIdFor, splitEntryId, alternatesFor } from '@/i18n/ui';
 
 export async function getStaticPaths() {
   const allItineraries = await getCollection('itineraries');
-  const frItineraries = allItineraries.filter((e) => splitEntryId(e.id).locale === 'fr');
+  const heItineraries = allItineraries.filter((e) => splitEntryId(e.id).locale === 'he');
   const idSet = new Set(allItineraries.map((e) => e.id));
-  return frItineraries.map((entry) => {
+  return heItineraries.map((entry) => {
     const baseId = splitEntryId(entry.id).slug;
     // hreflang from the itinerary entries that actually exist, in every locale.
     const alternates = alternatesFor(
@@ -30,25 +30,27 @@ const { entry, baseId, alternates = [] } = Astro.props;
 const { Content } = await render(entry);
 const d = entry.data;
 const hero = d.heroImage ?? '/images/regions/jerusalem/hero.jpg';
-const path = `/fr/itineraries/${baseId}`;
+const path = `/he/itineraries/${baseId}`;
 
 const crumbs = [
-  { name: 'Accueil', path: '/fr/' },
-  { name: 'Itinéraires', path: '/fr/itineraries' },
+  { name: 'דף הבית', path: '/he/' },
+  { name: 'מסלולי טיול', path: '/he/itineraries' },
   { name: d.title, path },
 ];
 
+// Card copy is Hebrew; partner search queries stay in English (they are what the
+// partner site searches for).
 const isTelAviv = d.startRegion === 'tel-aviv';
 const tours = isTelAviv
   ? [
-      { partner: 'getyourguide' as const, title: 'Circuit gastronomique à Tel Aviv', description: 'Découvrez le marché Carmel et le vieux Jaffa avec un guide local passionné de cuisine.', image: '/images/regions/tel-aviv/carmel-market.jpg', query: 'Tel Aviv food tour' },
-      { partner: 'viator' as const, title: 'Visite à pied de Jaffa', description: "Explorez l'antique cité portuaire, le marché aux puces et le panorama depuis la colline.", image: '/images/regions/tel-aviv/jaffa.jpg', query: 'Old Jaffa walking tour' },
-      { partner: 'civitatis' as const, title: 'Excursion Massada & Mer Morte depuis Tel Aviv', description: "Lever de soleil à Massada et baignade dans la Mer Morte — excursion d'une journée depuis Tel Aviv.", image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip Tel Aviv' },
+      { partner: 'getyourguide' as const, title: 'סיור אוכל ושווקים בתל אביב', description: 'טועמים את שוק הכרמל ויפו העתיקה עם מדריך מקומי שחי אוכל.', image: '/images/regions/tel-aviv/carmel-market.jpg', query: 'Tel Aviv food tour' },
+      { partner: 'viator' as const, title: 'סיור רגלי ביפו', description: 'עיר הנמל העתיקה, שוק הפשפשים והתצפית מראש הגבעה עם מדריך.', image: '/images/regions/tel-aviv/jaffa.jpg', query: 'Old Jaffa walking tour' },
+      { partner: 'civitatis' as const, title: 'טיול יום למצדה ולים המלח מתל אביב', description: 'זריחה במצדה וציפה בים המלח — טיול יום מתל אביב.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip Tel Aviv' },
     ]
   : [
-      { partner: 'getyourguide' as const, title: 'Visite de la Vieille Ville de Jérusalem', description: 'Parcourez les quatre quartiers et les sites saints avec un guide local.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City tour' },
-      { partner: 'viator' as const, title: 'Excursion Massada & Mer Morte', description: 'Lever de soleil à Massada et baignade dans la Mer Morte.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip' },
-      { partner: 'civitatis' as const, title: 'Circuit gastronomique Tel Aviv & Jaffa', description: 'Dégustez le marché Carmel et le vieux Jaffa avec un guide gourmand.', image: '/images/regions/tel-aviv/hero.jpg', query: 'Tel Aviv Jaffa food tour' },
+      { partner: 'getyourguide' as const, title: 'סיור בעיר העתיקה בירושלים', description: 'ארבעת הרבעים והאתרים הקדושים עם מדריך מקומי.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City tour' },
+      { partner: 'viator' as const, title: 'טיול יום למצדה ולים המלח', description: 'זריחה במצדה וציפה בים המלח.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada Dead Sea day trip' },
+      { partner: 'civitatis' as const, title: 'סיור אוכל בתל אביב וביפו', description: 'שוק הכרמל ויפו העתיקה עם מדריך שמכיר כל דוכן.', image: '/images/regions/tel-aviv/hero.jpg', query: 'Tel Aviv Jaffa food tour' },
     ];
 
 const schema = [
@@ -61,7 +63,7 @@ const schema = [
 
 <BaseLayout title={d.title} description={d.description} path={path} image={hero} alternates={alternates}>
   <JsonLd slot="head" schema={schema} />
-  <Hero image={hero} title={d.title} subtitle={d.days ? `Itinéraire de ${d.days} jours` : undefined} alt={d.title} />
+  <Hero image={hero} title={d.title} subtitle={d.days ? `מסלול של ${d.days} ימים` : undefined} alt={d.title} />
   <Breadcrumbs items={crumbs} />
   <AuthorByline updated={d.updatedAt} />
 
@@ -70,7 +72,7 @@ const schema = [
   </article>
 
   <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby="book">
-    <h2 id="book" class="mb-5 font-display text-3xl font-bold text-ink">Réservez les expériences incontournables</h2>
+    <h2 id="book" class="mb-5 font-display text-3xl font-bold text-ink">הזמינו את החוויות המרכזיות</h2>
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
       {tours.map((t) => <AffiliateCard {...t} />)}
     </div>

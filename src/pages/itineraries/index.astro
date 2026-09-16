@@ -3,9 +3,10 @@ import { getCollection } from 'astro:content';
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Hero from '@/components/Hero.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import { splitEntryId } from '@/i18n/ui';
 
 const itineraries = (await getCollection('itineraries'))
-  .filter((e) => !e.id.startsWith('fr/') && !e.id.startsWith('de/') && !e.id.startsWith('es/'))
+  .filter((e) => splitEntryId(e.id).locale === 'en')
   .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
 const title = 'Israel Itineraries: 7 & 10-Day Routes';
 const description =

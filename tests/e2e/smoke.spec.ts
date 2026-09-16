@@ -1,11 +1,15 @@
 import { test, expect } from '@playwright/test';
 import { ROUTES } from './routes';
-import { PAGE_GROUPS } from '../../src/i18n/ui';
+import { PAGE_GROUPS, locales } from '../../src/i18n/ui';
+
+const prefixes = locales.map((l) => (l === 'en' ? '' : `/${l}`));
 
 test('the build contains the expected v3 page set', () => {
-  // 20 content pages × 4 locales + 5 legal + home/plan/itineraries × 4 + search = 98
-  // (404.html is not an index route).
-  expect(ROUTES.length, ROUTES.join('\n')).toBe(98);
+  // Per locale: 20 content pages + home + plan-your-trip + itineraries index.
+  // Plus 5 legal (EN only), /search and /dashboard. 404.html is not an index route.
+  const contentPerLocale = 7 + 11 + 2;
+  const expected = locales.length * (contentPerLocale + 3) + 5 + 2;
+  expect(ROUTES.length, ROUTES.join('\n')).toBe(expected);
 });
 
 for (const route of ROUTES) {
@@ -20,7 +24,7 @@ for (const route of ROUTES) {
 test('every page group exists in all four locales', () => {
   const slugs = [...PAGE_GROUPS.practical, ...PAGE_GROUPS.stay, ...PAGE_GROUPS.tours].map((p) => p.slug);
   for (const slug of slugs) {
-    for (const prefix of ['', '/fr', '/de', '/es']) {
+    for (const prefix of prefixes) {
       expect(ROUTES, `${prefix}/${slug}`).toContain(`${prefix}/${slug}`);
     }
   }
@@ -78,7 +82,7 @@ test('sitemap carries xhtml:link hreflang entries for translated pages', async (
 test('localized region sets lang, hreflang alternates, and reciprocates', async ({ page }) => {
   await page.goto('/fr/jerusalem');
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
-  for (const hl of ['en', 'fr', 'de', 'es', 'x-default']) {
+  for (const hl of [...locales, 'x-default']) {
     await expect(page.locator(`link[rel="alternate"][hreflang="${hl}"]`)).toHaveCount(1);
   }
   await expect(page.locator('link[rel="alternate"][hreflang="en"]')).toHaveAttribute('href', /\/jerusalem$/);
@@ -90,11 +94,11 @@ test('localized region sets lang, hreflang alternates, and reciprocates', async 
 test('localized home sets <html lang>, reciprocal hreflang and localized chrome', async ({ page }) => {
   await page.goto('/fr/');
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
-  for (const hl of ['en', 'fr', 'de', 'es', 'x-default']) {
+  for (const hl of [...locales, 'x-default']) {
     await expect(page.locator(`link[rel="alternate"][hreflang="${hl}"]`)).toHaveCount(1);
   }
   await expect(page.locator('meta[property="og:locale"]')).toHaveAttribute('content', 'fr_FR');
-  await expect(page.locator('meta[property="og:locale:alternate"]')).toHaveCount(3);
+  await expect(page.locator('meta[property="og:locale:alternate"]')).toHaveCount(locales.length - 1);
   await expect(page.locator('header')).toContainText('Itinéraires');
   await expect(page.locator('header')).toContainText('Préparer votre voyage');
   await expect(page.locator('header')).toContainText('Premier voyage en Israël');
@@ -133,7 +137,7 @@ test('localized plan-your-trip is translated with reciprocal hreflang', async ({
 test('translated guide sets lang, hreflang alternates, and reciprocates from EN', async ({ page }) => {
   await page.goto('/fr/first-time-in-israel');
   await expect(page.locator('html')).toHaveAttribute('lang', 'fr');
-  for (const hl of ['en', 'fr', 'de', 'es', 'x-default']) {
+  for (const hl of [...locales, 'x-default']) {
     await expect(page.locator(`link[rel="alternate"][hreflang="${hl}"]`)).toHaveCount(1);
   }
   await expect(page.locator('link[rel="alternate"][hreflang="en"]')).toHaveAttribute('href', /\/first-time-in-israel$/);
@@ -142,7 +146,7 @@ test('translated guide sets lang, hreflang alternates, and reciprocates from EN'
   await expect(page.locator('link[rel="alternate"][hreflang="fr"]')).toHaveAttribute('href', /\/fr\/visa-information$/);
   await page.goto('/first-time-in-israel');
   await expect(page.locator('html')).toHaveAttribute('lang', 'en');
-  for (const l of ['fr', 'de', 'es']) {
+  for (const l of locales.filter((x) => x !== 'en')) {
     await expect(page.locator(`link[rel="alternate"][hreflang="${l}"]`)).toHaveAttribute(
       'href',
       new RegExp(`/${l}/first-time-in-israel$`),
@@ -154,4 +158,18 @@ test('homepage exposes branded OG image + RSS link', async ({ page }) => {
   await page.goto('/');
   await expect(page.locator('meta[property="og:image"]')).toHaveAttribute('content', /og-default\.jpg$/);
   await expect(page.locator('link[type="application/rss+xml"]')).toHaveAttribute('href', '/rss.xml');
+});
+
+test('Hebrew pages are RTL with Hebrew fonts and localized chrome', async ({ page }) => {
+  await page.goto('/he/');
+  await expect(page.locator('html')).toHaveAttribute('lang', 'he');
+  await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
+  await expect(page.locator('meta[property="og:locale"]')).toHaveAttribute('content', 'he_IL');
+  await expect(page.locator('header')).toContainText('מסלולי טיול');
+  await page.goto('/he/jerusalem');
+  await expect(page.locator('html')).toHaveAttribute('dir', 'rtl');
+  await expect(page.locator('link[rel="alternate"][hreflang="en"]')).toHaveAttribute('href', /\/jerusalem$/);
+  await page.goto('/jerusalem');
+  await expect(page.locator('html')).not.toHaveAttribute('dir', 'rtl');
+  await expect(page.locator('link[rel="alternate"][hreflang="he"]')).toHaveAttribute('href', /\/he\/jerusalem$/);
 });

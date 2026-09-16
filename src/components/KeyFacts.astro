@@ -15,10 +15,11 @@ const { facts, title = 'Know before you go' } = Astro.props;
     {
       facts.map((f) => (
         <div class="border-b border-border pb-2">
-          <dt class="text-xs font-semibold uppercase tracking-wide text-primary">
+          {/* Facts are English-only data: dir="auto" keeps them readable on RTL pages. */}
+          <dt class="text-xs font-semibold uppercase tracking-wide text-primary" dir="auto">
             {f.label}
           </dt>
-          <dd class="mt-0.5 text-sm text-ink">{f.value}</dd>
+          <dd class="mt-0.5 text-sm text-ink" dir="auto">{f.value}</dd>
         </div>
       ))
     }

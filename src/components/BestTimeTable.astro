@@ -10,7 +10,7 @@ const tone = (v: string) =>
 <div class="overflow-hidden rounded-card border border-border bg-card shadow-card">
   <table class="w-full text-sm">
     <thead>
-      <tr class="bg-sand-deep text-left">
+      <tr class="bg-sand-deep text-start">
         <th class="px-4 py-2.5 font-bold">Season</th>
         <th class="px-4 py-2.5 font-bold">Verdict</th>
         <th class="px-4 py-2.5 font-bold">What to expect</th>
@@ -20,9 +20,9 @@ const tone = (v: string) =>
       {
         rows.map((r) => (
           <tr class="border-t border-border">
-            <td class="px-4 py-2.5 font-semibold text-ink">{r.season}</td>
-            <td class={`px-4 py-2.5 font-semibold ${tone(r.verdict)}`}>{r.verdict}</td>
-            <td class="px-4 py-2.5 text-ink-muted">{r.note}</td>
+            <td class="px-4 py-2.5 font-semibold text-ink" dir="auto">{r.season}</td>
+            <td class={`px-4 py-2.5 font-semibold ${tone(r.verdict)}`} dir="auto">{r.verdict}</td>
+            <td class="px-4 py-2.5 text-ink-muted" dir="auto">{r.note}</td>
           </tr>
         ))
       }

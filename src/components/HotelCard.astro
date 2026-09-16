@@ -24,11 +24,12 @@ const tierLabel = { luxury: 'Luxury', value: 'Best value', hostel: 'Hostel' }[ho
       ]}>{tierLabel}</span
     >
   </div>
-  <h3 class="mt-2 font-display text-lg font-bold text-ink">{hotel.name}</h3>
-  <p class="text-xs font-semibold uppercase tracking-wide text-ink-muted">
+  {/* Curated data is English-only: dir="auto" keeps its punctuation in place on RTL pages. */}
+  <h3 class="mt-2 font-display text-lg font-bold text-ink" dir="auto">{hotel.name}</h3>
+  <p class="text-xs font-semibold uppercase tracking-wide text-ink-muted" dir="auto">
     {hotel.neighborhood}
   </p>
-  <p class="mt-1.5 flex-1 text-sm text-ink-muted">{hotel.blurb}</p>
+  <p class="mt-1.5 flex-1 text-sm text-ink-muted" dir="auto">{hotel.blurb}</p>
   <a
     href={href}
     target="_blank"

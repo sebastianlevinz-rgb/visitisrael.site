@@ -1,13 +1,21 @@
 /**
  * i18n: locale list, routing helpers and the UI-string dictionary with a typed t().
  *
- * English lives at the root; French, German and Spanish under /fr/, /de/, /es/.
- * Since the v3 rebuild every content page exists in all four locales, so every
- * locale link resolves to a real translated page.
+ * English lives at the root; French, German, Spanish and Hebrew under /fr/, /de/,
+ * /es/, /he/. Since the v3 rebuild every content page exists in all locales, so
+ * every locale link resolves to a real translated page.
  */
-export const locales = ['en', 'fr', 'de', 'es'] as const;
+export const locales = ['en', 'fr', 'de', 'es', 'he'] as const;
 export type Locale = (typeof locales)[number];
 export const defaultLocale: Locale = 'en';
+/** Locales served under a URL prefix (everything except the default). */
+export const prefixedLocales = locales.filter((l) => l !== defaultLocale) as Exclude<Locale, 'en'>[];
+
+/** Right-to-left locales — drive <html dir> and the logical-property layout. */
+export const rtlLocales: readonly Locale[] = ['he'];
+export const isRtl = (locale: Locale): boolean => rtlLocales.includes(locale);
+/** <html dir> value for a locale. */
+export const textDirection = (locale: Locale): 'ltr' | 'rtl' => (isRtl(locale) ? 'rtl' : 'ltr');
 
 /** Endonym shown in the language switcher (same in every locale). */
 export const languageNames: Record<Locale, string> = {
@@ -15,6 +23,7 @@ export const languageNames: Record<Locale, string> = {
   fr: 'Français',
   de: 'Deutsch',
   es: 'Español',
+  he: 'עברית',
 };
 
 /** <html lang> / og:locale value per locale. */
@@ -23,16 +32,39 @@ export const ogLocale: Record<Locale, string> = {
   fr: 'fr_FR',
   de: 'de_DE',
   es: 'es_ES',
+  he: 'he_IL',
 };
 
 const SITE = 'https://visitisrael.site';
 
-/** Locale from a URL pathname: /fr/… → 'fr', /de/… → 'de', /es/… → 'es', otherwise 'en'. */
+/** True for any non-default locale code (type guard over the `locales` list). */
+export function isPrefixedLocale(seg: string | undefined): seg is Exclude<Locale, 'en'> {
+  return seg !== undefined && seg !== defaultLocale && (locales as readonly string[]).includes(seg);
+}
+
+/** Locale from a URL pathname: /fr/… → 'fr', /he/… → 'he', …, otherwise 'en'. */
 export function getLocaleFromPath(pathname: string): Locale {
   const seg = pathname.split('/').filter(Boolean)[0];
-  if (seg === 'fr' || seg === 'de' || seg === 'es') return seg;
-  return 'en';
+  return isPrefixedLocale(seg) ? seg : defaultLocale;
 }
+
+/**
+ * Locale of a content-collection entry id ('fr/jerusalem' → 'fr', 'jerusalem' → 'en')
+ * plus the id without its locale prefix. Translations live in `<locale>/<slug>`.
+ */
+export function splitEntryId(id: string): { locale: Locale; slug: string } {
+  const [first, ...rest] = id.split('/');
+  if (rest.length > 0 && isPrefixedLocale(first)) return { locale: first, slug: rest.join('/') };
+  return { locale: defaultLocale, slug: id };
+}
+
+/** Content id for a slug in a locale: en → slug, others → '<locale>/<slug>'. */
+export function entryIdFor(locale: Locale, slug: string): string {
+  return locale === defaultLocale ? slug : `${locale}/${slug}`;
+}
+
+/** Regex matching a leading locale prefix in a pathname, e.g. /^\/(fr|de|es|he)(?=\/|$)/. */
+export const localePrefixRe = new RegExp(`^\\/(${prefixedLocales.join('|')})(?=\\/|$)`);
 
 /** Home URL for a locale: en → '/', others → '/<locale>/'. */
 export function localeHome(locale: Locale): string {
@@ -44,13 +76,10 @@ export function localePrefix(locale: Locale): string {
   return locale === defaultLocale ? '' : `/${locale}`;
 }
 
-/** Reciprocal hreflang alternates for the home pages (all four exist). */
+/** Reciprocal hreflang alternates for the home pages (one per locale). */
 export function homeAlternates(): { hreflang: string; href: string }[] {
   return [
-    { hreflang: 'en', href: `${SITE}/` },
-    { hreflang: 'fr', href: `${SITE}/fr/` },
-    { hreflang: 'de', href: `${SITE}/de/` },
-    { hreflang: 'es', href: `${SITE}/es/` },
+    ...locales.map((l) => ({ hreflang: l, href: `${SITE}${localeHome(l)}` })),
     { hreflang: 'x-default', href: `${SITE}/` },
   ];
 }
@@ -61,12 +90,25 @@ export function homeAlternates(): { hreflang: string; href: string }[] {
  */
 export function pageAlternates(slug: string): { hreflang: string; href: string }[] {
   return [
-    { hreflang: 'en', href: `${SITE}/${slug}` },
-    { hreflang: 'fr', href: `${SITE}/fr/${slug}` },
-    { hreflang: 'de', href: `${SITE}/de/${slug}` },
-    { hreflang: 'es', href: `${SITE}/es/${slug}` },
+    ...locales.map((l) => ({ hreflang: l, href: `${SITE}${localePrefix(l)}/${slug}` })),
     { hreflang: 'x-default', href: `${SITE}/${slug}` },
   ];
+}
+
+/**
+ * hreflang alternates for a content page from the locales it actually exists in.
+ * `available` lists the locales that have a translation (en included when present).
+ * Returns [] when the page has no translation at all (an en-only page needs none).
+ */
+export function alternatesFor(slug: string, available: readonly Locale[]): { hreflang: string; href: string }[] {
+  const present = locales.filter((l) => available.includes(l));
+  if (present.length < 2) return [];
+  const out: { hreflang: string; href: string }[] = present.map((l) => ({
+    hreflang: l,
+    href: `${SITE}${localePrefix(l)}/${slug}`,
+  }));
+  if (present.includes(defaultLocale)) out.push({ hreflang: 'x-default', href: `${SITE}/${slug}` });
+  return out;
 }
 
 /** UI strings. Keys are shared across locales; en is the fallback. */
@@ -107,7 +149,7 @@ const ui = {
     'plan.itinerariesHeading': 'Itineraries',
     'plan.regionsHeading': 'The 7 regions',
     'footer.tagline':
-      'An independent travel guide to Israel in four languages — regions, itineraries, hotel and tour guides with clearly disclosed booking links.',
+      'An independent travel guide to Israel in five languages — regions, itineraries, hotel and tour guides with clearly disclosed booking links.',
     'footer.planning': 'Planning',
     'footer.stayTours': 'Stay & tours',
     'footer.about': 'About',
@@ -155,7 +197,7 @@ const ui = {
     'plan.itinerariesHeading': 'Itinéraires',
     'plan.regionsHeading': 'Les 7 régions',
     'footer.tagline':
-      'Un guide de voyage indépendant sur Israël en quatre langues — régions, itinéraires, guides des hôtels et circuits avec des liens de réservation clairement signalés.',
+      'Un guide de voyage indépendant sur Israël en cinq langues — régions, itinéraires, guides des hôtels et circuits avec des liens de réservation clairement signalés.',
     'footer.planning': 'Préparer',
     'footer.stayTours': 'Hôtels & circuits',
     'footer.about': 'À propos',
@@ -203,7 +245,7 @@ const ui = {
     'plan.itinerariesHeading': 'Reiserouten',
     'plan.regionsHeading': 'Die 7 Regionen',
     'footer.tagline':
-      'Ein unabhängiger Reiseführer für Israel in vier Sprachen — Regionen, Reiserouten, Hotel- und Tourguides mit klar gekennzeichneten Buchungslinks.',
+      'Ein unabhängiger Reiseführer für Israel in fünf Sprachen — Regionen, Reiserouten, Hotel- und Tourguides mit klar gekennzeichneten Buchungslinks.',
     'footer.planning': 'Planung',
     'footer.stayTours': 'Hotels & Touren',
     'footer.about': 'Über uns',
@@ -251,7 +293,7 @@ const ui = {
     'plan.itinerariesHeading': 'Itinerarios',
     'plan.regionsHeading': 'Las 7 regiones',
     'footer.tagline':
-      'Una guía de viaje independiente sobre Israel en cuatro idiomas — regiones, itinerarios, guías de hoteles y tours con enlaces de reserva claramente señalados.',
+      'Una guía de viaje independiente sobre Israel en cinco idiomas — regiones, itinerarios, guías de hoteles y tours con enlaces de reserva claramente señalados.',
     'footer.planning': 'Planificar',
     'footer.stayTours': 'Hoteles y tours',
     'footer.about': 'Acerca de',
@@ -262,6 +304,54 @@ const ui = {
     'cta.tours': 'Tours',
     'cta.quickBooking': 'Reserva rápida',
     'a11y.skipToContent': 'Ir al contenido',
+  },
+  he: {
+    'home.heroTitle': 'לבקר בישראל',
+    'home.heroSubtitle':
+      'מדריך עצמאי ל-7 אזורים — מירושלים ועד ים סוף — עם מסלולי טיול, מדריכי מלונות וקישורי הזמנה אמינים.',
+    'home.regionsHeading': 'גלו את האזורים',
+    'home.planHeading': 'תכננו את הטיול',
+    'nav.regions': 'אזורים',
+    'nav.itineraries': 'מסלולי טיול',
+    'nav.plan': 'תכנון הטיול',
+    'nav.planShort': 'תכנון',
+    'nav.search': 'חיפוש',
+    'nav.openMenu': 'פתיחת תפריט',
+    'nav.language': 'שפה',
+    'nav.home': 'דף הבית',
+    'nav.firstTime': 'פעם ראשונה בישראל',
+    'nav.visa': 'ויזה ו-ETA',
+    'nav.bestTime': 'מתי כדאי לבקר',
+    'nav.safety': 'האם בטוח לטייל בישראל?',
+    'nav.carRental': 'השכרת רכב',
+    'nav.hotelsJerusalem': 'מלונות בירושלים',
+    'nav.hotelsTelAviv': 'מלונות בתל אביב',
+    'nav.hotelsDeadSea': 'מלונות בים המלח',
+    'nav.toursJerusalem': 'סיורים בירושלים',
+    'nav.toursDeadSea': 'סיורים לים המלח ומצדה',
+    'nav.dayTripsTelAviv': 'טיולי יום מתל אביב',
+    'plan.title': 'תכנון טיול בישראל: מדריכים, מסלולים ואזורים',
+    'plan.description':
+      'כל מה שצריך לתכנון טיול בישראל במקום אחד: מדריכים מעשיים, מדריכי מלונות וסיורים, מסלולי טיול מוכנים ומדריכים מעמיקים ל-7 אזורים.',
+    'plan.heroTitle': 'תכננו את הטיול',
+    'plan.heroSubtitle': 'מדריכים מעשיים, איפה לישון, סיורים, מסלולי טיול ו-7 אזורים — מתחילים כאן.',
+    'plan.practicalHeading': 'מדריכים מעשיים',
+    'plan.stayHeading': 'איפה לישון',
+    'plan.toursHeading': 'סיורים וטיולי יום',
+    'plan.itinerariesHeading': 'מסלולי טיול',
+    'plan.regionsHeading': '7 האזורים',
+    'footer.tagline':
+      'מדריך טיולים עצמאי לישראל בחמש שפות — אזורים, מסלולי טיול, מדריכי מלונות וסיורים, עם קישורי הזמנה מסומנים בבירור.',
+    'footer.planning': 'תכנון',
+    'footer.stayTours': 'לינה וסיורים',
+    'footer.about': 'אודות',
+    'footer.copyright':
+      'מדריך טיולים עצמאי. צילומים מתוך Wikimedia Commons ואיורים מקוריים בסיוע בינה מלאכותית. האתר מכיל קישורי שותפים (אפיליאציה).',
+    'cta.flights': 'טיסות',
+    'cta.hotels': 'מלונות',
+    'cta.tours': 'סיורים',
+    'cta.quickBooking': 'הזמנה מהירה',
+    'a11y.skipToContent': 'דילוג לתוכן',
   },
 } satisfies Record<Locale, Record<string, string>>;
 
@@ -275,7 +365,7 @@ export function useTranslations(locale: Locale) {
 /**
  * The site's page groups (the v3 taxonomy), shared by the header, footer, home and
  * plan-your-trip hub so every navigation surface lists the same, existing pages.
- * Paths have no locale prefix; every page exists in all four locales.
+ * Paths have no locale prefix; every page exists in all locales.
  */
 export const PAGE_GROUPS = {
   practical: [

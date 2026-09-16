@@ -1,7 +1,7 @@
 ---
 /**
  * Locale-aware "Plan your trip" hub, rendered by src/pages/plan-your-trip.astro and
- * src/pages/{fr,de,es}/plan-your-trip.astro. Lists the site's page groups (the v3
+ * src/pages/{fr,de,es,he}/plan-your-trip.astro. Lists the site's page groups (the v3
  * taxonomy), the itineraries and the regions — every link exists in the locale.
  */
 import { getCollection } from 'astro:content';
@@ -10,7 +10,7 @@ import Hero from '@/components/Hero.astro';
 import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import DestinationCard from '@/components/DestinationCard.astro';
 import { REGIONS } from '@/data/regions';
-import { useTranslations, pageAlternates, localeHome, localePrefix, PAGE_GROUPS, type Locale } from '@/i18n/ui';
+import { useTranslations, pageAlternates, localeHome, localePrefix, entryIdFor, splitEntryId, PAGE_GROUPS, type Locale } from '@/i18n/ui';
 
 interface Props {
   locale: Locale;
@@ -26,7 +26,7 @@ const crumbs = [
 
 const guides = await getCollection('guides');
 const guideTitle = (slug: string) => {
-  const entry = guides.find((g) => g.id === (locale === 'en' ? slug : `${locale}/${slug}`));
+  const entry = guides.find((g) => g.id === entryIdFor(locale, slug));
   return entry?.data.title.split(':')[0] ?? slug;
 };
 const groups = [
@@ -36,9 +36,9 @@ const groups = [
 ];
 
 const itineraries = (await getCollection('itineraries'))
-  .filter((e) => (locale === 'en' ? !e.id.includes('/') : e.id.startsWith(`${locale}/`)))
+  .filter((e) => splitEntryId(e.id).locale === locale)
   .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
-const itineraryId = (id: string) => (locale === 'en' ? id : id.slice(locale.length + 1));
+const itineraryId = (id: string) => splitEntryId(id).slug;
 ---
 
 <BaseLayout

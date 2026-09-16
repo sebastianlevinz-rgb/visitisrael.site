@@ -1,6 +1,6 @@
 ---
 /**
- * Home page for the fr/de/es locales (src/pages/{fr,de,es}/index.astro). Every
+ * Home page for the fr/de/es/he locales (src/pages/{fr,de,es,he}/index.astro). Every
  * page linked here exists in the locale, so there is no "English only" notice.
  */
 import BaseLayout from '@/layouts/BaseLayout.astro';
@@ -35,7 +35,13 @@ const META = {
       'Planifica tu viaje a Israel: 7 regiones desde Jerusalén hasta el Mar Rojo, itinerarios, los mejores hoteles y tours comparados, con enlaces de reserva claramente señalados.',
     alt: 'Vista de la Ciudad Vieja de Jerusalén a la hora dorada',
   },
-} as const;
+  he: {
+    title: 'לבקר בישראל — מדריך טיולים',
+    description:
+      'תכננו טיול בישראל: 7 אזורים מירושלים ועד ים סוף, מסלולי טיול, המלונות והסיורים הטובים ביותר בהשוואה, עם קישורי הזמנה מסומנים בבירור.',
+    alt: 'מבט על העיר העתיקה בירושלים בשעת הזהב',
+  },
+} as const satisfies Record<Exclude<Locale, 'en'>, { title: string; description: string; alt: string }>;
 const meta = META[locale];
 
 const groups = [
@@ -92,7 +98,7 @@ const groups = [
   <section class="mx-auto max-w-3xl px-4 py-14 text-center">
     <a
       href={`${prefix}/itineraries`}
-      class="mr-2 inline-block rounded-full border border-primary px-6 py-3 text-sm font-semibold text-primary no-underline transition-colors hover:bg-primary-soft"
+      class="me-2 inline-block rounded-full border border-primary px-6 py-3 text-sm font-semibold text-primary no-underline transition-colors hover:bg-primary-soft"
     >
       {t('nav.itineraries')}
     </a>

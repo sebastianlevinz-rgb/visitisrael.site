@@ -5,14 +5,14 @@ import Footer from '@/components/Footer.astro';
 import StickyCTA from '@/components/StickyCTA.astro';
 import JsonLd from '@/components/JsonLd.astro';
 import { organization, website } from '@/lib/schema';
-import { getLocaleFromPath, ogLocale, useTranslations, type Locale } from '@/i18n/ui';
+import { getLocaleFromPath, ogLocale, textDirection, useTranslations, type Locale } from '@/i18n/ui';
 import Analytics from '@vercel/analytics/astro';
 import SpeedInsights from '@vercel/speed-insights/astro';
 
 export interface Props {
   title: string;
   description: string;
-  /** hreflang alternates for this page (en/fr/de + x-default); omit if en-only. */
+  /** hreflang alternates for this page (one per locale + x-default); omit if en-only. */
   alternates?: { hreflang: string; href: string }[];
   /** LCP/hero image — also drives the AVIF preload. */
   image?: string;
@@ -41,6 +41,9 @@ const {
 
 const locale = getLocaleFromPath(Astro.url.pathname);
 const t = useTranslations(locale);
+// Hebrew is right-to-left: <html dir="rtl"> flips the whole layout, and the
+// components use logical utilities (ms-/me-/ps-/pe-/start-/end-) so it mirrors.
+const dir = textDirection(locale);
 // OG locale alternates: the other real locales this page is translated into.
 const altOgLocales = alternates
   .map((a) => a.hreflang)
@@ -66,7 +69,7 @@ const siteSchema = noindex ? [] : [organization(), website()];
 ---
 
 <!doctype html>
-<html lang={locale}>
+<html lang={locale} dir={dir}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -126,7 +129,7 @@ const siteSchema = noindex ? [] : [organization(), website()];
   <body class="min-h-screen">
     <a
       href="#main"
-      class="sr-only rounded-md bg-primary px-4 py-2 text-white focus:not-sr-only focus:absolute focus:left-4 focus:top-4 focus:z-50"
+      class="sr-only rounded-md bg-primary px-4 py-2 text-white focus:not-sr-only focus:absolute focus:start-4 focus:top-4 focus:z-50"
     >
       {t('a11y.skipToContent')}
     </a>

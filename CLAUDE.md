@@ -44,7 +44,10 @@ Detalle del corte en `gestion/auditoria/loop-detenido.md`.
   `rebuild/english-astro` son historia.
 - **Deploy**: Vercel, automático desde `master`. `vercel.json` fija framework astro,
   `outputDirectory: dist`, `trailingSlash: false` y headers de seguridad.
-- **Idiomas**: EN es la base; FR, DE, ES viven en `src/pages/{fr,de,es}/`.
+- **Idiomas**: EN es la base; FR, DE, ES y HE (hebreo, RTL) viven en
+  `src/pages/{fr,de,es,he}/`. El hebreo pone `dir="rtl"` en `<html>` y usa Frank Ruhl
+  Libre + Heebo. Todo el layout usa clases lógicas de Tailwind (`ms-`/`me-`/`ps-`/`pe-`/
+  `start-`/`end-`/`text-start`), nunca `ml-`/`mr-`/`left-`/`right-`.
 - **Búsqueda**: Pagefind (`astro-pagefind`).
 
 ### Dónde vive el contenido

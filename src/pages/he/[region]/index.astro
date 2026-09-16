@@ -1,0 +1,15 @@
+---
+import { getCollection } from 'astro:content';
+import RegionPage from '@/components/RegionPage.astro';
+
+export async function getStaticPaths() {
+  const regions = await getCollection('regions');
+  return regions
+    .filter((e) => e.id.startsWith('he/'))
+    .map((entry) => ({ params: { region: entry.id.slice(3) }, props: { entry } }));
+}
+
+const { entry } = Astro.props;
+---
+
+<RegionPage entry={entry} slug={entry.id.slice(3)} locale="he" />

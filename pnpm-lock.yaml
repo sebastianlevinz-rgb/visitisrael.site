@@ -14,6 +14,12 @@ importers:
       '@astrojs/sitemap':
         specifier: ^3.7.3
         version: 3.7.3
+      '@fontsource-variable/frank-ruhl-libre':
+        specifier: ^5.3.0
+        version: 5.3.0
+      '@fontsource-variable/heebo':
+        specifier: ^5.3.0
+        version: 5.3.0
       '@fontsource-variable/source-sans-3':
         specifier: ^5.2.9
         version: 5.2.9
@@ -329,6 +335,12 @@ packages:
     engines: {node: '>=18'}
     cpu: [x64]
     os: [win32]
+
+  '@fontsource-variable/frank-ruhl-libre@5.3.0':
+    resolution: {integrity: sha512-BgE4pEPDSXfg7741yQYdxB7XShRgdMTYoP4sdoRXfo0FCDWlQdDUm+o1xPcISC8+TTmC6ytvq+u/QmnpQ+EhpQ==}
+
+  '@fontsource-variable/heebo@5.3.0':
+    resolution: {integrity: sha512-gaCKIbnx83+Za844O2dn4XYoAitS2jjBSj08bELHfCIL5gKMBDWl82oWte2CEBrnXwNMVJNd3ojZqFOd9+mCFg==}
 
   '@fontsource-variable/source-sans-3@5.2.9':
     resolution: {integrity: sha512-K9fkQbb0BNnRmmaU+Gpr6U4IaYKpNzA8t07J6aam2i+6v84RT72MVpar8OBr3yYAEznj4riKivPQ2nAF2fPKsw==}
@@ -2673,6 +2685,10 @@ snapshots:
 
   '@esbuild/win32-x64@0.27.7':
     optional: true
+
+  '@fontsource-variable/frank-ruhl-libre@5.3.0': {}
+
+  '@fontsource-variable/heebo@5.3.0': {}
 
   '@fontsource-variable/source-sans-3@5.2.9': {}
 

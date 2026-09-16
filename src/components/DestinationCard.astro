@@ -25,7 +25,8 @@ const { region, eager = false, href } = Astro.props;
     class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
   />
   <div class="photo-overlay absolute inset-0"></div>
-  <div class="absolute inset-x-0 bottom-0 p-5">
+  {/* Region copy comes from src/data/regions.ts (English-only): dir="auto" keeps it readable on RTL pages. */}
+  <div class="absolute inset-x-0 bottom-0 p-5" dir="auto">
     <p
       class="photo-title text-xs font-semibold uppercase tracking-widest opacity-90"
     >
@@ -42,7 +43,7 @@ const { region, eager = false, href } = Astro.props;
     >
       Explore
       <svg
-        class="h-4 w-4 transition-transform group-hover:translate-x-0.5"
+        class="h-4 w-4 transition-transform group-hover:translate-x-0.5 rtl:rotate-180 rtl:group-hover:-translate-x-0.5"
         viewBox="0 0 20 20"
         fill="currentColor"
         aria-hidden="true"

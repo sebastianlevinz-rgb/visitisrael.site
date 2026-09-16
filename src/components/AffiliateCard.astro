@@ -43,15 +43,16 @@ const href = affiliateUrl(partner, { destination, query, productId });
       class="h-full w-full object-cover"
     />
     <span
-      class="absolute left-3 top-3 rounded-full bg-black/60 px-2.5 py-1 text-xs font-semibold text-white backdrop-blur-sm"
+      class="absolute start-3 top-3 rounded-full bg-black/60 px-2.5 py-1 text-xs font-semibold text-white backdrop-blur-sm"
     >
       {meta.category === 'tours' ? 'Tour' : meta.category === 'hotels' ? 'Stay' : meta.label}
     </span>
   </div>
 
   <div class="flex flex-1 flex-col gap-2 p-4">
-    <h3 class="font-display text-lg font-bold leading-snug text-ink">{title}</h3>
-    <p class="line-clamp-2 text-sm text-ink-muted">{description}</p>
+    {/* Card copy may be English data on a Hebrew page: dir="auto" follows the text. */}
+    <h3 class="font-display text-lg font-bold leading-snug text-ink" dir="auto">{title}</h3>
+    <p class="line-clamp-2 text-sm text-ink-muted" dir="auto">{description}</p>
 
     <div class="mt-auto pt-2">
       {/* Live, real price & reviews live on the partner site — we don't show

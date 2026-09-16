@@ -1,7 +1,7 @@
 ---
 /**
- * Region page body, shared by the en/fr/de/es routes (src/pages/[region]/index.astro
- * and src/pages/{fr,de,es}/[region]/index.astro). The four routes used to be
+ * Region page body, shared by the en/fr/de/es/he routes (src/pages/[region]/index.astro
+ * and src/pages/{fr,de,es,he}/[region]/index.astro). The routes used to be
  * near-identical 240-line copies that only differed in their strings.
  *
  * Curated key facts, tours and hotels come from src/data/regionData.ts, which is
@@ -24,8 +24,8 @@ import { REGIONS, getRegion } from '@/data/regions';
 import { REGION_DATA, genericRegionData } from '@/data/regionData';
 import { defaultAuthor } from '@/data/authors';
 import { affiliateUrl } from '@/config/affiliates';
-import { place, article, breadcrumbList, hotelList, SITE } from '@/lib/schema';
-import type { Locale } from '@/i18n/ui';
+import { place, article, breadcrumbList, hotelList } from '@/lib/schema';
+import { locales, localeHome, localePrefix, entryIdFor, alternatesFor, type Locale } from '@/i18n/ui';
 
 interface Props {
   entry: CollectionEntry<'regions'>;
@@ -103,19 +103,51 @@ const STRINGS = {
     related: 'Explorar otras regiones',
     links: ['Primer viaje a Israel', 'Visado y ETA', 'Mejor época', 'Alquiler de coche', 'Tours en Jerusalén', 'Excursiones desde Tel Aviv'],
   },
-} as const;
+  he: {
+    home: 'דף הבית',
+    country: 'ישראל',
+    glance: (n: string) => `${n} במבט מהיר`,
+    toursKicker: 'הבחירות שלנו',
+    toursTitle: (n: string) => `הסיורים וטיולי היום הטובים ביותר ב${n}`,
+    stayKicker: 'איפה לישון',
+    stayTitle: (n: string) => `המקומות הטובים ביותר ללינה ב${n}`,
+    // Trailing arrow points in the reading direction (left in RTL).
+    stayGuide: (n: string) => `המדריך המלא: המלונות הטובים ביותר ב${n} ←`,
+    stayFallback: (n: string) => `השוו מלונות, צימרים ודירות ב${n} ב-Booking.com.`,
+    stayCta: (n: string) => `חיפוש מלונות ב${n}`,
+    bestTime: (n: string) => `מתי כדאי לבקר ב${n}`,
+    guide: (n: string) => `המדריך המלא ל${n}`,
+    essentials: 'תכננו את הצד המעשי',
+    related: 'עוד מקומות בישראל',
+    links: ['פעם ראשונה בישראל', 'ויזה ו-ETA', 'מתי כדאי לבקר', 'השכרת רכב', 'סיורים בירושלים', 'טיולי יום מתל אביב'],
+  },
+} as const satisfies Record<Locale, unknown>;
 const s = STRINGS[locale];
-const prefix = locale === 'en' ? '' : `/${locale}`;
+const prefix = localePrefix(locale);
+
+// src/data/regions.ts is English-only. Hebrew is the one locale where a Latin
+// region name breaks the sentence (the ב/ל prefixes glue onto the word), so the
+// region page uses the Hebrew endonym for its own headings, hero and breadcrumb.
+// Header, footer and destination cards still show the English name (known gap).
+const HE_REGION_NAMES: Record<string, string> = {
+  jerusalem: 'ירושלים',
+  'tel-aviv': 'תל אביב',
+  'dead-sea': 'ים המלח',
+  galilee: 'הגליל',
+  eilat: 'אילת',
+  negev: 'הנגב',
+  haifa: 'חיפה',
+};
 
 const meta = getRegion(slug);
-const name = meta?.name ?? entry.data.title;
+const name = (locale === 'he' ? HE_REGION_NAMES[slug] : undefined) ?? meta?.name ?? entry.data.title;
 const tagline = meta?.tagline ?? '';
 const hero = meta?.hero ?? entry.data.heroImage;
 const data = REGION_DATA[slug] ?? genericRegionData(slug, name, hero);
 const intro = locale === 'en' ? (data.intro ?? entry.data.description) : entry.data.description;
 const { Content } = await render(entry);
 const path = `${prefix}/${slug}`;
-const homePath = locale === 'en' ? '/' : `/${locale}/`;
+const homePath = localeHome(locale);
 
 // Hotel guides that exist for a region (kept pages of the rebuild).
 const STAY_GUIDES: Record<string, string> = {
@@ -135,12 +167,12 @@ const essentialSlugs = [
 ];
 const essentials = essentialSlugs.map((g, i) => ({ href: `${prefix}/${g}`, label: s.links[i] }));
 
-// hreflang from the region entries that actually exist.
+// hreflang from the region entries that actually exist (every locale, he included).
 const regionIds = new Set((await getCollection('regions')).map((e) => e.id));
-const alternates: { hreflang: string; href: string }[] = (['en', 'fr', 'de', 'es'] as const)
-  .filter((l) => regionIds.has(l === 'en' ? slug : `${l}/${slug}`))
-  .map((l) => ({ hreflang: l, href: `${SITE}${l === 'en' ? '' : `/${l}`}/${slug}` }));
-if (alternates.length > 1) alternates.push({ hreflang: 'x-default', href: `${SITE}/${slug}` });
+const alternates = alternatesFor(
+  slug,
+  locales.filter((l) => regionIds.has(entryIdFor(l, slug)))
+);
 
 const related = REGIONS.filter((r) => r.slug !== slug).slice(0, 3);
 const crumbs = [
