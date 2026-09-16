@@ -22,8 +22,8 @@ const overlay = Buffer.from(`
   <rect width="${W}" height="${H}" fill="url(#g)"/>
   <text x="72" y="392" font-family="Georgia, 'Times New Roman', serif" font-size="104" font-weight="700" fill="#ffffff" letter-spacing="-2">Visit Israel</text>
   <rect x="76" y="424" width="92" height="6" rx="3" fill="#c8a951"/>
-  <text x="76" y="486" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#faf8f5">The English travel guide to Israel</text>
-  <text x="76" y="556" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#c8a951">11 regions · itineraries · trusted tours · visitisrael.site</text>
+  <text x="76" y="486" font-family="Arial, Helvetica, sans-serif" font-size="36" fill="#faf8f5">The independent travel guide to Israel</text>
+  <text x="76" y="556" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#c8a951">7 regions · itineraries · hotels &amp; tours compared · visitisrael.site</text>
 </svg>`);
 
 const base = await sharp(BASE)

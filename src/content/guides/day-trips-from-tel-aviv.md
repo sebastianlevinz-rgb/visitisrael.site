@@ -17,13 +17,13 @@ affiliateCtas:
   - partner: viator
     title: 'Caesarea, Haifa & Akko'
     description: 'The northern coast in a day — Roman Caesarea, the Bahá’í Gardens and Crusader Akko.'
-    image: /images/sub-destinations/haifa/bahai-gardens.jpg
+    image: /images/regions/haifa/bahai-gardens.jpg
     query: Caesarea Haifa Akko from Tel Aviv
     cta: See this tour
   - partner: civitatis
     title: 'Masada & Dead Sea'
     description: 'The desert classic — Masada and a Dead Sea float — as a long day from Tel Aviv.'
-    image: /images/sub-destinations/dead-sea/masada.jpg
+    image: /images/regions/dead-sea/masada.jpg
     query: Masada Dead Sea from Tel Aviv
     cta: See this tour
 faqs:

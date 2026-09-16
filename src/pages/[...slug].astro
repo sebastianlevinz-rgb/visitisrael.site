@@ -10,6 +10,7 @@ import JsonLd from '@/components/JsonLd.astro';
 import type { Partner } from '@/config/affiliates';
 import { defaultAuthor } from '@/data/authors';
 import { article, breadcrumbList, eventSchema, faqPage, type EventSchemaOpts } from '@/lib/schema';
+import { creditFor } from '@/lib/photos';
 import { useTranslations, localeHome, locales, entryIdFor, splitEntryId, alternatesFor } from '@/i18n/ui';
 import TourVerdict from '@/components/TourVerdict.astro';
 import Toc from '@/components/Toc.astro';
@@ -96,7 +97,7 @@ const schema = [
 
   {
     hero ? (
-      <Hero image={hero} title={data.title} alt={data.title} />
+      <Hero image={hero} title={data.title} alt={data.title} credit={creditFor(hero)} />
     ) : (
       <header class="bg-sand-deep">
         <div class="mx-auto max-w-3xl px-4 py-12">

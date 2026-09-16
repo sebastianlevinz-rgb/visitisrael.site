@@ -6,6 +6,7 @@ import sitemap from '@astrojs/sitemap';
 import pagefind from 'astro-pagefind';
 import tailwindcss from '@tailwindcss/vite';
 import { scanDist, formatReport } from './scripts/qa/affiliate-guard.mjs';
+import { scanDist as scanPhotos, formatReport as formatPhotoReport } from './scripts/qa/photo-guard.mjs';
 
 const SITE = 'https://visitisrael.site';
 
@@ -46,6 +47,27 @@ function affiliateGuard() {
           else logger.error(line);
         }
         if (!report.ok) throw new Error(`affiliate-guard: ${report.errors.join(' | ')}`);
+      },
+    },
+  };
+}
+
+// --- Photo guard ---------------------------------------------------------------
+// Every image the built HTML references must be a real, licensed, credited photo
+// in data/photo-credits.json; no placeholder-sized JPEGs; no orphans in
+// public/images. See scripts/qa/photo-guard.mjs.
+function photoGuard() {
+  return {
+    name: 'photo-guard',
+    hooks: {
+      /** @param {{ dir: URL, logger: import('astro').AstroIntegrationLogger }} ctx */
+      'astro:build:done': async ({ dir, logger }) => {
+        const report = await scanPhotos(fileURLToPath(dir));
+        for (const line of formatPhotoReport(report)) {
+          if (report.ok) logger.info(line);
+          else logger.error(line);
+        }
+        if (!report.ok) throw new Error(`photo-guard: ${report.errors.length} falla(s) — ${report.errors.slice(0, 3).join(' | ')}`);
       },
     },
   };
@@ -131,6 +153,7 @@ export default defineConfig({
       },
     }),
     affiliateGuard(),
+    photoGuard(),
     pagefind(),
   ],
   image: {

@@ -15,13 +15,13 @@ affiliateCtas:
   - partner: viator
     title: "Césarée, Haïfa et Akko"
     description: "La côte nord en une journée — la Césarée romaine, les jardins Bahá'ís et le port des Croisés d'Akko."
-    image: /images/sub-destinations/haifa/bahai-gardens.jpg
+    image: /images/regions/haifa/bahai-gardens.jpg
     query: Caesarea Haifa Akko from Tel Aviv
     cta: Voir ce circuit
   - partner: civitatis
     title: "Masada et mer Morte"
     description: "Le classique du désert — Masada et une baignade dans la mer Morte — en longue journée depuis Tel Aviv."
-    image: /images/sub-destinations/dead-sea/masada.jpg
+    image: /images/regions/dead-sea/masada.jpg
     query: Masada Dead Sea from Tel Aviv
     cta: Voir ce circuit
 faqs:

@@ -11,6 +11,9 @@ import Breadcrumbs from '@/components/Breadcrumbs.astro';
 import DestinationCard from '@/components/DestinationCard.astro';
 import { REGIONS } from '@/data/regions';
 import { useTranslations, pageAlternates, localeHome, localePrefix, entryIdFor, splitEntryId, PAGE_GROUPS, type Locale } from '@/i18n/ui';
+import { creditFor } from '@/lib/photos';
+
+const PLAN_HERO = '/images/regions/tel-aviv/hero.jpg';
 
 interface Props {
   locale: Locale;
@@ -50,7 +53,8 @@ const itineraryId = (id: string) => splitEntryId(id).slug;
   alternates={pageAlternates('plan-your-trip')}
 >
   <Hero
-    image="/images/regions/tel-aviv/hero.jpg"
+    image={PLAN_HERO}
+    credit={creditFor(PLAN_HERO)}
     title={t('plan.heroTitle')}
     subtitle={t('plan.heroSubtitle')}
     alt={t('plan.heroTitle')}

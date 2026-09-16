@@ -7,6 +7,9 @@ import AffiliateDisclosure from '@/components/AffiliateDisclosure.astro';
 import Pic from '@/components/Pic.astro';
 import { REGIONS } from '@/data/regions';
 import { homeAlternates, useTranslations, PAGE_GROUPS } from '@/i18n/ui';
+import { creditFor } from '@/lib/photos';
+
+const HOME_HERO = '/images/regions/jerusalem/hero.jpg';
 
 const t = useTranslations('en');
 const title = 'Visit Israel — The Travel Guide to Israel';
@@ -84,7 +87,8 @@ const planLinks = [
   alternates={homeAlternates()}
 >
   <Hero
-    image="/images/regions/jerusalem/hero.jpg"
+    image={HOME_HERO}
+    credit={creditFor(HOME_HERO)}
     title="Visit Israel"
     subtitle={t('home.heroSubtitle')}
     alt="Aerial view of Jerusalem's Old City and the Temple Mount at golden hour"

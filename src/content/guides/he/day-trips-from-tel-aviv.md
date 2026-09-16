@@ -17,13 +17,13 @@ affiliateCtas:
   - partner: viator
     title: "קיסריה, חיפה ועכו"
     description: "החוף הצפוני ביום אחד — קיסריה הרומית, הגנים הבהאיים ועכו הצלבנית."
-    image: /images/sub-destinations/haifa/bahai-gardens.jpg
+    image: /images/regions/haifa/bahai-gardens.jpg
     query: Caesarea Haifa Akko from Tel Aviv
     cta: "לפרטי הסיור"
   - partner: civitatis
     title: "מצדה וים המלח"
     description: "הקלאסיקה המדברית — מצדה וציפה בים המלח — כיום ארוך מתל אביב."
-    image: /images/sub-destinations/dead-sea/masada.jpg
+    image: /images/regions/dead-sea/masada.jpg
     query: Masada Dead Sea from Tel Aviv
     cta: "לפרטי הסיור"
 faqs:

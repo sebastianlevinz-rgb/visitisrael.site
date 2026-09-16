@@ -1,0 +1,510 @@
+{
+  "$comment": "Curated photo manifest — one entry per file the site references under public/images/regions. Every entry was verified on 2026-09-17 against the source API (author, licence, size) and visually (the place shown is the place named). fetch.mjs re-resolves each entry and fails if the licence no longer matches. Sources: pexels (Pexels License), commons (CC BY / CC BY-SA / CC0 only), unsplash (Unsplash License; adapter ready, no entries until a valid UNSPLASH_ACCESS_KEY exists). AI-generated images, editorial-only images and photos of a different place are prohibited.",
+  "outputWidth": 1600,
+  "quality": 82,
+  "images": [
+    {
+      "path": "/images/regions/jerusalem/hero.jpg",
+      "source": "pexels",
+      "sourceId": "15442791",
+      "sourceUrl": "https://www.pexels.com/photo/jerusalem-cityscape-drone-shot-15442791/",
+      "author": "Ioannis Stavrakakis",
+      "authorUrl": "https://www.pexels.com/@ioannis-stavrakakis-445048053",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Aerial view of Jerusalem's Old City with the Dome of the Rock and the Mount of Olives behind",
+      "usedBy": [
+        "home",
+        "jerusalem",
+        "best-hotels-jerusalem",
+        "first-time-in-israel",
+        "israel-tour-packages",
+        "jerusalem-tours-compared",
+        "itineraries",
+        "7-days-in-israel",
+        "plan-your-trip",
+        "og-default"
+      ]
+    },
+    {
+      "path": "/images/regions/jerusalem/old-city.jpg",
+      "source": "commons",
+      "sourceId": "Old_City_Walls_and_Tower_of_David_in_Jerusalem_(2019)_03.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Old_City_Walls_and_Tower_of_David_in_Jerusalem_(2019)_03.jpg",
+      "author": "Pudelek",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Pudelek",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "The Old City walls and the Tower of David citadel in Jerusalem",
+      "usedBy": [
+        "jerusalem-bethlehem-day-trip",
+        "jerusalem-tours-compared",
+        "best-hotels-jerusalem",
+        "home"
+      ]
+    },
+    {
+      "path": "/images/regions/jerusalem/western-wall.jpg",
+      "source": "pexels",
+      "sourceId": "36336869",
+      "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-dome-of-the-rock-and-western-wall-36336869/",
+      "author": "Alex Romo",
+      "authorUrl": "https://www.pexels.com/@alex-romo-445047278",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "The Western Wall plaza with the Dome of the Rock above it, Jerusalem",
+      "usedBy": [
+        "jerusalem-tours-compared"
+      ]
+    },
+    {
+      "path": "/images/regions/jerusalem/holy-sepulchre.jpg",
+      "source": "commons",
+      "sourceId": "Holy_Sepulchre_-_Dome_exterior,_Jerusalem1.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Holy_Sepulchre_-_Dome_exterior,_Jerusalem1.jpg",
+      "author": "Diego Delso",
+      "authorUrl": "https://www.wikidata.org/wiki/Q28147777",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "alt": "The domes of the Church of the Holy Sepulchre above the rooftops of Jerusalem's Old City",
+      "usedBy": [
+        "jerusalem-tours-compared",
+        "jerusalem-bethlehem-day-trip"
+      ]
+    },
+    {
+      "path": "/images/regions/jerusalem/mahane-yehuda.jpg",
+      "source": "commons",
+      "sourceId": "Mahane_Yehuda_Market_sales_2.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mahane_Yehuda_Market_sales_2.JPG",
+      "author": "-jkb-",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:-jkb-",
+      "license": "CC BY-SA 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0/",
+      "alt": "A spice shop on Eitz Chayim Street in Mahane Yehuda Market, Jerusalem",
+      "usedBy": [
+        "best-hotels-jerusalem"
+      ]
+    },
+    {
+      "path": "/images/regions/tel-aviv/hero.jpg",
+      "source": "pexels",
+      "sourceId": "17291323",
+      "sourceUrl": "https://www.pexels.com/photo/city-in-israel-by-the-shore-17291323/",
+      "author": "K",
+      "authorUrl": "https://www.pexels.com/@kelly",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Aerial view of the Tel Aviv skyline and beachfront on the Mediterranean",
+      "usedBy": [
+        "tel-aviv",
+        "best-hotels-tel-aviv",
+        "is-israel-safe",
+        "visa-information",
+        "petra-from-israel",
+        "plan-your-trip",
+        "home",
+        "itineraries"
+      ]
+    },
+    {
+      "path": "/images/regions/tel-aviv/jaffa.jpg",
+      "source": "commons",
+      "sourceId": "ISR-2013-Aerial-Jaffa-Port_of_Jaffa.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISR-2013-Aerial-Jaffa-Port_of_Jaffa.jpg",
+      "author": "Godot13",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Godot13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Aerial view of the old port of Jaffa, Tel Aviv",
+      "usedBy": [
+        "best-hotels-tel-aviv",
+        "tel-aviv-food-tours",
+        "tel-aviv",
+        "7-days-in-israel"
+      ]
+    },
+    {
+      "path": "/images/regions/tel-aviv/carmel-market.jpg",
+      "source": "commons",
+      "sourceId": "Sweets_Carmel_Market_Tel_Aviv_(2008-01).jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Sweets_Carmel_Market_Tel_Aviv_(2008-01).jpg",
+      "author": "Simon Mannweiler",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Naturgucker_Illtal",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "A sweets stall in the covered alley of Carmel Market (Shuk HaCarmel), Tel Aviv",
+      "usedBy": [
+        "tel-aviv-food-tours",
+        "tel-aviv",
+        "7-days-in-israel"
+      ]
+    },
+    {
+      "path": "/images/regions/tel-aviv/rothschild.jpg",
+      "source": "commons",
+      "sourceId": "DSC-1547-Rothschild_Boulevard-december-2017-tel-aviv-israel.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:DSC-1547-Rothschild_Boulevard-december-2017-tel-aviv-israel.jpg",
+      "author": "Rakoon",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Rakoon",
+      "license": "CC0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "alt": "The tree-lined central promenade of Rothschild Boulevard, Tel Aviv",
+      "usedBy": [
+        "best-hotels-tel-aviv",
+        "tel-aviv-food-tours",
+        "tel-aviv"
+      ]
+    },
+    {
+      "path": "/images/regions/dead-sea/hero.jpg",
+      "source": "pexels",
+      "sourceId": "30645989",
+      "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-the-dead-sea-shoreline-30645989/",
+      "author": "u h",
+      "authorUrl": "https://www.pexels.com/@u-h-448257719",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Aerial view of salt formations and turquoise water on the Dead Sea shoreline",
+      "usedBy": [
+        "dead-sea",
+        "dead-sea-hotels-guide",
+        "home",
+        "jerusalem",
+        "itineraries"
+      ]
+    },
+    {
+      "path": "/images/regions/dead-sea/ein-bokek.jpg",
+      "source": "pexels",
+      "sourceId": "30187305",
+      "sourceUrl": "https://www.pexels.com/photo/tranquil-beach-scene-at-the-dead-sea-israel-30187305/",
+      "author": "Duc Tinh Ngo",
+      "authorUrl": "https://www.pexels.com/@duc-tinh-ngo-2147637857",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Sunshades on the Ein Bokek beach at the Dead Sea, Israel",
+      "usedBy": [
+        "dead-sea-tours-compared",
+        "dead-sea-hotels-guide",
+        "masada-visitor-guide"
+      ]
+    },
+    {
+      "path": "/images/regions/dead-sea/masada.jpg",
+      "source": "pexels",
+      "sourceId": "13598085",
+      "sourceUrl": "https://www.pexels.com/photo/ruins-on-hilltop-in-masada-national-park-13598085/",
+      "author": "Samir Smier",
+      "authorUrl": "https://www.pexels.com/@samir-smier-314916757",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Aerial view of the Masada fortress plateau above the Judaean Desert",
+      "usedBy": [
+        "masada-visitor-guide",
+        "dead-sea-tours-compared",
+        "day-trips-from-tel-aviv",
+        "dead-sea",
+        "home"
+      ]
+    },
+    {
+      "path": "/images/regions/dead-sea/ein-gedi.jpg",
+      "source": "pexels",
+      "sourceId": "2102625",
+      "sourceUrl": "https://www.pexels.com/photo/waterfall-2102625/",
+      "author": "Haley Black",
+      "authorUrl": "https://www.pexels.com/@haleyve",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Waterfall over mossy rocks in the Ein Gedi nature reserve",
+      "usedBy": [
+        "dead-sea-hotels-guide",
+        "dead-sea"
+      ]
+    },
+    {
+      "path": "/images/regions/galilee/hero.jpg",
+      "source": "pexels",
+      "sourceId": "33924951",
+      "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-galilee-hills-and-sea-33924951/",
+      "author": "Mark Direen",
+      "authorUrl": "https://www.pexels.com/@mark-direen-622749",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Green hills of the Galilee sloping down to the Sea of Galilee",
+      "usedBy": [
+        "galilee",
+        "best-time-to-visit-israel",
+        "car-rental-israel",
+        "israel-tour-packages",
+        "10-days-in-israel"
+      ]
+    },
+    {
+      "path": "/images/regions/galilee/sea-of-galilee.jpg",
+      "source": "pexels",
+      "sourceId": "9359347",
+      "sourceUrl": "https://www.pexels.com/photo/brown-mountain-under-the-blue-sky-9359347/",
+      "author": "Elyasaf  Eyal",
+      "authorUrl": "https://www.pexels.com/@elyasaf-eyal-98489693",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "The Sea of Galilee with the hills of the Golan on the far shore",
+      "usedBy": [
+        "nazareth-sea-of-galilee-day-trip",
+        "home"
+      ]
+    },
+    {
+      "path": "/images/regions/galilee/tiberias.jpg",
+      "source": "pexels",
+      "sourceId": "11047969",
+      "sourceUrl": "https://www.pexels.com/photo/residential-buildings-by-sea-in-middle-east-11047969/",
+      "author": "mildred",
+      "authorUrl": "https://www.pexels.com/@mildred-173188280",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Aerial view of Tiberias on the shore of the Sea of Galilee",
+      "usedBy": [
+        "nazareth-sea-of-galilee-day-trip"
+      ]
+    },
+    {
+      "path": "/images/regions/galilee/capernaum.jpg",
+      "source": "pexels",
+      "sourceId": "39298578",
+      "sourceUrl": "https://www.pexels.com/photo/ancient-ruins-of-capernaum-synagogue-39298578/",
+      "author": "Regan Dsouza",
+      "authorUrl": "https://www.pexels.com/@regan-dsouza-1315522347",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Ruins of the ancient synagogue at Capernaum on the Sea of Galilee",
+      "usedBy": [
+        "nazareth-sea-of-galilee-day-trip",
+        "galilee"
+      ]
+    },
+    {
+      "path": "/images/regions/eilat/hero.jpg",
+      "source": "pexels",
+      "sourceId": "14188440",
+      "sourceUrl": "https://www.pexels.com/photo/resort-in-eliat-israel-14188440/",
+      "author": "Lio Voo",
+      "authorUrl": "https://www.pexels.com/@lio-voo-262755153",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Aerial view of the Eilat coastline, hotels and the Red Sea with the mountains of Edom behind",
+      "usedBy": [
+        "eilat",
+        "eilat-hotels-guide",
+        "petra-from-israel",
+        "israel-tour-packages",
+        "home"
+      ]
+    },
+    {
+      "path": "/images/regions/eilat/red-sea.jpg",
+      "source": "pexels",
+      "sourceId": "12746038",
+      "sourceUrl": "https://www.pexels.com/photo/underwater-observatory-12746038/",
+      "author": "Lio Voo",
+      "authorUrl": "https://www.pexels.com/@lio-voo-262755153",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Aerial view of the Underwater Observatory tower over the Red Sea reef, Eilat",
+      "usedBy": [
+        "eilat-hotels-guide"
+      ]
+    },
+    {
+      "path": "/images/regions/eilat/coral-beach.jpg",
+      "source": "commons",
+      "sourceId": "Eilat_UnderwaterObservatoryCorals_9883.JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Eilat_UnderwaterObservatoryCorals_9883.JPG",
+      "author": "Ludvig14",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Ludvig14",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "An emperor angelfish over the coral reef at Eilat's Underwater Observatory Marine Park, Red Sea",
+      "usedBy": [
+        "eilat-hotels-guide",
+        "eilat"
+      ]
+    },
+    {
+      "path": "/images/regions/eilat/timna-park.jpg",
+      "source": "commons",
+      "sourceId": "Mushroom_in_Timna_Park_in_summer_2011_(1).JPG",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Mushroom_in_Timna_Park_in_summer_2011_(1).JPG",
+      "author": "Chmee2",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Chmee2",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "alt": "The Mushroom, a wind-eroded sandstone rock in Timna Park north of Eilat",
+      "usedBy": [
+        "eilat"
+      ]
+    },
+    {
+      "path": "/images/regions/negev/hero.jpg",
+      "source": "commons",
+      "sourceId": "Israel-2013-Aerial_00-Negev-Makhtesh_Ramon.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Israel-2013-Aerial_00-Negev-Makhtesh_Ramon.jpg",
+      "author": "Godot13",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Godot13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Aerial view of the Makhtesh Ramon erosion crater in the Negev desert",
+      "usedBy": [
+        "negev",
+        "car-rental-israel"
+      ]
+    },
+    {
+      "path": "/images/regions/negev/desert.jpg",
+      "source": "pexels",
+      "sourceId": "436408",
+      "sourceUrl": "https://www.pexels.com/photo/low-light-photography-of-sky-436408/",
+      "author": "Nathan Engel",
+      "authorUrl": "https://www.pexels.com/@nathan-engel-50858",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Sunset over the Makhtesh Ramon crater from the rim at Mitzpe Ramon, Negev",
+      "usedBy": [
+        "petra-from-israel"
+      ]
+    },
+    {
+      "path": "/images/regions/negev/mitzpe-ramon.jpg",
+      "source": "pexels",
+      "sourceId": "6657906",
+      "sourceUrl": "https://www.pexels.com/photo/aerial-photography-of-a-mountain-road-under-the-sky-6657906/",
+      "author": "Ala J Graczyk",
+      "authorUrl": "https://www.pexels.com/@alice1",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Aerial view of the winding road descending into Makhtesh Ramon at Mitzpe Ramon",
+      "usedBy": [
+        "negev"
+      ]
+    },
+    {
+      "path": "/images/regions/negev/avdat.jpg",
+      "source": "commons",
+      "sourceId": "ISR-2013-Ein_Avdat-Palm_trees.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:ISR-2013-Ein_Avdat-Palm_trees.jpg",
+      "author": "Godot13",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Godot13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "Palm trees at the spring-fed pools of Ein Avdat canyon, Negev",
+      "usedBy": [
+        "negev"
+      ]
+    },
+    {
+      "path": "/images/regions/haifa/hero.jpg",
+      "source": "pexels",
+      "sourceId": "17291338",
+      "sourceUrl": "https://www.pexels.com/photo/green-gardens-in-cityscape-17291338/",
+      "author": "K",
+      "authorUrl": "https://www.pexels.com/@kelly",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Aerial view of the terraced Bahá'í Gardens on Mount Carmel with Haifa and the bay beyond",
+      "usedBy": [
+        "haifa"
+      ],
+      "note": "Wide architectural view of the public terraces; no identifiable worshippers or pilgrims (data/haifa-bahai-policy.md)."
+    },
+    {
+      "path": "/images/regions/haifa/bahai-gardens.jpg",
+      "source": "pexels",
+      "sourceId": "7195779",
+      "sourceUrl": "https://www.pexels.com/photo/bahai-gardens-illuminated-in-the-evening-7195779/",
+      "author": "Руслан Кальницкий",
+      "authorUrl": "https://www.pexels.com/@ruslankphoto",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "The Bahá'í Gardens and the Shrine of the Báb illuminated at dusk, Haifa",
+      "usedBy": [
+        "caesarea-haifa-akko-day-trip",
+        "day-trips-from-tel-aviv",
+        "haifa"
+      ],
+      "note": "Wide architectural view of the public terraces; no identifiable worshippers or pilgrims (data/haifa-bahai-policy.md)."
+    },
+    {
+      "path": "/images/regions/haifa/german-colony.jpg",
+      "source": "commons",
+      "sourceId": "German_Colony_(8115431902).jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:German_Colony_(8115431902).jpg",
+      "author": "StateofIsrael",
+      "authorUrl": "https://www.flickr.com/people/86083886@N02",
+      "license": "CC BY-SA 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/2.0/",
+      "alt": "Ben Gurion Boulevard in Haifa's German Colony, with the Bahá'í Gardens rising behind it",
+      "usedBy": [
+        "haifa"
+      ]
+    },
+    {
+      "path": "/images/regions/caesarea/hero.jpg",
+      "source": "pexels",
+      "sourceId": "13662837",
+      "sourceUrl": "https://www.pexels.com/photo/scenic-view-of-the-beach-and-cloudy-sky-13662837/",
+      "author": "Lio Voo",
+      "authorUrl": "https://www.pexels.com/@lio-voo-262755153",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "The Roman aqueduct on the beach at Caesarea",
+      "usedBy": [
+        "caesarea-haifa-akko-day-trip",
+        "day-trips-from-tel-aviv"
+      ]
+    },
+    {
+      "path": "/images/regions/caesarea/roman-theatre.jpg",
+      "source": "commons",
+      "sourceId": "Caesarea_-_Roman_theatre-_(36917849810).jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Caesarea_-_Roman_theatre-_(36917849810).jpg",
+      "author": "Larry Koester",
+      "authorUrl": "https://www.flickr.com/people/126110866@N08",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "alt": "The restored Roman theatre at Caesarea National Park, seen from the stage",
+      "usedBy": [
+        "caesarea-haifa-akko-day-trip"
+      ]
+    },
+    {
+      "path": "/images/regions/akko/hero.jpg",
+      "source": "pexels",
+      "sourceId": "17302253",
+      "sourceUrl": "https://www.pexels.com/photo/aerial-view-of-old-town-of-acre-israel-17302253/",
+      "author": "K",
+      "authorUrl": "https://www.pexels.com/@kelly",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Aerial view of the old city and harbour of Akko (Acre)",
+      "usedBy": [
+        "caesarea-haifa-akko-day-trip"
+      ]
+    },
+    {
+      "path": "/images/regions/nazareth/basilica.jpg",
+      "source": "pexels",
+      "sourceId": "33924947",
+      "sourceUrl": "https://www.pexels.com/photo/beautiful-sunset-over-nazareth-cityscape-33924947/",
+      "author": "Mark Direen",
+      "authorUrl": "https://www.pexels.com/@mark-direen-622749",
+      "license": "Pexels License",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "alt": "Sunset over Nazareth with the dome of the Basilica of the Annunciation",
+      "usedBy": [
+        "nazareth-sea-of-galilee-day-trip"
+      ]
+    }
+  ]
+}

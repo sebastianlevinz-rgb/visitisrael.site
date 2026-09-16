@@ -8,6 +8,9 @@ import Hero from '@/components/Hero.astro';
 import DestinationCard from '@/components/DestinationCard.astro';
 import { REGIONS } from '@/data/regions';
 import { useTranslations, homeAlternates, localePrefix, PAGE_GROUPS, type Locale } from '@/i18n/ui';
+import { creditFor } from '@/lib/photos';
+
+const HOME_HERO = '/images/regions/jerusalem/hero.jpg';
 
 interface Props {
   locale: Exclude<Locale, 'en'>;
@@ -60,7 +63,8 @@ const groups = [
   alternates={homeAlternates()}
 >
   <Hero
-    image="/images/regions/jerusalem/hero.jpg"
+    image={HOME_HERO}
+    credit={creditFor(HOME_HERO)}
     title={t('home.heroTitle')}
     subtitle={t('home.heroSubtitle')}
     alt={meta.alt}

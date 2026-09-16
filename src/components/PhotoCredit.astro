@@ -1,0 +1,48 @@
+---
+/**
+ * Visible photo credit for a hero image: "Photo: {author} · {source} · {license}"
+ * with links to the photographer, the photo's source page and the licence text.
+ * CC BY / CC BY-SA make attribution a licence condition; Pexels and Unsplash
+ * don't require it, but we credit every photo the same way.
+ *
+ * The sentence comes from the `photo.credit` UI string so each locale can order
+ * the three placeholders as it likes.
+ */
+import { SOURCE_NAMES, type PhotoCredit } from '@/lib/photos';
+import { getLocaleFromPath, useTranslations, type Locale } from '@/i18n/ui';
+
+export interface Props {
+  credit: PhotoCredit;
+  locale?: Locale;
+  class?: string;
+}
+const { credit, locale = getLocaleFromPath(Astro.url.pathname), class: cls = '' } = Astro.props;
+const t = useTranslations(locale);
+
+// Split the template into literal text and {placeholder} tokens, e.g.
+// "Photo: {author} · {source} · {license}" → ['Photo: ', 'author', ' · ', 'source', ' · ', 'license']
+const parts = t('photo.credit').split(/\{(author|source|license)\}/);
+const links: Record<'author' | 'source' | 'license', { href: string; label: string }> = {
+  author: { href: credit.authorUrl, label: credit.author },
+  source: { href: credit.sourceUrl, label: SOURCE_NAMES[credit.source] ?? credit.source },
+  license: { href: credit.licenseUrl, label: credit.license },
+};
+const linkClass = 'underline decoration-white/40 underline-offset-2 hover:text-white hover:decoration-white';
+---
+
+<p
+  class={`photo-credit pointer-events-auto absolute bottom-2 end-3 z-10 max-w-[70vw] truncate text-[11px] leading-tight text-white/80 [text-shadow:0_1px_3px_rgb(0_0_0/0.8)] ${cls}`}
+  dir="auto"
+>
+  {
+    parts.map((part, i) =>
+      i % 2 === 1 ? (
+        <a href={links[part as keyof typeof links].href} class={linkClass} rel="noopener" target="_blank">
+          {links[part as keyof typeof links].label}
+        </a>
+      ) : (
+        part
+      )
+    )
+  }
+</p>

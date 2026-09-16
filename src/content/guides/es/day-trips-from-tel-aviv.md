@@ -15,13 +15,13 @@ affiliateCtas:
   - partner: viator
     title: 'Cesarea, Haifa y Akko'
     description: "La costa norte en un día — las ruinas romanas de Cesarea, los Jardines Bahá'í y la Akko cruzada."
-    image: /images/sub-destinations/haifa/bahai-gardens.jpg
+    image: /images/regions/haifa/bahai-gardens.jpg
     query: Caesarea Haifa Akko from Tel Aviv
     cta: Ver este tour
   - partner: civitatis
     title: 'Masada y el Mar Muerto'
     description: 'El clásico del desierto — Masada y un baño flotante en el Mar Muerto — como excursión larga desde Tel Aviv.'
-    image: /images/sub-destinations/dead-sea/masada.jpg
+    image: /images/regions/dead-sea/masada.jpg
     query: Masada Dead Sea from Tel Aviv
     cta: Ver este tour
 faqs:

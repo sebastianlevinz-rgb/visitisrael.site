@@ -1,7 +1,7 @@
 /**
  * The 7 Israel regions — single source for the home grid and primary nav.
  * Each region's hero lives at /images/regions/<slug>/hero.jpg
- * (real, free-licensed photography sourced via scripts/photos/fetch-commons.mjs).
+ * (real, licensed photography: scripts/photos/manifest.json → fetch.mjs → data/photo-credits.json).
  *
  * `names`, `taglines` and `blurbs` carry all five locales. `name`, `tagline` and
  * `blurb` are the English copies kept for older consumers (header, footer,

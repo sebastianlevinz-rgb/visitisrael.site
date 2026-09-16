@@ -6,9 +6,9 @@ const prefixes = locales.map((l) => (l === 'en' ? '' : `/${l}`));
 
 test('the build contains the expected v3 page set', () => {
   // Per locale: 20 content pages + home + plan-your-trip + itineraries index.
-  // Plus 5 legal (EN only), /search and /dashboard. 404.html is not an index route.
+  // Plus 6 legal/credits pages (EN only), /search and /dashboard. 404.html is not an index route.
   const contentPerLocale = 7 + 19 + 2;
-  const expected = locales.length * (contentPerLocale + 3) + 5 + 2;
+  const expected = locales.length * (contentPerLocale + 3) + 6 + 2;
   expect(ROUTES.length, ROUTES.join('\n')).toBe(expected);
 });
 
@@ -31,7 +31,7 @@ test('every page group exists in all four locales', () => {
 });
 
 test('the five legal pages exist', () => {
-  for (const p of ['/about', '/contact', '/privacy', '/affiliate-disclosure', '/accessibility-statement']) {
+  for (const p of ['/about', '/contact', '/privacy', '/affiliate-disclosure', '/accessibility-statement', '/photo-credits']) {
     expect(ROUTES).toContain(p);
   }
 });
@@ -39,7 +39,7 @@ test('the five legal pages exist', () => {
 test('footer links to every legal page', async ({ page }) => {
   await page.goto('/');
   const footer = page.locator('footer');
-  for (const p of ['/about', '/contact', '/privacy', '/affiliate-disclosure', '/accessibility-statement']) {
+  for (const p of ['/about', '/contact', '/privacy', '/affiliate-disclosure', '/accessibility-statement', '/photo-credits']) {
     await expect(footer.locator(`a[href="${p}"]`)).toHaveCount(1);
   }
 });
