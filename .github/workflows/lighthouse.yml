@@ -45,7 +45,7 @@ jobs:
           urls: |
             http://localhost:4321/
             http://localhost:4321/jerusalem
-            http://localhost:4321/jerusalem/temple-mount
+            http://localhost:4321/best-hotels-jerusalem
             http://localhost:4321/tel-aviv
             http://localhost:4321/first-time-in-israel
           uploadArtifacts: true
