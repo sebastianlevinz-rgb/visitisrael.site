@@ -37,7 +37,7 @@ The Galilee is the most ecumenical Christian destination in Israel and the fresh
 
 This guide covers when to come, where to stay across the lakeside city, kibbutz guesthouses and the Tabgha-Capernaum boutique cluster, the Christian pilgrimage circuit (respectful and ecumenical — Catholic, Greek Orthodox and Protestant traditions all hold a stake in the major sites), the nature and hiking options (Mount Arbel, Banias, the Jesus Trail), top things in Tiberias itself, the natural day trips into the Golan and Nazareth, how to arrive from Tel Aviv or Ben Gurion, and what to eat from St. Peter's fish on the lakeside terraces to Druze hospitality in the nearby villages.
 
-## When to Visit the Galilee
+## Seasons in detail
 
 The two strongest windows are **March to May** and **September to November**. Spring is the Galilee at its most photogenic — wildflowers across the lower Golan, mild swimming water by April, and the lowest pilgrim density of the year. Autumn mirrors that shape from the other direction: water still warm enough to swim through October, cool evenings on Tiberias's lakeside terraces, and shoulder-season hotel pricing.
 
@@ -49,7 +49,7 @@ The two strongest windows are **March to May** and **September to November**. Sp
 
 The week before and after **Easter** is the densest pilgrim cluster of the year, with Catholic, Greek Orthodox and Protestant tour groups all moving through Capernaum, Mount of Beatitudes and the Jordan River sites simultaneously. Hotels in Tiberias and the lakeside kibbutz guesthouses book six months ahead for Holy Week. **Christmas** is a smaller but real pilgrim window. Otherwise the pilgrim flow runs steadily through the year.
 
-## Where to Stay in the Galilee
+## Areas: where to base yourself
 
 There are three practical lodging options across the region, each with a different trade-off.
 
@@ -119,11 +119,11 @@ The **Tomb of Maimonides** in central Tiberias is the resting place of **Moses b
 
 The Galilee's central position in the north makes it the natural base for day trips into the wider region.
 
-**Nazareth** is forty minutes south-west by car — the **Basilica of the Annunciation** (the largest Christian church in the Middle East), the Old City market, and the Arab-Israeli mixed culture of Israel's third-largest predominantly Arab city. Half a day to a full day.
+**[Nazareth](/nazareth-sea-of-galilee-day-trip)** is forty minutes south-west by car — the **Basilica of the Annunciation** (the largest Christian church in the Middle East), the Old City market, and the Arab-Israeli mixed culture of Israel's third-largest predominantly Arab city. Half a day to a full day.
 
 **The Golan Heights** climb away to the east — **Mount Bental** observation lookout (a Yom Kippur War heritage site with a panorama deep into Syria), Banias waterfall, the **Nimrod Fortress** Crusader-era castle, and the **Druze villages** of Majdal Shams and the Druze of Mount Hermon. A full day comfortably covers two or three of these stops.
 
-**Safed (Tzfat)** is 45 minutes north-west from Tiberias — Israel's highest city at 900 metres and the historic centre of Jewish Kabbalistic mysticism, with 16th-century synagogues, a working Artists' Quarter, and panoramic views over the Upper Galilee. See the full [Safed travel guide](/is-israel-safe).
+**Safed (Tzfat)** is 45 minutes north-west from Tiberias — Israel's highest city at 900 metres and the historic centre of Jewish Kabbalistic mysticism, with 16th-century synagogues, a working Artists' Quarter, and panoramic views over the Upper Galilee.
 
 **Akko (Acre)** on the Mediterranean coast is a 1.5-hour drive west, with the UNESCO Crusader Old City, the Hospitaller Knights' Halls, and the Templar Tunnel. The combination of Galilee freshwater shore plus Mediterranean Crusader port works well as a two- or three-day touring loop.
 
@@ -136,8 +136,6 @@ The practical options are:
 - **Rental car** — the strongly recommended approach. The pilgrim cluster, Mount Arbel, Banias and the Golan are all impractical by public transport. Pickup at Ben Gurion is faster than in central Tel Aviv. Allow 2 to 2.5 hours including motorway tolls.
 - **Egged direct bus** — Tel Aviv Central Bus Station to Tiberias, around 2.5 hours. Workable for travellers basing in Tiberias for two or three days who plan to use lakeside hotel shuttles or organised tours for the pilgrim sites.
 - **Organised day tour** — several Tel Aviv tour operators run hotel-pickup day trips to the Galilee Christian sites. Useful for travellers who do not want to drive but can only spare one day for the region.
-
-For a complete breakdown of all four shores of the lake — west (Magdala, Ginosar), north (Capernaum, Tabgha, Mount of Beatitudes), east (Ein Gev, Kursi), and south (Yardenit, Hamat Gader) — with beaches, cycling and overnight recommendations, see the Sea of Galilee complete guide. For lake boat tours and the Kinneret crossing, see the [Sea of Galilee boat tours guide](/jerusalem-tours-compared). If you have three days and want a structured day-by-day itinerary covering Nazareth, the Christian shore circuit and Mount Arbel, see the [3 days in Galilee itinerary](/itineraries/7-days-in-israel).
 
 ## Where to Eat in the Galilee
 
@@ -152,7 +150,3 @@ Galilee cuisine reflects the region's three communities — Jewish lakeside dair
 ## Practical Information
 
 **Cash and card** — most pilgrim sites are free or have a small entrance fee; carry small cash for parking and church donations. **Modest dress** is enforced at Capernaum, Mount of Beatitudes, the Greek Orthodox churches at Capernaum and Yardenit; cover shoulders and knees. **Sun protection** is essential year-round; the basalt rock and lake reflection raise effective UV exposure. **Sundays and major Christian holidays** see the pilgrim sites at peak attendance; weekday mornings are quietest.
-
-## Frequently Asked Questions
-
-The FAQ entries above answer the most common questions about visiting the Galilee — how many days to spend, the naming relationship between the Sea of Galilee, Lake Tiberias and Kinneret, when to come, the Christian pilgrimage cluster, how to get there from Tel Aviv, lake swimming, and safety. The schema-driven FAQPage at the bottom of this page surfaces these to search engines so travellers find them directly from a Google result.

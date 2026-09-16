@@ -30,7 +30,7 @@ Die Negev-Wüste bedeckt mehr als die Hälfte der Landfläche Israels — ein s�
 
 Dieser Reiseführer behandelt die beste Reisezeit, die Unterkunftscluster, die Haupterlebnisse — Krater, Avdat, Sde Boker, Ein Avdat und Beduinen-Gastlichkeit —, die Sternenbeobachtungsszene, die Mitzpe Ramon zunehmend auf globale Astrotourismus-Karten setzt, Tagesausflüge, die gut zu einer Negev-Basis passen, und die praktischen Hinweise, die den Unterschied ausmachen.
 
-## Wann den Negev besuchen
+## Die Jahreszeiten im Detail
 
 Die besten Zeitfenster sind **Oktober bis November** und **März bis Anfang Mai**. Der Herbst bringt Tagestemperaturen im oberen Zwanzigerbereich, das Wüstenlicht ist golden und weich, und die Staubschlieren des Sommers haben sich gelegt. Der Frühling ist das Spiegelbild: Wildblumen entlang der Wadis nach den Winterregen und die frühmorgendliche Kühle, die lange Wanderungen angenehm macht.
 
@@ -38,7 +38,7 @@ Die besten Zeitfenster sind **Oktober bis November** und **März bis Anfang Mai*
 
 **Der Sommer** (Juni bis September) ist heiß. Mittagstemperaturen erreichen 40 bis 45 °C mit geringer Luftfeuchtigkeit. Der Sommer im Negev funktioniert nur mit frühen Morgenaufbrüchen (Sonnenaufgang-Wanderungen), Mittagspause im klimatisierten Hotel und Freiluftaktivitäten ab 17 Uhr. Die meisten Anbieter bieten Sommerrabatte, weil die Nachfrage sinkt.
 
-## Unterkunft im Negev
+## Gebiete: wo man am besten wohnt
 
 Es gibt drei Unterkunftscluster und einen vierten für Slow-Traveller.
 
@@ -86,7 +86,7 @@ Der **Astronomy-Israel**-Anbieter und das Beobachtungsdeck des **Bereshit-Hotels
 
 **Eilat** ist etwa zwei Stunden südlich von Mitzpe Ramon. Ein üblicher Rhythmus ist zwei Tage im Negev, dann Fahrt nach Eilat für einen Strandtag, und entweder Rückkehr Richtung Norden via Mitzpe Ramon oder Weiterfahrt über den Wadi-Rum-Aqaba-Grenzübergang.
 
-**Totes Meer** (Masada über die Arad-Route) ist in etwa zweieinhalb Stunden nordöstlich erreichbar. Die meisten Reisenden kombinieren den Negev mit einer Übernachtung am Toten Meer in Ein Bokek.
+**Totes Meer** ([Masada](/de/masada-visitor-guide) über die Arad-Route) ist in etwa zweieinhalb Stunden nordöstlich erreichbar. Die meisten Reisenden kombinieren den Negev mit einer Übernachtung am Toten Meer in Ein Bokek.
 
 ## Anreise in den Negev
 

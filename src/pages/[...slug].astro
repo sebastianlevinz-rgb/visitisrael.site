@@ -12,6 +12,9 @@ import { defaultAuthor } from '@/data/authors';
 import { article, breadcrumbList, eventSchema, faqPage, type EventSchemaOpts } from '@/lib/schema';
 import { useTranslations, localeHome, locales, entryIdFor, splitEntryId, alternatesFor } from '@/i18n/ui';
 import TourVerdict from '@/components/TourVerdict.astro';
+import Toc from '@/components/Toc.astro';
+import BookYourTrip from '@/components/BookYourTrip.astro';
+import AffiliateDisclosure from '@/components/AffiliateDisclosure.astro';
 
 export async function getStaticPaths() {
   const allGuides = await getCollection('guides');
@@ -36,7 +39,7 @@ export async function getStaticPaths() {
 }
 
 const { entry, kind, guideAlternates = [] } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
 const data: any = entry.data;
 const path = `/${entry.id}`;
 const hero = data.heroImage as string | undefined;
@@ -54,11 +57,9 @@ const ctas = (data.affiliateCtas ?? []) as Array<{
   image: string;
   query?: string;
   destination?: string;
-  priceFrom?: number;
-  rating?: number;
-  reviews?: number;
   cta?: string;
 }>;
+const COUNTRY: Record<string, string> = { en: 'Israel', fr: 'Israël', de: 'Israel', es: 'Israel', he: 'ישראל' };
 const ctaCols = ctas.length >= 3 ? 'lg:grid-cols-3' : ctas.length === 2 ? 'sm:grid-cols-2' : '';
 const ctaWrap = ctas.length === 1 ? 'max-w-md' : ctas.length === 2 ? 'max-w-3xl' : 'max-w-6xl';
 const crumbs = [
@@ -107,15 +108,17 @@ const schema = [
 
   <Breadcrumbs items={crumbs} />
   <AuthorByline updated={data.updatedAt} />
+  {kind === 'guide' && <Toc headings={headings} locale={entryLocale} />}
 
   {
     ctas.length > 0 && (
       <section class="mx-auto max-w-6xl px-4 pt-2" aria-labelledby="cta">
         {data.ctaHeading && (
-          <h2 id="cta" class="mb-5 font-display text-2xl font-bold text-ink">
+          <h2 id="cta" class="mb-3 font-display text-2xl font-bold text-ink">
             {data.ctaHeading}
           </h2>
         )}
+        <div class="mb-5"><AffiliateDisclosure /></div>
         <div class={`mx-auto grid grid-cols-1 gap-5 ${ctaCols} ${ctaWrap}`}>
           {ctas.map((c) => (
             <AffiliateCard {...c} />
@@ -142,5 +145,5 @@ const schema = [
   }
 
   <FaqSection faqs={faqs} />
-  <AuthorByline updated={data.updatedAt} />
+  {kind === 'guide' && <BookYourTrip locale={entryLocale} place={COUNTRY[entryLocale] ?? 'Israel'} query="Israel" />}
 </BaseLayout>

@@ -24,7 +24,7 @@ El Mar Muerto es el punto más bajo de la superficie terrestre — un lago hiper
 
 Esta guía abarca cuándo venir, dónde dormir, las cinco experiencias principales — la flotación, Masada, Ein Gedi, Qumrán y el barro mineral —, la realidad ambiental del lago que se encoge, cómo llegar desde Jerusalén y Tel Aviv, y los consejos prácticos de salud y seguridad.
 
-## Cuándo venir al Mar Muerto
+## Las estaciones en detalle
 
 Las mejores épocas son **marzo–principios de mayo** y **octubre–noviembre**. La primavera trae máximas de 28–30 °C, agua agradablemente cálida para largas sesiones de flotación y una luz desértica de una suavidad incomparable. El otoño es el espejo: agua aún cálida, multitudes estivales ya idas, cielo despejado para ascender a Masada.
 
@@ -32,7 +32,7 @@ Las mejores épocas son **marzo–principios de mayo** y **octubre–noviembre**
 
 **El invierno** (diciembre–febrero) es suave — 20–23 °C durante el día — pero el agua puede sentirse fresca en las olas de frío. El sol está presente y la lluvia es escasa. El invierno es la temporada más barata en Ein Boqeq y la más agradable para hacer senderismo en Ein Gedi o subir a Masada al mediodía.
 
-## Dónde dormir en el Mar Muerto
+## Zonas: dónde establecer tu base
 
 **Ein Boqeq** es la principal franja de hoteles-resort israelíes en la orilla sur — unos quince grandes establecimientos (Herods, Leonardo, Isrotel, David, Lot Spa y varias cadenas de gama media) con acceso directo al mar, baños de barro mineral y servicios de spa. La comodidad prima sobre el encanto, pero la fórmula de media pensión y la playa a pocos metros justifican la elección para la mayoría de los visitantes.
 
@@ -44,7 +44,7 @@ Las mejores épocas son **marzo–principios de mayo** y **octubre–noviembre**
 
 **Flotar en el Mar Muerto** — la experiencia principal. La alta concentración de sal (alrededor del 34 %) hace que la flotación sea automática: no es necesario saber nadar. Entra al agua hasta las rodillas, agáchate y recuéstate hacia atrás. Las playas públicas (Kalia Beach al norte, playa de Ein Boqeq al sur) y las playas de hotel ofrecen esta experiencia. Usa sandalias: los cristales de sal en la orilla son cortantes.
 
-**Masada al amanecer** — la fortaleza herodiana en la cima de una roca plana, a 450 m sobre el Mar Muerto. El ascenso por el Camino de la Serpiente toma 45–90 minutos para senderistas en buena forma; el teleférico es la alternativa. En la cima: el palacio de Herodes, baños romanos, una sinagoga del siglo I y un panorama excepcional sobre el lago salado y el desierto de Judea.
+**[Masada](/es/masada-visitor-guide) al amanecer** — la fortaleza herodiana en la cima de una roca plana, a 450 m sobre el Mar Muerto. El ascenso por el Camino de la Serpiente toma 45–90 minutos para senderistas en buena forma; el teleférico es la alternativa. En la cima: el palacio de Herodes, baños romanos, una sinagoga del siglo I y un panorama excepcional sobre el lago salado y el desierto de Judea.
 
 **Ein Gedi** — oasis de manantial de agua dulce en pleno desierto, con cascadas y pozas naturales. La reserva natural de Ein Gedi es una de las más visitadas de Israel. La ruta más popular (Nahal David) sube por un cañón rocoso hasta una cascada alta, 1 hora de ida y vuelta. Lleva agua.
 

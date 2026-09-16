@@ -189,7 +189,7 @@
       "permanent": true
     },
     {
-      "source": "/:old(aqaba-from-eilat|eilat-beach-guide|eilat-chamber-music-festival|eilat-diving-snorkeling|eilat-dolphin-reef-guide|eilat-hotels-guide|eilat-nightlife|eilat-ramon-airport-guide|eilat-snorkeling-guide|eilat-travel-guide|eilat-vs-aqaba|fattal-rock-festival-eilat|petra-from-eilat-vs-amman|petra-from-israel|petra-wadi-rum-from-eilat|red-canyon-eilat|red-sea-guitar-festival-eilat|red-sea-jazz-festival-eilat|terminal-park-eilat|timna-park-guide)",
+      "source": "/:old(aqaba-from-eilat|eilat-beach-guide|eilat-chamber-music-festival|eilat-diving-snorkeling|eilat-dolphin-reef-guide|eilat-nightlife|eilat-ramon-airport-guide|eilat-snorkeling-guide|eilat-travel-guide|eilat-vs-aqaba|fattal-rock-festival-eilat|petra-from-eilat-vs-amman|petra-wadi-rum-from-eilat|red-canyon-eilat|red-sea-guitar-festival-eilat|red-sea-jazz-festival-eilat|terminal-park-eilat|timna-park-guide)",
       "destination": "/eilat",
       "permanent": true
     },
@@ -204,7 +204,7 @@
       "permanent": true
     },
     {
-      "source": "/:old(bein-harim-vs-abraham-tours|best-holy-land-tours|best-tours-in-israel|bethlehem-tours-compared|day-trips-from-eilat|day-trips-from-jerusalem|eilat-tours-compared|galilee-tours-compared|golan-heights-tours-compared|guided-vs-self-guided-israel|how-to-hire-licensed-tour-guide-israel|israel-agritourism-guide|israel-culinary-heritage-tourism|israel-film-tv-tourism|israel-food-tours-cooking-classes|israel-medical-tourism|israel-photography-tours|israel-small-group-tours|israel-tour-operators-guide|israel-tour-packages|jericho-day-trip-from-jerusalem|jerusalem-bethlehem-day-trip|jerusalem-old-city-walking-tour|nazareth-sea-of-galilee-day-trip|nazareth-tours-compared|negev-jeep-tours|negev-tours-compared|petra-tours-compared|private-tours-israel|sea-of-galilee-boat-tour)",
+      "source": "/:old(bein-harim-vs-abraham-tours|best-holy-land-tours|best-tours-in-israel|bethlehem-tours-compared|day-trips-from-eilat|day-trips-from-jerusalem|eilat-tours-compared|galilee-tours-compared|golan-heights-tours-compared|guided-vs-self-guided-israel|how-to-hire-licensed-tour-guide-israel|israel-agritourism-guide|israel-culinary-heritage-tourism|israel-film-tv-tourism|israel-food-tours-cooking-classes|israel-medical-tourism|israel-photography-tours|israel-small-group-tours|israel-tour-operators-guide|jericho-day-trip-from-jerusalem|jerusalem-old-city-walking-tour|nazareth-tours-compared|negev-jeep-tours|negev-tours-compared|petra-tours-compared|private-tours-israel|sea-of-galilee-boat-tour)",
       "destination": "/jerusalem-tours-compared",
       "permanent": true
     },
@@ -224,7 +224,7 @@
       "permanent": true
     },
     {
-      "source": "/:old(competitors|content-library|dashboard|pitch)",
+      "source": "/:old(competitors|content-library|pitch)",
       "destination": "/",
       "permanent": true
     },
@@ -234,7 +234,7 @@
       "permanent": true
     },
     {
-      "source": "/:old(dead-sea-guide|dead-sea-israel-vs-jordan|dead-sea-vs-eilat|ein-gedi-guide|masada-visitor-guide|qumran-guide|tamar-festival-dead-sea)",
+      "source": "/:old(dead-sea-guide|dead-sea-israel-vs-jordan|dead-sea-vs-eilat|ein-gedi-guide|qumran-guide|tamar-festival-dead-sea)",
       "destination": "/dead-sea",
       "permanent": true
     },
@@ -289,7 +289,7 @@
       "permanent": true
     },
     {
-      "source": "/:lang(fr|de|es)/:old(aqaba-from-eilat|eilat-beach-guide|eilat-diving-snorkeling|eilat-dolphin-reef-guide|eilat-hotels-guide|eilat-nightlife|eilat-ramon-airport-guide|eilat-snorkeling-guide|eilat-travel-guide|eilat-vs-aqaba|petra-from-eilat-vs-amman|petra-from-israel|petra-wadi-rum-from-eilat|red-canyon-eilat|terminal-park-eilat|timna-park-guide)",
+      "source": "/:lang(fr|de|es)/:old(aqaba-from-eilat|eilat-beach-guide|eilat-diving-snorkeling|eilat-dolphin-reef-guide|eilat-nightlife|eilat-ramon-airport-guide|eilat-snorkeling-guide|eilat-travel-guide|eilat-vs-aqaba|petra-from-eilat-vs-amman|petra-wadi-rum-from-eilat|red-canyon-eilat|terminal-park-eilat|timna-park-guide)",
       "destination": "/:lang/eilat",
       "permanent": true
     },
@@ -304,7 +304,7 @@
       "permanent": true
     },
     {
-      "source": "/:lang(fr|de|es)/:old(best-holy-land-tours|best-tours-in-israel|bethlehem-tours-compared|day-trips-from-eilat|day-trips-from-jerusalem|eilat-tours-compared|galilee-tours-compared|golan-heights-tours-compared|guided-vs-self-guided-israel|how-to-hire-licensed-tour-guide-israel|israel-agritourism-guide|israel-culinary-heritage-tourism|israel-film-tv-tourism|israel-food-tours-cooking-classes|israel-medical-tourism|israel-photography-tours|israel-small-group-tours|israel-tour-operators-guide|israel-tour-packages|jericho-day-trip-from-jerusalem|jerusalem-bethlehem-day-trip|jerusalem-old-city-walking-tour|nazareth-sea-of-galilee-day-trip|nazareth-tours-compared|negev-jeep-tours|negev-tours-compared|petra-tours-compared|private-tours-israel|sea-of-galilee-boat-tour)",
+      "source": "/:lang(fr|de|es)/:old(best-holy-land-tours|best-tours-in-israel|bethlehem-tours-compared|day-trips-from-eilat|day-trips-from-jerusalem|eilat-tours-compared|galilee-tours-compared|golan-heights-tours-compared|guided-vs-self-guided-israel|how-to-hire-licensed-tour-guide-israel|israel-agritourism-guide|israel-culinary-heritage-tourism|israel-film-tv-tourism|israel-food-tours-cooking-classes|israel-medical-tourism|israel-photography-tours|israel-small-group-tours|israel-tour-operators-guide|jericho-day-trip-from-jerusalem|jerusalem-old-city-walking-tour|nazareth-tours-compared|negev-jeep-tours|negev-tours-compared|petra-tours-compared|private-tours-israel|sea-of-galilee-boat-tour)",
       "destination": "/:lang/jerusalem-tours-compared",
       "permanent": true
     },
@@ -329,7 +329,7 @@
       "permanent": true
     },
     {
-      "source": "/:lang(fr|de|es)/:old(dead-sea-guide|dead-sea-israel-vs-jordan|dead-sea-vs-eilat|ein-gedi-guide|masada-visitor-guide|qumran-guide)",
+      "source": "/:lang(fr|de|es)/:old(dead-sea-guide|dead-sea-israel-vs-jordan|dead-sea-vs-eilat|ein-gedi-guide|qumran-guide)",
       "destination": "/:lang/dead-sea",
       "permanent": true
     },

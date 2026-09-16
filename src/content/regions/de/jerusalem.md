@@ -22,7 +22,7 @@ faqs:
 ---
 Jerusalem belohnt Reisende, die ihm Zeit geben. Auf einem einzigen Quadratkilometer schichtet die Altstadt vier Jahrtausende Geschichte — herodianische Paläste, Grabeskirche, Tempelberg und Klagemauer / Kotel — während die westlichen Stadtteile Weltklasse-Museen, lebhafte Märkte und späte Restaurantszenen bieten. Dieser praktische Reiseführer behandelt die wichtigsten Entscheidungen für einen ersten Aufenthalt von zwei bis vier Tagen: wann man kommt, wo man schläft, was man sieht und wie man sich fortbewegt.
 
-## Wann nach Jerusalem reisen
+## Die Jahreszeiten im Detail
 
 Die zwei lohnenswertesten Reisefenster sind **März–Mai** und **September–November**. Der Frühling bringt Mandelblüte in den judäischen Hügeln, angenehme Temperaturen in der Altstadt und das Zusammentreffen von Ostern und Pessach. Der Herbst bietet die Hohen Feiertage (Rosch Haschana, Jom Kippur, Sukkot) und goldenes Licht auf dem ockergelben Stein Jerusalems.
 
@@ -30,7 +30,7 @@ Die zwei lohnenswertesten Reisefenster sind **März–Mai** und **September–No
 
 Der **Schabbat** (von Freitagabend bis Samstagabend) ist die wichtigste Planungsgröße: öffentliche Verkehrsmittel stehen still, jüdische Restaurants schließen, der größte Teil der Neustadt verstummt. Die christlichen und muslimischen Viertel der Altstadt bleiben geöffnet; Mamilla und die Ben-Yehuda-Straße füllen sich wieder nach der Hawdala.
 
-## Wo übernachten in Jerusalem
+## Stadtviertel: wo man am besten wohnt
 
 Jerusalem bietet fünf praktische Unterkunftsbereiche, jeder mit einer anderen Balance aus Atmosphäre und Komfort.
 
@@ -66,4 +66,4 @@ Jerusalem bietet fünf praktische Unterkunftsbereiche, jeder mit einer anderen B
 
 ## Tagesausflüge von Jerusalem
 
-**Totes Meer und Masada** (1 Stunde mit dem Auto) — das klassische Ausflugsziel: Masada bei Sonnenaufgang oder per Seilbahn, danach Schwimmen im hypersal­haltigen Wasser von Ein Bokek. **Bethlehem** (30 Min. mit Sammeltaxi oder geführter Tour) — Geburtskirche und Krippe. **Tel Aviv** (30 Min. mit dem Hochgeschwindigkeitszug) — Strand, Alt-Jaffa und lebhafte Märkte als Gegenpol zur Intensität Jerusalems.
+**Totes Meer und [Masada](/de/masada-visitor-guide)** (1 Stunde mit dem Auto) — das klassische Ausflugsziel: Masada bei Sonnenaufgang oder per Seilbahn, danach Schwimmen im hypersal­haltigen Wasser von Ein Bokek. **[Bethlehem](/de/jerusalem-bethlehem-day-trip)** (30 Min. mit Sammeltaxi oder geführter Tour) — Geburtskirche und Krippe. **Tel Aviv** (30 Min. mit dem Hochgeschwindigkeitszug) — Strand, Alt-Jaffa und lebhafte Märkte als Gegenpol zur Intensität Jerusalems.

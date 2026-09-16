@@ -22,6 +22,10 @@ export interface TourSeed {
   description: string;
   image: string;
   query: string;
+  /** Stable, honest format label ("Walking tour", "Full day"). Never a price or rating. */
+  type?: string;
+  /** Approximate duration as a range ("~3–4 h", "~10–12 h"). */
+  duration?: string;
 }
 
 export interface RegionData {
@@ -59,10 +63,10 @@ export const REGION_DATA: Record<string, RegionData> = {
       { name: 'Abraham Hostel Jerusalem', tier: 'hostel', neighborhood: 'Davidka Square', blurb: 'Legendary backpacker hub with dorms, privates and its own day-tour desk.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Jerusalem Old City: Half-Day Walking Tour', description: 'The four quarters, the Western Wall and the Holy Sepulchre with an expert guide.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City walking tour' },
-      { partner: 'viator', title: 'Jerusalem & Bethlehem Full-Day Tour', description: 'Combine the Old City highlights with a guided afternoon in Bethlehem.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Bethlehem day tour' },
-      { partner: 'civitatis', title: 'Western Wall Tunnels Guided Tour', description: 'Walk the 488 m underground length of the Western Wall and Herodian street.', image: '/images/regions/jerusalem/hero.jpg', query: 'Western Wall tunnels tour' },
-      { partner: 'abraham', title: 'Masada Sunrise & Dead Sea from Jerusalem', description: 'Dawn ascent of Masada, then float in the Dead Sea — back by afternoon.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada sunrise Dead Sea Jerusalem' },
+      { partner: 'getyourguide', title: 'Jerusalem Old City: Half-Day Walking Tour', type: 'Walking tour', duration: '~3–4 h', description: 'The four quarters, the Western Wall and the Holy Sepulchre with an expert guide.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City walking tour' },
+      { partner: 'viator', title: 'Jerusalem & Bethlehem Full-Day Tour', type: 'Full day', duration: '~9–10 h', description: 'Combine the Old City highlights with a guided afternoon in Bethlehem.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Bethlehem day tour' },
+      { partner: 'civitatis', title: 'Western Wall Tunnels Guided Tour', type: 'Guided tour', duration: '~1.5 h', description: 'Walk the 488 m underground length of the Western Wall and Herodian street.', image: '/images/regions/jerusalem/hero.jpg', query: 'Western Wall tunnels tour' },
+      { partner: 'abraham', title: 'Masada Sunrise & Dead Sea from Jerusalem', type: 'Sunrise trip', duration: '~10–12 h', description: 'Dawn ascent of Masada, then float in the Dead Sea — back by afternoon.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada sunrise Dead Sea Jerusalem' },
     ],
   },
 
@@ -91,10 +95,10 @@ export const REGION_DATA: Record<string, RegionData> = {
       { name: 'Abraham Hostel Tel Aviv', tier: 'hostel', neighborhood: 'Levinsky', blurb: 'Buzzing flagship hostel with dorms, privates, a bar and a day-tour desk.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Bauhaus White City Walking Tour', description: "Decode Tel Aviv's UNESCO Bauhaus heritage with an architecture guide.", image: '/images/sub-destinations/tel-aviv/rothschild.jpg', query: 'Tel Aviv Bauhaus White City tour' },
-      { partner: 'civitatis', title: 'Jaffa & Carmel Market Food Tour', description: 'Graze through Carmel Market and Old Jaffa with a local foodie guide.', image: '/images/sub-destinations/tel-aviv/carmel-market.jpg', query: 'Tel Aviv Jaffa food tour' },
-      { partner: 'viator', title: 'Old Jaffa & Tel Aviv City Tour', description: 'From the ancient port of Jaffa to the beaches and boulevards of the new city.', image: '/images/sub-destinations/tel-aviv/old-jaffa.jpg', query: 'Old Jaffa Tel Aviv tour' },
-      { partner: 'getyourguide', title: 'Jerusalem Day Trip from Tel Aviv', description: 'Full-day guided trip to the Old City and the Western Wall.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem day trip from Tel Aviv' },
+      { partner: 'getyourguide', title: 'Bauhaus White City Walking Tour', type: 'Walking tour', duration: '~2–3 h', description: "Decode Tel Aviv's UNESCO Bauhaus heritage with an architecture guide.", image: '/images/sub-destinations/tel-aviv/rothschild.jpg', query: 'Tel Aviv Bauhaus White City tour' },
+      { partner: 'civitatis', title: 'Jaffa & Carmel Market Food Tour', type: 'Food tour', duration: '~3–4 h', description: 'Graze through Carmel Market and Old Jaffa with a local foodie guide.', image: '/images/sub-destinations/tel-aviv/carmel-market.jpg', query: 'Tel Aviv Jaffa food tour' },
+      { partner: 'viator', title: 'Old Jaffa & Tel Aviv City Tour', type: 'Half day', duration: '~4 h', description: 'From the ancient port of Jaffa to the beaches and boulevards of the new city.', image: '/images/sub-destinations/tel-aviv/old-jaffa.jpg', query: 'Old Jaffa Tel Aviv tour' },
+      { partner: 'getyourguide', title: 'Jerusalem Day Trip from Tel Aviv', type: 'Full day', duration: '~10 h', description: 'Full-day guided trip to the Old City and the Western Wall.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem day trip from Tel Aviv' },
     ],
   },
 
@@ -122,10 +126,10 @@ export const REGION_DATA: Record<string, RegionData> = {
       { name: 'Ein Gedi Kibbutz Hotel', tier: 'value', neighborhood: 'Ein Gedi', blurb: 'Set in a botanical garden on the quieter northern shore near the reserve.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Masada, Ein Gedi & Dead Sea Day Tour', description: 'Cable car up Masada, an Ein Gedi waterfall walk, then a float — from Jerusalem or Tel Aviv.', image: '/images/sub-destinations/dead-sea/masada.jpg', query: 'Masada Ein Gedi Dead Sea tour' },
-      { partner: 'viator', title: 'Masada Sunrise & Dead Sea', description: 'Pre-dawn Snake Path ascent for sunrise, then the mineral shore.', image: '/images/sub-destinations/dead-sea/masada.jpg', query: 'Masada sunrise tour' },
-      { partner: 'civitatis', title: 'Dead Sea Relaxation Day', description: 'Transfers plus free time to float and apply the famous black mud.', image: '/images/regions/dead-sea/hero.jpg', query: 'Dead Sea day trip' },
-      { partner: 'abraham', title: 'Masada & Dead Sea from Tel Aviv', description: 'Backpacker-friendly day trip combining Masada and a Dead Sea float.', image: '/images/sub-destinations/dead-sea/ein-gedi.jpg', query: 'Masada Dead Sea Tel Aviv' },
+      { partner: 'getyourguide', title: 'Masada, Ein Gedi & Dead Sea Day Tour', type: 'Full day', duration: '~10–12 h', description: 'Cable car up Masada, an Ein Gedi waterfall walk, then a float — from Jerusalem or Tel Aviv.', image: '/images/sub-destinations/dead-sea/masada.jpg', query: 'Masada Ein Gedi Dead Sea tour' },
+      { partner: 'viator', title: 'Masada Sunrise & Dead Sea', type: 'Sunrise trip', duration: '~10–12 h', description: 'Pre-dawn Snake Path ascent for sunrise, then the mineral shore.', image: '/images/sub-destinations/dead-sea/masada.jpg', query: 'Masada sunrise tour' },
+      { partner: 'civitatis', title: 'Dead Sea Relaxation Day', type: 'Full day', duration: '~8–10 h', description: 'Transfers plus free time to float and apply the famous black mud.', image: '/images/regions/dead-sea/hero.jpg', query: 'Dead Sea day trip' },
+      { partner: 'abraham', title: 'Masada & Dead Sea from Tel Aviv', type: 'Full day', duration: '~11–12 h', description: 'Backpacker-friendly day trip combining Masada and a Dead Sea float.', image: '/images/sub-destinations/dead-sea/ein-gedi.jpg', query: 'Masada Dead Sea Tel Aviv' },
     ],
   },
 
@@ -153,9 +157,9 @@ export const REGION_DATA: Record<string, RegionData> = {
       { name: 'Artist House Tzfat', tier: 'value', neighborhood: 'Tzfat (Safed)', blurb: 'Characterful rooms in the Kabbalistic artists’ quarter of Safed.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Sea of Galilee & Nazareth Day Tour', description: 'Capernaum, the Mount of Beatitudes and Nazareth in one guided day.', image: '/images/sub-destinations/galilee/capernaum.jpg', query: 'Sea of Galilee Nazareth tour' },
-      { partner: 'viator', title: 'Galilee & Golan Wine Tour', description: 'Taste award-winning northern wines across two or three boutique wineries.', image: '/images/regions/galilee/hero.jpg', query: 'Galilee Golan wine tour' },
-      { partner: 'civitatis', title: 'Tzfat & Galilee Day Trip', description: 'The Kabbalah town of Safed plus lakeside Christian sites.', image: '/images/regions/galilee/hero.jpg', query: 'Tzfat Safed Galilee tour' },
+      { partner: 'getyourguide', title: 'Sea of Galilee & Nazareth Day Tour', type: 'Full day', duration: '~10–12 h', description: 'Capernaum, the Mount of Beatitudes and Nazareth in one guided day.', image: '/images/sub-destinations/galilee/capernaum.jpg', query: 'Sea of Galilee Nazareth tour' },
+      { partner: 'viator', title: 'Galilee & Golan Wine Tour', type: 'Wine tour', duration: '~6–8 h', description: 'Taste award-winning northern wines across two or three boutique wineries.', image: '/images/regions/galilee/hero.jpg', query: 'Galilee Golan wine tour' },
+      { partner: 'civitatis', title: 'Tzfat & Galilee Day Trip', type: 'Full day', duration: '~10–12 h', description: 'The Kabbalah town of Safed plus lakeside Christian sites.', image: '/images/regions/galilee/hero.jpg', query: 'Tzfat Safed Galilee tour' },
     ],
   },
 
@@ -183,9 +187,9 @@ export const REGION_DATA: Record<string, RegionData> = {
       { name: 'Arava Hostel', tier: 'hostel', neighborhood: 'City Centre', blurb: 'Friendly budget base with a garden, a short walk to the beach.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Petra Day Trip from Eilat', description: 'Cross into Jordan for a full guided day at the rose-red city of Petra.', image: '/images/regions/eilat/hero.jpg', query: 'Petra day trip from Eilat' },
-      { partner: 'viator', title: 'Red Sea Snorkelling & Coral Beach', description: 'Guided snorkel over Eilat’s protected reef with gear included.', image: '/images/sub-destinations/eilat/coral-beach.jpg', query: 'Eilat snorkeling coral reef' },
-      { partner: 'civitatis', title: 'Timna Park & Red Canyon Jeep Tour', description: 'Desert rock formations, ancient copper mines and the Red Canyon.', image: '/images/sub-destinations/eilat/timna-park.jpg', query: 'Timna Park Eilat tour' },
+      { partner: 'getyourguide', title: 'Petra Day Trip from Eilat', type: 'Full day', duration: '~12–14 h', description: 'Cross into Jordan for a full guided day at the rose-red city of Petra.', image: '/images/regions/eilat/hero.jpg', query: 'Petra day trip from Eilat' },
+      { partner: 'viator', title: 'Red Sea Snorkelling & Coral Beach', type: 'Snorkelling', duration: '~2–3 h', description: 'Guided snorkel over Eilat’s protected reef with gear included.', image: '/images/sub-destinations/eilat/coral-beach.jpg', query: 'Eilat snorkeling coral reef' },
+      { partner: 'civitatis', title: 'Timna Park & Red Canyon Jeep Tour', type: 'Jeep tour', duration: '~4–5 h', description: 'Desert rock formations, ancient copper mines and the Red Canyon.', image: '/images/sub-destinations/eilat/timna-park.jpg', query: 'Timna Park Eilat tour' },
     ],
   },
 
@@ -213,9 +217,9 @@ export const REGION_DATA: Record<string, RegionData> = {
       { name: 'Green Backpackers', tier: 'hostel', neighborhood: 'Mitzpe Ramon', blurb: 'Welcoming hostel that runs crater hikes and stargazing trips.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Makhtesh Ramon Jeep & Hike', description: 'Descend into the world’s largest erosion crater with a desert guide.', image: '/images/sub-destinations/negev/mitzpe-ramon.jpg', query: 'Makhtesh Ramon jeep tour' },
-      { partner: 'civitatis', title: 'Negev Stargazing Experience', description: 'Guided night under some of Israel’s darkest skies with telescopes.', image: '/images/regions/negev/hero.jpg', query: 'Negev stargazing Mitzpe Ramon' },
-      { partner: 'viator', title: 'Avdat & Ein Avdat Desert Day', description: 'The Nabatean city of Avdat and the spring-fed Ein Avdat canyon.', image: '/images/sub-destinations/negev/avdat.jpg', query: 'Avdat Ein Avdat tour' },
+      { partner: 'getyourguide', title: 'Makhtesh Ramon Jeep & Hike', type: 'Jeep tour', duration: '~3–4 h', description: 'Descend into the world’s largest erosion crater with a desert guide.', image: '/images/sub-destinations/negev/mitzpe-ramon.jpg', query: 'Makhtesh Ramon jeep tour' },
+      { partner: 'civitatis', title: 'Negev Stargazing Experience', type: 'Night activity', duration: '~2 h', description: 'Guided night under some of Israel’s darkest skies with telescopes.', image: '/images/regions/negev/hero.jpg', query: 'Negev stargazing Mitzpe Ramon' },
+      { partner: 'viator', title: 'Avdat & Ein Avdat Desert Day', type: 'Full day', duration: '~8–10 h', description: 'The Nabatean city of Avdat and the spring-fed Ein Avdat canyon.', image: '/images/sub-destinations/negev/avdat.jpg', query: 'Avdat Ein Avdat tour' },
     ],
   },
 
@@ -244,9 +248,9 @@ export const REGION_DATA: Record<string, RegionData> = {
       { name: 'Port Inn', tier: 'hostel', neighborhood: 'Downtown', blurb: 'Long-running guesthouse with dorms, privates and a garden.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Haifa, Akko & Caesarea Day Tour', description: 'The Bahá’í Gardens, Crusader Akko and Roman Caesarea in one guided day.', image: '/images/sub-destinations/haifa/bahai-gardens.jpg', query: 'Haifa Akko Caesarea tour' },
-      { partner: 'civitatis', title: 'Bahá’í Gardens & German Colony Walk', description: 'A guided walk up the terraces and through the historic colony.', image: '/images/sub-destinations/haifa/german-colony.jpg', query: 'Bahai Gardens Haifa tour' },
-      { partner: 'viator', title: 'Northern Israel Day Trip from Tel Aviv', description: 'Caesarea, Haifa’s gardens and Akko on a full guided day.', image: '/images/regions/haifa/hero.jpg', query: 'Northern Israel Caesarea Haifa Akko' },
+      { partner: 'getyourguide', title: 'Haifa, Akko & Caesarea Day Tour', type: 'Full day', duration: '~10–12 h', description: 'The Bahá’í Gardens, Crusader Akko and Roman Caesarea in one guided day.', image: '/images/sub-destinations/haifa/bahai-gardens.jpg', query: 'Haifa Akko Caesarea tour' },
+      { partner: 'civitatis', title: 'Bahá’í Gardens & German Colony Walk', type: 'Walking tour', duration: '~2–3 h', description: 'A guided walk up the terraces and through the historic colony.', image: '/images/sub-destinations/haifa/german-colony.jpg', query: 'Bahai Gardens Haifa tour' },
+      { partner: 'viator', title: 'Northern Israel Day Trip from Tel Aviv', type: 'Full day', duration: '~10–12 h', description: 'Caesarea, Haifa’s gardens and Akko on a full guided day.', image: '/images/regions/haifa/hero.jpg', query: 'Northern Israel Caesarea Haifa Akko' },
     ],
   },
 

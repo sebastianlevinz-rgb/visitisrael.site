@@ -1,9 +1,11 @@
 ---
+import { getLocaleFromPath, useTranslations } from '@/i18n/ui';
 export interface Props {
   facts: { label: string; value: string }[];
   title?: string;
 }
-const { facts, title = 'Know before you go' } = Astro.props;
+const t = useTranslations(getLocaleFromPath(Astro.url.pathname));
+const { facts, title = t('keyFacts.title') } = Astro.props;
 ---
 
 <aside

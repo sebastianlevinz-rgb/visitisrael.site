@@ -22,7 +22,7 @@ faqs:
 ---
 Jérusalem récompense ceux qui lui accordent du temps. En un seul kilomètre carré, la Vieille Ville superpose quatre millénaires d'histoire — palais hérodiens, église du Saint-Sépulcre, esplanade des mosquées / mont du Temple et Mur des Lamentations / Kotel — tandis que les quartiers ouest offrent musées de calibre international, marchés animés et restaurants tardifs. Ce guide pratique couvre quand venir, où dormir, quoi voir et comment se déplacer pour un premier séjour de deux à quatre jours.
 
-## Quand venir à Jérusalem
+## Les saisons en détail
 
 Les deux meilleures périodes sont **mars–mai** et **septembre–novembre**. Le printemps apporte la floraison des amandiers dans les collines de Judée, des températures agréables dans la Vieille Ville et la convergence des fêtes de Pâques et de Pessah. L'automne offre les Grandes Fêtes juives (Rosh Hashana, Yom Kippour, Souccot) et une lumière dorée sur la pierre ocre de Jérusalem.
 
@@ -30,7 +30,7 @@ Les deux meilleures périodes sont **mars–mai** et **septembre–novembre**. L
 
 Le **Shabbat** (vendredi soir–samedi soir) est la contrainte de planification la plus importante : transports publics interrompus, restaurants et commerces juifs fermés. La Vieille Ville chrétienne et musulmane reste ouverte ; Mamilla et la rue Ben Yehuda s'animent à nouveau après la havdala.
 
-## Où dormir à Jérusalem
+## Quartiers : où poser ses valises
 
 Jérusalem propose cinq secteurs d'hébergement, chacun avec un équilibre différent entre atmosphère et commodité.
 
@@ -66,4 +66,4 @@ Jérusalem propose cinq secteurs d'hébergement, chacun avec un équilibre diff�
 
 ## Excursions depuis Jérusalem
 
-La **mer Morte et Massada** (1h en voiture) forment l'excursion la plus emblématique — coucher du soleil sur Massada ou lever du soleil depuis le câble, puis flottaison sur les eaux hypersalées d'Ein Boqeq. **Bethléem** (30 min en taxi partagé ou circuit guidé) — l'église de la Nativité et la Mangeoire, avec des guides locaux palestiniens pour un récit équilibré. **Tel Aviv** (30 min en train à grande vitesse) — la plage, le Vieux-Jaffa et les marchés en contrepoint de l'intensité jérusalémite.
+La **mer Morte et [Massada](/fr/masada-visitor-guide)** (1h en voiture) forment l'excursion la plus emblématique — coucher du soleil sur Massada ou lever du soleil depuis le câble, puis flottaison sur les eaux hypersalées d'Ein Boqeq. **[Bethléem](/fr/jerusalem-bethlehem-day-trip)** (30 min en taxi partagé ou circuit guidé) — l'église de la Nativité et la Mangeoire, avec des guides locaux palestiniens pour un récit équilibré. **Tel Aviv** (30 min en train à grande vitesse) — la plage, le Vieux-Jaffa et les marchés en contrepoint de l'intensité jérusalémite.

@@ -22,7 +22,7 @@ faqs:
 ---
 Tel Aviv-Jaffa se présente comme deux villes cousues ensemble par quatorze kilomètres de front de mer. Au nord, la métropole israélienne moderne — blocs Bauhaus de la Ville Blanche, musées, cafés du boulevard Rothschild et vie nocturne qui court de la rue Allenby jusqu'à l'aube. Au sud, Jaffa, port ottoman quatre fois millénaire, où les ruelles du marché aux puces débouchent sur des demeures en pierre restaurées abritant guesthouses de charme et restaurants de chefs. Un guide complet de Tel Aviv commence par cette géographie : votre quartier de résidence détermine si votre séjour ressemblera à des vacances balnéaires, à un tour gastronomique, à un voyage culturel — ou aux trois à la fois.
 
-## Quand venir à Tel Aviv
+## Les saisons en détail
 
 Les meilleures fenêtres sont **avril–juin** et **septembre–novembre**. Le printemps offre des journées douces et peu humides, une mer assez chaude pour se baigner mais encore peu fréquentée, et des tarifs en dessous du pic estival. L'automne en est le miroir : températures de mer swimmable jusqu'en octobre, foules estivales disparues, atmosphère de ville habitée plutôt que touristique.
 
@@ -30,7 +30,7 @@ Les meilleures fenêtres sont **avril–juin** et **septembre–novembre**. Le p
 
 **L'hiver** (décembre–février) est doux mais pluvieux, avec des températures journalières autour de 14–18 °C. La mer est trop fraîche pour la baignade, mais la ville est au moins chère, les musées et restaurants sont moins fréquentés, et les après-midis pluvieux dans les quartiers Bauhaus ont leur charme.
 
-## Où dormir à Tel Aviv
+## Quartiers : où poser ses valises
 
 Tel Aviv offre cinq quartiers pratiques, chacun avec une ambiance différente.
 
@@ -56,4 +56,4 @@ Tel Aviv offre cinq quartiers pratiques, chacun avec une ambiance différente.
 
 ## Excursions depuis Tel Aviv
 
-**Jérusalem** — à une heure vers l'est en train à grande vitesse. Une journée complète couvre la Vieille Ville et un musée ou un point de vue. **Césarée Maritima** — à 45 minutes au nord en voiture, site archéologique romain et croisé sur la côte méditerranéenne, combinant théâtre romain, forteresse croisée et accès à la plage. **La Galilée** — deux heures au nord et idéale comme excursion longue journée ou mieux en deux jours depuis Tibériade. **La mer Morte et Massada** — deux heures au sud, l'excursion la plus populaire en circuit organisé depuis Tel Aviv.
+**Jérusalem** — à une heure vers l'est en train à grande vitesse. Une journée complète couvre la Vieille Ville et un musée ou un point de vue. **[Césarée Maritima](/fr/caesarea-haifa-akko-day-trip)** — à 45 minutes au nord en voiture, site archéologique romain et croisé sur la côte méditerranéenne, combinant théâtre romain, forteresse croisée et accès à la plage. **La Galilée** — deux heures au nord et idéale comme excursion longue journée ou mieux en deux jours depuis Tibériade. **La mer Morte et [Massada](/fr/masada-visitor-guide)** — deux heures au sud, l'excursion la plus populaire en circuit organisé depuis Tel Aviv.

@@ -28,13 +28,13 @@ Eilat est l'enclave balnéaire de la mer Rouge d'Israël — une ville de statio
 
 Ce guide couvre la meilleure période pour venir, les trois quartiers hôteliers distincts, les expériences phares de la mer Rouge (Réserve Coral Beach, Observatoire sous-marin, Dolphin Reef), les excursions dans le désert qui s'associent bien à une base balnéaire (parc Timna, Red Canyon, Mitzpe Ramon et le ciel étoilé du Néguev), l'excursion à Pétra par le poste-frontière de Wadi Araba, et comment arriver à l'aéroport Ramon (ETM).
 
-## Quand visiter Eilat
+## Les saisons en détail
 
 Les meilleures fenêtres sont **octobre à avril**. La valeur distinctive d'Eilat est qu'elle reste chaude et ensoleillée quand le nord d'Israël et l'Europe sont froids — températures diurnes de 22 à 28 °C en automne, 18 à 22 °C en plein hiver, et une température de la mer qui ne descend jamais sous 21 °C grâce à la mer Rouge. Les touristes européens en quête d'été fuyant l'hiver remplissent les hôtels-resorts de fin décembre à février.
 
 **L'été** (juin à septembre) est extrême — 38 à 42 °C en juillet et août, atteignant parfois 45 °C en plein été. La mer Rouge offre un refuge, les piscines des hôtels fonctionnent toute la journée, et la plupart des activités de plein air (parc Timna, randonnées Red Canyon) se concentrent tôt le matin et en soirée.
 
-## Où séjourner à Eilat
+## Quartiers : où poser ses valises
 
 Eilat compte trois quartiers hôteliers, chacun adapté à un type de séjour différent.
 
@@ -70,7 +70,7 @@ Le **Red Canyon** est un étroit canyon de grès dans les montagnes d'Eilat, à 
 
 ### Pétra, Jordanie
 
-Le **poste-frontière Yitzhak Rabin / Wadi Araba** vers la Jordanie est à 6 kilomètres au nord du centre d'Eilat. Les circuits organisés à la journée partent des hôtels d'Eilat à 6h30, traversent la frontière, roulent 2 heures jusqu'à **Pétra**, accordent 4 à 5 heures sur place et rentrent vers 21h00. Pétra est l'un des sites UNESCO les plus photographiés du Moyen-Orient — le Siq, le Trésor (Al-Khazneh), les Tombeaux royaux. Des chaussures confortables et de l'eau sont indispensables.
+Le **poste-frontière Yitzhak Rabin / Wadi Araba** vers la Jordanie est à 6 kilomètres au nord du centre d'Eilat. Les circuits organisés à la journée partent des hôtels d'Eilat à 6h30, traversent la frontière, roulent 2 heures jusqu'à **[Pétra](/fr/petra-from-israel)**, accordent 4 à 5 heures sur place et rentrent vers 21h00. Pétra est l'un des sites UNESCO les plus photographiés du Moyen-Orient — le Siq, le Trésor (Al-Khazneh), les Tombeaux royaux. Des chaussures confortables et de l'eau sont indispensables.
 
 ### Mitzpe Ramon et le cratère Ramon
 

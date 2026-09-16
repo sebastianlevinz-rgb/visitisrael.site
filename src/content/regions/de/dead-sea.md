@@ -24,7 +24,7 @@ Das Tote Meer ist der tiefste Punkt der Erdoberfläche — ein hypersaliner See 
 
 Dieser Reiseführer behandelt die beste Reisezeit, Unterkunftsoptionen, die fünf Haupterlebnisse — Schwimmen, Masada, Ein Gedi, Qumran und Mineralmud —, die Umweltrealität des schrumpfenden Sees, die Anreise von Jerusalem und Tel Aviv sowie wichtige Gesundheits- und Sicherheitshinweise.
 
-## Wann ans Tote Meer reisen
+## Die Jahreszeiten im Detail
 
 Die besten Reisefenster sind **März–Anfang Mai** und **Oktober–November**. Der Frühling bringt Tageshöchstwerte von 28–30 °C, angenehm warmes Wasser für lange Schwimmsessions und das weichste Wüstenlicht. Der Herbst ist das ruhigere Spiegelbild: noch warmes Wasser, Sommertouristik vorbei, klarer Himmel für Masada-Aufstiege.
 
@@ -32,7 +32,7 @@ Die besten Reisefenster sind **März–Anfang Mai** und **Oktober–November**. 
 
 **Der Winter** (Dezember–Februar) ist mild — 20–23 °C tagsüber — aber das Wasser kann sich bei Kaltlufteinbrüchen frisch anfühlen. Sonnenschein ist zuverlässig, Regen selten. Der Winter ist die günstigste Saison in Ein Bokek und für Wanderungen in Ein Gedi oder Masada-Aufstiege tagsüber am angenehmsten.
 
-## Wo übernachten am Toten Meer
+## Gebiete: wo man am besten wohnt
 
 **Ein Bokek** ist der Haupthotelstreifen auf der israelischen Südküste mit rund fünfzehn großen Hotels (Herods, Leonardo, Isrotel, David, Lot Spa u. a.) mit direktem Meerzugang, Mineralmud-Anwendungen, Spa-Angeboten und Halbpension-Optionen. Funktional statt charmant, aber Bequemlichkeit und Preis-Leistung sind kaum zu übertreffen.
 
@@ -44,7 +44,7 @@ Die besten Reisefenster sind **März–Anfang Mai** und **Oktober–November**. 
 
 **Schwimmen im Toten Meer** — das Haupterlebnis. Die hohe Salzkonzentration (ca. 34 %) macht Schwimmen unmöglich — der Körper schwimmt automatisch. Wadten Sie bis zu den Knien ins Wasser, hocken Sie sich und lehnen Sie sich zurück. Öffentliche Strände (Kalia Beach im Norden, Strand von Ein Bokek im Süden) und Hotelstrände bieten diese Erfahrung. Tragen Sie Badeschuhe: Salzkristalle am Ufer sind scharfkantig.
 
-**Masada bei Sonnenaufgang** — die herodianische Festung auf einem Tafelberg 450 m über dem Toten Meer. Der Aufstieg über den Schlangenweg dauert 45–90 Minuten für konditionsstarke Wanderer; die Seilbahn ist die Alternative. Oben: Herodes-Palast, römische Thermen, Synagoge aus dem 1. Jahrhundert und ein außergewöhnliches Panorama über den Salzsee und die Judäische Wüste.
+**[Masada](/de/masada-visitor-guide) bei Sonnenaufgang** — die herodianische Festung auf einem Tafelberg 450 m über dem Toten Meer. Der Aufstieg über den Schlangenweg dauert 45–90 Minuten für konditionsstarke Wanderer; die Seilbahn ist die Alternative. Oben: Herodes-Palast, römische Thermen, Synagoge aus dem 1. Jahrhundert und ein außergewöhnliches Panorama über den Salzsee und die Judäische Wüste.
 
 **Ein Gedi** — Süßwasserquelle-Oase inmitten der Wüste, mit Wasserfällen und Naturpools. Das Naturschutzgebiet Ein Gedi ist eines der meistbesuchten in Israel. Die beliebteste Route (Nahal David) führt durch eine Felsschlucht zu einem hohen Wasserfall, eine Stunde hin und zurück. Ausreichend Wasser mitbringen.
 

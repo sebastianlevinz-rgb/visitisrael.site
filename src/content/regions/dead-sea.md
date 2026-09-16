@@ -39,7 +39,7 @@ The Dead Sea is the lowest point on Earth — a hypersaline lake sitting four hu
 
 This guide covers when to come, where to sleep across the resort strip and the alternatives, the headline experiences — floating, Masada, Ein Gedi, Qumran and the mineral beaches — the environmental reality of the shrinking lake, the day trips that pair well with a Dead Sea base, how to get there from Tel Aviv and Jerusalem, and the practical health and safety notes that make the difference between a good day and a stinging one.
 
-## When to Visit the Dead Sea
+## Seasons in detail
 
 The best windows are **March to early May** and **October to November**. Spring brings daytime temperatures in the high twenties to low thirties, the water comfortably warm for long floating sessions, and the desert light at its softest. Autumn is the quieter mirror — slightly warmer water, the summer crowds gone, and clear skies for Masada climbs.
 
@@ -55,7 +55,7 @@ The Dead Sea contains a roughly thirty-four percent salt concentration — about
 
 Floating in the Dead Sea is the headline experience — the salt density makes it impossible to sink, and the sensation is closer to lying on a firm mattress than to swimming. The black mineral mud sold at beaches and bottled at hotels is rich in magnesium and other minerals; the Israeli Ministry of Health regulates the cosmetic claims, and some dermatology research from Tel Aviv University and the Soroka Medical Center supports modest benefits for psoriasis and certain skin conditions when combined with the high mineral content of the water itself.
 
-## Where to Stay at the Dead Sea
+## Areas: where to base yourself
 
 The Dead Sea has two main lodging clusters and a handful of alternatives.
 
@@ -81,7 +81,7 @@ The black mineral mud is applied across the body, left to dry for ten to fifteen
 
 ### Visit Masada — UNESCO Roman-Era Fortress
 
-**Masada** is the UNESCO World Heritage Site at the top of a high mesa above the western shore — a Roman-era fortified palace complex built by Herod the Great in the first century BCE and famously besieged by Roman legions in 73 CE. The Snake Path takes about ninety minutes to climb on foot; the cable car offers the alternative. The summit holds the casemate walls, palace ruins, ritual baths and the synagogue. Sunrise tours are the marquee experience — the path opens at four in the morning and the view east toward the Moab Mountains as the sun rises is among the most photographed in the country. Linked sub-destination: see the Masada page for the full visiting guide.
+**Masada** is the UNESCO World Heritage Site at the top of a high mesa above the western shore — a Roman-era fortified palace complex built by Herod the Great in the first century BCE and famously besieged by Roman legions in 73 CE. The Snake Path takes about ninety minutes to climb on foot; the cable car offers the alternative. The summit holds the casemate walls, palace ruins, ritual baths and the synagogue. Sunrise tours are the marquee experience — the path opens at four in the morning and the view east toward the Moab Mountains as the sun rises is among the most photographed in the country. For the full visiting guide, see the [Masada visitor guide](/masada-visitor-guide).
 
 ### Hike Ein Gedi Nature Reserve
 
@@ -107,7 +107,7 @@ The Dead Sea's central position along Route 90 makes it a natural base for one-d
 
 **Eilat** is three hours south along the Negev corridor — a long drive but the route passes through Arad and the Negev highlands and arrives at the Red Sea for snorkelling, the Dolphin Reef and the Timna Park red-rock landscapes. Most travellers do Eilat as a separate two-night stop rather than a day trip.
 
-**Bethlehem** is under Palestinian Authority administration and sits forty minutes west of the northern Dead Sea shore. Practical visits to the Church of the Nativity and Manger Square are straightforward by organised tour from Jerusalem; cross-border travel involves transferring through checkpoints and is best handled with a guide who knows the procedure. The Phase 3 Bethlehem guide on this site has the full visiting and access detail.
+**Bethlehem** is under Palestinian Authority administration and sits forty minutes west of the northern Dead Sea shore. Practical visits to the Church of the Nativity and Manger Square are straightforward by organised tour from Jerusalem; cross-border travel involves transferring through checkpoints and is best handled with a guide who knows the procedure. The [Jerusalem and Bethlehem day-trip guide](/jerusalem-bethlehem-day-trip) has the full visiting and access detail.
 
 ## How to Get to the Dead Sea
 
@@ -143,7 +143,3 @@ A handful of small precautions separate a comfortable Dead Sea day from a misera
 **Rinse fresh water after every float.** Most hotels and public beaches have outdoor showers next to the beach access. Five minutes of fresh-water rinse prevents salt-on-skin irritation later.
 
 **Eye protection.** Sunglasses prevent stinging if water splashes near the face; if water gets in your eyes, rinse immediately with fresh water for several minutes.
-
-## Frequently Asked Questions
-
-The FAQ entries above answer the most common questions about visiting the Dead Sea — how long to spend, when to come, how to float safely, how to get there from Tel Aviv and Jerusalem, whether to do Masada with a guide, and how the lake's environmental story shapes the visiting experience. The FAQPage schema at the bottom of this page surfaces these to search engines so travellers find them directly from a Google result. If your question is not covered, the contact page is the right next step.

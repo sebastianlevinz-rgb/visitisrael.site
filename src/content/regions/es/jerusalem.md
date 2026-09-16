@@ -22,7 +22,7 @@ faqs:
 ---
 Jerusalén recompensa a quienes le dedican tiempo. En apenas un kilómetro cuadrado, la Ciudad Vieja acumula cuatro milenios de historia — palacios herodianos, la Iglesia del Santo Sepulcro, la Explanada de las Mezquitas / Monte del Templo y el Muro de las Lamentaciones / Kotel — mientras que los barrios del oeste ofrecen museos de categoría internacional, mercados animados y restaurantes que cierran tarde. Esta guía práctica cubre cuándo venir, dónde dormir, qué ver y cómo moverse para una primera visita de dos a cuatro días.
 
-## Cuándo visitar Jerusalén
+## Las estaciones en detalle
 
 Las dos mejores épocas son **marzo–mayo** y **septiembre–noviembre**. La primavera trae la floración de los almendros en las colinas de Judea, temperaturas agradables en la Ciudad Vieja y la coincidencia de la Pascua cristiana y la Pésaj. El otoño ofrece las Grandes Festividades judías (Rosh Hashaná, Yom Kipur, Sucot) y una luz dorada sobre la piedra ocre de Jerusalén.
 
@@ -30,7 +30,7 @@ Las dos mejores épocas son **marzo–mayo** y **septiembre–noviembre**. La pr
 
 El **Shabbat** (del viernes por la noche al sábado por la noche) es la restricción más importante para planificar: transporte público interrumpido, restaurantes y comercios judíos cerrados. La Ciudad Vieja cristiana y musulmana permanece abierta; Mamilla y la calle Ben Yehuda vuelven a animarse después de la havdalá.
 
-## Dónde dormir en Jerusalén
+## Barrios: dónde establecer tu base
 
 Jerusalén ofrece cinco zonas de alojamiento, cada una con un equilibrio diferente entre ambiente y comodidad.
 
@@ -66,4 +66,4 @@ Jerusalén ofrece cinco zonas de alojamiento, cada una con un equilibrio diferen
 
 ## Excursiones desde Jerusalén
 
-El **Mar Muerto y Masada** (1 hora en auto) forman la excursión más emblemática — atardecer en Masada o amanecer desde el teleférico, luego flotando en las aguas hipersalinas de Ein Boqeq. **Belén** (30 min en taxi compartido o tour guiado) — la Iglesia de la Natividad y el Pesebre, con guías locales palestinos para una narrativa equilibrada. **Tel Aviv** (30 min en tren de alta velocidad) — la playa, el Viejo Jaffa y los mercados como contrapunto a la intensidad de Jerusalén.
+El **Mar Muerto y [Masada](/es/masada-visitor-guide)** (1 hora en auto) forman la excursión más emblemática — atardecer en Masada o amanecer desde el teleférico, luego flotando en las aguas hipersalinas de Ein Boqeq. **[Belén](/es/jerusalem-bethlehem-day-trip)** (30 min en taxi compartido o tour guiado) — la Iglesia de la Natividad y el Pesebre, con guías locales palestinos para una narrativa equilibrada. **Tel Aviv** (30 min en tren de alta velocidad) — la playa, el Viejo Jaffa y los mercados como contrapunto a la intensidad de Jerusalén.

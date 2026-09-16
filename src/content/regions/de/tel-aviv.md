@@ -22,7 +22,7 @@ faqs:
 ---
 Tel Aviv-Jaffa präsentiert sich als zwei Städte, zusammengenäht durch vierzehn Kilometer Strandpromenade. Im Norden die moderne israelische Metropole — Bauhaus-Blöcke der Weißstadt, Museen, Cafés am Rothschild-Boulevard und eine Clubszene, die von der Allenby-Straße bis zum Morgengrauen läuft. Im Süden Jaffa, ein viertausend Jahre alter osmanischer Hafenstadtteil, wo Flohmarkt-Gassen in restaurierte Steinhäuser münden, die Boutiquehotels und Chefrestaurants beherbergen. Ein vollständiger Tel-Aviv-Reiseführer beginnt mit dieser Geographie: Ihr Übernachtungsviertel bestimmt, ob Ihr Aufenthalt einem Strandurlaub, einer Gastronomiereise, einem Kulturtrip oder allem dreien gleicht.
 
-## Wann nach Tel Aviv reisen
+## Die Jahreszeiten im Detail
 
 Die besten Fenster sind **April–Juni** und **September–November**. Der Frühling bringt mild-feuchte Tage, ein Meer, das warm genug zum Schwimmen ist, und noch keine Sommertouristen. Der Herbst ist das ruhigere Spiegelbild — schwimmtaugliche Meerestemperaturen bis Oktober, Sommertrubel vorbei, entspannte Stadtanmutung.
 
@@ -30,7 +30,7 @@ Die besten Fenster sind **April–Juni** und **September–November**. Der Früh
 
 **Der Winter** (Dezember–Februar) ist mild, aber regnerisch, mit Tagestemperaturen um 14–18 °C. Das Meer ist zum Freizeitschwimmen zu kalt, aber die Stadt ist am günstigsten, Museen und Restaurants sind weniger überfüllt.
 
-## Wo übernachten in Tel Aviv
+## Stadtviertel: wo man am besten wohnt
 
 Tel Aviv bietet fünf praktische Viertel mit unterschiedlichem Charakter.
 
@@ -56,4 +56,4 @@ Tel Aviv bietet fünf praktische Viertel mit unterschiedlichem Charakter.
 
 ## Tagesausflüge von Tel Aviv
 
-**Jerusalem** — eine Stunde östlich mit dem Hochgeschwindigkeitszug. Ein voller Tag deckt die Altstadt und ein Museum oder einen Aussichtspunkt ab. **Caesarea Maritima** — 45 Minuten nördlich mit dem Auto; römische und Kreuzfahrer-Stätte am Mittelmeer mit Theater, Festung und Strandzugang. **Die Galilea** — zwei Stunden nördlich; ideal als langer Tagesausflug oder besser als Zweinächte-Kurztrip von Tiberias aus. **Totes Meer und Masada** — zwei Stunden südlich; der beliebteste organisierte Tagesausflug von Tel Aviv.
+**Jerusalem** — eine Stunde östlich mit dem Hochgeschwindigkeitszug. Ein voller Tag deckt die Altstadt und ein Museum oder einen Aussichtspunkt ab. **[Caesarea Maritima](/de/caesarea-haifa-akko-day-trip)** — 45 Minuten nördlich mit dem Auto; römische und Kreuzfahrer-Stätte am Mittelmeer mit Theater, Festung und Strandzugang. **Die Galilea** — zwei Stunden nördlich; ideal als langer Tagesausflug oder besser als Zweinächte-Kurztrip von Tiberias aus. **Totes Meer und [Masada](/de/masada-visitor-guide)** — zwei Stunden südlich; der beliebteste organisierte Tagesausflug von Tel Aviv.

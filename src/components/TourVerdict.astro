@@ -1,6 +1,7 @@
 ---
 import { affiliateUrl, PARTNERS, type Partner } from '@/config/affiliates';
 import AffiliateDisclosure from '@/components/AffiliateDisclosure.astro';
+import { fill, getLocaleFromPath, useTranslations } from '@/i18n/ui';
 
 export interface Props {
   name: string;
@@ -10,15 +11,12 @@ export interface Props {
   caveat?: string;
 }
 
+const t = useTranslations(getLocaleFromPath(Astro.url.pathname));
 const {
   name,
   partner = 'getyourguide',
   query,
-  reasons = [
-    'Transport, tickets and logistics all handled in one booking',
-    'Expert local guide adds context that signage and apps can\'t match',
-    'Small groups let you ask questions and set the pace',
-  ],
+  reasons = [t('verdict.reason1'), t('verdict.reason2'), t('verdict.reason3')],
   caveat,
 } = Astro.props;
 
@@ -32,20 +30,20 @@ const meta = PARTNERS[partner];
   aria-labelledby="verdict-heading"
 >
   <div class="flex flex-wrap items-center gap-3 border-b border-border bg-sand-deep px-5 py-3">
-    <span class="text-xs font-semibold uppercase tracking-wide text-ink-muted">Tour verdict</span>
+    <span class="text-xs font-semibold uppercase tracking-wide text-ink-muted">{t('verdict.kicker')}</span>
     <h2 id="verdict-heading" class="font-display text-lg font-bold text-ink">
-      Is a guided tour of {name} worth it?
+      {fill(t('verdict.question'), { name })}
     </h2>
     <span
       class="ms-auto shrink-0 rounded-full bg-primary px-3 py-0.5 text-sm font-semibold text-white"
-      aria-label="Verdict: yes, worth booking"
+      aria-label={t('verdict.badgeLabel')}
     >
-      ✓ Worth it
+      {t('verdict.badge')}
     </span>
   </div>
 
   <div class="p-5">
-    <ul class="mb-5 space-y-2" aria-label="Reasons to book a tour">
+    <ul class="mb-5 space-y-2" aria-label={t('verdict.reasonsLabel')}>
       {
         reasons.map((r) => (
           <li class="flex gap-2.5 text-sm text-ink">
@@ -58,6 +56,7 @@ const meta = PARTNERS[partner];
 
     {caveat && <p class="mb-4 text-sm italic text-ink-muted">{caveat}</p>}
 
+    {/* Standalone aside inside an article: keeps its own compact disclosure, DOM-preceding the link. */}
     <AffiliateDisclosure compact />
     <a
       href={href}
@@ -65,7 +64,7 @@ const meta = PARTNERS[partner];
       rel="sponsored nofollow noopener"
       class="mt-3 inline-flex items-center gap-2 rounded-full bg-primary px-5 py-2.5 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
     >
-      See tours for {name} · {meta.label}
+      {fill(t('verdict.cta'), { name })} · {meta.label}
     </a>
   </div>
 </aside>

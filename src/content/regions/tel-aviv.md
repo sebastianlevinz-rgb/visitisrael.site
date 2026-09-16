@@ -39,7 +39,7 @@ Tel Aviv-Jaffa rewards travellers who treat it as two cities stitched together b
 
 This guide covers when to come, where to stay across five distinct neighbourhoods, the headline sights, the deeper south-Tel-Aviv exploration that separates first-timers from returners, the day trips that pair well with a Tel Aviv base, how to arrive at Ben Gurion and move around once you're here, and what to eat from market stalls to chef tables. Tel Aviv is the easiest Israeli city to plan because the climate is gentle and the language barrier is low — you can land on a Sunday morning and be swimming by noon.
 
-## When to Visit Tel Aviv
+## Seasons in detail
 
 The best windows are **April to June** and **September to November**. Spring arrives with low-humidity warm days, beaches that are warm enough to swim but uncrowded, and the buffer between the holiday-season hotel spike and the European summer rush. Autumn is the quieter mirror — sea temperatures stay swimmable through October, and the city feels lived-in rather than touristy.
 
@@ -55,7 +55,7 @@ The week around **Tel Aviv Pride** (typically the second week of June) is one of
 
 Tel Aviv is the most secular major Israeli city. **Public buses** pause from Friday afternoon to Saturday evening, the **train** does not run, and a few city-centre shops close. But **bars, restaurants, beachfront cafés and most museums remain open** — Friday evenings on the tayelet are among the best in the year, and Saturday is a busy beach day. Sherut shared taxis run throughout the weekend, as do the rental-car desks at Ben Gurion. Plan for slightly reduced transport but otherwise treat Friday night and Saturday as ordinary weekend nights.
 
-## Where to Stay in Tel Aviv-Jaffa
+## Neighbourhoods: where to base yourself
 
 Tel Aviv has five practical neighbourhoods, each with a different feel and trade-off.
 
@@ -81,7 +81,7 @@ The **Jaffa Flea Market** (Shuk HaPishpeshim) spreads through narrow alleys nort
 
 ### Carmel Market (Shuk HaCarmel)
 
-The city's central produce and prepared-food market, running south from Allenby Street through a covered alley. Daytime is fruit, fish, spices and bakeries; Friday lunch the alleys fill with chefs and locals doing their weekend shopping. Carmel Market food tours typically take two hours and stop at six or seven vendors — a useful first-day orientation to Israeli food culture.
+The city's central produce and prepared-food market, running south from Allenby Street through a covered alley. Daytime is fruit, fish, spices and bakeries; Friday lunch the alleys fill with chefs and locals doing their weekend shopping. [Carmel Market food tours](/tel-aviv-food-tours) typically take two hours and stop at six or seven vendors — a useful first-day orientation to Israeli food culture.
 
 ### Rothschild Boulevard and Bauhaus White City
 
@@ -121,9 +121,9 @@ Tel Aviv's central position makes it the natural base for day trips across the c
 
 **Jerusalem** is one hour east by high-speed train. A full day in Jerusalem covers the Old City quarters and one major museum or viewpoint — plenty for first-time visitors who want a taste before deciding whether to dedicate a separate two-day stay. Trains run every 30 minutes during the week; service pauses for Shabbat.
 
-**Caesarea Maritima** is forty-five minutes north — a Roman and Crusader archaeological site on the Mediterranean coast that combines a well-preserved Roman theatre, a Crusader fortress, an aqueduct and beach access. Half a day, by car or organised tour.
+**[Caesarea Maritima](/caesarea-haifa-akko-day-trip)** is forty-five minutes north — a Roman and Crusader archaeological site on the Mediterranean coast that combines a well-preserved Roman theatre, a Crusader fortress, an aqueduct and beach access. Half a day, by car or organised tour.
 
-**The Galilee** — including the Sea of Galilee, Nazareth and the surrounding sites — is a two-hour drive north and works as a long day trip, but is better experienced as a two-day overnight from Tiberias. The **Dead Sea and Masada** are an alternative two-hour drive south and are most popular as a full-day organised tour from Tel Aviv.
+**The Galilee** — including the Sea of Galilee, Nazareth and the surrounding sites — is a two-hour drive north and works as a long day trip, but is better experienced as a two-day overnight from Tiberias. The **Dead Sea and [Masada](/masada-visitor-guide)** are an alternative two-hour drive south and are most popular as a full-day organised tour from Tel Aviv.
 
 ## How to Get to Tel Aviv
 
@@ -157,7 +157,3 @@ Tel Aviv food culture is built on three foundations: Levantine street food (humm
 Tel Aviv's nightlife is built around three districts. **Rothschild and Allenby** hold the cocktail bars and the city's most polished cocktail programmes — **Imperial Craft**, **Bellboy** and **Spicehaus** anchor the cocktail scene. **Florentin** is the casual late-night corridor — dive bars, natural-wine bars, and a punk-edged crowd. **The Port and Mediterranean Beach** clubs open the largest dance floors in the country during summer weekends.
 
 Israeli bar culture starts late — most bars don't fill until 23:00, and the busiest nights run until 04:00 or beyond. Cover charges are rare; expect to pay at the door only at the largest dance clubs.
-
-## Frequently Asked Questions
-
-The FAQ entries above answer the most common questions about visiting Tel Aviv-Jaffa — how many days to spend, when to come, how to handle Shabbat, how to get from Ben Gurion airport, and which day-trips combine well. The schema-driven FAQPage at the bottom of this page surfaces these to search engines so travellers find them directly from a Google result. If your question is not covered, the contact page is the right next step.

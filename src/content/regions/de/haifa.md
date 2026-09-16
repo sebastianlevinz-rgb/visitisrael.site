@@ -28,7 +28,7 @@ faqs:
 
 Dieser Reiseführer behandelt die beste Reisezeit, Unterkünfte in der Deutschen Kolonie und auf den Karmelberghängen, die Haupterlebnisse (Bahá'í-Gärten, Deutsche Kolonie, Stella-Maris-Kloster, Wadi Nisnas, Nationalpark Karmelberg), die natürlichen Nordküstenverbindungen und die Verbindungen von Tel Aviv aus.
 
-## Wann Haifa besuchen
+## Die Jahreszeiten im Detail
 
 Die besten Zeitfenster sind **Frühling (März bis Mai)** und **Herbst (September bis November)** — Tagestemperaturen von 20 bis 26 °C, grüne Karmelberghänge nach den Winterregen und angenehme Mittelmeertemperaturen. Die Bahá'í-Gärten sind am schönsten, wenn die Rosen- und Zypressenpflanzungen blühen, was mit den Nebensaisons zusammenfällt.
 
@@ -36,7 +36,7 @@ Die besten Zeitfenster sind **Frühling (März bis Mai)** und **Herbst (Septembe
 
 **Der Winter** (Dezember bis Februar) ist mild und nass — 12 bis 17 °C. Das **Feste-der-Feste-Festival** in Wadi Nisnas und der Deutschen Kolonie feiert Chanukka, Weihnachten und Ramadan gemeinsam — eine der ökumenischsten Veranstaltungen im israelischen Kalender.
 
-## Unterkunft in Haifa
+## Stadtviertel: wo man am besten wohnt
 
 Haifa ist keine typische Touristenübernachtungsstadt wie Jerusalem oder Tel Aviv; die meisten internationalen Besucher behandeln sie als Tagesausflug von Tel Aviv oder koppeln sie mit Akko und Caesarea in einer Nordküstenschleife.
 
@@ -78,7 +78,7 @@ Der **Nationalpark Karmelberg** umfasst den bewaldeten Rückhang des Berges — 
 
 **Akko (Akkon)** — 30 Minuten nördlich per Zug oder Auto. Die UNESCO-Crusader-Altstadt, die Hospitaliter-Festung, die Templer-Tunnel unter der Altstadt, die el-Jazzar-Moschee. Ideal für eine Nordküstenschleife: Haifa morgens, Akko nachmittags.
 
-**Caesarea Maritima** — 30 Minuten südlich. Das UNESCO-eingetragene herodianische Römerhafen, Kreuzfahrermauern, das römische Theater und der archäologische Aquäduktstrand.
+**[Caesarea Maritima](/de/caesarea-haifa-akko-day-trip)** — 30 Minuten südlich. Das UNESCO-eingetragene herodianische Römerhafen, Kreuzfahrermauern, das römische Theater und der archäologische Aquäduktstrand.
 
 **Drusendörfer (Daliyat al-Karmel / Isfiya)** — 25 bis 30 Minuten per Auto am Rückhang des Karmelbergs. Der Samstagmarkt ist das Highlight.
 

@@ -39,7 +39,7 @@ faqs:
 
 This guide covers when to come, where to stay across the German Colony boutique cluster and the Carmel slope residential hotels, the headline experiences (Bahá’í Gardens upper-terrace overlook and free 12:00 lower-terrace tour, German Colony Templer architecture, Stella Maris Carmelite Monastery, Wadi Nisnas food and street-art, Mount Carmel National Park), the natural north-coast pairings (Akko UNESCO Crusader Old City 30 minutes north, Caesarea Maritima 30 minutes south, Druze villages on the Carmel back side), the train and Carmelit funicular logistics from Tel Aviv, and the practical realities of visiting a working Mediterranean port city with a respected religious headquarters as its skyline anchor.
 
-## When to Visit Haifa
+## Seasons in detail
 
 The prime windows are **spring (March to May)** and **autumn (September to November)** — daytime highs of 20 to 26 degrees, Mount Carmel slopes green from the winter rains, and Mediterranean sea temperature comfortable for an afternoon at the city beaches. The Bahá’í Gardens are at their best when the rose-and-cypress plantings are in flower, which lines up with the shoulder seasons.
 
@@ -47,7 +47,7 @@ The prime windows are **spring (March to May)** and **autumn (September to Novem
 
 **Winter** (December to February) is mild and wet — 12 to 17 degrees, occasional Mediterranean rain, and the most atmospheric light for the Bahá’í terraces (the long-shadow afternoon angles flatter the cypress allées). The Carmelit underground funicular runs irrespective of weather. **Hanukkah and Christmas** overlap in mid-to-late December; the annual **Holiday of Holidays festival** in Wadi Nisnas and the German Colony celebrates Hanukkah, Christmas and Ramadan together — locally significant and one of the more genuinely ecumenical events on the Israeli civic calendar.
 
-## Where to Stay in Haifa
+## Neighbourhoods: where to base yourself
 
 Haifa is not a tourist-overnight city the way Jerusalem or Tel Aviv are; most international visitors treat it as a day-trip from Tel Aviv or pair it with Akko and Caesarea in a north-coast loop. That said, three small accommodation clusters serve travellers who want to base in the city for a Mount Carmel-and-Bahá’í Gardens focused trip.
 
@@ -103,7 +103,7 @@ Haifa sits at the centre of the natural north-coast loop, with three major sites
 
 **Akko (Acre)** — 30 minutes north by train or car. The UNESCO Crusader Old City, the Hospitaller fortress, the Templar tunnels under the Old City, the el-Jazzar Mosque (Ottoman white-mosque from the 1780s), and the Akko fishing port. Pairs well with Haifa for a one-day north-coast loop — Haifa morning, Akko afternoon, return Tel Aviv evening.
 
-**Caesarea Maritima** — 30 minutes south. The UNESCO-inscribed Herodian Roman port + Crusader walls + Roman Theatre + Aqueduct Beach archaeology park (not to be confused with Caesarea Philippi / Banias in the Golan Heights, a completely different ancient site). See our Caesarea travel guide for the full archaeology walk-through.
+**Caesarea Maritima** — 30 minutes south. The UNESCO-inscribed Herodian Roman port + Crusader walls + Roman Theatre + Aqueduct Beach archaeology park (not to be confused with Caesarea Philippi / Banias in the Golan Heights, a completely different ancient site). See the [Caesarea, Haifa and Akko day-trip guide](/caesarea-haifa-akko-day-trip) for the full archaeology walk-through.
 
 **Druze villages (Daliyat al-Karmel / Isfiya)** — 25 to 30 minutes by car on the Carmel back-slope. The Saturday market is the headline; weekday visits are quieter but the family restaurants stay open. The pairing with the Mount Carmel National Park makes a natural half-day combination.
 

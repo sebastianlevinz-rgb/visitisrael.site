@@ -1,5 +1,5 @@
 ---
-import { REGIONS } from '@/data/regions';
+import { REGIONS, regionName } from '@/data/regions';
 import {
   locales,
   languageNames,
@@ -15,9 +15,9 @@ import {
 const currentLocale = getLocaleFromPath(Astro.url.pathname);
 const t = useTranslations(currentLocale);
 const localePrefix = prefixFor(currentLocale);
-// Desktop nav: 5 regions at lg, all 7 at xl (the header row is tight at 1024–1280px).
-const navRegions = REGIONS.slice(0, 5);
-const navRegionsXl = REGIONS.slice(5);
+// Desktop nav only from xl: between lg and xl the row (7 regions + 5 languages +
+// search + button) does not fit and the button was getting clipped to 38px.
+const navRegions = REGIONS;
 const planLinks = [...PAGE_GROUPS.practical, PAGE_GROUPS.stay[0], PAGE_GROUPS.tours[0]].map((p) => ({
   href: `${localePrefix}/${p.slug}`,
   label: t(p.key),
@@ -43,24 +43,14 @@ const switchHref = (l: Locale) =>
     </a>
 
     <!-- Desktop nav -->
-    <nav aria-label="Primary" class="hidden items-center gap-5 whitespace-nowrap lg:flex">
+    <nav aria-label="Primary" class="hidden items-center gap-5 whitespace-nowrap xl:flex">
       {
         navRegions.map((r) => (
           <a
             href={`${localePrefix}/${r.slug}`}
             class="text-sm font-semibold text-ink-muted no-underline transition-colors hover:text-primary"
           >
-            {r.name}
-          </a>
-        ))
-      }
-      {
-        navRegionsXl.map((r) => (
-          <a
-            href={`${localePrefix}/${r.slug}`}
-            class="hidden text-sm font-semibold text-ink-muted no-underline transition-colors hover:text-primary xl:inline"
-          >
-            {r.name}
+            {regionName(r, currentLocale)}
           </a>
         ))
       }
@@ -109,7 +99,7 @@ const switchHref = (l: Locale) =>
       </a>
 
       <!-- Mobile menu — native disclosure, progressively enhanced by JS below -->
-      <details id="mobile-menu" class="group relative lg:hidden">
+      <details id="mobile-menu" class="group relative xl:hidden">
         <summary
           class="grid h-10 w-10 cursor-pointer list-none place-items-center rounded-md border border-border bg-card text-ink [&::-webkit-details-marker]:hidden"
           aria-label={t('nav.openMenu')}
@@ -127,7 +117,7 @@ const switchHref = (l: Locale) =>
               REGIONS.map((r) => (
                 <li>
                   <a href={`${localePrefix}/${r.slug}`} class="block py-1 text-sm text-ink no-underline hover:text-primary">
-                    {r.name}
+                    {regionName(r, currentLocale)}
                   </a>
                 </li>
               ))

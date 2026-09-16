@@ -1,16 +1,22 @@
 ---
-import { affiliateUrl } from '@/config/affiliates';
+import { affiliateUrl, PARTNERS } from '@/config/affiliates';
 import type { Hotel } from '@/data/regionData';
+import { fill, getLocaleFromPath, useTranslations } from '@/i18n/ui';
 export interface Props {
   hotel: Hotel;
   regionName: string;
 }
 const { hotel, regionName } = Astro.props;
+const t = useTranslations(getLocaleFromPath(Astro.url.pathname));
 const href = affiliateUrl('booking', {
   destination: `${hotel.name}, ${regionName}`,
   query: `${hotel.name} ${regionName}`,
 });
-const tierLabel = { luxury: 'Luxury', value: 'Best value', hostel: 'Hostel' }[hotel.tier];
+const tierLabel = {
+  luxury: t('hotel.tier.luxury'),
+  value: t('hotel.tier.value'),
+  hostel: t('hotel.tier.hostel'),
+}[hotel.tier];
 ---
 
 <article class="flex flex-col rounded-card border border-border bg-card p-4 shadow-card">
@@ -35,7 +41,7 @@ const tierLabel = { luxury: 'Luxury', value: 'Best value', hostel: 'Hostel' }[ho
     target="_blank"
     rel="sponsored nofollow noopener"
     class="mt-3 block rounded-full bg-primary px-4 py-2 text-center text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover"
-    >Check rates &amp; availability</a
+    >{t('hotel.checkRates')}</a
   >
-  <p class="mt-1.5 text-center text-[11px] text-ink-muted">via Booking.com</p>
+  <p class="mt-1.5 text-center text-[11px] text-ink-muted">{fill(t('card.via'), { partner: PARTNERS.booking.label })}</p>
 </article>

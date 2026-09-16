@@ -1,5 +1,6 @@
 ---
-import type { Region } from '@/data/regions';
+import { regionBlurb, regionName, regionTagline, type Region } from '@/data/regions';
+import { fill, getLocaleFromPath, useTranslations, type Locale } from '@/i18n/ui';
 import Pic from '@/components/Pic.astro';
 export interface Props {
   region: Region;
@@ -7,41 +8,47 @@ export interface Props {
   eager?: boolean;
   /** Optional href override — defaults to /{region.slug}. */
   href?: string;
+  /** Locale for name/tagline/blurb; defaults to the locale of the current URL. */
+  locale?: Locale;
 }
-const { region, eager = false, href } = Astro.props;
+const { region, eager = false, href, locale = getLocaleFromPath(Astro.url.pathname) } = Astro.props;
+const t = useTranslations(locale);
+const name = regionName(region, locale);
+const tagline = regionTagline(region, locale);
+const blurb = regionBlurb(region, locale);
 ---
 
+{/* Below `sm`: photo on top, copy in a white card. From `sm`: copy overlaid on the photo. */}
 <a
   href={href ?? `/${region.slug}`}
-  class="group relative block aspect-[4/5] overflow-hidden rounded-card shadow-card transition-shadow duration-300 hover:shadow-card-hover sm:aspect-[3/4]"
+  class="group block overflow-hidden rounded-card bg-card shadow-card transition-shadow duration-300 hover:shadow-card-hover sm:relative sm:aspect-[3/4] sm:bg-transparent"
 >
-  <Pic
-    src={region.hero}
-    alt={`${region.name}, Israel — ${region.tagline}`}
-    width="1600"
-    height="1000"
-    loading={eager ? 'eager' : 'lazy'}
-    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
-    class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
-  />
-  <div class="photo-overlay absolute inset-0"></div>
-  {/* Region copy comes from src/data/regions.ts (English-only): dir="auto" keeps it readable on RTL pages. */}
-  <div class="absolute inset-x-0 bottom-0 p-5" dir="auto">
-    <p
-      class="photo-title text-xs font-semibold uppercase tracking-widest opacity-90"
-    >
-      {region.tagline}
+  <div class="img-zoom relative aspect-[4/3] sm:absolute sm:inset-0 sm:aspect-auto">
+    <Pic
+      src={region.hero}
+      alt={fill(t('card.imgAlt'), { name, tagline })}
+      width="1600"
+      height="1000"
+      loading={eager ? 'eager' : 'lazy'}
+      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+      class="h-full w-full object-cover"
+    />
+    <div class="photo-overlay absolute inset-0 hidden sm:block"></div>
+  </div>
+  <div
+    class="p-4 sm:absolute sm:inset-x-0 sm:bottom-0 sm:p-5 sm:text-white sm:[text-shadow:0_2px_12px_rgb(0_0_0/0.55),0_1px_3px_rgb(0_0_0/0.6)]"
+  >
+    <p class="text-xs font-semibold uppercase tracking-widest text-primary sm:text-inherit sm:opacity-90">
+      {tagline}
     </p>
-    <h3 class="photo-title mt-1 font-display text-2xl font-bold">
-      {region.name}
+    <h3 class="mt-1 font-display text-xl font-bold text-ink sm:text-2xl sm:text-inherit">
+      {name}
     </h3>
-    <p class="photo-title mt-1.5 text-sm leading-snug opacity-95">
-      {region.blurb}
+    <p class="mt-1.5 line-clamp-2 text-sm leading-snug text-ink-muted sm:line-clamp-none sm:text-inherit sm:opacity-95">
+      {blurb}
     </p>
-    <span
-      class="photo-title mt-3 inline-flex items-center gap-1 text-sm font-semibold"
-    >
-      Explore
+    <span class="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-primary sm:text-inherit">
+      {t('card.explore')}
       <svg
         class="h-4 w-4 transition-transform group-hover:translate-x-0.5 rtl:rotate-180 rtl:group-hover:-translate-x-0.5"
         viewBox="0 0 20 20"

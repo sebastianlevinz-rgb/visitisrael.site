@@ -28,7 +28,7 @@ faqs:
 
 Esta guía cubre la mejor época para visitar, las opciones de alojamiento en la Colonia Alemana y en las laderas del Carmelo, las experiencias imprescindibles (mirador de las terrazas superiores y visita guiada gratuita al mediodía, arquitectura Templer de la Colonia Alemana, monasterio Stella Maris, gastronomía y murales de Wadi Nisnas, parque nacional del monte Carmelo), las excursiones naturales por la ruta de la costa norte, y los transportes desde Tel Aviv.
 
-## Cuándo visitar Haifa
+## Las estaciones en detalle
 
 Las mejores ventanas son **la primavera (marzo a mayo)** y **el otoño (septiembre a noviembre)** — temperaturas diurnas de 20 a 26 °C, laderas del monte Carmelo verdes tras las lluvias invernales, y el Mediterráneo a una temperatura agradable para pasar la tarde junto al mar. Los jardines Bahá'í están en su mejor momento cuando los rosales y los cipreses están en flor, lo que coincide con las temporadas intermedias.
 
@@ -36,7 +36,7 @@ Las mejores ventanas son **la primavera (marzo a mayo)** y **el otoño (septiemb
 
 **El invierno** (diciembre a febrero) es suave y lluvioso — 12 a 17 °C — con una luz de tarde que realza magníficamente las terrazas bahá'ís. El festival **Fête des Fêtes** en Wadi Nisnas y la Colonia Alemana celebra conjuntamente Janucá, Navidad y el Ramadán — uno de los eventos más auténticamente ecuménicos del calendario cívico israelí.
 
-## Dónde alojarse en Haifa
+## Barrios: dónde establecer tu base
 
 Haifa no es una ciudad turística de estancia como Jerusalén o Tel Aviv; la mayoría de los visitantes internacionales la tratan como una excursión desde Tel Aviv o la combinan con Akko y Cesarea en una ruta por la costa norte. Dicho esto, hay tres pequeñas zonas de alojamiento para los viajeros que quieran establecer su base en Haifa.
 
@@ -76,7 +76,7 @@ El **parque nacional del monte Carmelo** cubre la ladera boscosa trasera de la m
 
 **Akko (Acre)** — 30 minutos al norte en tren o en coche. La Ciudad Vieja cruzada inscrita en la UNESCO, los salones de los Hospitalarios, los túneles de los Templarios, la mezquita Al-Jazzar. Ideal en ruta por la costa norte: Haifa por la mañana, Akko por la tarde.
 
-**Cesarea Marítima** — 30 minutos al sur. El puerto herodiano-romano inscrito en la UNESCO, las murallas cruzadas, el teatro romano y la playa del Acueducto.
+**[Cesarea Marítima](/es/caesarea-haifa-akko-day-trip)** — 30 minutos al sur. El puerto herodiano-romano inscrito en la UNESCO, las murallas cruzadas, el teatro romano y la playa del Acueducto.
 
 **Pueblos drusos (Daliyat al-Karmel / Isfiya)** — 25 a 30 minutos en coche por la ladera trasera del Carmelo. El mercado del sábado es lo imprescindible.
 

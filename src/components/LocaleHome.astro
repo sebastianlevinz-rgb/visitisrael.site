@@ -68,7 +68,7 @@ const groups = [
 
   <section class="mx-auto max-w-6xl px-4 pt-12" aria-labelledby="regions">
     <h2 id="regions" class="mb-5 font-display text-3xl font-bold text-ink">{t('home.regionsHeading')}</h2>
-    <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-4">
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
       {REGIONS.map((r, i) => <DestinationCard region={r} eager={i < 4} href={`${prefix}/${r.slug}`} />)}
     </div>
   </section>

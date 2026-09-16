@@ -1,5 +1,6 @@
 ---
 import { affiliateUrl, PARTNERS, type Partner } from '@/config/affiliates';
+import { getLocaleFromPath, useTranslations } from '@/i18n/ui';
 export interface Props {
   partner: Partner;
   text: string;
@@ -8,7 +9,8 @@ export interface Props {
   productId?: string;
   cta?: string;
 }
-const { partner, text, destination, query, productId, cta = 'Check availability' } =
+const t = useTranslations(getLocaleFromPath(Astro.url.pathname));
+const { partner, text, destination, query, productId, cta = t('cta.checkAvailability') } =
   Astro.props;
 const href = affiliateUrl(partner, { destination, query, productId });
 const meta = PARTNERS[partner];

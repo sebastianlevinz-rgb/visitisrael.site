@@ -24,7 +24,7 @@ La Mer Morte est le point le plus bas de la surface terrestre — un lac hypersa
 
 Ce guide couvre quand venir, où dormir, les cinq expériences phares — la flottaison, Massada, Ein Guédi, Qumrân et la boue minérale —, la réalité environnementale du lac qui rétrécit, comment y accéder depuis Jérusalem et Tel Aviv, et les conseils pratiques de santé et sécurité.
 
-## Quand venir à la Mer Morte
+## Les saisons en détail
 
 Les meilleures périodes sont **mars–début mai** et **octobre–novembre**. Le printemps apporte des maximales à 28–30 °C, une eau agréablement tiède pour de longues séances de flottaison et une lumière désertique d'une douceur incomparable. L'automne est le miroir : eau encore chaude, foules estivales parties, ciel limpide pour l'ascension de Massada.
 
@@ -32,7 +32,7 @@ Les meilleures périodes sont **mars–début mai** et **octobre–novembre**. L
 
 **L'hiver** (décembre–février) est doux — 20–23 °C le jour — mais l'eau peut sembler fraîche pendant les vagues de froid. Le soleil est au rendez-vous et la pluie rare. L'hiver est la saison la moins chère à Ein Boqeq et la plus agréable pour randonner à Ein Guédi ou grimper Massada en milieu de journée.
 
-## Où dormir à la Mer Morte
+## Secteurs : où poser ses valises
 
 **Ein Boqeq** est la principale bande d'hôtels-resorts israéliens sur la rive sud — une quinzaine de grands établissements (Herods, Leonardo, Isrotel, David, Lot Spa et plusieurs chaînes milieu de gamme) avec accès direct à la mer, bains de boue minérale et prestations spa. La commodité prime sur le charme, mais la formule demi-pension et la plage à quelques mètres justifient le choix pour la plupart des visiteurs.
 
@@ -44,7 +44,7 @@ Les meilleures périodes sont **mars–début mai** et **octobre–novembre**. L
 
 **Flotter dans la Mer Morte** — l'expérience phare. La haute concentration en sel (environ 34 %) rend la flottaison automatique : inutile de savoir nager. Entrez dans l'eau jusqu'aux genoux, accroupissez-vous et basculez en arrière. Les plages publiques (Kalia Beach au nord, plage d'Ein Boqeq au sud) et les plages d'hôtel proposent cette expérience. Portez des tongs : les cristaux de sel sur la berge sont tranchants.
 
-**Massada au lever du soleil** — la forteresse hérodienne au sommet d'un rocher plat, à 450 m au-dessus de la mer Morte. La montée par le Chemin du Serpent prend 45–90 minutes pour les randonneurs en bonne condition ; le téléphérique est l'alternative. Au sommet : palais d'Hérode, bains romains, synagogue du 1er siècle et panorama exceptionnel sur le lac salé et le désert de Judée.
+**[Massada](/fr/masada-visitor-guide) au lever du soleil** — la forteresse hérodienne au sommet d'un rocher plat, à 450 m au-dessus de la mer Morte. La montée par le Chemin du Serpent prend 45–90 minutes pour les randonneurs en bonne condition ; le téléphérique est l'alternative. Au sommet : palais d'Hérode, bains romains, synagogue du 1er siècle et panorama exceptionnel sur le lac salé et le désert de Judée.
 
 **Ein Guédi** — oasis de source douce en plein désert, avec cascades et bassins naturels. La réserve naturelle d'Ein Guédi est l'une des plus fréquentées d'Israël. L'itinéraire le plus populaire (Nahal David) remonte une gorge rocheuse jusqu'à une cascade haute, 1h aller-retour. Portez de l'eau.
 

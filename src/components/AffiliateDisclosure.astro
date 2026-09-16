@@ -1,20 +1,18 @@
 ---
+import { getLocaleFromPath, useTranslations } from '@/i18n/ui';
 export interface Props {
   compact?: boolean;
 }
 const { compact = false } = Astro.props;
+const t = useTranslations(getLocaleFromPath(Astro.url.pathname));
 ---
 
 {
   compact ? (
-    <p class="text-[11px] leading-tight text-ink-muted">
-      Affiliate link — we may earn a commission at no extra cost to you.
-    </p>
+    <p class="text-[11px] leading-tight text-ink-muted">{t('disclosure.compact')}</p>
   ) : (
     <p class="rounded-md bg-sand-deep px-3 py-2 text-xs text-ink-muted">
-      <strong class="font-semibold">Affiliate disclosure:</strong> some links
-      below are affiliate links. If you book through them we may earn a small
-      commission at no extra cost to you. It helps keep this guide free.
+      <strong class="font-semibold">{t('disclosure.fullLabel')}</strong> {t('disclosure.full')}
     </p>
   )
 }

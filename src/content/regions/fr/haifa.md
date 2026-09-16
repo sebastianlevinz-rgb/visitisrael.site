@@ -28,7 +28,7 @@ faqs:
 
 Ce guide couvre la meilleure période pour venir, les options d'hébergement dans la Colonie allemande et sur les pentes du Carmel, les expériences incontournables (belvédère des terrasses supérieures et visite guidée gratuite à 12h, architecture Templer de la Colonie allemande, monastère Stella Maris, nourriture et art mural de Wadi Nisnas, parc national du mont Carmel), les excursions naturelles en boucle côte nord, et les transports depuis Tel Aviv.
 
-## Quand visiter Haïfa
+## Les saisons en détail
 
 Les meilleures fenêtres sont **le printemps (mars à mai)** et **l'automne (septembre à novembre)** — températures diurnes de 20 à 26 °C, pentes du mont Carmel verdoyantes après les pluies hivernales, et la température de la Méditerranée agréable pour une après-midi en bord de mer. Les jardins Bahá'í sont à leur plus beau quand les plantations de roses et de cyprès sont en fleur, ce qui coïncide avec les demi-saisons.
 
@@ -36,7 +36,7 @@ Les meilleures fenêtres sont **le printemps (mars à mai)** et **l'automne (sep
 
 **L'hiver** (décembre à février) est doux et pluvieux — 12 à 17 °C — avec une lumière d'après-midi qui valorise magnifiquement les terrasses bahá'íes. Le festival **Fête des Fêtes** à Wadi Nisnas et dans la Colonie allemande célèbre conjointement Hanoukka, Noël et le Ramadan — l'un des événements les plus authentiquement œcuméniques du calendrier civique israélien.
 
-## Où séjourner à Haïfa
+## Quartiers : où poser ses valises
 
 Haïfa n'est pas une ville touristique de séjour comme Jérusalem ou Tel Aviv ; la plupart des visiteurs internationaux la traitent comme une excursion depuis Tel Aviv ou la couplent avec Akko et Césarée dans une boucle côte nord. Cela dit, trois petits pôles d'hébergement accueillent les voyageurs souhaitant baser leur séjour à Haïfa.
 
@@ -76,7 +76,7 @@ Le **parc national du mont Carmel** couvre le versant boisé arrière de la mont
 
 **Akko (Acre)** — 30 minutes au nord en train ou en voiture. La vieille ville Croisée inscrite à l'UNESCO, les halls des Hospitaliers, les tunnels des Templiers, la mosquée el-Jazzar. Idéal en boucle côte nord : Haïfa le matin, Akko l'après-midi.
 
-**Césarée maritime** — 30 minutes au sud. Le port hérodien romain inscrit à l'UNESCO, les remparts Croisés, le théâtre romain et la plage de l'Aqueduc.
+**[Césarée maritime](/fr/caesarea-haifa-akko-day-trip)** — 30 minutes au sud. Le port hérodien romain inscrit à l'UNESCO, les remparts Croisés, le théâtre romain et la plage de l'Aqueduc.
 
 **Villages druzes (Daliyat al-Karmel / Isfiya)** — 25 à 30 minutes en voiture sur le versant arrière du Carmel. Le marché du samedi est l'incontournable.
 

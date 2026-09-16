@@ -28,13 +28,13 @@ Eilat ist Israels Rotes-Meer-Tourismusenklave — eine Ferienstadt rund um einen
 
 Dieser Reiseführer behandelt die beste Reisezeit, die drei verschiedenen Hoteldistrikte, die Rote-Meer-Haupterlebnisse (Coral-Beach-Reservat, Unterwasserobservatorium, Dolphin Reef), Wüstenausflüge (Timna-Park, Red Canyon, Mitzpe Ramon), den Petra-Tagesausflug über den Grenzübergang Wadi Araba und die Anreise zum Flughafen Ramon (ETM).
 
-## Wann Eilat besuchen
+## Die Jahreszeiten im Detail
 
 Die besten Zeitfenster sind **Oktober bis April**. Eilats Besonderheit liegt darin, dass es warm und sonnig bleibt, während Nordisrael und Europa kalt sind — Tagestemperaturen von 22 bis 28 °C im Herbst, 18 bis 22 °C im Tiefwinter, und eine Meerestemperatur, die dank des Roten Meeres nie unter 21 °C fällt. Europäische Winterflüchtlinge füllen die Resort-Hotels von Ende Dezember bis Februar.
 
 **Der Sommer** (Juni bis September) ist extrem — 38 bis 42 °C im Juli und August, gelegentlich bis 45 °C. Das Rote Meer bietet Abkühlung, Hotelpools laufen den ganzen Tag, und die meisten Freiluftaktivitäten (Timna-Park, Red-Canyon-Wanderungen) verlagern sich auf frühen Morgen und Abend.
 
-## Unterkunft in Eilat
+## Stadtviertel: wo man am besten wohnt
 
 Eilat hat drei Hoteldistrikte, jeder für eine andere Reiseart geeignet.
 
@@ -72,7 +72,7 @@ Der **Red Canyon** ist eine enge Sandsteinschlucht in den Eilater Bergen, 20 Kil
 
 ### Petra, Jordanien
 
-Der **Grenzübergang Yitzhak Rabin / Wadi Araba** nach Jordanien liegt 6 Kilometer nördlich des Eilater Stadtzentrums. Organisierte Petra-Tagestouren holen in Eilater Hotels um 06:30 Uhr ab, überqueren die Grenze, fahren 2 Stunden durch das Wadi Araba und die jordanische Wüste nach **Petra**, verbringen dort 4 bis 5 Stunden und kehren gegen 21:00 Uhr nach Eilat zurück. Petra ist einer der meistfotografierten UNESCO-Orte im Nahen Osten — der Siq-Engpass, der Schatz (Al-Khazneh), die Königsgräber. Bequeme Wanderschuhe und Wasser sind unverzichtbar.
+Der **Grenzübergang Yitzhak Rabin / Wadi Araba** nach Jordanien liegt 6 Kilometer nördlich des Eilater Stadtzentrums. Organisierte Petra-Tagestouren holen in Eilater Hotels um 06:30 Uhr ab, überqueren die Grenze, fahren 2 Stunden durch das Wadi Araba und die jordanische Wüste nach **[Petra](/de/petra-from-israel)**, verbringen dort 4 bis 5 Stunden und kehren gegen 21:00 Uhr nach Eilat zurück. Petra ist einer der meistfotografierten UNESCO-Orte im Nahen Osten — der Siq-Engpass, der Schatz (Al-Khazneh), die Königsgräber. Bequeme Wanderschuhe und Wasser sind unverzichtbar.
 
 ### Mitzpe Ramon und der Ramon-Krater
 

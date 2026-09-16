@@ -50,18 +50,38 @@ Mientras se espera la aprobación **no se escriben páginas nuevas**: se mejora 
 
 ---
 
+## Hecho el 2026-09-16 (después del rebuild)
+
+- [x] Hebreo (he, RTL) como quinto idioma: 28 páginas de contenido + hubs.
+- [x] 8 guías nuevas aprobadas por cobertura de afiliados (Masada, Belén, Petra, Nazaret y
+      Galilea, costa norte, food tours Tel Aviv, hoteles Eilat, tours multidía), en 5 idiomas.
+- [x] Pasada de diseño: header arreglado (causa raíz: `--spacing-block`), índice "En esta
+      guía", un aviso de afiliado por sección, caja "Planificá tu viaje" al final, hero de
+      región más bajo con dos datos, tarjetas de región apiladas en móvil y traducidas,
+      cuerpo a 18 px, componentes sin inglés colado, secciones duplicadas y notas internas
+      del loop fuera de las regiones.
+- [x] Panel de control en `/dashboard`.
+- [x] Estudios: diseño (`gestion/auditoria/diseno-referentes.md`), cobertura de afiliados
+      (`cobertura-afiliados.md`), fotos (`fotos.md`), negocio (`gestion/negocio/`).
+
 ## Pendientes de calidad (se pueden hacer sin datos)
 
-- [ ] Correr `test:e2e` completo (smoke + a11y sobre las 98 rutas): falta el navegador de
-      Playwright en esta máquina, o correrlo en CI con un PR.
-- [ ] Traducir `src/data/regionData.ts`: las regiones en fr/de/es muestran key facts, tours
-      y hoteles en inglés.
+- [ ] **Fotos**: 10 de 11 heroes de región son imágenes generadas por IA y 47 de 120
+      imágenes son placeholders; ninguna foto muestra crédito. Reemplazar con Pexels /
+      Commons / Unsplash según `gestion/auditoria/fotos.md` (necesita key de Pexels).
+- [ ] **Autor con nombre y foto** (`src/data/authors.ts`, `AuthorByline.astro`): falta que
+      Sebastian defina quién firma (nombre, bio de dos líneas, foto).
+- [ ] Traducir `src/data/regionData.ts`: key facts, tours, hoteles y temporadas salen en
+      inglés en fr/de/es/he.
+- [ ] Traducciones de región a un tercio del inglés (Jerusalén: EN 2.193 palabras, DE 642).
+      Ampliar fr/de/es/he de las 7 regiones.
 - [ ] 214 links convertidos en texto dejaron frases tipo "nuestra guía de X" sin guía
       detrás. Revisar la redacción (`gestion/rebuild/links-arreglados.csv`).
-- [ ] Revisar los 753 redirects que van a `/first-time-in-israel` por no tener equivalente:
+- [ ] Revisar los redirects que van a `/first-time-in-israel` por no tener equivalente:
       Google puede tratar redirecciones masivas a una página no relacionada como soft 404.
 - [ ] Branch protection en `master` (checks obligatorios, sin force push).
 - [ ] Verificar vigencia de datos que caducan: horarios, precios de entrada, requisitos de visa.
+- [ ] Instalar el navegador de Playwright en esta máquina para correr `test:e2e` en local.
 
 ---
 

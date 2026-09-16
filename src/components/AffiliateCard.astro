@@ -1,6 +1,6 @@
 ---
 import { affiliateUrl, PARTNERS, type Partner } from '@/config/affiliates';
-import AffiliateDisclosure from '@/components/AffiliateDisclosure.astro';
+import { fill, getLocaleFromPath, useTranslations } from '@/i18n/ui';
 import Pic from '@/components/Pic.astro';
 
 export interface Props {
@@ -12,7 +12,12 @@ export interface Props {
   query?: string;
   productId?: string;
   cta?: string;
+  /** Stable format label ("Walking tour", "Full day"). Never a price or rating. */
+  type?: string;
+  /** Approximate duration ("~3–4 h"). */
+  duration?: string;
 }
+const t = useTranslations(getLocaleFromPath(Astro.url.pathname));
 const {
   partner,
   title,
@@ -21,11 +26,17 @@ const {
   destination,
   query,
   productId,
-  cta = 'Book now',
+  cta = t('card.bookNow'),
+  type,
+  duration,
 } = Astro.props;
 
 const meta = PARTNERS[partner];
 const href = affiliateUrl(partner, { destination, query, productId });
+const badge =
+  meta.category === 'tours' ? t('card.badge.tour') : meta.category === 'hotels' ? t('card.badge.stay') : meta.label;
+const facts = [type, duration].filter(Boolean).join(' · ');
+const [livePre, livePost] = t('card.livePrices').split('{partner}');
 ---
 
 <article
@@ -45,23 +56,23 @@ const href = affiliateUrl(partner, { destination, query, productId });
     <span
       class="absolute start-3 top-3 rounded-full bg-black/60 px-2.5 py-1 text-xs font-semibold text-white backdrop-blur-sm"
     >
-      {meta.category === 'tours' ? 'Tour' : meta.category === 'hotels' ? 'Stay' : meta.label}
+      {badge}
     </span>
   </div>
 
   <div class="flex flex-1 flex-col gap-2 p-4">
     {/* Card copy may be English data on a Hebrew page: dir="auto" follows the text. */}
     <h3 class="font-display text-lg font-bold leading-snug text-ink" dir="auto">{title}</h3>
+    {facts && <p class="-mt-1 text-xs text-ink-muted" dir="auto">{facts}</p>}
     <p class="line-clamp-2 text-sm text-ink-muted" dir="auto">{description}</p>
 
     <div class="mt-auto pt-2">
       {/* Live, real price & reviews live on the partner site — we don't show
           unverified figures here. */}
       <p class="mb-2 text-sm text-ink-muted">
-        Live prices &amp; reviews on <span class="font-semibold text-ink">{meta.label}</span>
+        {livePre}<span class="font-semibold text-ink">{meta.label}</span>{livePost}
       </p>
-      {/* Disclosure DOM-precedes the affiliate link. */}
-      <AffiliateDisclosure compact />
+      {/* The affiliate disclosure is rendered once per section by the page, before the grid. */}
       <a
         href={href}
         target="_blank"
@@ -70,7 +81,7 @@ const href = affiliateUrl(partner, { destination, query, productId });
       >
         {cta}
       </a>
-      <p class="mt-1.5 text-center text-[11px] text-ink-muted">via {meta.label}</p>
+      <p class="mt-1.5 text-center text-[11px] text-ink-muted">{fill(t('card.via'), { partner: meta.label })}</p>
     </div>
   </div>
 </article>

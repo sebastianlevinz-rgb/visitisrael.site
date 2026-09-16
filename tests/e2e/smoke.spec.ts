@@ -7,7 +7,7 @@ const prefixes = locales.map((l) => (l === 'en' ? '' : `/${l}`));
 test('the build contains the expected v3 page set', () => {
   // Per locale: 20 content pages + home + plan-your-trip + itineraries index.
   // Plus 5 legal (EN only), /search and /dashboard. 404.html is not an index route.
-  const contentPerLocale = 7 + 11 + 2;
+  const contentPerLocale = 7 + 19 + 2;
   const expected = locales.length * (contentPerLocale + 3) + 5 + 2;
   expect(ROUTES.length, ROUTES.join('\n')).toBe(expected);
 });

@@ -28,7 +28,7 @@ La Galilée est à la fois la destination chrétienne la plus œcuménique d'Isr
 
 Ce guide couvre la meilleure période pour venir, les options d'hébergement (la ville lacustre, les maisons d'hôtes de kibboutz et le petit groupe de guesthouses près de Tabgha-Capharnaüm), le circuit de pèlerinage chrétien (catholique, orthodoxe grec et protestant), les randonnées (mont Arbel, Banias, sentier de Jésus), les incontournables de Tibériade, les excursions naturelles dans le Golan et à Nazareth, et les aspects pratiques du voyage.
 
-## Quand visiter la Galilée
+## Les saisons en détail
 
 Les deux meilleures fenêtres sont **mars à mai** et **septembre à novembre**. Le printemps est la Galilée à son plus beau — fleurs sauvages dans le bas-Golan, eaux suffisamment douces pour nager dès avril, et la plus faible densité de groupes de pèlerinage de l'année. L'automne offre le profil inverse : eau encore chaude en octobre, soirées fraîches sur les terrasses au bord du lac à Tibériade, et tarifs d'hébergement en basse saison.
 
@@ -36,7 +36,7 @@ Les deux meilleures fenêtres sont **mars à mai** et **septembre à novembre**.
 
 **L'hiver** (décembre à février) est doux — 14 à 18 °C en journée — et c'est la saison préférée des groupes de pèlerinage catholiques et protestants qui calquent leur voyage sur Noël, le Carême ou la Semaine Sainte. Le **mont Hermon** voisin est enneigé la plupart des hivers et accueille le seul domaine skiable d'Israël — la combinaison d'une matinée enneigée à Hermon et d'une douce après-midi en mer de Galilée est une signature de la Galilée en hiver.
 
-## Où séjourner en Galilée
+## Secteurs : où poser ses valises
 
 Trois options pratiques s'offrent à vous, chacune avec un compromis différent.
 

@@ -39,7 +39,7 @@ The Negev Desert covers more than half of Israel's land area — a southern tria
 
 This guide covers when to come, where to sleep across the Mitzpe Ramon hub and the alternatives, the headline experiences — the crater, Avdat, Sde Boker, Ein Avdat and Bedouin hospitality — the dark-sky stargazing scene that increasingly puts Mitzpe Ramon on global astrotourism maps, day trips that pair well with a Negev base, how to get here from Tel Aviv or Eilat, and the practical notes that make the difference between a comfortable desert week and a sunburned drive-through.
 
-## When to Visit the Negev
+## Seasons in detail
 
 The best windows are **October to November** and **March to early May**. Autumn brings daytime temperatures in the high twenties to low thirties, the desert light soft and golden, and the dust haze of summer cleared away. Spring is the mirror window — wildflowers along the wadis after the winter rains and the early-morning chill that makes long hikes pleasant.
 
@@ -47,7 +47,7 @@ The best windows are **October to November** and **March to early May**. Autumn 
 
 **Summer** (June to September) is hot. Mid-day temperatures hit forty to forty-five degrees with low humidity; the heat is dry but intense in direct sun. Summer in the Negev only works with early-morning starts (sunrise hikes), a mid-day hotel break with air conditioning, and outdoor activity returning after five in the afternoon. Most operators run summer discounts because demand drops.
 
-## Where to Stay in the Negev
+## Areas: where to base yourself
 
 There are three accommodation clusters and a fourth for slow travellers.
 
@@ -59,7 +59,7 @@ There are three accommodation clusters and a fourth for slow travellers.
 
 **Eco-lodges and farms** (the term is **chavot bodedim** in Hebrew — single-family farms scattered across the central Negev) offer rustic accommodation with kitchen access and full silence. Search for properties around Ezuz, Halutza and Be'er Milka.
 
-**Retreat centres** are clustered in the Arava valley south of Mitzpe Ramon and in the central Negev: Six Senses Shaharut (luxury eco-resort with yoga and Ayurveda programmes near Eilat), Desert Ashram (Osho-lineage meditation community), Ne'ot Semadar (eco-oasis community with yoga workshops) and Moa Oasis (Nabataean incense route setting with retreat programming). See the Israel yoga & meditation retreats guide for full detail on each centre and how to book.
+**Retreat centres** are clustered in the Arava valley south of Mitzpe Ramon and in the central Negev: Six Senses Shaharut (luxury eco-resort with yoga and Ayurveda programmes near Eilat), Desert Ashram (Osho-lineage meditation community), Ne'ot Semadar (eco-oasis community with yoga workshops) and Moa Oasis (Nabataean incense route setting with retreat programming).
 
 ## Top Things to Do in the Negev
 
@@ -73,7 +73,7 @@ The **Mitzpe Ramon visitor centre** operated by the Israel Nature and Parks Auth
 
 **Avdat** is the most spectacular of the four Negev UNESCO sites on the **Incense Route — Desert Cities of the Negev** inscription. The Nabataeans, the same Arab trading civilisation that built Petra in Jordan, established a chain of caravan way-stations across the Negev around the second century BCE; Avdat became a substantial urban centre with terraced agricultural systems, a Roman-era acropolis, two Byzantine churches and an extensive necropolis. The site is presented as an archaeological complex, not a religious building.
 
-The drive up to the acropolis gives the photogenic angle. Allow an hour and a half to two hours to walk the main loop. The on-site interpretive material covers the Nabataean trading network and the agricultural innovation that made urban life possible in this arid landscape. The other three UNESCO cities — Mamshit, Haluza, and Shivta — are covered in our Negev Incense Route complete guide.
+The drive up to the acropolis gives the photogenic angle. Allow an hour and a half to two hours to walk the main loop. The on-site interpretive material covers the Nabataean trading network and the agricultural innovation that made urban life possible in this arid landscape. The other three UNESCO cities on the route are Mamshit, Haluza and Shivta.
 
 ### Sde Boker and Ben-Gurion's Grave
 
@@ -101,9 +101,9 @@ The **Astronomy Israel** operator and the **Bereshit Hotel** observation deck ar
 
 **Eilat** is about two hours south of Mitzpe Ramon — Israel's Red Sea resort with snorkelling, coral reefs and a different climate. A common rhythm is to spend two days in the Negev, drive to Eilat for a day on the water, and either return north via Mitzpe Ramon or continue out via the Wadi Rum-Aqaba border crossing.
 
-**Dead Sea** (Masada via the Arad route) is reachable in about two and a half hours northeast. Most travellers combine the Negev with a Dead Sea overnight at Ein Bokek before heading back to Tel Aviv or Jerusalem.
+**Dead Sea** ([Masada](/masada-visitor-guide) via the Arad route) is reachable in about two and a half hours northeast. Most travellers combine the Negev with a Dead Sea overnight at Ein Bokek before heading back to Tel Aviv or Jerusalem.
 
-**Petra in Jordan** can be reached as a day excursion from the Negev via the Wadi Araba border crossing south of Mitzpe Ramon, though most tour operators run this from Eilat rather than from the desert itself.
+**[Petra in Jordan](/petra-from-israel)** can be reached as a day excursion from the Negev via the Wadi Araba border crossing south of Mitzpe Ramon, though most tour operators run this from Eilat rather than from the desert itself.
 
 ## How to Get to the Negev
 

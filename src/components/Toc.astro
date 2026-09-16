@@ -1,0 +1,44 @@
+---
+/**
+ * "In this guide" jump navigation built from the markdown headings that
+ * `render()` returns. Shows only H2s and only when there are at least three, so
+ * short pages don't get a box for nothing. No JS: plain anchors; `.prose-content h2`
+ * already carries scroll-margin-top for the sticky header.
+ */
+import type { MarkdownHeading } from 'astro';
+import type { Locale } from '@/i18n/ui';
+
+export interface Props {
+  headings: MarkdownHeading[];
+  locale: Locale;
+  min?: number;
+}
+const { headings, locale, min = 3 } = Astro.props;
+const items = headings.filter((h) => h.depth === 2);
+const LABEL: Record<Locale, string> = {
+  en: 'In this guide',
+  fr: 'Dans ce guide',
+  de: 'In diesem Guide',
+  es: 'En esta guía',
+  he: 'במדריך הזה',
+};
+---
+
+{
+  items.length >= min && (
+    <nav aria-label={LABEL[locale]} class="mx-auto my-8 max-w-3xl px-4">
+      <div class="rounded-card border border-border bg-sand-deep p-5">
+        <p class="eyebrow">{LABEL[locale]}</p>
+        <ol class="mt-3 columns-1 gap-x-6 text-sm sm:columns-2">
+          {items.map((h) => (
+            <li class="break-inside-avoid py-1">
+              <a href={`#${h.slug}`} class="text-ink no-underline hover:text-primary">
+                {h.text}
+              </a>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </nav>
+  )
+}

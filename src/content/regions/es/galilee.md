@@ -28,7 +28,7 @@ Galilea es al mismo tiempo el destino cristiano más ecuménico de Israel y el c
 
 Esta guía cubre la mejor época para venir, las opciones de alojamiento (la ciudad lacustre, las casas de huéspedes de kibutz y el pequeño grupo de guesthouses cerca de Tabgha-Cafarnaúm), el circuito de peregrinación cristiana (católica, greco-ortodoxa y protestante), el senderismo (monte Arbel, Banias, sendero de Jesús), los imprescindibles de Tiberíades, las excursiones naturales por el Golán y Nazaret, y los aspectos prácticos del viaje.
 
-## Cuándo visitar Galilea
+## Las estaciones en detalle
 
 Los dos mejores períodos son **de marzo a mayo** y **de septiembre a noviembre**. La primavera es Galilea en su mejor momento — flores silvestres en el bajo Golán, aguas lo suficientemente cálidas para nadar desde abril, y la menor afluencia de grupos de peregrinación del año. El otoño ofrece el perfil opuesto: agua todavía cálida en octubre, tardes frescas en las terrazas a orillas del lago en Tiberíades, y tarifas de alojamiento en temporada baja.
 
@@ -36,7 +36,7 @@ Los dos mejores períodos son **de marzo a mayo** y **de septiembre a noviembre*
 
 **El invierno** (de diciembre a febrero) es suave — entre 14 y 18 °C durante el día — y es la temporada preferida de los grupos de peregrinación católicos y protestantes que organizan su viaje en torno a Navidad, Cuaresma o Semana Santa. El **monte Hermón** cercano está nevado la mayoría de los inviernos y alberga el único dominio esquiable de Israel — la combinación de una mañana nevada en Hermón y una apacible tarde en el mar de Galilea es una experiencia característica de Galilea en invierno.
 
-## Dónde alojarse en Galilea
+## Zonas: dónde establecer tu base
 
 Hay tres opciones prácticas, cada una con un equilibrio diferente.
 

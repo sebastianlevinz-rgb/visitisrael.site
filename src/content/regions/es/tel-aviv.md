@@ -22,7 +22,7 @@ faqs:
 ---
 Tel Aviv-Jaffa se presenta como dos ciudades cosidas juntas por catorce kilómetros de frente costero. Al norte, la metrópolis israelí moderna — bloques Bauhaus de la Ciudad Blanca, museos, cafés del boulevard Rothschild y vida nocturna que corre desde la calle Allenby hasta el amanecer. Al sur, Jaffa, puerto otomano de cuatro mil años de historia, donde los callejones del mercado de pulgas desembocan en casonas de piedra restauradas que albergan encantadores alojamientos boutique y restaurantes de autor. Una guía completa de Tel Aviv comienza por esta geografía: el barrio donde te alojes determina si tu estadía se parecerá a unas vacaciones de playa, un recorrido gastronómico, un viaje cultural — o los tres a la vez.
 
-## Cuándo visitar Tel Aviv
+## Las estaciones en detalle
 
 Las mejores ventanas son **abril–junio** y **septiembre–noviembre**. La primavera ofrece días suaves y poco húmedos, un mar lo suficientemente cálido para nadar pero todavía poco concurrido, y tarifas por debajo del pico estival. El otoño es su espejo: temperaturas del mar aptas para bañarse hasta octubre, las multitudes del verano ya desaparecidas, y un ambiente de ciudad habitada antes que turística.
 
@@ -30,7 +30,7 @@ Las mejores ventanas son **abril–junio** y **septiembre–noviembre**. La prim
 
 **El invierno** (diciembre–febrero) es suave pero lluvioso, con temperaturas diarias de unos 14–18 °C. El mar está demasiado fresco para nadar, pero la ciudad es más económica, los museos y restaurantes están menos concurridos, y las tardes lluviosas en los barrios Bauhaus tienen su propio encanto.
 
-## Dónde dormir en Tel Aviv
+## Barrios: dónde establecer tu base
 
 Tel Aviv ofrece cinco barrios prácticos, cada uno con un ambiente diferente.
 
@@ -56,4 +56,4 @@ Tel Aviv ofrece cinco barrios prácticos, cada uno con un ambiente diferente.
 
 ## Excursiones desde Tel Aviv
 
-**Jerusalén** — a una hora hacia el este en tren de alta velocidad. Un día completo cubre la Ciudad Vieja y un museo o mirador. **Cesarea Marítima** — a 45 minutos al norte en auto, sitio arqueológico romano y cruzado sobre la costa mediterránea, que combina teatro romano, fortaleza cruzada y acceso a la playa. **La Galilea** — dos horas al norte e ideal como excursión de día largo, o mejor en dos días desde Tiberíades. **El Mar Muerto y Masada** — dos horas al sur, la excursión más popular en circuito organizado desde Tel Aviv.
+**Jerusalén** — a una hora hacia el este en tren de alta velocidad. Un día completo cubre la Ciudad Vieja y un museo o mirador. **[Cesarea Marítima](/es/caesarea-haifa-akko-day-trip)** — a 45 minutos al norte en auto, sitio arqueológico romano y cruzado sobre la costa mediterránea, que combina teatro romano, fortaleza cruzada y acceso a la playa. **La Galilea** — dos horas al norte e ideal como excursión de día largo, o mejor en dos días desde Tiberíades. **El Mar Muerto y [Masada](/es/masada-visitor-guide)** — dos horas al sur, la excursión más popular en circuito organizado desde Tel Aviv.

@@ -28,7 +28,7 @@ Galiläa ist zugleich das ökumenischste christliche Reiseziel Israels und das S
 
 Dieser Reiseführer behandelt die beste Reisezeit, Übernachtungsmöglichkeiten (Seeuferstadt, Kibbutz-Gästehäuser und die kleine Gruppe von Gästehäusern bei Tabgha-Kafarnaum), den christlichen Pilgerweg (katholisch, griechisch-orthodox und evangelisch), Natur und Wandern (Mount Arbel, Banias, Jesusweg), Sehenswürdigkeiten in Tiberias, Tagesausflüge in den Golan und nach Nazareth sowie praktische Reiseinformationen.
 
-## Wann Galiläa besuchen
+## Die Jahreszeiten im Detail
 
 Die zwei besten Zeitfenster sind **März bis Mai** und **September bis November**. Der Frühling zeigt Galiläa von seiner schönsten Seite — Wildblumen im unteren Golan, angenehme Badetemperaturen ab April und die geringste Pilgerdichte des Jahres. Der Herbst spiegelt dieses Bild: Das Wasser ist noch bis Oktober warm genug zum Schwimmen, die Abende auf den Terrassenrestaurants am Tiberias-Seeufer sind angenehm, und die Hotelpreise liegen in der Nebensaison.
 
@@ -36,7 +36,7 @@ Die zwei besten Zeitfenster sind **März bis Mai** und **September bis November*
 
 **Der Winter** (Dezember bis Februar) ist mild — 14 bis 18 °C tagsüber — und die bevorzugte Pilgersaison für katholische und evangelische Reisegruppen, die ihre Besuche um Weihnachten, Fastenzeit oder Karwoche planen. Der nahe **Berg Hermon** bekommt die meisten Winter Schnee und betreibt Israels einziges Skigebiet.
 
-## Unterkunft in Galiläa
+## Gebiete: wo man am besten wohnt
 
 Drei praktische Übernachtungsoptionen stehen zur Auswahl, jede mit anderen Stärken.
 

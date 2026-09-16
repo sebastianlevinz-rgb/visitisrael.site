@@ -126,5 +126,10 @@ conflicto. En sitios en disputa, nomenclatura pareja y foco en el visitante.
   regenerarlos: el script verifica que cada URL vieja tenga un destino que exista.
 - **Git Bash convierte `/ruta` en una ruta de Windows** cuando se pasa como argumento.
   Usar `MSYS_NO_PATHCONV=1`.
+- **Variables de tema `--spacing-<nombre>` en `global.css` generan utilidades.** Tailwind v4
+  convirtió `--spacing-block` en la utilidad `inline-block` = `inline-size: 40px`, y el
+  botón "Plan your trip" midió 40 px durante meses. Antes de definir `--spacing-*`,
+  `--color-*`, `--font-*`, etc., comprobar que el sufijo no coincida con una clase
+  existente de Tailwind.
 - **Nunca pasar texto con comillas invertidas dentro de un comando de Bash.** Bash las
   ejecuta como comandos. Los textos se escriben con la herramienta de edición de archivos.

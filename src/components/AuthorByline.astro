@@ -1,15 +1,20 @@
 ---
 import { defaultAuthor, type Author } from '@/data/authors';
+import { getLocaleFromPath, intlLocale, useTranslations } from '@/i18n/ui';
 export interface Props {
   author?: Author;
   updated?: Date;
 }
 const { author = defaultAuthor, updated } = Astro.props;
-const updatedLabel = (updated ?? new Date()).toLocaleDateString('en-GB', {
+const locale = getLocaleFromPath(Astro.url.pathname);
+const t = useTranslations(locale);
+const updatedDate = updated ?? new Date();
+const updatedLabel = updatedDate.toLocaleDateString(intlLocale[locale], {
   day: 'numeric',
   month: 'long',
   year: 'numeric',
 });
+const updatedIso = updatedDate.toISOString().slice(0, 10);
 ---
 
 <div
@@ -20,7 +25,7 @@ const updatedLabel = (updated ?? new Date()).toLocaleDateString('en-GB', {
     aria-hidden="true">VI</span
   >
   <p>
-    By <a href={author.url} class="font-semibold text-ink no-underline hover:text-primary">{author.name}</a>
-    · Last updated <time>{updatedLabel}</time>
+    {t('byline.by')} <a href={author.url} class="font-semibold text-ink no-underline hover:text-primary">{author.name}</a>
+    · {t('byline.updated')} <time datetime={updatedIso}>{updatedLabel}</time>
   </p>
 </div>

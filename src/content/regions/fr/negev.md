@@ -30,7 +30,7 @@ Le désert du Néguev couvre plus de la moitié de la superficie d'Israël — u
 
 Ce guide couvre la meilleure période pour venir, les trois pôles d'hébergement, les expériences phares — le cratère, Avdat, Sde Boker, Ein Avdat et l'hospitalité bédouine — l'observation des étoiles qui place de plus en plus Mitzpe Ramon sur les cartes mondiales de l'astrotourisme, les excursions qui s'associent bien à une base dans le Néguev, et les notes pratiques qui font la différence entre une semaine confortable dans le désert et une traversée en voiture sous le soleil de plomb.
 
-## Quand visiter le Néguev
+## Les saisons en détail
 
 Les meilleures fenêtres sont **octobre à novembre** et **mars à début mai**. L'automne amène des températures diurnes autour de 28 à 30 °C, une lumière du désert dorée et douce, et la brume de sable de l'été dissipée. Le printemps est la fenêtre miroir — fleurs sauvages dans les wadis après les pluies hivernales et la fraîcheur matinale qui rend les longues randonnées agréables.
 
@@ -38,7 +38,7 @@ Les meilleures fenêtres sont **octobre à novembre** et **mars à début mai**.
 
 **L'été** (juin à septembre) est chaud. Les températures de mi-journée atteignent 40 à 45 °C avec une faible humidité. L'été au Néguev ne fonctionne qu'avec des départs tôt le matin (randonnées au lever du soleil), une pause à l'hôtel en milieu de journée avec climatisation, et les activités de plein air reprenant après 17h. La plupart des opérateurs proposent des réductions estivales car la demande chute.
 
-## Où séjourner au Néguev
+## Secteurs : où poser ses valises
 
 Il existe trois pôles d'hébergement et un quatrième pour les voyageurs à voyage lent.
 
@@ -86,7 +86,7 @@ L'opérateur **Astronomy Israel** et le pont d'observation de l'**hôtel Bereshi
 
 **Eilat** est à environ deux heures au sud de Mitzpe Ramon. Un rythme courant consiste à passer deux jours dans le Néguev, conduire jusqu'à Eilat pour une journée sur l'eau, et soit retourner vers le nord via Mitzpe Ramon, soit continuer par le poste-frontière Wadi Rum-Aqaba.
 
-**La mer Morte** (Massada via la route d'Arad) est accessible en environ deux heures et demie au nord-est. La plupart des voyageurs combinent le Néguev avec une nuit à la mer Morte à Ein Bokek.
+**La mer Morte** ([Massada](/fr/masada-visitor-guide) via la route d'Arad) est accessible en environ deux heures et demie au nord-est. La plupart des voyageurs combinent le Néguev avec une nuit à la mer Morte à Ein Bokek.
 
 ## Comment rejoindre le Néguev
 

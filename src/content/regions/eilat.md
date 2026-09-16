@@ -39,7 +39,7 @@ Eilat is Israel's Red Sea tourism enclave — a resort city wrapped around a sma
 
 This guide covers when to come, where to stay across the three distinct hotel districts, the headline Red Sea experiences (Coral Beach Reserve, Underwater Observatory, Dolphin Reef), the desert excursions that pair well with a beach base (Timna Park, Red Canyon, Mitzpe Ramon and the Negev night sky), the Petra day trip from the Wadi Araba border crossing, how to arrive at Ramon Airport (ETM), and the practical realities of a destination 4 hours from anywhere else in Israel. Eilat is a destination that rewards a focused 3-day trip rather than a day-stop on a wider Israel itinerary.
 
-## When to Visit Eilat
+## Seasons in detail
 
 The prime windows are **October to April**. Eilat's distinctive value is that it stays warm and sunny while northern Israel and Europe are cold — daytime highs of 22 to 28 degrees through autumn, mild 18 to 22 degrees through deep winter, and a sea temperature that never drops below 21 degrees thanks to the Red Sea. European winter-escape travellers fill the resort hotels from late December through February. **Late October to early December** and **mid-March to mid-May** are the most comfortable weeks — warm without being hot, lower hotel prices than the Christmas-and-Passover peaks.
 
@@ -51,7 +51,7 @@ The prime windows are **October to April**. Eilat's distinctive value is that it
 
 The Gulf of Aqaba is the northern arm of the Red Sea — a long, narrow body of warm tropical water fed from the Indian Ocean through the Bab-el-Mandeb strait. The shallow reef shelf along Eilat's coast stays at 21 to 27 degrees through the year. This is what makes year-round snorkelling possible — and it is also what supports the northernmost coral reef ecosystem in the world.
 
-## Where to Stay in Eilat
+## Neighbourhoods: where to base yourself
 
 Eilat has three hotel districts, each suited to a different trip.
 
@@ -97,7 +97,7 @@ Avoid Red Canyon in flash-flood season (winter rains, though rare in the south, 
 
 ### Petra, Jordan
 
-The **Yitzhak Rabin / Wadi Araba border crossing** to Jordan is 6 kilometres north of central Eilat. Organised Petra day tours collect from Eilat hotels at 06:30, cross the border (passport control on both sides), drive 2 hours through the Wadi Araba and the Jordanian desert to **Petra**, give 4 to 5 hours on site, and return to Eilat for around 21:00. A Jordanian visa is issued at the border at no extra cost when you book as a single-day tour through an authorised operator (otherwise around 60 JOD); for a single-day visit the Jordan Pass is unnecessary.
+The **Yitzhak Rabin / Wadi Araba border crossing** to Jordan is 6 kilometres north of central Eilat. Organised Petra day tours collect from Eilat hotels at 06:30, cross the border (passport control on both sides), drive 2 hours through the Wadi Araba and the Jordanian desert to **[Petra](/petra-from-israel)**, give 4 to 5 hours on site, and return to Eilat for around 21:00. A Jordanian visa is issued at the border at no extra cost when you book as a single-day tour through an authorised operator (otherwise around 60 JOD); for a single-day visit the Jordan Pass is unnecessary.
 
 Petra is one of the most photographed UNESCO sites in the Middle East — the Siq narrow gorge, the Treasury (Al-Khazneh) facade, the Royal Tombs, and the Monastery (Ad Deir) at the top of an 800-step climb. Comfortable walking shoes and water are essential; full coverage of the site needs two days, but a day-tour covers the Siq, Treasury, Royal Tombs and the lower city.
 
@@ -127,8 +127,6 @@ Eilat is the most accessible scuba diving destination in Israel — the **Coral 
 
 Water visibility runs 20 to 30 metres on clear days; the reef wall drops from 5 metres to over 40 in places. PADI Open Water certification courses take 3 to 4 days and run year-round. The **chamber operator** at Eilat is the regional hyperbaric facility; specialist dive insurance is strongly recommended for any deep work.
 
-For a full comparison of Red Sea tours, desert jeep safaris, Dolphin Reef experiences and Petra day trips from Eilat — including price ranges and who each is right for — see our [Eilat tours compared guide](/jerusalem-tours-compared). For a practical overview of beaches, Dolphin Reef, Timna Park, tax-free shopping and getting here, see our complete Eilat travel guide.
-
 ## Where to Eat in Eilat
 
 Eilat's food scene is built around two threads — fresh Red Sea seafood (sea bream, grouper, calamari, locally-farmed shrimp from the Arava) and the Mediterranean-Levantine fundamentals that anchor Israeli food everywhere (hummus, falafel, sabich, modern Israeli grill).
@@ -148,7 +146,3 @@ Eilat's food scene is built around two threads — fresh Red Sea seafood (sea br
 **Petra border crossing** — passport (6 months validity), some patience for the queue (allow 30 to 45 minutes total for both sides), and an organised tour booking for the single-day-visa convenience.
 
 **Drive distance reality** — Eilat is 4 to 5 hours from Tel Aviv, 4 hours from Jerusalem, 2 hours from Mitzpe Ramon, and isolated on all sides. Plan to stay 3 nights minimum; day trips beyond the immediate Eilat area need a rental car or organised tour.
-
-## Frequently Asked Questions
-
-The FAQ entries above answer the most common questions about visiting Eilat — how many days to spend, when to come, how to get from Tel Aviv, whether Petra works as a day trip, what diving looks like, and how the city handles Shabbat. The schema-driven FAQPage at the bottom of this page surfaces these to search engines so travellers find them directly from a Google result. If your question is not covered, the contact page is the right next step.

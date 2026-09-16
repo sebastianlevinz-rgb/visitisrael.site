@@ -60,7 +60,6 @@
 
   /* 8-pt fluid spacing rhythm */
   --spacing-section: clamp(3.5rem, 2.5rem + 5vw, 7rem);
-  --spacing-block: clamp(1.5rem, 1.1rem + 2vw, 2.5rem);
 
   /* Apple-style motion: fast, eased, purposeful */
   --ease-out: cubic-bezier(0.2, 0.7, 0.3, 1);
@@ -94,7 +93,7 @@
     background-color: var(--color-sand);
     color: var(--color-ink);
     font-family: var(--font-body);
-    font-size: 1.0625rem;
+    font-size: 1.125rem;
     line-height: 1.7;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;

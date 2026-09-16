@@ -1,19 +1,39 @@
 ---
+import { getLocaleFromPath, useTranslations, type UiKey } from '@/i18n/ui';
 export interface Props {
   rows: { season: string; verdict: string; note: string }[];
 }
 const { rows } = Astro.props;
+const t = useTranslations(getLocaleFromPath(Astro.url.pathname));
+
+// Verdicts in regionData are a small closed set of English words; translate the
+// known ones and pass anything else through untouched.
+const VERDICT_KEYS: Record<string, UiKey> = {
+  best: 'bestTime.v.best',
+  great: 'bestTime.v.great',
+  hot: 'bestTime.v.hot',
+  warm: 'bestTime.v.warm',
+  mild: 'bestTime.v.mild',
+  cool: 'bestTime.v.cool',
+  quiet: 'bestTime.v.quiet',
+  extreme: 'bestTime.v.extreme',
+  variable: 'bestTime.v.variable',
+};
+const verdictLabel = (v: string) => {
+  const key = VERDICT_KEYS[v.trim().toLowerCase()];
+  return key ? t(key) : v;
+};
 const tone = (v: string) =>
-  /best/i.test(v) ? 'text-primary' : /hot|quiet/i.test(v) ? 'text-[#6b5520]' : 'text-ink-muted';
+  /best|great/i.test(v) ? 'text-primary' : /hot|quiet|extreme/i.test(v) ? 'text-[#6b5520]' : 'text-ink-muted';
 ---
 
 <div class="overflow-hidden rounded-card border border-border bg-card shadow-card">
   <table class="w-full text-sm">
     <thead>
       <tr class="bg-sand-deep text-start">
-        <th class="px-4 py-2.5 font-bold">Season</th>
-        <th class="px-4 py-2.5 font-bold">Verdict</th>
-        <th class="px-4 py-2.5 font-bold">What to expect</th>
+        <th class="px-4 py-2.5 text-start font-bold">{t('bestTime.season')}</th>
+        <th class="px-4 py-2.5 text-start font-bold">{t('bestTime.verdict')}</th>
+        <th class="px-4 py-2.5 text-start font-bold">{t('bestTime.expect')}</th>
       </tr>
     </thead>
     <tbody>
@@ -21,7 +41,7 @@ const tone = (v: string) =>
         rows.map((r) => (
           <tr class="border-t border-border">
             <td class="px-4 py-2.5 font-semibold text-ink" dir="auto">{r.season}</td>
-            <td class={`px-4 py-2.5 font-semibold ${tone(r.verdict)}`} dir="auto">{r.verdict}</td>
+            <td class={`px-4 py-2.5 font-semibold ${tone(r.verdict)}`}>{verdictLabel(r.verdict)}</td>
             <td class="px-4 py-2.5 text-ink-muted" dir="auto">{r.note}</td>
           </tr>
         ))
