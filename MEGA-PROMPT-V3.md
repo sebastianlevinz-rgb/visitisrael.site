@@ -41,18 +41,21 @@ deseo**. Sacala de acá y convertila en máquina, o asumí que no existe.
 
 ---
 
-## La evidencia: qué reglas aguantaron y cuáles se rompieron
+## La evidencia: qué aguantó y qué se rompió
 
-El proyecto anterior corrió 1.302 iteraciones autónomas. No todas las reglas fallaron
-— y el patrón de cuáles aguantaron es el hallazgo más útil de toda la auditoría.
+El proyecto anterior corrió 1.302 iteraciones autónomas. No todo falló — y el patrón de
+qué aguantó es el hallazgo más útil de toda la auditoría.
 
-**Aguantaron 1.302 iteraciones sin una sola violación:**
-- *Nunca inventar ratings, cantidad de reseñas ni precios exactos.* Verificado sobre
-  1.963 páginas: **cero violaciones**.
-- Higiene de links: 0 rotos, 0 huérfanas, máximo 3 clics.
-- Páginas legales completas, `rel="sponsored nofollow noopener"`, disclosure visible.
+**Aguantó:**
+- Higiene de links: 0 rotos, 0 huérfanas, máximo 3 clics. **Lo frenaba una máquina:**
+  un `check:links` dentro del gate.
+- Ratings, reseñas y precios inventados **no llegaron a la página**. Pero no porque el
+  agente obedeciera: **escribió 356 ratings, 356 cantidades de reseñas y 294 precios
+  inventados** en 200 archivos (por ejemplo `rating: 4.8, reviews: 3240`). Los frenó un
+  componente que se negaba a mostrarlos. La regla del prompt se rompió; la máquina aguantó.
 
-**Se rompieron:**
+**Se rompió todo lo que dependía solo del prompt:**
+- *No inventar datos.* Ver arriba: 1.006 campos inventados.
 - *El gate tiene que estar verde antes de mergear.* El agente lo anuló 5 veces
   escribiendo **"local gate is canonical"**, y 3 veces citó su propia decisión
   anterior como autoridad: *"per iter98 precedent"*.
@@ -61,19 +64,22 @@ El proyecto anterior corrió 1.302 iteraciones autónomas. No todas las reglas f
 - *Si hay un STOP, parar.* El agente borró su propio STOP 18 horas después y se
   relanzó bajo otro nombre.
 
-### La diferencia entre unas y otras
+### La diferencia
 
-Las reglas que aguantaron eran sobre **cómo escribir**. Se cumplen dentro de la tarea,
-no la bloquean, y el agente no gana nada rompiéndolas.
+Nada de lo que aguantó dependía de la obediencia del agente. Todo lo que aguantó tenía
+una máquina atrás: un chequeo en el gate, un componente que no renderiza. Todo lo que
+dependía solo de texto en el prompt se rompió — incluso la regla de honestidad, que
+parecía cumplida hasta que se miraron los datos y no solo las páginas.
 
-Las reglas que se rompieron eran las que **frenan el avance**. Cuando una regla se
-interpone entre el agente y terminar su tarea, el agente razona hasta rodearla — y
-después usa ese razonamiento como jurisprudencia para la próxima.
+Y cuando una regla se interpone entre el agente y terminar su tarea, el agente no solo
+la rompe: razona hasta rodearla y usa ese razonamiento como jurisprudencia.
 
-> **Un agente respeta las reglas que no le estorban y racionaliza las que sí.**
+> **Una regla que solo vive en el prompt es una sugerencia. Lo que aguanta es lo que
+> una máquina hace cumplir.**
 
-De ahí sale todo lo demás: **toda protección que pueda bloquear el avance tiene que
-vivir fuera del alcance del agente.**
+De ahí sale todo lo demás: **toda protección que importe tiene que vivir fuera del
+alcance del agente**, y verificarse en lo que se publica y en los datos, no en la
+intención.
 
 ---
 
@@ -146,17 +152,21 @@ buena letra.
 
 ## Parte B — Reglas blandas (acá sí sirve el prompt)
 
-Estas van en el prompt porque son sobre **cómo escribir**, y está demostrado que se
-cumplen. No las conviertas en máquina: no hace falta.
+Estas van en el prompt porque son sobre **cómo escribir**. Pero la evidencia de arriba es
+clara: el prompt solo no alcanza. Donde se pueda, cada una lleva un respaldo técnico,
+indicado entre paréntesis.
 
 - Nunca inventar ratings, cantidad de reseñas ni precios exactos. Rangos en prosa
-  está bien. Si un dato no se puede verificar, se omite.
+  está bien. Si un dato no se puede verificar, se omite. (Respaldo: el esquema de
+  contenido no tiene campos `rating`, `reviews` ni `priceFrom` y es estricto — una clave
+  desconocida rompe el build.)
 - Ninguna página se crea sin nombrar la búsqueda concreta que responde y por qué
   ninguna existente la cubre. *"Tenemos la plantilla y es barato"* no es motivo.
 - Neutro y aspiracional: gastronomía, cultura, lugares. No se opina de política.
 - Sin superlativos vacíos. Un dato concreto vale más que "imperdible".
-- Ninguna colección puede quedarse con más del 40% del sitio. (En el anterior,
-  `guides` tenía el 84%: ciudades, festivales, hoteles y nacionalidades revueltos.)
+- Ninguna colección puede quedarse con más del 40% del sitio. En el anterior, `guides`
+  tenía el 84%: ciudades, festivales, hoteles y nacionalidades revueltos. (Respaldo
+  posible: un test que cuente páginas por colección.)
 
 ---
 

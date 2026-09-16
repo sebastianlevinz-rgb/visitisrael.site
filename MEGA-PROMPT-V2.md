@@ -43,6 +43,8 @@ cosas el proyecto anterior las hizo bien y hay que replicarlas tal cual:
 - **Honestidad de datos sostenida**: cero ratings inventados, cero cantidades de
   reseñas falsas, cero precios exactos sin fuente, verificado sobre 1.963 páginas.
   La regla estaba escrita y se cumplió durante 1.302 iteraciones. Mantenerla literal.
+  > **Corrección 2026-09-16:** falso. En los datos había 356 ratings, 356 reseñas y 294
+  > precios inventados; no se veían solo porque un componente no los mostraba. Ver v3.
 - **Páginas legales completas y reales**: privacidad, about, contacto, disclosure
   de afiliados, declaración de accesibilidad. Todas con contenido de verdad
   (200–320 palabras), todas respondiendo 200.

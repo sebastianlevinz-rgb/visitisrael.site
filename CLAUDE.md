@@ -21,20 +21,21 @@ Solo las cambia Sebastian, por chat.
 5. **El deploy a producción lo aprueba Sebastian.** `master` despliega solo a Vercel
    producción, así que **todo push a master es un deploy**. Se avisa antes, siempre.
 
-## Estado del proyecto: CONGELADO
+## Estado del proyecto: REBUILD v3 (2026-09-16)
 
-La generación autónoma de contenido está detenida desde el 2026-08-17. Doble candado:
+El sitio se rehízo de cero sobre el mismo repo y el mismo proyecto de Vercel:
 
-- Routine `trig_01T9XFcuEQq8fBQa2M2yTEVX` desactivada (`enabled: false`).
-- `.loop/STOP` versionado en el repo.
+- **De 2.018 a 99 páginas.** 20 páginas de contenido en EN, fr, de y es (7 regiones,
+  11 guías, 2 itinerarios) + 5 legales (solo EN) + home, plan-your-trip e itinerarios por
+  idioma + búsqueda + 404.
+- **1.919 URLs viejas redirigen** con 65 reglas en `vercel.json`, verificadas contra el
+  preview real de Vercel. Mapa completo: `gestion/rebuild/mapa-redirects.csv`.
+- **Snapshot del sitio viejo:** tag `sitio-2018-paginas` en GitHub.
+- **El sitio sigue sin cobrar** hasta cargar los IDs de afiliado (modo pre-aprobación).
 
-**No reactivar ninguno de los dos.** Detalle completo en
-`gestion/auditoria/loop-detenido.md`.
-
-El directorio `.loop/` es la memoria del loop viejo (BACKLOG, JOURNAL, STATE, DONE,
-PLAYBOOK, COMPETITORS, I18N-PLAN). Sirve como registro histórico y para la auditoría.
-No se ejecuta más. **No seguir su BACKLOG**: son ~18 páginas nuevas en cola, justo lo
-que la fase actual prohíbe.
+El loop autónomo sigue muerto: routine borrada y `.loop/STOP` versionado. **No crear una
+routine nueva.** El directorio `.loop/` es registro histórico; **no seguir su BACKLOG.**
+Detalle del corte en `gestion/auditoria/loop-detenido.md`.
 
 ## Stack real (verificado 2026-08-17)
 
@@ -48,33 +49,49 @@ que la fase actual prohíbe.
 
 ### Dónde vive el contenido
 
-- `src/content/` — colecciones vivas: `attractions/`, `guides/`, `itineraries/`,
-  `legal/`, `regions/`. **Acá se edita.**
-- `src/pages/` — páginas `.astro`. Incluye `[region]/`, `[...slug].astro` y ~30 páginas
-  sueltas de herramientas (calculadoras, quizzes, planners).
-- `content/en/` — **residuo del era Velite/Next.js** (`sub-destinations/`, `west-bank/`,
-  etc.). Pendiente de confirmar si está muerto; no editar hasta que la auditoría lo diga.
-- `src/config/affiliates.ts` — **todos** los links de afiliado salen de acá. Nunca
-  hardcodear una URL de partner en una página.
+- `src/content/` — colecciones: `regions/`, `guides/`, `itineraries/`, `legal/`. EN en la
+  raíz de cada colección, traducciones en `fr/`, `de/`, `es/`. **Acá se edita.**
+- `src/i18n/ui.ts` — textos de la interfaz y **`PAGE_GROUPS`, la taxonomía** (práctico,
+  dormir, tours). Header, footer, home y plan-your-trip leen de ahí: una página que no
+  esté en `PAGE_GROUPS` queda sin links desde la navegación.
+- `src/components/RegionPage.astro` y `LocaleHome.astro` — una sola plantilla para los
+  cuatro idiomas. Las rutas en `src/pages/{fr,de,es}/` solo le pasan el idioma.
+- `src/data/regionData.ts` — datos curados de región (key facts, tours, hoteles). **Solo
+  en inglés**: las páginas de región traducidas los muestran en inglés (pendiente).
+- `src/config/affiliates.ts` — **todos** los links de afiliado salen de acá. Dos modos:
+  pre-aprobación (default, link limpio sin parámetro) y producción
+  (`PUBLIC_AFFILIATE_MODE=production`, el build falla si falta un ID). **Nunca un ID de
+  relleno.**
+- `src/content.config.ts` — el esquema de tarjetas de afiliado es **estricto** y no tiene
+  `rating`, `reviews` ni `priceFrom`: el agente viejo inventó 1.006 de esos datos.
 
 ### Comandos
 
 ```bash
-pnpm dev          # dev server
-pnpm build        # genera variantes AVIF/WebP y buildea (astro build)
-pnpm check        # lint de largo de meta + astro check
-pnpm test:e2e     # Playwright (e2e + a11y con axe-core)
-pnpm check:links  # links rotos, huérfanas, profundidad de click
+pnpm dev               # dev server
+pnpm build             # buildea y corre el guardia de afiliados sobre el HTML
+pnpm check             # lint de largo de meta + astro check
+pnpm check:links       # links rotos, huérfanas, profundidad de click
+pnpm check:affiliates  # guardia sobre dist/ (o --url https://visitisrael.site)
+pnpm test:qa           # tests del guardia de afiliados
+pnpm test:e2e          # Playwright: smoke + a11y sobre todas las rutas del build
 ```
 
-El gate completo que usaba el loop era `pnpm check && pnpm build && pnpm test:e2e`.
-Sigue siendo el gate correcto antes de cualquier push a master.
+Gate antes de cualquier push a master:
+`pnpm check && pnpm build && pnpm test:qa && pnpm check:links && pnpm test:e2e`.
+
+`test:e2e` necesita el navegador de Playwright, que en esta máquina no está instalado
+(`pnpm exec playwright install chromium`, descarga de ~150 MB: pedir OK).
 
 ### CI
 
-`.github/workflows/ci.yml` (check + build + Playwright) y `lighthouse.yml` corren en
-push a `master` y en PR. **Ninguno de los dos genera contenido** — son solo verificación.
-No tocarlos sin aprobación.
+- `ci.yml` — check, test:qa, build y Playwright en push a `master` y en PR.
+- `lighthouse.yml` — Lighthouse en push a `master` y en PR.
+- `affiliate-guard-prod.yml` — lee el HTML **publicado** después de cada deploy a
+  producción y a diario. Falla con cualquier ID de relleno. Cuando estén los IDs, pasar
+  la variable de repo `PUBLIC_AFFILIATE_MODE` a `production`.
+
+**Ninguno genera contenido.** No tocarlos sin aprobación.
 
 ## Cómo trabajo
 
@@ -99,6 +116,12 @@ conflicto. En sitios en disputa, nomenclatura pareja y foco en el visitante.
 - **`.loop/STOP` estaba en `.gitignore`** (línea agregada en `9132d137`). Como el runner
   de la nube clona fresco, el kill switch nunca le llegaba: era decorativo. Se sacó del
   ignore el 2026-08-17. **No volver a ignorarlo.**
-- **`vercel.json` no tiene bloque `redirects`.** Cuando arranque la consolidación hay que
-  crearlo. Es el archivo donde van los 301.
-- **Push a master = deploy a producción.** No existe staging automático.
+- **Push a master = deploy a producción.** Una rama genera un preview de Vercel protegido
+  con login.
+- **Redirects:** viven en `vercel.json` y se generan con
+  `node gestion/rebuild/redirects.mjs` después de un build. Si se da de baja otra página,
+  regenerarlos: el script verifica que cada URL vieja tenga un destino que exista.
+- **Git Bash convierte `/ruta` en una ruta de Windows** cuando se pasa como argumento.
+  Usar `MSYS_NO_PATHCONV=1`.
+- **Nunca pasar texto con comillas invertidas dentro de un comando de Bash.** Bash las
+  ejecuta como comandos. Los textos se escriben con la herramienta de edición de archivos.

@@ -209,16 +209,27 @@ El patrón es consistente y contraintuitivo: **donde hay plata, hay menos trabaj
 
 ---
 
-## 5. Honestidad de datos — limpio
+## 5. Honestidad de datos — en las páginas limpio, en los datos NO
 
-Se buscaron ratings inventados, cantidades de reseñas y precios exactos sin fuente en las
-1.963 páginas de contenido.
+> ### ⚠ CORRECCIÓN — 2026-09-16
+>
+> La primera versión de esta sección decía que la regla de honestidad "se respetó de
+> punta a punta". **Es falso.** Solo busqué en el texto de las páginas, no en el
+> frontmatter.
+>
+> En los datos había **356 ratings, 356 cantidades de reseñas y 294 precios inventados**,
+> en 200 archivos (ej. `rating: 4.8, reviews: 3240` en las tarjetas de tours), más
+> ratings y precios en `src/data/regionData.ts`. No llegaban a la página porque
+> `AffiliateCard` se negaba a mostrarlos. **La regla del prompt se rompió; lo que frenó el
+> daño fue un componente.**
+>
+> Se eliminaron los 1.006 campos en el rebuild v3 (commit `8cca43f4`) y el esquema de
+> contenido quedó estricto: un campo `rating`, `reviews` o `priceFrom` rompe el build.
+
+Búsqueda original, solo sobre el texto visible de las 1.963 páginas:
 
 **Resultado: 2 coincidencias, ambas legítimas** — escalas de dificultad de senderos
 (`3,5/5`, `4,5/5`) en la guía de bicicleta en francés. No son reseñas.
-
-La regla de honestidad del playbook viejo se respetó de punta a punta. Es lo mejor que
-encontré en esta auditoría.
 
 **Salvedad**: no verifiqué si los datos *sí* citados (horarios, precios de entrada,
 requisitos de visa) siguen vigentes. Eso es caducidad, no invención, y requiere chequeo
