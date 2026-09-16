@@ -14,7 +14,9 @@ import {
 const currentLocale = getLocaleFromPath(Astro.url.pathname);
 const t = useTranslations(currentLocale);
 const localePrefix = prefixFor(currentLocale);
-const navRegions = REGIONS.slice(0, 6);
+// Desktop nav: 5 regions at lg, all 7 at xl (the header row is tight at 1024–1280px).
+const navRegions = REGIONS.slice(0, 5);
+const navRegionsXl = REGIONS.slice(5);
 const planLinks = [...PAGE_GROUPS.practical, PAGE_GROUPS.stay[0], PAGE_GROUPS.tours[0]].map((p) => ({
   href: `${localePrefix}/${p.slug}`,
   label: t(p.key),
@@ -40,12 +42,22 @@ const switchHref = (l: Locale) =>
     </a>
 
     <!-- Desktop nav -->
-    <nav aria-label="Primary" class="hidden items-center gap-5 lg:flex">
+    <nav aria-label="Primary" class="hidden items-center gap-5 whitespace-nowrap lg:flex">
       {
         navRegions.map((r) => (
           <a
             href={`${localePrefix}/${r.slug}`}
             class="text-sm font-semibold text-ink-muted no-underline transition-colors hover:text-primary"
+          >
+            {r.name}
+          </a>
+        ))
+      }
+      {
+        navRegionsXl.map((r) => (
+          <a
+            href={`${localePrefix}/${r.slug}`}
+            class="hidden text-sm font-semibold text-ink-muted no-underline transition-colors hover:text-primary xl:inline"
           >
             {r.name}
           </a>
@@ -58,7 +70,7 @@ const switchHref = (l: Locale) =>
       >
     </nav>
 
-    <div class="flex items-center gap-2">
+    <div class="flex shrink-0 items-center gap-2">
       <!-- Language switcher: the same page in each locale. -->
       <nav aria-label="Language" class="hidden items-center gap-1 sm:flex">
         {
@@ -90,7 +102,7 @@ const switchHref = (l: Locale) =>
       </a>
       <a
         href={`${localePrefix}/plan-your-trip`}
-        class="hidden rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover sm:inline-block"
+        class="hidden shrink-0 whitespace-nowrap rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover sm:inline-block"
       >
         {t('nav.plan')}
       </a>
