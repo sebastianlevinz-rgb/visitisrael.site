@@ -28,9 +28,17 @@ for (const route of MONEY_PAGES) {
   });
 }
 
-test('affiliate cards show the disclosure before the link and no invented ratings', async ({ page }) => {
+test('the section holding affiliate cards carries one disclosure before them, and cards show no invented ratings', async ({ page }) => {
   await page.goto('/best-hotels-jerusalem');
   const card = page.locator('[data-affiliate-card]').first();
-  await expect(card).toContainText(/Affiliate link/i);
+  // One disclosure per section (not per card), placed before the cards in the DOM.
+  const section = card.locator('xpath=ancestor::section[1]');
+  await expect(section).toContainText(/Affiliate disclosure/i);
+  const disclosureIsBefore = await section.evaluate((s) => {
+    const d = s.querySelector('p strong');
+    const c = s.querySelector('[data-affiliate-card]');
+    return !!d && !!c && Boolean(d.compareDocumentPosition(c) & Node.DOCUMENT_POSITION_FOLLOWING);
+  });
+  expect(disclosureIsBefore).toBe(true);
   await expect(card).not.toContainText(/★|\b\d\.\d\s*\/\s*5\b|\d[\d,]*\s+reviews/i);
 });
