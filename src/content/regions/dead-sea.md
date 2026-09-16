@@ -35,7 +35,6 @@ faqs:
   - question: Are hotels at Ein Bokek good value?
     answer: Ein Bokek is the main Israeli hotel-resort strip along the southern Dead Sea shore — about fifteen large hotels including international brands and Israeli chains. Rates are highest in spring and autumn and discounted in summer and winter. Most hotels offer half-board, direct beach access, and mineral mud and spa services. Compare prices and book ahead during the spring season, when occupancy peaks.
 ---
-
 The Dead Sea is the lowest point on Earth — a hypersaline lake sitting four hundred and thirty metres below sea level along the Israel-Jordan border. A complete guide to things to do at the Dead Sea has to start with the geography, because the lake is one place but the visitor experience splits into three distinct zones. The northern shore is the historical and archaeological corridor — Qumran, the northern beach access, and the routes to Jerusalem and to the West Bank. The central western shore is the nature-reserve and UNESCO corridor — Ein Gedi for hiking and Masada for the Roman-era fortress. The southern shore is the hotel-resort corridor — Ein Bokek, with about fifteen large hotels along a constructed beachfront and the industrial evaporation ponds farther south.
 
 This guide covers when to come, where to sleep across the resort strip and the alternatives, the headline experiences — floating, Masada, Ein Gedi, Qumran and the mineral beaches — the environmental reality of the shrinking lake, the day trips that pair well with a Dead Sea base, how to get there from Tel Aviv and Jerusalem, and the practical health and safety notes that make the difference between a good day and a stinging one.
@@ -82,7 +81,7 @@ The black mineral mud is applied across the body, left to dry for ten to fifteen
 
 ### Visit Masada — UNESCO Roman-Era Fortress
 
-**Masada** is the UNESCO World Heritage Site at the top of a high mesa above the western shore — a Roman-era fortified palace complex built by Herod the Great in the first century BCE and famously besieged by Roman legions in 73 CE. The Snake Path takes about ninety minutes to climb on foot; the cable car offers the alternative. The summit holds the casemate walls, palace ruins, ritual baths and the synagogue. Sunrise tours are the marquee experience — the path opens at four in the morning and the view east toward the Moab Mountains as the sun rises is among the most photographed in the country. Linked sub-destination: see the [Masada page](/dead-sea/masada/) for the full visiting guide.
+**Masada** is the UNESCO World Heritage Site at the top of a high mesa above the western shore — a Roman-era fortified palace complex built by Herod the Great in the first century BCE and famously besieged by Roman legions in 73 CE. The Snake Path takes about ninety minutes to climb on foot; the cable car offers the alternative. The summit holds the casemate walls, palace ruins, ritual baths and the synagogue. Sunrise tours are the marquee experience — the path opens at four in the morning and the view east toward the Moab Mountains as the sun rises is among the most photographed in the country. Linked sub-destination: see the Masada page for the full visiting guide.
 
 ### Hike Ein Gedi Nature Reserve
 

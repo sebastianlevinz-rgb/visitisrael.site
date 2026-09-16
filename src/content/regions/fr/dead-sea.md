@@ -20,7 +20,6 @@ faqs:
   - question: "Comment rejoindre la Mer Morte depuis Jérusalem ou Tel Aviv ?"
     answer: "Depuis Jérusalem, le bus Egged 444 atteint Ein Boqeq en environ 90 minutes ; en voiture, comptez 1 heure via la Route 90 le long de la rive occidentale. Depuis Tel Aviv, les circuits organisés (environ 10 heures avec Massada et Ein Guédi inclus) sont l'option la plus pratique. Une voiture de location depuis l'une ou l'autre ville offre la plus grande flexibilité."
 ---
-
 La Mer Morte est le point le plus bas de la surface terrestre — un lac hypersalé à 430 mètres sous le niveau de la mer, à la frontière entre Israël et la Jordanie. Un guide complet de la Mer Morte doit commencer par la géographie : le lac est un seul endroit, mais l'expérience touristique se divise en trois zones distinctes. La rive nord est le corridor historique et archéologique (Qumrân, accès aux plages du nord, routes vers Jérusalem et la Cisjordanie). La rive centrale ouest est le corridor des réserves naturelles (Ein Guédi pour la randonnée, Massada pour la forteresse romaine). La rive sud est le corridor des hôtels-resorts (Ein Boqeq, avec une quinzaine de grands hôtels sur un front de mer aménagé).
 
 Ce guide couvre quand venir, où dormir, les cinq expériences phares — la flottaison, Massada, Ein Guédi, Qumrân et la boue minérale —, la réalité environnementale du lac qui rétrécit, comment y accéder depuis Jérusalem et Tel Aviv, et les conseils pratiques de santé et sécurité.

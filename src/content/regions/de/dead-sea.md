@@ -20,7 +20,6 @@ faqs:
   - question: "Wie kommt man von Jerusalem oder Tel Aviv ans Tote Meer?"
     answer: "Von Jerusalem: Egged-Bus 444 nach Ein Bokek (ca. 90 Min.); mit dem Auto ca. 1 Stunde über Route 90 entlang der Westküste. Von Tel Aviv: Organisierte Tagestouren (ca. 10 Stunden inkl. Masada und Ein Gedi) sind die praktischste Option. Ein Mietwagen von beiden Städten aus bietet die größte Flexibilität."
 ---
-
 Das Tote Meer ist der tiefste Punkt der Erdoberfläche — ein hypersaliner See 430 Meter unter dem Meeresspiegel an der Grenze zwischen Israel und Jordanien. Ein vollständiger Reiseführer zum Toten Meer beginnt mit der Geographie: Der See ist eine Einheit, aber das Besuchererlebnis gliedert sich in drei Zonen. Die Nordküste ist der historische und archäologische Korridor (Qumran, nördlicher Strandzugang, Routen nach Jerusalem). Die westliche Mittelküste ist der Naturschutzgebietskorridor (Ein Gedi zum Wandern, Masada mit der Festungsanlage). Die Südküste ist der Hotel-Resort-Korridor (Ein Bokek mit rund fünfzehn großen Hotels an einem angelegten Strand).
 
 Dieser Reiseführer behandelt die beste Reisezeit, Unterkunftsoptionen, die fünf Haupterlebnisse — Schwimmen, Masada, Ein Gedi, Qumran und Mineralmud —, die Umweltrealität des schrumpfenden Sees, die Anreise von Jerusalem und Tel Aviv sowie wichtige Gesundheits- und Sicherheitshinweise.

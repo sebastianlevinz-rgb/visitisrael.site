@@ -8,16 +8,355 @@
     {
       "source": "/images/(.*)",
       "headers": [
-        { "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
       ]
     },
     {
       "source": "/(.*)",
       "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "X-Frame-Options", "value": "SAMEORIGIN" }
+        {
+          "key": "X-Content-Type-Options",
+          "value": "nosniff"
+        },
+        {
+          "key": "Referrer-Policy",
+          "value": "strict-origin-when-cross-origin"
+        },
+        {
+          "key": "X-Frame-Options",
+          "value": "SAMEORIGIN"
+        }
       ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/:region(jerusalem|tel-aviv|dead-sea|galilee|eilat|negev|haifa)/:rest+",
+      "destination": "/:region",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:region(jerusalem|tel-aviv|dead-sea|galilee|eilat|negev|haifa)/:rest+",
+      "destination": "/:lang/:region",
+      "permanent": true
+    },
+    {
+      "source": "/:old(akko|caesarea)/:rest*",
+      "destination": "/haifa",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(akko|caesarea)/:rest*",
+      "destination": "/:lang/haifa",
+      "permanent": true
+    },
+    {
+      "source": "/:old(golan|nazareth)/:rest*",
+      "destination": "/galilee",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(golan|nazareth)/:rest*",
+      "destination": "/:lang/galilee",
+      "permanent": true
+    },
+    {
+      "source": "/dashboard/seo",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/itineraries/14-days-in-israel",
+      "destination": "/:lang/itineraries/10-days-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/itineraries/2-days-in-tel-aviv",
+      "destination": "/:lang/tel-aviv",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/itineraries/3-days-in-jerusalem",
+      "destination": "/:lang/jerusalem",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/itineraries/5-days-in-israel",
+      "destination": "/:lang/itineraries/7-days-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/itineraries/14-days-in-israel",
+      "destination": "/itineraries/10-days-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/itineraries/2-days-in-tel-aviv",
+      "destination": "/tel-aviv",
+      "permanent": true
+    },
+    {
+      "source": "/itineraries/3-days-in-jerusalem",
+      "destination": "/jerusalem",
+      "permanent": true
+    },
+    {
+      "source": "/itineraries/5-days-in-israel",
+      "destination": "/itineraries/7-days-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/transport/ben-gurion-to-jerusalem",
+      "destination": "/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/transport/ben-gurion-to-tel-aviv",
+      "destination": "/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/transport/haifa-to-akko",
+      "destination": "/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/transport/jerusalem-to-dead-sea",
+      "destination": "/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/transport/jerusalem-to-nazareth",
+      "destination": "/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/transport/tel-aviv-to-dead-sea",
+      "destination": "/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/transport/tel-aviv-to-eilat",
+      "destination": "/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/transport/tel-aviv-to-haifa",
+      "destination": "/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/where-to-stay/dead-sea",
+      "destination": "/dead-sea-hotels-guide",
+      "permanent": true
+    },
+    {
+      "source": "/where-to-stay/jerusalem",
+      "destination": "/best-hotels-jerusalem",
+      "permanent": true
+    },
+    {
+      "source": "/where-to-stay/tel-aviv",
+      "destination": "/best-hotels-tel-aviv",
+      "permanent": true
+    },
+    {
+      "source": "/:old(1-day-jerusalem-itinerary|1-day-tel-aviv-itinerary|3-days-in-eilat|3-days-in-galilee|3-days-in-haifa|3-days-in-israel|3-days-in-negev|3-days-in-tel-aviv|build-your-trip|egypt-jordan-israel-itinerary|israel-5-vs-7-vs-10-days|israel-effective-days|israel-how-many-days|israel-itinerary-checker|israel-jordan-itinerary|south-israel-itinerary)",
+      "destination": "/itineraries/7-days-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:old(air-haifa-haifa-airport-guide|akko-acre-guide|akko-fringe-theatre-festival|bahai-world-center-guide|best-hotels-haifa|best-hotels-netanya|caesarea-concerts-events|caesarea-guide|haifa-cruise-terminal-guide|haifa-food-guide|haifa-international-film-festival-guide|haifa-neighborhoods-guide|haifa-travel-guide|netanya-guide|rosh-hanikra-guide|yam-caesarea-guide|zichron-yaakov-guide)",
+      "destination": "/haifa",
+      "permanent": true
+    },
+    {
+      "source": "/:old(airlines-flying-israel-2026|anu-museum-guide|ashkelon-guide|atlit-detainee-camp-guide|backpacking-israel|bar-bat-mitzvah-israel|bedouin-experience-israel|beit-alfa-guide|beit-guvrin-caves-guide|beit-shean-guide|beit-shearim-guide|belvoir-fortress|ben-gurion-airport-guide|ben-gurion-airport-transfers|best-beaches-israel|best-markets-in-israel|best-national-parks-israel|best-things-to-do-in-israel|binyamina-guide|birdwatching-in-israel|cheap-flights-to-israel|christian-pilgrimage-holy-land|church-holy-sepulchre-guide|church-of-nativity-guide|cycling-in-israel|design-museum-holon|digital-nomad-israel|free-things-to-do-israel|gamla-nature-reserve-guide|gan-hashlosha-guide|getyourguide-vs-viator-israel|glamping-israel|hai-bar-yotvata-guide|hamat-gader-guide|herodion-guide|herzliya-guide|hiking-in-israel|holy-sites-dress-code-etiquette|hula-valley-crane-migration-guide|israel-accessible-travel|israel-adventure-sports|israel-affordable-luxury|israel-after-birthright|israel-anzac-heritage|israel-archaeology-experience|israel-base-city-guide|israel-biblical-highway|israel-business-travel-guide|israel-by-month|israel-campervan|israel-camping-guide|israel-cost-budget|israel-craft-beer|israel-craft-spirits|israel-diamonds-jewelry|israel-distance-calculator|israel-drone-laws-guide|israel-egypt-guide|israel-esim|israel-evening-activities|israel-experience-finder|israel-fine-dining|israel-for-american-travelers|israel-for-argentinian-travelers|israel-for-australian-travelers|israel-for-brazilian-travelers|israel-for-british-travelers|israel-for-canadian-travelers|israel-for-chinese-travelers|israel-for-czech-travelers|israel-for-dutch-travelers|israel-for-filipino-travelers|israel-for-french-travelers|israel-for-georgian-travelers|israel-for-german-travelers|israel-for-gulf-travelers|israel-for-indian-travelers|israel-for-irish-travelers|israel-for-italian-travelers|israel-for-japanese-travelers|israel-for-korean-travelers|israel-for-nepali-travelers|israel-for-nordic-travelers|israel-for-polish-travelers|israel-for-portuguese-travelers|israel-for-russian-speaking-travelers|israel-for-seniors|israel-for-serbian-travelers|israel-for-south-african-travelers|israel-for-spanish-travelers|israel-for-swiss-travelers|israel-for-thai-travelers|israel-for-turkish-travelers|israel-gluten-free-guide|israel-group-travel|israel-hebrew-phrases|israel-hidden-gems|israel-homeport-cruise|israel-honeymoon|israel-horseback-riding|israel-hummus-trail|israel-in-autumn|israel-in-spring|israel-in-summer|israel-in-winter|israel-kayaking|israel-kibbutz-volunteer-guide|israel-map|israel-mediterranean-cruise-guide|israel-military-heritage|israel-money-guide|israel-national-bike-trail|israel-national-parks-pass|israel-national-trail-hiking|israel-orthodox-jewish-travel|israel-packing-list|israel-packing-list-guide|israel-paragliding-guide|israel-parks-pass-calculator|israel-photography-guide|israel-points-miles-guide|israel-power-plug|israel-rainy-day-activities|israel-restaurant-finder|israel-rooftop-bars|israel-stargazing|israel-surfing|israel-thermal-springs|israel-tipping-currency|israel-transport-cost-estimator|israel-travel-2026|israel-travel-apps|israel-travel-insurance|israel-travel-time|israel-travel-tips|israel-trip-cost-by-style|israel-trip-cost-calculator|israel-unesco-sites|israel-vat-refund|israel-vs-albania)",
+      "destination": "/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:old(israel-vs-cyprus|israel-vs-dubai|israel-vs-egypt|israel-vs-france|israel-vs-greece|israel-vs-italy|israel-vs-jordan|israel-vs-portugal|israel-vs-spain|israel-vs-turkey|israel-water-parks|israel-wellness-spa|israel-wine-wineries|israel-with-kids|israel-with-teenagers|israel-yoga-retreats|israeli-breakfast-guide|israeli-food-cuisine-guide|israeli-street-food-guide|jesus-trail-israel|jewish-genealogy-israel-trip|jewish-heritage-israel|jordan-pass-guide|judean-hills-wine-trail|keshet-cave-guide|kosher-food-guide|latrun-guide|lgbtq-travel-israel|luxury-travel-israel|maccabiah-games-2026|mahane-yehuda-market-guide|megiddo-jezreel-valley-guide|mount-tabor-guide|muslim-travel-israel|nahal-alexander-guide|nahal-pratzim-guide|national-library-israel|nativity-trail-guide|nimrod-fortress-guide|palmahim-beach-guide|pet-friendly-israel|rav-kav-israel|rosh-pina-guide|shabbat-dinner-experience|shabbat-guide|shopping-in-israel|simchat-torah-in-israel|solo-female-travel-israel|solo-travel-israel|soreq-cave-guide|sports-events-israel|sustainable-travel-israel|tabgha-church-guide|tel-afek-guide|tel-gezer-guide|tel-megiddo-guide|temple-mount-visitor-guide|tower-of-david-guide|transportation|valley-of-elah-guide|vegan-vegetarian-israel|via-dolorosa-guide|via-ferrata-israel|wadi-qelt-monastery-guide|water-hiking-israel|wedding-in-israel|whats-open-on-shabbat|which-israel-region-quiz|yam-lyam-sea-to-sea-hike|zionist-heritage-trail|zippori-sepphoris-guide)",
+      "destination": "/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:old(ammunition-hill-jerusalem|bethlehem-travel-guide|city-of-david-jerusalem|easter-in-jerusalem|ein-kerem-jerusalem-guide|israel-museum-jerusalem|jerusalem-armenian-quarter|jerusalem-beer-festival|jerusalem-coffee-guide|jerusalem-festival-of-light|jerusalem-first-station-guide|jerusalem-food-guide|jerusalem-light-rail-guide|jerusalem-mount-zion-guide|jerusalem-museums|jerusalem-neighborhoods-guide|jerusalem-nightlife|jerusalem-pilgrimage-road|jerusalem-ramparts-walk|jerusalem-trail|jewish-quarter-jerusalem-guide|layover-jerusalem|mount-of-olives-guide|museum-of-tolerance-jerusalem|schottenstein-campus-jerusalem|sukkot-in-jerusalem|tel-aviv-to-jerusalem|tel-aviv-vs-jerusalem|western-wall-guide|western-wall-tunnels-guide|yad-vashem-visitor-guide)",
+      "destination": "/jerusalem",
+      "permanent": true
+    },
+    {
+      "source": "/:old(aqaba-from-eilat|eilat-beach-guide|eilat-chamber-music-festival|eilat-diving-snorkeling|eilat-dolphin-reef-guide|eilat-hotels-guide|eilat-nightlife|eilat-ramon-airport-guide|eilat-snorkeling-guide|eilat-travel-guide|eilat-vs-aqaba|fattal-rock-festival-eilat|petra-from-eilat-vs-amman|petra-from-israel|petra-wadi-rum-from-eilat|red-canyon-eilat|red-sea-guitar-festival-eilat|red-sea-jazz-festival-eilat|terminal-park-eilat|timna-park-guide)",
+      "destination": "/eilat",
+      "permanent": true
+    },
+    {
+      "source": "/:old(arad-festival-guide|arava-mountain-biking|beer-sheva-guide|best-hotels-negev|luxury-arava-desert|mitzpe-ramon-guide|negev-highway-40-guide|negev-incense-route|negev-makhtesh-guide|negev-multi-day-hiking|negev-wine-guide|sde-boker-ein-avdat-guide|tel-arad-guide)",
+      "destination": "/negev",
+      "permanent": true
+    },
+    {
+      "source": "/:old(ashdod-cruise-port-excursions|cruise-shore-excursions-israel|day-trips-from-haifa|haifa-shore-excursions|haifa-tours-compared|israel-cruise-excursion-planner|tel-aviv-tours-compared)",
+      "destination": "/day-trips-from-tel-aviv",
+      "permanent": true
+    },
+    {
+      "source": "/:old(bein-harim-vs-abraham-tours|best-holy-land-tours|best-tours-in-israel|bethlehem-tours-compared|day-trips-from-eilat|day-trips-from-jerusalem|eilat-tours-compared|galilee-tours-compared|golan-heights-tours-compared|guided-vs-self-guided-israel|how-to-hire-licensed-tour-guide-israel|israel-agritourism-guide|israel-culinary-heritage-tourism|israel-film-tv-tourism|israel-food-tours-cooking-classes|israel-medical-tourism|israel-photography-tours|israel-small-group-tours|israel-tour-operators-guide|israel-tour-packages|jericho-day-trip-from-jerusalem|jerusalem-bethlehem-day-trip|jerusalem-old-city-walking-tour|nazareth-sea-of-galilee-day-trip|nazareth-tours-compared|negev-jeep-tours|negev-tours-compared|petra-tours-compared|private-tours-israel|sea-of-galilee-boat-tour)",
+      "destination": "/jerusalem-tours-compared",
+      "permanent": true
+    },
+    {
+      "source": "/:old(best-hotels-nazareth|best-hotels-sea-of-galilee|best-hotels-tiberias|christmas-in-nazareth|galilee-christian-sites-circuit|galilee-culinary-institute-gonen|galilee-food-guide|galilee-vs-golan-weekend|galilee-wine-trail|golan-heights-guide|golan-heights-hiking-trails|golan-heights-wineries|jordan-river-baptism|mount-hermon-skiing|nazareth-travel-guide|olive-harvest-galilee-guide|sea-of-galilee-beaches|sea-of-galilee-guide|tiberias-guide|valley-of-tears-golan|western-galilee-guide)",
+      "destination": "/galilee",
+      "permanent": true
+    },
+    {
+      "source": "/:old(border-crossings|israel-eta-guide|israel-visa-eta-checker|israel-visa-extension|israel-working-holiday-visa|israeli-passport-stamp)",
+      "destination": "/visa-information",
+      "permanent": true
+    },
+    {
+      "source": "/:old(christmas-in-israel|darom-adom-festival|hanukkah-in-israel|israel-events-festivals|israel-food-festivals|israel-golden-hour|israel-holiday-planner|israel-in-april|israel-in-august|israel-in-december|israel-in-february|israel-in-january|israel-in-july|israel-in-june|israel-in-march|israel-in-may|israel-in-november|israel-in-october|israel-in-september|israel-music-festivals|israel-ramadan-guide|israel-season-picker|israel-shabbat-calendar|israel-shabbat-countdown|israel-spring-wildflowers|israel-weather-packing|jacob-ladder-festival|lag-baomer-israel|passover-in-israel|purim-in-israel|rosh-hashanah-in-israel|shavuot-in-israel|sukkot-in-israel|traveling-israel-jewish-holidays|yom-haatzmaut-guide|yom-kippur-in-israel)",
+      "destination": "/best-time-to-visit-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:old(competitors|content-library|dashboard|pitch)",
+      "destination": "/",
+      "permanent": true
+    },
+    {
+      "source": "/:old(dead-sea-day-trip-comparison|dead-sea-medical-tourism|masada-dead-sea-day-trip|masada-tours-compared)",
+      "destination": "/dead-sea-tours-compared",
+      "permanent": true
+    },
+    {
+      "source": "/:old(dead-sea-guide|dead-sea-israel-vs-jordan|dead-sea-vs-eilat|ein-gedi-guide|masada-visitor-guide|qumran-guide|tamar-festival-dead-sea)",
+      "destination": "/dead-sea",
+      "permanent": true
+    },
+    {
+      "source": "/:old(driving-in-israel|druze-villages-carmel|israel-best-scenic-drives|israel-car-rental-comparison|israel-car-rental-quiz|israel-ev-road-trip|israel-road-trip|northern-israel-road-trip|tel-aviv-carmel-market)",
+      "destination": "/car-rental-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:old(gay-tel-aviv|hayarkon-park-tel-aviv|jaffa-flea-market-guide|jaffa-food-guide|jaffa-travel-guide|kerem-hateimanim-tel-aviv|layover-tel-aviv|nahalat-binyamin-market-tel-aviv|neve-tzedek-guide|sarona-market-tel-aviv|skyfield-extreme-park-jaffa|sukkot-in-tel-aviv|tel-aviv-bachelorette|tel-aviv-beach-guide|tel-aviv-coffee-guide|tel-aviv-food-guide|tel-aviv-light-rail|tel-aviv-museums|tel-aviv-neighborhoods-guide|tel-aviv-nightlife|tel-aviv-pride-guide|tel-aviv-street-art|tel-aviv-things-to-do|tel-aviv-white-city)",
+      "destination": "/tel-aviv",
+      "permanent": true
+    },
+    {
+      "source": "/:old(hotels-near-ben-gurion-airport|israel-accommodation-guide|israel-zimmer-guide|kibbutz-hotels-israel|new-luxury-hotels-israel-2026)",
+      "destination": "/best-hotels-jerusalem",
+      "permanent": true
+    },
+    {
+      "source": "/:old(jaffa-hotels-guide)",
+      "destination": "/best-hotels-tel-aviv",
+      "permanent": true
+    },
+    {
+      "source": "/:old(safed-tzfat-guide)",
+      "destination": "/is-israel-safe",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(1-day-jerusalem-itinerary|1-day-tel-aviv-itinerary|3-days-in-eilat|3-days-in-galilee|3-days-in-haifa|3-days-in-israel|3-days-in-negev|3-days-in-tel-aviv|egypt-jordan-israel-itinerary|israel-5-vs-7-vs-10-days|israel-jordan-itinerary|south-israel-itinerary)",
+      "destination": "/:lang/itineraries/7-days-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(air-haifa-haifa-airport-guide|akko-acre-guide|bahai-world-center-guide|best-hotels-haifa|best-hotels-netanya|caesarea-concerts-events|caesarea-guide|haifa-cruise-terminal-guide|haifa-food-guide|haifa-neighborhoods-guide|haifa-travel-guide|netanya-guide|rosh-hanikra-guide|yam-caesarea-guide|zichron-yaakov-guide)",
+      "destination": "/:lang/haifa",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(airlines-flying-israel-2026|anu-museum-guide|ashkelon-guide|atlit-detainee-camp-guide|backpacking-israel|bar-bat-mitzvah-israel|bedouin-experience-israel|beit-alfa-guide|beit-guvrin-caves-guide|beit-shean-guide|beit-shearim-guide|belvoir-fortress|ben-gurion-airport-guide|ben-gurion-airport-transfers|best-beaches-israel|binyamina-guide|birdwatching-in-israel|cheap-flights-to-israel|christian-pilgrimage-holy-land|church-holy-sepulchre-guide|church-of-nativity-guide|cycling-in-israel|design-museum-holon|digital-nomad-israel|free-things-to-do-israel|gamla-nature-reserve-guide|gan-hashlosha-guide|getyourguide-vs-viator-israel|glamping-israel|hai-bar-yotvata-guide|herodion-guide|herzliya-guide|hiking-in-israel|holy-sites-dress-code-etiquette|israel-accessible-travel|israel-adventure-sports|israel-affordable-luxury|israel-after-birthright|israel-anzac-heritage|israel-archaeology-experience|israel-base-city-guide|israel-biblical-highway|israel-business-travel-guide|israel-by-month|israel-campervan|israel-cost-budget|israel-craft-beer|israel-craft-spirits|israel-diamonds-jewelry|israel-egypt-guide|israel-esim|israel-evening-activities|israel-fine-dining|israel-for-american-travelers|israel-for-argentinian-travelers|israel-for-british-travelers|israel-for-chinese-travelers|israel-for-czech-travelers|israel-for-filipino-travelers|israel-for-french-travelers|israel-for-german-travelers|israel-for-gulf-travelers|israel-for-indian-travelers|israel-for-irish-travelers|israel-for-italian-travelers|israel-for-korean-travelers|israel-for-nordic-travelers|israel-for-portuguese-travelers|israel-for-russian-speaking-travelers|israel-for-seniors|israel-for-serbian-travelers|israel-for-south-african-travelers|israel-for-spanish-travelers|israel-for-swiss-travelers|israel-gluten-free-guide|israel-group-travel|israel-hebrew-phrases|israel-hidden-gems|israel-homeport-cruise|israel-honeymoon|israel-horseback-riding|israel-hummus-trail|israel-in-autumn|israel-in-spring|israel-in-summer|israel-in-winter|israel-kayaking|israel-mediterranean-cruise-guide|israel-military-heritage|israel-money-guide|israel-national-bike-trail|israel-national-parks-pass|israel-national-trail-hiking|israel-orthodox-jewish-travel|israel-packing-list-guide|israel-paragliding-guide|israel-photography-guide|israel-points-miles-guide|israel-power-plug|israel-rainy-day-activities|israel-rooftop-bars|israel-stargazing|israel-surfing|israel-thermal-springs|israel-travel-2026|israel-travel-apps|israel-travel-insurance|israel-travel-tips|israel-trip-cost-by-style|israel-unesco-sites|israel-vat-refund|israel-vs-albania|israel-vs-cyprus|israel-vs-egypt|israel-vs-france|israel-vs-greece|israel-vs-italy|israel-vs-jordan|israel-vs-portugal|israel-vs-spain|israel-vs-turkey|israel-water-parks|israel-wellness-spa|israel-wine-wineries|israel-with-kids|israel-with-teenagers|israel-yoga-retreats|israeli-breakfast-guide|israeli-food-cuisine-guide|israeli-street-food-guide|jesus-trail-israel|jewish-genealogy-israel-trip|jewish-heritage-israel|jordan-pass-guide|judean-hills-wine-trail|keshet-cave-guide|kosher-food-guide|latrun-guide|lgbtq-travel-israel|luxury-travel-israel|maccabiah-games-2026|mahane-yehuda-market-guide|megiddo-jezreel-valley-guide|mount-tabor-guide|muslim-travel-israel|nahal-alexander-guide|nahal-pratzim-guide)",
+      "destination": "/:lang/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(national-library-israel|nativity-trail-guide|nimrod-fortress-guide|palmahim-beach-guide|pet-friendly-israel|rav-kav-israel|rosh-pina-guide|shabbat-dinner-experience|shabbat-guide|shopping-in-israel|solo-female-travel-israel|solo-travel-israel|soreq-cave-guide|sports-events-israel|sustainable-travel-israel|tabgha-church-guide|tel-afek-guide|tel-gezer-guide|tel-megiddo-guide|temple-mount-visitor-guide|tower-of-david-guide|transportation|valley-of-elah-guide|vegan-vegetarian-israel|via-dolorosa-guide|via-ferrata-israel|wadi-qelt-monastery-guide|water-hiking-israel|wedding-in-israel|whats-open-on-shabbat|yam-lyam-sea-to-sea-hike|zionist-heritage-trail|zippori-sepphoris-guide)",
+      "destination": "/:lang/first-time-in-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(ammunition-hill-jerusalem|bethlehem-travel-guide|city-of-david-jerusalem|easter-in-jerusalem|ein-kerem-jerusalem-guide|israel-museum-jerusalem|jerusalem-armenian-quarter|jerusalem-coffee-guide|jerusalem-festival-of-light|jerusalem-first-station-guide|jerusalem-food-guide|jerusalem-light-rail-guide|jerusalem-mount-zion-guide|jerusalem-museums|jerusalem-neighborhoods-guide|jerusalem-nightlife|jerusalem-pilgrimage-road|jerusalem-trail|jewish-quarter-jerusalem-guide|layover-jerusalem|mount-of-olives-guide|museum-of-tolerance-jerusalem|schottenstein-campus-jerusalem|tel-aviv-to-jerusalem|tel-aviv-vs-jerusalem|western-wall-guide|western-wall-tunnels-guide|yad-vashem-visitor-guide)",
+      "destination": "/:lang/jerusalem",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(aqaba-from-eilat|eilat-beach-guide|eilat-diving-snorkeling|eilat-dolphin-reef-guide|eilat-hotels-guide|eilat-nightlife|eilat-ramon-airport-guide|eilat-snorkeling-guide|eilat-travel-guide|eilat-vs-aqaba|petra-from-eilat-vs-amman|petra-from-israel|petra-wadi-rum-from-eilat|red-canyon-eilat|terminal-park-eilat|timna-park-guide)",
+      "destination": "/:lang/eilat",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(arava-mountain-biking|beer-sheva-guide|best-hotels-negev|luxury-arava-desert|mitzpe-ramon-guide|negev-highway-40-guide|negev-incense-route|negev-makhtesh-guide|negev-multi-day-hiking|sde-boker-ein-avdat-guide|tel-arad-guide)",
+      "destination": "/:lang/negev",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(ashdod-cruise-port-excursions|cruise-shore-excursions-israel|day-trips-from-haifa|haifa-shore-excursions|haifa-tours-compared|tel-aviv-tours-compared)",
+      "destination": "/:lang/day-trips-from-tel-aviv",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(best-holy-land-tours|best-tours-in-israel|bethlehem-tours-compared|day-trips-from-eilat|day-trips-from-jerusalem|eilat-tours-compared|galilee-tours-compared|golan-heights-tours-compared|guided-vs-self-guided-israel|how-to-hire-licensed-tour-guide-israel|israel-agritourism-guide|israel-culinary-heritage-tourism|israel-film-tv-tourism|israel-food-tours-cooking-classes|israel-medical-tourism|israel-photography-tours|israel-small-group-tours|israel-tour-operators-guide|israel-tour-packages|jericho-day-trip-from-jerusalem|jerusalem-bethlehem-day-trip|jerusalem-old-city-walking-tour|nazareth-sea-of-galilee-day-trip|nazareth-tours-compared|negev-jeep-tours|negev-tours-compared|petra-tours-compared|private-tours-israel|sea-of-galilee-boat-tour)",
+      "destination": "/:lang/jerusalem-tours-compared",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(best-hotels-nazareth|best-hotels-sea-of-galilee|best-hotels-tiberias|galilee-christian-sites-circuit|galilee-culinary-institute-gonen|galilee-food-guide|galilee-vs-golan-weekend|galilee-wine-trail|golan-heights-guide|golan-heights-hiking-trails|golan-heights-wineries|jordan-river-baptism|mount-hermon-skiing|nazareth-travel-guide|sea-of-galilee-beaches|sea-of-galilee-guide|tiberias-guide|valley-of-tears-golan|western-galilee-guide)",
+      "destination": "/:lang/galilee",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(border-crossings|israel-eta-guide|israel-visa-extension|israeli-passport-stamp)",
+      "destination": "/:lang/visa-information",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(christmas-in-israel|israel-events-festivals|israel-food-festivals|israel-in-april|israel-in-december|israel-in-february|israel-in-january|israel-in-july|israel-in-june|israel-in-march|israel-in-may|israel-in-november|israel-in-october|israel-in-september|israel-music-festivals|israel-ramadan-guide|israel-spring-wildflowers|lag-baomer-israel|passover-in-israel|purim-in-israel|rosh-hashanah-in-israel|sukkot-in-israel|traveling-israel-jewish-holidays|yom-haatzmaut-guide|yom-kippur-in-israel)",
+      "destination": "/:lang/best-time-to-visit-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(dead-sea-day-trip-comparison|dead-sea-medical-tourism|masada-dead-sea-day-trip|masada-tours-compared)",
+      "destination": "/:lang/dead-sea-tours-compared",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(dead-sea-guide|dead-sea-israel-vs-jordan|dead-sea-vs-eilat|ein-gedi-guide|masada-visitor-guide|qumran-guide)",
+      "destination": "/:lang/dead-sea",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(driving-in-israel|druze-villages-carmel|israel-best-scenic-drives|israel-car-rental-comparison|israel-road-trip|northern-israel-road-trip|tel-aviv-carmel-market)",
+      "destination": "/:lang/car-rental-israel",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(hayarkon-park-tel-aviv|jaffa-food-guide|jaffa-travel-guide|kerem-hateimanim-tel-aviv|layover-tel-aviv|nahalat-binyamin-market-tel-aviv|neve-tzedek-guide|sarona-market-tel-aviv|skyfield-extreme-park-jaffa|tel-aviv-bachelorette|tel-aviv-beach-guide|tel-aviv-coffee-guide|tel-aviv-food-guide|tel-aviv-light-rail|tel-aviv-museums|tel-aviv-neighborhoods-guide|tel-aviv-nightlife|tel-aviv-pride-guide|tel-aviv-street-art|tel-aviv-things-to-do|tel-aviv-white-city)",
+      "destination": "/:lang/tel-aviv",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(hotels-near-ben-gurion-airport|israel-accommodation-guide|israel-zimmer-guide|kibbutz-hotels-israel|new-luxury-hotels-israel-2026)",
+      "destination": "/:lang/best-hotels-jerusalem",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(jaffa-hotels-guide)",
+      "destination": "/:lang/best-hotels-tel-aviv",
+      "permanent": true
+    },
+    {
+      "source": "/:lang(fr|de|es)/:old(safed-tzfat-guide)",
+      "destination": "/:lang/is-israel-safe",
+      "permanent": true
     }
   ]
 }

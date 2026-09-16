@@ -38,7 +38,6 @@ faqs:
   - question: "Sind Eintrittspreise und Hotelabholung in geführten Touren enthalten?"
     answer: "Die meisten Gruppentouren ab Jerusalem oder Tel Aviv beinhalten Hotelabholung, Transport und Zugang zum designierten Strandbereich des Reiseveranstalters. Eintrittsgebühren für den öffentlichen Ein-Bokek-Strandbereich sind im Allgemeinen enthalten; privater Resort-Strandzugang (mit besseren Einrichtungen) kostet extra und variiert je nach Hotel. Masada-Seilbahngebühren und Nationalparkgebühren sind typischerweise in Masada-Kombotouren enthalten — beim Buchen bestätigen."
 ---
-
 Das Tote Meer ist Israels ikonischstes Naturerlebnis — effortlos schwimmen in einem Wasser, das zehnmal salziger ist als der Ozean, am tiefsten Punkt der Erde. Aber die angebotenen Tourformate sind tatsächlich sehr unterschiedliche Produkte. Hier ist ein ehrlicher Vergleich der einzelnen Formate, was sie kosten und wie man wählt.
 
 ## Totes-Meer-Touren im Vergleich
@@ -67,7 +66,7 @@ Das meistverkaufte Format für Erstbesucher. Ein Bus holt Sie ab Jerusalem oder 
 
 Die Sonnenaufgangsversion ergänzt den Schlangenweg-Aufstieg in der Dunkelheit mit einer Abholung um 3–4 Uhr morgens, wobei der Masada-Gipfel bei Sonnenaufgang über Jordanien erreicht wird. Es ist dramatisch und den frühen Start wert, wenn man körperlich komfortabel mit dem Aufstieg ist. Die Tages-Seilbahnversion fährt um 7–8 Uhr ab und deckt die gleichen Sehenswürdigkeiten ohne den Frühaufsteher-Alarm ab.
 
-Für eine tiefere Aufschlüsselung der Masada-Formate den [Masada-Touren-Vergleich](/de/masada-tours-compared) lesen.
+Für eine tiefere Aufschlüsselung der Masada-Formate den Masada-Touren-Vergleich lesen.
 
 **Dieses Format wählen, wenn:** es der erste Besuch in der Region ist und Masada und das Tote Meer effizient an einem Tag abgehakt werden sollen.
 
@@ -75,11 +74,11 @@ Für eine tiefere Aufschlüsselung der Masada-Formate den [Masada-Touren-Verglei
 
 Ein Bokek ist mit dem Auto problemlos zu erreichen: Route 1 ostwärts ab Jerusalem bis zum Toten-Meer-Abzweig, dann Route 90 südwärts. Die Fahrt dauert ab Jerusalem etwa 90 Minuten, ab Tel Aviv etwa 100 Minuten. Am öffentlichen Ein-Bokek-Strand parken (kostenlos) oder die Tagespauschale in einem Resort-Hotel zahlen für bessere Einrichtungen, einen privaten Strand und einen Pool.
 
-Die Selbstfahrt gibt totale Flexibilität: anreisen wann man möchte, abfahren wann man möchte, und mit einem Stopp in [Qumran](/qumran-guide) (der Fundstätte der Toten-Meer-Schriften, 30 Minuten nördlich auf Route 90) oder Wanderungen in den [Ein-Gedi-Canyons](/dead-sea/ein-gedi) vor dem Float verbinden — weder Qumran noch Ein Gedi sind in einer Standard-Gruppenreise zugänglich.
+Die Selbstfahrt gibt totale Flexibilität: anreisen wann man möchte, abfahren wann man möchte, und mit einem Stopp in [Qumran](/de/dead-sea) (der Fundstätte der Toten-Meer-Schriften, 30 Minuten nördlich auf Route 90) oder Wanderungen in den [Ein-Gedi-Canyons](/de/dead-sea) vor dem Float verbinden — weder Qumran noch Ein Gedi sind in einer Standard-Gruppenreise zugänglich.
 
-Der [Israel-Nationalpark-Pass](/de/israel-national-parks-pass) gilt für Qumran und das Ein-Gedi-Naturschutzgebiet (zum Wandern). Hinweis: Der öffentliche **Ein-Gedi-Strand** ist wegen Einsturzgefahr dauerhaft geschlossen.
+Der Israel-Nationalpark-Pass gilt für Qumran und das Ein-Gedi-Naturschutzgebiet (zum Wandern). Hinweis: Der öffentliche **Ein-Gedi-Strand** ist wegen Einsturzgefahr dauerhaft geschlossen.
 
-Für Fahrlogistik den [Fahren-in-Israel-Führer](/de/driving-in-israel) und den [Mietwagen-Führer](/de/car-rental-israel) lesen.
+Für Fahrlogistik den [Fahren-in-Israel-Führer](/de/car-rental-israel) und den [Mietwagen-Führer](/de/car-rental-israel) lesen.
 
 **Dieses Format wählen, wenn:** man einen Mietwagen hat und Flexibilität über Tourstruktur schätzt.
 
@@ -87,7 +86,7 @@ Für Fahrlogistik den [Fahren-in-Israel-Führer](/de/driving-in-israel) und den 
 
 Ein lizenzierter Privatführer verwandelt den Tag in ein vollständig maßgeschneidertes Erlebnis: Startzeit und Kombination der Stopps selbst wählen — Qumran, Ein-Gedi-Canyon, Masada, Float, Nachmittag in einem Resort-Spa. Ein Privattag kostet typischerweise **$300–450** für Führer und Fahrzeug (auf die Gruppe aufgeteilt), und ist besonders lohnenswert für Familien oder kleine Gruppen.
 
-Wie man einen lizenzierten israelischen Tourismus-Ministerium-Guide findet: den [Privattouren-Führer](/private-tours-israel) (englisch) lesen.
+Wie man einen lizenzierten israelischen Tourismus-Ministerium-Guide findet: den [Privattouren-Führer](/de/jerusalem-tours-compared) (englisch) lesen.
 
 ## Ein Bokek: was am Ufer erwartet wird
 
@@ -98,7 +97,6 @@ Resort-Hotels erlauben es Tagesbesuchern, Strand-und-Pool-Pässe zu kaufen (Prei
 Für spezifische Hotelempfehlungen und Übernachtungen den [Totes-Meer-Hotels-Führer](/de/dead-sea-hotels-guide) lesen.
 
 ---
-
 ## Das Float: was zu erwarten ist
 
 Das Tote Meer enthält etwa 34 % Salz — verglichen mit etwa 3,5 % in normalen Meeren. Diese extreme Konzentration macht es unmöglich zu sinken: Man treibt effortlos an der Oberfläche, ohne zu schwimmen oder mit den Armen zu paddeln.
@@ -113,13 +111,12 @@ Das Tote Meer enthält etwa 34 % Salz — verglichen mit etwa 3,5 % in normalen 
 Nach dem Float sorgfältig mit Süßwasser abspülen; Süßwasserduschen sind an jedem Strand verfügbar.
 
 ---
-
 ## Weiterführende Links
 
-- [Totes-Meer-Reiseführer](/de/dead-sea-guide) — vollständige Einführung in das Tote Meer
+- [Totes-Meer-Reiseführer](/de/dead-sea) — vollständige Einführung in das Tote Meer
 - [Totes-Meer-Hotels-Führer](/de/dead-sea-hotels-guide) — Ein-Bokek-Resort-Optionen für Übernachtungen
-- [Masada-Besucher-Führer](/de/masada-visitor-guide) — vollständige Masada-Informationen
-- [Masada-Touren verglichen](/de/masada-tours-compared) — Sonnenaufgang vs. Seilbahn vs. Privattouren
-- [Totes Meer oder Eilat?](/de/dead-sea-vs-eilat) — Direktvergleich beider Reiseziele
-- [Israel Nationalpark-Pass](/de/israel-national-parks-pass) — spart bei Qumran + Ein Gedi
-- [Totes-Meer-Medizintourismus](/de/dead-sea-medical-tourism) — UVB-Klimatherapie und Psoriasis-Behandlungen
+- [Masada-Besucher-Führer](/de/dead-sea) — vollständige Masada-Informationen
+- Masada-Touren verglichen — Sonnenaufgang vs. Seilbahn vs. Privattouren
+- [Totes Meer oder Eilat?](/de/dead-sea) — Direktvergleich beider Reiseziele
+- Israel Nationalpark-Pass — spart bei Qumran + Ein Gedi
+- Totes-Meer-Medizintourismus — UVB-Klimatherapie und Psoriasis-Behandlungen

@@ -4,7 +4,6 @@ title: Accessibility Statement
 description: 'VisitIsrael.site aims to meet WCAG 2.1 AA. Our accessibility features, known limitations, and how to report an accessibility problem.'
 updatedAt: 2026-05-27
 ---
-
 **VisitIsrael.site** is committed to being usable by everyone, and we aim to meet the **Web Content Accessibility Guidelines (WCAG) 2.1 Level AA**.
 
 ## What we do

@@ -1,15 +1,40 @@
 ---
 import { REGIONS } from '@/data/regions';
-import { getLocaleFromPath, useTranslations } from '@/i18n/ui';
+import { getLocaleFromPath, localePrefix, useTranslations, PAGE_GROUPS } from '@/i18n/ui';
 export interface Props {
   year: number;
 }
 const { year } = Astro.props;
-const t = useTranslations(getLocaleFromPath(Astro.url.pathname));
+const locale = getLocaleFromPath(Astro.url.pathname);
+const t = useTranslations(locale);
+const prefix = localePrefix(locale);
+
+const planning = [
+  ...PAGE_GROUPS.practical.map((p) => ({ href: `${prefix}/${p.slug}`, label: t(p.key) })),
+  { href: `${prefix}/itineraries`, label: t('nav.itineraries') },
+];
+const stayTours = [...PAGE_GROUPS.stay, ...PAGE_GROUPS.tours].map((p) => ({
+  href: `${prefix}/${p.slug}`,
+  label: t(p.key),
+}));
+// Legal pages are English-only.
+const about = [
+  { href: '/about', label: 'About us' },
+  { href: '/contact', label: 'Contact' },
+  { href: '/affiliate-disclosure', label: 'Affiliate disclosure' },
+  { href: '/privacy', label: 'Privacy' },
+  { href: '/accessibility-statement', label: 'Accessibility' },
+];
+const columns = [
+  { heading: t('nav.regions'), links: REGIONS.map((r) => ({ href: `${prefix}/${r.slug}`, label: r.name })) },
+  { heading: t('footer.planning'), links: planning },
+  { heading: t('footer.stayTours'), links: stayTours },
+  { heading: t('footer.about'), links: about },
+];
 ---
 
 <footer class="mt-20 border-t border-border bg-sand-deep">
-  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:grid-cols-2 lg:grid-cols-6">
+  <div class="mx-auto grid max-w-6xl gap-8 px-4 py-12 sm:grid-cols-2 lg:grid-cols-5">
     <div>
       <p class="font-display text-lg font-bold text-ink">
         Visit<span class="text-primary">Israel</span>
@@ -17,253 +42,22 @@ const t = useTranslations(getLocaleFromPath(Astro.url.pathname));
       <p class="mt-2 text-sm text-ink-muted">{t('footer.tagline')}</p>
     </div>
 
-    <div>
-      <h2 class="text-sm font-bold uppercase tracking-wide text-ink">{t('nav.regions')}</h2>
-      <ul class="mt-3 space-y-1.5">
-        {
-          REGIONS.slice(0, 6).map((r) => (
-            <li>
-              <a
-                href={`/${r.slug}`}
-                class="text-sm text-ink-muted no-underline hover:text-primary"
-              >
-                {r.name}
-              </a>
-            </li>
-          ))
-        }
-      </ul>
-    </div>
-
-    <div>
-      <h2 class="text-sm font-bold uppercase tracking-wide text-ink">{t('nav.planShort')}</h2>
-      <ul class="mt-3 space-y-1.5">
-        <li><a href="/itineraries" class="text-sm text-ink-muted no-underline hover:text-primary">Itineraries</a></li>
-        <li><a href="/build-your-trip" class="text-sm text-ink-muted no-underline hover:text-primary">Build your trip</a></li>
-        <li><a href="/plan-your-trip" class="text-sm text-ink-muted no-underline hover:text-primary">Plan your trip</a></li>
-        <li><a href="/first-time-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">First time in Israel</a></li>
-        <li><a href="/israel-travel-2026" class="text-sm text-ink-muted no-underline hover:text-primary">Israel travel 2026: what&apos;s new</a></li>
-        <li><a href="/israel-business-travel-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Business travel guide</a></li>
-        <li><a href="/israel-travel-tips" class="text-sm text-ink-muted no-underline hover:text-primary">20 things to know</a></li>
-        <li><a href="/israel-cost-budget" class="text-sm text-ink-muted no-underline hover:text-primary">Cost &amp; budget</a></li>
-        <li><a href="/israel-trip-cost-calculator" class="text-sm text-ink-muted no-underline hover:text-primary">Cost calculator</a></li>
-        <li><a href="/israel-distance-calculator" class="text-sm text-ink-muted no-underline hover:text-primary">Distance calculator</a></li>
-        <li><a href="/israel-travel-time" class="text-sm text-ink-muted no-underline hover:text-primary">Travel time calculator</a></li>
-        <li><a href="/israel-transport-cost-estimator" class="text-sm text-ink-muted no-underline hover:text-primary">Transport cost estimator</a></li>
-        <li><a href="/israel-how-many-days" class="text-sm text-ink-muted no-underline hover:text-primary">How many days?</a></li>
-        <li><a href="/israel-tipping-currency" class="text-sm text-ink-muted no-underline hover:text-primary">Currency &amp; tipping</a></li>
-        <li><a href="/israel-packing-list" class="text-sm text-ink-muted no-underline hover:text-primary">Packing list</a></li>
-        <li><a href="/israel-packing-list-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Packing guide (what to bring)</a></li>
-        <li><a href="/israel-hebrew-phrases" class="text-sm text-ink-muted no-underline hover:text-primary">Hebrew phrases</a></li>
-        <li><a href="/israel-weather-packing" class="text-sm text-ink-muted no-underline hover:text-primary">Weather &amp; packing</a></li>
-        <li><a href="/which-israel-region-quiz" class="text-sm text-ink-muted no-underline hover:text-primary">Which region quiz</a></li>
-        <li><a href="/israel-experience-finder" class="text-sm text-ink-muted no-underline hover:text-primary">What type of traveler am I?</a></li>
-        <li><a href="/israel-map" class="text-sm text-ink-muted no-underline hover:text-primary">Travel map</a></li>
-        <li><a href="/israel-base-city-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Which city to base in</a></li>
-        <li><a href="/where-to-stay/jerusalem" class="text-sm text-ink-muted no-underline hover:text-primary">Where to stay: Jerusalem</a></li>
-        <li><a href="/where-to-stay/tel-aviv" class="text-sm text-ink-muted no-underline hover:text-primary">Where to stay: Tel Aviv</a></li>
-        <li><a href="/tel-aviv-neighborhoods-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv neighborhoods guide</a></li>
-        <li><a href="/where-to-stay/dead-sea" class="text-sm text-ink-muted no-underline hover:text-primary">Where to stay: Dead Sea</a></li>
-        <li><a href="/ben-gurion-airport-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Ben Gurion Airport guide</a></li>
-        <li><a href="/ben-gurion-airport-transfers" class="text-sm text-ink-muted no-underline hover:text-primary">Airport transfers</a></li>
-        <li><a href="/israel-vat-refund" class="text-sm text-ink-muted no-underline hover:text-primary">VAT refund for tourists</a></li>
-        <li><a href="/layover-tel-aviv" class="text-sm text-ink-muted no-underline hover:text-primary">Layover in Tel Aviv</a></li>
-        <li><a href="/transportation" class="text-sm text-ink-muted no-underline hover:text-primary">Getting around</a></li>
-        <li><a href="/tel-aviv-light-rail" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv Light Rail</a></li>
-        <li><a href="/driving-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Driving in Israel</a></li>
-        <li><a href="/car-rental-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Car rental</a></li>
-        <li><a href="/israel-best-scenic-drives" class="text-sm text-ink-muted no-underline hover:text-primary">Best scenic drives in Israel</a></li>
-        <li><a href="/3-days-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">3-day Israel essential itinerary</a></li>
-        <li><a href="/israel-road-trip" class="text-sm text-ink-muted no-underline hover:text-primary">7-day road trip itinerary</a></li>
-        <li><a href="/northern-israel-road-trip" class="text-sm text-ink-muted no-underline hover:text-primary">Northern Israel 3–4 day circuit</a></li>
-        <li><a href="/tel-aviv-to-jerusalem" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv → Jerusalem</a></li>
-        <li><a href="/transport/jerusalem-to-dead-sea" class="text-sm text-ink-muted no-underline hover:text-primary">Jerusalem → Dead Sea</a></li>
-        <li><a href="/transport/tel-aviv-to-haifa" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv → Haifa</a></li>
-        <li><a href="/transport/tel-aviv-to-eilat" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv → Eilat</a></li>
-        <li><a href="/eilat-ramon-airport-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Eilat Ramon Airport guide</a></li>
-        <li><a href="/air-haifa-haifa-airport-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Haifa Airport & Air Haifa guide</a></li>
-        <li><a href="/transport/haifa-to-akko" class="text-sm text-ink-muted no-underline hover:text-primary">Haifa → Akko</a></li>
-        <li><a href="/transport/ben-gurion-to-jerusalem" class="text-sm text-ink-muted no-underline hover:text-primary">Airport → Jerusalem</a></li>
-        <li><a href="/transport/ben-gurion-to-tel-aviv" class="text-sm text-ink-muted no-underline hover:text-primary">Airport → Tel Aviv</a></li>
-        <li><a href="/transport/jerusalem-to-nazareth" class="text-sm text-ink-muted no-underline hover:text-primary">Jerusalem → Nazareth</a></li>
-        <li><a href="/israel-shabbat-calendar" class="text-sm text-ink-muted no-underline hover:text-primary">Shabbat &amp; holiday calendar</a></li>
-        <li><a href="/traveling-israel-jewish-holidays" class="text-sm text-ink-muted no-underline hover:text-primary">Traveling during Jewish holidays</a></li>
-        <li><a href="/rosh-hashanah-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Rosh Hashanah in Israel</a></li>
-        <li><a href="/passover-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Passover in Israel guide</a></li>
-        <li><a href="/purim-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Purim in Israel guide</a></li>
-        <li><a href="/israel-golden-hour" class="text-sm text-ink-muted no-underline hover:text-primary">Sunrise &amp; golden hour calculator</a></li>
-        <li><a href="/shabbat-dinner-experience" class="text-sm text-ink-muted no-underline hover:text-primary">Shabbat dinner for tourists</a></li>
-        <li><a href="/whats-open-on-shabbat" class="text-sm text-ink-muted no-underline hover:text-primary">What's open on Shabbat</a></li>
-        <li><a href="/is-israel-safe" class="text-sm text-ink-muted no-underline hover:text-primary">Is Israel safe?</a></li>
-        <li><a href="/israel-vs-turkey" class="text-sm text-ink-muted no-underline hover:text-primary">Israel vs Turkey: which to visit</a></li>
-        <li><a href="/israel-vs-albania" class="text-sm text-ink-muted no-underline hover:text-primary">Israel vs Albania: which to visit</a></li>
-        <li><a href="/visa-information" class="text-sm text-ink-muted no-underline hover:text-primary">Visa &amp; ETA-IL</a></li>
-        <li><a href="/israeli-passport-stamp" class="text-sm text-ink-muted no-underline hover:text-primary">Israeli passport stamp guide</a></li>
-        <li><a href="/israel-visa-eta-checker" class="text-sm text-ink-muted no-underline hover:text-primary">Visa &amp; ETA-IL checker</a></li>
-        <li><a href="/israel-season-picker" class="text-sm text-ink-muted no-underline hover:text-primary">Best time to visit — season picker</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h2 class="text-sm font-bold uppercase tracking-wide text-ink">{t('footer.dayTrips')}</h2>
-      <ul class="mt-3 space-y-1.5">
-        <li><a href="/masada-dead-sea-day-trip" class="text-sm text-ink-muted no-underline hover:text-primary">Masada &amp; Dead Sea</a></li>
-        <li><a href="/masada-visitor-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Masada: Snake Path &amp; cable car</a></li>
-        <li><a href="/jerusalem-bethlehem-day-trip" class="text-sm text-ink-muted no-underline hover:text-primary">Jerusalem &amp; Bethlehem</a></li>
-        <li><a href="/nazareth-sea-of-galilee-day-trip" class="text-sm text-ink-muted no-underline hover:text-primary">Nazareth &amp; Galilee</a></li>
-        <li><a href="/ein-kerem-jerusalem-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Ein Kerem village</a></li>
-        <li><a href="/jerusalem-mount-zion-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Mount Zion: Upper Room &amp; David's Tomb</a></li>
-        <li><a href="/christian-pilgrimage-holy-land" class="text-sm text-ink-muted no-underline hover:text-primary">Christian pilgrimage</a></li>
-        <li><a href="/best-holy-land-tours" class="text-sm text-ink-muted no-underline hover:text-primary">Best Holy Land tours</a></li>
-        <li><a href="/luxury-travel-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Luxury travel</a></li>
-        <li><a href="/jerusalem-tours-compared" class="text-sm text-ink-muted no-underline hover:text-primary">Jerusalem tours compared</a></li>
-        <li><a href="/cruise-shore-excursions-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Cruise shore excursions</a></li>
-        <li><a href="/ashdod-cruise-port-excursions" class="text-sm text-ink-muted no-underline hover:text-primary">Ashdod cruise port excursions</a></li>
-        <li><a href="/petra-from-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Petra from Israel</a></li>
-        <li><a href="/israel-jordan-itinerary" class="text-sm text-ink-muted no-underline hover:text-primary">Israel &amp; Jordan 10-day itinerary</a></li>
-        <li><a href="/petra-tours-compared" class="text-sm text-ink-muted no-underline hover:text-primary">Petra tours compared</a></li>
-        <li><a href="/eilat-tours-compared" class="text-sm text-ink-muted no-underline hover:text-primary">Eilat tours compared</a></li>
-        <li><a href="/dead-sea-tours-compared" class="text-sm text-ink-muted no-underline hover:text-primary">Dead Sea tours compared</a></li>
-        <li><a href="/negev-tours-compared" class="text-sm text-ink-muted no-underline hover:text-primary">Negev tours compared</a></li>
-        <li><a href="/nazareth-tours-compared" class="text-sm text-ink-muted no-underline hover:text-primary">Nazareth tours compared</a></li>
-        <li><a href="/eilat-nightlife" class="text-sm text-ink-muted no-underline hover:text-primary">Eilat nightlife</a></li>
-        <li><a href="/mount-of-olives-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Mount of Olives complete guide</a></li>
-        <li><a href="/city-of-david-jerusalem" class="text-sm text-ink-muted no-underline hover:text-primary">City of David &amp; Hezekiah's Tunnel</a></li>
-        <li><a href="/day-trips-from-jerusalem" class="text-sm text-ink-muted no-underline hover:text-primary">From Jerusalem</a></li>
-        <li><a href="/day-trips-from-tel-aviv" class="text-sm text-ink-muted no-underline hover:text-primary">From Tel Aviv</a></li>
-        <li><a href="/day-trips-from-haifa" class="text-sm text-ink-muted no-underline hover:text-primary">From Haifa</a></li>
-        <li><a href="/tel-afek-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Afek (Antipatris)</a></li>
-        <li><a href="/herzliya-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Herzliya guide</a></li>
-        <li><a href="/beer-sheva-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Beer-Sheva guide</a></li>
-        <li><a href="/soreq-cave-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Soreq (Avshalom) Stalactite Cave</a></li>
-        <li><a href="/tel-arad-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Arad ancient city</a></li>
-        <li><a href="/mitzpe-ramon-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Mitzpe Ramon crater guide</a></li>
-        <li><a href="/negev-makhtesh-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Makhtesh HaGadol &amp; HaKatan</a></li>
-        <li><a href="/sde-boker-ein-avdat-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Sde Boker &amp; Ein Avdat canyon</a></li>
-        <li><a href="/best-hotels-negev" class="text-sm text-ink-muted no-underline hover:text-primary">Where to stay: Mitzpe Ramon &amp; Negev</a></li>
-        <li><a href="/luxury-arava-desert" class="text-sm text-ink-muted no-underline hover:text-primary">Six Senses Shaharut &amp; Arava luxury</a></li>
-        <li><a href="/palmahim-beach-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Palmahim Beach National Park</a></li>
-        <li><a href="/nahal-alexander-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Nahal Alexander turtle reserve</a></li>
-        <li><a href="/beit-shearim-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Beit She'arim catacombs (UNESCO)</a></li>
-        <li><a href="/jewish-quarter-jerusalem-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Jewish Quarter Jerusalem — archaeological guide</a></li>
-        <li><a href="/western-wall-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Western Wall (Kotel) visitor guide</a></li>
-        <li><a href="/ammunition-hill-jerusalem" class="text-sm text-ink-muted no-underline hover:text-primary">Ammunition Hill — Six-Day War battlefield</a></li>
-        <li><a href="/israel-military-heritage" class="text-sm text-ink-muted no-underline hover:text-primary">Israel military heritage sites guide</a></li>
-        <li><a href="/megiddo-jezreel-valley-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Megiddo (Armageddon) — UNESCO visitor guide</a></li>
-        <li><a href="/beit-shean-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Beit She'an — Roman Scythopolis ruins</a></li>
-        <li><a href="/belvoir-fortress" class="text-sm text-ink-muted no-underline hover:text-primary">Belvoir Fortress — Crusader castle Jordan Valley</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h2 class="text-sm font-bold uppercase tracking-wide text-ink">{t('footer.essentials')}</h2>
-      <ul class="mt-3 space-y-1.5">
-        <li><a href="/best-things-to-do-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Best things to do</a></li>
-        <li><a href="/israel-evening-activities" class="text-sm text-ink-muted no-underline hover:text-primary">Evening activities</a></li>
-        <li><a href="/israel-rainy-day-activities" class="text-sm text-ink-muted no-underline hover:text-primary">Rainy day activities</a></li>
-        <li><a href="/israel-music-festivals" class="text-sm text-ink-muted no-underline hover:text-primary">Music &amp; arts festivals</a></li>
-        <li><a href="/caesarea-concerts-events" class="text-sm text-ink-muted no-underline hover:text-primary">Caesarea Roman Theatre concerts</a></li>
-        <li><a href="/jerusalem-festival-of-light" class="text-sm text-ink-muted no-underline hover:text-primary">Jerusalem Festival of Light</a></li>
-        <li><a href="/sports-events-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Spectator sports in Israel</a></li>
-        <li><a href="/israel-rooftop-bars" class="text-sm text-ink-muted no-underline hover:text-primary">Rooftop bars in Israel</a></li>
-        <li><a href="/israel-stargazing" class="text-sm text-ink-muted no-underline hover:text-primary">Stargazing in Israel</a></li>
-        <li><a href="/jewish-heritage-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Jewish heritage</a></li>
-        <li><a href="/zionist-heritage-trail" class="text-sm text-ink-muted no-underline hover:text-primary">Zionist heritage trail</a></li>
-        <li><a href="/israel-biblical-highway" class="text-sm text-ink-muted no-underline hover:text-primary">Biblical Highway Route 60</a></li>
-        <li><a href="/israel-unesco-sites" class="text-sm text-ink-muted no-underline hover:text-primary">UNESCO World Heritage Sites</a></li>
-        <li><a href="/bar-bat-mitzvah-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Bar &amp; bat mitzvah in Israel</a></li>
-        <li><a href="/israel-orthodox-jewish-travel" class="text-sm text-ink-muted no-underline hover:text-primary">Orthodox Jewish travel guide</a></li>
-        <li><a href="/best-tours-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Best tours</a></li>
-        <li><a href="/guided-vs-self-guided-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Guided vs self-guided Israel</a></li>
-        <li><a href="/israel-tour-operators-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Tour operators compared</a></li>
-        <li><a href="/israeli-food-cuisine-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Israeli food</a></li>
-        <li><a href="/israel-culinary-heritage-tourism" class="text-sm text-ink-muted no-underline hover:text-primary">Israeli culinary heritage</a></li>
-        <li><a href="/jerusalem-food-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Jerusalem food guide</a></li>
-        <li><a href="/jerusalem-first-station-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Jerusalem First Station guide</a></li>
-        <li><a href="/haifa-food-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Haifa food guide</a></li>
-        <li><a href="/israel-hummus-trail" class="text-sm text-ink-muted no-underline hover:text-primary">Israel hummus trail</a></li>
-        <li><a href="/israel-agritourism-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Israel farm picking &amp; agritourism</a></li>
-        <li><a href="/galilee-culinary-institute-gonen" class="text-sm text-ink-muted no-underline hover:text-primary">Galilee Culinary Institute (Kibbutz Gonen)</a></li>
-        <li><a href="/tel-aviv-carmel-market" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv Carmel Market</a></li>
-        <li><a href="/sarona-market-tel-aviv" class="text-sm text-ink-muted no-underline hover:text-primary">Sarona Market Tel Aviv</a></li>
-        <li><a href="/kerem-hateimanim-tel-aviv" class="text-sm text-ink-muted no-underline hover:text-primary">Kerem HaTeimanim (Yemenite Quarter)</a></li>
-        <li><a href="/neve-tzedek-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Neve Tzedek neighbourhood guide</a></li>
-        <li><a href="/tel-aviv-coffee-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv specialty coffee</a></li>
-        <li><a href="/jerusalem-coffee-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Jerusalem specialty coffee</a></li>
-        <li><a href="/israel-food-tours-cooking-classes" class="text-sm text-ink-muted no-underline hover:text-primary">Food tours &amp; cooking classes</a></li>
-        <li><a href="/israel-wine-wineries" class="text-sm text-ink-muted no-underline hover:text-primary">Wine &amp; wineries</a></li>
-        <li><a href="/judean-hills-wine-trail" class="text-sm text-ink-muted no-underline hover:text-primary">Judean Hills wine trail guide</a></li>
-        <li><a href="/golan-heights-wineries" class="text-sm text-ink-muted no-underline hover:text-primary">Golan Heights wineries guide</a></li>
-        <li><a href="/israel-restaurant-finder" class="text-sm text-ink-muted no-underline hover:text-primary">Kosher &amp; vegan restaurants</a></li>
-        <li><a href="/tel-aviv-beach-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv beach guide</a></li>
-        <li><a href="/eilat-diving-snorkeling" class="text-sm text-ink-muted no-underline hover:text-primary">Eilat diving</a></li>
-        <li><a href="/eilat-snorkeling-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Eilat snorkeling (no dive cert)</a></li>
-        <li><a href="/eilat-dolphin-reef-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Eilat Dolphin Reef visitor guide</a></li>
-        <li><a href="/eilat-vs-aqaba" class="text-sm text-ink-muted no-underline hover:text-primary">Eilat vs Aqaba: Red Sea comparison</a></li>
-        <li><a href="/holy-sites-dress-code-etiquette" class="text-sm text-ink-muted no-underline hover:text-primary">Dress code &amp; etiquette</a></li>
-        <li><a href="/israel-with-kids" class="text-sm text-ink-muted no-underline hover:text-primary">Israel with kids</a></li>
-        <li><a href="/israel-water-parks" class="text-sm text-ink-muted no-underline hover:text-primary">Water parks &amp; family fun</a></li>
-        <li><a href="/israel-for-seniors" class="text-sm text-ink-muted no-underline hover:text-primary">Israel for seniors</a></li>
-        <li><a href="/israel-accessible-travel" class="text-sm text-ink-muted no-underline hover:text-primary">Accessible travel in Israel</a></li>
-        <li><a href="/tel-aviv-bachelorette" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv bachelorette &amp; hen party</a></li>
-        <li><a href="/israel-honeymoon" class="text-sm text-ink-muted no-underline hover:text-primary">Israel honeymoon &amp; romantic getaways</a></li>
-        <li><a href="/golan-heights-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Golan Heights guide</a></li>
-        <li><a href="/valley-of-tears-golan" class="text-sm text-ink-muted no-underline hover:text-primary">Valley of Tears — 1973 tank memorial</a></li>
-        <li><a href="/atlit-detainee-camp-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Atlit Detainee Camp — Aliyah Bet history</a></li>
-        <li><a href="/gamla-nature-reserve-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Gamla Nature Reserve</a></li>
-        <li><a href="/hiking-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Hiking in Israel</a></li>
-        <li><a href="/israel-national-trail-hiking" class="text-sm text-ink-muted no-underline hover:text-primary">Israel National Trail section guide</a></li>
-        <li><a href="/yam-lyam-sea-to-sea-hike" class="text-sm text-ink-muted no-underline hover:text-primary">Yam l'Yam Sea to Sea trail</a></li>
-        <li><a href="/nativity-trail-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Nativity Trail: Nazareth to Bethlehem</a></li>
-        <li><a href="/israel-in-spring" class="text-sm text-ink-muted no-underline hover:text-primary">Israel in spring: March–May guide</a></li>
-        <li><a href="/israel-spring-wildflowers" class="text-sm text-ink-muted no-underline hover:text-primary">Spring wildflowers &amp; kalanit season</a></li>
-        <li><a href="/israel-horseback-riding" class="text-sm text-ink-muted no-underline hover:text-primary">Horseback riding</a></li>
-        <li><a href="/glamping-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Glamping in Israel</a></li>
-        <li><a href="/israel-campervan" class="text-sm text-ink-muted no-underline hover:text-primary">Campervan &amp; motorhome guide</a></li>
-        <li><a href="/bedouin-experience-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Bedouin experience &amp; camel rides</a></li>
-        <li><a href="/israel-zimmer-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Israel zimmer &amp; rural B&amp;Bs</a></li>
-        <li><a href="/tel-aviv-street-art" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv street art &amp; Florentin</a></li>
-        <li><a href="/tel-aviv-museums" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv museums guide</a></li>
-        <li><a href="/hayarkon-park-tel-aviv" class="text-sm text-ink-muted no-underline hover:text-primary">Hayarkon Park Tel Aviv</a></li>
-        <li><a href="/jerusalem-museums" class="text-sm text-ink-muted no-underline hover:text-primary">Jerusalem museums guide</a></li>
-        <li><a href="/israel-museum-jerusalem" class="text-sm text-ink-muted no-underline hover:text-primary">Israel Museum Jerusalem</a></li>
-        <li><a href="/museum-of-tolerance-jerusalem" class="text-sm text-ink-muted no-underline hover:text-primary">Museum of Tolerance Jerusalem</a></li>
-        <li><a href="/dead-sea-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Dead Sea visitor guide</a></li>
-        <li><a href="/dead-sea-medical-tourism" class="text-sm text-ink-muted no-underline hover:text-primary">Dead Sea medical &amp; climatotherapy</a></li>
-        <li><a href="/israel-wellness-spa" class="text-sm text-ink-muted no-underline hover:text-primary">Wellness, spa &amp; hot springs</a></li>
-        <li><a href="/israel-thermal-springs" class="text-sm text-ink-muted no-underline hover:text-primary">Hamat Gader &amp; thermal springs</a></li>
-        <li><a href="/safed-tzfat-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Safed (Tzfat) guide</a></li>
-        <li><a href="/rosh-pina-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Rosh Pina wine village guide</a></li>
-        <li><a href="/tiberias-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Tiberias &amp; Sea of Galilee</a></li>
-        <li><a href="/sea-of-galilee-boat-tour" class="text-sm text-ink-muted no-underline hover:text-primary">Sea of Galilee boat tours</a></li>
-        <li><a href="/best-hotels-sea-of-galilee" class="text-sm text-ink-muted no-underline hover:text-primary">Where to stay: Sea of Galilee</a></li>
-        <li><a href="/nazareth-travel-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Nazareth guide</a></li>
-        <li><a href="/zippori-sepphoris-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Zippori (Sepphoris) mosaics</a></li>
-        <li><a href="/akko-acre-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Akko (Acre) guide</a></li>
-        <li><a href="/rosh-hanikra-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Rosh Hanikra sea caves</a></li>
-        <li><a href="/bahai-world-center-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Bahá'í World Centre guide</a></li>
-        <li><a href="/megiddo-jezreel-valley-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Megiddo (Armageddon) guide</a></li>
-        <li><a href="/israel-national-parks-pass" class="text-sm text-ink-muted no-underline hover:text-primary">National parks pass</a></li>
-        <li><a href="/israel-film-tv-tourism" class="text-sm text-ink-muted no-underline hover:text-primary">Film &amp; TV screen tourism</a></li>
-        <li><a href="/shopping-in-israel" class="text-sm text-ink-muted no-underline hover:text-primary">Shopping &amp; markets guide</a></li>
-        <li><a href="/israel-photography-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Best photo spots in Israel</a></li>
-        <li><a href="/lgbtq-travel-israel" class="text-sm text-ink-muted no-underline hover:text-primary">LGBTQ travel</a></li>
-        <li><a href="/tel-aviv-pride-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Tel Aviv Pride guide</a></li>
-        <li><a href="/ben-gurion-airport-transfers" class="text-sm text-ink-muted no-underline hover:text-primary">Airport transfers</a></li>
-        <li><a href="/israel-esim" class="text-sm text-ink-muted no-underline hover:text-primary">Israel eSIM</a></li>
-        <li><a href="/israel-money-guide" class="text-sm text-ink-muted no-underline hover:text-primary">Money &amp; ATMs in Israel</a></li>
-        <li><a href="/israel-travel-insurance" class="text-sm text-ink-muted no-underline hover:text-primary">Travel insurance</a></li>
-      </ul>
-    </div>
-
-    <div>
-      <h2 class="text-sm font-bold uppercase tracking-wide text-ink">{t('footer.about')}</h2>
-      <ul class="mt-3 space-y-1.5">
-        <li><a href="/about" class="text-sm text-ink-muted no-underline hover:text-primary">About us</a></li>
-        <li><a href="/affiliate-disclosure" class="text-sm text-ink-muted no-underline hover:text-primary">Affiliate disclosure</a></li>
-        <li><a href="/privacy" class="text-sm text-ink-muted no-underline hover:text-primary">Privacy</a></li>
-      </ul>
-    </div>
+    {
+      columns.map((col) => (
+        <div>
+          <h2 class="text-sm font-bold uppercase tracking-wide text-ink">{col.heading}</h2>
+          <ul class="mt-3 space-y-1.5">
+            {col.links.map((l) => (
+              <li>
+                <a href={l.href} class="text-sm text-ink-muted no-underline hover:text-primary">
+                  {l.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
   </div>
 
   <div class="border-t border-border">

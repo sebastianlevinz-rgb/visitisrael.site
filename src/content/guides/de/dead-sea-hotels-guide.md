@@ -38,13 +38,11 @@ faqs:
   - question: "Lohnt sich ein Totes-Meer-Aufenthalt verglichen mit einem Tagesausflug?"
     answer: "Eine Übernachtung gibt Ihnen den Sonnenaufgang — das Tote Meer im Morgengrauen, wenn das flache hypersaline Wasser die Judäischen Berge in Stille spiegelt, ist einer der großen Israel-Reisemomente. Es ermöglicht auch zweimaliges Schwimmen (morgens und abends), die Spa-Einrichtungen in eigenem Tempo zu nutzen und Ein Gedi oder Masada frühmorgens am nächsten Tag. Andererseits ist ein Tagesausflug von Jerusalem sehr effizient: 90 Minuten mit dem Bus, Schwimmen und Schlammbad, Halt an Kalia oder Mineral Beach, abends zurück. Budgetreisende verlieren bei einem Tagesausflug nichts Wesentliches; Reisende, die Sonnenaufgang, Spa oder entspannten Reiseplan priorisieren, gewinnen durch eine Übernachtung."
 ---
-
 Das **Tote Meer** hat kein Hotelgebiet, das über eine Stadt oder Region verteilt wäre — fast alle Unterkünfte konzentrieren sich in Ein Bokek, einer einzigen 3,5 km langen Resortmeile am israelischen Südufer. Etwa fünfzehn große Hotels liegen in Gehweite voneinander an einem angelegten Strandbereich, alle mit direktem Zugang zum Toten Meer und Spa-Infrastruktur rund um den Mineralgehalt des Wassers. Dieser Führe kartiert die Optionen, nennt ehrliche Empfehlungen nach Preiskategorie und erklärt, wann man buchen sollte und wann ein Tagesausflug die klügere Wahl ist.
 
-Für alles, was man nach der Ankunft tut — wie man sicher treibt, das Schlamm-Ritual, welche öffentlichen Strände man nutzt und wie man hinkommt — behandelt der [Totes-Meer-Reiseführer](/de/dead-sea-guide) das Erlebnis vollständig.
+Für alles, was man nach der Ankunft tut — wie man sicher treibt, das Schlamm-Ritual, welche öffentlichen Strände man nutzt und wie man hinkommt — behandelt der [Totes-Meer-Reiseführer](/de/dead-sea) das Erlebnis vollständig.
 
 ---
-
 ## Ein Bokek: die Totes-Meer-Resortmeile
 
 Ein Bokek ist die einzige zweckgebaut gebaute Hotelzone am israelischen Ufer des Toten Meeres. Es ist keine Stadt oder Dorf — es gibt keine unabhängigen Restaurants außerhalb der Hotellobby, keinen Straßenmarkt und kein Viertelcharakter. Was es hat, ist eine 3,5 km lange Strandfront, an der Hotels in wenigen Gehminuten voneinander entfernt liegen, alle mit privatem Strandzugang zum Toten Meer und Spa-Einrichtungen rund um das mineralreiche Wasser.
@@ -54,7 +52,6 @@ Ein Bokek ist die einzige zweckgebaut gebaute Hotelzone am israelischen Ufer des
 **Der ehrliche Kompromiss:** Ein Bokek ist funktional, nicht malerisch. Die Meile existiert für Unterkunft und Resort-Dienstleistungen; abends gibt es sehr wenig zu tun außer den Hotelrestaurants und einem kurzen Promenade-Spaziergang. Wenn Ihre Priorität die Landschaft und das Erlebnis des Treibens im Morgengrauen ist, ist das genau das, wofür Ein Bokek gebaut wurde.
 
 ---
-
 ## Die Ein-Gedi-Alternative — 20 km nördlich
 
 Zwanzig Kilometer nördlich von Ein Bokek, neben dem Ein-Gedi-Naturreservat, befindet sich das **Ein-Gedi-Kibbuz-Gästehaus** — die einzige echte Budgetunterkunft am israelischen Totes-Meer-Ufer. Betrieben vom Kibbuz Ein Gedi, ist es ein Vier-Sterne-Haus mit Mineralpool, einem botanischen Gartenbummel, Frühstück inbegriffen und direktem Zugang zu einem Totes-Meer-Strand. Das Kibbuz-Ambiente und die Nähe zu Ein Gedis Wasserfall-Wanderwegen machen dies zur besseren Wahl für Besucher, die Wandern und Natur neben dem Totes-Meer-Erlebnis priorisieren.
@@ -64,7 +61,6 @@ Zwanzig Kilometer nördlich von Ein Bokek, neben dem Ein-Gedi-Naturreservat, bef
 **₪480–600/Nacht** ist ein realistischer Bereich für Doppelzimmer inkl. Frühstück — deutlich weniger als Ein Bokek bei vergleichbarer Qualität. Der Totes-Meer-Strand ist kurz fußläufig vom Hauptgebäude erreichbar; Frühbuchung für Frühjahr (März–Mai) wird empfohlen, da das Haus mit israelischen Gruppen und internationalen Naturtouristen ausgebucht ist.
 
 ---
-
 ## Mittelklassehotels (₪700–1.400/Nacht)
 
 Die Mittelklasse in Ein Bokek liegt zwischen der Budgetoptions-Lücke (fast nichts Erschwingliches auf der Meile selbst) und den großen Luxusresorts. Das sind komfortable, gut ausgestattete Hotels mit Pool, Spa und Totes-Meer-Strandzugang zu Preisen unter den Flaggschiffmarken.
@@ -78,7 +74,6 @@ Die Mittelklasse in Ein Bokek liegt zwischen der Budgetoptions-Lücke (fast nich
 Bei **₪700–1.400/Nacht** sollte die Mittelklasse-Unterkunft am Toten Meer einen Mineralpool oder Spa-Zugang, Frühstück (oder eine Halbpension-Option) und direkten oder nahen Strandzugang umfassen.
 
 ---
-
 ## Luxus- und Resort-Hotels (₪1.400+/Nacht)
 
 Die Luxuskategorie in Ein Bokek wird von israelischen Resort-Marken mit umfangreicher Spa-Infrastruktur und der großen Eigenschaftsgröße dominiert, die das Totes-Meer-Erlebnis rundum selbstversorgend macht.
@@ -92,7 +87,6 @@ Die Luxuskategorie in Ein Bokek wird von israelischen Resort-Marken mit umfangre
 **₪1.400–3.500+/Nacht** deckt die Luxusskala in Ein Bokek ab, wobei das obere Ende für Suite-Kategorien und israelische Feiertagsspitzenwoche gilt. Alle Luxushäuser enthalten Mineralpool und Spa-Zugang, Totes-Meer-Privatstrand und Halbpension-Speiseangebote — vergleichen Sie, was tatsächlich im angebotenen Preis enthalten ist, bevor Sie buchen.
 
 ---
-
 ## Saisonale Preise — wann buchen, wann vermeiden
 
 | Monat | Charakter | Totes-Meer-Bedingungen | Hinweise |
@@ -114,19 +108,17 @@ Die Luxuskategorie in Ein Bokek wird von israelischen Resort-Marken mit umfangre
 - **Hinweis:** Viele Ein-Bokek-Hotels verlangen eine **Mindestaufenthaltsdauer von 2 Nächten für Freitag–Samstag**-Nächte. Wenn Sie nur eine Nacht möchten, sind Wochentag-Termine einfacher kurzfristig zu buchen.
 
 ---
-
 ## Die Tagesausflug-Alternative
 
 Wenn Übernacht-Resort-Preise das Budget übersteigen, ist das Totes-Meer-Erlebnis vollständig als Tagesausflug von Jerusalem zugänglich:
 
 - **Direktbus (Egged 486):** Jerusalem → Ein Bokek Zentralbusbahnhof, ungefähr 90 Minuten, fährt mehrmals täglich. Letzter Rückbus von Ein Bokek nach Jerusalem fährt etwa 17:00–18:00 (aktuellen Fahrplan bei moovit.com oder der Egged-App prüfen).
-- **Organisierter Tagesausflug:** Abholung vom Jerusalemer oder Tel Aviver Hotel, ganztägiger Reiseplan mit Guide, typischerweise mit Masada oder Ein Gedi neben dem Totes-Meer-Schwimmen. Lesen Sie [Masada und Totes-Meer-Tagestouren](/de/masada-dead-sea-day-trip) für Formatvergleich.
+- **Organisierter Tagesausflug:** Abholung vom Jerusalemer oder Tel Aviver Hotel, ganztägiger Reiseplan mit Guide, typischerweise mit Masada oder Ein Gedi neben dem Totes-Meer-Schwimmen. Lesen Sie [Masada und Totes-Meer-Tagestouren](/de/dead-sea-tours-compared) für Formatvergleich.
 - **Mietwagen:** Die flexibelste Option für Familien — Route 1 nach Osten zur Route 90 nach Süden fahren; Ein Bokek ist ausgeschildert; Kalia Beach (Nordufer) ist 15 Minuten hinter Qumran, nützlich bei Anreise von Jerusalem gen Süden.
 
 Budgetreisende, die einen Tagesausflug machen, sparen die Übernacht-Hotelprämie (₪700–3.500/Nacht) auf Kosten des Sonnenaufgang-Moments. Für die meisten Erstbesucher mit knappem Budget ist der Tagesausflug ein ausgezeichneter Wert.
 
 ---
-
 ## Nützliche Links
 
-Für das vollständige Totes-Meer-Erlebnis — wie man sicher treibt, welche Strände kostenlos sind, das Schlammritual erklärt und was man mitbringt — lesen Sie den [Totes-Meer-Reiseführer](/de/dead-sea-guide). Für den Vergleich des Totes-Meer-Resort-Erlebnisses mit Eilat (Israels anderem Rotem-Meer-Resort-Gebiet) lesen Sie den [Eilat Hotels Führe](/eilat-hotels-guide). Für breitere Israelunterkunftsoptionen über alle Regionen — Kibbuz-Gästehäuser, Galil-Zimmer, Jerusalemer Altstadtunterkünfte — kartiert der [Israel-Unterkunft Führe](/de/israel-accommodation-guide) das nationale Bild.
+Für das vollständige Totes-Meer-Erlebnis — wie man sicher treibt, welche Strände kostenlos sind, das Schlammritual erklärt und was man mitbringt — lesen Sie den [Totes-Meer-Reiseführer](/de/dead-sea). Für den Vergleich des Totes-Meer-Resort-Erlebnisses mit Eilat (Israels anderem Rotem-Meer-Resort-Gebiet) lesen Sie den [Eilat Hotels Führe](/de/eilat). Für breitere Israelunterkunftsoptionen über alle Regionen — Kibbuz-Gästehäuser, Galil-Zimmer, Jerusalemer Altstadtunterkünfte — kartiert der [Israel-Unterkunft Führe](/de/best-hotels-jerusalem) das nationale Bild.

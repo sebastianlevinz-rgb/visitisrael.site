@@ -12,7 +12,6 @@ faqs:
   - question: "Ist der Sommer eine gute Reisezeit für Israel?"
     answer: "Der Sommer eignet sich gut für die Küste und das Galiläische Meer, ist aber heiß. Jerusalem ist trocken und erträglich, während das Tote Meer und Eilat extrem heiß werden — am besten für frühe Morgenausflüge und Wasseraktivitäten geeignet."
 ---
-
 Israel vereint mehrere Klimazonen in einem kompakten Land — die „beste" Reisezeit hängt daher vom Reiseziel ab. Als Faustregel gilt: **Frühling und Herbst sind überall ideal**.
 
 ## Die Jahreszeiten im Überblick
@@ -23,7 +22,7 @@ Israel vereint mehrere Klimazonen in einem kompakten Land — die „beste" Reis
 
 **Herbst (September–November) — beste Reisezeit.** Die Hitze lässt nach, das Meer bleibt warm und die Olivenernte beginnt. Die jüdischen Hohen Feiertage fallen in diese Jahreszeit und verursachen vereinzelte Schließungen.
 
-**Winter (Dezember–Februar) — ruhig und günstig.** Kühl und grün, mit Regen und gelegentlichem Schnee in [Jerusalem](/jerusalem). [Eilat](/eilat) und das Tote Meer werden zu angenehmen Sonnendestinationen und sind im Süden **Hochsaison**. Weihnachten in [Nazareth](/nazareth) und Bethlehem ist ein besonderes Erlebnis.
+**Winter (Dezember–Februar) — ruhig und günstig.** Kühl und grün, mit Regen und gelegentlichem Schnee in [Jerusalem](/jerusalem). [Eilat](/eilat) und das Tote Meer werden zu angenehmen Sonnendestinationen und sind im Süden **Hochsaison**. Weihnachten in [Nazareth](/de/galilee) und Bethlehem ist ein besonderes Erlebnis.
 
 ## Monatsüberblick
 
@@ -36,4 +35,4 @@ Israel vereint mehrere Klimazonen in einem kompakten Land — die „beste" Reis
 
 ## Feiertage im Blick behalten
 
-Jüdische, christliche und muslimische Feiertage beeinflussen Öffnungszeiten und Preise. Der jüdische Kalender ist luni-solar; der islamische Kalender verschiebt sich jedes Jahr um etwa 11 Tage. Prüfen Sie genaue Daten vor der Buchung und lesen Sie unseren [Schabbat-Ratgeber](/de/shabbat-guide) für den wöchentlichen Rhythmus. Bereit zum Planen? Entdecken Sie unsere [Reiserouten](/itineraries) und unseren [Ratgeber für Erstbesucher](/de/first-time-in-israel).
+Jüdische, christliche und muslimische Feiertage beeinflussen Öffnungszeiten und Preise. Der jüdische Kalender ist luni-solar; der islamische Kalender verschiebt sich jedes Jahr um etwa 11 Tage. Prüfen Sie genaue Daten vor der Buchung und lesen Sie unseren Schabbat-Ratgeber für den wöchentlichen Rhythmus. Bereit zum Planen? Entdecken Sie unsere [Reiserouten](/itineraries) und unseren [Ratgeber für Erstbesucher](/de/first-time-in-israel).

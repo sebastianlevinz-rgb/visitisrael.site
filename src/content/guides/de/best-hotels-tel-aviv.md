@@ -44,13 +44,11 @@ faqs:
   - question: "Wie weit im Voraus sollte ich ein Tel-Aviv-Hotel buchen?"
     answer: "Für die Pride-Week (zweite Juniwoche) 3–6 Monate im Voraus buchen — Hotels füllen sich mit internationalen LGBTQ+-Gästen und Preise steigen auf das 2–3-Fache. Für Pessach, Sukkot und den jüdischen Feiertagscluster (September–Oktober) 2–4 Monate im Voraus. Im Sommer (Juli–August) buchen die größten Strandhotels 2–3 Monate im Voraus aus. November bis März ist deutlich entspannter — 2–4 Wochen reichen meist aus, außer um Weihnachten."
 ---
-
 **Tel Aviv** hat den vielfältigsten Hotelmarkt Israels: osmanische Festungsluxus-Unterkunft in Jaffa, Bauhaus-zeitgenössische Boutique-Hotels am Rothschild Boulevard, Budgetgästehäuser in Florentin und Hostel-Unterkünfte wenige Straßen vom Mittelmeer entfernt. Die richtige Wahl hängt weniger vom Preis als davon ab, welches Viertel Sie am nächsten an das bringt, was Sie in der Stadt suchen. Dieser Führe deckt die fünf Hauptbereiche ab, nennt ehrliche Empfehlungen in jeder Preisklasse und erklärt, wann der Markt teuer und wann er günstig ist.
 
-Für einen tiefgehenden Charakter-Führe durch jedes Viertel — wo man isst, wie sich die Straßen anfühlen, welche Bereiche welchem Reisestil entsprechen — siehe den [Tel-Aviv-Stadtviertel-Führe](/de/tel-aviv-neighborhoods-guide). Diese Seite konzentriert sich auf konkrete Hotelempfehlungen und Buchungskontext.
+Für einen tiefgehenden Charakter-Führe durch jedes Viertel — wo man isst, wie sich die Straßen anfühlen, welche Bereiche welchem Reisestil entsprechen — siehe den [Tel-Aviv-Stadtviertel-Führe](/de/tel-aviv). Diese Seite konzentriert sich auf konkrete Hotelempfehlungen und Buchungskontext.
 
 ---
-
 ## Wo in Tel Aviv übernachten: Viertel im Überblick
 
 **Rothschild Boulevard und die Weiße Stadt** ist das kulturelle Herz Tel Avivs: UNESCO-gelistete Bauhaus-Architektur, die besten Restaurants der Stadt, der Carmel-Markt in 10 Minuten zu Fuß, und die Rote-Linie-Stadtbahn verbindet Sie mit allem. Die meisten Mittelklasse-Boutique-Hotels befinden sich in diesem Bereich oder den angrenzenden Straßen (Allenby, Ben Yehuda, Dizengoff). Ideal für: Kultur, Essen, Architektur, Nähe zum Nachtleben.
@@ -64,7 +62,6 @@ Für einen tiefgehenden Charakter-Führe durch jedes Viertel — wo man isst, wi
 **Alt-Jaffa und Jaffa-Hafen** hat seinen eigenen Cluster von Luxushotels, die in das osmanische Erbe des Hafens eingebettet sind. Das Setai Tel Aviv ist das Flaggschiff-Hotel. Fußläufig zu Flohmarkt, Galerien und Hafen — aber etwas entfernt von der Hauptachse Rothschild-Restaurants und Nachtleben.
 
 ---
-
 ## Budgethotels und Gästehäuser (ca. ₪300–550/Nacht)
 
 Tel Avivs Budget-Unterkunft konzentriert sich in Florentin, Old North (nördlich des Yarkon-Flusses, rund um Ben Yehuda und Dizengoff) und den Straßen zwischen Strand und Rothschild Boulevard. Echte Budget-Optionen direkt an der Strandfront sind selten — rechnen Sie mit 10–20 Minuten Fußweg vom günstigsten Angebot zum Mittelmeer.
@@ -78,7 +75,6 @@ Tel Avivs Budget-Unterkunft konzentriert sich in Florentin, Old North (nördlich
 **₪300–550/Nacht** ist in der Nebensaison (November–März) realistisch. Während der Pride-Week, Pessach und dem Hochsommer (Juli–August) steigen auch Budgetunterkünfte — Preise in ganz Tel Aviv sind stark veranstaltungsgetrieben.
 
 ---
-
 ## Mittelklasse-Hotels (ca. ₪550–1.100/Nacht)
 
 Die Mittelklasse ist das Segment, in dem Tel Avivs Boutique-Hotelszene am stärksten ist. Die meisten dieser Häuser befinden sich am oder in der Nähe des Rothschild Boulevards, in Neve Tzedek oder in den Straßen zwischen Allenby und Ben Yehuda.
@@ -92,7 +88,6 @@ Die Mittelklasse ist das Segment, in dem Tel Avivs Boutique-Hotelszene am stärk
 Bei **₪550–1.100/Nacht** sollten Mittelklasse-Hotels in Tel Aviv Boutique-Design, ein Gefühl für das Viertel und ein ordentliches Frühstück bieten. In diesem Segment strahlt die Hotelpersönlichkeit der Stadt am deutlichsten.
 
 ---
-
 ## Luxushotels (ab ca. ₪1.200/Nacht)
 
 Tel Avivs Luxustier umfasst zwei deutlich verschiedene Charaktere: Grand-Beach-Resorts an der Tayelet und architektonisch unverwechselbare Boutique-Hotels in restaurierten Gebäuden.
@@ -106,7 +101,6 @@ Tel Avivs Luxustier umfasst zwei deutlich verschiedene Charaktere: Grand-Beach-R
 **₪1.200–3.000+/Nacht** deckt das Luxussegment ab, wobei das obere Ende für Suiten und Spitzenzeiten gilt.
 
 ---
-
 ## Neueröffnungen 2025–2026
 
 Zwei bedeutende Ergänzungen zu Tel Avivs Luxussegment eröffneten 2026 und werteten die Position der Stadt unter erstklassigen internationalen Hotelzielen deutlich auf.
@@ -118,7 +112,6 @@ Zwei bedeutende Ergänzungen zu Tel Avivs Luxussegment eröffneten 2026 und wert
 **Ehrlicher Hinweis zu 2026-Eröffnungen:** Eröffnungstermine großer Luxusimmobilien können sich verschieben. Aktuellen Betriebsstatus und Verfügbarkeit direkt über Booking.com bestätigen, bevor Reisepläne um eine bestimmte Unterkunft gebaut werden.
 
 ---
-
 ## Wer sollte wo übernachten — Entscheidungsmatrix
 
 | Priorität | Empfohlene Option |
@@ -135,7 +128,6 @@ Zwei bedeutende Ergänzungen zu Tel Avivs Luxussegment eröffneten 2026 und wert
 | Geschäftsreise | Crowne Plaza Tel Aviv oder David InterContinental (Konferenzeinrichtungen) |
 
 ---
-
 ## Buchungskontext und Preisentwicklung
 
 Tel-Aviv-Hotelpreise folgen vorhersehbaren Mustern. **Pride-Week** (zweite Juniwoche) ist der größte Nachfragepeak — internationale Gäste buchen Monate im Voraus und Preise für gut gelegene Häuser steigen auf das 2–3-Fache. Die großen jüdischen Feiertage — **Pessach** (März–April), **Rosch Haschana** und **Sukkot** (September–Oktober) — erzeugen jeweils 1–2-wöchige Nachfragespitzen mit 50–100% über dem Normalpreis. **Schabbat-Wochenenden** (Freitag–Samstag) treiben die Preise im Stadtzentrum höher als unter der Woche.
@@ -143,11 +135,10 @@ Tel-Aviv-Hotelpreise folgen vorhersehbaren Mustern. **Pride-Week** (zweite Juniw
 **November bis März** ist das entspannteste Buchungsfenster: Preise am niedrigsten, die Stadt kühler aber angenehm (17–22°C). Alle Preise in diesem Führe sind Spannen — Hotelraten ändern sich täglich. Aktuelle Preise über die Buchungslinks oben prüfen; niemals auf einen fixen veröffentlichten Preis verlassen.
 
 ---
-
 ## Nützliche Links
 
-Für Gäste, die speziell in Alt-Jaffa übernachten möchten — Erbe-Hotels im antiken Hafen, Uhrmacherturm-Bereich und Flohmarkt-Nähe — siehe den [Jaffa-Reiseführer](/de/jaffa-travel-guide).
+Für Gäste, die speziell in Alt-Jaffa übernachten möchten — Erbe-Hotels im antiken Hafen, Uhrmacherturm-Bereich und Flohmarkt-Nähe — siehe den [Jaffa-Reiseführer](/de/tel-aviv).
 
-Für tieferen Stadtviertelkontext — was jedes Viertel Tel Avivs ausmacht, wo man isst und wie man sich fortbewegt — siehe den [Tel-Aviv-Stadtviertel-Führe](/de/tel-aviv-neighborhoods-guide). Für die Foodszene den [Tel-Aviv-Foodführe](/de/tel-aviv-food-guide); für die Bauhaus-Architektur den [Weißen-Stadt-Führe](/de/tel-aviv-white-city). Für [die Rote Linie Stadtbahn](/de/tel-aviv-light-rail): verbindet Strandhotels mit Rothschild, Carmel-Markt und darüber hinaus.
+Für tieferen Stadtviertelkontext — was jedes Viertel Tel Avivs ausmacht, wo man isst und wie man sich fortbewegt — siehe den [Tel-Aviv-Stadtviertel-Führe](/de/tel-aviv). Für die Foodszene den [Tel-Aviv-Foodführe](/de/tel-aviv); für die Bauhaus-Architektur den [Weißen-Stadt-Führe](/de/tel-aviv). Für [die Rote Linie Stadtbahn](/de/tel-aviv): verbindet Strandhotels mit Rothschild, Carmel-Markt und darüber hinaus.
 
-Für Unterkünfte im ganzen Land — Totes-Meer-Resort-Hotels, Galiläa-Zimmer-Gästehäuser, Negev-Wüstenlodges — bildet der [Israel-Unterkunft-Führe](/de/israel-accommodation-guide) das nationale Gesamtbild.
+Für Unterkünfte im ganzen Land — Totes-Meer-Resort-Hotels, Galiläa-Zimmer-Gästehäuser, Negev-Wüstenlodges — bildet der [Israel-Unterkunft-Führe](/de/best-hotels-jerusalem) das nationale Gesamtbild.

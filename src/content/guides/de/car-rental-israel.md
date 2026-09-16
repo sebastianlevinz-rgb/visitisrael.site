@@ -32,14 +32,13 @@ faqs:
   - question: "Ist ein Automatik- oder Schaltgetriebe in Israel besser?"
     answer: "Automatikfahrzeuge sind weit verbreitet und empfehlenswert, besonders in Städten wie Jerusalem und Tel Aviv, wo Verkehr und Steigungen das manuelle Fahren anspruchsvoller machen. Automatikfahrzeuge kosten etwas mehr, lohnen sich aber für die meisten Besucher. Schaltgetriebe sind zu günstigeren Preisen erhältlich, wenn Sie damit vertraut sind."
 ---
-
 Israel ist klein und die Züge zwischen den großen Städten sind ausgezeichnet — ein Auto ist also nicht immer nötig. Für den weitläufigen Norden und den Wüstensüden jedoch verwandelt ein Mietwagen die Reise. Hier erfahren Sie, wann sich das Mieten lohnt, was Sie wissen müssen und wo Sie buchen.
 
 ## Wann ein Auto (nicht) sinnvoll ist
 
 **Verzichten Sie auf das Auto** für den [Tel Aviv](/tel-aviv)–[Jerusalem](/jerusalem)–[Haifa](/haifa)-Korridor — Züge und Busse sind schneller und günstiger, wenn man das Stadtparken einrechnet.
 
-**Mieten Sie ein Auto** für [Galiläa](/galilee), die [Golanhöhen](/golan) und den [Negev](/negev), wo Sehenswürdigkeiten wie Weingüter, Aussichtspunkte und der Makhtesh-Ramon-Krater verstreut und die öffentlichen Verbindungen dünn sind. Eine verbreitete Strategie: Städte per Zug erkunden, dann zwei bis drei Tage im Norden oder Süden mit Mietwagen.
+**Mieten Sie ein Auto** für [Galiläa](/galilee), die [Golanhöhen](/de/galilee) und den [Negev](/negev), wo Sehenswürdigkeiten wie Weingüter, Aussichtspunkte und der Makhtesh-Ramon-Krater verstreut und die öffentlichen Verbindungen dünn sind. Eine verbreitete Strategie: Städte per Zug erkunden, dann zwei bis drei Tage im Norden oder Süden mit Mietwagen.
 
 ## Welcher Fahrzeugtyp?
 
@@ -70,11 +69,11 @@ Häufige Zusatzkosten zum Einplanen:
 
 - **Rechtsverkehr.** Straßen und Autobahnen sind modern; Beschilderung auf Hebräisch, Arabisch und Englisch.
 - **Führerschein und Alter** — nehmen Sie einen Internationalen Führerschein mit Ihrem nationalen Führerschein mit; Mindestalter in der Regel 21–24 Jahre.
-- **Schabbat** — ein Mietwagen hält Sie mobil, wenn der öffentliche Nahverkehr stillsteht, aber Mietstationen schließen oft Freitagmittag bis Samstagabend; planen Sie Abholung und Rückgabe danach. Siehe den [Schabbat-Reiseführer](/de/shabbat-guide).
-- **Grenzen und Westjordanland** — die meisten Verträge verbieten die Einreise nach Jordanien und heben den Versicherungsschutz in manchen Gebieten auf; für [Petra](/petra-from-eilat-vs-amman) nehmen Sie eine Tour. Siehe [Grenzübergänge](/de/border-crossings).
+- **Schabbat** — ein Mietwagen hält Sie mobil, wenn der öffentliche Nahverkehr stillsteht, aber Mietstationen schließen oft Freitagmittag bis Samstagabend; planen Sie Abholung und Rückgabe danach. Siehe den Schabbat-Reiseführer.
+- **Grenzen und Westjordanland** — die meisten Verträge verbieten die Einreise nach Jordanien und heben den Versicherungsschutz in manchen Gebieten auf; für [Petra](/de/eilat) nehmen Sie eine Tour. Siehe [Grenzübergänge](/de/visa-information).
 - **Parken** — Stadtparken ist eng und farbig markiert am Bordstein (blau/weiß = kostenpflichtig; rot/weiß = Halteverbot); nutzen Sie in Tel Aviv und Jerusalem lieber Parkhäuser statt Straßenparkplätze.
 - **Navigation** — Waze funktioniert in Israel hervorragend, einschließlich Echtzeit-Verkehrsmeldungen auf der Route 1 und dem Ayalon. Laden Sie Offline-Karten als Backup herunter.
 
 ## Die restliche Planung
 
-Besorgen Sie sich Ihre [eSIM](/israel-esim) für Navigationsdaten und Ihre [Reiseversicherung](/de/israel-travel-insurance) vor der Abreise. Wenn Sie lieber nicht vom Flughafen fahren möchten, lesen Sie [Ben-Gurion-Flughafentransfers](/ben-gurion-airport-transfers). Um die Optionen für Selbstfahrerrouten zu verstehen, behandelt der [Reiseführer zum Autofahren in Israel](/de/driving-in-israel) Straßenverhältnisse, Benzin und stadtspezifische Parktipps.
+Besorgen Sie sich Ihre eSIM für Navigationsdaten und Ihre Reiseversicherung vor der Abreise. Wenn Sie lieber nicht vom Flughafen fahren möchten, lesen Sie Ben-Gurion-Flughafentransfers. Um die Optionen für Selbstfahrerrouten zu verstehen, behandelt der Reiseführer zum Autofahren in Israel Straßenverhältnisse, Benzin und stadtspezifische Parktipps.

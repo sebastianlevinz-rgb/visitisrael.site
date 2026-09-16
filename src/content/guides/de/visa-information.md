@@ -18,7 +18,6 @@ faqs:
   - question: "Wie lange dürfen Touristen in Israel bleiben?"
     answer: "Die meisten visumbefreiten Besucher dürfen bis zu 90 Tage pro Aufenthalt bleiben. Die genaue gewährte Aufenthaltsdauer liegt im Ermessen des Grenzbeamten und wird auf Ihrem Einreiseschein vermerkt; eine genehmigte ETA-IL garantiert die Einreise nicht per se."
 ---
-
 Für die meisten westlichen Reisenden ist die Einreise nach Israel als Tourist unkompliziert — doch seit 2025 gibt es **vor dem Abflug** einen zusätzlichen Schritt: die ETA-IL-Einreisegenehmigung. Dies sind allgemeine Hinweise; **bestätigen Sie immer die für Ihre Staatsangehörigkeit geltenden Regeln bei einer offiziellen israelischen Regierungsquelle**, bevor Sie buchen, da sich die Anforderungen ändern können.
 
 ## Visumfreie Einreise
@@ -49,7 +48,7 @@ Rechnen Sie mit Sicherheitsfragen bei der Ankunft — zu Ihrer Reise, Ihrem Aufe
 
 ## Aufenthaltsverlängerung und Einreise auf dem Landweg
 
-Falls Sie länger als die erlaubte Aufenthaltsdauer bleiben möchten, wenden Sie sich während Ihres Aufenthalts an die Bevölkerungs- und Einwanderungsbehörde. Bei der **Einreise auf dem Landweg aus Jordanien oder Ägypten** gelten abweichende ETA-IL-Anforderungen und Verfahren je nach Grenzübergang — lesen Sie unseren [Ratgeber zu Grenzübergängen](/de/border-crossings).
+Falls Sie länger als die erlaubte Aufenthaltsdauer bleiben möchten, wenden Sie sich während Ihres Aufenthalts an die Bevölkerungs- und Einwanderungsbehörde. Bei der **Einreise auf dem Landweg aus Jordanien oder Ägypten** gelten abweichende ETA-IL-Anforderungen und Verfahren je nach Grenzübergang — lesen Sie unseren Ratgeber zu Grenzübergängen.
 
 ## Türkische Staatsangehörige — obligatorische PIBA-Sicherheitsüberprüfung
 
@@ -59,4 +58,4 @@ Wenn Sie einen türkischen Reisepass besitzen, beantragen Sie das Visum weit im 
 
 ## Vor der Abreise
 
-Ergänzen Sie diesen Leitfaden mit unserem [Reiseführer für Erstbesucher](/de/first-time-in-israel) und lesen Sie [Ist Israel sicher?](/de/is-israel-safe) für aktuelle Sicherheitshinweise. Kümmern Sie sich auch um die praktischen Grundlagen — eine [eSIM](/israel-esim), eine [Reiseversicherung](/de/israel-travel-insurance) und Ihren [Flughafentransfer](/ben-gurion-airport-transfers) — bevor Sie fliegen.
+Ergänzen Sie diesen Leitfaden mit unserem [Reiseführer für Erstbesucher](/de/first-time-in-israel) und lesen Sie [Ist Israel sicher?](/de/is-israel-safe) für aktuelle Sicherheitshinweise. Kümmern Sie sich auch um die praktischen Grundlagen — eine eSIM, eine Reiseversicherung und Ihren Flughafentransfer — bevor Sie fliegen.

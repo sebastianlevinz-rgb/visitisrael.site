@@ -20,7 +20,6 @@ faqs:
   - question: "¿Cómo llegar al Mar Muerto desde Jerusalén o Tel Aviv?"
     answer: "Desde Jerusalén, el autobús Egged 444 llega a Ein Boqeq en aproximadamente 90 minutos; en auto, calcula 1 hora por la Ruta 90 a lo largo de la orilla occidental. Desde Tel Aviv, los tours organizados (aproximadamente 10 horas con Masada y Ein Gedi incluidos) son la opción más práctica. Alquilar un auto desde cualquiera de las dos ciudades ofrece la mayor flexibilidad."
 ---
-
 El Mar Muerto es el punto más bajo de la superficie terrestre — un lago hipersalino a 430 metros bajo el nivel del mar, en la frontera entre Israel y Jordania. Una guía completa del Mar Muerto debe comenzar por la geografía: el lago es un solo lugar, pero la experiencia turística se divide en tres zonas distintas. La orilla norte es el corredor histórico y arqueológico (Qumrán, acceso a las playas del norte, rutas hacia Jerusalén y Cisjordania). La orilla central oeste es el corredor de las reservas naturales (Ein Gedi para el senderismo, Masada para la fortaleza romana). La orilla sur es el corredor de los hoteles-resort (Ein Boqeq, con unos quince grandes hoteles frente a un malecón habilitado).
 
 Esta guía abarca cuándo venir, dónde dormir, las cinco experiencias principales — la flotación, Masada, Ein Gedi, Qumrán y el barro mineral —, la realidad ambiental del lago que se encoge, cómo llegar desde Jerusalén y Tel Aviv, y los consejos prácticos de salud y seguridad.

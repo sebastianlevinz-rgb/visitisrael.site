@@ -24,7 +24,6 @@ faqs:
   - question: "Ist Galiläa sicher für Touristen?"
     answer: "Ja. Galiläa ist ein gut etablierter Tourismuskorridor mit klar ausgeschilderten Stätten, englischsprachigen Führern an den wichtigsten Pilgerstätten und einem soliden Netz aus Kibbutz- und Seeufer-Gästehäusern. Übliche Vorsicht beim Wandern gilt — Wasser und Sonnenschutz für Mount Arbel und den Jesusweg mitbringen."
 ---
-
 Galiläa ist zugleich das ökumenischste christliche Reiseziel Israels und das Süßwasserherz des Landes. Der **See Genezareth** — auf Hebräisch **Kinneret** und in älteren europäischen Quellen als See von Tiberias bekannt — liegt 209 Meter unter dem Meeresspiegel, der tiefste Süßwassersee der Erde, und bildet den Rahmen des Großteils der Evangelienerzählung. Ein vollständiger Reiseführer zu den Sehenswürdigkeiten in Galiläa beginnt mit dieser Geographie: Die meisten der wichtigsten Pilgerstätten konzentrieren sich am Nord- und Westufer im Umkreis von dreißig Fahrminuten voneinander entfernt, während Tiberias am Westufer die praktische Basis ist, Mount Arbel im Westen aufsteigt und die Golanhöhen im Osten ansteigen.
 
 Dieser Reiseführer behandelt die beste Reisezeit, Übernachtungsmöglichkeiten (Seeuferstadt, Kibbutz-Gästehäuser und die kleine Gruppe von Gästehäusern bei Tabgha-Kafarnaum), den christlichen Pilgerweg (katholisch, griechisch-orthodox und evangelisch), Natur und Wandern (Mount Arbel, Banias, Jesusweg), Sehenswürdigkeiten in Tiberias, Tagesausflüge in den Golan und nach Nazareth sowie praktische Reiseinformationen.

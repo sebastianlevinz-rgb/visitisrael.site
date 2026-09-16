@@ -16,8 +16,7 @@ faqs:
   - question: 'Was kosten 10 Tage in Israel?'
     answer: 'Budgetreisende können rund 900–1.400 $ alles inklusive schaffen, mit Hostels, Märkten, öffentlichen Verkehrsmitteln und einigen Touren. Mittelklasse-Reisende sollten 2.000–3.400 $ pro Person einplanen: Hotels zu 130–220 $ pro Nacht, ungezwungene Gastronomie, 3-Tage-Automiete im Norden, Inlandsflug nach Eilat und die Hauptkosten — Masada/Totes-Meer-Tour (95–120 $) und Petra-Tagesausflug (200 $+).'
 ---
-
-Zehn Tage sind der Punkt, an dem Sie Israel gerecht werden können — nicht nur Altstadt und Totes Meer, sondern die Hügeldörfer des Galiläas, die Basaltplateaus des Golans, die stillen Erosionskrater des Negev und das Rote Meer. Diese Route schleift von **Tel Aviv** die Nordküste hinauf, quert das **Galiläa und den Golan**, geht südwärts durch **Jerusalem** und das **Tote Meer** und endet im Süden bei **Eilat** mit einem **Petra**-Tagesausflug über die jordanische Grenze. Weniger Zeit? Sehen Sie sich die Versionen [5 Tage](/itineraries/5-days-in-israel) und [7 Tage](/itineraries/7-days-in-israel) an, oder vergleichen Sie alle drei im [5-vs-7-vs-10-Tage-Leitfaden](/israel-5-vs-7-vs-10-days).
+Zehn Tage sind der Punkt, an dem Sie Israel gerecht werden können — nicht nur Altstadt und Totes Meer, sondern die Hügeldörfer des Galiläas, die Basaltplateaus des Golans, die stillen Erosionskrater des Negev und das Rote Meer. Diese Route schleift von **Tel Aviv** die Nordküste hinauf, quert das **Galiläa und den Golan**, geht südwärts durch **Jerusalem** und das **Tote Meer** und endet im Süden bei **Eilat** mit einem **Petra**-Tagesausflug über die jordanische Grenze. Weniger Zeit? Sehen Sie sich die Versionen [5 Tage](/de/itineraries/7-days-in-israel) und [7 Tage](/itineraries/7-days-in-israel) an, oder vergleichen Sie alle drei im [5-vs-7-vs-10-Tage-Leitfaden](/de/itineraries/7-days-in-israel).
 
 ## Vor der Abreise: Der praktische Rahmen
 
@@ -27,31 +26,31 @@ Zehn Tage sind der Punkt, an dem Sie Israel gerecht werden können — nicht nur
 
 ## Tage 1–2 — Tel Aviv: Strand, Märkte und Jaffa
 
-**Tag 1.** Ankommen in Ben Gurion, Zug nach [Tel Aviv](/tel-aviv) (~20 Min.) nehmen. Nachmittag frei am [Strand](/tel-aviv/tayelet) oder in [Alt-Jaffa](/tel-aviv/old-jaffa). Abendessen in [Neve Tzedek](/tel-aviv/neve-tzedek) oder [Florentin](/tel-aviv/florentin).
+**Tag 1.** Ankommen in Ben Gurion, Zug nach [Tel Aviv](/tel-aviv) (~20 Min.) nehmen. Nachmittag frei am [Strand](/de/tel-aviv) oder in [Alt-Jaffa](/de/tel-aviv). Abendessen in [Neve Tzedek](/de/tel-aviv) oder [Florentin](/de/tel-aviv).
 
-**Tag 2.** Morgen auf dem **[Carmel-Markt](/tel-aviv/carmel-market/)** frühstücken, Spaziergang durch die **[Weiße Stadt](/tel-aviv/rothschild)** UNESCO, dann Besuch des **[Kunstmuseums Tel Aviv](/tel-aviv/tel-aviv-museum/)** (₪50, sonntags geschlossen). Abend frei am Dizengoff oder in Florentin.
+**Tag 2.** Morgen auf dem **[Carmel-Markt](/de/tel-aviv)** frühstücken, Spaziergang durch die **[Weiße Stadt](/de/tel-aviv)** UNESCO, dann Besuch des **[Kunstmuseums Tel Aviv](/de/tel-aviv)** (₪50, sonntags geschlossen). Abend frei am Dizengoff oder in Florentin.
 
 ## Tage 3–5 — Norden: Galiläa, Golan und Küste
 
-**Tag 3.** Mietwagen in Tel Aviv abholen. Nördlich entlang der Küste nach **[Caesarea](/caesarea)** (römischer Nationalpark, ₪41 / 12 $), dann **[Haifa](/haifa)** für die **[Bahá'í-Gartenanlagen](/haifa/bahai-gardens/)** in Terrassen (kostenlose Führungen begrenzt — früh kommen) und die **[Deutsche Kolonie](/haifa/german-colony/)**. Übernachtung in Tiberias.
+**Tag 3.** Mietwagen in Tel Aviv abholen. Nördlich entlang der Küste nach **[Caesarea](/de/haifa)** (römischer Nationalpark, ₪41 / 12 $), dann **[Haifa](/haifa)** für die **[Bahá'í-Gartenanlagen](/de/haifa)** in Terrassen (kostenlose Führungen begrenzt — früh kommen) und die **[Deutsche Kolonie](/de/haifa)**. Übernachtung in Tiberias.
 
-**Tag 4.** Fahrt um den **[See Genezareth](/galilee)**: **[Kafarnaum](/galilee/capernaum/)** am Nordufer, **[Berg der Seligpreisungen](/galilee/mount-of-beatitudes/)**, Taufstätte **[Yardenit](/galilee/yardenit/)** am Jordan, **[Nazareth](/nazareth)** und die **[Verkündigungsbasilika](/nazareth/basilica-of-the-annunciation/)**. Übernachtung in Tiberias oder Nazareth.
+**Tag 4.** Fahrt um den **[See Genezareth](/galilee)**: **[Kafarnaum](/de/galilee)** am Nordufer, **[Berg der Seligpreisungen](/de/galilee)**, Taufstätte **[Yardenit](/de/galilee)** am Jordan, **[Nazareth](/de/galilee)** und die **[Verkündigungsbasilika](/de/galilee)**. Übernachtung in Tiberias oder Nazareth.
 
-**Tag 5.** Aufwärts in den **[Golan](/golan)**: **[Mount Bental](/golan/mount-bental/)** für den Blick auf Syrien, die **[Banias-Wasserfälle](/golan/banias/)** und die **[Drusen-Dörfer](/golan/druze-villages/)** mit einem Mezze-Mittagessen. Auto in Tel Aviv zurückgeben oder direkt nach Jerusalem fahren (2h). Übernachtung in Jerusalem.
+**Tag 5.** Aufwärts in den **[Golan](/de/galilee)**: **[Mount Bental](/de/galilee)** für den Blick auf Syrien, die **[Banias-Wasserfälle](/de/galilee)** und die **[Drusen-Dörfer](/de/galilee)** mit einem Mezze-Mittagessen. Auto in Tel Aviv zurückgeben oder direkt nach Jerusalem fahren (2h). Übernachtung in Jerusalem.
 
 ## Tage 6–8 — Jerusalem in der Tiefe
 
-**Tag 6.** [Altstadt](/jerusalem/old-city): [Klagemauer](/jerusalem/western-wall), [Grabeskirche](/jerusalem/holy-sepulchre), Spaziergang durch alle vier Viertel und Abend in [Mahane Yehuda](/jerusalem/mahane-yehuda).
+**Tag 6.** [Altstadt](/de/jerusalem): [Klagemauer](/de/jerusalem), [Grabeskirche](/de/jerusalem), Spaziergang durch alle vier Viertel und Abend in [Mahane Yehuda](/de/jerusalem).
 
-**Tag 7.** Früh morgens [Ölberg](/jerusalem/mount-of-olives), [Stadt Davids](/jerusalem/city-of-david) mit dem Hiskia-Tunnel, [Yad Vashem](/jerusalem/yad-vashem) nachmittags (3 Stunden einplanen, samstags geschlossen). Geführte Klagemauertunnel- oder Altstadttour, wenn Sie Energie haben.
+**Tag 7.** Früh morgens [Ölberg](/de/jerusalem), [Stadt Davids](/de/jerusalem) mit dem Hiskia-Tunnel, [Yad Vashem](/de/jerusalem) nachmittags (3 Stunden einplanen, samstags geschlossen). Geführte Klagemauertunnel- oder Altstadttour, wenn Sie Energie haben.
 
-**Tag 8.** Tagesausflug: **Masada bei Sonnenaufgang** + **[Ein Gedi](/dead-sea/ein-gedi/)** + **[Totes Meer](/dead-sea/)** (organisierte Tour empfohlen, 95–120 $). Oder Tagesausflug nach **Bethlehem** (Geburtskirche, 8 km südlich — geführte Tour für den Grenzübertritt empfohlen).
+**Tag 8.** Tagesausflug: **Masada bei Sonnenaufgang** + **[Ein Gedi](/de/dead-sea)** + **[Totes Meer](/dead-sea/)** (organisierte Tour empfohlen, 95–120 $). Oder Tagesausflug nach **Bethlehem** (Geburtskirche, 8 km südlich — geführte Tour für den Grenzübertritt empfohlen).
 
 ## Tage 9–10 — Eilat und Petra
 
-**Tag 9 — Eilat.** Flug von Tel Aviv nach Eilat-Ramon (~1h, 50–110 $ einfache Fahrt) oder Egged-Bus 444 von Jerusalem (~4,5h). Nachmittag: **Rotes Meer** — **[Coral Beach Nature Reserve](/eilat/coral-beach/)** (₪35 / 10 $; Schnorcheln im Schutzriff) oder das **[Unterwasserobservatorium](/eilat/underwater-observatory/)** (₪124 / 35 $). Abend am Hafen oder an der North-Beach-Promenade. **Übernachtung:** Eilat (1/2).
+**Tag 9 — Eilat.** Flug von Tel Aviv nach Eilat-Ramon (~1h, 50–110 $ einfache Fahrt) oder Egged-Bus 444 von Jerusalem (~4,5h). Nachmittag: **Rotes Meer** — **[Coral Beach Nature Reserve](/de/eilat)** (₪35 / 10 $; Schnorcheln im Schutzriff) oder das **[Unterwasserobservatorium](/de/eilat)** (₪124 / 35 $). Abend am Hafen oder an der North-Beach-Promenade. **Übernachtung:** Eilat (1/2).
 
-**Tag 10 — Petra, Jordanien.** Früh zur **Grenze Yitzhak Rabin / Wadi Araba** aufbrechen (nördlich von Eilat; öffnet 6:30 Uhr für Touristen). Eine organisierte Tagestour erledigt Grenzübergang, jordanisches Visum, 2h Fahrt jede Seite und einen erfahrenen Führer durch den Siq. Ankunft am **Khazneh (Schatzhaus)** um ca. 10:00 Uhr, fünf bis sechs Stunden auf dem Gelände. Alleiniges Eintrittsbillet: JOD 50 / ca. 70 $; vollständige Führungstouren kosten typischerweise **200–250 $ alles inklusive**. Lesen Sie vor der Reise unseren [Grenzübertrittsleitfaden](/border-crossings) und führen Sie Ihren Pass und ausreichend Bargeld mit.
+**Tag 10 — Petra, Jordanien.** Früh zur **Grenze Yitzhak Rabin / Wadi Araba** aufbrechen (nördlich von Eilat; öffnet 6:30 Uhr für Touristen). Eine organisierte Tagestour erledigt Grenzübergang, jordanisches Visum, 2h Fahrt jede Seite und einen erfahrenen Führer durch den Siq. Ankunft am **Khazneh (Schatzhaus)** um ca. 10:00 Uhr, fünf bis sechs Stunden auf dem Gelände. Alleiniges Eintrittsbillet: JOD 50 / ca. 70 $; vollständige Führungstouren kosten typischerweise **200–250 $ alles inklusive**. Lesen Sie vor der Reise unseren [Grenzübertrittsleitfaden](/de/visa-information) und führen Sie Ihren Pass und ausreichend Bargeld mit.
 
 **Rückkehr:** Von Eilat, Inlandsflüge zurück nach Tel Aviv–Ben Gurion (~1h, 50–90 $) oder Bus Egged 444 (~4,5h). **Drei Stunden** vor internationalen Abflügen in Ben Gurion für die Sicherheitskontrollen einplanen.
 

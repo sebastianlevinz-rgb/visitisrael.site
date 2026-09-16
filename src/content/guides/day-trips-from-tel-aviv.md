@@ -34,26 +34,25 @@ faqs:
   - question: How far is the Dead Sea from Tel Aviv?
     answer: 'About 2 hours by car. It makes a long but doable day; an organised tour is the easiest way to combine Masada and the Dead Sea without the early-morning logistics.'
 ---
-
 [Tel Aviv](/tel-aviv) sits in the centre of the country, which makes it a superb base for day trips — the holy city, the Roman coast, the desert and the north are all within reach. Here are the best.
 
 ## The top day trips
 
-- **[Jerusalem](/jerusalem)** — *~45 min by train.* The number-one trip: the [Old City](/jerusalem/old-city), [Western Wall](/jerusalem/western-wall) and [Holy Sepulchre](/jerusalem/holy-sepulchre). For a minute-by-minute plan, see the [1-day Jerusalem itinerary](/1-day-jerusalem-itinerary).
-- **[Caesarea](/caesarea), [Haifa](/haifa) & [Akko](/akko)** — *the northern coast.* Roman ruins, the [Bahá'í Gardens](/haifa/bahai-gardens) and a Crusader port in one guided day. See the full [Caesarea day-trip guide](/caesarea-guide) and [Akko travel guide](/akko-acre-guide).
-- **[Masada](/dead-sea/masada) & the [Dead Sea](/dead-sea)** — *~2 hrs.* The desert classic; easiest by tour. See [Dead Sea: Jerusalem vs Tel Aviv departure comparison](/dead-sea-day-trip-comparison).
-- **[Tel Afek / Antipatris](/tel-afek-guide)** — *~45 min by car.* A compact INPA site where 4,000 years of occupation stack on one hill: the biblical battlefield of Aphek (1 Samuel 4), Herod's Antipatris city (Paul the Apostle's overnight stop in Acts 23), and a fully intact Ottoman fortress — plus the source springs of the Yarkon River. Combine with Caesarea further north.
-- **[Herzliya](/herzliya-guide)** — *~20 min by Green Line light rail.* Apollonia National Park's clifftop Crusader ruins, the Marina waterfront for lunch, and Acadia Beach. One of the most undervisited INPA sites within easy reach of Tel Aviv.
-- **[Netanya](/netanya-guide)** — *~45 min by train on the coastal line.* Cliff-top promenade, 14 km of Mediterranean beach, the Stern Diamond Factory tour and a Franco-Israeli café culture unlike anywhere else in Israel.
-- **[Latrun](/latrun-guide)** — *~40 min by car, on Route 1.* The [Yad La-Shiryon tank museum](/latrun-guide) (200+ armored vehicles), the 1890 Trappist monastery winery and [Mini Israel](/latrun-guide) scale-model park — all within 3 km of each other at the Route 1 junction. A natural stop on the drive between Tel Aviv and Jerusalem.
-- **[Beer-Sheva](/beer-sheva-guide) & ANZAC heritage** — *~1 hr by train.* Israel's Negev capital holds the CWGC Beersheba War Cemetery — the site of the 1917 Australian Light Horse Charge and an annual 31 October dawn service. Combine with Tel Be'er Sheva UNESCO archaeological site and the IAF Air Force Museum. See the full [Israel ANZAC heritage trail guide](/israel-anzac-heritage).
-- **[Ashkelon](/ashkelon-guide)** — *~45 min by car or ~1 hr by train.* Ancient Canaanite arched gateway (the world's oldest intact arch), Philistine archaeological layers, a unique ancient dog cemetery and 3 km of public Mediterranean beach. See the [Ashkelon guide](/ashkelon-guide).
-- **The [Galilee](/galilee) & [Nazareth](/nazareth)** — *longer.* Better with an early start or a guide.
+- **[Jerusalem](/jerusalem)** — *~45 min by train.* The number-one trip: the [Old City](/jerusalem), [Western Wall](/jerusalem) and [Holy Sepulchre](/jerusalem). For a minute-by-minute plan, see the [1-day Jerusalem itinerary](/itineraries/7-days-in-israel).
+- **[Caesarea](/haifa), [Haifa](/haifa) & [Akko](/haifa)** — *the northern coast.* Roman ruins, the [Bahá'í Gardens](/haifa) and a Crusader port in one guided day. See the full [Caesarea day-trip guide](/haifa) and [Akko travel guide](/haifa).
+- **[Masada](/dead-sea) & the [Dead Sea](/dead-sea)** — *~2 hrs.* The desert classic; easiest by tour. See [Dead Sea: Jerusalem vs Tel Aviv departure comparison](/dead-sea-tours-compared).
+- **Tel Afek / Antipatris** — *~45 min by car.* A compact INPA site where 4,000 years of occupation stack on one hill: the biblical battlefield of Aphek (1 Samuel 4), Herod's Antipatris city (Paul the Apostle's overnight stop in Acts 23), and a fully intact Ottoman fortress — plus the source springs of the Yarkon River. Combine with Caesarea further north.
+- **Herzliya** — *~20 min by Green Line light rail.* Apollonia National Park's clifftop Crusader ruins, the Marina waterfront for lunch, and Acadia Beach. One of the most undervisited INPA sites within easy reach of Tel Aviv.
+- **[Netanya](/haifa)** — *~45 min by train on the coastal line.* Cliff-top promenade, 14 km of Mediterranean beach, the Stern Diamond Factory tour and a Franco-Israeli café culture unlike anywhere else in Israel.
+- **Latrun** — *~40 min by car, on Route 1.* The Yad La-Shiryon tank museum (200+ armored vehicles), the 1890 Trappist monastery winery and Mini Israel scale-model park — all within 3 km of each other at the Route 1 junction. A natural stop on the drive between Tel Aviv and Jerusalem.
+- **[Beer-Sheva](/negev) & ANZAC heritage** — *~1 hr by train.* Israel's Negev capital holds the CWGC Beersheba War Cemetery — the site of the 1917 Australian Light Horse Charge and an annual 31 October dawn service. Combine with Tel Be'er Sheva UNESCO archaeological site and the IAF Air Force Museum. See the full Israel ANZAC heritage trail guide.
+- **Ashkelon** — *~45 min by car or ~1 hr by train.* Ancient Canaanite arched gateway (the world's oldest intact arch), Philistine archaeological layers, a unique ancient dog cemetery and 3 km of public Mediterranean beach. See the Ashkelon guide.
+- **The [Galilee](/galilee) & [Nazareth](/galilee)** — *longer.* Better with an early start or a guide.
 
 ## How to do them
 
-For Jerusalem, just take the **[train](/transportation)** — fast, cheap and frequent. For the coast and the desert, a **guided day tour** (above) bundles the driving and the sights. Visiting several spread-out places? **[Rent a car](/car-rental-israel)** for a day or two.
+For Jerusalem, just take the **train** — fast, cheap and frequent. For the coast and the desert, a **guided day tour** (above) bundles the driving and the sights. Visiting several spread-out places? **[Rent a car](/car-rental-israel)** for a day or two.
 
 ## Plan your trip
 
-See the full [Tel Aviv guide](/tel-aviv) and our [itineraries](/itineraries). Based in the holy city instead? See [day trips from Jerusalem](/day-trips-from-jerusalem). Browse all [tours and day trips](/best-tours-in-israel) or go for a [multi-day package](/israel-tour-packages).
+See the full [Tel Aviv guide](/tel-aviv) and our [itineraries](/itineraries). Based in the holy city instead? See [day trips from Jerusalem](/jerusalem-tours-compared). Browse all [tours and day trips](/jerusalem-tours-compared) or go for a [multi-day package](/jerusalem-tours-compared).

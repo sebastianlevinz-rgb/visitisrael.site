@@ -24,7 +24,6 @@ faqs:
   - question: "Ist Haifa sicher und offen für alle Besucher?"
     answer: "Haifa gilt als eine der gemischtesten Städte Israels — jüdische, arabisch-christliche, arabisch-muslimische und bahá'íschen Gemeinschaften leben nebeneinander. Das jährliche Feste-der-Feste-Festival im Dezember feiert Chanukka, Weihnachten und Ramadan gemeinsam. Kontemplatives Verhalten auf den inneren Mittelterrassen des Bahá'í-Zentrums wird erbeten."
 ---
-
 **Haifa** ist Israels drittgrößte Stadt, ein aktiver Mittelmeerhafen, der sich über die Hänge des **Karmelbergs** über einem Tiefwasserhafen erstreckt, und der Weltsitz des **Bahá'í-Glaubens** — die einzige Stadt außerhalb des Irans, in der die zentralen geistlichen und administrativen Institutionen des Bahá'í-Glaubens auf demselben Hügel sitzen. Die **19-Terrassen-Gärten**, die vom Karmelberg von den Bahá'í-Verwaltungsgebäuden bis zur Ben-Gurion-Allee in der Deutschen Kolonie hinabsteigen, wurden von der **UNESCO** 2008 eingetragen; sie gelten weithin als das markanteste architektonische Ensemble Israels nach der Altstadt von Jerusalem.
 
 Dieser Reiseführer behandelt die beste Reisezeit, Unterkünfte in der Deutschen Kolonie und auf den Karmelberghängen, die Haupterlebnisse (Bahá'í-Gärten, Deutsche Kolonie, Stella-Maris-Kloster, Wadi Nisnas, Nationalpark Karmelberg), die natürlichen Nordküstenverbindungen und die Verbindungen von Tel Aviv aus.

@@ -40,7 +40,6 @@ faqs:
   - question: Do guided tours include entry fees and hotel pickup?
     answer: 'Most group tours from Jerusalem or Tel Aviv include hotel pickup, transport and access to the tour operator''s designated beach area. Entry fees to the Ein Bokek public beach area are generally included; private resort beach access (with better facilities) costs extra and varies by hotel. Masada cable-car fees and national park entry are typically included in Masada-combo tours — verify when booking.'
 ---
-
 The Dead Sea is Israel's most iconic natural experience — floating in water ten times saltier than the ocean, effortlessly, at the lowest point on earth. But the tour formats on offer are genuinely different products. Here is an honest comparison of each format, what it costs and how to choose.
 
 ## Dead Sea tours compared
@@ -69,7 +68,7 @@ The bestselling format for first-time visitors. A coach picks you up from Jerusa
 
 The sunrise version adds the snake-path ascent in darkness with a 3–4 am pickup, reaching the Masada summit as the sun rises over Jordan. It is dramatic and worth the early start if you are physically comfortable with the climb. The daytime cable-car version leaves around 7–8 am and covers the same sights without the predawn alarm.
 
-For a deeper breakdown of the Masada formats, see our [Masada tours compared](/masada-tours-compared) guide.
+For a deeper breakdown of the Masada formats, see our Masada tours compared guide.
 
 **Choose this format if:** this is your first visit to the region and you want Masada and the Dead Sea covered efficiently in a single day.
 
@@ -77,11 +76,11 @@ For a deeper breakdown of the Masada formats, see our [Masada tours compared](/m
 
 Ein Bokek is genuinely easy to reach by car: Route 1 east from Jerusalem to the Dead Sea junction, then Route 90 south. The drive takes around 90 minutes from Jerusalem, 100 minutes from Tel Aviv. Park at the Ein Bokek public beach (free) or pay the day rate at a resort hotel for better facilities, a private beach and a pool.
 
-Self-driving gives you total flexibility: arrive when you want, leave when you want, and combine with a stop at [Qumran](/qumran-guide) (the Dead Sea Scrolls site, 30 minutes north on Route 90) or hike the [Ein Gedi nature reserve](/dead-sea/ein-gedi) canyon trails before your float — neither is accessible on a standard group tour.
+Self-driving gives you total flexibility: arrive when you want, leave when you want, and combine with a stop at [Qumran](/dead-sea) (the Dead Sea Scrolls site, 30 minutes north on Route 90) or hike the [Ein Gedi nature reserve](/dead-sea) canyon trails before your float — neither is accessible on a standard group tour.
 
-The [Israel National Parks Pass](/israel-national-parks-pass) is valid at Qumran and Ein Gedi nature reserve (for hiking). Note: Ein Gedi **public beach** is permanently closed due to sinkholes — see the FAQ below.
+The Israel National Parks Pass is valid at Qumran and Ein Gedi nature reserve (for hiking). Note: Ein Gedi **public beach** is permanently closed due to sinkholes — see the FAQ below.
 
-For driving logistics, see our [driving in Israel guide](/driving-in-israel) and [car rental guide](/car-rental-israel).
+For driving logistics, see our [driving in Israel guide](/car-rental-israel) and [car rental guide](/car-rental-israel).
 
 **Choose this format if:** you have a rental car and value flexibility over tour structure.
 
@@ -89,7 +88,7 @@ For driving logistics, see our [driving in Israel guide](/driving-in-israel) and
 
 A licensed private guide turns the day into a fully tailored experience: choose your start time and the combination of stops — Qumran, Ein Gedi canyon, Masada, the float, an afternoon at a resort spa. A private day typically costs **$300–450** for the guide and vehicle (split among your group), and is particularly good value for families or small groups.
 
-For how to find a licensed Israeli Ministry of Tourism guide, see our [private tours guide](/private-tours-israel).
+For how to find a licensed Israeli Ministry of Tourism guide, see our [private tours guide](/jerusalem-tours-compared).
 
 ## Ein Bokek: what to expect at the shore
 
@@ -106,4 +105,4 @@ For specific hotel picks and overnight stays, see our [Dead Sea hotels guide](/d
 - **Have a rental car:** **self-drive** — total flexibility, easy to combine with Qumran.
 - **Family or custom itinerary:** a **private guide**.
 
-For the full logistics of getting to the Dead Sea, what to pack, the Ein Gedi beach closure and seasonal advice, see our [Dead Sea guide](/dead-sea). See also the [Masada and Dead Sea day trip guide](/masada-dead-sea-day-trip) for the detailed combined itinerary, our [Jerusalem vs Tel Aviv departure comparison](/dead-sea-day-trip-comparison) to choose the right base, and the broader picture in our [best tours in Israel](/best-tours-in-israel) guide. If you are driving yourself, add the free [Nahal Pratzim salt canyon](/nahal-pratzim-guide) (5 km south of Ein Bokek) to your route — the Flour Cave alone is 15 minutes and unlike anything else in the region.
+For the full logistics of getting to the Dead Sea, what to pack, the Ein Gedi beach closure and seasonal advice, see our [Dead Sea guide](/dead-sea). See also the Masada and Dead Sea day trip guide for the detailed combined itinerary, our Jerusalem vs Tel Aviv departure comparison to choose the right base, and the broader picture in our [best tours in Israel](/jerusalem-tours-compared) guide. If you are driving yourself, add the free Nahal Pratzim salt canyon (5 km south of Ein Bokek) to your route — the Flour Cave alone is 15 minutes and unlike anything else in the region.

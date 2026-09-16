@@ -7,9 +7,9 @@ import Breadcrumbs from '@/components/Breadcrumbs.astro';
 const itineraries = (await getCollection('itineraries'))
   .filter((e) => !e.id.startsWith('fr/') && !e.id.startsWith('de/') && !e.id.startsWith('es/'))
   .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
-const title = 'Israel Itineraries: 3, 5, 7 & 10-Day Routes';
+const title = 'Israel Itineraries: 7 & 10-Day Routes';
 const description =
-  'Ready-made Israel travel itineraries for every trip length — from a focused 3 days in Jerusalem to a classic week and beyond, with tours, hotels and transport.';
+  'Ready-made Israel travel itineraries — a classic 7-day first trip and a 10-day route that adds the north and the desert, with tours, hotels and transport.';
 const crumbs = [
   { name: 'Home', path: '/' },
   { name: 'Itineraries', path: '/itineraries' },
@@ -65,7 +65,7 @@ const crumbs = [
 
     <p class="mx-auto mt-8 max-w-3xl text-ink-muted">
       More routes are being added regularly. In the meantime, browse the
-      <a href="/" class="font-semibold text-primary">11 regions</a> or start with our
+      <a href="/" class="font-semibold text-primary">7 regions</a> or start with our
       <a href="/first-time-in-israel" class="font-semibold text-primary">first-time guide</a>.
     </p>
   </section>

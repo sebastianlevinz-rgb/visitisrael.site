@@ -32,20 +32,19 @@ faqs:
   - question: "Wie weit ist das Tote Meer von Tel Aviv entfernt?"
     answer: "Etwa 2 Stunden mit dem Auto. Es ist ein langer, aber machbarer Tag; eine organisierte Tour ist am einfachsten, um Masada und das Tote Meer ohne den frühmorgendlichen Aufwand zu kombinieren."
 ---
-
 [Tel Aviv](/tel-aviv) liegt im Herzen des Landes und ist damit eine hervorragende Ausgangsbasis für Tagesausflüge — die Heilige Stadt, die römische Küste, die Wüste und der Norden sind alle bequem erreichbar. Hier sind die besten Möglichkeiten.
 
 ## Die besten Tagesausflüge
 
-- **[Jerusalem](/jerusalem)** — *ca. 45 Min. mit dem Zug.* Der Ausflug Nr. 1: die [Altstadt](/jerusalem/old-city), die [Klagemauer](/jerusalem/western-wall) und die [Grabeskirche](/jerusalem/holy-sepulchre).
-- **[Caesarea](/caesarea), [Haifa](/haifa) und [Akko](/akko)** — *die Nordküste.* Römische Ruinen, die [Bahá'í-Gärten](/haifa/bahai-gardens) und ein Kreuzfahrerhafen an einem geführten Tag.
-- **[Masada](/dead-sea/masada) und das [Tote Meer](/dead-sea)** — *ca. 2 Std.* Der Wüstenklassiker; am einfachsten als Tour.
-- **[Galiläa](/galilee) und [Nazareth](/nazareth)** — *längerer Ausflug.* Besser mit einem frühen Start oder einem Guide.
+- **[Jerusalem](/jerusalem)** — *ca. 45 Min. mit dem Zug.* Der Ausflug Nr. 1: die [Altstadt](/de/jerusalem), die [Klagemauer](/de/jerusalem) und die [Grabeskirche](/de/jerusalem).
+- **[Caesarea](/de/haifa), [Haifa](/haifa) und [Akko](/de/haifa)** — *die Nordküste.* Römische Ruinen, die [Bahá'í-Gärten](/de/haifa) und ein Kreuzfahrerhafen an einem geführten Tag.
+- **[Masada](/de/dead-sea) und das [Tote Meer](/dead-sea)** — *ca. 2 Std.* Der Wüstenklassiker; am einfachsten als Tour.
+- **[Galiläa](/galilee) und [Nazareth](/de/galilee)** — *längerer Ausflug.* Besser mit einem frühen Start oder einem Guide.
 
 ## Planung und Organisation
 
-Nach Jerusalem fahren Sie einfach mit dem **[Zug](/de/transportation)** — schnell, günstig und häufig. Für die Küste und die Wüste bündelt eine **geführte Tagestour** (oben) Fahrt und Sehenswürdigkeiten. Planen Sie mehrere weit entfernte Ausflüge? **[Mieten Sie ein Auto](/de/car-rental-israel)** für ein oder zwei Tage.
+Nach Jerusalem fahren Sie einfach mit dem **Zug** — schnell, günstig und häufig. Für die Küste und die Wüste bündelt eine **geführte Tagestour** (oben) Fahrt und Sehenswürdigkeiten. Planen Sie mehrere weit entfernte Ausflüge? **[Mieten Sie ein Auto](/de/car-rental-israel)** für ein oder zwei Tage.
 
 ## Ihre Reise planen
 
-Entdecken Sie den vollständigen [Tel Aviv-Reiseführer](/tel-aviv) und unsere [Reiserouten](/itineraries). Stattdessen in der Heiligen Stadt? Sehen Sie sich die [Tagesausflüge von Jerusalem](/de/day-trips-from-jerusalem) an. Stöbern Sie auch in allen [Touren und Ausflügen](/de/best-tours-in-israel) oder buchen Sie ein [mehrtägiges Reisepaket](/israel-tour-packages).
+Entdecken Sie den vollständigen [Tel Aviv-Reiseführer](/tel-aviv) und unsere [Reiserouten](/itineraries). Stattdessen in der Heiligen Stadt? Sehen Sie sich die [Tagesausflüge von Jerusalem](/de/jerusalem-tours-compared) an. Stöbern Sie auch in allen [Touren und Ausflügen](/de/jerusalem-tours-compared) oder buchen Sie ein [mehrtägiges Reisepaket](/de/jerusalem-tours-compared).

@@ -33,7 +33,6 @@ faqs:
   - question: Is the Galilee safe for tourists?
     answer: Yes. The Galilee is a long-established tourism corridor with well-marked sites, English-speaking guides at the major pilgrimage spots, and a strong network of kibbutz and lakeside guesthouses. Standard travel awareness applies for hiking — bring water and sun protection for Mount Arbel and the Jesus Trail.
 ---
-
 The Galilee is the most ecumenical Christian destination in Israel and the freshwater heart of the country in one short stretch of shoreline. The **Sea of Galilee** — known in Hebrew as **Kinneret** and in older European sources as Lake Tiberias — sits at 209 metres below sea level, the lowest freshwater lake on Earth, and the shore that frames the bulk of the Gospel narrative. A complete guide to things to do in the Galilee starts with that geography: most of the headline pilgrimage sites cluster on the northern and western shores within a thirty-minute drive of each other, while Tiberias on the western shore is the practical base, Mount Arbel rises just to the west, and the Golan Heights climb away to the east.
 
 This guide covers when to come, where to stay across the lakeside city, kibbutz guesthouses and the Tabgha-Capernaum boutique cluster, the Christian pilgrimage circuit (respectful and ecumenical — Catholic, Greek Orthodox and Protestant traditions all hold a stake in the major sites), the nature and hiking options (Mount Arbel, Banias, the Jesus Trail), top things in Tiberias itself, the natural day trips into the Golan and Nazareth, how to arrive from Tel Aviv or Ben Gurion, and what to eat from St. Peter's fish on the lakeside terraces to Druze hospitality in the nearby villages.
@@ -124,7 +123,7 @@ The Galilee's central position in the north makes it the natural base for day tr
 
 **The Golan Heights** climb away to the east — **Mount Bental** observation lookout (a Yom Kippur War heritage site with a panorama deep into Syria), Banias waterfall, the **Nimrod Fortress** Crusader-era castle, and the **Druze villages** of Majdal Shams and the Druze of Mount Hermon. A full day comfortably covers two or three of these stops.
 
-**Safed (Tzfat)** is 45 minutes north-west from Tiberias — Israel's highest city at 900 metres and the historic centre of Jewish Kabbalistic mysticism, with 16th-century synagogues, a working Artists' Quarter, and panoramic views over the Upper Galilee. See the full [Safed travel guide](/safed-tzfat-guide).
+**Safed (Tzfat)** is 45 minutes north-west from Tiberias — Israel's highest city at 900 metres and the historic centre of Jewish Kabbalistic mysticism, with 16th-century synagogues, a working Artists' Quarter, and panoramic views over the Upper Galilee. See the full [Safed travel guide](/is-israel-safe).
 
 **Akko (Acre)** on the Mediterranean coast is a 1.5-hour drive west, with the UNESCO Crusader Old City, the Hospitaller Knights' Halls, and the Templar Tunnel. The combination of Galilee freshwater shore plus Mediterranean Crusader port works well as a two- or three-day touring loop.
 
@@ -138,7 +137,7 @@ The practical options are:
 - **Egged direct bus** — Tel Aviv Central Bus Station to Tiberias, around 2.5 hours. Workable for travellers basing in Tiberias for two or three days who plan to use lakeside hotel shuttles or organised tours for the pilgrim sites.
 - **Organised day tour** — several Tel Aviv tour operators run hotel-pickup day trips to the Galilee Christian sites. Useful for travellers who do not want to drive but can only spare one day for the region.
 
-For a complete breakdown of all four shores of the lake — west (Magdala, Ginosar), north (Capernaum, Tabgha, Mount of Beatitudes), east (Ein Gev, Kursi), and south (Yardenit, Hamat Gader) — with beaches, cycling and overnight recommendations, see the [Sea of Galilee complete guide](/sea-of-galilee-guide). For lake boat tours and the Kinneret crossing, see the [Sea of Galilee boat tours guide](/sea-of-galilee-boat-tour). If you have three days and want a structured day-by-day itinerary covering Nazareth, the Christian shore circuit and Mount Arbel, see the [3 days in Galilee itinerary](/3-days-in-galilee).
+For a complete breakdown of all four shores of the lake — west (Magdala, Ginosar), north (Capernaum, Tabgha, Mount of Beatitudes), east (Ein Gev, Kursi), and south (Yardenit, Hamat Gader) — with beaches, cycling and overnight recommendations, see the Sea of Galilee complete guide. For lake boat tours and the Kinneret crossing, see the [Sea of Galilee boat tours guide](/jerusalem-tours-compared). If you have three days and want a structured day-by-day itinerary covering Nazareth, the Christian shore circuit and Mount Arbel, see the [3 days in Galilee itinerary](/itineraries/7-days-in-israel).
 
 ## Where to Eat in the Galilee
 

@@ -219,35 +219,6 @@ export const REGION_DATA: Record<string, RegionData> = {
     ],
   },
 
-  nazareth: {
-    intro:
-      "Nazareth is the largest Arab city in Israel and, in Christian tradition, the town where Jesus grew up — making it one of the most significant pilgrimage destinations in the Holy Land. At its heart stands the vast Basilica of the Annunciation, built over the site where, by Catholic tradition, the angel Gabriel appeared to Mary. Around it winds a labyrinthine old city of churches, a covered souk and some of the finest Arab-Israeli cooking in the country. Hilltop Mount Precipice offers sweeping views over the Jezreel Valley, and Nazareth makes an excellent base for the Galilee and a day trip to the Sea of Galilee. A day or two is enough; spring and autumn are most comfortable.",
-    keyFacts: [
-      { label: 'Best time to visit', value: 'March–May & September–November' },
-      { label: 'Getting there', value: '~1.5 hrs by car from Haifa or Tiberias' },
-      { label: 'Suggested stay', value: '1–2 days' },
-      { label: 'Best for', value: 'Christian pilgrimage + Arab-Israeli food' },
-      { label: 'Tip', value: 'Sites close early; eat well in the old city' },
-    ],
-    bestTime: [
-      { season: 'Spring (Mar–May)', verdict: 'Best', note: 'Green hills and mild walking weather around the old city.' },
-      { season: 'Summer (Jun–Aug)', verdict: 'Warm', note: 'Hot but dry; tour churches in the morning.' },
-      { season: 'Autumn (Sep–Nov)', verdict: 'Best', note: 'Comfortable and clear; great valley views.' },
-      { season: 'Winter (Dec–Feb)', verdict: 'Cool', note: 'Cool and occasionally wet; atmospheric at Christmas.' },
-    ],
-    hotels: [
-      { name: 'Fauzi Azar Inn', tier: 'value', neighborhood: 'Old City', blurb: 'A 200-year-old Arab mansion turned beloved guesthouse with free walking tours.' },
-      { name: 'Al-Mutran Guest House', tier: 'value', neighborhood: 'Old City', blurb: 'Restored Ottoman-era home with vaulted rooms in the heart of the souk.' },
-      { name: 'Golden Crown Hotel', tier: 'value', neighborhood: 'Hilltop', blurb: 'Full-service hotel with valley views, popular with pilgrim groups.' },
-      { name: 'Villa Nazareth', tier: 'value', neighborhood: 'City Centre', blurb: 'Comfortable mid-range base with a rooftop and easy basilica access.' },
-      { name: 'Abu Saeed Hostel', tier: 'hostel', neighborhood: 'Old City', blurb: 'Simple, friendly rooms in a historic old-city building.' },
-    ],
-    tours: [
-      { partner: 'getyourguide', title: 'Nazareth & Sea of Galilee Day Tour', description: 'The Basilica of the Annunciation plus Capernaum and the Galilee shore.', image: '/images/sub-destinations/nazareth/basilica-of-the-annunciation.jpg', query: 'Nazareth Sea of Galilee tour' },
-      { partner: 'civitatis', title: 'Nazareth Old City & Market Walk', description: 'A guided wander through the souk, churches and food stalls.', image: '/images/sub-destinations/nazareth/old-city.jpg', query: 'Nazareth old city walking tour' },
-      { partner: 'viator', title: 'Nazareth from Tel Aviv', description: 'Full-day guided trip to Nazareth and the Galilee Christian sites.', image: '/images/regions/nazareth/hero.jpg', query: 'Nazareth day trip Tel Aviv' },
-    ],
-  },
 
   haifa: {
     intro:
@@ -279,91 +250,8 @@ export const REGION_DATA: Record<string, RegionData> = {
     ],
   },
 
-  golan: {
-    intro:
-      "The Golan Heights is a basalt plateau in Israel's far north-east, a high country of extinct volcanoes, hiking trails, gushing springs and some of the country's best wineries. Rising to Mount Hermon — Israel's only ski slope in winter — the Golan offers cool mountain air, panoramic viewpoints like Mount Bental, the Banias waterfall and nature reserve, the Crusader-and-Mamluk ruin of Nimrod Fortress, and the Druze villages of the north, famous for their hospitality and cuisine. Volcanic soil and altitude make this premier wine territory, and the region pairs naturally with the Galilee just to the south. You'll want a car and one to two days; spring brings wildflowers and rushing water, while winter can dust the heights with snow.",
-    keyFacts: [
-      { label: 'Best time to visit', value: 'March–May (water & blooms); winter for snow' },
-      { label: 'Getting there', value: '~2.5 hrs by car from Tel Aviv; base in Galilee/Katzrin' },
-      { label: 'Suggested stay', value: '1–2 days' },
-      { label: 'Best for', value: 'Hiking, wineries, viewpoints, Druze food' },
-      { label: 'Tip', value: 'A car is essential; trails close in bad weather' },
-    ],
-    bestTime: [
-      { season: 'Spring (Mar–May)', verdict: 'Best', note: 'Wildflowers, full waterfalls and ideal hiking weather.' },
-      { season: 'Summer (Jun–Aug)', verdict: 'Pleasant', note: 'Cooler than the lowlands; great for trails and wineries.' },
-      { season: 'Autumn (Sep–Nov)', verdict: 'Great', note: 'Grape harvest and crisp, clear viewpoints.' },
-      { season: 'Winter (Dec–Feb)', verdict: 'Snow', note: 'Cold with possible snow on Hermon; some trails close.' },
-    ],
-    hotels: [
-      { name: 'Mizpe Hayamim', tier: 'luxury', neighborhood: 'Rosh Pina (gateway)', blurb: 'Organic-farm spa hotel with gardens and valley views near the Galilee/Golan edge.' },
-      { name: 'Ramot Resort Hotel', tier: 'value', neighborhood: 'Sea of Galilee / Golan', blurb: 'Chalet-style resort on the slopes above the lake, well placed for the Golan.' },
-      { name: 'Hagoshrim Kibbutz Hotel', tier: 'value', neighborhood: 'Upper Galilee', blurb: 'Riverside kibbutz hotel handy for Banias and the northern reserves.' },
-      { name: 'Genghis Khan in the Golan', tier: 'hostel', neighborhood: 'Givat Yoav', blurb: 'Sleep in Mongolian-style yurts on a Golan ranch — a memorable budget stay.' },
-    ],
-    tours: [
-      { partner: 'getyourguide', title: 'Golan Heights & Wineries Day Tour', description: 'Viewpoints, Nimrod Fortress and a tasting at a boutique Golan winery.', image: '/images/sub-destinations/golan/mount-bental.jpg', query: 'Golan Heights wine tour' },
-      { partner: 'viator', title: 'Banias & Nimrod Fortress Hike', description: 'The Banias waterfall reserve and the cliff-top Nimrod Fortress.', image: '/images/sub-destinations/golan/banias.jpg', query: 'Banias Nimrod Fortress tour' },
-      { partner: 'civitatis', title: 'Golan & Galilee from Tiberias', description: 'A guided loop of northern viewpoints, springs and Druze villages.', image: '/images/regions/golan/hero.jpg', query: 'Golan Galilee day tour' },
-    ],
-  },
 
-  caesarea: {
-    intro:
-      "Caesarea Maritima is one of Israel's most spectacular archaeological sites — a grand Roman port city built by Herod the Great in the 1st century BCE, now a national park spread along the Mediterranean coast between Tel Aviv and Haifa. You can watch the sea break against a restored Roman theatre that still hosts concerts, walk the hippodrome and Herod's cliff-edge palace, explore the Crusader fortress and harbour, and snorkel an underwater archaeological park. North of the ruins, a high-arched Roman aqueduct runs straight along a golden beach — one of the country's most photogenic spots. Caesarea is an easy half-day from Tel Aviv, Haifa or Netanya and pairs well with Akko and Haifa on a northern coastal day trip.",
-    keyFacts: [
-      { label: 'Best time to visit', value: 'April–June & September–November' },
-      { label: 'Getting there', value: '~45 min by car from Tel Aviv or Haifa' },
-      { label: 'Suggested stay', value: 'Half-day to a day trip' },
-      { label: 'Don’t miss', value: 'The Roman theatre + the aqueduct beach' },
-      { label: 'Tip', value: 'Combine with Haifa & Akko for a full coastal day' },
-    ],
-    bestTime: [
-      { season: 'Spring (Apr–Jun)', verdict: 'Best', note: 'Warm, clear days perfect for the seaside ruins.' },
-      { season: 'Summer (Jul–Aug)', verdict: 'Hot', note: 'Hot and bright; bring shade and combine with the beach.' },
-      { season: 'Autumn (Sep–Nov)', verdict: 'Best', note: 'Warm sea, soft light and fewer crowds.' },
-      { season: 'Winter (Dec–Feb)', verdict: 'Mild', note: 'Mild with rain spells; atmospheric and quiet.' },
-    ],
-    hotels: [
-      { name: 'Dan Caesarea', tier: 'luxury', neighborhood: 'Caesarea', blurb: 'Resort hotel beside Israel’s only 18-hole golf course, near the ruins.' },
-      { name: 'Helena Sea Suites (Netanya)', tier: 'value', neighborhood: 'Netanya (nearby)', blurb: 'Seafront suites a short drive south, a handy coastal base.' },
-      { name: 'Ramada Hadera', tier: 'value', neighborhood: 'Hadera (nearby)', blurb: 'Practical mid-range option just north of the park.' },
-    ],
-    tours: [
-      { partner: 'getyourguide', title: 'Caesarea, Haifa & Akko Day Tour', description: 'Roman Caesarea, the Bahá’í Gardens and Crusader Akko in one guided day.', image: '/images/sub-destinations/caesarea/national-park.jpg', query: 'Caesarea Haifa Akko tour' },
-      { partner: 'viator', title: 'Caesarea Maritima Guided Visit', description: 'The theatre, harbour and Crusader fortress with an expert guide.', image: '/images/sub-destinations/caesarea/harbour.jpg', query: 'Caesarea Maritima tour' },
-      { partner: 'civitatis', title: 'Coastal Israel from Tel Aviv', description: 'Caesarea’s ruins and the aqueduct beach on a relaxed coastal day.', image: '/images/regions/caesarea/hero.jpg', query: 'Caesarea coastal day trip' },
-    ],
-  },
 
-  akko: {
-    intro:
-      "Akko (Acre) is a walled Crusader port on the northern coast and one of the most atmospheric old cities in Israel — a UNESCO World Heritage Site where an Ottoman town sits directly atop an intact medieval Crusader city. You can descend into the vast Hospitaller Knights' Halls, walk the underground Templar Tunnel to the harbour, wander the lively Turkish bazaar, visit the green-domed Al-Jazzar Mosque, and eat some of the best hummus and fresh seafood in the country along the sea walls. Compact and walkable, Akko makes a rewarding day trip from Haifa (about 30 minutes by train) or an offbeat overnight in a restored boutique hotel inside the walls. Spring and autumn are the most comfortable seasons.",
-    keyFacts: [
-      { label: 'Best time to visit', value: 'April–June & September–November' },
-      { label: 'Getting there', value: '~30 min by train from Haifa' },
-      { label: 'Suggested stay', value: 'Day trip or one night' },
-      { label: 'Don’t miss', value: 'The Knights’ Halls + the Templar Tunnel' },
-      { label: 'Tip', value: 'Buy the combined old-city sites ticket' },
-    ],
-    bestTime: [
-      { season: 'Spring (Apr–Jun)', verdict: 'Best', note: 'Warm, breezy days ideal for the walls and bazaar.' },
-      { season: 'Summer (Jul–Aug)', verdict: 'Hot', note: 'Hot and humid; explore early and eat by the sea.' },
-      { season: 'Autumn (Sep–Nov)', verdict: 'Best', note: 'Warm sea and golden light over the harbour.' },
-      { season: 'Winter (Dec–Feb)', verdict: 'Mild', note: 'Mild and quiet with occasional rain.' },
-    ],
-    hotels: [
-      { name: 'Efendi Hotel', tier: 'luxury', neighborhood: 'Old City', blurb: 'Two restored Ottoman palaces merged into a museum-quality boutique inside the walls.' },
-      { name: 'Akkotel', tier: 'value', neighborhood: 'Old City Wall', blurb: 'Family-run boutique built into the Crusader-era city wall.' },
-      { name: 'Knights Palace Hotel', tier: 'value', neighborhood: 'Old City', blurb: 'Atmospheric stone hotel in the heart of the old city.' },
-      { name: 'HI Akko Knights Hostel', tier: 'hostel', neighborhood: 'Old City', blurb: 'Well-located hostel a short walk from the Knights’ Halls and harbour.' },
-    ],
-    tours: [
-      { partner: 'getyourguide', title: 'Akko Old City & Knights’ Halls Tour', description: 'The Hospitaller fortress, Templar Tunnel and Turkish bazaar with a guide.', image: '/images/sub-destinations/akko/old-city.jpg', query: 'Akko old city Knights Halls tour' },
-      { partner: 'getyourguide', title: 'Haifa, Akko & Caesarea Day Tour', description: 'The classic northern-coast trio in one guided day from Tel Aviv.', image: '/images/sub-destinations/akko/hospitaller-knights.jpg', query: 'Akko Haifa Caesarea day tour' },
-      { partner: 'civitatis', title: 'Akko Food & Bazaar Walk', description: 'Taste hummus, knafeh and fresh seafood through the old-city market.', image: '/images/sub-destinations/akko/khan-al-umdan.jpg', query: 'Akko food tour bazaar' },
-    ],
-  },
 };
 
 const cap = (s: string) => s.charAt(0).toUpperCase() + s.slice(1).replace(/-/g, ' ');

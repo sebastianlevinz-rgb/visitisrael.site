@@ -24,7 +24,6 @@ faqs:
   - question: "La Galilée est-elle sûre pour les touristes ?"
     answer: "Oui. La Galilée est un corridor touristique bien établi avec des sites clairement balisés, des guides anglophones sur les principaux lieux de pèlerinage et un réseau solide de maisons d'hôtes de kibboutz. Prudence habituelle pour les randonnées — emportez eau et protection solaire pour le mont Arbel et le sentier de Jésus."
 ---
-
 La Galilée est à la fois la destination chrétienne la plus œcuménique d'Israël et le cœur d'eau douce du pays. La **mer de Galilée** — appelée **Kinneret** en hébreu et lac de Tibériade dans les sources européennes — s'étend à 209 mètres sous le niveau de la mer, faisant d'elle le lac d'eau douce le plus bas du monde et le théâtre de la majeure partie du récit évangélique. La géographie structure tout : la grande majorité des sites de pèlerinage se concentrent sur les rives nord et ouest dans un rayon de trente minutes de voiture, tandis que Tibériade est la base pratique à l'ouest, le mont Arbel s'élève juste derrière et les hauteurs du Golan montent à l'est.
 
 Ce guide couvre la meilleure période pour venir, les options d'hébergement (la ville lacustre, les maisons d'hôtes de kibboutz et le petit groupe de guesthouses près de Tabgha-Capharnaüm), le circuit de pèlerinage chrétien (catholique, orthodoxe grec et protestant), les randonnées (mont Arbel, Banias, sentier de Jésus), les incontournables de Tibériade, les excursions naturelles dans le Golan et à Nazareth, et les aspects pratiques du voyage.

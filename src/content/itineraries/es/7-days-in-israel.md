@@ -16,8 +16,7 @@ faqs:
   - question: "¿Cuánto cuestan 7 días en Israel?"
     answer: "Los viajeros con presupuesto ajustado pueden manejarlo por unos 550–800 $ todo incluido (hostales, mercados, transporte público, una o dos visitas guiadas). Los viajeros de presupuesto medio deben calcular 1.200–2.100 $ por persona: hotel 3–4 estrellas (130–220 $/noche), comidas informales (35–55 $/día), transporte local, y dos o tres excursiones y visitas guiadas."
 ---
-
-Este es el itinerario que la mayoría de los visitantes por primera vez debería seguir: una semana que captura el corazón espiritual de Israel, su dramatismo desértico y su frescura mediterránea, sin apresuramientos. Da por hecho que aterrizas y despegas desde el **Aeropuerto Ben Gurión (TLV)**, duermes tres noches en Jerusalén y tres en Tel Aviv, y te desplazas en tren y dos excursiones guiadas — sin auto de alquiler. ¿Prefieres concentrarte en una sola ciudad? Consulta [3 días en Jerusalén](/itineraries/3-days-in-jerusalem). ¿Menos tiempo, o más? Compara las versiones de [5 días](/itineraries/5-days-in-israel) y [10 días](/itineraries/10-days-in-israel).
+Este es el itinerario que la mayoría de los visitantes por primera vez debería seguir: una semana que captura el corazón espiritual de Israel, su dramatismo desértico y su frescura mediterránea, sin apresuramientos. Da por hecho que aterrizas y despegas desde el **Aeropuerto Ben Gurión (TLV)**, duermes tres noches en Jerusalén y tres en Tel Aviv, y te desplazas en tren y dos excursiones guiadas — sin auto de alquiler. ¿Prefieres concentrarte en una sola ciudad? Consulta [3 días en Jerusalén](/es/jerusalem). ¿Menos tiempo, o más? Compara las versiones de 5 días y [10 días](/itineraries/10-days-in-israel).
 
 ## Antes de salir: el marco práctico
 
@@ -27,15 +26,15 @@ Este es el itinerario que la mayoría de los visitantes por primera vez debería
 
 ## Día 1 — Llegada y Ciudad Vieja de Jerusalén
 
-**Por la tarde.** Tren desde el aeropuerto hasta [Jerusalén](/jerusalem) (30 min, ₪18). Deja tu equipaje cerca de Mamilla y entra a la [Ciudad Vieja](/jerusalem/old-city) por la Puerta de Jaffa. Visita el [Muro de los Lamentos](/jerusalem/western-wall) (24 h/24, gratis) y la [Iglesia del Santo Sepulcro](/jerusalem/holy-sepulchre) (desde las 04:00, gratis), luego recorre los cuatro barrios para orientarte. Calcula tres a cuatro horas.
+**Por la tarde.** Tren desde el aeropuerto hasta [Jerusalén](/jerusalem) (30 min, ₪18). Deja tu equipaje cerca de Mamilla y entra a la [Ciudad Vieja](/es/jerusalem) por la Puerta de Jaffa. Visita el [Muro de los Lamentos](/es/jerusalem) (24 h/24, gratis) y la [Iglesia del Santo Sepulcro](/es/jerusalem) (desde las 04:00, gratis), luego recorre los cuatro barrios para orientarte. Calcula tres a cuatro horas.
 
-**Por la noche.** Cena cerca de Mamilla o en el [mercado Mahane Yehuda](/jerusalem/mahane-yehuda) (₪90–160 por una cena en el mercado con bebidas). **Alojamiento:** Jerusalén (1/3).
+**Por la noche.** Cena cerca de Mamilla o en el [mercado Mahane Yehuda](/es/jerusalem) (₪90–160 por una cena en el mercado con bebidas). **Alojamiento:** Jerusalén (1/3).
 
 ## Día 2 — Jerusalén en profundidad
 
-**Por la mañana.** Comienza temprano en la cresta del **[Monte de los Olivos](/jerusalem/mount-of-olives/)** para el panorama clásico sobre la Ciudad Vieja (taxi ₪35–50, luego bajada a pie hacia Getsemaní). Luego el parque arqueológico de la **[Ciudad de David](/jerusalem/city-of-david/)** justo fuera de la Puerta del Estiércol — el Túnel de Ezequías es un recorrido a pie por un canal de la Edad del Bronce con agua hasta los tobillos (entrada ₪34 / 10 $, calcula dos horas).
+**Por la mañana.** Comienza temprano en la cresta del **[Monte de los Olivos](/es/jerusalem)** para el panorama clásico sobre la Ciudad Vieja (taxi ₪35–50, luego bajada a pie hacia Getsemaní). Luego el parque arqueológico de la **[Ciudad de David](/es/jerusalem)** justo fuera de la Puerta del Estiércol — el Túnel de Ezequías es un recorrido a pie por un canal de la Edad del Bronce con agua hasta los tobillos (entrada ₪34 / 10 $, calcula dos horas).
 
-**Por la tarde.** **[Yad Vashem](/jerusalem/yad-vashem/)** (gratis, cerrado los sábados, calcula tres horas). Una **visita guiada a la Ciudad Vieja o los Túneles del Muro** es el mejor complemento aquí.
+**Por la tarde.** **[Yad Vashem](/es/jerusalem)** (gratis, cerrado los sábados, calcula tres horas). Una **visita guiada a la Ciudad Vieja o los Túneles del Muro** es el mejor complemento aquí.
 
 **Por la noche.** Segunda noche en los callejones de bares de Mahane Yehuda, o en Emek Refaim en la Colonia Alemana. **Alojamiento:** Jerusalén (2/3).
 
@@ -43,9 +42,9 @@ Este es el itinerario que la mayoría de los visitantes por primera vez debería
 
 La excursión desértica clásica, preferiblemente en visita guiada ya que Masada al amanecer es inviable en transporte público.
 
-**Antes del amanecer.** Salida alrededor de las 03:30–04:00 para la **subida al amanecer en [Masada](/dead-sea/masada)** — Sendero de la Serpiente ~1 hora en cada sentido, o teleférico desde las 08:00 (entrada al parque ₪31 / 9 $; teleférico ₪48 / 14 $ solo ida).
+**Antes del amanecer.** Salida alrededor de las 03:30–04:00 para la **subida al amanecer en [Masada](/es/dead-sea)** — Sendero de la Serpiente ~1 hora en cada sentido, o teleférico desde las 08:00 (entrada al parque ₪31 / 9 $; teleférico ₪48 / 14 $ solo ida).
 
-**A media mañana.** Senderismo hasta las cascadas en el oasis de **[Ein Gedi](/dead-sea/ein-gedi)** (₪29 / 8 $), luego **flotar en el [mar Muerto](/dead-sea)** — barro mineral, duchas de agua dulce gratuitas, y lleva sandalias para la orilla de piedras cortantes.
+**A media mañana.** Senderismo hasta las cascadas en el oasis de **[Ein Gedi](/es/dead-sea)** (₪29 / 8 $), luego **flotar en el [mar Muerto](/dead-sea)** — barro mineral, duchas de agua dulce gratuitas, y lleva sandalias para la orilla de piedras cortantes.
 
 **Costo y reserva.** Las excursiones guiadas Masada–Ein Gedi–mar Muerto desde Jerusalén cuestan **95–120 $**, con regreso a media tarde. **Alojamiento:** Jerusalén (3/3). **Gastos del día:** ~110–140 $.
 
@@ -53,15 +52,15 @@ La excursión desértica clásica, preferiblemente en visita guiada ya que Masad
 
 **Por la mañana.** Tren Jerusalén → [Tel Aviv](/tel-aviv) (~35–45 min, ₪18–25); deja tu equipaje.
 
-**Por la tarde.** El antiguo [Jaffa](/tel-aviv/old-jaffa) — mercado de pulgas, callejones de piedra, puerto y mirador sobre el skyline — luego paseo por el **[tayelet](/tel-aviv/tayelet)** hacia el norte. Primer baño en el Mediterráneo (gratis).
+**Por la tarde.** El antiguo [Jaffa](/es/tel-aviv) — mercado de pulgas, callejones de piedra, puerto y mirador sobre el skyline — luego paseo por el **[tayelet](/es/tel-aviv)** hacia el norte. Primer baño en el Mediterráneo (gratis).
 
-**Por la noche.** Cena en **[Neve Tzedek](/tel-aviv/neve-tzedek)** o **[Florentin](/tel-aviv/florentin)** (₪70–130). **Alojamiento:** Tel Aviv (1/3).
+**Por la noche.** Cena en **[Neve Tzedek](/es/tel-aviv)** o **[Florentin](/es/tel-aviv)** (₪70–130). **Alojamiento:** Tel Aviv (1/3).
 
 ## Día 5 — Tel Aviv: Bauhaus, mercados y playa
 
-**Por la mañana.** Paseo por la **[Ciudad Blanca](/tel-aviv/rothschild)** Bauhaus alrededor del bulevar Rothschild (visita libre gratuita) y almuerzo en el **[mercado Carmel](/tel-aviv/carmel-market/)**.
+**Por la mañana.** Paseo por la **[Ciudad Blanca](/es/tel-aviv)** Bauhaus alrededor del bulevar Rothschild (visita libre gratuita) y almuerzo en el **[mercado Carmel](/es/tel-aviv)**.
 
-**Por la tarde.** El **[Museo de Arte de Tel Aviv](/tel-aviv/tel-aviv-museum/)** (₪50 / 14 $, cerrado los domingos) o simplemente la playa. Alquila una bicicleta Tel-O-Fun (₪17/día) para recorrer el paseo de punta a punta.
+**Por la tarde.** El **[Museo de Arte de Tel Aviv](/es/tel-aviv)** (₪50 / 14 $, cerrado los domingos) o simplemente la playa. Alquila una bicicleta Tel-O-Fun (₪17/día) para recorrer el paseo de punta a punta.
 
 **Por la noche.** Tel Aviv está en su mejor momento después de anochecer — cena y bares en Florentin o en Dizengoff. **Alojamiento:** Tel Aviv (2/3). **Gastos del día:** ~60–110 $.
 
@@ -69,9 +68,9 @@ La excursión desértica clásica, preferiblemente en visita guiada ya que Masad
 
 Elige un circuito de un día completo desde Tel Aviv. Ambas opciones funcionan en visita guiada (70–120 $) o conduciendo por tu cuenta en el día (alquiler ₪180–280 / 50–80 $ incluyendo combustible y peajes).
 
-**Opción A — Galilea y Nazaret (sitios cristianos).** Dirección el [Mar de Galilea](/galilee): [Cafarnaúm](/galilee/capernaum), el [Monte de las Bienaventuranzas](/galilee/mount-of-beatitudes), el sitio de bautismo de [Yardenit](/galilee/yardenit) y [Tiberíades](/galilee/tiberias), con regreso vía [Nazaret](/nazareth) y la [Basílica de la Anunciación](/nazareth/basilica-of-the-annunciation). Aproximadamente 1h45 en cada sentido en auto.
+**Opción A — Galilea y Nazaret (sitios cristianos).** Dirección el [Mar de Galilea](/galilee): [Cafarnaúm](/es/galilee), el [Monte de las Bienaventuranzas](/es/galilee), el sitio de bautismo de [Yardenit](/es/galilee) y [Tiberíades](/es/galilee), con regreso vía [Nazaret](/es/galilee) y la [Basílica de la Anunciación](/es/galilee). Aproximadamente 1h45 en cada sentido en auto.
 
-**Opción B — Costa norte (sitios romanos y cruzados).** La [Cesarea](/caesarea) romana (₪41 / 12 $), los **[Jardines Bahá'ís](/haifa/bahai-gardens/)** en terrazas y el **[Barrio Alemán](/haifa/german-colony/)** en Haifa (gratis), y la antigua ciudad cruzada de **[Akko](/akko)**. Aproximadamente 1h hasta Cesarea, 1h30 hasta Akko.
+**Opción B — Costa norte (sitios romanos y cruzados).** La [Cesarea](/es/haifa) romana (₪41 / 12 $), los **[Jardines Bahá'ís](/es/haifa)** en terrazas y el **[Barrio Alemán](/es/haifa)** en Haifa (gratis), y la antigua ciudad cruzada de **[Akko](/es/haifa)**. Aproximadamente 1h hasta Cesarea, 1h30 hasta Akko.
 
 **Alojamiento:** Tel Aviv (3/3). **Gastos del día:** ~90–150 $.
 
@@ -95,7 +94,7 @@ Por persona, sin incluir el pasaje aéreo internacional:
 | Visitas guiadas + entradas | 25–50 $ | 80–150 $ |
 | **Total** | **~530–800 $** | **~1.345–2.220 $** |
 
-Compara la profundidad y el costo de cada duración en nuestra [guía de 5 vs 7 vs 10 días](/israel-5-vs-7-vs-10-days) y consulta la [guía completa de costos](/israel-cost-budget).
+Compara la profundidad y el costo de cada duración en nuestra guía de 5 vs 7 vs 10 días y consulta la guía completa de costos.
 
 ## Preguntas frecuentes
 

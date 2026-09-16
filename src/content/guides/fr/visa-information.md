@@ -18,7 +18,6 @@ faqs:
   - question: "Combien de temps les touristes peuvent-ils rester en Israël ?"
     answer: "La plupart des voyageurs exemptés de visa peuvent rester jusqu'à 90 jours par séjour. La durée exacte accordée est à la discrétion de l'agent des frontières et est inscrite sur votre bulletin d'entrée ; une ETA-IL approuvée ne garantit pas en elle-même l'entrée sur le territoire."
 ---
-
 Pour la plupart des voyageurs occidentaux, entrer en Israël en tant que touriste est simple — mais depuis 2025, une étape supplémentaire est nécessaire **avant de prendre l'avion** : l'autorisation ETA-IL. Ces informations sont d'ordre général ; **vérifiez toujours les règles applicables à votre nationalité auprès d'une source officielle du gouvernement israélien** avant de réserver, car les conditions peuvent évoluer.
 
 ## Entrée sans visa
@@ -49,7 +48,7 @@ Attendez-vous à des questions de sécurité à l'arrivée — sur votre voyage,
 
 ## Prolongation de séjour et entrée par voie terrestre
 
-Si vous avez besoin de rester plus longtemps que la durée autorisée, renseignez-vous auprès de l'Autorité de la population et de l'immigration pendant votre séjour. Si vous entrez **par voie terrestre depuis la Jordanie ou l'Égypte**, les exigences concernant l'ETA-IL et les procédures diffèrent selon le poste-frontière — consultez notre [guide des passages frontaliers](/fr/border-crossings).
+Si vous avez besoin de rester plus longtemps que la durée autorisée, renseignez-vous auprès de l'Autorité de la population et de l'immigration pendant votre séjour. Si vous entrez **par voie terrestre depuis la Jordanie ou l'Égypte**, les exigences concernant l'ETA-IL et les procédures diffèrent selon le poste-frontière — consultez notre guide des passages frontaliers.
 
 ## Ressortissants turcs — contrôle de sécurité PIBA obligatoire
 
@@ -59,4 +58,4 @@ Si vous avez un passeport turc, faites votre demande bien à l'avance et confirm
 
 ## Avant de partir
 
-Complétez ce guide avec notre [guide pour les premiers voyageurs](/fr/first-time-in-israel) et lisez [Israël, est-ce sûr ?](/fr/is-israel-safe) pour les conseils de voyage actuels. Pensez aussi aux essentiels pratiques — une [eSIM](/israel-esim), une [assurance voyage](/fr/israel-travel-insurance) et votre [transfert depuis l'aéroport](/ben-gurion-airport-transfers) — avant de prendre l'avion.
+Complétez ce guide avec notre [guide pour les premiers voyageurs](/fr/first-time-in-israel) et lisez [Israël, est-ce sûr ?](/fr/is-israel-safe) pour les conseils de voyage actuels. Pensez aussi aux essentiels pratiques — une eSIM, une assurance voyage et votre transfert depuis l'aéroport — avant de prendre l'avion.

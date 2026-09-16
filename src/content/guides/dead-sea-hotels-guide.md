@@ -38,13 +38,11 @@ faqs:
   - question: Is staying at the Dead Sea worth it vs a day trip?
     answer: 'An overnight stay earns you the sunrise — the Dead Sea at dawn, when the flat hypersaline water mirrors the Judean Hills in silence, is one of the great Israel travel moments. It also lets you float twice (morning and evening), use the spa facilities at your own pace and do Ein Gedi or Masada early the next day. That said, a day trip from Jerusalem is very efficient: 90 minutes by bus, float and mud session, a stop at Kalia or Mineral Beach, back by early evening. Budget travelers lose nothing important on a day trip; travelers whose priority is sunrise, spa or a relaxed itinerary gain a lot from staying.'
 ---
-
 **The Dead Sea** has no hotel district scattered across a town or region — almost all accommodation concentrates at Ein Bokek, a single 3.5-kilometre resort strip on the Israeli southern shore. About fifteen large hotels sit within walking distance of each other on a constructed beachfront, all with direct access to the Dead Sea and spa infrastructure built around the water's mineral content. This guide maps the options, names honest picks at each price tier, and explains when to book and when a day trip is a smarter choice than an overnight stay.
 
-For what to do once you have arrived — how to float safely, the mud ritual, which public beaches to use and how to get there — the [Dead Sea visitor guide](/dead-sea-guide) covers the experience in full.
+For what to do once you have arrived — how to float safely, the mud ritual, which public beaches to use and how to get there — the [Dead Sea visitor guide](/dead-sea) covers the experience in full.
 
 ---
-
 ## Ein Bokek: the Dead Sea resort strip
 
 Ein Bokek is the only purpose-built hotel zone on the Israeli shore of the Dead Sea. It is not a town or a village — there are no independent restaurants outside the hotel lobbies, no street market and no neighbourhood character. What it has is a 3.5-kilometre beachfront where hotels sit within a few minutes' walk of each other, all with private beach access to the Dead Sea and spa facilities centred on the mineral-rich water.
@@ -56,7 +54,6 @@ Ein Bokek is the only purpose-built hotel zone on the Israeli shore of the Dead 
 > **2026 Ein Bokek resort expansion — ongoing:** Israel's Ministry of Tourism approved a NIS 1B+ development plan for Ein Bokek. As of 2026, site work is underway on a southern promenade extension; 7 of 17 new hotel tenders have been awarded, with manmade islands and jetties planned for later phases. **All existing hotels on the current 3.5 km strip remain fully operational.** Visitors in 2026–2027 may see construction cranes or fencing on the southern periphery of the strip — the active hotel zone and beaches are unaffected. The long-term plan adds 4,000–5,000 rooms to the strip; no confirmed opening dates have been released. Check current conditions directly with your hotel before arrival.
 
 ---
-
 ## The Ein Gedi alternative — 20 km north
 
 Twenty kilometres north of Ein Bokek, adjacent to the Ein Gedi Nature Reserve, is the **Ein Gedi Kibbutz Guest House** — the only genuinely budget accommodation on the Israeli Dead Sea shore. Operated by Kibbutz Ein Gedi, it is a four-star property with a mineral pool, a botanical garden walk, breakfast included, and direct access to a Dead Sea beach. The kibbutz setting and the proximity to Ein Gedi's David and Arugot waterfalls make this the better choice for visitors whose priority is hiking and nature alongside the Dead Sea experience.
@@ -66,7 +63,6 @@ Twenty kilometres north of Ein Bokek, adjacent to the Ein Gedi Nature Reserve, i
 **₪480–600/night** is a realistic range for double rooms including breakfast — significantly less than Ein Bokek at comparable quality. The Dead Sea beach is a short walk from the main building; booking ahead for spring (March–May) is recommended as the property fills with Israeli groups and international nature travelers.
 
 ---
-
 ## Mid-range hotels (₪700–1,400/night)
 
 The mid-range tier at Ein Bokek sits between the budget-option gap (almost nothing affordable on the strip itself) and the large luxury resorts. These are comfortable, well-equipped hotels with pool, spa and Dead Sea beach access at prices below the flagship brands.
@@ -80,7 +76,6 @@ The mid-range tier at Ein Bokek sits between the budget-option gap (almost nothi
 At **₪700–1,400/night**, Dead Sea mid-range accommodation should include a mineral pool or spa access, breakfast (or a half-board option), and direct or near-direct beach access. Check what the current rate includes before booking — spa credits and half-board packages are common at the Dead Sea and can change the value calculation significantly.
 
 ---
-
 ## Luxury and resort hotels (₪1,400+/night)
 
 The luxury tier at Ein Bokek is anchored by Israeli resort brands with significant spa infrastructure and the large property scale that makes the Dead Sea experience self-contained.
@@ -94,7 +89,6 @@ The luxury tier at Ein Bokek is anchored by Israeli resort brands with significa
 **₪1,400–3,500+/night** covers the luxury range at Ein Bokek, with the upper end applying to suite categories and peak Israeli holiday weeks. All luxury properties include mineral pool and spa access, Dead Sea private beach, and half-board dining options — compare what is actually bundled into the quoted rate before booking.
 
 ---
-
 ## Seasonal pricing — when to book and when to avoid
 
 | Month | Character | Dead Sea conditions | Notes |
@@ -116,21 +110,19 @@ The luxury tier at Ein Bokek is anchored by Israeli resort brands with significa
 - **Note:** Many Ein Bokek hotels require a **2-night minimum on Friday–Saturday** nights. If you want one night only, mid-week dates are easier to book at shorter notice.
 
 ---
-
 ## The day-trip alternative
 
 If overnight resort pricing is out of budget, the Dead Sea experience is fully accessible as a day trip from Jerusalem:
 
 - **Direct bus (Egged 486):** Jerusalem → Ein Bokek central bus station, approximately 90 minutes, runs several times daily. Last return bus from Ein Bokek to Jerusalem departs around 17:00–18:00 (check current schedule at moovit.com or Egged app).
-- **Organised day tour:** Jerusalem or Tel Aviv hotel pickup, full-day itinerary with a guide, typically including Masada or Ein Gedi alongside the Dead Sea float. See [Masada and Dead Sea day trips](/masada-dead-sea-day-trip) for comparison of tour formats.
+- **Organised day tour:** Jerusalem or Tel Aviv hotel pickup, full-day itinerary with a guide, typically including Masada or Ein Gedi alongside the Dead Sea float. See [Masada and Dead Sea day trips](/dead-sea-tours-compared) for comparison of tour formats.
 - **Car rental:** The most flexible option for families — drive down Route 1 east to Route 90 south; Ein Bokek is clearly signposted; Kalia Beach (northern shore) is 15 minutes past Qumran, useful if arriving from Jerusalem before heading south.
 
 Budget travelers who day-trip save the overnight hotel premium (₪700–3,500/night) at the cost of the sunrise moment. For most first-time visitors on tight budgets, the day-trip is excellent value.
 
 ---
-
 ## Useful links
 
-For the full Dead Sea experience — how to float safely, which beaches are free, the mud ritual explained, and what to bring — see the [Dead Sea visitor guide](/dead-sea-guide). For the classic Israel combination, the [Masada and Dead Sea day trip guide](/masada-dead-sea-day-trip) covers the sunrise Masada climb and afternoon float as a single itinerary.
+For the full Dead Sea experience — how to float safely, which beaches are free, the mud ritual explained, and what to bring — see the [Dead Sea visitor guide](/dead-sea). For the classic Israel combination, the [Masada and Dead Sea day trip guide](/dead-sea-tours-compared) covers the sunrise Masada climb and afternoon float as a single itinerary.
 
-To compare the Dead Sea resort experience with Eilat (Israel's other Red Sea resort zone), see the [Eilat hotels guide](/eilat-hotels-guide). For broader Israel accommodation options across all regions — kibbutz guesthouses, Galilee zimmers, Jerusalem Old City guesthouses — the [Israel accommodation guide](/israel-accommodation-guide) maps the national picture.
+To compare the Dead Sea resort experience with Eilat (Israel's other Red Sea resort zone), see the [Eilat hotels guide](/eilat). For broader Israel accommodation options across all regions — kibbutz guesthouses, Galilee zimmers, Jerusalem Old City guesthouses — the [Israel accommodation guide](/best-hotels-jerusalem) maps the national picture.

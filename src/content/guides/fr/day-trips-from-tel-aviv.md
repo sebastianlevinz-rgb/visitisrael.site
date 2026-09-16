@@ -32,20 +32,19 @@ faqs:
   - question: "À quelle distance se trouve la mer Morte de Tel Aviv ?"
     answer: "Environ 2 heures en voiture. C'est une longue journée mais tout à fait faisable ; un circuit organisé est la solution la plus pratique pour combiner Masada et la mer Morte sans la logistique du départ matinal."
 ---
-
 [Tel Aviv](/tel-aviv) est idéalement située au cœur du pays, ce qui en fait une excellente base pour les excursions d'une journée — la ville sainte, la côte romaine, le désert et le nord sont tous à portée de main. Voici les meilleures options.
 
 ## Les meilleures excursions
 
-- **[Jérusalem](/jerusalem)** — *environ 45 min en train.* L'excursion numéro un : la [Vieille Ville](/jerusalem/old-city), le [mur des Lamentations](/jerusalem/western-wall) et le [Saint-Sépulcre](/jerusalem/holy-sepulchre).
-- **[Césarée](/caesarea), [Haïfa](/haifa) et [Akko](/akko)** — *la côte nord.* Ruines romaines, les [jardins Bahá'ís](/haifa/bahai-gardens) et un port des Croisés en une seule journée guidée.
-- **[Masada](/dead-sea/masada) et la [mer Morte](/dead-sea)** — *environ 2 h.* Le classique du désert ; plus facile en circuit.
-- **La [Galilée](/galilee) et [Nazareth](/nazareth)** — *plus loin.* Mieux avec un départ matinal ou un guide.
+- **[Jérusalem](/jerusalem)** — *environ 45 min en train.* L'excursion numéro un : la [Vieille Ville](/fr/jerusalem), le [mur des Lamentations](/fr/jerusalem) et le [Saint-Sépulcre](/fr/jerusalem).
+- **[Césarée](/fr/haifa), [Haïfa](/haifa) et [Akko](/fr/haifa)** — *la côte nord.* Ruines romaines, les [jardins Bahá'ís](/fr/haifa) et un port des Croisés en une seule journée guidée.
+- **[Masada](/fr/dead-sea) et la [mer Morte](/dead-sea)** — *environ 2 h.* Le classique du désert ; plus facile en circuit.
+- **La [Galilée](/galilee) et [Nazareth](/fr/galilee)** — *plus loin.* Mieux avec un départ matinal ou un guide.
 
 ## Comment s'organiser
 
-Pour Jérusalem, prenez simplement le **[train](/fr/transportation)** — rapide, bon marché et fréquent. Pour la côte et le désert, un **circuit guidé** (ci-dessus) regroupe le trajet et les sites à visiter. Vous prévoyez plusieurs excursions vers des lieux éloignés ? **[Louez une voiture](/fr/car-rental-israel)** pour un jour ou deux.
+Pour Jérusalem, prenez simplement le **train** — rapide, bon marché et fréquent. Pour la côte et le désert, un **circuit guidé** (ci-dessus) regroupe le trajet et les sites à visiter. Vous prévoyez plusieurs excursions vers des lieux éloignés ? **[Louez une voiture](/fr/car-rental-israel)** pour un jour ou deux.
 
 ## Planifiez votre séjour
 
-Consultez le [guide complet de Tel Aviv](/tel-aviv) et nos [itinéraires](/itineraries). Vous séjournez plutôt dans la ville sainte ? Découvrez les [excursions depuis Jérusalem](/fr/day-trips-from-jerusalem). Parcourez aussi tous les [circuits et excursions](/fr/best-tours-in-israel) ou optez pour un [séjour multi-jours](/israel-tour-packages).
+Consultez le [guide complet de Tel Aviv](/tel-aviv) et nos [itinéraires](/itineraries). Vous séjournez plutôt dans la ville sainte ? Découvrez les [excursions depuis Jérusalem](/fr/jerusalem-tours-compared). Parcourez aussi tous les [circuits et excursions](/fr/jerusalem-tours-compared) ou optez pour un [séjour multi-jours](/fr/jerusalem-tours-compared).

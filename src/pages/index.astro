@@ -5,11 +5,12 @@ import DestinationCard from '@/components/DestinationCard.astro';
 import AffiliateCard from '@/components/AffiliateCard.astro';
 import Pic from '@/components/Pic.astro';
 import { REGIONS } from '@/data/regions';
-import { homeAlternates } from '@/i18n/ui';
+import { homeAlternates, useTranslations, PAGE_GROUPS } from '@/i18n/ui';
 
-const title = 'Visit Israel — The English Travel Guide to Israel';
+const t = useTranslations('en');
+const title = 'Visit Israel — The Travel Guide to Israel';
 const description =
-  'Plan a trip to Israel: in-depth guides to Jerusalem, Tel Aviv, the Dead Sea, the Galilee and 11 regions, with day-by-day itineraries, where to stay and trusted tours.';
+  'Plan a trip to Israel: in-depth guides to Jerusalem, Tel Aviv, the Dead Sea, the Galilee, Eilat, the Negev and Haifa, with day-by-day itineraries, the best hotels and tours compared.';
 
 const featuredTours = [
   {
@@ -45,6 +46,32 @@ const featuredTours = [
     query: 'Petra day trip from Eilat',
   },
 ];
+
+const tourGuides = [
+  {
+    href: '/jerusalem-tours-compared',
+    label: 'Jerusalem tours compared',
+    note: 'Old City, Yad Vashem & more',
+    img: '/images/regions/jerusalem/old-city.jpg',
+  },
+  {
+    href: '/dead-sea-tours-compared',
+    label: 'Dead Sea & Masada tours',
+    note: 'Sunrise climb, then float',
+    img: '/images/regions/dead-sea/masada.jpg',
+  },
+  {
+    href: '/day-trips-from-tel-aviv',
+    label: 'Day trips from Tel Aviv',
+    note: 'Caesarea, Haifa, the Galilee',
+    img: '/images/regions/galilee/sea-of-galilee.jpg',
+  },
+];
+
+const planLinks = [
+  ...[...PAGE_GROUPS.practical, ...PAGE_GROUPS.stay].map((p) => ({ href: `/${p.slug}`, label: t(p.key) })),
+  { href: '/itineraries', label: t('nav.itineraries') },
+];
 ---
 
 <BaseLayout
@@ -52,13 +79,13 @@ const featuredTours = [
   description={description}
   path="/"
   ogImage="/og-default.jpg"
-  imageAlt="Visit Israel — the English travel guide to Israel"
+  imageAlt="Visit Israel — the travel guide to Israel"
   alternates={homeAlternates()}
 >
   <Hero
     image="/images/regions/jerusalem/hero.jpg"
     title="Visit Israel"
-    subtitle="An independent guide to 11 regions — from Jerusalem's Old City to the Red Sea — with itineraries, attractions and trusted booking links."
+    subtitle={t('home.heroSubtitle')}
     alt="Aerial view of Jerusalem's Old City and the Temple Mount at golden hour"
     height="tall"
     cta={{ href: '/itineraries', label: 'Plan your itinerary' }}
@@ -66,7 +93,7 @@ const featuredTours = [
     scrollCue
   />
 
-  <!-- GEO intro: dense, data-rich first ~200 words for AI Overviews + SEO. -->
+  <!-- Dense, data-rich intro. -->
   <section class="mx-auto max-w-3xl px-4 pt-12">
     <p class="text-lg leading-relaxed text-ink">
       <strong>Israel</strong> packs four millennia of history, three major faiths
@@ -76,15 +103,13 @@ const featuredTours = [
       the Mediterranean beaches of <a href="/tel-aviv">Tel Aviv</a>, float in the
       <a href="/dead-sea">Dead Sea</a> — the lowest point on Earth at 430 m below
       sea level — and dive Red Sea coral reefs in <a href="/eilat">Eilat</a>. Most
-      visitors arrive at Ben Gurion Airport (TLV) near Tel Aviv; from there fast,
-      affordable trains and buses reach every region covered in this guide. The
-      best times to visit are spring (March–May) and autumn (September–November),
-      when the weather is mild across the country. This guide covers
-      <strong>11 regions</strong> — Jerusalem, Tel Aviv, the Dead Sea, the
-      Galilee, Eilat, the Negev, Nazareth, Haifa, the Golan Heights, Caesarea and
-      Akko — with detailed attraction guides, sample itineraries from 3 to 10
-      days, where to stay for every budget, and practical advice on transport,
-      Shabbat, kosher food and safety.
+      visitors arrive at Ben Gurion Airport (TLV) near Tel Aviv; from there trains
+      and buses reach most of the country. The best times to visit are spring
+      (March–May) and autumn (September–November), when the weather is mild. This
+      guide covers <strong>7 regions</strong> — Jerusalem, Tel Aviv, the Dead Sea,
+      the Galilee, Eilat, the Negev and Haifa — with itineraries of 7 and 10 days,
+      the best hotels and tours compared, and practical advice on visas, safety and
+      car rental.
     </p>
 
     <div class="mt-6 flex flex-wrap gap-3">
@@ -96,81 +121,35 @@ const featuredTours = [
 
   <!-- Region grid — photo cards, never solid color. -->
   <section class="mx-auto max-w-6xl px-4 pt-14" aria-labelledby="regions">
-    <div class="mb-6 flex items-end justify-between" data-reveal>
-      <div>
-        <p class="eyebrow">
-          Where to go
-        </p>
-        <h2 id="regions" class="font-display text-3xl font-bold text-ink">
-          Explore the 11 regions
-        </h2>
-      </div>
-      <a
-        href="/israel-map"
-        class="hidden shrink-0 text-sm font-semibold text-primary no-underline hover:underline sm:block"
-        >View on map →</a
-      >
+    <div class="mb-6" data-reveal>
+      <p class="eyebrow">Where to go</p>
+      <h2 id="regions" class="font-display text-3xl font-bold text-ink">Explore the 7 regions</h2>
     </div>
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
-      {
-        REGIONS.map((region, i) => (
-          <DestinationCard region={region} eager={i < 3} />
-        ))
-      }
+      {REGIONS.map((region, i) => <DestinationCard region={region} eager={i < 3} />)}
     </div>
   </section>
 
-  <!-- Featured tours — clean affiliate cards, integrated not exposed. -->
+  <!-- Featured tours — clean affiliate cards. -->
   <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="tours">
     <div class="mb-6" data-reveal>
-      <p class="eyebrow">
-        Hand-picked experiences
-      </p>
-      <h2 id="tours" class="font-display text-3xl font-bold text-ink">
-        Top-rated tours &amp; day trips
-      </h2>
+      <p class="eyebrow">Hand-picked experiences</p>
+      <h2 id="tours" class="font-display text-3xl font-bold text-ink">Popular tours &amp; day trips</h2>
     </div>
     <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
-      {featuredTours.map((t) => <AffiliateCard {...t} />)}
+      {featuredTours.map((tour) => <AffiliateCard {...tour} />)}
     </div>
   </section>
 
-  <!-- Popular day trips — photo cards into the highest-value new guides. -->
-  <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="daytrips">
+  <!-- Tour guides — photo cards into the comparison guides. -->
+  <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="tour-guides">
     <div class="mb-6" data-reveal>
-      <p class="eyebrow">One day, one classic</p>
-      <h2 id="daytrips" class="font-display text-3xl font-bold text-ink">
-        Popular day trips
-      </h2>
+      <p class="eyebrow">Compare before you book</p>
+      <h2 id="tour-guides" class="font-display text-3xl font-bold text-ink">Tour guides</h2>
     </div>
-    <div class="grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+    <div class="grid grid-cols-1 gap-5 sm:grid-cols-3">
       {
-        [
-          {
-            href: '/masada-dead-sea-day-trip',
-            label: 'Masada & Dead Sea',
-            note: 'Sunrise climb, then float',
-            img: '/images/regions/dead-sea/masada.jpg',
-          },
-          {
-            href: '/jerusalem-bethlehem-day-trip',
-            label: 'Jerusalem & Bethlehem',
-            note: 'Old City to the West Bank',
-            img: '/images/regions/jerusalem/old-city.jpg',
-          },
-          {
-            href: '/nazareth-sea-of-galilee-day-trip',
-            label: 'Nazareth & Galilee',
-            note: 'Christian Galilee circuit',
-            img: '/images/regions/galilee/sea-of-galilee.jpg',
-          },
-          {
-            href: '/petra-from-israel',
-            label: 'Petra from Israel',
-            note: 'Cross into Jordan',
-            img: '/images/regions/eilat/hero.jpg',
-          },
-        ].map((c) => (
+        tourGuides.map((c) => (
           <a
             href={c.href}
             class="group relative block aspect-[4/3] overflow-hidden rounded-card shadow-card transition-shadow duration-300 hover:shadow-card-hover"
@@ -184,74 +163,9 @@ const featuredTours = [
             />
             <div class="photo-overlay absolute inset-0" />
             <div class="absolute inset-x-0 bottom-0 p-4">
-              <p class="photo-title text-xs font-semibold uppercase tracking-widest opacity-90">
-                {c.note}
-              </p>
-              <h3 class="photo-title mt-1 font-display text-xl font-bold">
-                {c.label}
-              </h3>
+              <p class="photo-title text-xs font-semibold uppercase tracking-widest opacity-90">{c.note}</p>
+              <h3 class="photo-title mt-1 font-display text-xl font-bold">{c.label}</h3>
             </div>
-          </a>
-        ))
-      }
-    </div>
-  </section>
-
-  <!-- Free travel tools — our interactive differentiator. -->
-  <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="tools-section">
-    <div class="mb-6" data-reveal>
-      <p class="eyebrow">Plan smarter</p>
-      <h2 id="tools-section" class="font-display text-3xl font-bold text-ink">
-        Free travel tools
-      </h2>
-    </div>
-    <div class="grid grid-cols-2 gap-4 lg:grid-cols-3">
-      {
-        [
-          {
-            href: '/build-your-trip',
-            label: 'Build your trip',
-            note: 'Pick sights → shareable plan',
-          },
-          {
-            href: '/israel-trip-cost-calculator',
-            label: 'Trip cost calculator',
-            note: 'Budget your whole trip',
-          },
-          {
-            href: '/israel-map',
-            label: 'Travel map',
-            note: 'Every sight, by region',
-          },
-          {
-            href: '/israel-tipping-currency',
-            label: 'Currency & tipping',
-            note: 'Convert ₪ and tip right',
-          },
-          {
-            href: '/israel-packing-list',
-            label: 'Packing checklist',
-            note: 'Saves as you tick',
-          },
-          {
-            href: '/which-israel-region-quiz',
-            label: 'Which region quiz',
-            note: 'Find your match',
-          },
-          {
-            href: '/israel-parks-pass-calculator',
-            label: 'Parks pass calculator',
-            note: 'Blue, Green or Orange card?',
-          },
-        ].map((t) => (
-          <a
-            href={t.href}
-            class="rounded-card border border-border bg-card p-5 no-underline shadow-card transition-shadow hover:shadow-card-hover"
-          >
-            <h3 class="font-display text-lg font-bold leading-snug text-ink">
-              {t.label}
-            </h3>
-            <p class="mt-1 text-sm text-ink-muted">{t.note}</p>
           </a>
         ))
       }
@@ -260,25 +174,10 @@ const featuredTours = [
 
   <!-- Plan-your-trip practical links. -->
   <section class="mx-auto max-w-6xl px-4 pb-4 pt-16" aria-labelledby="plan">
-    <h2 id="plan" class="mb-6 font-display text-3xl font-bold text-ink">
-      Plan your trip
-    </h2>
+    <h2 id="plan" class="mb-6 font-display text-3xl font-bold text-ink">Plan your trip</h2>
     <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
       {
-        [
-          { href: '/first-time-in-israel', label: 'First time in Israel' },
-          { href: '/israel-trip-cost-calculator', label: 'Trip cost calculator' },
-          { href: '/transportation', label: 'Getting around' },
-          { href: '/tel-aviv-to-jerusalem', label: 'Tel Aviv → Jerusalem' },
-          { href: '/whats-open-on-shabbat', label: "What's open on Shabbat" },
-          { href: '/is-israel-safe', label: 'Is Israel safe?' },
-          { href: '/best-time-to-visit-israel', label: 'Best time to visit' },
-          { href: '/israeli-food-cuisine-guide', label: 'Israeli food' },
-          { href: '/christian-pilgrimage-holy-land', label: 'Christian pilgrimage' },
-          { href: '/hiking-in-israel', label: 'Hiking in Israel' },
-          { href: '/visa-information', label: 'Visa information' },
-          { href: '/itineraries', label: 'Itineraries' },
-        ].map((l) => (
+        planLinks.map((l) => (
           <a
             href={l.href}
             class="rounded-card border border-border bg-card px-4 py-5 text-center text-sm font-semibold text-ink no-underline shadow-card transition-shadow hover:shadow-card-hover"

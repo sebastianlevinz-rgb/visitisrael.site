@@ -24,7 +24,6 @@ faqs:
   - question: "¿Qué es el parque Timna?"
     answer: "El parque Timna es una reserva geológica de 60 km² a 25 km al norte de Eilat — formaciones de arenisca entre las que destacan los famosos Pilares de Salomón y la Roca Hongo, minas de cobre de la Edad de Bronce, una réplica del Tabernáculo y senderos de senderismo accesibles. Calcula media jornada; lleva agua y protección solar. Es indispensable contar con vehículo (auto de alquiler o tour guiado)."
 ---
-
 Eilat es el enclave playero del mar Rojo de Israel — una ciudad de resorts enclavada en un pequeño golfo en el extremo sur del país, donde las fronteras de Israel, Jordania, Egipto y Arabia Saudita se encuentran más allá del agua. El entorno es único: 12 kilómetros de costa protegida por un arrecife, un interior desértico de montañas rojas escarpadas, y un clima todo el año que convierte a la ciudad en la capital playera invernal de Israel mientras la costa mediterránea está fría y lluviosa.
 
 Esta guía cubre la mejor época para venir, los tres barrios hoteleros diferenciados, las experiencias imprescindibles del mar Rojo (Reserva Coral Beach, Observatorio Submarino, Dolphin Reef), las excursiones por el desierto que combinan bien con una base costera (parque Timna, Red Canyon, Mitzpe Ramon y el cielo estrellado del Néguev), la excursión a Petra por el puesto fronterizo de Wadi Araba, y cómo llegar al aeropuerto Ramon (ETM).

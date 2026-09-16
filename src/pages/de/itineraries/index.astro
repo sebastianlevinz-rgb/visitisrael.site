@@ -9,9 +9,9 @@ const itineraries = allItineraries
   .filter((e) => e.id.startsWith('de/'))
   .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
 
-const title = 'Israel-Reisepläne: 3-, 5-, 7- und 10-Tage-Routen';
+const title = 'Israel-Reisepläne: 7- und 10-Tage-Routen';
 const description =
-  'Fertige Israel-Reisepläne für jede Reisedauer — von 3 Tagen in Jerusalem bis zu einer klassischen Woche und mehr, mit Touren, Hotels und Transport.';
+  'Fertige Israel-Reisepläne — eine klassische 7-tägige erste Reise und eine 10-Tage-Route mit dem Norden und der Wüste, mit Touren, Hotels und Transport.';
 const crumbs = [
   { name: 'Startseite', path: '/de/' },
   { name: 'Reisepläne', path: '/de/itineraries' },
@@ -70,7 +70,7 @@ const crumbs = [
 
     <p class="mx-auto mt-8 max-w-3xl text-ink-muted">
       Weitere Routen werden regelmäßig hinzugefügt. In der Zwischenzeit erkunden Sie die
-      <a href="/de/" class="font-semibold text-primary">11 Regionen</a> oder beginnen mit unserem
+      <a href="/de/" class="font-semibold text-primary">7 Regionen</a> oder beginnen mit unserem
       <a href="/de/first-time-in-israel" class="font-semibold text-primary">Erstbesuch-Leitfaden</a>.
     </p>
   </section>

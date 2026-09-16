@@ -20,7 +20,6 @@ faqs:
   - question: "¿Se puede hacer una excursión a Belén desde Jerusalén?"
     answer: "Sí, y la gran mayoría de los visitantes lo hacen. Belén está en Cisjordania bajo administración palestina; lleva tu pasaporte. Un tour guiado o un taxi compartido gestiona la logística del checkpoint de Gilo. Calcula medio día para la Iglesia de la Natividad, el Pesebre y el campo de refugiados Aida."
 ---
-
 Jerusalén recompensa a quienes le dedican tiempo. En apenas un kilómetro cuadrado, la Ciudad Vieja acumula cuatro milenios de historia — palacios herodianos, la Iglesia del Santo Sepulcro, la Explanada de las Mezquitas / Monte del Templo y el Muro de las Lamentaciones / Kotel — mientras que los barrios del oeste ofrecen museos de categoría internacional, mercados animados y restaurantes que cierran tarde. Esta guía práctica cubre cuándo venir, dónde dormir, qué ver y cómo moverse para una primera visita de dos a cuatro días.
 
 ## Cuándo visitar Jerusalén

@@ -44,13 +44,11 @@ faqs:
   - question: How far in advance should I book a Tel Aviv hotel?
     answer: 'For Pride week (second week of June), book 3–6 months ahead — hotels fill with international LGBTQ+ visitors and prices spike 2–3×. For Passover, Sukkot and the Jewish holiday cluster (September–October), book 2–4 months ahead. For standard summer (July–August), the major beach hotels book out 2–3 months ahead. November through March is much easier — 2–4 weeks is usually sufficient except for Christmas week.'
 ---
-
 **Tel Aviv** has the most diverse hotel market in Israel: Ottoman fortress luxury in Jaffa, Bauhaus-era boutiques on Rothschild Boulevard, budget guesthouses in Florentin and hostel-style stays a few streets from the Mediterranean. The right choice depends less on price than on which neighborhood puts you closest to what you want from the city. This guide covers the five main areas, names honest picks at each price tier, and tells you when the market is expensive and when it is not.
 
-For a deeper neighborhood-by-neighborhood character guide — where to eat, what the streets feel like, which areas suit which travel styles — see the [Tel Aviv neighborhoods guide](/tel-aviv-neighborhoods-guide). This page focuses on specific hotel recommendations and booking context.
+For a deeper neighborhood-by-neighborhood character guide — where to eat, what the streets feel like, which areas suit which travel styles — see the [Tel Aviv neighborhoods guide](/tel-aviv). This page focuses on specific hotel recommendations and booking context.
 
 ---
-
 ## Where to stay in Tel Aviv: neighborhoods at a glance
 
 **Rothschild Boulevard and the White City** is the cultural heart of Tel Aviv: UNESCO-listed Bauhaus architecture, the best restaurants in the city, the Carmel Market within 10 minutes on foot, and the Red Line light rail connecting you to everything. Most mid-range boutique hotels sit in this area or on the adjacent streets (Allenby, Ben Yehuda, Dizengoff). Good for: culture, food, architecture, nightlife proximity.
@@ -64,7 +62,6 @@ For a deeper neighborhood-by-neighborhood character guide — where to eat, what
 **Old Jaffa and Jaffa Port** has its own cluster of luxury hotels built into the Ottoman heritage fabric of the port. The Setai Tel Aviv is the flagship property. Walking distance to the flea market, galleries and the port, but slightly removed from the main Rothschild dining and nightlife axis.
 
 ---
-
 ## Budget hotels and guesthouses (₪300–550/night)
 
 Tel Aviv's budget accommodation clusters in Florentin, the Old North (north of the Yarkon River, around Ben Yehuda and Dizengoff) and the streets between the beach and Rothschild Boulevard. Genuine budget options on the beachfront itself are rare — expect a 10–20 minute walk from the cheapest properties to the Mediterranean.
@@ -78,7 +75,6 @@ Tel Aviv's budget accommodation clusters in Florentin, the Old North (north of t
 **₪300–550/night** is realistic for private rooms in off-peak months (November–March). During Pride week, Passover and peak summer (July–August), budget properties also surge — prices across Tel Aviv are heavily event-driven.
 
 ---
-
 ## Mid-range hotels (₪550–1,100/night)
 
 The mid-range tier is where Tel Aviv's boutique hotel scene is strongest. Most of these properties sit on or near Rothschild Boulevard, in Neve Tzedek, or on the streets between Allenby and Ben Yehuda.
@@ -92,7 +88,6 @@ The mid-range tier is where Tel Aviv's boutique hotel scene is strongest. Most o
 At **₪550–1,100/night**, mid-range Tel Aviv properties should include boutique design, a sense of the neighborhood, and a decent breakfast. This tier is where the city's hotel personality shines most clearly — less anonymous than the large beachfront brands, more atmospheric than the budget properties.
 
 ---
-
 ## Luxury hotels (₪1,200+/night)
 
 Tel Aviv's luxury tier spans two distinct characters: grand beachfront resorts on the Tayelet and architecturally distinctive boutique hotels in restored historic buildings.
@@ -110,7 +105,6 @@ Tel Aviv's luxury tier spans two distinct characters: grand beachfront resorts o
 **₪1,200–3,000+/night** covers the luxury range, with the top end applying to suites and peak-season weeks. The Norman and Setai sit at the upper-boutique tier and can cost more than the large Tayelet brands for comparable room categories — they are pricing on exclusivity, not scale.
 
 ---
-
 ## 2025–2026 new luxury openings
 
 Two significant additions to Tel Aviv's luxury tier opened in 2026, materially upgrading the city's position among top-tier international hotel destinations.
@@ -121,10 +115,9 @@ Two significant additions to Tel Aviv's luxury tier opened in 2026, materially u
 
 **Honest caveat on 2026 openings:** opening timelines for large luxury properties can shift. Confirm current operational status and availability directly via Booking.com before making plans around a specific property. The descriptions above reflect the properties as planned and announced; verify actual services and room categories before booking.
 
-For a wider roundup of all 2026 luxury hotel openings across Israel — from Herzliya Marina to the Dead Sea, Safed and Beersheba — see the [new luxury hotels in Israel 2026 guide](/new-luxury-hotels-israel-2026).
+For a wider roundup of all 2026 luxury hotel openings across Israel — from Herzliya Marina to the Dead Sea, Safed and Beersheba — see the [new luxury hotels in Israel 2026 guide](/best-hotels-jerusalem).
 
 ---
-
 ## Who should stay where — the decision matrix
 
 | Priority | Recommended option |
@@ -141,7 +134,6 @@ For a wider roundup of all 2026 luxury hotel openings across Israel — from Her
 | Business travel | Crowne Plaza Tel Aviv or David InterContinental (conference facilities) |
 
 ---
-
 ## Booking context and price patterns
 
 Tel Aviv hotel prices follow predictable patterns. **Pride week** (second week of June each year) is the single biggest demand spike — international visitors book months ahead and prices for well-located properties rise 2–3× above baseline. The major Jewish holidays — **Passover** (March–April), **Rosh Hashanah** and **Sukkot** (September–October) — each create a 1–2 week demand surge with prices 50–100% above normal. **Shabbat weekends** (Friday–Saturday) push central Tel Aviv prices higher than mid-week.
@@ -151,11 +143,10 @@ Tel Aviv hotel prices follow predictable patterns. **Pride week** (second week o
 All prices stated in this guide are ranges — hotel rates change daily based on occupancy and demand. Check live rates via the booking links above; never rely on a static published price.
 
 ---
-
 ## Useful links
 
-For visitors specifically interested in staying in Old Jaffa — heritage hotels in the ancient port district, the Clock Tower area and near the flea market — see the dedicated [Jaffa hotels guide](/jaffa-hotels-guide).
+For visitors specifically interested in staying in Old Jaffa — heritage hotels in the ancient port district, the Clock Tower area and near the flea market — see the dedicated Jaffa hotels guide.
 
-For deeper neighborhood context — what each area of Tel Aviv feels like, where to eat and how to get around — see the [Tel Aviv neighborhoods guide](/tel-aviv-neighborhoods-guide). For the city's food scene, the [Tel Aviv food guide](/tel-aviv-food-guide) covers neighborhoods from the Carmel Market to Florentin's Thursday night scene. For the White City Bauhaus architecture the mid-range hotels sit within, the [Tel Aviv White City guide](/tel-aviv-white-city) goes deeper into the UNESCO heritage context.
+For deeper neighborhood context — what each area of Tel Aviv feels like, where to eat and how to get around — see the [Tel Aviv neighborhoods guide](/tel-aviv). For the city's food scene, the [Tel Aviv food guide](/tel-aviv) covers neighborhoods from the Carmel Market to Florentin's Thursday night scene. For the White City Bauhaus architecture the mid-range hotels sit within, the [Tel Aviv White City guide](/tel-aviv) goes deeper into the UNESCO heritage context.
 
-For broader accommodation across Israel — Dead Sea resort hotels, Galilee zimmer guesthouses, Negev desert lodges — the [Israel accommodation guide](/israel-accommodation-guide) maps the national picture. For getting around once you are in the city: the [Tel Aviv light rail guide](/tel-aviv-light-rail) covers the Red Line, which connects the beachfront hotels to Rothschild, the Carmel Market and beyond.
+For broader accommodation across Israel — Dead Sea resort hotels, Galilee zimmer guesthouses, Negev desert lodges — the [Israel accommodation guide](/best-hotels-jerusalem) maps the national picture. For getting around once you are in the city: the [Tel Aviv light rail guide](/tel-aviv) covers the Red Line, which connects the beachfront hotels to Rothschild, the Carmel Market and beyond.

@@ -18,7 +18,6 @@ faqs:
   - question: How long can tourists stay in Israel?
     answer: Most visa-exempt visitors can stay up to 90 days per visit. The exact period granted is at the discretion of the border officer and noted on your entry slip; an approved ETA-IL does not by itself guarantee entry.
 ---
-
 For most Western travellers, entering Israel as a tourist is straightforward — but since 2025 there's one extra step to do **before you fly**: the ETA-IL travel authorization. This is general guidance; **always confirm the rules for your nationality with an official Israeli government source** before booking, as requirements can change.
 
 ## Visa-free entry
@@ -41,7 +40,7 @@ Fees, eligible countries and rules can change — always confirm the current det
 
 ## The paper entry slip
 
-Israel typically **does not stamp passports** at Ben Gurion Airport. Instead you're given a small **paper entry slip** at passport control. Keep it safe — hotels may ask for it at check-in, and you may need it at internal checkpoints. The slip also keeps any Israel entry record out of your passport, which can simplify later travel to certain countries. For a full explanation of what the slip means, what happens at land borders, and how evidence of Israel travel affects future trips, see our dedicated [Israeli passport stamp guide](/israeli-passport-stamp).
+Israel typically **does not stamp passports** at Ben Gurion Airport. Instead you're given a small **paper entry slip** at passport control. Keep it safe — hotels may ask for it at check-in, and you may need it at internal checkpoints. The slip also keeps any Israel entry record out of your passport, which can simplify later travel to certain countries. For a full explanation of what the slip means, what happens at land borders, and how evidence of Israel travel affects future trips, see our dedicated Israeli passport stamp guide.
 
 ## At the border
 
@@ -49,11 +48,11 @@ Expect security questions on arrival — about your trip, where you're staying a
 
 ## Extending your stay & overland entry
 
-If you need longer than your permitted stay, you can apply for an extension at a Population and Immigration Authority (Misrad HaPnim) office before your current authorization expires. See the full [Israel tourist visa extension guide](/israel-visa-extension) for the step-by-step process, required documents, fees and alternatives including the border-run option. If you're entering **overland from Jordan or Egypt**, the ETA-IL requirement and procedures differ by crossing — see our [border crossings guide](/border-crossings).
+If you need longer than your permitted stay, you can apply for an extension at a Population and Immigration Authority (Misrad HaPnim) office before your current authorization expires. See the full Israel tourist visa extension guide for the step-by-step process, required documents, fees and alternatives including the border-run option. If you're entering **overland from Jordan or Egypt**, the ETA-IL requirement and procedures differ by crossing — see our border crossings guide.
 
 ## Travelers who need a B/2 visa — including Chinese citizens
 
-Citizens of countries not on the visa-exempt list — including **China** — must apply for a **B/2 Tourist Visa** at an Israeli embassy or consulate before travelling. The ETA-IL does not apply to Chinese passport holders. For a complete guide to the B/2 visa application process, flight options, payment practicalities, and Mandarin-speaking guide options, see our dedicated [Israel for Chinese travelers guide](/israel-for-chinese-travelers).
+Citizens of countries not on the visa-exempt list — including **China** — must apply for a **B/2 Tourist Visa** at an Israeli embassy or consulate before travelling. The ETA-IL does not apply to Chinese passport holders. For a complete guide to the B/2 visa application process, flight options, payment practicalities, and Mandarin-speaking guide options, see our dedicated Israel for Chinese travelers guide.
 
 ## Turkish nationals — mandatory PIBA security clearance
 
@@ -63,14 +62,14 @@ If you hold a Turkish passport, apply well in advance of your intended travel da
 
 ## Filipino travellers — visa-exempt, ETA-IL required
 
-Philippine passport holders are on Israel's visa-exempt list — **no visa application needed**. However, since January 2025, Filipino citizens must obtain an ETA-IL (₪25) at iaa.gov.il at least 72 hours before travel. For the full Filipino-specific guide — flights from Manila, GCash in Israel, PhilHealth abroad, Catholic pilgrimage sites, and OFW-family visit logistics — see our dedicated [Israel for Filipino travelers guide](/israel-for-filipino-travelers).
+Philippine passport holders are on Israel's visa-exempt list — **no visa application needed**. However, since January 2025, Filipino citizens must obtain an ETA-IL (₪25) at iaa.gov.il at least 72 hours before travel. For the full Filipino-specific guide — flights from Manila, GCash in Israel, PhilHealth abroad, Catholic pilgrimage sites, and OFW-family visit logistics — see our dedicated Israel for Filipino travelers guide.
 
 ## Working Holiday Visa (Australia, NZ, Austria, Germany, Czech Republic, South Korea)
 
-Citizens of six countries — Australia, New Zealand, Austria, Germany, Czech Republic, and South Korea — can apply for an Israeli **Working Holiday Visa (WHV)** that permits a stay of up to 12 months with the right to work legally. Unlike a tourist permit, the WHV requires a formal application at the Israeli Embassy in your home country before departure, and allows employment (with a maximum of three months per single employer). It is a genuine work-permitted stay, not an extended tourist visa. For full details — eligibility, the application process, what work is permitted, and how to plan 12 months in Israel — see the [Israel Working Holiday Visa guide](/israel-working-holiday-visa).
+Citizens of six countries — Australia, New Zealand, Austria, Germany, Czech Republic, and South Korea — can apply for an Israeli **Working Holiday Visa (WHV)** that permits a stay of up to 12 months with the right to work legally. Unlike a tourist permit, the WHV requires a formal application at the Israeli Embassy in your home country before departure, and allows employment (with a maximum of three months per single employer). It is a genuine work-permitted stay, not an extended tourist visa. For full details — eligibility, the application process, what work is permitted, and how to plan 12 months in Israel — see the Israel Working Holiday Visa guide.
 
 ## Before you go
 
-Not sure which category applies to your passport? Use our [Visa & ETA-IL checker](/israel-visa-eta-checker) for an instant result by nationality — covers 150+ countries.
+Not sure which category applies to your passport? Use our Visa & ETA-IL checker for an instant result by nationality — covers 150+ countries.
 
-Pair this with our [first-time guide](/first-time-in-israel) and read [Is Israel safe to visit?](/is-israel-safe) for current-advice guidance. Sort the practical essentials too — an [eSIM](/israel-esim), [travel insurance](/israel-travel-insurance) and your [airport transfer](/ben-gurion-airport-transfers) — before you fly.
+Pair this with our [first-time guide](/first-time-in-israel) and read [Is Israel safe to visit?](/is-israel-safe) for current-advice guidance. Sort the practical essentials too — an eSIM, travel insurance and your airport transfer — before you fly.

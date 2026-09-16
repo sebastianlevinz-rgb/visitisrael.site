@@ -20,7 +20,6 @@ faqs:
   - question: "Kann man von Jerusalem aus einen Tagesausflug nach Bethlehem machen?"
     answer: "Ja, und die meisten Besucher tun dies. Bethlehem liegt im Westjordanland unter palästinensischer Verwaltung. Bringen Sie Ihren Reisepass mit. Eine geführte Tour oder ein Sammeltaxi übernimmt die Checkpoint-Logistik beim Gilo-Übergang. Planen Sie etwa einen halben Tag für die Geburtskirche und die Krippe."
 ---
-
 Jerusalem belohnt Reisende, die ihm Zeit geben. Auf einem einzigen Quadratkilometer schichtet die Altstadt vier Jahrtausende Geschichte — herodianische Paläste, Grabeskirche, Tempelberg und Klagemauer / Kotel — während die westlichen Stadtteile Weltklasse-Museen, lebhafte Märkte und späte Restaurantszenen bieten. Dieser praktische Reiseführer behandelt die wichtigsten Entscheidungen für einen ersten Aufenthalt von zwei bis vier Tagen: wann man kommt, wo man schläft, was man sieht und wie man sich fortbewegt.
 
 ## Wann nach Jerusalem reisen

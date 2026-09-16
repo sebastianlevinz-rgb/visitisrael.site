@@ -32,16 +32,15 @@ faqs:
   - question: Is an automatic or manual car better for Israel?
     answer: 'Automatics are widely available and recommended, especially in cities like Jerusalem and Tel Aviv where traffic and hills make manual driving more demanding. Automatics also cost slightly more but are worth it for most visitors. Manuals are available at a lower rate if you are comfortable with them.'
 ---
-
 Israel is small and the trains are excellent between the main cities — so you do not always need a car. But for the spread-out north and the desert south, a rental transforms the trip. Here is when to rent, what to know, and where to book.
 
 ## When a car is (and isn't) worth it
 
 **Skip the car for** the [Tel Aviv](/tel-aviv)–[Jerusalem](/jerusalem)–[Haifa](/haifa) corridor — trains and buses are faster and cheaper once you factor in city parking.
 
-**Rent a car for** the [Galilee](/galilee), [Golan Heights](/golan) and [Negev](/negev), where sights like wineries, viewpoints and the Makhtesh Ramon crater are scattered and transit is sparse. A common strategy: do the cities by train, then rent for two or three days in the north or south.
+**Rent a car for** the [Galilee](/galilee), [Golan Heights](/galilee) and [Negev](/negev), where sights like wineries, viewpoints and the Makhtesh Ramon crater are scattered and transit is sparse. A common strategy: do the cities by train, then rent for two or three days in the north or south.
 
-Not sure if your specific itinerary needs one? Try the [Should I rent a car in Israel? quiz](/israel-car-rental-quiz) — answer six questions about your cities, nature sites and Shabbat plans and get a personalised recommendation. Once you know you need a car, see the [Israel car rental company comparison](/israel-car-rental-comparison) to choose between Eldan, Hertz, Avis, Sixt and the aggregators.
+Not sure if your specific itinerary needs one? Try the Should I rent a car in Israel? quiz — answer six questions about your cities, nature sites and Shabbat plans and get a personalised recommendation. Once you know you need a car, see the Israel car rental company comparison to choose between Eldan, Hertz, Avis, Sixt and the aggregators.
 
 ## Which vehicle type?
 
@@ -72,11 +71,11 @@ Common extras to budget for:
 
 - **Drive on the right.** Roads and motorways are modern; signage is in Hebrew, Arabic and English.
 - **Licence & age** — bring an International Driving Permit with your home licence; minimum age is typically 21–24.
-- **Shabbat** — a car keeps you mobile when transit stops, but rental offices often close Friday afternoon to Saturday night, so plan pickup/return around that. See the [Shabbat guide](/shabbat-guide).
-- **Borders & the West Bank** — most contracts bar taking the car to Jordan and void insurance in some areas; for [Petra](/petra-from-eilat-vs-amman) take a tour. See [border crossings](/border-crossings).
+- **Shabbat** — a car keeps you mobile when transit stops, but rental offices often close Friday afternoon to Saturday night, so plan pickup/return around that. See the Shabbat guide.
+- **Borders & the West Bank** — most contracts bar taking the car to Jordan and void insurance in some areas; for [Petra](/eilat) take a tour. See [border crossings](/visa-information).
 - **Parking** — city parking is tight and colour-coded at the kerb (blue/white = paid; red/white = no parking); use car parks in Tel Aviv and Jerusalem rather than street spots.
 - **Navigation** — Waze works excellently in Israel, including real-time traffic alerts on Route 1 and the Ayalon. Download offline maps as a backup.
 
 ## Plan the rest
 
-Sort your [eSIM](/israel-esim) for navigation data and [travel insurance](/israel-travel-insurance) before you go, and if you would rather not drive from the airport, see [Ben Gurion airport transfers](/ben-gurion-airport-transfers). If you want a full day-by-day self-drive plan, the [Israel road trip itinerary](/israel-road-trip) maps a 7-day clockwise loop from Tel Aviv through the north, Golan, Jordan Valley, Dead Sea and Negev. Short on time? The [Northern Israel road trip](/northern-israel-road-trip) covers the 3–4 day Galilee + Golan circuit as a standalone guide. For the most scenic routes in the country — from the Negev Highway 40 to the Golan border road and the Dead Sea shore — see the [best scenic drives in Israel guide](/israel-best-scenic-drives). For road conditions, fuel and city-by-city parking tips, see the [driving in Israel guide](/driving-in-israel). Planning a seasonal farm-picking trip? The [Israel agritourism guide](/israel-agritourism-guide) maps the strawberry, cherry and date harvest seasons — all require a car to reach.
+Sort your eSIM for navigation data and travel insurance before you go, and if you would rather not drive from the airport, see Ben Gurion airport transfers. If you want a full day-by-day self-drive plan, the Israel road trip itinerary maps a 7-day clockwise loop from Tel Aviv through the north, Golan, Jordan Valley, Dead Sea and Negev. Short on time? The Northern Israel road trip covers the 3–4 day Galilee + Golan circuit as a standalone guide. For the most scenic routes in the country — from the Negev Highway 40 to the Golan border road and the Dead Sea shore — see the best scenic drives in Israel guide. For road conditions, fuel and city-by-city parking tips, see the driving in Israel guide. Planning a seasonal farm-picking trip? The [Israel agritourism guide](/jerusalem-tours-compared) maps the strawberry, cherry and date harvest seasons — all require a car to reach.

@@ -38,7 +38,6 @@ faqs:
   - question: "Muss man die Klagemauer-Tunnel im Voraus buchen?"
     answer: "Ja. Die Klagemauer-Tunnel werden ausschließlich auf zeitlich festgelegten Führungen besucht, und Plätze sind begrenzt — besonders in der Hochsaison und rund um jüdische Feiertage. Im Voraus buchen, nicht spontan erscheinen."
 ---
-
 Jerusalem hat mehr Führungsoptionen als jeder andere Ort in Israel, und es sind wirklich unterschiedliche Ausflüge — von einem dreistündigen Altstadtspaziergang bis zu einem Ganztag, der auch Bethlehem umfasst. Hier ist ein ehrlicher Vergleich der wichtigsten Typen, was jeder kostet und wie Sie wählen. Zu den Sehenswürdigkeiten selbst, ergänzen Sie unseren [Jerusalem-Regionenführer](/jerusalem).
 
 ## Jerusalem-Touren im Vergleich
@@ -55,23 +54,23 @@ Die Preise sind Richtwerte, die je nach Saison, Gruppengröße und Anbieter vari
 
 ## Altstadt-Spaziergänge
 
-Die Standardwahl für Erstbesucher. Ein ortskundiger Guide führt Sie durch alle **vier Viertel** — vorbei an der [Klagemauer](/jerusalem/western-wall), der [Grabeskirche](/jerusalem/holy-sepulchre) und entlang der [Via Dolorosa](/jerusalem/via-dolorosa) — in **drei bis vier Stunden** und macht die sich überschneidenden jüdischen, christlichen, muslimischen und armenischen Geschichten verständlich, die schwer allein zu entziffern sind. Das beste Preis-Leistungs-Verhältnis und die einfachste Möglichkeit, sich im Labyrinth der [Altstadt](/jerusalem/old-city) zu orientieren.
+Die Standardwahl für Erstbesucher. Ein ortskundiger Guide führt Sie durch alle **vier Viertel** — vorbei an der [Klagemauer](/de/jerusalem), der [Grabeskirche](/de/jerusalem) und entlang der [Via Dolorosa](/de/jerusalem) — in **drei bis vier Stunden** und macht die sich überschneidenden jüdischen, christlichen, muslimischen und armenischen Geschichten verständlich, die schwer allein zu entziffern sind. Das beste Preis-Leistungs-Verhältnis und die einfachste Möglichkeit, sich im Labyrinth der [Altstadt](/de/jerusalem) zu orientieren.
 
 ## Ganztag Alt- und Neu-Jerusalem
 
-Eine **7–8-stündige** Tour, die die Altstadt mit dem modernen Jerusalem verbindet: das Panorama vom [Ölberg](/jerusalem/mount-of-olives), dem Zionsberg, und üblicherweise eines von Yad Vashem, dem [Israel Museum](/jerusalem/israel-museum) oder der [Davidsstadt](/jerusalem/city-of-david). Die richtige Wahl, wenn Sie nur einen Tag haben und das vollständige Bild statt nur der Altstadt möchten.
+Eine **7–8-stündige** Tour, die die Altstadt mit dem modernen Jerusalem verbindet: das Panorama vom [Ölberg](/de/jerusalem), dem Zionsberg, und üblicherweise eines von Yad Vashem, dem [Israel Museum](/de/jerusalem) oder der [Davidsstadt](/de/jerusalem). Die richtige Wahl, wenn Sie nur einen Tag haben und das vollständige Bild statt nur der Altstadt möchten.
 
 ## Jerusalem & Bethlehem Kombi
 
-Dieselben Altstadt-Highlights plus ein geführter Nachmittag in **Bethlehem** und der Geburtskirche. Da Standard-Mietwagen für das palästinensisch verwaltete Gebiet A nicht versichert sind, ist eine Tour der einfachste Weg, Bethlehem hinzuzufügen — der Guide organisiert die Passage. Bringen Sie Ihren Pass mit. Lesen Sie unseren [Jerusalem & Bethlehem Tagesausflug-Guide](/de/jerusalem-bethlehem-day-trip) für die vollständige Logistik.
+Dieselben Altstadt-Highlights plus ein geführter Nachmittag in **Bethlehem** und der Geburtskirche. Da Standard-Mietwagen für das palästinensisch verwaltete Gebiet A nicht versichert sind, ist eine Tour der einfachste Weg, Bethlehem hinzuzufügen — der Guide organisiert die Passage. Bringen Sie Ihren Pass mit. Lesen Sie unseren Jerusalem & Bethlehem Tagesausflug-Guide für die vollständige Logistik.
 
 ## Klagemauer-Tunnel
 
-Eine geführte Tour mit **Zeiteinlass** entlang der verborgenen unterirdischen 488 Meter der [Klagemauer](/jerusalem/western-wall) und einer herodianischen Straße — ein kurzes (etwa 90-minütiges), aber unvergessliches Erlebnis. Plätze sind begrenzt und ausgebucht, also **im Voraus buchen**.
+Eine geführte Tour mit **Zeiteinlass** entlang der verborgenen unterirdischen 488 Meter der [Klagemauer](/de/jerusalem) und einer herodianischen Straße — ein kurzes (etwa 90-minütiges), aber unvergessliches Erlebnis. Plätze sind begrenzt und ausgebucht, also **im Voraus buchen**.
 
 ## Privatführer
 
-Ein **Privatführer und Fahrer** übergibt das Programm an Sie: Stellen Sie den Tag auf Ihre Glaubenstradition ab, bestimmen Sie das Tempo und reisen Sie mit der Familie nach eigenem Zeitplan. Es kostet mehr — rund **300 $ und mehr pro Tag** — aber für eine kleine Gruppe, die die Kosten teilt, ist es die reichste Art, die Stadt zu erleben. Lesen Sie unseren [Privattouren-Guide](/private-tours-israel).
+Ein **Privatführer und Fahrer** übergibt das Programm an Sie: Stellen Sie den Tag auf Ihre Glaubenstradition ab, bestimmen Sie das Tempo und reisen Sie mit der Familie nach eigenem Zeitplan. Es kostet mehr — rund **300 $ und mehr pro Tag** — aber für eine kleine Gruppe, die die Kosten teilt, ist es die reichste Art, die Stadt zu erleben. Lesen Sie unseren Privattouren-Guide.
 
 ## Ist eine geführte Jerusalem-Tour es wert?
 
@@ -81,7 +80,7 @@ Für die **Altstadt, ja** — Geschichte und konkurrierende Traditionen sind dic
 
 - **Erstbesuch, wenig Zeit:** ein **Altstadt-Spaziergang**.
 - **Ein ganzer Tag, alles sehen:** die **Ganztages-Tour Alt- und Neu-Jerusalem**.
-- **Christliche Pilger:** **Bethlehem** hinzufügen oder einen [Privatführer](/private-tours-israel) nehmen; lesen Sie unseren [Heilig-Land-Touren-Guide](/de/best-holy-land-tours).
+- **Christliche Pilger:** **Bethlehem** hinzufügen oder einen Privatführer nehmen; lesen Sie unseren Heilig-Land-Touren-Guide.
 - **Geschichtsbegeisterte:** die **Klagemauer-Tunnel** ergänzen (vorher buchen).
 
-Den Gesamtüberblick bieten unsere Guides [beste Touren in Israel](/de/best-tours-in-israel) und [Tagesausflüge ab Jerusalem](/de/day-trips-from-jerusalem), dann klären Sie, wo Sie übernachten, mit [Unterkunft in Jerusalem](/where-to-stay/jerusalem).
+Den Gesamtüberblick bieten unsere Guides beste Touren in Israel und Tagesausflüge ab Jerusalem, dann klären Sie, wo Sie übernachten, mit [Unterkunft in Jerusalem](/de/best-hotels-jerusalem).

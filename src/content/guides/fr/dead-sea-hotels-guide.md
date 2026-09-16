@@ -38,13 +38,11 @@ faqs:
   - question: "Mieux vaut-il séjourner à la Mer Morte ou y aller en excursion ?"
     answer: "Un séjour de nuit vous offre le lever du soleil — la Mer Morte à l'aube, quand l'eau hypersaline parfaitement plate reflète les collines de Judée dans le silence, est l'un des grands moments du voyage en Israël. Il vous permet aussi de flotter deux fois (matin et soir), d'utiliser le spa à votre rythme et de rejoindre Ein Gedi ou Massada tôt le lendemain. Cela dit, une excursion d'une journée depuis Jérusalem est très efficace : 1h30 en bus, séance de flottaison et de boue, retour en début de soirée. Les voyageurs en budget ne manquent rien d'essentiel en excursion ; ceux qui privilégient le lever du soleil, le spa ou un rythme détendu gagnent beaucoup à rester."
 ---
-
 **La Mer Morte** ne propose pas d'hébergement dispersé dans une ville ou une région — presque tout se concentre à Ein Bokek, une unique bande balnéaire de 3,5 km sur la rive sud israélienne. Une quinzaine de grands hôtels se succèdent à quelques minutes à pied les uns des autres sur une plage aménagée, tous avec un accès direct à la mer et des infrastructures spa bâties autour des minéraux de l'eau. Ce guide fait le tour des options, présente des choix honnêtes à chaque gamme de prix et explique quand réserver et quand une excursion d'une journée est plus judicieuse.
 
-Pour tout ce qu'il y a à faire une fois arrivé — comment flotter en toute sécurité, le rituel de la boue, les plages publiques à privilégier et comment y accéder — consultez le [guide complet de la Mer Morte](/fr/dead-sea-guide).
+Pour tout ce qu'il y a à faire une fois arrivé — comment flotter en toute sécurité, le rituel de la boue, les plages publiques à privilégier et comment y accéder — consultez le [guide complet de la Mer Morte](/fr/dead-sea).
 
 ---
-
 ## Ein Bokek : la bande hôtelière de la Mer Morte
 
 Ein Bokek est la seule zone hôtelière aménagée sur le rivage israélien de la Mer Morte. Ce n'est pas une ville ni un village — il n'y a pas de restaurants indépendants en dehors des lobbys d'hôtels, pas de marché de rue ni de quartier à proprement parler. Ce qu'on y trouve : un front de mer de 3,5 km où les hôtels se succèdent à quelques minutes à pied les uns des autres, tous avec un accès plage privée à la Mer Morte et des équipements spa centrés sur l'eau minérale.
@@ -54,7 +52,6 @@ Ein Bokek est la seule zone hôtelière aménagée sur le rivage israélien de l
 **Le compromis honnête :** Ein Bokek est fonctionnel, pas pittoresque. La bande existe pour l'hébergement et les services de villégiature ; il y a très peu à faire le soir en dehors des restaurants d'hôtels et d'une courte promenade. Si votre priorité est le paysage et l'expérience de flotter à l'aube, c'est précisément pour cela qu'Ein Bokek a été conçu.
 
 ---
-
 ## L'alternative d'Ein Gedi — 20 km plus au nord
 
 À vingt kilomètres au nord d'Ein Bokek, à côté de la Réserve naturelle d'Ein Gedi, se trouve **l'Auberge du Kibbutz Ein Gedi** — le seul hébergement véritablement abordable sur la rive israélienne de la Mer Morte. Géré par le Kibbutz Ein Gedi, c'est un établissement quatre étoiles avec piscine minérale, jardin botanique, petit-déjeuner inclus et un accès direct à une plage de la Mer Morte. Le cadre du kibbutz et la proximité des cascades de David et d'Arugot en font le meilleur choix pour les visiteurs qui veulent combiner randonnée et nature avec l'expérience de la Mer Morte.
@@ -64,7 +61,6 @@ Ein Bokek est la seule zone hôtelière aménagée sur le rivage israélien de l
 **480–600 ₪/nuit** est une fourchette réaliste pour une chambre double avec petit-déjeuner — nettement moins qu'Ein Bokek pour une qualité comparable. La plage de la Mer Morte est à quelques minutes à pied du bâtiment principal ; une réservation anticipée au printemps (mars–mai) est recommandée car l'établissement se remplit de groupes israéliens et de voyageurs internationaux amateurs de nature.
 
 ---
-
 ## Hôtels milieu de gamme (700–1 400 ₪/nuit)
 
 Le segment milieu de gamme à Ein Bokek occupe l'espace entre le vide du bas de gamme (presque inexistant sur la bande) et les grands resorts de luxe. Ce sont des hôtels confortables et bien équipés, avec piscine, spa et accès plage de la Mer Morte à des tarifs inférieurs aux grandes marques phares.
@@ -78,7 +74,6 @@ Le segment milieu de gamme à Ein Bokek occupe l'espace entre le vide du bas de 
 À **700–1 400 ₪/nuit**, un hôtel milieu de gamme à la Mer Morte doit inclure piscine ou accès spa, petit-déjeuner (ou formule demi-pension) et accès direct ou quasi-direct à la plage.
 
 ---
-
 ## Hôtels de luxe et resorts (1 400 ₪/nuit et plus)
 
 Le segment luxe à Ein Bokek est ancré par des marques israéliennes de villégiature disposant d'importantes infrastructures spa et d'une échelle suffisante pour rendre l'expérience de la Mer Morte entièrement autonome.
@@ -92,7 +87,6 @@ Le segment luxe à Ein Bokek est ancré par des marques israéliennes de villég
 **1 400–3 500 ₪/nuit ou plus** couvre la fourchette luxe à Ein Bokek, l'extrémité haute s'appliquant aux catégories suite et aux semaines de fêtes israéliennes. Tous les établissements de luxe incluent piscine minérale et spa, plage privée de la Mer Morte et options demi-pension.
 
 ---
-
 ## Tarifs saisonniers — quand réserver et quand éviter
 
 | Mois | Ambiance | Conditions | Remarques |
@@ -114,7 +108,6 @@ Le segment luxe à Ein Bokek est ancré par des marques israéliennes de villég
 - **Note :** de nombreux hôtels d'Ein Bokek exigent un **séjour minimum de 2 nuits le vendredi-samedi**. Pour une seule nuit, les dates en milieu de semaine sont plus faciles à réserver à court terme.
 
 ---
-
 ## L'alternative : l'excursion d'une journée
 
 Si les tarifs d'un resort pour la nuit dépassent votre budget, l'expérience de la Mer Morte est entièrement accessible en excursion depuis Jérusalem :
@@ -126,9 +119,8 @@ Si les tarifs d'un resort pour la nuit dépassent votre budget, l'expérience de
 Les voyageurs en budget qui optent pour l'excursion économisent le prix d'une nuit en resort (700–3 500 ₪) au prix du moment du lever du soleil. Pour la plupart des premiers visiteurs avec un budget serré, l'excursion offre un excellent rapport qualité-expérience.
 
 ---
-
 ## Liens utiles
 
-Pour l'expérience complète de la Mer Morte — comment flotter en toute sécurité, quelles plages sont gratuites, le rituel de la boue expliqué et ce qu'il faut apporter — consultez le [guide des visiteurs de la Mer Morte](/fr/dead-sea-guide). Pour la combinaison classique Israël, le [guide des excursions Massada et Mer Morte](/fr/masada-dead-sea-day-trip) couvre l'ascension au lever du soleil et la flottaison de l'après-midi en un seul itinéraire.
+Pour l'expérience complète de la Mer Morte — comment flotter en toute sécurité, quelles plages sont gratuites, le rituel de la boue expliqué et ce qu'il faut apporter — consultez le [guide des visiteurs de la Mer Morte](/fr/dead-sea). Pour la combinaison classique Israël, le [guide des excursions Massada et Mer Morte](/fr/dead-sea-tours-compared) couvre l'ascension au lever du soleil et la flottaison de l'après-midi en un seul itinéraire.
 
-Pour comparer l'expérience resort de la Mer Morte avec Eilat (l'autre zone de villégiature d'Israël sur la mer Rouge), consultez le [guide des hôtels à Eilat](/fr/eilat-hotels-guide). Pour les hébergements en Israël toutes régions confondues — kibbutz, zimmers de Galilée, auberges de la vieille ville de Jérusalem — le [guide de l'hébergement en Israël](/fr/israel-accommodation-guide) dresse le panorama national.
+Pour comparer l'expérience resort de la Mer Morte avec Eilat (l'autre zone de villégiature d'Israël sur la mer Rouge), consultez le [guide des hôtels à Eilat](/fr/eilat). Pour les hébergements en Israël toutes régions confondues — kibbutz, zimmers de Galilée, auberges de la vieille ville de Jérusalem — le [guide de l'hébergement en Israël](/fr/best-hotels-jerusalem) dresse le panorama national.

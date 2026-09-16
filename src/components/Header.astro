@@ -1,23 +1,32 @@
 ---
 import { REGIONS } from '@/data/regions';
-import { locales, languageNames, getLocaleFromPath, localeHome, useTranslations } from '@/i18n/ui';
+import {
+  locales,
+  languageNames,
+  getLocaleFromPath,
+  localeHome,
+  localePrefix as prefixFor,
+  useTranslations,
+  PAGE_GROUPS,
+  type Locale,
+} from '@/i18n/ui';
 
 const currentLocale = getLocaleFromPath(Astro.url.pathname);
 const t = useTranslations(currentLocale);
-const localePrefix = currentLocale === 'en' ? '' : `/${currentLocale}`;
+const localePrefix = prefixFor(currentLocale);
 const navRegions = REGIONS.slice(0, 6);
-const planLinks = [
-  { href: '/best-things-to-do-in-israel', label: t('nav.thingsToDo') },
-  { href: `${localePrefix}/itineraries`, label: t('nav.itineraries') },
-  { href: '/build-your-trip', label: t('nav.buildTrip') },
-  { href: '/best-tours-in-israel', label: t('nav.tours') },
-  { href: '/israel-trip-cost-calculator', label: t('nav.costCalculator') },
-  { href: '/israel-distance-calculator', label: t('nav.distanceCalculator') },
-  { href: '/israel-how-many-days', label: t('nav.howManyDays') },
-  { href: '/israel-map', label: t('nav.map') },
-  { href: '/plan-your-trip', label: t('nav.plan') },
-  { href: '/search', label: t('nav.search') },
-];
+const planLinks = [...PAGE_GROUPS.practical, PAGE_GROUPS.stay[0], PAGE_GROUPS.tours[0]].map((p) => ({
+  href: `${localePrefix}/${p.slug}`,
+  label: t(p.key),
+}));
+planLinks.push({ href: `${localePrefix}/itineraries`, label: t('nav.itineraries') });
+
+// Language switcher: the same page in the other locale. Legal pages and search are
+// English-only, so those fall back to the locale home.
+const EN_ONLY = new Set(['/404', '/search', '/about', '/contact', '/privacy', '/affiliate-disclosure', '/accessibility-statement']);
+const pathNoLocale = Astro.url.pathname.replace(/^\/(fr|de|es)(?=\/|$)/, '').replace(/(.)\/$/, '$1') || '/';
+const switchHref = (l: Locale) =>
+  pathNoLocale === '/' || EN_ONLY.has(pathNoLocale) ? localeHome(l) : `${prefixFor(l)}${pathNoLocale}`;
 ---
 
 <header
@@ -26,7 +35,7 @@ const planLinks = [
   <div
     class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3"
   >
-    <a href="/" class="font-display text-xl font-bold text-ink no-underline">
+    <a href={localeHome(currentLocale)} class="font-display text-xl font-bold text-ink no-underline">
       Visit<span class="text-primary">Israel</span>
     </a>
 
@@ -35,7 +44,7 @@ const planLinks = [
       {
         navRegions.map((r) => (
           <a
-            href={`/${r.slug}`}
+            href={`${localePrefix}/${r.slug}`}
             class="text-sm font-semibold text-ink-muted no-underline transition-colors hover:text-primary"
           >
             {r.name}
@@ -50,12 +59,12 @@ const planLinks = [
     </nav>
 
     <div class="flex items-center gap-2">
-      <!-- Language switcher. Until a page is translated, links go to the locale home. -->
+      <!-- Language switcher: the same page in each locale. -->
       <nav aria-label="Language" class="hidden items-center gap-1 sm:flex">
         {
           locales.map((l) => (
             <a
-              href={localeHome(l)}
+              href={switchHref(l)}
               hreflang={l}
               lang={l}
               aria-current={l === currentLocale ? 'true' : undefined}
@@ -80,7 +89,7 @@ const planLinks = [
         <svg class="h-5 w-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7" /><path d="M21 21l-4.3-4.3" /></svg>
       </a>
       <a
-        href="/plan-your-trip"
+        href={`${localePrefix}/plan-your-trip`}
         class="hidden rounded-full bg-primary px-4 py-2 text-sm font-semibold text-white no-underline transition-colors hover:bg-primary-hover sm:inline-block"
       >
         {t('nav.plan')}
@@ -104,7 +113,7 @@ const planLinks = [
             {
               REGIONS.map((r) => (
                 <li>
-                  <a href={`/${r.slug}`} class="block py-1 text-sm text-ink no-underline hover:text-primary">
+                  <a href={`${localePrefix}/${r.slug}`} class="block py-1 text-sm text-ink no-underline hover:text-primary">
                     {r.name}
                   </a>
                 </li>
@@ -124,7 +133,7 @@ const planLinks = [
             }
           </ul>
           <a
-            href="/plan-your-trip"
+            href={`${localePrefix}/plan-your-trip`}
             class="mt-4 block rounded-full bg-primary px-4 py-2.5 text-center text-sm font-semibold text-white no-underline hover:bg-primary-hover"
           >
             {t('nav.plan')}
@@ -135,7 +144,7 @@ const planLinks = [
               locales.map((l) => (
                 <li>
                   <a
-                    href={localeHome(l)}
+                    href={switchHref(l)}
                     hreflang={l}
                     lang={l}
                     aria-current={l === currentLocale ? 'true' : undefined}

@@ -40,7 +40,6 @@ faqs:
   - question: "¿Los tours guiados incluyen entradas y traslado desde el hotel?"
     answer: "La mayoría de los tours grupales desde Jerusalén o Tel Aviv incluyen recogida en el hotel, transporte y acceso a la zona de playa designada por el operador. Las entradas al área de playa pública de Ein Bokek suelen estar incluidas; el acceso a la playa privada de resort (con mejores instalaciones) tiene un coste extra que varía según el hotel. Las tarifas del teleférico de Masada y la entrada al parque nacional suelen estar incluidas en los tours combinados con Masada — verifica al reservar."
 ---
-
 El Mar Muerto es la experiencia natural más icónica de Israel — flotar en un agua diez veces más salada que el océano, sin esfuerzo, en el punto más bajo de la Tierra. Pero los formatos de tour disponibles son productos genuinamente distintos. Aquí tienes una comparación honesta de cada formato, qué cuesta y cómo elegir.
 
 ## Tours al Mar Muerto comparados
@@ -69,7 +68,7 @@ El formato más vendido para los visitantes que vienen por primera vez. Un autoc
 
 La versión de amanecer añade el ascenso por el sendero de la serpiente en la oscuridad con salida a las 3–4 de la madrugada, llegando a la cima de Masada mientras el sol sale sobre Jordania. Es espectacular y merece la pena el madrugón si estás físicamente cómodo con la subida. La versión diurna en teleférico sale alrededor de las 7–8 de la mañana y cubre los mismos atractivos sin la alarma de madrugada.
 
-Para un análisis más detallado de los formatos de Masada, consulta nuestra [guía de tours de Masada comparados](/masada-tours-compared).
+Para un análisis más detallado de los formatos de Masada, consulta nuestra guía de tours de Masada comparados.
 
 **Elige este formato si:** es tu primera visita a la región y quieres Masada y el Mar Muerto cubiertos de forma eficiente en un solo día.
 
@@ -77,7 +76,7 @@ Para un análisis más detallado de los formatos de Masada, consulta nuestra [gu
 
 Ein Bokek es genuinamente fácil de alcanzar en coche: la Ruta 1 hacia el este desde Jerusalén hasta el desvío del Mar Muerto, luego la Ruta 90 hacia el sur. El trayecto tarda alrededor de 90 minutos desde Jerusalén, 100 minutos desde Tel Aviv. Aparca en la playa pública de Ein Bokek (gratis) o paga la tarifa de día en un hotel resort para disfrutar de mejores instalaciones, playa privada y piscina.
 
-Ir en coche propio te da total flexibilidad: llega cuando quieras, vete cuando quieras, y combina con una parada en [Qumrán](/qumran-guide) (el lugar de los Rollos del Mar Muerto, 30 minutos al norte por la Ruta 90) o senderismo por los senderos del cañón de la [reserva natural de Ein Gedi](/dead-sea/ein-gedi) antes de flotar — ninguno de los dos es accesible en un tour grupal estándar.
+Ir en coche propio te da total flexibilidad: llega cuando quieras, vete cuando quieras, y combina con una parada en [Qumrán](/es/dead-sea) (el lugar de los Rollos del Mar Muerto, 30 minutos al norte por la Ruta 90) o senderismo por los senderos del cañón de la [reserva natural de Ein Gedi](/es/dead-sea) antes de flotar — ninguno de los dos es accesible en un tour grupal estándar.
 
 **Elige este formato si:** tienes coche de alquiler y valoras la flexibilidad sobre la estructura del tour.
 
@@ -100,4 +99,4 @@ Para hoteles específicos y estancias de noche, consulta nuestra [guía de hotel
 - **Tienes coche de alquiler:** **coche propio** — total flexibilidad, fácil de combinar con Qumrán.
 - **Familia o itinerario personalizado:** un **guía privado**.
 
-Para toda la logística de cómo llegar al Mar Muerto, qué llevar, el cierre de la Playa de Ein Gedi y los consejos por temporada, consulta nuestra [guía del Mar Muerto](/es/dead-sea-guide). Consulta también nuestra [guía de los mejores tours en Israel](/es/best-tours-in-israel) para una visión más amplia. Si conduces, añade el [cañón de sal Nahal Pratzim](/nahal-pratzim-guide) (5 km al sur de Ein Bokek) a tu ruta — la Cueva de la Harina sola toma 15 minutos y no se parece a nada más en la región.
+Para toda la logística de cómo llegar al Mar Muerto, qué llevar, el cierre de la Playa de Ein Gedi y los consejos por temporada, consulta nuestra [guía del Mar Muerto](/es/dead-sea). Consulta también nuestra [guía de los mejores tours en Israel](/es/jerusalem-tours-compared) para una visión más amplia. Si conduces, añade el cañón de sal Nahal Pratzim (5 km al sur de Ein Bokek) a tu ruta — la Cueva de la Harina sola toma 15 minutos y no se parece a nada más en la región.

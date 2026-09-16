@@ -44,13 +44,11 @@ faqs:
   - question: ¿Con cuánta antelación debo reservar un hotel en Tel Aviv?
     answer: 'Para la semana del Orgullo (segunda semana de junio), reserva con 3–6 meses de antelación — los hoteles se llenan de visitantes LGBTQ+ internacionales y los precios se disparan entre 2 y 3 veces. Para Pésaj, Sucot y el conjunto de festividades judías (septiembre–octubre), reserva con 2–4 meses de antelación. Para el verano estándar (julio–agosto), los grandes hoteles de playa se reservan con 2–3 meses de antelación. De noviembre a marzo es mucho más fácil — 2–4 semanas suelen ser suficientes, excepto en la semana de Navidad.'
 ---
-
 **Tel Aviv** tiene el mercado hotelero más diverso de Israel: lujo de fortaleza otomana en Jaffa, boutiques de la época Bauhaus en el Bulevar Rothschild, casas de huéspedes económicas en Florentin y alojamientos tipo hostal a pocos pasos del Mediterráneo. La elección correcta depende menos del precio que del barrio que te sitúa más cerca de lo que buscas en la ciudad. Esta guía cubre las cinco zonas principales, nombra opciones concretas y honestas a cada nivel de precio y te indica cuándo el mercado es caro y cuándo no.
 
-Para una guía de carácter barrio a barrio — dónde comer, cómo se sienten las calles, qué zonas se adaptan a qué estilos de viaje — consulta la [guía de barrios de Tel Aviv](/tel-aviv-neighborhoods-guide). Esta página se centra en recomendaciones concretas de hoteles y en el contexto para reservar.
+Para una guía de carácter barrio a barrio — dónde comer, cómo se sienten las calles, qué zonas se adaptan a qué estilos de viaje — consulta la [guía de barrios de Tel Aviv](/es/tel-aviv). Esta página se centra en recomendaciones concretas de hoteles y en el contexto para reservar.
 
 ---
-
 ## Dónde alojarse en Tel Aviv: panorama por barrios
 
 **Bulevar Rothschild y la Ciudad Blanca** es el corazón cultural de Tel Aviv: arquitectura Bauhaus declarada Patrimonio de la UNESCO, los mejores restaurantes de la ciudad, el mercado Carmel a 10 minutos a pie y el tren ligero de la Línea Roja conectando con todo. La mayoría de los hoteles boutique de precio medio se sitúan en esta zona o en las calles adyacentes (Allenby, Ben Yehuda, Dizengoff). Ideal para: cultura, gastronomía, arquitectura, proximidad a la vida nocturna.
@@ -64,7 +62,6 @@ Para una guía de carácter barrio a barrio — dónde comer, cómo se sienten l
 **La Vieja Jaffa y el puerto de Jaffa** tienen su propio conjunto de hoteles de lujo integrados en el tejido patrimonial otomano del puerto. The Setai Tel Aviv es la propiedad insignia. A poca distancia a pie del mercado de las pulgas, las galerías y el puerto, pero ligeramente apartado del eje gastronómico y de vida nocturna de Rothschild.
 
 ---
-
 ## Hoteles económicos y casas de huéspedes (₪300–550/noche)
 
 El alojamiento económico de Tel Aviv se concentra en Florentin, el Barrio Norte (al norte del río Yarkon, en torno a Ben Yehuda y Dizengoff) y las calles entre la playa y el Bulevar Rothschild. Las opciones genuinamente económicas en primera línea de playa son escasas — espera un paseo de 10–20 minutos desde las propiedades más asequibles hasta el Mediterráneo.
@@ -78,7 +75,6 @@ El alojamiento económico de Tel Aviv se concentra en Florentin, el Barrio Norte
 **₪300–550/noche** es realista para habitaciones privadas en los meses de temporada baja (noviembre–marzo). Durante la semana del Orgullo, Pésaj y el pico del verano (julio–agosto), las propiedades económicas también suben de precio — los precios en Tel Aviv están muy condicionados por los eventos.
 
 ---
-
 ## Hoteles de precio medio (₪550–1.100/noche)
 
 El segmento de precio medio es donde la escena hotelera boutique de Tel Aviv brilla con más fuerza. La mayoría de estas propiedades se sitúan en el Bulevar Rothschild o sus inmediaciones, en Neve Tzedek o en las calles entre Allenby y Ben Yehuda.
@@ -92,7 +88,6 @@ El segmento de precio medio es donde la escena hotelera boutique de Tel Aviv bri
 A **₪550–1.100/noche**, los hoteles de precio medio de Tel Aviv deberían incluir diseño boutique, personalidad de barrio y un desayuno decente. Este segmento es donde la personalidad hotelera de la ciudad se manifiesta con mayor claridad — menos anónimo que las grandes marcas de playa, más envolvente que las opciones económicas.
 
 ---
-
 ## Hoteles de lujo (₪1.200+/noche)
 
 El segmento de lujo de Tel Aviv abarca dos caracteres bien diferenciados: grandes resorts frente al mar en el Tayelet y hoteles boutique arquitectónicamente singulares en edificios históricos restaurados.
@@ -110,7 +105,6 @@ El segmento de lujo de Tel Aviv abarca dos caracteres bien diferenciados: grande
 **₪1.200–3.000+/noche** cubre el rango de lujo, con el extremo superior aplicándose a suites y semanas de temporada alta. The Norman y The Setai se sitúan en el nivel boutique superior y pueden costar más que las grandes marcas del Tayelet para categorías de habitación comparables — su precio se basa en la exclusividad, no en la escala.
 
 ---
-
 ## Nuevas aperturas de lujo 2025–2026
 
 Dos incorporaciones significativas al segmento de lujo de Tel Aviv abrieron en 2026, mejorando materialmente la posición de la ciudad entre los destinos hoteleros internacionales de primera categoría.
@@ -121,10 +115,9 @@ Dos incorporaciones significativas al segmento de lujo de Tel Aviv abrieron en 2
 
 **Advertencia honesta sobre las aperturas de 2026:** los plazos de apertura de grandes propiedades de lujo pueden cambiar. Confirma el estado operativo actual y la disponibilidad directamente en Booking.com antes de planificar en torno a una propiedad específica. Las descripciones anteriores reflejan las propiedades según lo planificado y anunciado; verifica los servicios reales y las categorías de habitación antes de reservar.
 
-Para un resumen más amplio de todas las aperturas de hoteles de lujo en Israel en 2026 — desde la Marina de Herzliya hasta el Mar Muerto, Safed y Beerseba — consulta la [guía de nuevos hoteles de lujo en Israel 2026](/new-luxury-hotels-israel-2026).
+Para un resumen más amplio de todas las aperturas de hoteles de lujo en Israel en 2026 — desde la Marina de Herzliya hasta el Mar Muerto, Safed y Beerseba — consulta la [guía de nuevos hoteles de lujo en Israel 2026](/es/best-hotels-jerusalem).
 
 ---
-
 ## Quién debería alojarse dónde — la tabla de decisión
 
 | Prioridad | Opción recomendada |
@@ -141,7 +134,6 @@ Para un resumen más amplio de todas las aperturas de hoteles de lujo en Israel 
 | Viaje de negocios | Crowne Plaza Tel Aviv o David InterContinental (instalaciones de conferencias) |
 
 ---
-
 ## Contexto de reserva y patrones de precios
 
 Los precios de los hoteles de Tel Aviv siguen patrones predecibles. **La semana del Orgullo** (segunda semana de junio cada año) es el mayor pico de demanda — los visitantes internacionales reservan con meses de antelación y los precios de las propiedades bien ubicadas se multiplican entre 2 y 3 veces por encima de la tarifa base. Los grandes festivos judíos — **Pésaj** (marzo–abril), **Rosh Hashaná** y **Sucot** (septiembre–octubre) — generan cada uno un pico de demanda de 1–2 semanas con precios entre un 50 y un 100 % por encima de la media. Los **fines de semana de Shabat** (viernes–sábado) hacen subir los precios en el centro de Tel Aviv por encima de los días entre semana.
@@ -151,11 +143,10 @@ Los precios de los hoteles de Tel Aviv siguen patrones predecibles. **La semana 
 Todos los precios indicados en esta guía son rangos orientativos — las tarifas de los hoteles cambian a diario según la ocupación y la demanda. Consulta los precios en tiempo real a través de los enlaces de reserva anteriores; nunca te fíes de un precio publicado estático.
 
 ---
-
 ## Enlaces de interés
 
-Para los visitantes interesados específicamente en alojarse en la Vieja Jaffa — hoteles de patrimonio en el antiguo distrito del puerto, la zona de la Torre del Reloj y cerca del mercado de las pulgas — consulta la [guía de hoteles en Jaffa](/jaffa-hotels-guide).
+Para los visitantes interesados específicamente en alojarse en la Vieja Jaffa — hoteles de patrimonio en el antiguo distrito del puerto, la zona de la Torre del Reloj y cerca del mercado de las pulgas — consulta la guía de hoteles en Jaffa.
 
-Para un contexto más profundo de cada barrio — cómo se siente cada zona de Tel Aviv, dónde comer y cómo moverse — consulta la [guía de barrios de Tel Aviv](/tel-aviv-neighborhoods-guide). Para la escena gastronómica de la ciudad, la [guía gastronómica de Tel Aviv](/tel-aviv-food-guide) cubre los barrios desde el mercado Carmel hasta la animada escena del jueves por la noche en Florentin. Para la arquitectura Bauhaus de la Ciudad Blanca en la que se ubican los hoteles de precio medio, la [guía de la Ciudad Blanca de Tel Aviv](/tel-aviv-white-city) profundiza en el contexto del patrimonio UNESCO.
+Para un contexto más profundo de cada barrio — cómo se siente cada zona de Tel Aviv, dónde comer y cómo moverse — consulta la [guía de barrios de Tel Aviv](/es/tel-aviv). Para la escena gastronómica de la ciudad, la [guía gastronómica de Tel Aviv](/es/tel-aviv) cubre los barrios desde el mercado Carmel hasta la animada escena del jueves por la noche en Florentin. Para la arquitectura Bauhaus de la Ciudad Blanca en la que se ubican los hoteles de precio medio, la [guía de la Ciudad Blanca de Tel Aviv](/es/tel-aviv) profundiza en el contexto del patrimonio UNESCO.
 
-Para el alojamiento en todo Israel — hoteles resort en el Mar Muerto, casas de huéspedes zimmer en Galilea, alojamientos de lujo en el Negev — la [guía de alojamiento en Israel](/es/israel-accommodation-guide) ofrece el panorama nacional. Para moverte una vez en la ciudad: la [guía del tren ligero de Tel Aviv](/tel-aviv-light-rail) cubre la Línea Roja, que conecta los hoteles de la playa con Rothschild, el mercado Carmel y más allá.
+Para el alojamiento en todo Israel — hoteles resort en el Mar Muerto, casas de huéspedes zimmer en Galilea, alojamientos de lujo en el Negev — la [guía de alojamiento en Israel](/es/best-hotels-jerusalem) ofrece el panorama nacional. Para moverte una vez en la ciudad: la [guía del tren ligero de Tel Aviv](/es/tel-aviv) cubre la Línea Roja, que conecta los hoteles de la playa con Rothschild, el mercado Carmel y más allá.

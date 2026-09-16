@@ -35,7 +35,6 @@ faqs:
   - question: Do I need travel insurance for diving in Eilat?
     answer: Yes. Standard travel insurance often excludes scuba diving below 18 metres; specialist diving policies (or a SafetyWing nomad-insurance add-on) are recommended. Dive centres at Coral Beach require a current open-water certification card; introductory dives for beginners are available without prior training but the chamber operator in Eilat recommends evacuation insurance for any open-water work.
 ---
-
 Eilat is Israel's Red Sea tourism enclave — a resort city wrapped around a small gulf at the southern tip of the country where the borders of Israel, Jordan, Egypt and Saudi Arabia meet across the water. The setting is unusual: a 12-kilometre coastline of warm reef-protected sea, a desert backdrop of jagged red mountains, and a year-round climate that turns the city into Israel's winter beach capital while the Mediterranean coast is cold and rainy. A complete guide to things to do in Eilat begins with that geography — the Red Sea on one side, the Negev and Arava deserts on the other, and the Sinai-facing horizon framing every sunset.
 
 This guide covers when to come, where to stay across the three distinct hotel districts, the headline Red Sea experiences (Coral Beach Reserve, Underwater Observatory, Dolphin Reef), the desert excursions that pair well with a beach base (Timna Park, Red Canyon, Mitzpe Ramon and the Negev night sky), the Petra day trip from the Wadi Araba border crossing, how to arrive at Ramon Airport (ETM), and the practical realities of a destination 4 hours from anywhere else in Israel. Eilat is a destination that rewards a focused 3-day trip rather than a day-stop on a wider Israel itinerary.
@@ -128,7 +127,7 @@ Eilat is the most accessible scuba diving destination in Israel — the **Coral 
 
 Water visibility runs 20 to 30 metres on clear days; the reef wall drops from 5 metres to over 40 in places. PADI Open Water certification courses take 3 to 4 days and run year-round. The **chamber operator** at Eilat is the regional hyperbaric facility; specialist dive insurance is strongly recommended for any deep work.
 
-For a full comparison of Red Sea tours, desert jeep safaris, Dolphin Reef experiences and Petra day trips from Eilat — including price ranges and who each is right for — see our [Eilat tours compared guide](/eilat-tours-compared). For a practical overview of beaches, Dolphin Reef, Timna Park, tax-free shopping and getting here, see our complete [Eilat travel guide](/eilat-travel-guide).
+For a full comparison of Red Sea tours, desert jeep safaris, Dolphin Reef experiences and Petra day trips from Eilat — including price ranges and who each is right for — see our [Eilat tours compared guide](/jerusalem-tours-compared). For a practical overview of beaches, Dolphin Reef, Timna Park, tax-free shopping and getting here, see our complete Eilat travel guide.
 
 ## Where to Eat in Eilat
 

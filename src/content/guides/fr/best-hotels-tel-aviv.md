@@ -44,13 +44,11 @@ faqs:
   - question: "Combien de temps à l'avance faut-il réserver un hôtel à Tel Aviv ?"
     answer: "Pour la semaine de la Pride (deuxième semaine de juin), réservez 3–6 mois à l'avance — les hôtels se remplissent de visiteurs LGBTQ+ internationaux et les prix augmentent de 2–3 fois. Pour Pessa'h, Souccot et le cluster des fêtes juives (septembre–octobre), réservez 2–4 mois à l'avance. Pour l'été standard (juillet–août), les grands hôtels de plage se réservent 2–3 mois à l'avance. De novembre à mars, c'est beaucoup plus facile — 2–4 semaines suffisent généralement sauf pour la semaine de Noël."
 ---
-
 **Tel Aviv** dispose du marché hôtelier le plus diversifié d'Israël : luxe de forteresse ottomane à Jaffa, boutiques de l'époque Bauhaus sur le Boulevard Rothschild, guesthouses économiques à Florentin et séjours de type hostel à quelques rues de la Méditerranée. Le bon choix dépend moins du prix que du quartier qui vous rapproche le plus de ce que vous voulez découvrir dans la ville. Ce guide couvre les cinq principales zones, présente des sélections honnêtes à chaque niveau de prix et vous indique quand le marché est cher et quand il ne l'est pas.
 
-Pour un guide plus approfondi du caractère quartier par quartier — où manger, l'atmosphère des rues, quels quartiers conviennent à quels styles de voyage — consultez le [guide des quartiers de Tel Aviv](/fr/tel-aviv-neighborhoods-guide). Cette page se concentre sur des recommandations d'hôtels spécifiques et le contexte de réservation.
+Pour un guide plus approfondi du caractère quartier par quartier — où manger, l'atmosphère des rues, quels quartiers conviennent à quels styles de voyage — consultez le [guide des quartiers de Tel Aviv](/fr/tel-aviv). Cette page se concentre sur des recommandations d'hôtels spécifiques et le contexte de réservation.
 
 ---
-
 ## Où séjourner à Tel Aviv : les quartiers en un coup d'œil
 
 **Le Boulevard Rothschild et la Ville blanche** constituent le cœur culturel de Tel Aviv : architecture Bauhaus inscrite à l'UNESCO, meilleurs restaurants de la ville, Marché Carmel à 10 minutes à pied, et le tramway Red Line vous connectant à tout. La plupart des hôtels boutique de milieu de gamme se trouvent dans cette zone ou dans les rues adjacentes (Allenby, Ben Yehuda, Dizengoff). Idéal pour : culture, gastronomie, architecture, proximité de la vie nocturne.
@@ -64,7 +62,6 @@ Pour un guide plus approfondi du caractère quartier par quartier — où manger
 **La vieille Jaffa** — techniquement intégrée à la municipalité de Tel Aviv depuis 1950 — propose des hébergements boutique dans des bâtiments ottomans et croisés restaurés. Ambiance très différente de Tel Aviv : plus calme, plus historique, parfaite si la visite du port et des galeries d'art est la priorité.
 
 ---
-
 ## Budget (₪300–550/nuit environ)
 
 **Vieux nord et Florentin** abritent la majorité des options économiques honnêtes : guesthouses boutique, auberges à chambres privées et appartements en location. Ces zones sont à distance de marche de la plage (15–20 minutes à pied) ou en tram du centre commercial.
@@ -74,7 +71,6 @@ Pour un guide plus approfondi du caractère quartier par quartier — où manger
 **Astuce de réservation :** Les tarifs économiques à Tel Aviv fluctuent fortement. Les périodes hors événements (janvier–mars et octobre–novembre hors fêtes juives) offrent les meilleurs rapports qualité-prix — parfois 30–40 % moins cher que les semaines de pointe.
 
 ---
-
 ## Milieu de gamme (₪550–1 100/nuit environ)
 
 ### Boulevard Rothschild et Ville blanche
@@ -90,7 +86,6 @@ Pour un guide plus approfondi du caractère quartier par quartier — où manger
 La concentration de petits hôtels boutique de Neve Tzedek (moins de 30 chambres chacun) est unique à Tel Aviv — calme, charme et accès à Jaffa à pied. Cette zone convient particulièrement aux voyageurs qui apprécient l'atmosphère aux dépens de la taille.
 
 ---
-
 ## Luxe (₪1 200+/nuit)
 
 ### Le Norman
@@ -114,7 +109,6 @@ En bord de mer sur la Tayelet, le **David InterContinental** est le plus grand h
 **Nobu Hotel Tel Aviv** au front de mer de Jaffa apporte la marque internationale Nobu dans la ville. Hôtel de luxe de milieu de gamme adossé au restaurant Nobu. Idem : propriété très nouvelle en 2026 — confirmez les avis récents.
 
 ---
-
 ## Périodes à éviter (ou à budgétiser)
 
 | Période | Impact sur les tarifs |
@@ -128,7 +122,6 @@ En bord de mer sur la Tayelet, le **David InterContinental** est le plus grand h
 **Basse saison :** janvier–mars et novembre offrent les meilleurs tarifs et des températures très agréables (18–23°C). Ce sont les mois les plus sous-cotés pour Tel Aviv.
 
 ---
-
 ## Conseils de réservation
 
 - **Réservez directement ou via Booking.com** — les prix en temps réel sont toujours les plus fiables ; les guides ne peuvent pas garantir les tarifs actuels.
@@ -136,4 +129,4 @@ En bord de mer sur la Tayelet, le **David InterContinental** est le plus grand h
 - **Demandez la politique Shabbat :** les hôtels moins chers ne proposent généralement pas de petit-déjeuner chaud le samedi matin ; vérifiez à l'avance si c'est une priorité.
 - **Accès plage :** Seuls les grands hôtels de la Tayelet ont un accès à la plage « privatisé » ; les plages publiques sont gratuites et à quelques pâtés de maisons de presque tous les hôtels centraux.
 
-Pour plus d'informations sur les options d'hébergement en Israël hors de Tel Aviv, consultez le [guide de l'hébergement en Israël](/fr/israel-accommodation-guide). Pour les hôtels à Jérusalem, voir les [meilleurs hôtels à Jérusalem](/fr/best-hotels-jerusalem).
+Pour plus d'informations sur les options d'hébergement en Israël hors de Tel Aviv, consultez le [guide de l'hébergement en Israël](/fr/best-hotels-jerusalem). Pour les hôtels à Jérusalem, voir les [meilleurs hôtels à Jérusalem](/fr/best-hotels-jerusalem).

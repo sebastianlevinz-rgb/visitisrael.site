@@ -12,7 +12,6 @@ faqs:
   - question: "L'été est-il une bonne période pour visiter Israël ?"
     answer: "L'été convient à la côte et à la mer de Galilée, mais il y fait chaud. Jérusalem est sèche et supportable, tandis que la mer Morte et Eilat sont extrêmement chaudes — à réserver aux visites matinales et aux activités aquatiques."
 ---
-
 Israël réunit plusieurs zones climatiques dans un pays compact : la « meilleure » période dépend donc de votre destination. En règle générale, **le printemps et l'automne sont idéaux partout**.
 
 ## Les saisons en détail
@@ -23,7 +22,7 @@ Israël réunit plusieurs zones climatiques dans un pays compact : la « meilleu
 
 **Automne (septembre–novembre) — idéal.** La chaleur s'atténue, la mer reste chaude et la cueillette des olives bat son plein. Les Grandes Fêtes juives tombent à cette saison et provoquent quelques fermetures.
 
-**Hiver (décembre–février) — calme et économique.** La saison est fraîche et verdoyante, avec des pluies et parfois de la neige à [Jérusalem](/jerusalem). [Eilat](/eilat) et la mer Morte deviennent des refuges ensoleillés et constituent la **haute saison dans le sud**. Noël à [Nazareth](/nazareth) et Bethléem est une expérience particulièrement émouvante.
+**Hiver (décembre–février) — calme et économique.** La saison est fraîche et verdoyante, avec des pluies et parfois de la neige à [Jérusalem](/jerusalem). [Eilat](/eilat) et la mer Morte deviennent des refuges ensoleillés et constituent la **haute saison dans le sud**. Noël à [Nazareth](/fr/galilee) et Bethléem est une expérience particulièrement émouvante.
 
 ## Tableau récapitulatif
 
@@ -36,4 +35,4 @@ Israël réunit plusieurs zones climatiques dans un pays compact : la « meilleu
 
 ## Le calendrier des fêtes
 
-Les fêtes juives, chrétiennes et musulmanes influencent les fermetures et les prix. Le calendrier juif est luni-solaire ; le calendrier musulman recule d'environ 11 jours chaque année. Vérifiez les dates exactes avant de réserver et consultez notre [guide du Shabbat](/fr/shabbat-guide) pour comprendre le rythme hebdomadaire. Prêt à planifier ? Découvrez nos [itinéraires](/itineraries) et notre [guide du premier voyage](/fr/first-time-in-israel).
+Les fêtes juives, chrétiennes et musulmanes influencent les fermetures et les prix. Le calendrier juif est luni-solaire ; le calendrier musulman recule d'environ 11 jours chaque année. Vérifiez les dates exactes avant de réserver et consultez notre guide du Shabbat pour comprendre le rythme hebdomadaire. Prêt à planifier ? Découvrez nos [itinéraires](/itineraries) et notre [guide du premier voyage](/fr/first-time-in-israel).

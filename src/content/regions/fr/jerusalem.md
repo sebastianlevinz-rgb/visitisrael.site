@@ -20,7 +20,6 @@ faqs:
   - question: "Peut-on faire une excursion à Bethléem depuis Jérusalem ?"
     answer: "Oui, et la grande majorité des visiteurs le font. Bethléem est en Cisjordanie sous administration palestinienne ; munissez-vous de votre passeport. Un circuit guidé ou un taxi partagé gère la logistique du checkpoint Gilo. Comptez une demi-journée pour l'église de la Nativité, la Mangeoire et le camp de réfugiés Aïda."
 ---
-
 Jérusalem récompense ceux qui lui accordent du temps. En un seul kilomètre carré, la Vieille Ville superpose quatre millénaires d'histoire — palais hérodiens, église du Saint-Sépulcre, esplanade des mosquées / mont du Temple et Mur des Lamentations / Kotel — tandis que les quartiers ouest offrent musées de calibre international, marchés animés et restaurants tardifs. Ce guide pratique couvre quand venir, où dormir, quoi voir et comment se déplacer pour un premier séjour de deux à quatre jours.
 
 ## Quand venir à Jérusalem

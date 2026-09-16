@@ -40,7 +40,6 @@ faqs:
   - question: "Les circuits guidés incluent-ils les droits d'entrée et le transfert depuis l'hôtel ?"
     answer: "La plupart des circuits en groupe depuis Jérusalem ou Tel Aviv incluent le transfert hôtel, le transport et l'accès à la zone de plage désignée par l'opérateur. Les droits d'entrée à la plage publique d'Ein Bokek sont généralement inclus ; l'accès aux plages privées des resorts coûte en supplément. Les billets de téléphérique de Massada et l'entrée au parc national sont généralement inclus dans les circuits combo Massada — vérifiez au moment de la réservation."
 ---
-
 La Mer Morte est l'expérience naturelle la plus emblématique d'Israël — flotter dans une eau dix fois plus salée que l'océan, sans effort, au point le plus bas de la terre. Mais les formats d'excursion proposés sont des produits véritablement différents. Voici une comparaison honnête de chaque format, ce qu'il comprend et comment choisir.
 
 ## Comparatif des excursions à la Mer Morte
@@ -69,7 +68,7 @@ Le format le plus vendu pour les premiers visiteurs. Un bus vous prend en charge
 
 La version sunrise ajoute l'ascension par le sentier du Serpent à la nuit tombée avec un départ à 3h00–4h00, pour atteindre le sommet de Massada au lever du soleil sur la Jordanie. C'est spectaculaire et ça vaut le départ matinal si vous êtes physiquement à l'aise avec la montée. La version diurne en téléphérique part vers 7h00–8h00 et couvre les mêmes sites sans l'alarme avant l'aube.
 
-Pour une analyse détaillée des formats Massada, consultez notre [comparatif des circuits Massada](/fr/masada-tours-compared).
+Pour une analyse détaillée des formats Massada, consultez notre comparatif des circuits Massada.
 
 **Choisissez ce format si :** c'est votre première visite dans la région et vous voulez Massada et la Mer Morte couverts efficacement en une seule journée.
 
@@ -77,7 +76,7 @@ Pour une analyse détaillée des formats Massada, consultez notre [comparatif de
 
 Ein Bokek est véritablement facile à atteindre en voiture : Route 1 Est depuis Jérusalem jusqu'au carrefour de la Mer Morte, puis Route 90 Sud. Le trajet dure environ 1h30 depuis Jérusalem, 1h40 depuis Tel Aviv. Garez-vous à la plage publique d'Ein Bokek (gratuit) ou payez le tarif journée dans un hôtel resort pour de meilleures installations, une plage privée et une piscine.
 
-Conduire soi-même offre une flexibilité totale : arriver quand vous voulez, repartir quand vous voulez, et combiner avec un arrêt à [Qumran](/qumran-guide) (le site des manuscrits de la mer Morte, 30 minutes au nord sur la Route 90) ou une randonnée dans les canyons de la [Réserve naturelle d'Ein Gedi](/dead-sea-guide) avant votre flottaison — aucun de ces deux sites n'est accessible sur un circuit en groupe standard.
+Conduire soi-même offre une flexibilité totale : arriver quand vous voulez, repartir quand vous voulez, et combiner avec un arrêt à [Qumran](/fr/dead-sea) (le site des manuscrits de la mer Morte, 30 minutes au nord sur la Route 90) ou une randonnée dans les canyons de la [Réserve naturelle d'Ein Gedi](/fr/dead-sea) avant votre flottaison — aucun de ces deux sites n'est accessible sur un circuit en groupe standard.
 
 **Choisissez ce format si :** vous avez une voiture de location et appréciez la flexibilité sur la structure d'un circuit.
 
@@ -85,7 +84,7 @@ Conduire soi-même offre une flexibilité totale : arriver quand vous voulez, re
 
 Un guide privé agréé transforme la journée en une expérience entièrement personnalisée : choisissez votre heure de départ et la combinaison d'étapes — Qumran, canyon d'Ein Gedi, Massada, la flottaison, un après-midi dans un spa resort. Une journée privée coûte généralement **$300–450** pour le guide et le véhicule (à diviser au sein de votre groupe), et est particulièrement rentable pour les familles ou les petits groupes.
 
-Pour trouver un guide agréé du Ministère du Tourisme israélien, consultez notre [guide des circuits privés](/fr/private-tours-israel).
+Pour trouver un guide agréé du Ministère du Tourisme israélien, consultez notre [guide des circuits privés](/fr/jerusalem-tours-compared).
 
 ## Ein Bokek : à quoi s'attendre sur le rivage
 
@@ -102,4 +101,4 @@ Pour des sélections d'hôtels spécifiques et des séjours de nuit, consultez n
 - **Vous avez une voiture de location :** **conduire soi-même** — flexibilité totale, facile de combiner avec Qumran.
 - **Famille ou itinéraire sur mesure :** un **guide privé**.
 
-Pour la logistique complète d'accès à la Mer Morte, ce qu'il faut emporter et les conseils saisonniers, consultez notre [guide de la Mer Morte](/fr/dead-sea-guide). Consultez également notre [comparatif de départ Jérusalem vs Tel Aviv](/fr/dead-sea-day-trip-comparison) pour choisir la meilleure base, et le panorama plus large dans notre [guide des meilleurs circuits en Israël](/fr/best-tours-in-israel).
+Pour la logistique complète d'accès à la Mer Morte, ce qu'il faut emporter et les conseils saisonniers, consultez notre [guide de la Mer Morte](/fr/dead-sea). Consultez également notre comparatif de départ Jérusalem vs Tel Aviv pour choisir la meilleure base, et le panorama plus large dans notre [guide des meilleurs circuits en Israël](/fr/jerusalem-tours-compared).

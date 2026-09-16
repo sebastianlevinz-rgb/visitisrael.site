@@ -38,7 +38,6 @@ faqs:
   - question: Do you need to book the Western Wall Tunnels in advance?
     answer: 'Yes. The Western Wall Tunnels are visited on timed-entry guided tours only, and slots sell out — especially in peak season and around Jewish holidays. Book ahead rather than turning up.'
 ---
-
 Jerusalem has more guided-tour options than anywhere else in Israel, and they are genuinely different trips — from a three-hour Old City walk to a full day that sweeps in Bethlehem. Here is an honest comparison of the main types, what each costs and how to choose. For the sights themselves, pair this with our [Jerusalem region guide](/jerusalem).
 
 ## Jerusalem tours compared
@@ -55,23 +54,23 @@ Prices are rough guides that vary with season, group size and operator, and rise
 
 ## Old City walking tours
 
-The default first-timer pick. A local guide walks you through the **four quarters** — past the [Western Wall](/jerusalem/western-wall), the [Church of the Holy Sepulchre](/jerusalem/holy-sepulchre) and along the [Via Dolorosa](/jerusalem/via-dolorosa) — in **three to four hours**, making sense of the overlapping Jewish, Christian, Muslim and Armenian histories that are hard to read alone. The best value and the easiest way to get your bearings in the [Old City](/jerusalem/old-city) maze.
+The default first-timer pick. A local guide walks you through the **four quarters** — past the [Western Wall](/jerusalem), the [Church of the Holy Sepulchre](/jerusalem) and along the [Via Dolorosa](/jerusalem) — in **three to four hours**, making sense of the overlapping Jewish, Christian, Muslim and Armenian histories that are hard to read alone. The best value and the easiest way to get your bearings in the [Old City](/jerusalem) maze.
 
 ## Full-day Old & New Jerusalem
 
-A **7–8 hour** tour that pairs the Old City with modern Jerusalem: the [Mount of Olives](/jerusalem/mount-of-olives) panorama, Mount Zion, and usually one of Yad Vashem, the [Israel Museum](/jerusalem/israel-museum) or the [City of David](/jerusalem/city-of-david). The right choice if you have a single day and want the complete picture rather than just the Old City.
+A **7–8 hour** tour that pairs the Old City with modern Jerusalem: the [Mount of Olives](/jerusalem) panorama, Mount Zion, and usually one of Yad Vashem, the [Israel Museum](/jerusalem) or the [City of David](/jerusalem). The right choice if you have a single day and want the complete picture rather than just the Old City.
 
 ## Jerusalem & Bethlehem combo
 
-The same Old City highlights plus a guided afternoon in **Bethlehem** and the Church of the Nativity. Because standard rental cars aren't insured for the Palestinian-controlled Area A, a tour is the simplest way to add Bethlehem — the guide handles the crossing. Bring your passport. See our [Jerusalem & Bethlehem day trip](/jerusalem-bethlehem-day-trip) for the full logistics.
+The same Old City highlights plus a guided afternoon in **Bethlehem** and the Church of the Nativity. Because standard rental cars aren't insured for the Palestinian-controlled Area A, a tour is the simplest way to add Bethlehem — the guide handles the crossing. Bring your passport. See our Jerusalem & Bethlehem day trip for the full logistics.
 
 ## Western Wall Tunnels
 
-A **timed-entry** guided tour along the hidden, 488-metre underground length of the [Western Wall](/jerusalem/western-wall) and a Herodian street — a short (about 90-minute) but memorable add-on. Slots are limited and sell out, so **book ahead**.
+A **timed-entry** guided tour along the hidden, 488-metre underground length of the [Western Wall](/jerusalem) and a Herodian street — a short (about 90-minute) but memorable add-on. Slots are limited and sell out, so **book ahead**.
 
 ## Private guides
 
-A **private guide and driver** turns the itinerary over to you: centre the day on your faith tradition, set the pace and travel with family on your own schedule. It costs more — roughly **$300+ a day** — but for a small group splitting the cost it can be the richest way to see the city. See our [private tours guide](/private-tours-israel).
+A **private guide and driver** turns the itinerary over to you: centre the day on your faith tradition, set the pace and travel with family on your own schedule. It costs more — roughly **$300+ a day** — but for a small group splitting the cost it can be the richest way to see the city. See our private tours guide.
 
 ## Is a guided Jerusalem tour worth it?
 
@@ -81,7 +80,7 @@ For the **Old City, yes** — the history and competing traditions are dense, th
 
 - **First visit, limited time:** an **Old City walking tour**.
 - **One full day, want everything:** the **full-day Old & New Jerusalem** tour.
-- **Christian pilgrims:** add **Bethlehem**, or take a [private guide](/private-tours-israel); see our [Holy Land tours](/best-holy-land-tours) guide.
+- **Christian pilgrims:** add **Bethlehem**, or take a private guide; see our Holy Land tours guide.
 - **History buffs:** add the **Western Wall Tunnels** (book ahead).
 
-Compare the wider picture in our [best tours in Israel](/best-tours-in-israel) and [day trips from Jerusalem](/day-trips-from-jerusalem) guides, then sort where to sleep with [where to stay in Jerusalem](/where-to-stay/jerusalem).
+Compare the wider picture in our best tours in Israel and day trips from Jerusalem guides, then sort where to sleep with [where to stay in Jerusalem](/best-hotels-jerusalem).

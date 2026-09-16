@@ -35,7 +35,6 @@ faqs:
   - question: Why is Ben-Gurion buried at Sde Boker?
     answer: David Ben-Gurion, the founding prime minister of Israel, retired from public life to Sde Boker kibbutz in the central Negev and later asked to be buried there along with his wife Paula. He spoke famously of "making the desert bloom" and saw the Negev's development as a national project. The grave site is a quiet outdoor memorial near the Sde Boker Midrasha academic centre and is open to the public free of charge.
 ---
-
 The Negev Desert covers more than half of Israel's land area — a southern triangle stretching from Beersheba down to Eilat — yet most international visitors only pass through it on a transit run between Tel Aviv and the Red Sea. A complete guide to things to do in the Negev has to start by reframing that habit. The desert is the destination, not the route. The Mitzpe Ramon crater overlook is one of the most dramatic landscapes in the country. The Avdat Nabataean ruins are a UNESCO World Heritage site on the Incense Route. Sde Boker holds Ben-Gurion's grave and the academic centre he founded. Ein Avdat canyon delivers a hike that feels lifted from a different planet. And Bedouin community-partnership operators offer hospitality experiences that — done respectfully — are among the most memorable evenings on an Israel trip.
 
 This guide covers when to come, where to sleep across the Mitzpe Ramon hub and the alternatives, the headline experiences — the crater, Avdat, Sde Boker, Ein Avdat and Bedouin hospitality — the dark-sky stargazing scene that increasingly puts Mitzpe Ramon on global astrotourism maps, day trips that pair well with a Negev base, how to get here from Tel Aviv or Eilat, and the practical notes that make the difference between a comfortable desert week and a sunburned drive-through.
@@ -60,7 +59,7 @@ There are three accommodation clusters and a fourth for slow travellers.
 
 **Eco-lodges and farms** (the term is **chavot bodedim** in Hebrew — single-family farms scattered across the central Negev) offer rustic accommodation with kitchen access and full silence. Search for properties around Ezuz, Halutza and Be'er Milka.
 
-**Retreat centres** are clustered in the Arava valley south of Mitzpe Ramon and in the central Negev: Six Senses Shaharut (luxury eco-resort with yoga and Ayurveda programmes near Eilat), Desert Ashram (Osho-lineage meditation community), Ne'ot Semadar (eco-oasis community with yoga workshops) and Moa Oasis (Nabataean incense route setting with retreat programming). See the [Israel yoga & meditation retreats guide](/israel-yoga-retreats) for full detail on each centre and how to book.
+**Retreat centres** are clustered in the Arava valley south of Mitzpe Ramon and in the central Negev: Six Senses Shaharut (luxury eco-resort with yoga and Ayurveda programmes near Eilat), Desert Ashram (Osho-lineage meditation community), Ne'ot Semadar (eco-oasis community with yoga workshops) and Moa Oasis (Nabataean incense route setting with retreat programming). See the Israel yoga & meditation retreats guide for full detail on each centre and how to book.
 
 ## Top Things to Do in the Negev
 
@@ -72,9 +71,9 @@ The **Mitzpe Ramon visitor centre** operated by the Israel Nature and Parks Auth
 
 ### Avdat Nabataean Archaeological Site (UNESCO Spice Route)
 
-**Avdat** is the most spectacular of the four Negev UNESCO sites on the **[Incense Route — Desert Cities of the Negev](/negev-incense-route)** inscription. The Nabataeans, the same Arab trading civilisation that built Petra in Jordan, established a chain of caravan way-stations across the Negev around the second century BCE; Avdat became a substantial urban centre with terraced agricultural systems, a Roman-era acropolis, two Byzantine churches and an extensive necropolis. The site is presented as an archaeological complex, not a religious building.
+**Avdat** is the most spectacular of the four Negev UNESCO sites on the **Incense Route — Desert Cities of the Negev** inscription. The Nabataeans, the same Arab trading civilisation that built Petra in Jordan, established a chain of caravan way-stations across the Negev around the second century BCE; Avdat became a substantial urban centre with terraced agricultural systems, a Roman-era acropolis, two Byzantine churches and an extensive necropolis. The site is presented as an archaeological complex, not a religious building.
 
-The drive up to the acropolis gives the photogenic angle. Allow an hour and a half to two hours to walk the main loop. The on-site interpretive material covers the Nabataean trading network and the agricultural innovation that made urban life possible in this arid landscape. The other three UNESCO cities — Mamshit, Haluza, and Shivta — are covered in our [Negev Incense Route complete guide](/negev-incense-route).
+The drive up to the acropolis gives the photogenic angle. Allow an hour and a half to two hours to walk the main loop. The on-site interpretive material covers the Nabataean trading network and the agricultural innovation that made urban life possible in this arid landscape. The other three UNESCO cities — Mamshit, Haluza, and Shivta — are covered in our Negev Incense Route complete guide.
 
 ### Sde Boker and Ben-Gurion's Grave
 
@@ -108,7 +107,7 @@ The **Astronomy Israel** operator and the **Bereshit Hotel** observation deck ar
 
 ## How to Get to the Negev
 
-**Tel Aviv** is the closest international airport (about two hours by car to [Mitzpe Ramon](/mitzpe-ramon-guide) via Route 40). Egged bus routes connect [Beer-Sheva](/beer-sheva-guide) to Mitzpe Ramon and Sde Boker but the connecting buses to smaller sites (Avdat, Ein Avdat trailheads) are infrequent — a rental car is the practical default for a Negev trip. Beer-Sheva itself is worth a half-day for Tel Be'er Sheva (UNESCO biblical tel), the IAF Air Force Museum, and the ANZAC war cemetery before heading south into the desert. [Tel Arad National Park](/tel-arad-guide) — 28 km east of Beer-Sheva on Route 31 — preserves a 5,000-year-old Canaanite city and the only ancient Israelite temple discovered outside Jerusalem; it pairs well with Beer-Sheva on a full-day northern Negev circuit.
+**Tel Aviv** is the closest international airport (about two hours by car to Mitzpe Ramon via Route 40). Egged bus routes connect Beer-Sheva to Mitzpe Ramon and Sde Boker but the connecting buses to smaller sites (Avdat, Ein Avdat trailheads) are infrequent — a rental car is the practical default for a Negev trip. Beer-Sheva itself is worth a half-day for Tel Be'er Sheva (UNESCO biblical tel), the IAF Air Force Museum, and the ANZAC war cemetery before heading south into the desert. Tel Arad National Park — 28 km east of Beer-Sheva on Route 31 — preserves a 5,000-year-old Canaanite city and the only ancient Israelite temple discovered outside Jerusalem; it pairs well with Beer-Sheva on a full-day northern Negev circuit.
 
 **Eilat** has a smaller domestic airport (Ramon Airport, with regional flights) and is the southern entry option. From Eilat, Mitzpe Ramon is about two hours north along Route 40.
 

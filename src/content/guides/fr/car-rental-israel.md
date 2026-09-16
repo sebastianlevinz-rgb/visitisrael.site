@@ -32,14 +32,13 @@ faqs:
   - question: "Vaut-il mieux louer une voiture automatique ou manuelle en Israël ?"
     answer: "Les automatiques sont largement disponibles et recommandées, notamment dans des villes comme Jérusalem et Tel Aviv où la circulation et les côtes rendent la conduite manuelle plus exigeante. Les automatiques coûtent légèrement plus cher mais en valent la peine pour la plupart des visiteurs. Les manuelles sont disponibles à tarif réduit si vous êtes à l'aise avec elles."
 ---
-
 Israël est petit et les trains sont excellents entre les grandes villes — une voiture n'est donc pas toujours nécessaire. Mais pour le nord étendu et le désert du sud, une location transforme le voyage. Voici quand louer, ce qu'il faut savoir et où réserver.
 
 ## Quand une voiture est (ou n'est pas) utile
 
 **Sautez la voiture** pour l'axe [Tel Aviv](/tel-aviv)–[Jérusalem](/jerusalem)–[Haïfa](/haifa) — les trains et les bus sont plus rapides et moins chers une fois le stationnement en ville pris en compte.
 
-**Louez une voiture** pour la [Galilée](/galilee), le [Golan](/golan) et le [Néguev](/negev), où les sites comme les vignobles, les belvédères et le cratère de Makhtesh Ramon sont dispersés et les transports rares. Une stratégie courante : faire les villes en train, puis louer deux ou trois jours dans le nord ou le sud.
+**Louez une voiture** pour la [Galilée](/galilee), le [Golan](/fr/galilee) et le [Néguev](/negev), où les sites comme les vignobles, les belvédères et le cratère de Makhtesh Ramon sont dispersés et les transports rares. Une stratégie courante : faire les villes en train, puis louer deux ou trois jours dans le nord ou le sud.
 
 ## Quel type de véhicule ?
 
@@ -70,11 +69,11 @@ Options courantes à budgéter :
 
 - **On roule à droite.** Les routes et autoroutes sont modernes ; la signalisation est en hébreu, arabe et anglais.
 - **Permis et âge** — munissez-vous d'un permis de conduire international avec votre permis national ; l'âge minimum est généralement de 21 à 24 ans.
-- **Shabbat** — la voiture vous garde mobile lorsque les transports s'arrêtent, mais les agences ferment souvent du vendredi après-midi au samedi soir ; planifiez la prise en charge et le retour en conséquence. Voir le [guide du Shabbat](/fr/shabbat-guide).
-- **Frontières et Cisjordanie** — la plupart des contrats interdisent d'emmener la voiture en Jordanie et annulent l'assurance dans certaines zones ; pour [Petra](/petra-from-eilat-vs-amman), prenez un circuit. Voir les [passages frontaliers](/fr/border-crossings).
+- **Shabbat** — la voiture vous garde mobile lorsque les transports s'arrêtent, mais les agences ferment souvent du vendredi après-midi au samedi soir ; planifiez la prise en charge et le retour en conséquence. Voir le guide du Shabbat.
+- **Frontières et Cisjordanie** — la plupart des contrats interdisent d'emmener la voiture en Jordanie et annulent l'assurance dans certaines zones ; pour [Petra](/fr/eilat), prenez un circuit. Voir les [passages frontaliers](/fr/visa-information).
 - **Stationnement** — le stationnement en ville est serré et signalé par des bandes de couleur au bord du trottoir (bleu/blanc = payant ; rouge/blanc = interdit) ; préférez les parkings à Tel Aviv et Jérusalem plutôt que les places de rue.
 - **Navigation** — Waze fonctionne excellemment en Israël, avec des alertes trafic en temps réel sur la Route 1 et l'Ayalon. Téléchargez des cartes hors ligne en sauvegarde.
 
 ## Préparez le reste
 
-Procurez-vous votre [eSIM](/israel-esim) pour les données de navigation et votre [assurance voyage](/fr/israel-travel-insurance) avant de partir, et si vous préférez ne pas conduire depuis l'aéroport, consultez les [transferts depuis Ben Gourion](/ben-gurion-airport-transfers). Pour comprendre les options d'itinéraires en voiture, le [guide de conduite en Israël](/fr/driving-in-israel) couvre les conditions routières, l'essence et les conseils de stationnement ville par ville.
+Procurez-vous votre eSIM pour les données de navigation et votre assurance voyage avant de partir, et si vous préférez ne pas conduire depuis l'aéroport, consultez les transferts depuis Ben Gourion. Pour comprendre les options d'itinéraires en voiture, le guide de conduite en Israël couvre les conditions routières, l'essence et les conseils de stationnement ville par ville.

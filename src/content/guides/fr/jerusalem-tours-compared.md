@@ -38,7 +38,6 @@ faqs:
   - question: "Faut-il réserver les tunnels du Mur des Lamentations à l'avance ?"
     answer: "Oui. Les tunnels du Mur des Lamentations se visitent uniquement sur des visites guidées à horaire fixe, et les créneaux partent vite — notamment en haute saison et autour des fêtes juives. Réservez à l'avance plutôt que de vous présenter sur place."
 ---
-
 Jérusalem propose plus d'options de circuits guidés que n'importe où ailleurs en Israël, et ce sont véritablement des expériences différentes — d'une promenade de trois heures dans la Vieille Ville à une journée complète qui englobe Bethléem. Voici une comparaison honnête des principaux types, ce que chacun coûte et comment choisir. Pour les sites eux-mêmes, combinez cela avec notre [guide de la région de Jérusalem](/jerusalem).
 
 ## Circuits Jérusalem comparés
@@ -55,23 +54,23 @@ Les tarifs sont indicatifs et varient selon la saison, la taille du groupe et l'
 
 ## Les visites à pied de la Vieille Ville
 
-Le choix privilégié par les primo-visiteurs. Un guide local vous emmène à travers les **quatre quartiers** — devant le [Mur des Lamentations](/jerusalem/western-wall), l'[église du Saint-Sépulcre](/jerusalem/holy-sepulchre) et le long de la [Via Dolorosa](/jerusalem/via-dolorosa) — en **trois à quatre heures**, donnant du sens aux histoires juive, chrétienne, musulmane et arménienne qui se superposent et sont difficiles à démêler seul. Le meilleur rapport qualité-prix et le moyen le plus simple de se repérer dans le labyrinthe de la [Vieille Ville](/jerusalem/old-city).
+Le choix privilégié par les primo-visiteurs. Un guide local vous emmène à travers les **quatre quartiers** — devant le [Mur des Lamentations](/fr/jerusalem), l'[église du Saint-Sépulcre](/fr/jerusalem) et le long de la [Via Dolorosa](/fr/jerusalem) — en **trois à quatre heures**, donnant du sens aux histoires juive, chrétienne, musulmane et arménienne qui se superposent et sont difficiles à démêler seul. Le meilleur rapport qualité-prix et le moyen le plus simple de se repérer dans le labyrinthe de la [Vieille Ville](/fr/jerusalem).
 
 ## La journée complète Jérusalem ancienne et moderne
 
-Un circuit de **7 à 8 heures** qui associe la Vieille Ville à la Jérusalem moderne : le panorama du [mont des Oliviers](/jerusalem/mount-of-olives), le mont Sion, et généralement l'un des trois parmi Yad Vashem, le [Musée d'Israël](/jerusalem/israel-museum) ou la [Cité de David](/jerusalem/city-of-david). Le bon choix si vous n'avez qu'une seule journée et souhaitez le tableau complet plutôt que la seule Vieille Ville.
+Un circuit de **7 à 8 heures** qui associe la Vieille Ville à la Jérusalem moderne : le panorama du [mont des Oliviers](/fr/jerusalem), le mont Sion, et généralement l'un des trois parmi Yad Vashem, le [Musée d'Israël](/fr/jerusalem) ou la [Cité de David](/fr/jerusalem). Le bon choix si vous n'avez qu'une seule journée et souhaitez le tableau complet plutôt que la seule Vieille Ville.
 
 ## Le combiné Jérusalem & Bethléem
 
-Les mêmes points forts de la Vieille Ville, plus une après-midi guidée à **Bethléem** et l'église de la Nativité. Parce que les voitures de location standard ne sont pas assurées pour la Zone A sous contrôle palestinien, un circuit est le moyen le plus simple d'ajouter Bethléem — le guide gère la traversée. Apportez votre passeport. Voir notre [guide de l'excursion Jérusalem & Bethléem](/fr/jerusalem-bethlehem-day-trip) pour la logistique complète.
+Les mêmes points forts de la Vieille Ville, plus une après-midi guidée à **Bethléem** et l'église de la Nativité. Parce que les voitures de location standard ne sont pas assurées pour la Zone A sous contrôle palestinien, un circuit est le moyen le plus simple d'ajouter Bethléem — le guide gère la traversée. Apportez votre passeport. Voir notre guide de l'excursion Jérusalem & Bethléem pour la logistique complète.
 
 ## Les tunnels du Mur des Lamentations
 
-Une visite guidée à **entrée programmée** le long des 488 mètres souterrains cachés du [Mur des Lamentations](/jerusalem/western-wall) et d'une rue hérodienne — un complément court (environ 90 minutes) mais mémorable. Les créneaux sont limités et partent vite, alors **réservez à l'avance**.
+Une visite guidée à **entrée programmée** le long des 488 mètres souterrains cachés du [Mur des Lamentations](/fr/jerusalem) et d'une rue hérodienne — un complément court (environ 90 minutes) mais mémorable. Les créneaux sont limités et partent vite, alors **réservez à l'avance**.
 
 ## Les guides privés
 
-Un **guide et chauffeur privés** remet l'itinéraire entre vos mains : centrez la journée sur votre tradition de foi, fixez le rythme et voyagez en famille selon votre propre programme. Cela coûte davantage — environ **300 $ et plus par jour** — mais pour un petit groupe qui partage les frais, c'est la façon la plus enrichissante de découvrir la ville. Voir notre [guide des circuits privés](/private-tours-israel).
+Un **guide et chauffeur privés** remet l'itinéraire entre vos mains : centrez la journée sur votre tradition de foi, fixez le rythme et voyagez en famille selon votre propre programme. Cela coûte davantage — environ **300 $ et plus par jour** — mais pour un petit groupe qui partage les frais, c'est la façon la plus enrichissante de découvrir la ville. Voir notre guide des circuits privés.
 
 ## Un circuit guidé à Jérusalem est-il indispensable ?
 
@@ -81,7 +80,7 @@ Pour la **Vieille Ville, oui** — l'histoire et les traditions concurrentes son
 
 - **Première visite, temps limité :** une **visite à pied de la Vieille Ville**.
 - **Une journée complète, je veux tout voir :** le **circuit journée complète Jérusalem ancienne et moderne**.
-- **Pèlerins chrétiens :** ajoutez **Bethléem**, ou prenez un [guide privé](/private-tours-israel) ; voir notre [guide des circuits en Terre Sainte](/fr/best-holy-land-tours).
+- **Pèlerins chrétiens :** ajoutez **Bethléem**, ou prenez un guide privé ; voir notre guide des circuits en Terre Sainte.
 - **Passionnés d'histoire :** ajoutez les **tunnels du Mur des Lamentations** (réservez à l'avance).
 
-Comparez le tableau d'ensemble dans nos guides [meilleurs circuits en Israël](/fr/best-tours-in-israel) et [excursions depuis Jérusalem](/fr/day-trips-from-jerusalem), puis déterminez où dormir avec [où séjourner à Jérusalem](/where-to-stay/jerusalem).
+Comparez le tableau d'ensemble dans nos guides meilleurs circuits en Israël et excursions depuis Jérusalem, puis déterminez où dormir avec [où séjourner à Jérusalem](/fr/best-hotels-jerusalem).

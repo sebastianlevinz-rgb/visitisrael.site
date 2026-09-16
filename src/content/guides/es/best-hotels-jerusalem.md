@@ -38,13 +38,11 @@ faqs:
   - question: ¿Hay aparcamiento en los hoteles de Jerusalén?
     answer: "El aparcamiento en Jerusalén es caro y genuinamente difícil cerca de la Ciudad Vieja. La mayoría de los hoteles de lujo y precio medio-alto ofrecen aparcamiento con un coste adicional de ₪80–150 por noche. El tren ligero (línea Ram–Hadassah) conecta los principales puntos de la ciudad, incluido el centro, el Monte Herzl y la Universidad Hebrea. Para los visitantes que llegan en coche, conducir hasta la zona de la Ciudad Vieja no es práctico — aparca en el hotel o en un aparcamiento vigilado y usa el transporte público o ve a pie. Si no necesitas coche en Jerusalén, no lo traigas: DiscoverCars y otras agencias de alquiler ofrecen recogidas y devoluciones de ida hacia y desde la ciudad."
 ---
-
 **Jerusalén** tiene el mercado hotelero de más capas históricas de Israel: un palacete otomano del siglo XIX que funciona como hotel de lujo, un edificio gubernamental de 1929 convertido en Waldorf Astoria, propiedades boutique con vistas directas a la Puerta de Jaffa y un hostal bien llevado a poca distancia del Muro Occidental. Dónde te alojas en Jerusalén condiciona la experiencia más que en casi cualquier otra ciudad — el barrio correcto te sitúa junto al canto del Shabat en el Muro Occidental, en la transformación nocturna del mercado Mahane Yehuda o en la tranquila franja de cafés de Emek Refaim, según dónde te bases.
 
-Para una comprensión más profunda de los barrios de Jerusalén — cómo se siente cada cuartel de la Ciudad Vieja y cada distrito moderno, dónde comer y cómo se conectan las distintas zonas — consulta la [guía de barrios de Jerusalén](/jerusalem-neighborhoods-guide). Esta página se centra en hoteles concretos y en el contexto para reservar.
+Para una comprensión más profunda de los barrios de Jerusalén — cómo se siente cada cuartel de la Ciudad Vieja y cada distrito moderno, dónde comer y cómo se conectan las distintas zonas — consulta la [guía de barrios de Jerusalén](/es/jerusalem). Esta página se centra en hoteles concretos y en el contexto para reservar.
 
 ---
-
 ## Dónde alojarse en Jerusalén: panorama por barrios
 
 **Mamilla y la Puerta de Jaffa** es la ubicación hotelera más codiciada de Jerusalén Oeste. El paseo peatonal y el centro comercial Mamilla conectan King David Street directamente con la entrada de la Puerta de Jaffa a la Ciudad Vieja — a unos 5 minutos a pie. Los hoteles de aquí dan acceso inmediato al Barrio Cristiano, el Barrio Armenio y el Barrio Judío sin tener que sortear el tráfico del centro de Jerusalén. La contrapartida: es la franja hotelera más cara de Jerusalén.
@@ -55,10 +53,9 @@ Para una comprensión más profunda de los barrios de Jerusalén — cómo se si
 
 **Jerusalén Este — zona del American Colony** ofrece una experiencia histórica y cargada de matices. El American Colony Hotel es una institución de la ciudad desde 1902 — periodistas, diplomáticos y escritores se han instalado aquí durante generaciones. Está a 15–20 minutos a pie o en taxi corto del extremo de la Puerta de Jaffa de la Ciudad Vieja. Jerusalén Este tiene un carácter eminentemente árabe-palestino, muy diferente a Jerusalén Oeste.
 
-**[Ein Kerem](/ein-kerem-jerusalem-guide)**, en las colinas del oeste de Jerusalén, es un ambiente de pueblo dentro de la ciudad: casas de piedra, estudios de artistas, galerías y las iglesias del lugar natal de Juan el Bautista. No hay hoteles de renombre actualmente, pero sí varias casas de huéspedes y B&Bs. Adecuado para quienes buscan un retiro más pastoril y no les importa un trayecto de 15 minutos en coche hasta el centro de Jerusalén.
+**[Ein Kerem](/es/jerusalem)**, en las colinas del oeste de Jerusalén, es un ambiente de pueblo dentro de la ciudad: casas de piedra, estudios de artistas, galerías y las iglesias del lugar natal de Juan el Bautista. No hay hoteles de renombre actualmente, pero sí varias casas de huéspedes y B&Bs. Adecuado para quienes buscan un retiro más pastoril y no les importa un trayecto de 15 minutos en coche hasta el centro de Jerusalén.
 
 ---
-
 ## Hoteles económicos y hostales (₪200–500/noche)
 
 El segmento económico de Jerusalén está anclado por el **Abraham Hostel Jerusalem** en la calle HaNevi'im — el hostal mejor ubicado para acceder a la Ciudad Vieja. Camas en dormitorio y habitaciones privadas, terraza en la azotea con vistas a la ciudad y una activa vida social en torno a tours en grupo compartidos y excursiones propias del hostal. La cadena Abraham organiza un Séder de Pésaj comunitario que atrae a viajeros en solitario y grupos pequeños de toda su red. Las habitaciones privadas están disponibles y ofrecen una base de precio medio-bajo genuinamente buena.
@@ -70,7 +67,6 @@ La **Ciudad Vieja en sí** tiene un puñado de casas de huéspedes dentro de las
 **₪200–500/noche** es realista para habitaciones privadas económicas en temporada baja. Durante Pésaj, Sucot y Navidad, incluso las propiedades económicas suben de precio — a veces se duplican. Las camas en dormitorio del Abraham Hostel cuestan normalmente entre ₪130 y ₪250; las habitaciones privadas entre ₪300 y ₪500, según la temporada.
 
 ---
-
 ## Hoteles de precio medio (₪600–1.200/noche)
 
 **Leonardo Boutique Jerusalem** (cerca del Compound Ruso y el mercado Mahane Yehuda) es la opción de precio medio más práctica en el centro de Jerusalén Oeste: piscina exterior (inusual a este precio en Jerusalén), habitaciones modernas y limpias, y una ubicación que sitúa el mercado Mahane Yehuda y la calle peatonal Ben Yehuda a poca distancia a pie, con la Ciudad Vieja a unos 20 minutos a pie o 5 en taxi.
@@ -82,7 +78,6 @@ Varios establecimientos cerca de **Emek Refaim** en la Colonia Alemana ofrecen a
 **₪600–1.200/noche** cubre la mayoría de las propiedades de precio medio en temporadas normales. El segmento medio de Jerusalén ofrece buena relación calidad-precio en comparación con mercados boutique israelíes equivalentes, en gran parte porque el segmento de lujo eleva el techo, lo que da a las propiedades de precio medio una presión de precios relativamente menor.
 
 ---
-
 ## Hoteles de lujo (₪1.500+/noche)
 
 **Mamilla Hotel** (frente a la Puerta de Jaffa) es la propiedad boutique más prestigiosa de Jerusalén Oeste. Piscina en la azotea con una de las mejores vistas de las murallas de la Ciudad Vieja en Jerusalén, un interior de diseño contemporáneo, bar en la azotea y 5 minutos a pie de la entrada de la Puerta de Jaffa. Citado sistemáticamente como uno de los mejores hoteles de Oriente Medio. La oferta de restauración y bebidas es de las más destacadas de cualquier propiedad en Jerusalén.
@@ -91,12 +86,11 @@ Varios establecimientos cerca de **Emek Refaim** en la Colonia Alemana ofrecen a
 
 **The American Colony Hotel** (Jerusalén Este, Sheikh Jarrah) es una categoría propia: una mansión otomana del siglo XIX convertida en hotel de 93 habitaciones en 1902, con un patio legendario, piscina rodeada de jazmín y una reputación de zona neutral. Los periodistas que cubren la región se han instalado aquí durante más de un siglo. El hotel está gestionado por la familia Natour y ha sido miembro de The Leading Hotels of the World. La ubicación en Jerusalén Este es marcadamente diferente a los hoteles de lujo de Jerusalén Oeste — la atmósfera es más colonial europea que diseño israelí contemporáneo. Está a unos 2 km de la Puerta de Jaffa.
 
-**InterContinental Jerusalem** (cerca de la Ciudad Vieja, apertura en el verano de 2026) es una incorporación significativa a este segmento — el primer gran hotel de lujo nuevo en Jerusalén en más de una década. La propiedad IHG de 237 habitaciones tiene restaurante en la azotea (L18), se une a la red de hoteles preferentes Virtuoso y está situado a poca distancia a pie de la Ciudad Vieja. No se ha anunciado una fecha exacta de apertura de forma oficial; consulta Booking.com para ver la disponibilidad antes de planificar en torno a esta propiedad. Para el contexto completo sobre esta apertura y el panorama hotelero de lujo en Israel en 2026, consulta la [guía de nuevos hoteles de lujo en Israel 2026](/new-luxury-hotels-israel-2026).
+**InterContinental Jerusalem** (cerca de la Ciudad Vieja, apertura en el verano de 2026) es una incorporación significativa a este segmento — el primer gran hotel de lujo nuevo en Jerusalén en más de una década. La propiedad IHG de 237 habitaciones tiene restaurante en la azotea (L18), se une a la red de hoteles preferentes Virtuoso y está situado a poca distancia a pie de la Ciudad Vieja. No se ha anunciado una fecha exacta de apertura de forma oficial; consulta Booking.com para ver la disponibilidad antes de planificar en torno a esta propiedad. Para el contexto completo sobre esta apertura y el panorama hotelero de lujo en Israel en 2026, consulta la guía de nuevos hoteles de lujo en Israel 2026.
 
 **₪1.500–4.000+/noche** cubre el rango de lujo en Jerusalén, con las suites del Mamilla y el Waldorf Astoria alcanzando el extremo superior durante los picos festivos. El American Colony tiene un precio en el límite entre precio medio-alto y lujo y representa un valor excepcional por la atmósfera que ofrece.
 
 ---
-
 ## Quién debería alojarse dónde — la tabla de decisión
 
 | Prioridad | Opción recomendada |
@@ -113,7 +107,6 @@ Varios establecimientos cerca de **Emek Refaim** en la Colonia Alemana ofrecen a
 | Familias que buscan ambiente de pueblo | Casas de huéspedes de Ein Kerem |
 
 ---
-
 ## Contexto de reserva y patrones de precios
 
 Los precios de los hoteles de Jerusalén siguen el calendario judío más que los de cualquier otra ciudad. **Pésaj** (marzo–abril) es el mayor pico de demanda — los visitantes judíos de la diáspora de América y Europa reservan los hoteles de Jerusalén con meses de antelación, y las propiedades cerca del Muro Occidental, Mamilla y el centro se llenan por completo. Los precios alcanzan regularmente entre 3 y 4 veces las tarifas en temporada baja durante la semana principal de Pésaj y los días intermedios (Jol HaMoed).
@@ -127,9 +120,8 @@ Los precios de los hoteles de Jerusalén siguen el calendario judío más que lo
 Todos los precios en esta guía son rangos orientativos. Las tarifas de los hoteles de Jerusalén cambian a diario en función de la proximidad a los festivos, la ocupación y la demanda de eventos. Consulta los precios en tiempo real a través de los enlaces de reserva; nunca te fíes de un precio publicado estático.
 
 ---
-
 ## Enlaces de interés
 
-Para la guía completa por barrios de Jerusalén — cómo se siente cada distrito, dónde comer y cómo se conectan los cuarteles — consulta la [guía de barrios de Jerusalén](/jerusalem-neighborhoods-guide). Para la Ciudad Vieja en sí, la [guía de recorrido a pie por la Ciudad Vieja de Jerusalén](/jerusalem-old-city-walking-tour) y la [guía de la Iglesia del Santo Sepulcro](/church-holy-sepulchre-guide) describen los principales sitios cerca de los que te alojarás. La [guía del mercado Mahane Yehuda](/jerusalem-food-guide) explica el principal mercado de alimentación de la ciudad y su transformación como zona de restaurantes por la noche.
+Para la guía completa por barrios de Jerusalén — cómo se siente cada distrito, dónde comer y cómo se conectan los cuarteles — consulta la [guía de barrios de Jerusalén](/es/jerusalem). Para la Ciudad Vieja en sí, la [guía de recorrido a pie por la Ciudad Vieja de Jerusalén](/es/jerusalem-tours-compared) y la guía de la Iglesia del Santo Sepulcro describen los principales sitios cerca de los que te alojarás. La [guía del mercado Mahane Yehuda](/es/jerusalem) explica el principal mercado de alimentación de la ciudad y su transformación como zona de restaurantes por la noche.
 
-Para el alojamiento en todo el país — hoteles resort en el Mar Muerto, casas de huéspedes zimmer en Galilea, hoteles en kibutz — la [guía de alojamiento en Israel](/es/israel-accommodation-guide) ofrece el panorama nacional completo. Para desplazarte una vez que llegues: la [guía de transportes](/es/transportation) cubre las conexiones en autobús, tren y sherut a Jerusalén desde Tel Aviv y el Aeropuerto Ben Gurión.
+Para el alojamiento en todo el país — hoteles resort en el Mar Muerto, casas de huéspedes zimmer en Galilea, hoteles en kibutz — la guía de alojamiento en Israel ofrece el panorama nacional completo. Para desplazarte una vez que llegues: la guía de transportes cubre las conexiones en autobús, tren y sherut a Jerusalén desde Tel Aviv y el Aeropuerto Ben Gurión.

@@ -38,13 +38,11 @@ faqs:
   - question: Is parking available at Jerusalem hotels?
     answer: "Parking in Jerusalem is expensive and genuinely difficult near the Old City. Most luxury and upper-mid hotels offer parking at ₪80–150/night extra. The light rail (Ram–Hadassah line) connects major city points including the city centre, Mount Herzl and the Hebrew University. For visitors arriving by car, driving into the Old City area is not practical — park at the hotel or at a monitored car park and use public transport or walk. If you don't need a car in Jerusalem, don't bring one: DiscoverCars and other rental agencies can provide one-way pickups to/from the city."
 ---
-
 **Jerusalem** has the most historically layered hotel market in Israel: a 19th-century pasha's palace operating as a luxury hotel, a converted 1929 government building as a Waldorf Astoria, boutique properties looking directly at Jaffa Gate, and a well-run hostel a short walk from the Western Wall. Where you stay in Jerusalem shapes the experience more than in almost any other city — the right neighbourhood puts you at the Shabbat singing at the Western Wall, at Mahane Yehuda's Thursday night restaurant transformation, or at the quiet Emek Refaim café strip, depending entirely on your base.
 
-For a deeper understanding of Jerusalem's neighbourhoods — what each quarter of the Old City and each modern district feels like, where to eat, and how the areas connect — see the [Jerusalem neighbourhoods guide](/jerusalem-neighborhoods-guide). This page focuses on specific hotel picks and booking context.
+For a deeper understanding of Jerusalem's neighbourhoods — what each quarter of the Old City and each modern district feels like, where to eat, and how the areas connect — see the [Jerusalem neighbourhoods guide](/jerusalem). This page focuses on specific hotel picks and booking context.
 
 ---
-
 ## Where to stay in Jerusalem: neighbourhoods at a glance
 
 **Mamilla and Jaffa Gate** is the most coveted hotel location in West Jerusalem. The Mamilla Mall and pedestrian zone link King David Street directly to the Jaffa Gate entrance of the Old City — about 5 minutes on foot. Hotels here give immediate access to the Christian Quarter, Armenian Quarter and Jewish Quarter without navigating any of central Jerusalem's traffic. The trade-off: this is Jerusalem's most expensive hotel strip.
@@ -55,10 +53,9 @@ For a deeper understanding of Jerusalem's neighbourhoods — what each quarter o
 
 **East Jerusalem — American Colony area** offers a distinctive, historically weighted experience. The American Colony Hotel has been a city institution since 1902 — journalists, diplomats and writers have based themselves here for generations. It is a 15–20 minute walk or short taxi ride from the Jaffa Gate end of the Old City. East Jerusalem has a predominantly Palestinian Arab character that is quite different from West Jerusalem.
 
-**[Ein Kerem](/ein-kerem-jerusalem-guide)**, in the western hills of Jerusalem, is a village-within-the-city setting: stone houses, artists' studios, artists' galleries, and the birthplace churches of John the Baptist. No direct hotels of note currently, but several guesthouses and B&Bs. Good for visitors who want a pastoral retreat base and don't mind a 15-minute drive into central Jerusalem.
+**[Ein Kerem](/jerusalem)**, in the western hills of Jerusalem, is a village-within-the-city setting: stone houses, artists' studios, artists' galleries, and the birthplace churches of John the Baptist. No direct hotels of note currently, but several guesthouses and B&Bs. Good for visitors who want a pastoral retreat base and don't mind a 15-minute drive into central Jerusalem.
 
 ---
-
 ## Budget hotels and hostels (₪200–500/night)
 
 Jerusalem's budget tier is anchored by **Abraham Hostel Jerusalem** on HaNevi'im Street — the best-located hostel for Old City access in the city. Dorm beds and private rooms, a rooftop terrace with city views, and an active social scene built around shared group tours and the hostel's own day trips. The Abraham brand runs a community Passover Seder that draws solo travelers and small groups from across the hostel network. Private rooms are available and make a genuinely good-value mid-range base.
@@ -70,7 +67,6 @@ The **Old City itself** has a handful of guesthouses inside the walls — predom
 **₪200–500/night** covers budget private rooms in off-peak periods. During Passover, Sukkot and Christmas, even budget properties surge — sometimes doubling. Abraham Hostel dorm beds are typically ₪130–250; private rooms ₪300–500, subject to season.
 
 ---
-
 ## Mid-range hotels (₪600–1,200/night)
 
 **Leonardo Boutique Jerusalem** (near the Russian Compound and Mahane Yehuda) is the most practical mid-range choice in central West Jerusalem: an outdoor swimming pool (rare at this price point in Jerusalem), clean modern rooms, and a location that puts Mahane Yehuda Market and the Ben Yehuda pedestrian street within easy walking distance, with the Old City around 20 minutes on foot or 5 minutes by taxi.
@@ -82,7 +78,6 @@ Several properties near **Emek Refaim** in the German Colony offer boutique-size
 **₪600–1,200/night** covers most mid-range properties in normal seasons. The Jerusalem mid-range tier offers solid value compared to equivalent Israeli boutique markets, largely because the luxury segment pulls up the ceiling, giving mid-range properties relatively lower pricing pressure.
 
 ---
-
 ## Luxury hotels (₪1,500+/night)
 
 **Mamilla Hotel** (directly opposite Jaffa Gate) is the most prestigious boutique property in West Jerusalem. A rooftop pool with one of the best views of the Old City walls in Jerusalem, a design-forward interior, a rooftop bar, and a 5-minute walk from the Jaffa Gate entrance. Consistently cited as one of the best hotels in the Middle East. The food and beverage offering is among the strongest of any Jerusalem property.
@@ -91,12 +86,11 @@ Several properties near **Emek Refaim** in the German Colony offer boutique-size
 
 **The American Colony Hotel** (East Jerusalem, Sheikh Jarrah) is in a category of its own: a 19th-century Ottoman pasha's mansion converted into a 93-room hotel in 1902, with a legendary courtyard, swimming pool surrounded by jasmine, and a reputation as neutral ground. Journalists covering the region have based themselves here for more than a century. The hotel is run to a high standard by the Natour family and has been a member of the Leading Hotels of the World. The East Jerusalem location is distinctly different from West Jerusalem luxury hotels — the atmosphere is more European colonial than contemporary Israeli design. It is about 2km from Jaffa Gate.
 
-**InterContinental Jerusalem** (near Old City, now open summer 2026) is a significant new addition to this tier — the first major new luxury hotel in Jerusalem in more than a decade. The 237-room IHG property has a rooftop restaurant (L18), joins the Virtuoso preferred hotel network, and is positioned within walking distance of the Old City. Check [Booking.com for live availability and current rates](https://www.booking.com/city/il/jerusalem.html) — new luxury openings often have phased launches, and early guest reviews are the most reliable guide to current service levels. For full context on this opening and the national 2026 hotel landscape, see the [new luxury hotels in Israel 2026 guide](/new-luxury-hotels-israel-2026).
+**InterContinental Jerusalem** (near Old City, now open summer 2026) is a significant new addition to this tier — the first major new luxury hotel in Jerusalem in more than a decade. The 237-room IHG property has a rooftop restaurant (L18), joins the Virtuoso preferred hotel network, and is positioned within walking distance of the Old City. Check [Booking.com for live availability and current rates](https://www.booking.com/city/il/jerusalem.html) — new luxury openings often have phased launches, and early guest reviews are the most reliable guide to current service levels. For full context on this opening and the national 2026 hotel landscape, see the new luxury hotels in Israel 2026 guide.
 
 **₪1,500–4,000+/night** covers the luxury range in Jerusalem, with suites at the Mamilla and Waldorf Astoria reaching the upper end during holiday peaks. The American Colony is priced at the upper-mid to luxury boundary and represents exceptional value for the atmosphere.
 
 ---
-
 ## Who should stay where — the decision matrix
 
 | Priority | Recommended option |
@@ -113,7 +107,6 @@ Several properties near **Emek Refaim** in the German Colony offer boutique-size
 | Families wanting a village feel | Ein Kerem guesthouses |
 
 ---
-
 ## Booking context and price patterns
 
 Jerusalem hotel pricing follows Israel's Jewish calendar more than any other city. **Passover** (March–April) is the single largest demand spike — diaspora Jewish visitors from the Americas and Europe book Jerusalem hotels months ahead, and properties near the Western Wall, Mamilla and the city centre fill completely. Prices regularly reach 3–4× off-peak rates for the main Passover week and the intermediate days (Chol HaMoed).
@@ -127,9 +120,8 @@ Jerusalem hotel pricing follows Israel's Jewish calendar more than any other cit
 All prices in this guide are ranges only. Jerusalem hotel rates change daily based on holiday proximity, occupancy and event demand. Check live rates via the booking links; never rely on a static published price.
 
 ---
-
 ## Useful links
 
-For the full neighbourhood-by-neighbourhood guide to Jerusalem — what each district feels like, where to eat, and how the quarters connect — see the [Jerusalem neighbourhoods guide](/jerusalem-neighborhoods-guide). For the Old City itself, the [Jerusalem Old City walking tour guide](/jerusalem-old-city-walking-tour) and the [Church of the Holy Sepulchre guide](/church-holy-sepulchre-guide) cover the key sites your hotel puts you near. The [Mahane Yehuda market guide](/jerusalem-food-guide) explains the city's main food market and its evening restaurant transformation.
+For the full neighbourhood-by-neighbourhood guide to Jerusalem — what each district feels like, where to eat, and how the quarters connect — see the [Jerusalem neighbourhoods guide](/jerusalem). For the Old City itself, the [Jerusalem Old City walking tour guide](/jerusalem-tours-compared) and the Church of the Holy Sepulchre guide cover the key sites your hotel puts you near. The [Mahane Yehuda market guide](/jerusalem) explains the city's main food market and its evening restaurant transformation.
 
-For accommodation across the country — Dead Sea resort hotels, Galilee zimmer guesthouses, kibbutz hotels — the [Israel accommodation guide](/israel-accommodation-guide) maps the full national picture. For getting around once you arrive: the [transportation guide](/transportation) covers bus, train and sherut connections to Jerusalem from Tel Aviv and Ben Gurion Airport. For getting from Tel Aviv to Jerusalem, the [Tel Aviv to Jerusalem guide](/tel-aviv-to-jerusalem) covers train, bus and sherut options.
+For accommodation across the country — Dead Sea resort hotels, Galilee zimmer guesthouses, kibbutz hotels — the Israel accommodation guide maps the full national picture. For getting around once you arrive: the transportation guide covers bus, train and sherut connections to Jerusalem from Tel Aviv and Ben Gurion Airport. For getting from Tel Aviv to Jerusalem, the [Tel Aviv to Jerusalem guide](/jerusalem) covers train, bus and sherut options.

@@ -9,9 +9,9 @@ const itineraries = allItineraries
   .filter((e) => e.id.startsWith('es/'))
   .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
 
-const title = 'Itinerarios por Israel: rutas de 3, 5, 7 y 10 días';
+const title = 'Itinerarios por Israel: rutas de 7 y 10 días';
 const description =
-  'Itinerarios listos para Israel adaptados a cada duración de viaje — de 3 días en Jerusalén a una semana clásica o más, con tours, hoteles y transporte.';
+  'Itinerarios listos para Israel — un primer viaje clásico de 7 días y una ruta de 10 días que suma el norte y el desierto, con tours, hoteles y transporte.';
 const crumbs = [
   { name: 'Inicio', path: '/es/' },
   { name: 'Itinerarios', path: '/es/itineraries' },
@@ -70,7 +70,7 @@ const crumbs = [
 
     <p class="mx-auto mt-8 max-w-3xl text-ink-muted">
       Se añaden nuevas rutas regularmente. Mientras tanto, explora las
-      <a href="/es/" class="font-semibold text-primary">11 regiones</a> o empieza con nuestra
+      <a href="/es/" class="font-semibold text-primary">7 regiones</a> o empieza con nuestra
       <a href="/" class="font-semibold text-primary">guía completa en inglés</a>.
     </p>
   </section>

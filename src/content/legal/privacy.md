@@ -4,7 +4,6 @@ title: Privacy Policy
 description: 'How VisitIsrael.site handles your data: no user accounts, no advertising trackers, no selling of data. What our host logs and how affiliate links work.'
 updatedAt: 2026-05-27
 ---
-
 This privacy policy explains how **VisitIsrael.site** handles information when you use the site. In short: we keep almost nothing, and we do not sell or share your data.
 
 ## What we collect

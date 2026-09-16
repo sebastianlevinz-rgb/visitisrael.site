@@ -1,5 +1,5 @@
 /**
- * The 11 Israel regions — single source for the home grid and primary nav.
+ * The 7 Israel regions — single source for the home grid and primary nav.
  * English-only. Each region's hero lives at /images/regions/<slug>/hero.jpg
  * (real, free-licensed photography sourced via scripts/photos/fetch-commons.mjs).
  */
@@ -61,44 +61,12 @@ export const REGIONS: Region[] = [
     hero: '/images/regions/negev/hero.jpg',
   },
   {
-    slug: 'nazareth',
-    name: 'Nazareth',
-    tagline: "Jesus's hometown",
-    blurb:
-      'The Basilica of the Annunciation, a bustling old market and superb Arab-Israeli cuisine.',
-    hero: '/images/regions/nazareth/hero.jpg',
-  },
-  {
     slug: 'haifa',
     name: 'Haifa',
     tagline: 'Gardens on the sea',
     blurb:
       'The terraced Bahá’í Gardens, the German Colony and the green slopes of Mount Carmel.',
     hero: '/images/regions/haifa/hero.jpg',
-  },
-  {
-    slug: 'golan',
-    name: 'Golan Heights',
-    tagline: 'Volcanic high country',
-    blurb:
-      'Wineries, hiking trails, Nimrod Fortress and panoramic viewpoints over the north.',
-    hero: '/images/regions/golan/hero.jpg',
-  },
-  {
-    slug: 'caesarea',
-    name: 'Caesarea',
-    tagline: 'Roman ruins by the sea',
-    blurb:
-      'A Herodian harbour, a seaside Roman theatre and a Mediterranean aqueduct beach.',
-    hero: '/images/regions/caesarea/hero.jpg',
-  },
-  {
-    slug: 'akko',
-    name: 'Akko (Acre)',
-    tagline: 'Crusader port city',
-    blurb:
-      'A UNESCO-listed Old City, Crusader halls, Ottoman walls and a vibrant Turkish bazaar.',
-    hero: '/images/regions/akko/hero.jpg',
   },
 ];
 

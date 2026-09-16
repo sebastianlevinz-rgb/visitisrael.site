@@ -33,7 +33,6 @@ faqs:
   - question: Is it possible to do a day trip to Bethlehem?
     answer: Yes, and most travellers do. Bethlehem is in the West Bank under Palestinian Authority administration, so you carry your passport and travel on a guided tour or a shared taxi via the Gilo crossing. Pre-booked tours handle the logistics; independent travel is possible but slower.
 ---
-
 Jerusalem rewards travellers who give it time, and a complete guide to things to do in Jerusalem starts with timing rather than sightseeing. The Old City packs four millennia of layered history into a square kilometre; the modern neighbourhoods west of the walls hold a food market that runs late into Thursday night, museums that anchor entire mornings, and quiet residential streets shaded by Jerusalem-stone arches. This guide covers every practical decision you will face — when to come, where to sleep, which sites to prioritise, how to get around, and what to eat — so you can spend your prep time on the questions that matter rather than the logistics.
 
 The information below assumes a first visit of two to four days. If you are returning, you will know where you want to spend the extra hours; the sections on day trips and West Jerusalem give you four directions to extend from. Local opening hours, especially around Shabbat and the Jewish, Christian and Muslim festival calendars, drive most of the planning here, so the timing section comes first.
@@ -64,7 +63,7 @@ Jerusalem has five practical neighbourhoods for visitors, each with a different 
 
 **East Jerusalem** (Sheikh Jarrah and around Damascus Gate) is the most international option, with several long-running hotels frequented by Christian pilgrims. Cheaper than the centre and walkable to the Old City through Damascus Gate.
 
-For a full breakdown of each area's character, accommodation profile and dining scene, see the [Jerusalem neighborhoods guide](/jerusalem-neighborhoods-guide).
+For a full breakdown of each area's character, accommodation profile and dining scene, see the Jerusalem neighborhoods guide.
 
 ## Top Things to Do in the Old City
 
@@ -82,7 +81,7 @@ Christianity's holiest site, traditionally identified as the location of the cru
 
 ### Temple Mount / Haram al-Sharif
 
-The Temple Mount — known as Haram al-Sharif to Muslims — is the platform that holds the Dome of the Rock and the Al-Aqsa Mosque, Islam's third-holiest site. Non-Muslim visitors enter via the wooden Mughrabi Bridge from the Western Wall plaza during specific morning and afternoon windows (typically Monday to Thursday and Saturday). The complex is administered by the Jordanian Waqf; rules around non-Muslim entry to the buildings change periodically — at present, entry to the Dome of the Rock and Al-Aqsa Mosque is limited to Muslim worshippers only. Modest dress is strictly enforced. See the [Temple Mount / Haram al-Sharif visitor guide](/temple-mount-visitor-guide) for access rules, dress code, and practical planning advice.
+The Temple Mount — known as Haram al-Sharif to Muslims — is the platform that holds the Dome of the Rock and the Al-Aqsa Mosque, Islam's third-holiest site. Non-Muslim visitors enter via the wooden Mughrabi Bridge from the Western Wall plaza during specific morning and afternoon windows (typically Monday to Thursday and Saturday). The complex is administered by the Jordanian Waqf; rules around non-Muslim entry to the buildings change periodically — at present, entry to the Dome of the Rock and Al-Aqsa Mosque is limited to Muslim worshippers only. Modest dress is strictly enforced. See the Temple Mount / Haram al-Sharif visitor guide for access rules, dress code, and practical planning advice.
 
 ### Via Dolorosa
 

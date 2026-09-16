@@ -17,45 +17,14 @@ test('skip link is first focusable element and moves focus to #main', async ({ p
   expect(mainId, 'focus should land on #main after skip link activation').toBe('main');
 });
 
-test.describe('Keyboard-operable tools', () => {
-  test('cost calculator: #days input is Tab-reachable and updates total', async ({ page }) => {
-    await page.goto('/israel-trip-cost-calculator');
-    let daysReached = false;
-    for (let i = 0; i < 30; i++) {
-      await page.keyboard.press('Tab');
-      const id = await page.evaluate(() => (document.activeElement as HTMLElement)?.id);
-      if (id === 'days') {
-        daysReached = true;
-        break;
-      }
-    }
-    expect(daysReached, '#days must be reachable by Tab').toBe(true);
-    // #days is a range slider (iter1202); use ArrowRight to change value, then verify total updates
-    await page.keyboard.press('ArrowRight');
-    await page.waitForTimeout(400);
-    await expect(page.locator('#total-range')).not.toHaveText('$0');
-  });
-
-  test('distance calculator: #swap button is Tab-reachable and swaps locations', async ({
-    page,
-  }) => {
-    await page.goto('/israel-distance-calculator');
-    const fromBefore = await page.locator('#from').inputValue();
-    let swapReached = false;
-    for (let i = 0; i < 30; i++) {
-      await page.keyboard.press('Tab');
-      const id = await page.evaluate(() => (document.activeElement as HTMLElement)?.id);
-      if (id === 'swap') {
-        swapReached = true;
-        break;
-      }
-    }
-    expect(swapReached, '#swap must be reachable by Tab').toBe(true);
-    await page.keyboard.press('Enter');
-    const fromAfter = await page.locator('#from').inputValue();
-    // After swap, the from/to values should have exchanged
-    const toBefore = await page.locator('#to').inputValue();
-    expect(fromAfter, 'from should now hold what was previously in to').not.toBe(fromBefore);
-    void toBefore; // captured for reference; the swap test above is sufficient
-  });
+test('mobile menu opens, lists the plan links and closes on Escape', async ({ page }) => {
+  await page.setViewportSize({ width: 390, height: 844 });
+  await page.goto('/');
+  const summary = page.locator('#mobile-menu summary');
+  await summary.focus();
+  await page.keyboard.press('Enter');
+  await expect(page.locator('#mobile-menu')).toHaveAttribute('open', '');
+  await expect(page.locator('#mobile-menu a[href="/visa-information"]')).toBeVisible();
+  await page.keyboard.press('Escape');
+  await expect(page.locator('#mobile-menu')).not.toHaveAttribute('open', '');
 });

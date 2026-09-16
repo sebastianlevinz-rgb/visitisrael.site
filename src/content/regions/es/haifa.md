@@ -24,7 +24,6 @@ faqs:
   - question: "¿Es Haifa segura y acogedora para todos los visitantes?"
     answer: "Haifa es una de las ciudades más diversas de Israel — las comunidades judía, árabe cristiana, árabe musulmana y bahá'í conviven aquí. El festival anual Fête des Fêtes en diciembre celebra juntos Janucá, Navidad y el Ramadán. Se requiere vestimenta respetuosa en las terrazas interiores superiores del Centro Bahá'í."
 ---
-
 **Haifa** es la tercera ciudad de Israel, un activo puerto mediterráneo escalonado sobre las laderas del **monte Carmelo** por encima de un puerto de aguas profundas, y la sede mundial de la **Fe Bahá'í** — la única ciudad fuera de Irán donde las instituciones espirituales y administrativas centrales de la Fe Bahá'í coexisten en una misma ladera. Las **19 terrazas** que descienden el monte Carmelo desde los edificios de gobierno bahá'ís hasta la avenida Ben Gurion en la Colonia Alemana fueron inscritas por la **UNESCO** en 2008; son ampliamente consideradas como la composición arquitectónica más impresionante de Israel después de la Ciudad Vieja de Jerusalén.
 
 Esta guía cubre la mejor época para visitar, las opciones de alojamiento en la Colonia Alemana y en las laderas del Carmelo, las experiencias imprescindibles (mirador de las terrazas superiores y visita guiada gratuita al mediodía, arquitectura Templer de la Colonia Alemana, monasterio Stella Maris, gastronomía y murales de Wadi Nisnas, parque nacional del monte Carmelo), las excursiones naturales por la ruta de la costa norte, y los transportes desde Tel Aviv.

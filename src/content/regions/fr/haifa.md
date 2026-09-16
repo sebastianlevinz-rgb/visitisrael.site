@@ -24,7 +24,6 @@ faqs:
   - question: "Haïfa est-elle sûre et accueillante pour tous les visiteurs ?"
     answer: "Haïfa est l'une des villes les plus mixtes d'Israël — communautés juive, arabo-chrétienne, arabo-musulmane et bahá'íe y coexistent. Le festival annuel Fête des Fêtes en décembre célèbre ensemble Hanoukka, Noël et le Ramadan. Tenue de respect requise sur les terrasses intérieures supérieures du Centre bahá'í."
 ---
-
 **Haïfa** est la troisième ville d'Israël, un port méditerranéen actif étagé sur les pentes du **mont Carmel** au-dessus d'un port en eaux profondes, et le siège mondial de la **Foi bahá'íe** — la seule ville hors d'Iran où les institutions spirituelles et administratives centrales de la Foi bahá'íe coexistent sur le même versant. Les **19 terrasses** qui descendent le mont Carmel depuis les bâtiments de gouvernance bahá'ís jusqu'à l'avenue Ben Gourion dans la Colonie allemande ont été inscrites par l'**UNESCO** en 2008 ; elles sont largement considérées comme la composition architecturale la plus saisissante d'Israël après la Vieille Ville de Jérusalem.
 
 Ce guide couvre la meilleure période pour venir, les options d'hébergement dans la Colonie allemande et sur les pentes du Carmel, les expériences incontournables (belvédère des terrasses supérieures et visite guidée gratuite à 12h, architecture Templer de la Colonie allemande, monastère Stella Maris, nourriture et art mural de Wadi Nisnas, parc national du mont Carmel), les excursions naturelles en boucle côte nord, et les transports depuis Tel Aviv.

@@ -38,7 +38,6 @@ faqs:
   - question: "¿Hay que reservar los Túneles del Muro de los Lamentos con antelación?"
     answer: "Sí. Los Túneles del Muro de los Lamentos solo se visitan en tours guiados con entrada programada, y los cupos se agotan, especialmente en temporada alta y alrededor de las festividades judías. Reserva con antelación en lugar de presentarte sin reserva."
 ---
-
 Jerusalén tiene más opciones de tours guiados que cualquier otra ciudad de Israel, y son experiencias genuinamente distintas: desde un paseo a pie de tres horas por la Ciudad Vieja hasta un día completo que incluye Belén. A continuación, una comparación honesta de los principales tipos de tour, lo que cuesta cada uno y cómo elegir. Para los propios atractivos, complementa esta guía con nuestra [guía de la región de Jerusalén](/jerusalem).
 
 ## Comparativa de tours por Jerusalén
@@ -55,7 +54,7 @@ Los precios son orientativos y varían según temporada, tamaño del grupo y ope
 
 ## Tours a pie por la Ciudad Vieja
 
-La opción más popular para quien visita por primera vez. Un guía local recorre contigo los **cuatro barrios** — el [Muro de los Lamentos](/es/western-wall-guide), la [Iglesia del Santo Sepulcro](/es/church-holy-sepulchre-guide) y la Vía Dolorosa — en **tres a cuatro horas**, explicando la historia superpuesta judía, cristiana, musulmana y armenia que es difícil de descifrar solo. La mejor relación calidad-precio y la forma más sencilla de orientarte en el laberinto de la Ciudad Vieja.
+La opción más popular para quien visita por primera vez. Un guía local recorre contigo los **cuatro barrios** — el [Muro de los Lamentos](/es/jerusalem), la Iglesia del Santo Sepulcro y la Vía Dolorosa — en **tres a cuatro horas**, explicando la historia superpuesta judía, cristiana, musulmana y armenia que es difícil de descifrar solo. La mejor relación calidad-precio y la forma más sencilla de orientarte en el laberinto de la Ciudad Vieja.
 
 ## Jerusalén antigua y moderna (día completo)
 
@@ -63,11 +62,11 @@ Un tour de **7–8 horas** que combina la Ciudad Vieja con la Jerusalén moderna
 
 ## Combo Jerusalén y Belén
 
-Los mismos atractivos de la Ciudad Vieja más una tarde guiada en **Belén** y la Iglesia de la Natividad. Como los coches de alquiler estándar no tienen seguro para la Zona A controlada por los palestinos, un tour es la manera más sencilla de añadir Belén — el guía gestiona el cruce. Lleva tu pasaporte. Consulta nuestra [guía de excursiones de día desde Jerusalén](/es/day-trips-from-jerusalem) para la logística completa.
+Los mismos atractivos de la Ciudad Vieja más una tarde guiada en **Belén** y la Iglesia de la Natividad. Como los coches de alquiler estándar no tienen seguro para la Zona A controlada por los palestinos, un tour es la manera más sencilla de añadir Belén — el guía gestiona el cruce. Lleva tu pasaporte. Consulta nuestra guía de excursiones de día desde Jerusalén para la logística completa.
 
 ## Túneles del Muro de los Lamentos
 
-Un tour de **entrada programada** a lo largo de los 488 metros subterráneos del [Muro de los Lamentos (Kotel / הַכּוֹתֶל הַמַּעֲרָבִי)](/es/western-wall-guide) y una calle herodiana — una visita corta (aproximadamente 90 minutos) pero memorable. Los cupos son limitados y se agotan, así que **reserva con antelación**.
+Un tour de **entrada programada** a lo largo de los 488 metros subterráneos del [Muro de los Lamentos (Kotel / הַכּוֹתֶל הַמַּעֲרָבִי)](/es/jerusalem) y una calle herodiana — una visita corta (aproximadamente 90 minutos) pero memorable. Los cupos son limitados y se agotan, así que **reserva con antelación**.
 
 ## Guías privados
 
@@ -92,4 +91,4 @@ Para la **Ciudad Vieja, sí** — la historia y las tradiciones en conflicto son
 
 Los tours populares de la Ciudad Vieja tienen múltiples salidas diarias y casi siempre tienen disponibilidad, pero el tour de los Túneles del Muro se agota constantemente. Si viajas en **Semana Santa, Pésaj o Sukkot**, reserva todos los tours con al menos 2–3 semanas de antelación. En temporada baja (enero–febrero, noviembre) la disponibilidad es mejor.
 
-Para más contexto sobre los atractivos individuales, consulta nuestra [guía de los mejores tours de Israel](/es/best-tours-in-israel) y nuestra [guía del Muro de los Lamentos](/es/western-wall-guide).
+Para más contexto sobre los atractivos individuales, consulta nuestra guía de los mejores tours de Israel y nuestra [guía del Muro de los Lamentos](/es/jerusalem).

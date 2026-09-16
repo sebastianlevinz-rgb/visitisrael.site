@@ -12,18 +12,17 @@ faqs:
   - question: "¿Es el verano una buena época para visitar Israel?"
     answer: "El verano funciona bien para la costa y el Mar de Galilea, pero hace mucho calor. Jerusalén es seca y tolerable, mientras que el Mar Muerto y Eilat son extremadamente calurosos; lo mejor es madrugar y disfrutar del agua."
 ---
-
 Israel concentra varios climas en un territorio pequeño, así que la «mejor» época depende de adónde vaya. Como regla general, **la primavera y el otoño son ideales en cualquier punto del país**.
 
 ## Temporada por temporada
 
-**Primavera (marzo–mayo) — la mejor en general.** Flores silvestres en la [Galilea](/es/galilee) y las Colinas de Judea, días suaves y el mar calentándose. La Pascua judía (Pésaj, normalmente en abril) trae cierres y precios más altos; planifique alrededor de ella. La Semana Santa llena Jerusalén de procesiones de peregrinación. Para la guía completa de primavera, consulte [Israel en primavera](/israel-in-spring): época de flores, logística de Pésaj y temporada de senderismo en el Néguev.
+**Primavera (marzo–mayo) — la mejor en general.** Flores silvestres en la [Galilea](/es/galilee) y las Colinas de Judea, días suaves y el mar calentándose. La Pascua judía (Pésaj, normalmente en abril) trae cierres y precios más altos; planifique alrededor de ella. La Semana Santa llena Jerusalén de procesiones de peregrinación. Para la guía completa de primavera, consulte Israel en primavera: época de flores, logística de Pésaj y temporada de senderismo en el Néguev.
 
-**Verano (junio–agosto) — caluroso.** La costa de [Tel Aviv](/es/tel-aviv) está animada y húmeda; [Jerusalén](/es/jerusalem) es cálida pero seca; el [Mar Muerto](/es/dead-sea) y [Eilat](/es/eilat) son extremos (más de 40 °C), aptos para las primeras horas de la mañana y el agua. Si debe viajar en julio o agosto, la [guía de verano](/israel-in-summer) explica la estrategia de «primero lo más temprano» y qué regiones priorizar.
+**Verano (junio–agosto) — caluroso.** La costa de [Tel Aviv](/es/tel-aviv) está animada y húmeda; [Jerusalén](/es/jerusalem) es cálida pero seca; el [Mar Muerto](/es/dead-sea) y [Eilat](/es/eilat) son extremos (más de 40 °C), aptos para las primeras horas de la mañana y el agua. Si debe viajar en julio o agosto, la guía de verano explica la estrategia de «primero lo más temprano» y qué regiones priorizar.
 
-**Otoño (septiembre–noviembre) — el mejor en general.** El calor cede, el mar sigue cálido y la cosecha de olivas está en marcha. Las Festividades Judías (Yom Kipur, [Sucot](/sukkot-in-israel)) caen en esta época y generan cierres y aumentos de precios durante las semanas de fiesta, pero el período posterior a Sucot (mediados de octubre a noviembre) es el más tranquilo y económico con buen clima. Consulte la [guía de otoño en Israel](/israel-in-autumn) para conocer las grullas en el Valle de Hula y los planes de otoño completos.
+**Otoño (septiembre–noviembre) — el mejor en general.** El calor cede, el mar sigue cálido y la cosecha de olivas está en marcha. Las Festividades Judías (Yom Kipur, Sucot) caen en esta época y generan cierres y aumentos de precios durante las semanas de fiesta, pero el período posterior a Sucot (mediados de octubre a noviembre) es el más tranquilo y económico con buen clima. Consulte la guía de otoño en Israel para conocer las grullas en el Valle de Hula y los planes de otoño completos.
 
-**Invierno (diciembre–febrero) — tranquilo y económico.** Fresco y verde, con lluvia y algún copo de nieve en Jerusalén. [Eilat](/es/eilat) y el Mar Muerto se convierten en agradables escapadas cálidas, siendo temporada **alta en el sur**. La Navidad en [Nazaret](/es/nazareth) y Belén es especial; consulte la [guía de Navidad en Israel](/christmas-in-israel). En los buenos años de nieve, el [Monte Hermón](/mount-hermon-skiing) abre para esquiar desde finales de diciembre. Para la guía completa de invierno, consulte [Israel en invierno](/israel-in-winter).
+**Invierno (diciembre–febrero) — tranquilo y económico.** Fresco y verde, con lluvia y algún copo de nieve en Jerusalén. [Eilat](/es/eilat) y el Mar Muerto se convierten en agradables escapadas cálidas, siendo temporada **alta en el sur**. La Navidad en [Nazaret](/es/galilee) y Belén es especial; consulte la guía de Navidad en Israel. En los buenos años de nieve, el [Monte Hermón](/es/galilee) abre para esquiar desde finales de diciembre. Para la guía completa de invierno, consulte Israel en invierno.
 
 ## Resumen rápido por mes
 
@@ -36,8 +35,8 @@ Israel concentra varios climas en un territorio pequeño, así que la «mejor» 
 
 ## No olvide el calendario de festividades
 
-Las festividades judías, cristianas y musulmanas influyen tanto en los cierres como en los precios. Las festividades judías siguen un calendario lunisolar; el Ramadán se adelanta unos 11 días cada año. Confirme las fechas exactas antes de reservar y lea la [guía del Shabat](/shabbat-guide) para conocer el ritmo semanal.
+Las festividades judías, cristianas y musulmanas influyen tanto en los cierres como en los precios. Las festividades judías siguen un calendario lunisolar; el Ramadán se adelanta unos 11 días cada año. Confirme las fechas exactas antes de reservar y lea la guía del Shabat para conocer el ritmo semanal.
 
-Para un desglose detallado de los 12 meses —promedios climáticos de 30 años, niveles de afluencia, franjas de precios y notas sobre festividades— consulte el **[calendario de viaje de Israel por mes](/israel-by-month)**.
+Para un desglose detallado de los 12 meses —promedios climáticos de 30 años, niveles de afluencia, franjas de precios y notas sobre festividades— consulte el **calendario de viaje de Israel por mes**.
 
-¿No sabe qué meses se adaptan a sus intereses específicos? Use el **[selector de temporada interactivo](/israel-season-picker)** —elija playas, senderismo, peregrinación, observación de aves y más— para obtener una recomendación personalizada de meses.
+¿No sabe qué meses se adaptan a sus intereses específicos? Use el **selector de temporada interactivo** —elija playas, senderismo, peregrinación, observación de aves y más— para obtener una recomendación personalizada de meses.

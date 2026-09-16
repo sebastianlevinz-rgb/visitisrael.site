@@ -38,13 +38,11 @@ faqs:
   - question: ¿Vale la pena alojarse en el Mar Muerto vs. una excursión de un día?
     answer: 'Una estancia de una noche te permite el amanecer — el Mar Muerto al alba, cuando el agua hipersalina y plana refleja las Colinas de Judea en silencio, es uno de los grandes momentos del turismo en Israel. También te permite flotar dos veces (mañana y tarde), usar las instalaciones del spa a tu propio ritmo y hacer Ein Gedi o Masada temprano al día siguiente. Dicho esto, una excursión de un día desde Jerusalén es muy eficiente: 90 minutos en autobús, flotación y sesión de barro, parada en Kalia o Mineral Beach, de vuelta a principios de la tarde. Los viajeros con presupuesto ajustado no se pierden nada importante en una excursión de un día; los que priorizan el amanecer, el spa o un itinerario tranquilo ganan mucho con una estancia.'
 ---
-
 El **Mar Muerto** no tiene un barrio hotelero disperso por un pueblo o una región — casi todo el alojamiento se concentra en Ein Bokek, una única franja resort de 3,5 kilómetros en la orilla sur israelí. Unos quince grandes hoteles se encuentran a poca distancia a pie entre sí en un frente marítimo construido, todos con acceso directo al Mar Muerto e infraestructura de spa basada en el contenido mineral del agua. Esta guía mapea las opciones, nombra selecciones honestas en cada nivel de precio y explica cuándo reservar y cuándo una excursión de un día es una opción más inteligente que una estancia.
 
-Para saber qué hacer una vez que hayas llegado — cómo flotar de forma segura, el ritual del barro, qué playas públicas usar y cómo llegar —, la [guía de visita al Mar Muerto](/es/dead-sea-guide) cubre la experiencia completa.
+Para saber qué hacer una vez que hayas llegado — cómo flotar de forma segura, el ritual del barro, qué playas públicas usar y cómo llegar —, la [guía de visita al Mar Muerto](/es/dead-sea) cubre la experiencia completa.
 
 ---
-
 ## Ein Bokek: la franja resort del Mar Muerto
 
 Ein Bokek es la única zona hotelera construida para ese fin en la orilla israelí del Mar Muerto. No es una ciudad ni un pueblo — no hay restaurantes independientes fuera de los lobbies de los hoteles, ni mercado callejero ni carácter de barrio. Lo que tiene es un frente marítimo de 3,5 kilómetros donde los hoteles se encuentran a pocos minutos a pie entre sí, todos con acceso privado a la playa del Mar Muerto e instalaciones de spa centradas en el agua rica en minerales.
@@ -54,7 +52,6 @@ Ein Bokek es la única zona hotelera construida para ese fin en la orilla israel
 **La contrapartida honesta:** Ein Bokek es funcional, no pintoresco. La franja existe para el alojamiento y los servicios resort; por las noches hay muy poco que hacer más allá de los restaurantes de los hoteles y un corto paseo por el paseo marítimo. Si tu prioridad es el paisaje y la experiencia de flotar al amanecer, eso es exactamente para lo que está construida Ein Bokek.
 
 ---
-
 ## La alternativa de Ein Gedi — 20 km al norte
 
 Veinte kilómetros al norte de Ein Bokek, junto a la Reserva Natural de Ein Gedi, se encuentra la **Casa de Huéspedes del Kibbutz Ein Gedi** — el único alojamiento genuinamente económico en la orilla israelí del Mar Muerto. Gestionada por el Kibbutz Ein Gedi, es una propiedad de cuatro estrellas con piscina mineral, un paseo por el jardín botánico, desayuno incluido y acceso directo a una playa del Mar Muerto. El entorno del kibbutz y la proximidad a las cataratas David y Arugot de Ein Gedi la convierten en la mejor opción para los visitantes cuya prioridad es el senderismo y la naturaleza junto con la experiencia del Mar Muerto.
@@ -64,7 +61,6 @@ Veinte kilómetros al norte de Ein Bokek, junto a la Reserva Natural de Ein Gedi
 **₪480–600/noche** es un rango realista para habitaciones dobles con desayuno incluido — significativamente menos que Ein Bokek con una calidad comparable. La playa del Mar Muerto está a poca distancia a pie del edificio principal; se recomienda reservar con antelación para la primavera (marzo–mayo) ya que la propiedad se llena de grupos israelíes y viajeros internacionales de naturaleza.
 
 ---
-
 ## Hoteles de rango medio (₪700–1,400/noche)
 
 El nivel de rango medio en Ein Bokek se sitúa entre la brecha de las opciones económicas (prácticamente nada asequible en la propia franja) y los grandes resorts de lujo. Son hoteles cómodos y bien equipados con piscina, spa y acceso a la playa del Mar Muerto a precios inferiores a los de las grandes marcas.
@@ -78,7 +74,6 @@ El nivel de rango medio en Ein Bokek se sitúa entre la brecha de las opciones e
 En el rango de **₪700–1,400/noche**, el alojamiento de rango medio en el Mar Muerto debería incluir acceso a piscina mineral o spa, desayuno (o una opción de media pensión) y acceso directo o casi directo a la playa. Comprueba qué incluye la tarifa actual antes de reservar — los créditos de spa y los paquetes de media pensión son habituales en el Mar Muerto y pueden cambiar significativamente el cálculo de valor.
 
 ---
-
 ## Hoteles de lujo y resort (₪1,400+/noche)
 
 El nivel de lujo en Ein Bokek está anclado por marcas resort israelíes con una infraestructura de spa importante y la gran escala de propiedad que hace de la experiencia del Mar Muerto un destino autónomo.
@@ -92,7 +87,6 @@ El nivel de lujo en Ein Bokek está anclado por marcas resort israelíes con una
 **₪1,400–3,500+/noche** cubre el rango de lujo en Ein Bokek, con el extremo superior para las categorías de suite y las semanas de festivos israelíes de mayor demanda. Todas las propiedades de lujo incluyen acceso a piscina mineral y spa, playa privada del Mar Muerto y opciones de media pensión — compara qué se incluye realmente en la tarifa cotizada antes de reservar.
 
 ---
-
 ## Precios por temporada — cuándo reservar y qué evitar
 
 | Mes | Carácter | Condiciones del Mar Muerto | Notas |
@@ -114,21 +108,19 @@ El nivel de lujo en Ein Bokek está anclado por marcas resort israelíes con una
 - **Nota:** Muchos hoteles de Ein Bokek exigen una **estancia mínima de 2 noches los viernes y sábados**. Si solo quieres una noche, las fechas entre semana son más fáciles de reservar con poco tiempo de antelación.
 
 ---
-
 ## La alternativa de la excursión de un día
 
 Si los precios de resort de una noche están fuera del presupuesto, la experiencia del Mar Muerto es totalmente accesible como excursión de un día desde Jerusalén:
 
 - **Autobús directo (Egged 486):** Jerusalén → estación central de autobuses de Ein Bokek, aproximadamente 90 minutos; varias salidas diarias. El último autobús de regreso desde Ein Bokek a Jerusalén sale alrededor de las 17:00–18:00 (consulta el horario actual en moovit.com o la app de Egged).
-- **Tour organizado de un día:** recogida en el hotel de Jerusalén o Tel Aviv, itinerario de día completo con guía, generalmente incluyendo Masada o Ein Gedi junto con la flotación en el Mar Muerto. Consulta la [guía de excursiones de un día a Masada y el Mar Muerto](/masada-dead-sea-day-trip) para comparar los formatos de tour.
+- **Tour organizado de un día:** recogida en el hotel de Jerusalén o Tel Aviv, itinerario de día completo con guía, generalmente incluyendo Masada o Ein Gedi junto con la flotación en el Mar Muerto. Consulta la [guía de excursiones de un día a Masada y el Mar Muerto](/es/dead-sea-tours-compared) para comparar los formatos de tour.
 - **Alquiler de coche:** la opción más flexible para las familias — conduce por la Ruta 1 hacia el este hasta la Ruta 90 hacia el sur; Ein Bokek está bien señalizado; la Playa de Kalia (orilla norte) está a 15 minutos pasado Qumrán, útil si llegas desde Jerusalén antes de dirigirte hacia el sur.
 
 Los viajeros con presupuesto ajustado que llegan en excursión ahorran el suplemento del hotel de una noche (₪700–3,500/noche) al precio del momento del amanecer. Para la mayoría de los visitantes por primera vez con presupuesto ajustado, la excursión de un día ofrece una relación calidad-precio excelente.
 
 ---
-
 ## Enlaces de interés
 
-Para la experiencia completa del Mar Muerto — cómo flotar de forma segura, qué playas son gratuitas, el ritual del barro explicado y qué traer —, consulta la [guía de visita al Mar Muerto](/es/dead-sea-guide). Para la combinación clásica de Israel, la [guía de excursión a Masada y el Mar Muerto](/masada-dead-sea-day-trip) cubre el ascenso al amanecer a Masada y la flotación vespertina como un único itinerario.
+Para la experiencia completa del Mar Muerto — cómo flotar de forma segura, qué playas son gratuitas, el ritual del barro explicado y qué traer —, consulta la [guía de visita al Mar Muerto](/es/dead-sea). Para la combinación clásica de Israel, la [guía de excursión a Masada y el Mar Muerto](/es/dead-sea-tours-compared) cubre el ascenso al amanecer a Masada y la flotación vespertina como un único itinerario.
 
-Para comparar la experiencia de resort del Mar Muerto con la de Eilat (la otra zona resort del Mar Rojo de Israel), consulta la [guía de hoteles de Eilat](/es/eilat-hotels-guide). Para opciones de alojamiento en Israel en todas las regiones — casas de huéspedes en kibbutz, zimmers en Galilea, casas de huéspedes en la Ciudad Antigua de Jerusalén —, la [guía de alojamiento en Israel](/es/israel-accommodation-guide) ofrece el panorama nacional.
+Para comparar la experiencia de resort del Mar Muerto con la de Eilat (la otra zona resort del Mar Rojo de Israel), consulta la [guía de hoteles de Eilat](/es/eilat). Para opciones de alojamiento en Israel en todas las regiones — casas de huéspedes en kibbutz, zimmers en Galilea, casas de huéspedes en la Ciudad Antigua de Jerusalén —, la [guía de alojamiento en Israel](/es/best-hotels-jerusalem) ofrece el panorama nacional.

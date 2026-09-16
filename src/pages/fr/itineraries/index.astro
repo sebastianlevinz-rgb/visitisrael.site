@@ -8,9 +8,9 @@ const allItineraries = await getCollection('itineraries');
 const itineraries = allItineraries
   .filter((e) => e.id.startsWith('fr/'))
   .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
-const title = 'Itinéraires Israël : routes de 3, 5, 7 et 10 jours';
+const title = 'Itinéraires Israël : routes de 7 et 10 jours';
 const description =
-  'Itinéraires de voyage en Israël clés en main pour toutes les durées de séjour — de 3 jours à Jérusalem à une semaine et plus, avec circuits, hébergements et transports.';
+  'Itinéraires de voyage en Israël clés en main — un premier voyage classique de 7 jours et une route de 10 jours qui ajoute le nord et le désert, avec circuits, hébergements et transports.';
 const crumbs = [
   { name: 'Accueil', path: '/fr/' },
   { name: 'Itinéraires', path: '/fr/itineraries' },
@@ -69,7 +69,7 @@ const crumbs = [
 
     <p class="mx-auto mt-8 max-w-3xl text-ink-muted">
       D'autres routes sont ajoutées régulièrement. En attendant, parcourez les
-      <a href="/fr/" class="font-semibold text-primary">11 régions</a> ou commencez par notre
+      <a href="/fr/" class="font-semibold text-primary">7 régions</a> ou commencez par notre
       <a href="/fr/first-time-in-israel" class="font-semibold text-primary">guide du premier voyage</a>.
     </p>
   </section>

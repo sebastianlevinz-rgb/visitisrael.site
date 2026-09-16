@@ -20,7 +20,6 @@ faqs:
   - question: "¿Qué es la Ciudad Blanca de Tel Aviv?"
     answer: "Es Patrimonio Mundial de la UNESCO y reúne más de 4.000 edificios de estilo Bauhaus e Internacional construidos en la década de 1930 por arquitectos judíos que huían de la Europa nazi. La mayor concentración se extiende a lo largo del boulevard Rothschild, la calle Dizengoff y las calles adyacentes. Hay visitas guiadas de dos horas que parten diariamente y explican la tipología arquitectónica y los esfuerzos de conservación."
 ---
-
 Tel Aviv-Jaffa se presenta como dos ciudades cosidas juntas por catorce kilómetros de frente costero. Al norte, la metrópolis israelí moderna — bloques Bauhaus de la Ciudad Blanca, museos, cafés del boulevard Rothschild y vida nocturna que corre desde la calle Allenby hasta el amanecer. Al sur, Jaffa, puerto otomano de cuatro mil años de historia, donde los callejones del mercado de pulgas desembocan en casonas de piedra restauradas que albergan encantadores alojamientos boutique y restaurantes de autor. Una guía completa de Tel Aviv comienza por esta geografía: el barrio donde te alojes determina si tu estadía se parecerá a unas vacaciones de playa, un recorrido gastronómico, un viaje cultural — o los tres a la vez.
 
 ## Cuándo visitar Tel Aviv

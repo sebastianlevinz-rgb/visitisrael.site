@@ -12,7 +12,6 @@ faqs:
   - question: Should I get travel insurance for Israel?
     answer: Yes. Comprehensive travel insurance that covers medical care and trip disruption is strongly recommended for any trip to Israel, as it is for most international travel.
 ---
-
 "Is Israel safe to visit?" is the most common question travellers ask, and it deserves a straight answer rather than either alarmism or dismissal.
 
 ## The honest day-to-day picture
@@ -45,7 +44,7 @@ Advisories typically distinguish between regions. The central tourist corridor i
 - **Carry your passport**; you'll pass through security checks at sites, transport hubs and shopping centres — this is routine.
 - **Know the alert system.** If sirens sound, follow locals to the nearest sheltered space; public buildings have protected rooms.
 - **Use licensed taxis or apps**, and agree fares or use the meter.
-- **Respect religious and cultural norms**, especially at holy sites and on [Shabbat](/shabbat-guide).
+- **Respect religious and cultural norms**, especially at holy sites and on Shabbat.
 - **Buy travel insurance** that covers medical care and disruption.
 
 ## The bottom line

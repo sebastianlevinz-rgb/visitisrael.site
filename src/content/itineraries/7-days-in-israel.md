@@ -17,8 +17,7 @@ faqs:
   - question: How much does 7 days in Israel cost?
     answer: 'Budget travellers can do the week on roughly $550–800 all-in (hostels, markets, public transport, one or two tours). Mid-range travellers should plan $1,200–2,100 per person: a 3–4 star hotel ($130–220/night), casual dining ($35–55/day), local transport, and two to three guided day trips and walking tours.'
 ---
-
-This is the itinerary most first-time visitors should follow: a week that captures Israel's spiritual heart, its desert drama and its Mediterranean cool, without rushing. It assumes you fly into and out of **Ben Gurion Airport (TLV)**, sleep three nights in Jerusalem and three in Tel Aviv, and travel by a mix of trains and a couple of guided day trips — no rental car required. Prefer to focus on one city? See [3 days in Jerusalem](/itineraries/3-days-in-jerusalem). Shorter on time, or longer? Compare the [5-day](/itineraries/5-days-in-israel) and [10-day](/itineraries/10-days-in-israel) versions.
+This is the itinerary most first-time visitors should follow: a week that captures Israel's spiritual heart, its desert drama and its Mediterranean cool, without rushing. It assumes you fly into and out of **Ben Gurion Airport (TLV)**, sleep three nights in Jerusalem and three in Tel Aviv, and travel by a mix of trains and a couple of guided day trips — no rental car required. Prefer to focus on one city? See [3 days in Jerusalem](/jerusalem). Shorter on time, or longer? Compare the 5-day and [10-day](/itineraries/10-days-in-israel) versions.
 
 The plan below runs Sunday-to-Saturday but is built to absorb Shabbat: it places the Tel Aviv beach days and the Dead Sea trip where Friday-afternoon-to-Saturday-evening closures matter least. If Saturday is a travel or beach day you'll barely notice the slowdown; just remember the train pauses for Shabbat and *sherut* shared taxis become your intercity option.
 
@@ -32,15 +31,15 @@ The plan below runs Sunday-to-Saturday but is built to absorb Shabbat: it places
 
 ## Day 1 — Arrive & Jerusalem's Old City
 
-**Afternoon.** Train from the airport to [Jerusalem](/jerusalem) (30 min, ₪18). Drop bags near Mamilla and walk into the [Old City](/jerusalem/old-city) through Jaffa Gate. Visit the [Western Wall](/jerusalem/western-wall) (24h, free) and the [Church of the Holy Sepulchre](/jerusalem/holy-sepulchre) (from 04:00, free), then loop the four quarters to get oriented. Allow three to four hours.
+**Afternoon.** Train from the airport to [Jerusalem](/jerusalem) (30 min, ₪18). Drop bags near Mamilla and walk into the [Old City](/jerusalem) through Jaffa Gate. Visit the [Western Wall](/jerusalem) (24h, free) and the [Church of the Holy Sepulchre](/jerusalem) (from 04:00, free), then loop the four quarters to get oriented. Allow three to four hours.
 
-**Evening.** Dinner near Mamilla or at the [Mahane Yehuda market](/jerusalem/mahane-yehuda) (₪90–160 for a market dinner with drinks). **Stay:** Jerusalem (1/3).
+**Evening.** Dinner near Mamilla or at the [Mahane Yehuda market](/jerusalem) (₪90–160 for a market dinner with drinks). **Stay:** Jerusalem (1/3).
 
 ## Day 2 — Jerusalem in Depth
 
-**Morning.** Catch the [Mount of Olives](/jerusalem/mount-of-olives) ridge early for the classic Old City panorama (taxi up ₪35–50, then walk down through Gethsemane). Then the [City of David](/jerusalem/city-of-david) archaeological park just outside Dung Gate — Hezekiah's Tunnel is an ankle-deep Bronze-Age water walk (ticket ₪34 / $10; bring water shoes or rent them; allow two hours).
+**Morning.** Catch the [Mount of Olives](/jerusalem) ridge early for the classic Old City panorama (taxi up ₪35–50, then walk down through Gethsemane). Then the [City of David](/jerusalem) archaeological park just outside Dung Gate — Hezekiah's Tunnel is an ankle-deep Bronze-Age water walk (ticket ₪34 / $10; bring water shoes or rent them; allow two hours).
 
-**Afternoon.** [Yad Vashem](/jerusalem/yad-vashem) (free, closed Saturdays, allow three hours, under-10s not admitted). A **guided Old City or Western Wall Tunnels tour** is the best add-on here — tunnels tours are ₪40–69 ($12–20) and book out around Easter and Christmas; a half-day group walk runs $40–55.
+**Afternoon.** [Yad Vashem](/jerusalem) (free, closed Saturdays, allow three hours, under-10s not admitted). A **guided Old City or Western Wall Tunnels tour** is the best add-on here — tunnels tours are ₪40–69 ($12–20) and book out around Easter and Christmas; a half-day group walk runs $40–55.
 
 **Evening.** Second evening in Mahane Yehuda's bar alleys, or Emek Refaim in the German Colony. **Stay:** Jerusalem (2/3).
 
@@ -48,9 +47,9 @@ The plan below runs Sunday-to-Saturday but is built to absorb Shabbat: it places
 
 The classic desert day, best done as a guided tour because dawn at Masada is impractical by public transport.
 
-**Pre-dawn.** Pickup ~03:30–04:00 for the **sunrise climb of [Masada](/dead-sea/masada)** — Snake Path ~1 hour each way, or the cable car from 08:00 (park entry ₪31 / $9; cable car ₪48 / $14 each way).
+**Pre-dawn.** Pickup ~03:30–04:00 for the **sunrise climb of [Masada](/dead-sea)** — Snake Path ~1 hour each way, or the cable car from 08:00 (park entry ₪31 / $9; cable car ₪48 / $14 each way).
 
-**Late morning.** Waterfall hike in the [Ein Gedi](/dead-sea/ein-gedi) oasis (₪29 / $8), then a **float in the [Dead Sea](/dead-sea)** — mineral mud, free rinse showers, and bring sandals for the sharp shoreline.
+**Late morning.** Waterfall hike in the [Ein Gedi](/dead-sea) oasis (₪29 / $8), then a **float in the [Dead Sea](/dead-sea)** — mineral mud, free rinse showers, and bring sandals for the sharp shoreline.
 
 **Cost & booking.** Guided Masada–Ein Gedi–Dead Sea trips from Jerusalem run **$95–120**, back by mid-afternoon. Book via the tour cards below or a [Dead Sea tour search](/dead-sea). **Stay:** Jerusalem (3/3). **Day spend:** ~$110–140.
 
@@ -58,15 +57,15 @@ The classic desert day, best done as a guided tour because dawn at Masada is imp
 
 **Morning.** Train Jerusalem → [Tel Aviv](/tel-aviv) (~35–45 min, ₪18–25); drop bags.
 
-**Afternoon.** Ancient [Old Jaffa](/tel-aviv/old-jaffa) — flea market, stone lanes, harbour and the skyline lookout — then stroll the [Tayelet beach promenade](/tel-aviv/tayelet) back north. First Mediterranean swim (free).
+**Afternoon.** Ancient [Old Jaffa](/tel-aviv) — flea market, stone lanes, harbour and the skyline lookout — then stroll the [Tayelet beach promenade](/tel-aviv) back north. First Mediterranean swim (free).
 
-**Evening.** Dinner in [Neve Tzedek](/tel-aviv/neve-tzedek) or [Florentin](/tel-aviv/florentin) (₪70–130). **Stay:** Tel Aviv (1/3).
+**Evening.** Dinner in [Neve Tzedek](/tel-aviv) or [Florentin](/tel-aviv) (₪70–130). **Stay:** Tel Aviv (1/3).
 
 ## Day 5 — Tel Aviv: Bauhaus, Markets & Beach
 
-**Morning.** The UNESCO [White City](/tel-aviv/rothschild) Bauhaus walk around Rothschild Boulevard (self-guided free, or a Bauhaus Center tour) and the [Carmel Market](/tel-aviv/carmel-market) for lunch.
+**Morning.** The UNESCO [White City](/tel-aviv) Bauhaus walk around Rothschild Boulevard (self-guided free, or a Bauhaus Center tour) and the [Carmel Market](/tel-aviv) for lunch.
 
-**Afternoon.** The [Tel Aviv Museum of Art](/tel-aviv/tel-aviv-museum) (₪50 / $14, closed Sundays) or pure beach time. Rent a Tel-O-Fun share bike (₪17/day) to cover the promenade end to end.
+**Afternoon.** The [Tel Aviv Museum of Art](/tel-aviv) (₪50 / $14, closed Sundays) or pure beach time. Rent a Tel-O-Fun share bike (₪17/day) to cover the promenade end to end.
 
 **Evening.** Tel Aviv is at its best after dark — dinner and bars in Florentin or along Dizengoff. **Stay:** Tel Aviv (2/3). **Day spend:** ~$60–110.
 
@@ -74,9 +73,9 @@ The classic desert day, best done as a guided tour because dawn at Masada is imp
 
 Pick one full-day route from Tel Aviv. Both work as a guided day tour ($70–120) or a one-day self-drive (rental ₪180–280 / $50–80 plus fuel and the Highway 6 toll).
 
-**Option A — Galilee & Nazareth (Christian sites).** North to the [Sea of Galilee](/galilee): [Capernaum](/galilee/capernaum), the [Mount of Beatitudes](/galilee/mount-of-beatitudes), the baptismal site at [Yardenit](/galilee/yardenit) and lakeside [Tiberias](/galilee/tiberias), looping back via [Nazareth](/nazareth) and the [Basilica of the Annunciation](/nazareth/basilica-of-the-annunciation). About 1h45 each way by car.
+**Option A — Galilee & Nazareth (Christian sites).** North to the [Sea of Galilee](/galilee): [Capernaum](/galilee), the [Mount of Beatitudes](/galilee), the baptismal site at [Yardenit](/galilee) and lakeside [Tiberias](/galilee), looping back via [Nazareth](/galilee) and the [Basilica of the Annunciation](/galilee). About 1h45 each way by car.
 
-**Option B — Northern coast (Roman & Crusader).** Roman [Caesarea](/caesarea) national park (₪41 / $12), the terraced [Bahá'í Gardens](/haifa/bahai-gardens) and [German Colony](/haifa/german-colony) in Haifa (free; upper-terrace times limited, modest dress), and the Crusader old city of [Akko](/akko). About 1h to Caesarea, 1h30 to Akko.
+**Option B — Northern coast (Roman & Crusader).** Roman [Caesarea](/haifa) national park (₪41 / $12), the terraced [Bahá'í Gardens](/haifa) and [German Colony](/haifa) in Haifa (free; upper-terrace times limited, modest dress), and the Crusader old city of [Akko](/haifa). About 1h to Caesarea, 1h30 to Akko.
 
 **Stay:** Tel Aviv (3/3). **Day spend:** ~$90–150 (tour or car driven).
 
@@ -100,11 +99,11 @@ Per person, excluding international airfare:
 | Walking tours + entries | $25–50 | $80–150 |
 | **Total** | **~$530–800** | **~$1,345–2,220** |
 
-Compare the depth and cost of each length in our [5 vs 7 vs 10 days guide](/israel-5-vs-7-vs-10-days), and see the full [cost & budget guide](/israel-cost-budget).
+Compare the depth and cost of each length in our 5 vs 7 vs 10 days guide, and see the full cost & budget guide.
 
 ## Make It Your Own
 
-Add three days for [Eilat](/eilat) and a [Petra day trip](/petra-from-eilat-vs-amman), or go deeper in the [Negev](/negev) desert and the Makhtesh Ramon crater — see the [10-day itinerary](/itineraries/10-days-in-israel). Swap the Day 3 desert trip for [Bethlehem](/jerusalem) if Christian sites are your priority. Price it with the [cost guide](/israel-cost-budget), check the [best time to visit](/best-time-to-visit-israel), and read the [first-time guide](/first-time-in-israel) before you go.
+Add three days for [Eilat](/eilat) and a [Petra day trip](/eilat), or go deeper in the [Negev](/negev) desert and the Makhtesh Ramon crater — see the [10-day itinerary](/itineraries/10-days-in-israel). Swap the Day 3 desert trip for [Bethlehem](/jerusalem) if Christian sites are your priority. Price it with the cost guide, check the [best time to visit](/best-time-to-visit-israel), and read the [first-time guide](/first-time-in-israel) before you go.
 
 ## Frequently Asked Questions
 

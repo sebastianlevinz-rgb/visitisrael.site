@@ -12,7 +12,6 @@ faqs:
   - question: "Faut-il souscrire une assurance voyage pour Israël ?"
     answer: "Oui. Une assurance voyage complète couvrant les soins médicaux et les interruptions de voyage est vivement recommandée pour tout séjour en Israël, comme pour la plupart des voyages internationaux."
 ---
-
 « Israël est-il sûr ? » est la question que posent le plus souvent les voyageurs, et elle mérite une réponse directe — ni alarmiste, ni complaisante.
 
 ## La réalité au quotidien
@@ -43,7 +42,7 @@ Les conseils distinguent généralement les régions. L'axe touristique principa
 - **Ayez votre passeport sur vous** ; vous passerez par des contrôles de sécurité sur les sites, dans les transports et dans les centres commerciaux — c'est une pratique courante.
 - **Familiarisez-vous avec le système d'alerte.** En cas de sirènes, suivez les personnes autour de vous vers l'espace abrité le plus proche ; les bâtiments publics disposent de pièces sécurisées.
 - **Utilisez des taxis agréés ou des applications**, et convenez du prix à l'avance ou veillez à ce que le compteur soit enclenché.
-- **Respectez les usages religieux et culturels**, en particulier sur les lieux saints et pendant le [Shabbat](/fr/shabbat-guide).
+- **Respectez les usages religieux et culturels**, en particulier sur les lieux saints et pendant le Shabbat.
 - **Souscrivez une assurance voyage** couvrant les soins médicaux et les annulations.
 
 ## En résumé

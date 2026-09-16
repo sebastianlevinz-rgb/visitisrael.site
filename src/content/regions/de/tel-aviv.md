@@ -20,7 +20,6 @@ faqs:
   - question: "Was ist die Bauhaus-Weißstadt Tel Aviv?"
     answer: "Ein UNESCO-Welterbe, das über 4.000 Bauhaus- und Internationalen-Stil-Gebäude aus den 1930er Jahren würdigt, erbaut von jüdischen Architekten, die aus dem nationalsozialistischen Deutschland geflohen waren. Die dichteste Bebauung zieht sich entlang des Rothschild-Boulevards, der Dizengoff-Straße und der Nebenstraßen. Geführte zweistündige Touren erklären die Architektur und die Denkmalpflege."
 ---
-
 Tel Aviv-Jaffa präsentiert sich als zwei Städte, zusammengenäht durch vierzehn Kilometer Strandpromenade. Im Norden die moderne israelische Metropole — Bauhaus-Blöcke der Weißstadt, Museen, Cafés am Rothschild-Boulevard und eine Clubszene, die von der Allenby-Straße bis zum Morgengrauen läuft. Im Süden Jaffa, ein viertausend Jahre alter osmanischer Hafenstadtteil, wo Flohmarkt-Gassen in restaurierte Steinhäuser münden, die Boutiquehotels und Chefrestaurants beherbergen. Ein vollständiger Tel-Aviv-Reiseführer beginnt mit dieser Geographie: Ihr Übernachtungsviertel bestimmt, ob Ihr Aufenthalt einem Strandurlaub, einer Gastronomiereise, einem Kulturtrip oder allem dreien gleicht.
 
 ## Wann nach Tel Aviv reisen

@@ -24,7 +24,6 @@ faqs:
   - question: "Was ist der Timna-Park?"
     answer: "Der Timna-Park ist ein 60 km² großes geologisches Reservat 25 km nördlich von Eilat — Sandsteinformationen darunter die berühmten Salomonssäulen und der Pilzfelsen, bronzezeitliche Kupferbergwerke, eine Tabernakel-Replik und leichte Wanderwege. Halben Tag einplanen; Wasser und Sonnenschutz mitbringen. Fahrzeugzugang erforderlich (Mietwagen oder geführte Tour)."
 ---
-
 Eilat ist Israels Rotes-Meer-Tourismusenklave — eine Ferienstadt rund um einen kleinen Golf an der südlichen Spitze des Landes, wo die Grenzen Israels, Jordaniens, Ägyptens und Saudi-Arabiens über das Wasser aufeinandertreffen. Das Umfeld ist einzigartig: 12 Kilometer küstennahe riffgeschützte See, ein Wüstenhinterland aus zerklüfteten roten Bergen und ein ganzjähriges Klima, das die Stadt zur israelischen Winterbadehauptstadt macht, während die Mittelmeerküste kalt und regnerisch ist.
 
 Dieser Reiseführer behandelt die beste Reisezeit, die drei verschiedenen Hoteldistrikte, die Rote-Meer-Haupterlebnisse (Coral-Beach-Reservat, Unterwasserobservatorium, Dolphin Reef), Wüstenausflüge (Timna-Park, Red Canyon, Mitzpe Ramon), den Petra-Tagesausflug über den Grenzübergang Wadi Araba und die Anreise zum Flughafen Ramon (ETM).

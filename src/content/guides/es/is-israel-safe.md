@@ -12,7 +12,6 @@ faqs:
   - question: ¿Debo contratar un seguro de viaje para Israel?
     answer: Sí. Se recomienda encarecidamente contratar un seguro de viaje completo que cubra atención médica e interrupciones del viaje, como ocurre con la mayoría de los viajes internacionales.
 ---
-
 "¿Es seguro visitar Israel?" es la pregunta más frecuente entre los viajeros, y merece una respuesta directa en lugar de alarmismo o evasivas.
 
 ## El panorama cotidiano honesto
@@ -43,7 +42,7 @@ Los avisos suelen distinguir entre regiones. El corredor turístico central reci
 - **Lleve siempre su pasaporte**; pasará por controles de seguridad en sitios turísticos, centros de transporte y centros comerciales — es algo rutinario.
 - **Conozca el sistema de alertas.** Si suenan sirenas, siga a los locales al espacio protegido más cercano; los edificios públicos tienen habitaciones seguras.
 - **Use taxis autorizados o aplicaciones** y confirme el precio o use el taxímetro.
-- **Respete las normas religiosas y culturales**, especialmente en los sitios sagrados y durante el [Shabat](/shabbat-guide).
+- **Respete las normas religiosas y culturales**, especialmente en los sitios sagrados y durante el Shabat.
 - **Contrate un seguro de viaje** que cubra la atención médica y las interrupciones del viaje.
 
 ## Conclusión

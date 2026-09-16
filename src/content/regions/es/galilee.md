@@ -24,7 +24,6 @@ faqs:
   - question: "¿Es segura Galilea para los turistas?"
     answer: "Sí. Galilea es un corredor turístico bien consolidado con sitios claramente señalizados, guías en inglés en los principales lugares de peregrinación y una sólida red de casas de huéspedes de kibutz. Precauciones habituales para el senderismo — lleva agua y protector solar para el monte Arbel y el sendero de Jesús."
 ---
-
 Galilea es al mismo tiempo el destino cristiano más ecuménico de Israel y el corazón de agua dulce del país. El **mar de Galilea** — llamado **Kinneret** en hebreo y lago de Tiberíades en las fuentes europeas — se extiende a 209 metros bajo el nivel del mar, lo que lo convierte en el lago de agua dulce más bajo del mundo y el escenario de la mayor parte del relato evangélico. La geografía lo estructura todo: la gran mayoría de los sitios de peregrinación se concentran en las orillas norte y oeste en un radio de treinta minutos en auto, mientras que Tiberíades es la base práctica al oeste, el monte Arbel se eleva justo detrás y las alturas del Golán suben al este.
 
 Esta guía cubre la mejor época para venir, las opciones de alojamiento (la ciudad lacustre, las casas de huéspedes de kibutz y el pequeño grupo de guesthouses cerca de Tabgha-Cafarnaúm), el circuito de peregrinación cristiana (católica, greco-ortodoxa y protestante), el senderismo (monte Arbel, Banias, sendero de Jesús), los imprescindibles de Tiberíades, las excursiones naturales por el Golán y Nazaret, y los aspectos prácticos del viaje.

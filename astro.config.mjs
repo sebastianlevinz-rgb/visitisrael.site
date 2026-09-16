@@ -59,7 +59,6 @@ function affiliateGuard() {
 // when the content files are present on disk. Routing mirrors the page routes:
 //   guides|legal|regions/<id>.md → /<id>
 //   itineraries/<id>.md          → /itineraries/<id>
-//   attractions/<id>.md          → /<region>/<id-without-"<region>-"-prefix>
 const CONTENT = new URL('./src/content/', import.meta.url);
 /** @param {string} coll */
 const mdFiles = (coll) => {
@@ -74,11 +73,6 @@ const readBody = (coll, file) => readFileSync(new URL(`${coll}/${file}`, CONTENT
 /** @param {string} body */
 const matchDate = (body) => {
   const m = body.match(/^updatedAt:\s*['"]?(\d{4}-\d{2}-\d{2})/m);
-  return m ? m[1] : null;
-};
-/** @param {string} body @param {string} field */
-const matchField = (body, field) => {
-  const m = body.match(new RegExp(`^${field}:\\s*['"]?([A-Za-z0-9_-]+)`, 'm'));
   return m ? m[1] : null;
 };
 
@@ -96,15 +90,6 @@ function lastmodMap() {
   for (const f of mdFiles('itineraries')) {
     const d = matchDate(readBody('itineraries', f));
     if (d) _lastmodMap.set(`itineraries/${f.replace(/\.md$/, '')}`, d);
-  }
-  for (const f of mdFiles('attractions')) {
-    const body = readBody('attractions', f);
-    const d = matchDate(body);
-    if (!d) continue;
-    const id = f.replace(/\.md$/, '');
-    const region = matchField(body, 'region') || id.split('-')[0];
-    const slug = id.startsWith(`${region}-`) ? id.slice(region.length + 1) : id;
-    _lastmodMap.set(`${region}/${slug}`, d);
   }
   return _lastmodMap;
 }

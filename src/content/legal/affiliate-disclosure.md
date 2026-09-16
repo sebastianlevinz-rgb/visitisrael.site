@@ -4,7 +4,6 @@ title: Affiliate Disclosure
 description: 'VisitIsrael.site earns commission on bookings made through affiliate links, at no extra cost to you. Our full FTC-compliant disclosure and partner list.'
 updatedAt: 2026-05-27
 ---
-
 **VisitIsrael.site is funded by affiliate links.** When you book something through a link on this site, we may earn a commission — **at no extra cost to you**. This is how we keep the guide free to read.
 
 ## How it works

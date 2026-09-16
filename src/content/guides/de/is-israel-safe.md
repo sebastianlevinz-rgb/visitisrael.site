@@ -12,7 +12,6 @@ faqs:
   - question: "Sollte ich eine Reiseversicherung für Israel abschließen?"
     answer: "Ja. Eine umfassende Reiseversicherung, die medizinische Versorgung und Reiseunterbrechungen abdeckt, ist für jede Israelreise dringend empfohlen — wie für die meisten internationalen Reisen."
 ---
-
 „Ist Israel sicher?" ist die häufigste Frage, die Reisende stellen — und sie verdient eine klare Antwort, ohne Panikmache oder Verharmlosung.
 
 ## Die ehrliche Alltagssituation
@@ -43,7 +42,7 @@ Reisehinweise unterscheiden in der Regel zwischen Regionen. Der zentrale Tourism
 - **Führen Sie Ihren Pass mit sich**; Sie werden an Sehenswürdigkeiten, Verkehrsknotenpunkten und in Einkaufszentren Sicherheitskontrollen passieren — das ist Routine.
 - **Kennen Sie das Alarmsystem.** Wenn Sirenen ertönen, folgen Sie den Menschen in der Nähe zum nächsten Schutzraum; öffentliche Gebäude haben gesicherte Räume.
 - **Nutzen Sie lizenzierte Taxis oder Apps** und vereinbaren Sie den Fahrpreis im Voraus oder bestehen Sie auf dem Taxameter.
-- **Respektieren Sie religiöse und kulturelle Gepflogenheiten**, insbesondere an heiligen Stätten und am [Schabbat](/de/shabbat-guide).
+- **Respektieren Sie religiöse und kulturelle Gepflogenheiten**, insbesondere an heiligen Stätten und am Schabbat.
 - **Schließen Sie eine Reiseversicherung ab**, die medizinische Versorgung und Reiseunterbrechungen abdeckt.
 
 ## Fazit
