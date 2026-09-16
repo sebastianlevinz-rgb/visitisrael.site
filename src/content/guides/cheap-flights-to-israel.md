@@ -11,8 +11,6 @@ affiliateCtas:
     description: 'Skyscanner compares hundreds of airlines and booking sites to surface the lowest available fares for your dates. Use the month-view and fare alert features to track prices over time and book when costs dip.'
     image: /images/regions/tel-aviv/hero.jpg
     destination: Tel Aviv
-    rating: 4.6
-    reviews: 55000
     cta: Compare flights to Israel
 faqs:
   - question: When is the cheapest time to fly to Israel?

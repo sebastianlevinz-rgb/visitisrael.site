@@ -13,27 +13,18 @@ affiliateCtas:
     description: 'Cross the Wadi Araba border into Jordan and walk Petra''s famous Siq to the Treasury — the classic Eilat cross-border day out. Guided tours handle the logistics.'
     image: /images/regions/eilat/hero.jpg
     query: Petra day trip from Eilat Israel
-    priceFrom: 179
-    rating: 4.7
-    reviews: 1240
     cta: See Petra tours
   - partner: viator
     title: 'Timna Park Jeep Safari & Sunset Tour'
     description: 'A guided jeep circuit of Timna''s sandstone pillars, ancient copper mines and King Solomon''s Pillars at dusk — 25 km north of Eilat in the Arava desert.'
     image: /images/regions/eilat/timna-park.jpg
     query: Timna Park jeep tour from Eilat
-    priceFrom: 69
-    rating: 4.6
-    reviews: 380
     cta: See Timna tours
   - partner: getyourguide
     title: 'Red Sea Glass-Bottom Boat & Snorkeling'
     description: 'Sail above Eilat''s coral reef in a glass-bottom boat — sea turtles, parrotfish and coral formations visible without getting wet — then snorkel the reef itself.'
     image: /images/regions/eilat/coral-beach.jpg
     query: Eilat glass bottom boat Red Sea snorkel tour
-    priceFrom: 35
-    rating: 4.5
-    reviews: 890
     cta: See boat tours
 faqs:
   - question: What is the best day trip from Eilat?

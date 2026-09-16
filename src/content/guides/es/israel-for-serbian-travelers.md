@@ -17,7 +17,6 @@ affiliateCtas:
     description: "Tours guiados por la Ciudad Vieja de Jerusalén, circuitos de peregrinación ortodoxa cristiana, excursiones al Mar Muerto y experiencias en el Mar de Galilea — reservables con antelación."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel
-    priceFrom: 29
     cta: Ver tours en Israel
   - partner: discovercars
     title: "Alquiler de coches en Israel"

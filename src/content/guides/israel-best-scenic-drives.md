@@ -11,8 +11,6 @@ affiliateCtas:
     description: 'A rental car unlocks every route on this list. DiscoverCars searches all major rental companies at Ben Gurion Airport and Tel Aviv city pickups — Hertz, Sixt, Avis, Europcar and local Israeli operators — side by side. Free cancellation on most bookings; filter by automatic gearbox, unlimited mileage and one-way return.'
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare cars
   - partner: booking
     title: 'Hotels Along the Route — Booking.com'

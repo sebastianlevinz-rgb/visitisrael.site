@@ -17,15 +17,12 @@ affiliateCtas:
     description: "Visitas guiadas a pie por la Ciudad Vieja de Jerusalen — el Santo Sepulcro, la Via Dolorosa, el Barrio Armenio y el Barrio Judio — con guias licenciados por el Ministerio de Turismo israelí. Perfecto para el primer dia en Jerusalen."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Old City walking tour guided
-    priceFrom: 35
     cta: Ver tours en Jerusalen
   - partner: discovercars
     title: "Compara alquiler de autos en Ben Gurion"
     description: "Compara todas las principales empresas de alquiler en el aeropuerto Ben Gurion (TLV) para explorar la Galilea, el Negev y la costa mediterranea. Tu permiso de conducir irlandes es valido en Israel."
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Comparar autos
 faqs:
   - question: "¿Necesitan visa los ciudadanos irlandeses para visitar Israel?"

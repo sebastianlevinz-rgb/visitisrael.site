@@ -11,18 +11,12 @@ affiliateCtas:
     description: "Eine ganztägige private Stadtführung durch Tel Aviv — Alt-Jaffa, die Bauhaus-Weiße Stadt, Karmelmarkt und Strandpromenade — auf Ihren eigenen Rhythmus zugeschnitten. Private Touren sind für jeden der drei Tage anpassbar."
     image: /images/regions/tel-aviv/rothschild.jpg
     query: Tel Aviv private city tour
-    priceFrom: 120
-    rating: 4.9
-    reviews: 3200
     cta: Private Touren ansehen
   - partner: viator
     title: "Tel Aviv Street-Food- und Markttour"
     description: "Ein geführter kulinarischer Spaziergang durch den Karmelmarkt und die umliegenden Straßen — mit Shakshuka, Falafel, Knafeh und frischen Säften an den besten Ständen. Am besten an Tag 1, wenn der Markt im Mittelpunkt steht."
     image: /images/sub-destinations/tel-aviv/carmel-market.jpg
     query: Tel Aviv street food market tour
-    priceFrom: 55
-    rating: 4.8
-    reviews: 4100
     cta: Kulinarische Touren ansehen
   - partner: booking
     title: "Hotels im Zentrum Tel Avivs"

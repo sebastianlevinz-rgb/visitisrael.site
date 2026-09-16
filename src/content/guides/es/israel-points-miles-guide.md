@@ -11,16 +11,12 @@ affiliateCtas:
     description: "Usa Skyscanner para conocer el precio en efectivo antes de canjear millas — saber la tarifa en efectivo te indica si un canje de millas ofrece buen valor para tu ruta y fechas."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Tel Aviv
-    rating: 4.6
-    reviews: 55000
     cta: Comparar vuelos a Israel
   - partner: booking
     title: "Hoteles en Israel"
     description: "Compara hoteles en Tel Aviv, Jerusalén, el Mar Muerto y Eilat. IHG, Marriott y Hilton tienen propiedades en Israel — considera pagar una noche con puntos y el resto en efectivo para aprovechar mejor tus recompensas."
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.4
-    reviews: 40000
     cta: Ver hoteles en Israel
 faqs:
   - question: "¿Cuántas millas cuesta volar a Israel?"

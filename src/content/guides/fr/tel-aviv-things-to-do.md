@@ -11,18 +11,12 @@ affiliateCtas:
     description: "Une visite à pied sur la base du pourboire couvrant les rues Bauhaus de la Ville Blanche, le boulevard Rothschild, Neve Tzedek et le marché Carmel avec un guide local anglophone — la meilleure façon de s'orienter lors d'une première visite."
     image: /images/regions/tel-aviv/rothschild.jpg
     query: Tel Aviv free walking tour White City Bauhaus
-    priceFrom: 0
-    rating: 4.8
-    reviews: 6200
     cta: Réserver la visite à pied
   - partner: viator
     title: "Demi-journée highlights de Tel-Aviv"
     description: "Une demi-journée guidée incluant le vieux Jaffa, la promenade, le marché Carmel et le quartier Bauhaus — avec transport et un guide connaissant les meilleurs arrêts pour chaque étape."
     image: /images/sub-destinations/tel-aviv/old-jaffa.jpg
     query: Tel Aviv city highlights half day tour Jaffa
-    priceFrom: 39
-    rating: 4.7
-    reviews: 3800
     cta: Voir les circuits de la ville
   - partner: booking
     title: "Hôtels à Tel-Aviv"

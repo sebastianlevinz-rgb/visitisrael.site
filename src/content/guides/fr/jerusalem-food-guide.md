@@ -11,27 +11,18 @@ affiliateCtas:
     description: "Parcourez le marché Machane Yehuda avec un guide local — dégustation de bourekas, houmous, rugelach et les secrets du Shuk, puis le couloir du houmous du Quartier musulman dans la vieille ville."
     image: /images/regions/jerusalem/mahane-yehuda.jpg
     query: Jerusalem food tour Machane Yehuda market
-    priceFrom: 55
-    rating: 4.8
-    reviews: 1240
     cta: Réserver un circuit gastronomique
   - partner: viator
     title: "Dégustation guidée au marché Machane Yehuda"
     description: "Une promenade gourmande dans le marché emblématique de Jérusalem — épices, bourekas fraîches, l'incontournable rugelach au chocolat de Marzipan et le fameux mixed grill de Jérusalem."
     image: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
     query: Machane Yehuda food tour Jerusalem market
-    priceFrom: 49
-    rating: 4.7
-    reviews: 860
     cta: Voir ce circuit
   - partner: civitatis
     title: "Balade culinaire dans la vieille ville de Jérusalem"
     description: "Mangez à travers la vieille ville — houmous Abu Shukri dans le Quartier musulman, boulangeries du Quartier arménien et la meilleure street food derrière les remparts."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City food walking tour
-    priceFrom: 39
-    rating: 4.8
-    reviews: 620
     cta: Réserver une balade gastronomique
 faqs:
   - question: "Quelle est la spécialité culinaire de Jérusalem ?"

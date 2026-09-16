@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Tours con guia por Jerusalem, recorridos gastronomicos por Tel Aviv, excursiones al Mar Muerto y paseos por el patrimonio sefardita en la Ciudad Vieja y Safed."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Ver tours en Israel
   - partner: discovercars
     title: "Alquiler de Coche en Israel"

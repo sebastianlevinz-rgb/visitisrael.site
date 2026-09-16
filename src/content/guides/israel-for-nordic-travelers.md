@@ -11,17 +11,12 @@ affiliateCtas:
     description: 'From Jerusalem Old City guesthouses and Tel Aviv boutique hotels to Negev desert lodges and Dead Sea spa resorts — live rates with free cancellation on most bookings.'
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 40000
     cta: Browse Israel hotels
   - partner: getyourguide
     title: 'Tours & Experiences'
     description: 'Negev desert jeep tours, Jerusalem Old City walks, Sea of Galilee day trips, and Masada sunrise hikes — outdoor and cultural highlights across Israel, fully bookable in advance.'
     image: /images/regions/negev/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Browse Israel tours
   - partner: safetywing
     title: 'Travel Insurance for Your Israel Trip'

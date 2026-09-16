@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'Explore the Jewish Quarter of the Old City, the Western Wall Tunnels, Yad Vashem Holocaust Memorial and the Ben Zakkai Sephardic Synagogue complex with a licensed Israeli Ministry of Tourism guide. Deeply moving for Argentine Jewish visitors whose families trace roots to Eastern Europe, Morocco and Syria.'
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Jewish heritage private tour
-    priceFrom: 85
-    rating: 4.9
-    reviews: 2400
     cta: See Jerusalem heritage tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation for Your Trip'

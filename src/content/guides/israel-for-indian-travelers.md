@@ -17,17 +17,12 @@ affiliateCtas:
     description: 'Guided pilgrimage circuits through the Holy Land — Nazareth, Sea of Galilee, Bethlehem, Via Dolorosa and the Jordan River — with licensed Israeli Ministry of Tourism guides. Popular with travellers from Kerala, Tamil Nadu and Goa.'
     image: /images/regions/nazareth/basilica.jpg
     query: Israel Christian pilgrimage Holy Land tour
-    priceFrom: 75
-    rating: 4.8
-    reviews: 3100
     cta: See Holy Land tours
   - partner: discovercars
     title: 'Compare Car Hire at Ben Gurion Airport'
     description: 'Search every major car hire company at Ben Gurion Airport (TLV) — Hertz, Sixt, Avis, Europcar and local Israeli operators. Your Indian driving licence plus an International Driving Permit is accepted. Free cancellation on most bookings.'
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare car hire
 faqs:
   - question: Do Indian citizens need a visa to enter Israel?

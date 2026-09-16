@@ -11,24 +11,18 @@ affiliateCtas:
     description: "Schlafsäle und Privatzimmer in hoch bewerteten israelischen Hostels durchsuchen. Abraham Hostel (Jerusalem, Tel Aviv, Nazareth), Hayarkon 48 (Tel-Aviv-Strand) und Porto Hostel (Jaffa) führen regelmäßig die Reisenden-Rankings an — inkl. kostenlosem Gepäckaufbewahrung und sozialen Touren."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Israel
-    rating: 4.5
-    reviews: 12000
     cta: 'Budget-Hostels durchsuchen'
   - partner: booking
     title: 'Mittelklasse-Hotels in Israel'
     description: "3- und 4-Sterne-Hotels in Tel Aviv, Jerusalem und am Toten Meer vergleichen. Nach Gästebewertung, kostenloser Stornierung und Frühstück inklusive filtern, um das beste Preis-Leistungs-Verhältnis zu finden."
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.4
-    reviews: 40000
     cta: 'Hotels vergleichen'
   - partner: tourradar
     title: 'Luxus- und Privattouren in Israel'
     description: "Vollständig geführte Privattouren und Gruppen-Escorted-Reisen mit 5-Sterne-Hotels, privaten Fahrern und Expertenguides inklusive. TourRadar listet unabhängige Anbieter und große Marken — Reiserouten und Leistungen auf einen Blick vergleichen."
     image: /images/regions/dead-sea/hero.jpg
     destination: Israel
-    rating: 4.7
-    reviews: 9500
     cta: 'Geführte Touren erkunden'
 faqs:
   - question: 'Ist Israel teuer zum Reisen?'

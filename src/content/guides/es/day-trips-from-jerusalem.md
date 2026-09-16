@@ -11,27 +11,18 @@ affiliateCtas:
     description: 'La excursión clásica desde Jerusalén — amanecer en Masada, el oasis de Ein Gedi y un baño flotante en el Mar Muerto.'
     image: /images/sub-destinations/dead-sea/masada.jpg
     query: Masada Dead Sea from Jerusalem
-    priceFrom: 95
-    rating: 4.7
-    reviews: 3380
     cta: Ver este tour
   - partner: viator
     title: 'Tour de medio día a Belén'
     description: 'Cruce a Belén para visitar la Iglesia de la Natividad con un guía que gestiona toda la logística.'
     image: /images/regions/jerusalem/hero.jpg
     query: Bethlehem tour from Jerusalem
-    priceFrom: 49
-    rating: 4.5
-    reviews: 1620
     cta: Ver este tour
   - partner: abraham
     title: 'Petra desde Jerusalén (2 días)'
     description: 'Una escapada de fin de semana accesible para viajeros independientes a la ciudad rosada de Petra, en Jordania.'
     image: /images/regions/eilat/hero.jpg
     query: Petra from Jerusalem
-    priceFrom: 295
-    rating: 4.6
-    reviews: 540
     cta: Ver este viaje
 faqs:
   - question: ¿Cuál es la mejor excursión de un día desde Jerusalén?

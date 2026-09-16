@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Explora el Barrio Judío de la Ciudad Antigua, los Túneles del Muro de las Lamentaciones, el Memorial del Holocausto Yad Vashem y el complejo de sinagogas sefardíes Ben Zakkai con un guía certificado por el Ministerio de Turismo israelí. De profunda resonancia para los visitantes judíos argentinos cuyas familias tienen raíces en Europa del Este, Marruecos y Siria."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Jewish heritage private tour
-    priceFrom: 85
-    rating: 4.9
-    reviews: 2400
     cta: Ver tours de herencia en Jerusalén
   - partner: booking
     title: "Hoteles en Israel para tu viaje"

@@ -11,18 +11,12 @@ affiliateCtas:
     description: "Vieille Ville, Mur des Lamentations, Église du Saint-Sépulcre et mont des Oliviers avec un guide agréé — transfert depuis votre hôtel ou la gare inclus."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem private day tour highlights
-    priceFrom: 99
-    rating: 4.8
-    reviews: 3240
     cta: Voir les visites privées
   - partner: viator
     title: "Visite guidée de la Vieille Ville"
     description: "Promenade guidée dans les quatre quartiers — juif, musulman, chrétien et arménien — avec le Mur des Lamentations et le Saint-Sépulcre comme points forts."
     image: /images/regions/jerusalem/western-wall.jpg
     query: Jerusalem Old City walking tour
-    priceFrom: 49
-    rating: 4.7
-    reviews: 1860
     cta: Voir ce circuit
   - partner: abraham
     title: "Visite de Jérusalem (Abraham Tours)"

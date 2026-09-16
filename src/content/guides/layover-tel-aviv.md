@@ -17,9 +17,6 @@ affiliateCtas:
     description: 'Purpose-built layover tours depart from the airport area and return you in time for your onward flight. Jaffa walking tours, Old Jaffa + beach combos, and food market tours all available with English-speaking guides.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Tel Aviv layover tour Jaffa
-    priceFrom: 35
-    rating: 4.8
-    reviews: 14000
     cta: Browse layover tours
   - partner: booking
     title: 'Overnight Layover Hotels Near TLV'

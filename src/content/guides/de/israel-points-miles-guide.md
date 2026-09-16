@@ -13,16 +13,12 @@ affiliateCtas:
     description: "Nutzen Sie Skyscanner für den Cash-Preis-Vergleich, bevor Sie Meilen einlösen — der Barpreis zeigt, ob eine Prämienreservierung auf Ihrer Route echten Mehrwert bietet."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Tel Aviv
-    rating: 4.6
-    reviews: 55000
     cta: Flüge nach Israel vergleichen
   - partner: booking
     title: "Hotels in Israel"
     description: "Vergleichen Sie Hotels in Tel Aviv, Jerusalem, am Toten Meer und in Eilat. IHG, Marriott und Hilton sind alle in Israel vertreten — eine Nacht mit Punkten bezahlen, den Rest in Bar, ist oft die klügste Kombination."
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.4
-    reviews: 40000
     cta: Hotels in Israel durchsuchen
 faqs:
   - question: "Wie viele Meilen kostet ein Flug nach Israel?"

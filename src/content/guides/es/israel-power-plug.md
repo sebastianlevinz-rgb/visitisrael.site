@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Combina tu adaptador de enchufe con una eSIM de viaje para tener datos desde el momento en que aterrizas en Ben Gurion. Sin cambio de SIM ni colas."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel eSIM
-    priceFrom: 5
-    rating: 4.7
-    reviews: 21000
     cta: Obtener una eSIM para Israel
   - partner: booking
     title: "Hoteles en Israel"

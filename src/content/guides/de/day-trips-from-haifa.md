@@ -13,27 +13,18 @@ affiliateCtas:
     description: "Haifas nächster Tagesausflug — die UNESCO-Kreuzfahrerstadt, unterirdische Tunnel und der antike Hafen von Akko in 4 bis 5 Stunden."
     image: /images/regions/akko/old-city.jpg
     query: Akko Acre day trip from Haifa
-    priceFrom: 49
-    rating: 4.7
-    reviews: 860
     cta: Tour ansehen
   - partner: viator
     title: "Rosh Hanikra & Meereshöhlen"
     description: "Die weißen Kreidegrotten an der libanesischen Grenze — Gondelbahn hinunter zu den Meereshöhlen — als Halbtagstrip von Haifa."
     image: /images/regions/haifa/hero.jpg
     query: Rosh Hanikra tour from Haifa
-    priceFrom: 69
-    rating: 4.6
-    reviews: 440
     cta: Tour ansehen
   - partner: civitatis
     title: "Caesarea Römische Ruinen"
     description: "Das spektakuläre römische Amphitheater, der herodianische Hafen und der Aquädukt-Strand — ein Halbtagstrip südlich von Haifa."
     image: /images/sub-destinations/caesarea/national-park.jpg
     query: Caesarea tour from Haifa
-    priceFrom: 55
-    rating: 4.6
-    reviews: 510
     cta: Tour ansehen
 faqs:
   - question: "Was ist der beste Tagesausflug von Haifa?"

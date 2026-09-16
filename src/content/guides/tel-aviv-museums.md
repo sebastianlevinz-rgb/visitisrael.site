@@ -17,7 +17,6 @@ affiliateCtas:
     description: 'Guided walking tours of White City Bauhaus, Tel Aviv history, and curated museum experiences — ideal for first-timers who want context before (or instead of) self-guided museum visits.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Tel Aviv culture history museum tour
-    priceFrom: 29
     cta: Browse Tel Aviv tours
   - partner: discovercars
     title: 'Car Hire for the Design Museum Holon'

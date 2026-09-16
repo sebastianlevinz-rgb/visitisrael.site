@@ -11,18 +11,12 @@ affiliateCtas:
     description: "Ein zweistündiger geführter Spaziergang durch Alt-Jaffa — den antiken Hafen, den Andromeda-Fels, die Flohmarktgassen und Panorama-Dachterrassen — mit einem zugelassenen deutschsprachigen oder englischsprachigen Reiseleiter."
     image: /images/sub-destinations/tel-aviv/old-jaffa.jpg
     query: Old Jaffa walking tour Tel Aviv
-    priceFrom: 25
-    rating: 4.8
-    reviews: 8400
     cta: Jaffa-Touren ansehen
   - partner: viator
     title: "Tel Aviv Stadtführung — Highlights"
     description: "Eine halbtägige Tour durch die Bauhaus-Architektur der Weißen Stadt, den Karmelmarkt und die Strandpromenade — mit Transport und lokalem Reiseleiter."
     image: /images/regions/tel-aviv/rothschild.jpg
     query: Tel Aviv city highlights tour White City
-    priceFrom: 49
-    rating: 4.7
-    reviews: 2100
     cta: Stadttouren ansehen
   - partner: booking
     title: "Hotels im Zentrum Tel Avivs"

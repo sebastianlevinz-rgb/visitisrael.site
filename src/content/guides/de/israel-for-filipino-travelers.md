@@ -11,7 +11,6 @@ affiliateCtas:
     description: "Geführte Touren durch die wichtigsten christlichen Stätten — Via Dolorosa, Grabeskirche, Basilika der Verkündigung in Nazareth, Bootsfahrt auf dem See Genezareth, Jordantaufe und Bethlehem — mit vom israelischen Tourismusministerium lizenzierten Reiseführern. Ideal für philippinische Pilgergruppen."
     image: /images/regions/nazareth/hero.jpg
     query: Israel Christian pilgrimage Holy Land tour
-    priceFrom: 75
     cta: Heilig-Land-Touren ansehen
   - partner: booking
     title: "Hotels in Israel — Unterkunft buchen"

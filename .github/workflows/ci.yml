@@ -32,6 +32,9 @@ jobs:
       - name: Type check
         run: pnpm check
 
+      - name: Affiliate guard unit tests
+        run: pnpm test:qa
+
       - name: Build
         run: pnpm build
 

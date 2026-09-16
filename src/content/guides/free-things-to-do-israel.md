@@ -11,17 +11,12 @@ affiliateCtas:
     description: 'Many of Israel''s best free sights reward deeper context — a knowledgeable guide on the Western Wall, Via Dolorosa or Yad Vashem transforms a walk into a lasting experience. Browse vetted English-language tours from local specialists.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel guided tour Jerusalem Tel Aviv
-    priceFrom: 25
-    rating: 4.8
-    reviews: 62000
     cta: Browse guided experiences
   - partner: booking
     title: 'Budget & Hostel Stays in Israel'
     description: 'Keeping sightseeing free is easiest when accommodation costs are under control. Booking.com lists hostels, guesthouses and budget hotels across Jerusalem, Tel Aviv, Haifa and the Dead Sea — compare live rates and guest ratings.'
     image: /images/regions/tel-aviv/hero.jpg
     destination: Israel
-    rating: 4.5
-    reviews: 38000
     cta: Find budget accommodation
 faqs:
   - question: What are the best free things to do in Israel?

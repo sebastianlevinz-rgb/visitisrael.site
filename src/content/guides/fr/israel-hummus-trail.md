@@ -11,18 +11,12 @@ affiliateCtas:
     description: "Parcourez le Quartier Musulman jusqu'à Abu Shukri, puis le marché Machane Yehuda et Azura — le double arrêt houmous de Jérusalem avec un guide qui connaît l'histoire de chaque adresse. Dégustations incluses."
     image: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
     query: Jerusalem hummus food tour Old City market
-    priceFrom: 55
-    rating: 4.8
-    reviews: 1180
     cta: Réserver un tour houmous
   - partner: viator
     title: "Balade Gastronomique Jaffa & Tel Aviv"
     description: "Commencez la matinée chez Abu Hassan à Jaffa pour le houmous, puis traversez la Vieille Ville, le marché aux puces et le Marché Carmel — la journée gastronomique complète de Tel Aviv."
     image: /images/regions/tel-aviv/jaffa.jpg
     query: Jaffa Tel Aviv street food tour hummus
-    priceFrom: 49
-    rating: 4.7
-    reviews: 840
     cta: Réserver un tour gastronomique
 faqs:
   - question: "En quoi le houmous israélien diffère-t-il du houmous de supermarché ?"

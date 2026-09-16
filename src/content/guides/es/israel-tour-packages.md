@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Compara cientos de viajes guiados y en grupo reducido de varios días por Israel de los mejores operadores, con reseñas y reserva inmediata."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    rating: 4.7
-    reviews: 15000
     cta: Comparar paquetes
   - partner: abraham
     title: "Circuitos por Israel para viajeros independientes"
     description: "Circuitos de varios días y combinados aptos para mochileros, incluidos Petra y el Sinaí, con un estilo sociable y flexible."
     image: /images/regions/dead-sea/hero.jpg
     query: Israel multi-day
-    priceFrom: 199
-    rating: 4.6
-    reviews: 5400
     cta: Ver viajes
 faqs:
   - question: "¿Valen la pena los circuitos guiados de varios días por Israel?"

@@ -11,8 +11,6 @@ affiliateCtas:
     description: 'Search every major rental company at Ben Gurion Airport and Tel Aviv city pickups at once. Free cancellation on most cars — compare prices across Hertz, Sixt, Avis, Europcar and local Israeli operators. Filter by automatic transmission, free mileage and one-way return options.'
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare cars
   - partner: getyourguide
     title: 'Skip-the-Queue Entry & Guided Stops En Route'

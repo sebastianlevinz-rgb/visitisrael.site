@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Buchen Sie einen vom israelischen Tourismusministerium zugelassenen Führer für Jerusalem, Galiläa, das Tote Meer oder eine mehrtägige Privatreise — Ihr eigener Experte, Ihr eigenes Tempo."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel private tour guide
-    priceFrom: 80
-    rating: 4.8
-    reviews: 52000
     cta: Private Führer entdecken
   - partner: discovercars
     title: "Mietwagen für Ihre Israel-Eigenregie"
     description: "Alle großen Mietwagenunternehmen in Israel vergleichen — kostenlose Stornierung auf den meisten Fahrzeugen. Unverzichtbar für Galiläa, den Golan und den Negev."
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Mietwagenpreise vergleichen
 faqs:
   - question: "Brauche ich eine Führung für die Klagemauer?"

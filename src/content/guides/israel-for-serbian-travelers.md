@@ -11,17 +11,12 @@ affiliateCtas:
     description: 'From Jerusalem guesthouses and Old City pilgrim hospices to Tel Aviv boutique hotels and Dead Sea spa resorts — live rates with free cancellation on most bookings.'
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 40000
     cta: Browse Israel hotels
   - partner: getyourguide
     title: 'Tours & Experiences'
     description: 'Guided tours of Jerusalem Old City, Orthodox Christian pilgrimage circuits, Dead Sea day trips, and Galilee Sea of Galilee experiences — fully bookable in advance.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Browse Israel tours
   - partner: discovercars
     title: 'Car Rental in Israel'

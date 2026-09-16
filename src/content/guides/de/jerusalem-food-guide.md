@@ -11,27 +11,18 @@ affiliateCtas:
     description: "Erkunden Sie den Machane Yehuda Markt mit einem lokalen Guide — Verkostung von Burekas, Hummus, Rugelach und den Geheimnissen des Shuks, dann die Hummus-Meile im muslimischen Viertel der Altstadt."
     image: /images/regions/jerusalem/mahane-yehuda.jpg
     query: Jerusalem food tour Machane Yehuda market
-    priceFrom: 55
-    rating: 4.8
-    reviews: 1240
     cta: Kulinariktour buchen
   - partner: viator
     title: "Verkostungsspaziergang über den Machane Yehuda Markt"
     description: "Ein geführter Streifzug durch Jerusalems Wahrzeichen-Markt — Gewürze, frische Burekas, das legendäre Marzipan-Schokoladen-Rugelach und Israels besten Mixed Grill aus Jerusalem."
     image: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
     query: Machane Yehuda food tour Jerusalem market
-    priceFrom: 49
-    rating: 4.7
-    reviews: 860
     cta: Tour ansehen
   - partner: civitatis
     title: "Kulinarische Altstadtrunde Jerusalem"
     description: "Essen durch die Altstadt — Abu Shukri Hummus im muslimischen Viertel, Bäckereien im armenischen Viertel und das beste Straßenessen hinter den Stadtmauern."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City food walking tour
-    priceFrom: 39
-    rating: 4.8
-    reviews: 620
     cta: Altstadtspaziergang buchen
 faqs:
   - question: "Wofür ist Jerusalem gastronomisch bekannt?"

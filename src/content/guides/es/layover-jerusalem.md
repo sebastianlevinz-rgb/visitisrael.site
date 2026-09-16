@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Tours de escala con guías licenciados que salen de la zona del aeropuerto y te devuelven con tiempo de sobra. Tours a pie por la Ciudad Vieja de Jerusalén, combis Muro Occidental + Santo Sepulcro y opciones privadas de medio día disponibles."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem layover tour from airport
-    priceFrom: 55
-    rating: 4.8
-    reviews: 8600
     cta: Ver tours de escala en Jerusalén
   - partner: welcomepickups
     title: "Reserva tu traslado aeropuerto–Jerusalén con antelación"

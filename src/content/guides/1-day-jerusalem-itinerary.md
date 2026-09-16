@@ -11,18 +11,12 @@ affiliateCtas:
     description: 'Old City, Western Wall, Church of the Holy Sepulchre and Mount of Olives with a licensed guide — pickup from your hotel or the train station included.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem private day tour highlights
-    priceFrom: 99
-    rating: 4.8
-    reviews: 3240
     cta: See private tours
   - partner: viator
     title: 'Jerusalem Old City Walking Tour'
     description: 'A guided walk through all four Old City quarters — Jewish, Muslim, Christian and Armenian — with the Western Wall and Holy Sepulchre as centrepieces.'
     image: /images/regions/jerusalem/western-wall.jpg
     query: Jerusalem Old City walking tour
-    priceFrom: 49
-    rating: 4.7
-    reviews: 1860
     cta: See this tour
   - partner: abraham
     title: 'Jerusalem City Tour (Abraham Tours)'

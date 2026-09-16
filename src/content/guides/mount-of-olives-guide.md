@@ -13,18 +13,12 @@ affiliateCtas:
     description: 'A licensed guide walks you down the Mount of Olives from the Seven Arches viewpoint through the Jewish cemetery to the Garden of Gethsemane and the Church of All Nations — with commentary covering the Jewish, Christian and historical dimensions of the ridge. Small groups, English commentary, ends inside the Old City.'
     image: /images/sub-destinations/jerusalem/mount-of-olives.jpg
     query: Mount of Olives Gethsemane Jerusalem guided walking tour
-    priceFrom: 39
-    rating: 4.8
-    reviews: 3240
     cta: See Mount of Olives tours
   - partner: viator
     title: 'Jerusalem Christian Pilgrimage Sites Private Tour'
     description: 'A private licensed guide covers the full Mount of Olives descent, the Garden of Gethsemane, and continues into the Old City for the Via Dolorosa and Church of the Holy Sepulchre — the complete Christian pilgrimage half-day. Hotel pickup available; pace adapted to your group.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Christian sites private tour Mount of Olives Via Dolorosa
-    priceFrom: 85
-    rating: 4.9
-    reviews: 1890
     cta: Browse private tours
   - partner: booking
     title: 'Jerusalem Old City Hotels — Closest to the Mount of Olives'

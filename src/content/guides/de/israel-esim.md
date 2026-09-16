@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Prepaid-Datenpläne, die sich automatisch bei der Landung aktivieren — kein SIM-Tausch, keine Warteschlange am Flughafen."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel eSIM
-    priceFrom: 5
-    rating: 4.7
-    reviews: 21000
     cta: eSIM holen
 faqs:
   - question: "Ist eine eSIM oder eine lokale SIM-Karte in Israel besser?"

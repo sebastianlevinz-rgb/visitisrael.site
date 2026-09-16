@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Des forfaits data prépayés qui s'activent automatiquement à l'atterrissage — sans échange de SIM, sans queue à l'aéroport."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel eSIM
-    priceFrom: 5
-    rating: 4.7
-    reviews: 21000
     cta: Obtenir une eSIM
 faqs:
   - question: "Vaut-il mieux une eSIM ou une SIM locale pour Israël ?"

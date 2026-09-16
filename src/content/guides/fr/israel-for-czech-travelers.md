@@ -17,7 +17,6 @@ affiliateCtas:
     description: "Une journée personnalisée à Jérusalem, Tel Aviv ou en Galilée avec un guide agréé par le Ministère du Tourisme israélien — adaptée à vos centres d'intérêt, à votre rythme et à votre itinéraire. Idéal pour les premiers visiteurs tchèques souhaitant un contexte local approfondi."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel private guided tour
-    priceFrom: 120
     cta: Voir les visites privées
   - partner: safetywing
     title: "Assurance voyage pour votre séjour en Israël"

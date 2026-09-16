@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Das Jüdische Viertel der Altstadt, die Tunneln der Klagemauer, die Yad-Vashem-Gedenkstätte und den Ben-Zakkai-Sephardischen Synagogenkomplex mit einem vom israelischen Tourismusministerium lizenzierten Guide erkunden. Zutiefst bewegend für argentinisch-jüdische Besucher, deren Familien ihre Wurzeln in Osteuropa, Marokko und Syrien haben."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Jewish heritage private tour
-    priceFrom: 85
-    rating: 4.9
-    reviews: 2400
     cta: Jerusalem-Erbe-Touren ansehen
   - partner: booking
     title: "Hotels in Israel — Unterkunft für Ihre Reise buchen"

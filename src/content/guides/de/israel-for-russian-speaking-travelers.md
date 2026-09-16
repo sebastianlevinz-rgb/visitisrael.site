@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Lizenzierte israelische Reiseleiter mit fließendem Russisch sind in Jerusalem, Tel Aviv und Haifa weit verbreitet. Erkunden Sie die Altstadt, Jad Vaschem, die Tunnels der Klagemauer und die Galilaea mit einem Guide in Ihrer Sprache — ideal für FSU-Reisende auf Erstbesuch."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem tour guide Russian speaking Israel
-    priceFrom: 65
-    rating: 4.9
-    reviews: 3200
     cta: Touren mit russischsprachigem Guide ansehen
   - partner: booking
     title: "Hotels in Israel — Unterkunft buchen"

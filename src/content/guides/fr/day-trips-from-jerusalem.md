@@ -11,27 +11,18 @@ affiliateCtas:
     description: "L'excursion classique depuis Jérusalem — aube sur la forteresse, l'oasis d'Ein Gedi et une baignade dans la mer Morte."
     image: /images/sub-destinations/dead-sea/masada.jpg
     query: Masada Dead Sea from Jerusalem
-    priceFrom: 95
-    rating: 4.7
-    reviews: 3380
     cta: Voir ce circuit
   - partner: viator
     title: "Circuit demi-journée à Bethléhem"
     description: "Traversez vers Bethléhem pour visiter l'église de la Nativité avec un guide qui gère toute la logistique."
     image: /images/regions/jerusalem/hero.jpg
     query: Bethlehem tour from Jerusalem
-    priceFrom: 49
-    rating: 4.5
-    reviews: 1620
     cta: Voir ce circuit
   - partner: abraham
     title: "Pétra depuis Jérusalem (2 jours)"
     description: "Un séjour d'une nuit dans la cité rose de Pétra en Jordanie, idéal pour les voyageurs indépendants."
     image: /images/regions/eilat/hero.jpg
     query: Petra from Jerusalem
-    priceFrom: 295
-    rating: 4.6
-    reviews: 540
     cta: Voir ce circuit
 faqs:
   - question: "Quelle est la meilleure excursion d'une journée depuis Jérusalem ?"

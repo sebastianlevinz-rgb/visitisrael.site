@@ -11,18 +11,12 @@ affiliateCtas:
     description: "Walk the Muslim Quarter to Abu Shukri, then Machane Yehuda market and Azura — the Jerusalem hummus two-stop with a guide who knows the backstory of each address. Tastings included."
     image: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
     query: Jerusalem hummus food tour Old City market
-    priceFrom: 55
-    rating: 4.8
-    reviews: 1180
     cta: Book a hummus tour
   - partner: viator
     title: Jaffa & Tel Aviv Street Food Walk
     description: "Start the morning at Abu Hassan in Jaffa for hummus, then move through the Old City, the flea market and Carmel Market — the full Tel Aviv eating day."
     image: /images/regions/tel-aviv/jaffa.jpg
     query: Jaffa Tel Aviv street food tour hummus
-    priceFrom: 49
-    rating: 4.7
-    reviews: 840
     cta: Book a food tour
 faqs:
   - question: What makes Israeli hummus different from supermarket hummus?

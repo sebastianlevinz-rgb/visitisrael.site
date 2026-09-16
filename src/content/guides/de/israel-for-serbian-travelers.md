@@ -17,7 +17,6 @@ affiliateCtas:
     description: "Geführte Touren durch die Jerusalemer Altstadt, christlich-orthodoxe Pilgerkreise, Totes-Meer-Tagesausflüge und Erlebnisse am See Genezareth — im Voraus buchbar."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel
-    priceFrom: 29
     cta: Touren in Israel entdecken
   - partner: discovercars
     title: "Mietwagen in Israel"

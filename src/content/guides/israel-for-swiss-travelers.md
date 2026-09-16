@@ -17,9 +17,6 @@ affiliateCtas:
     description: 'Explore the Old City of Jerusalem — Western Wall, Church of the Holy Sepulchre, Via Dolorosa, Dome of the Rock plaza and the Jewish Quarter — with a licensed Israeli Ministry of Tourism guide. Available in English, German and French.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem private guided tour
-    priceFrom: 95
-    rating: 4.9
-    reviews: 5100
     cta: See Jerusalem tours
   - partner: safetywing
     title: 'Travel Insurance for Switzerland–Israel Trips'

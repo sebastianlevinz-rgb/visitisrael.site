@@ -13,18 +13,12 @@ affiliateCtas:
     description: "Un guide agréé vous accompagne à travers les quatre quartiers de la Vieille Ville — juif, chrétien, musulman et arménien — avec le Mur des Lamentations, la Via Dolorosa et l'Église du Saint-Sépulcre comme temps forts. Petits groupes, commentaires en français et en anglais."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City four quarters walking tour
-    priceFrom: 49
-    rating: 4.8
-    reviews: 4120
     cta: Voir les circuits pédestres
   - partner: viator
     title: "Circuit privé à pied dans la Vieille Ville de Jérusalem"
     description: "Circuit privé de la Vieille Ville à votre rythme — archéologie du Quartier juif, Mur des Lamentations, Via Dolorosa et Saint-Sépulcre avec votre propre guide agréé. Horaires flexibles et prise en charge à l'hôtel disponibles."
     image: /images/regions/jerusalem/western-wall.jpg
     query: Jerusalem Old City private guided walking tour
-    priceFrom: 79
-    rating: 4.7
-    reviews: 2580
     cta: Voir les circuits privés
   - partner: abraham
     title: "Circuit à pied Vieille Ville de Jérusalem (Abraham Tours)"

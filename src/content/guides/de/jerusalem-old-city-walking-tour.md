@@ -13,18 +13,12 @@ affiliateCtas:
     description: "Ein lizenzierter Guide führt Sie durch alle vier Altstadtviertel — jüdisch, christlich, muslimisch und armenisch — mit Klagemauer, Via Dolorosa und Grabeskirche als Höhepunkte. Kleingruppen, englische Kommentare."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City four quarters walking tour
-    priceFrom: 49
-    rating: 4.8
-    reviews: 4120
     cta: Stadtführungen ansehen
   - partner: viator
     title: "Private Stadtführung durch die Altstadt von Jerusalem"
     description: "Private Altstadttour in Ihrem eigenen Tempo — Archäologie des Jüdischen Viertels, Klagemauer, Via Dolorosa und Grabeskirche mit Ihrem eigenen lizenzierten Guide. Flexible Startzeiten und Hotelabholung verfügbar."
     image: /images/regions/jerusalem/western-wall.jpg
     query: Jerusalem Old City private guided walking tour
-    priceFrom: 79
-    rating: 4.7
-    reviews: 2580
     cta: Private Touren ansehen
   - partner: abraham
     title: "Jerusalem-Altstadtführung (Abraham Tours)"

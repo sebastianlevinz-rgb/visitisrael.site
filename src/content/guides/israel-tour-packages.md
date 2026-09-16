@@ -11,17 +11,12 @@ affiliateCtas:
     description: 'Compare hundreds of small-group and guided multi-day Israel trips from top operators, with reviews and instant booking.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    rating: 4.7
-    reviews: 15000
     cta: Compare packages
   - partner: abraham
     title: 'Israel Tours for Independent Travellers'
     description: 'Backpacker-friendly multi-day tours and combo trips, including Petra and the Sinai, with a sociable, flexible style.'
     image: /images/regions/dead-sea/hero.jpg
     query: Israel multi-day
-    priceFrom: 199
-    rating: 4.6
-    reviews: 5400
     cta: See trips
 faqs:
   - question: Are guided multi-day Israel tours worth it?

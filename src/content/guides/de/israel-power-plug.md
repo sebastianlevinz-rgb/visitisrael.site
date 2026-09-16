@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Kombinieren Sie Ihren Stecker-Adapter mit einer Reise-eSIM, damit Sie schon beim Landen am Flughafen Ben Gurion Daten haben. Kein SIM-Karten-Tausch, keine Schalterkasse."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel eSIM
-    priceFrom: 5
-    rating: 4.7
-    reviews: 21000
     cta: Israel eSIM holen
   - partner: booking
     title: "Hotels in Israel"

@@ -11,18 +11,12 @@ affiliateCtas:
     description: "Von Jerusalem-Nachtführungen bis zu Klang-und-Licht-Shows in Masada und Abenderlebnissen am Davidturm — durchstöbern Sie geführte Abendbeschäftigungen in ganz Israel."
     image: /images/regions/jerusalem/mahane-yehuda.jpg
     query: Israel evening night tour
-    priceFrom: 35
-    rating: 4.8
-    reviews: 1200
     cta: Abendtouren ansehen
   - partner: viator
     title: "Nachterlebnisse in Israel"
     description: "Viator verbindet Sie mit geprüften lokalen Anbietern, die Sonnenuntergangs-Spaziergänge, Sternenabende im Negev und abendliche Jaffa-Erlebnisse anbieten. Flexible Buchung, kostenlose Stornierung bei den meisten Optionen."
     image: /images/regions/negev/mitzpe-ramon.jpg
     query: Israel night tour evening experience
-    priceFrom: 29
-    rating: 4.7
-    reviews: 950
     cta: Nachterlebnisse finden
 faqs:
   - question: "Was ist das beste Abenderlebnis in Israel?"

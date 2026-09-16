@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Promenades guidées à travers le Quartier Musulman, l'esplanade de la mosquée Al-Aqsa, la Via Dolorosa et les souks de la Vieille Ville. Options en petit groupe et privées disponibles ; certains opérateurs proposent des guides arabophones."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Muslim Quarter Old City guided tour
-    priceFrom: 35
-    rating: 4.8
-    reviews: 12400
     cta: Voir les circuits Jérusalem
   - partner: booking
     title: "Hôtels en Israël"
@@ -26,9 +23,6 @@ affiliateCtas:
     description: "Excursions de plongée et de snorkeling guidées depuis Eilat dans les jardins de corail de la mer Rouge — un attrait particulier pour les visiteurs du Golfe familiers de la mer d'Arabie. Opérateurs PADI sur place à la Réserve naturelle du récif corallien."
     image: /images/regions/eilat/hero.jpg
     query: Eilat Red Sea diving snorkelling Israel
-    priceFrom: 45
-    rating: 4.7
-    reviews: 3200
     cta: Voir les excursions Eilat
 faqs:
   - question: "Les citoyens des Émirats arabes unis, de Bahreïn et du Maroc ont-ils besoin d'un visa ?"

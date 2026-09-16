@@ -11,18 +11,12 @@ affiliateCtas:
     description: 'Graze your way through Carmel Market and the lanes of Old Jaffa with a local foodie guide — tastings included.'
     image: /images/sub-destinations/tel-aviv/carmel-market.jpg
     query: Tel Aviv food tour
-    priceFrom: 79
-    rating: 4.9
-    reviews: 1840
     cta: Book a food tour
   - partner: getyourguide
     title: 'Carmel Market Tasting Walk'
     description: 'A guided graze through Tel Aviv signature market — spices, baked goods, hummus and street food.'
     image: /images/sub-destinations/tel-aviv/florentin.jpg
     query: Carmel Market food tour Tel Aviv
-    priceFrom: 49
-    rating: 4.8
-    reviews: 920
     cta: See tastings
 faqs:
   - question: What food is Tel Aviv known for?

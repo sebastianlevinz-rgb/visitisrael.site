@@ -11,7 +11,6 @@ affiliateCtas:
     description: 'Explore the Old City with a licensed Israeli Ministry of Tourism guide — Jewish Quarter, Western Wall, Via Dolorosa, Church of the Holy Sepulchre, Armenian and Muslim Quarters, and the Monastery of the Cross in the Valley of the Cross. Private and small-group tours available in English.'
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Old City guided tour
-    priceFrom: 65
     cta: See Jerusalem tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation for Your Trip'

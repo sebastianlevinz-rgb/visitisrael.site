@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Comparez des circuits privés et de luxe multi-jours en Israël auprès des meilleurs opérateurs — votre propre guide, véhicule et programme personnalisé."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel private luxury
-    rating: 4.8
-    reviews: 6000
     cta: Comparer les circuits privés
   - partner: viator
     title: "Excursions privées à la journée avec guide"
     description: "Réservez un guide agréé et un véhicule pour la journée — Jérusalem, la mer Morte, la Galilée et bien plus encore."
     image: /images/regions/dead-sea/hero.jpg
     query: Israel private day tour
-    priceFrom: 350
-    rating: 4.8
-    reviews: 2100
     cta: Voir les circuits privés
 faqs:
   - question: "Un circuit privé en Israël en vaut-il le coût ?"

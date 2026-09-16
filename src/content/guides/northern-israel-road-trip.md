@@ -11,8 +11,6 @@ affiliateCtas:
     description: 'A car is the only practical way to reach the Golan attractions, Rosh Hanikra grottoes and the inland Sea of Galilee sites. DiscoverCars searches every major rental company at Ben Gurion Airport — compare Hertz, Sixt, Avis, Europcar and local operators side by side. Free cancellation on most bookings; filter for automatic gearbox and unlimited mileage.'
     image: /images/regions/golan/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare cars
   - partner: booking
     title: 'Hotels on the Northern Circuit — Booking.com'

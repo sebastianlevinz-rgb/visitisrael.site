@@ -11,8 +11,6 @@ affiliateCtas:
     description: "Skyscanner compare des centaines de compagnies aériennes et de sites de réservation pour afficher les tarifs les plus bas disponibles pour vos dates. Utilisez la vue mensuelle et les alertes tarifaires pour suivre les prix dans le temps et réserver au meilleur moment."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Tel Aviv
-    rating: 4.6
-    reviews: 55000
     cta: Comparer les vols vers Israël
 faqs:
   - question: "Quelle est la période la moins chère pour voler vers Israël ?"

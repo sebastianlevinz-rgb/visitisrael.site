@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'Purpose-built layover tours with licensed guides depart from the airport area and return you with time to spare. Jerusalem Old City walking tours, Western Wall + Holy Sepulchre combos, and private half-day options all available.'
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem layover tour from airport
-    priceFrom: 55
-    rating: 4.8
-    reviews: 8600
     cta: Browse Jerusalem layover tours
   - partner: welcomepickups
     title: 'Pre-Book Your Airport–Jerusalem Transfer'

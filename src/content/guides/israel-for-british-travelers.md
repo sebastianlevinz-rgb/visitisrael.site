@@ -17,17 +17,12 @@ affiliateCtas:
     description: 'A personalised guided day in Jerusalem, Tel Aviv or the Galilee with a licensed Israeli Ministry of Tourism guide — adapted to your interests, pace and itinerary. Ideal for first-time UK visitors wanting local context.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel private guided tour
-    priceFrom: 120
-    rating: 4.9
-    reviews: 4200
     cta: See private tours
   - partner: discovercars
     title: 'Compare Car Hire at Ben Gurion Airport'
     description: 'Search every major car hire company at Ben Gurion Airport (TLV) in one place — Hertz, Sixt, Avis, Europcar and local Israeli operators. Your UK driving licence is valid. Free cancellation on most bookings.'
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare cars
 faqs:
   - question: Do British citizens need a visa to visit Israel?

@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Geführte Touren durch das Muslimische Viertel, die Esplanade der Al-Aqsa-Moschee, die Via Dolorosa und die Souks der Altstadt. Klein- und Privatgruppen verfügbar; manche Anbieter bieten arabischsprachige Guides."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Muslim Quarter Old City guided tour
-    priceFrom: 35
-    rating: 4.8
-    reviews: 12400
     cta: Jerusalem-Touren ansehen
   - partner: booking
     title: "Hotels in Israel"
@@ -26,9 +23,6 @@ affiliateCtas:
     description: "Geführte Tauch- und Schnorchelausflüge von Eilat in die Korallengärten des Roten Meeres — ein besonderer Anziehungspunkt für Golfbesucher, die mit dem Arabischen Meer vertraut sind. PADI-Anbieter vor Ort am Korallennaturschutzgebiet."
     image: /images/regions/eilat/hero.jpg
     query: Eilat Red Sea diving snorkelling Israel
-    priceFrom: 45
-    rating: 4.7
-    reviews: 3200
     cta: Eilat-Ausflüge ansehen
 faqs:
   - question: "Benötigen Staatsbürger der Vereinigten Arabischen Emirate, Bahrains und Marokkos ein Visum?"

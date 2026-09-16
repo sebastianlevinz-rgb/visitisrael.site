@@ -17,8 +17,6 @@ affiliateCtas:
     description: 'A car is essential for Hamat Gader — there is no direct public transport. Compare all major suppliers at Ben Gurion Airport or Tiberias city centre, including Eldan, Hertz, Sixt and DiscoverCars partner networks. Free cancellation on most bookings.'
     image: /images/regions/golan/druze-villages.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare car hire
 faqs:
   - question: Where is Hamat Gader and how do I get there?

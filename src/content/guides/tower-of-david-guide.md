@@ -13,18 +13,12 @@ affiliateCtas:
     description: 'Combine the Tower of David Museum with a guided walk through the Old City — a licensed guide brings the chronological exhibits and the living city around them into a single coherent narrative. English-speaking guides, small groups.'
     image: /images/sub-destinations/jerusalem/tower-of-david.jpg
     query: Tower of David Jerusalem guided tour Old City
-    priceFrom: 35
-    rating: 4.8
-    reviews: 740
     cta: Reserve your spot
   - partner: viator
     title: 'Tower of David Night Spectacular Tickets'
     description: "The Tower of David Night Spectacular — a 45-minute sound-and-light show projected onto the ancient citadel walls — runs most evenings year-round. Book tickets in advance, especially in peak season when the show sells out weeks ahead."
     image: /images/sub-destinations/jerusalem/old-city.jpg
     query: Tower of David Night Spectacular Jerusalem tickets
-    priceFrom: 30
-    rating: 4.7
-    reviews: 610
     cta: Book Night Spectacular tickets
 faqs:
   - question: What is the Tower of David in Jerusalem?

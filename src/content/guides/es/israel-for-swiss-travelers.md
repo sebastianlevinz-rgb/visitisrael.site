@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Recorre la Ciudad Vieja — Muro Occidental, Santo Sepulcro, Via Dolorosa y el Barrio Judio — con un guia certificado por el Ministerio de Turismo de Israel. Disponible en ingles, aleman y frances."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem private guided tour
-    priceFrom: 95
-    rating: 4.9
-    reviews: 5100
     cta: Ver tours en Jerusalem
   - partner: safetywing
     title: "Seguro de Viaje Suiza-Israel"

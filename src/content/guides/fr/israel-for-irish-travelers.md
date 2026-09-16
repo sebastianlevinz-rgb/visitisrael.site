@@ -17,7 +17,6 @@ affiliateCtas:
     description: "Explorez le Quartier chrétien, la Via Dolorosa, l'Église du Saint-Sépulcre et le Quartier juif avec un guide agréé par le Ministère du Tourisme israélien. Idéal pour les pèlerins irlandais qui souhaitent un contexte historique et spirituel ancré pour chaque site."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Old City walking tour
-    priceFrom: 35
     cta: Voir les circuits à Jérusalem
   - partner: discovercars
     title: "Location de voiture en Israël — explorez la Galilée à votre rythme"

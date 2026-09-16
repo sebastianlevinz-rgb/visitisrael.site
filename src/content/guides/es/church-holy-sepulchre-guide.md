@@ -13,18 +13,12 @@ affiliateCtas:
     description: 'Un guía con licencia recorre las 14 Estaciones de la Cruz por la Vía Dolorosa hasta el interior de la Iglesia del Santo Sepulcro, con explicaciones completas sobre el Status Quo de las seis denominaciones, el Edículo y el Calvario. Grupos pequeños en español.'
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Via Dolorosa Church Holy Sepulchre guided walking tour Jerusalem
-    priceFrom: 35
-    rating: 4.8
-    reviews: 3840
     cta: Ver opciones de tour
   - partner: viator
     title: 'Tour privado por el Barrio Cristiano y el Santo Sepulcro'
     description: 'Guía privado por el Barrio Cristiano — Puerta del León, Vía Dolorosa, Iglesia de Santa Ana y el Santo Sepulcro — a tu propio ritmo. Horarios flexibles, recogida en hotel, comentario en español.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Christian Quarter Holy Sepulchre private guided tour
-    priceFrom: 75
-    rating: 4.7
-    reviews: 1620
     cta: Ver tours privados
   - partner: abraham
     title: 'Tour a pie por la Ciudad Vieja de Jerusalén (Abraham Tours)'

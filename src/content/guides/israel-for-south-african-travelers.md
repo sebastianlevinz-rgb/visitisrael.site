@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'Explore the Jewish Quarter of the Old City, the Western Wall Tunnels, Yad Vashem Holocaust Memorial and the Ben Zakkai Sephardic Synagogue complex with a licensed Israeli Ministry of Tourism guide. Deeply meaningful for South African Jewish visitors tracing roots to Lithuanian and Eastern European communities.'
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Jewish heritage Old City tour
-    priceFrom: 75
-    rating: 4.9
-    reviews: 2800
     cta: See Jerusalem heritage tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation for Your Trip'

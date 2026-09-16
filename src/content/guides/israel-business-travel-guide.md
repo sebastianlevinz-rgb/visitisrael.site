@@ -16,7 +16,6 @@ affiliateCtas:
     title: 'Flights to Tel Aviv Ben Gurion (TLV) — Compare Fares'
     description: 'Ben Gurion Airport is one of the best-connected airports in the Middle East. El Al, Delta, United, British Airways, Lufthansa, Air France and many others serve TLV. Compare prices and book with flexibility if your meeting dates may shift.'
     image: /images/regions/tel-aviv/hero.jpg
-    origin: TLV
     cta: Compare flights to Tel Aviv
   - partner: getyourguide
     title: 'Private & Half-Day Bleisure Experiences in Israel'

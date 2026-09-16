@@ -13,18 +13,12 @@ affiliateCtas:
     description: "Lizenzierte Guides leiten Via-Dolorosa-Prozessionen, Karfreitags-Wallfahrten und Oster-Sonnenaufgangs-Spaziergänge durch die Altstadt. Klein- und Privatgruppen auf Englisch und Deutsch; viele Touren verbinden Heiliges Grab, Ölberg, Gethsemane und Via Dolorosa an einem Karwoche-Tag."
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Easter Holy Week Jerusalem guided walking tour
-    priceFrom: 40
-    rating: 4.8
-    reviews: 2640
     cta: Karwoche-Touren ansehen
   - partner: viator
     title: "Private Jerusalem-Karwoche- und Oster-Tour"
     description: "Privater lizenzierter Guide für Karfreitag, Karsamstag oder Ostersonntag — Tempo anpassen, Gartengruft oder Ölberg hinzufügen, christlich-spezialisierten Guide anfordern. Englisch, Spanisch, Französisch und Deutsch verfügbar."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Easter private Holy Week tour
-    priceFrom: 95
-    rating: 4.7
-    reviews: 980
     cta: Private Touren ansehen
   - partner: booking
     title: "Jerusalemer Hotels — für die Karwoche buchen"

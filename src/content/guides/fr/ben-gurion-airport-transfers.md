@@ -11,16 +11,12 @@ affiliateCtas:
     description: "Un chauffeur vous attend à la sortie des arrivées et vous conduit directement à votre hôtel — vol suivi, prix fixe, disponible 24h/24 y compris le Shabbat."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Ben Gurion Airport
-    rating: 4.8
-    reviews: 9000
     cta: Réserver un transfert
   - partner: kiwitaxi
     title: "Taxi et navette pré-réservés"
     description: "Comparez voitures privées et navettes depuis TLV vers Tel Aviv, Jérusalem et au-delà, avec tarif affiché à l'avance sans mauvaise surprise."
     image: /images/regions/jerusalem/hero.jpg
     destination: Ben Gurion Airport
-    rating: 4.6
-    reviews: 4200
     cta: Comparer les transferts
 faqs:
   - question: "Comment aller de l'aéroport Ben Gourion à Tel Aviv ?"

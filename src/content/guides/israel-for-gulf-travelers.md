@@ -11,26 +11,18 @@ affiliateCtas:
     description: 'Expert-guided walks through the Muslim Quarter, Al-Aqsa compound plaza, the Via Dolorosa, and the souks of the Old City. Small-group and private options available; guides include Arabic-speaking hosts through some operators.'
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Muslim Quarter Old City guided tour
-    priceFrom: 35
-    rating: 4.8
-    reviews: 12400
     cta: Browse Jerusalem tours
   - partner: booking
     title: 'Hotels in Israel'
     description: 'Luxury beachfront hotels in Tel Aviv, boutique suites in the Jerusalem Old City, and Red Sea resorts in Eilat — live rates with free cancellation on most bookings. Arabic-speaking staff available at selected properties.'
     image: /images/regions/tel-aviv/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 40000
     cta: Browse Israel hotels
   - partner: getyourguide
     title: 'Eilat Red Sea Diving & Snorkelling'
     description: 'Guided diving and snorkelling excursions from Eilat into the Red Sea coral gardens — a highlight for Gulf visitors familiar with the Arabian Sea. PADI operators on-site at the Coral Beach Nature Reserve.'
     image: /images/regions/eilat/hero.jpg
     query: Eilat Red Sea diving snorkelling Israel
-    priceFrom: 45
-    rating: 4.7
-    reviews: 3200
     cta: Browse Eilat diving
 faqs:
   - question: Do UAE, Bahrain and Morocco citizens need a visa for Israel?

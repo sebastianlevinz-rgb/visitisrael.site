@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'A guided crawl through Tel Aviv best bars and hidden drinking dens — skip the guesswork and meet people.'
     image: /images/sub-destinations/tel-aviv/florentin.jpg
     query: Tel Aviv nightlife bar tour
-    priceFrom: 45
-    rating: 4.7
-    reviews: 760
     cta: Book a bar tour
 faqs:
   - question: Is Tel Aviv good for nightlife?

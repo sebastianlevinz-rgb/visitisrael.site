@@ -74,18 +74,22 @@ const legal = defineCollection({
   }),
 });
 
-const affiliateCta = z.object({
-  partner: z.string(),
-  title: z.string(),
-  description: z.string(),
-  image: z.string(),
-  query: z.string().optional(),
-  destination: z.string().optional(),
-  priceFrom: z.number().optional(),
-  rating: z.number().optional(),
-  reviews: z.number().optional(),
-  cta: z.string().optional(),
-});
+// Strict on purpose: no rating, reviews or priceFrom fields. The previous site's
+// agent wrote 356 invented ratings, 356 invented review counts and 294 invented
+// prices into these cards; only the component refusing to render them kept them
+// off the page. Live prices and reviews belong to the partner site. Any unknown
+// key here fails the build.
+const affiliateCta = z
+  .object({
+    partner: z.string(),
+    title: z.string(),
+    description: z.string(),
+    image: z.string(),
+    query: z.string().optional(),
+    destination: z.string().optional(),
+    cta: z.string().optional(),
+  })
+  .strict();
 
 const guideEvent = z.object({
   name: z.string(),

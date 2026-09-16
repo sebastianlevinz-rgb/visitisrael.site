@@ -17,8 +17,6 @@ affiliateCtas:
     description: "Tours diseñados para escalas que salen de la zona del aeropuerto y te devuelven a tiempo para tu vuelo. Tours a pie por Jaffa, combinaciones Jaffa + playa y tours por el mercado de comida disponibles con guías en español e inglés."
     image: /images/regions/tel-aviv/hero.jpg
     query: Tel Aviv layover tour Jaffa
-    rating: 4.8
-    reviews: 14000
     cta: Ver tours de escala
   - partner: booking
     title: "Hoteles cerca del aeropuerto TLV para escala nocturna"

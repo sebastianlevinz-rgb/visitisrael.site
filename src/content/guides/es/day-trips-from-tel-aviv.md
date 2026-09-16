@@ -11,27 +11,18 @@ affiliateCtas:
     description: 'La Ciudad Vieja, el Muro de los Lamentos y el Santo Sepulcro en una visita guiada de un día desde Tel Aviv.'
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem day trip from Tel Aviv
-    priceFrom: 89
-    rating: 4.6
-    reviews: 2120
     cta: Ver este tour
   - partner: viator
     title: 'Cesarea, Haifa y Akko'
     description: "La costa norte en un día — las ruinas romanas de Cesarea, los Jardines Bahá'í y la Akko cruzada."
     image: /images/sub-destinations/haifa/bahai-gardens.jpg
     query: Caesarea Haifa Akko from Tel Aviv
-    priceFrom: 99
-    rating: 4.6
-    reviews: 870
     cta: Ver este tour
   - partner: civitatis
     title: 'Masada y el Mar Muerto'
     description: 'El clásico del desierto — Masada y un baño flotante en el Mar Muerto — como excursión larga desde Tel Aviv.'
     image: /images/sub-destinations/dead-sea/masada.jpg
     query: Masada Dead Sea from Tel Aviv
-    priceFrom: 99
-    rating: 4.6
-    reviews: 1240
     cta: Ver este tour
 faqs:
   - question: ¿Cuál es la mejor excursión de un día desde Tel Aviv?

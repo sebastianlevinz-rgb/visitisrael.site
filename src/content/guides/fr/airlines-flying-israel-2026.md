@@ -11,8 +11,6 @@ affiliateCtas:
     description: "Skyscanner compare toutes les compagnies actuellement en service vers l'aéroport Ben Gourion et affiche les prix en temps réel. Utilisez la vue calendrier pour repérer les dates les moins chères sur les transporteurs opérant votre itinéraire."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Tel Aviv
-    rating: 4.6
-    reviews: 55000
     cta: Comparer les vols vers Israël
 faqs:
   - question: British Airways vole-t-elle vers Israël en 2026 ?

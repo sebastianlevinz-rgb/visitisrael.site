@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Las habitaciones se agotan y los precios suben en torno al Orgullo, las Altas Fiestas y la Navidad — asegura el alojamiento con mucha antelación."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 40000
     cta: Consultar disponibilidad
   - partner: getyourguide
     title: "Tours y experiencias"
     description: "Tours guiados y experiencias por todo Israel, ideales para construir el viaje en torno a un festival o una festividad religiosa."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Ver tours
 faqs:
   - question: "¿Cuándo es el Orgullo de Tel Aviv?"

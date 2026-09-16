@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Les guides israéliens agréés parlant couramment le russe sont largement disponibles à Jérusalem, Tel Aviv et Haïfa. Explorez la Vieille Ville, Yad Vashem, les Tunnels du Mur Occidental et la Galilée avec un guide dans votre langue — une option idéale pour les voyageurs FSU lors d'un premier séjour."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem tour guide Russian speaking Israel
-    priceFrom: 65
-    rating: 4.9
-    reviews: 3200
     cta: Voir les circuits avec guide russophone
   - partner: booking
     title: "Hôtels en Israël — Réservez votre hébergement"

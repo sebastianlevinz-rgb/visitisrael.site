@@ -13,26 +13,18 @@ affiliateCtas:
     description: 'Browse thousands of top-rated guided tours, day trips and skip-the-line tickets across Israel with free cancellation.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Browse tours
   - partner: viator
     title: 'Day Trips & Excursions'
     description: 'Small-group and private day trips to Masada, the Dead Sea, the Galilee and Petra, with verified reviews.'
     image: /images/regions/dead-sea/hero.jpg
     query: Israel day trip
-    priceFrom: 45
-    rating: 4.6
-    reviews: 30000
     cta: See day trips
   - partner: tiqets
     title: 'Skip-the-Line Attraction Tickets'
     description: 'Instant mobile tickets to Israel museums and attractions — skip the queue and go straight in.'
     image: /images/sub-destinations/jerusalem/tower-of-david.jpg
     query: Israel
-    rating: 4.6
-    reviews: 8000
     cta: Get tickets
 faqs:
   - question: What are the best tours to take in Israel?

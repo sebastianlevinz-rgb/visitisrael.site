@@ -17,9 +17,6 @@ affiliateCtas:
     description: 'Speziell auf Stopover-Gäste zugeschnittene Touren starten vom Flughafenbereich und bringen Sie rechtzeitig zu Ihrem Anschlussflug zurück. Jaffa-Rundgänge, Jaffa+Strand-Kombis und Markttouren mit englischsprachigen Guides verfügbar.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Tel Aviv layover tour Jaffa
-    priceFrom: 35
-    rating: 4.8
-    reviews: 14000
     cta: 'Stopover-Touren ansehen'
   - partner: booking
     title: 'Übernacht-Stopover-Hotels nahe TLV'

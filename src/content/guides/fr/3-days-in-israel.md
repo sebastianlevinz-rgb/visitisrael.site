@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Le moyen le plus efficace de couvrir le Jour 2 de cet itinéraire sans louer de voiture : bus guidé depuis Jérusalem ou Tel Aviv jusqu'à Masada (arrivée avant le lever du soleil pour l'ascension) et la mer Morte, retour l'après-midi. Les hôtels des deux villes sont des points de prise en charge."
     image: /images/regions/dead-sea/hero.jpg
     query: Masada Dead Sea day tour from Jerusalem
-    priceFrom: 65
-    rating: 4.8
-    reviews: 5200
     cta: Voir les circuits Masada et mer Morte
   - partner: booking
     title: 'Hôtels à Jérusalem pour une base de 3 jours'

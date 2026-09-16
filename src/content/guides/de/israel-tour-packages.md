@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Vergleichen Sie hunderte Kleingruppen- und geführte Mehrtagesreisen durch Israel mit den besten Veranstaltern -- verifizierte Bewertungen und Sofortbuchung."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    rating: 4.7
-    reviews: 15000
     cta: Pakete vergleichen
   - partner: abraham
     title: "Israel-Touren für Individualreisende"
     description: "Rucksacktaugliche Mehrtagestouren und Kombireisen inklusive Petra und Sinai -- gesellig und flexibel gestaltet."
     image: /images/regions/dead-sea/hero.jpg
     query: Israel multi-day
-    priceFrom: 199
-    rating: 4.6
-    reviews: 5400
     cta: Reisen ansehen
 faqs:
   - question: "Lohnen sich geführte Mehrtagestouren durch Israel?"

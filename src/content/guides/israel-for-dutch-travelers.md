@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'A personalised full-day tour of Jerusalem — Old City, Via Dolorosa, Church of the Holy Sepulchre, Western Wall and Mount of Olives — with a licensed Israeli Ministry of Tourism guide. Ideal for Dutch visitors on their first trip or for pilgrimage groups wanting expert local context at their own pace.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel private guided Jerusalem tour
-    priceFrom: 75
-    rating: 4.9
-    reviews: 3100
     cta: See Jerusalem tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation'
@@ -26,8 +23,6 @@ affiliateCtas:
     description: 'Search every major car hire company at Ben Gurion Airport (TLV) in one place — Hertz, Sixt, Avis, Europcar and local Israeli operators. Your Dutch driving licence is valid in Israel. Free cancellation on most bookings.'
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare cars
 faqs:
   - question: Do Dutch citizens need a visa to visit Israel?

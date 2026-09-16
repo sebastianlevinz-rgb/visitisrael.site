@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Des excursions conçues spécialement pour les escales décollent depuis le secteur aéroportuaire et vous ramènent à temps pour votre correspondance. Balades à Jaffa, circuits Vieux-Jaffa + plage et tours gastronomiques disponibles avec des guides francophones."
     image: /images/regions/tel-aviv/hero.jpg
     query: Tel Aviv layover tour Jaffa
-    priceFrom: 35
-    rating: 4.8
-    reviews: 14000
     cta: Voir les circuits d'escale
   - partner: booking
     title: "Hôtels pour une nuit d'escale près de TLV"

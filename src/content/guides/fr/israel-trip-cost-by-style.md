@@ -11,24 +11,18 @@ affiliateCtas:
     description: "Parcourez les dortoirs et chambres privées dans les auberges israéliennes les mieux notées. Abraham Hostel (Jérusalem, Tel Aviv, Nazareth), Hayarkon 48 (plage de Tel Aviv) et Porto Hostel (Jaffa) figurent régulièrement en tête des classements avec consigne gratuite, cuisine commune et circuits à prix réduits."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Israel
-    rating: 4.5
-    reviews: 12000
     cta: Voir les auberges petit budget
   - partner: booking
     title: "Hôtels milieu de gamme en Israël"
     description: "Comparez les hôtels 3 et 4 étoiles à Tel Aviv, Jérusalem et à la mer Morte. Filtrez par note des voyageurs, annulation gratuite et petit-déjeuner inclus pour trouver le meilleur rapport qualité-prix selon vos dates."
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.4
-    reviews: 40000
     cta: Comparer les hôtels
   - partner: tourradar
     title: "Circuits de luxe et privés en Israël"
     description: "Circuits privés entièrement guidés et itinéraires en groupe restreint avec hôtels 5 étoiles, chauffeurs privés et guides locaux experts inclus. TourRadar regroupe des opérateurs indépendants et de grandes enseignes pour comparer itinéraires et prestations en un seul endroit."
     image: /images/regions/dead-sea/hero.jpg
     destination: Israel
-    rating: 4.7
-    reviews: 9500
     cta: Explorer les circuits guidés
 faqs:
   - question: "Israël est-il un pays cher pour voyager ?"

@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Bootsfahrt auf dem See Genezareth, Kirche der Seligpreisungen, Kapernaum, Kirche der Brotvermehrung und Yardenit-Taufstelle am Jordan — geführter Rundkurs zu den wichtigsten galiläischen Pilgerorten. Ideal für koreanische evangelikale Kirchengruppen beim ersten Heilig-Land-Besuch."
     image: /images/regions/galilee/mount-of-beatitudes.jpg
     query: Israel Galilee Christian tour Sea of Galilee
-    priceFrom: 75
-    rating: 4.8
-    reviews: 2900
     cta: Galiläa-Pilgertouren ansehen
   - partner: booking
     title: "Hotels in Israel — Unterkunft für Ihre Reise buchen"

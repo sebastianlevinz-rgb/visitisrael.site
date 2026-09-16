@@ -11,14 +11,12 @@ affiliateCtas:
     description: 'Walk the Shuk with a local guide — tasting warm burekas, fresh-ground spices, the legendary Marzipan rugelach, knafeh and the best street food Jerusalem has to offer. One of the most rewarding mornings you can spend in the city.'
     image: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
     query: Mahane Yehuda market food tour Jerusalem
-    priceFrom: 55
     cta: Browse market food tours
   - partner: viator
     title: 'Jerusalem Market & Old City Tasting Walk'
     description: 'Combine Machane Yehuda with the Muslim Quarter — burekas and rugelach in the Shuk, then the hummus corridor of the Old City. A full half-day of the defining Jerusalem food experiences.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem food tour market Old City tasting
-    priceFrom: 49
     cta: See this food tour
   - partner: booking
     title: 'Hotels near Mahane Yehuda market'

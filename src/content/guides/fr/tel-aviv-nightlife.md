@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Une exploration guidée des meilleurs bars et des repaires secrets de Tel Aviv — oubliez les erreurs de débutant et rencontrez du monde."
     image: /images/sub-destinations/tel-aviv/florentin.jpg
     query: Tel Aviv nightlife bar tour
-    priceFrom: 45
-    rating: 4.7
-    reviews: 760
     cta: Réserver un circuit bar
 faqs:
   - question: "La vie nocturne de Tel Aviv est-elle vraiment exceptionnelle ?"

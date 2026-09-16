@@ -11,8 +11,6 @@ affiliateCtas:
     description: "DiscoverCars recherche toutes les grandes sociétés de location opérant en Israël — camping-cars, 4x4 et voitures standard — à l'aéroport Ben Gourion et en ville. Annulation gratuite sur la plupart des véhicules. Comparez tarifs journaliers, kilométrage et niveaux d'assurance en un clic."
     image: /images/regions/negev/desert.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: "Comparer camping-cars et voitures"
   - partner: booking
     title: "Campings et hébergements de secours en Israël"

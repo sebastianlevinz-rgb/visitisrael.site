@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Die effizienteste Möglichkeit, Tag 2 dieses Reiseplans ohne Mietwagen zu absolvieren: Geführter Bus von Jerusalem oder Tel Aviv nach Masada (Ankunft vor Sonnenaufgang für den Aufstieg) und Totes Meer, Rückkehr am Nachmittag. Hotels in beiden Städten sind Abholpunkte."
     image: /images/regions/dead-sea/hero.jpg
     query: Masada Dead Sea day tour from Jerusalem
-    priceFrom: 65
-    rating: 4.8
-    reviews: 5200
     cta: Masada und Totes Meer Touren ansehen
   - partner: booking
     title: "Hotels in Jerusalem als Basis für 3 Tage"

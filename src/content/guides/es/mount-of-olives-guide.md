@@ -13,18 +13,12 @@ affiliateCtas:
     description: "Un guía con licencia te lleva desde el mirador de los Siete Arcos por el cementerio judío hasta el Jardín de Getsemaní y la Iglesia de Todas las Naciones — con comentario sobre las dimensiones judía, cristiana e histórica del monte. Grupos reducidos, comentario en español o inglés, termina dentro de la Ciudad Vieja."
     image: /images/sub-destinations/jerusalem/mount-of-olives.jpg
     query: Mount of Olives Gethsemane Jerusalem guided walking tour
-    priceFrom: 39
-    rating: 4.8
-    reviews: 3240
     cta: Ver tours por el Monte de los Olivos
   - partner: viator
     title: "Tour privado por los sitios de peregrinación cristiana de Jerusalén"
     description: "Un guía privado con licencia cubre el descenso completo por el Monte de los Olivos, el Jardín de Getsemaní y continúa hacia la Ciudad Vieja para la Vía Dolorosa y el Santo Sepulcro — la peregrinación cristiana completa en medio día. Recogida en hotel disponible."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Christian sites private tour Mount of Olives Via Dolorosa
-    priceFrom: 85
-    rating: 4.9
-    reviews: 1890
     cta: Ver tours privados
   - partner: booking
     title: "Hoteles de la Ciudad Vieja de Jerusalén — los más cercanos al Monte de los Olivos"

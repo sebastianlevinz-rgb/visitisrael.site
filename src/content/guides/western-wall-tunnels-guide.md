@@ -13,18 +13,12 @@ affiliateCtas:
     description: 'Join a licensed guide on a 60–70 minute underground journey along the full length of the original Herodian Western Wall — revealing the 2,000-year-old city beneath the streets of the Muslim Quarter. Small groups in English, with advance booking secured.'
     image: /images/regions/jerusalem/western-wall.jpg
     query: Western Wall Tunnels guided tour Jerusalem
-    priceFrom: 30
-    rating: 4.9
-    reviews: 520
     cta: Reserve your spot
   - partner: viator
     title: 'Jerusalem Old City & Western Wall Tunnels Private Tour'
     description: "Private guide through the Jewish Quarter and Western Wall plaza, then into the Tunnels for a full archaeological and historical briefing. Flexible timing, hotel pickup options, and English commentary."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City Western Wall Tunnels private guided tour
-    priceFrom: 75
-    rating: 4.8
-    reviews: 890
     cta: Browse private tours
 faqs:
   - question: Do I need to book Western Wall Tunnels tickets in advance?

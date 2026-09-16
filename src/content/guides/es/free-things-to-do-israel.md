@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Muchos de los mejores sitios gratuitos de Israel cobran vida con un guía experto — en el Muro de los Lamentos, la Vía Dolorosa o Yad Vashem, el contexto lo cambia todo. Explora tours en español con especialistas locales."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel guided tour Jerusalem Tel Aviv
-    priceFrom: 25
-    rating: 4.8
-    reviews: 62000
     cta: Ver experiencias guiadas
   - partner: booking
     title: "Alojamiento económico en Israel"
     description: "Mantener el presupuesto bajo en actividades es más fácil cuando el alojamiento tampoco dispara los costos. Booking.com lista hostales, pensiones y hoteles económicos en Jerusalén, Tel Aviv, Haifa y el Mar Muerto."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Israel
-    rating: 4.5
-    reviews: 38000
     cta: Buscar alojamiento económico
 faqs:
   - question: "¿Cuáles son las mejores actividades gratuitas en Israel?"

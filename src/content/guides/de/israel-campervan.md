@@ -11,8 +11,6 @@ affiliateCtas:
     description: "DiscoverCars durchsucht alle großen Mietfirmen in Israel — von Campervans und 4x4 bis zum Standardfahrzeug — am Flughafen Ben Gurion und in Tel Aviv. Kostenlose Stornierung bei den meisten Fahrzeugen möglich. Tagesraten, Kilometerfreigrenze und Versicherungsstufen im Direktvergleich."
     image: /images/regions/negev/desert.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Campervans & Autos vergleichen
   - partner: booking
     title: "Campingplätze & Ausweichunterkünfte in Israel"

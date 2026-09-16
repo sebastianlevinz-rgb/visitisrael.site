@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Recorre la Ciudad Vieja de Jerusalem — el Barrio Judio, las Sinagogas Sefaradies y el Barrio Armenio — con un guia licenciado por el Ministerio de Turismo de Israel. Disponible en ingles. Perfecto para descubrir la herencia sefardi desde Portugal."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Jewish Quarter tour
-    priceFrom: 50
-    rating: 4.9
-    reviews: 3200
     cta: Ver tours en Jerusalem
   - partner: booking
     title: "Hoteles en Israel"
@@ -26,8 +23,6 @@ affiliateCtas:
     description: "Compara todos los grandes proveedores de alquiler en el aeropuerto Ben Gurion (TLV) — Hertz, Sixt, Avis, Europcar y locales israelies. Tu carnet portugues es valido en Israel. Cancelacion gratuita en la mayoria de reservas."
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Comparar coches en TLV
 faqs:
   - question: "¿Necesito visa para entrar a Israel si soy ciudadano portugues?"

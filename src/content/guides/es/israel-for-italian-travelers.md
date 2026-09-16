@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Recorre el Barrio Cristiano, la Vía Dolorosa, el Santo Sepulcro y el Barrio Judío con un guía autorizado por el Ministerio de Turismo israelí, ideal para peregrinos y viajeros culturales."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem private tour Holy Land
-    priceFrom: 45
-    rating: 4.9
-    reviews: 2800
     cta: Ver tours en Jerusalén
   - partner: discovercars
     title: "Compara coches de alquiler en Israel"

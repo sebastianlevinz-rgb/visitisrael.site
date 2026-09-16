@@ -13,18 +13,12 @@ affiliateCtas:
     description: "Un guide agréé parcourt les 14 stations du chemin de croix le long de la Via Dolorosa jusqu'à l'Église du Saint-Sépulcre, avec un commentaire complet sur le Status Quo des six confessions, l'Édicule et le Calvaire. Petits groupes en français et en anglais."
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Via Dolorosa Church Holy Sepulchre guided walking tour Jerusalem
-    priceFrom: 35
-    rating: 4.8
-    reviews: 3840
     cta: Voir les circuits
   - partner: viator
     title: "Circuit privé Quartier chrétien et Saint-Sépulcre à Jérusalem"
     description: "Guide privé dans le Quartier chrétien — porte des Lions, Via Dolorosa, église Sainte-Anne et le Saint-Sépulcre — à votre propre rythme. Horaires flexibles, prise en charge à l'hôtel, commentaires en français et en anglais."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Christian Quarter Holy Sepulchre private guided tour
-    priceFrom: 75
-    rating: 4.7
-    reviews: 1620
     cta: Voir les circuits privés
   - partner: abraham
     title: "Circuit pédestre Vieille Ville de Jérusalem (Abraham Tours)"

@@ -11,14 +11,12 @@ affiliateCtas:
     description: "Streifen Sie mit einem lokalen Guide durch den Shuk HaCarmel — Gewürze, frisch gepresster Granatapfelsaft, warme Burekas, Knafeh und die Geschichte hinter jedem Stand. Zu den besten Morgenstunden, die Sie in Tel Aviv verbringen können."
     image: /images/sub-destinations/tel-aviv/carmel-market.jpg
     query: Carmel Market food tour Tel Aviv
-    priceFrom: 49
     cta: Foodtouren durchsuchen
   - partner: civitatis
     title: "Tel Aviv & Altjaffa Foodtour"
     description: "Der klassische Tel-Aviv-Gastro-Tag — Carmel-Markt am Morgen, dann Hummus bei Abu Hassan und Abouelafia-Bäckerei in den Gassen von Altjaffa. Verkostungen inklusive."
     image: /images/sub-destinations/tel-aviv/old-jaffa.jpg
     query: Tel Aviv Jaffa food tour market
-    priceFrom: 69
     cta: Foodtour buchen
 faqs:
   - question: "Was sind die Öffnungszeiten des Carmel-Markts?"

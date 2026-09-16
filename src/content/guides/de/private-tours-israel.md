@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Vergleichen Sie private und luxuriöse mehrtägige Israel-Touren bei Top-Veranstaltern — Ihr eigener Guide, Fahrzeug und Zeitplan."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel private luxury
-    rating: 4.8
-    reviews: 6000
     cta: Private Touren vergleichen
   - partner: viator
     title: "Private Tagestouren mit eigenem Guide"
     description: "Buchen Sie einen lizenzierten Privatguide und ein Fahrzeug für einen Tag — Jerusalem, das Tote Meer, Galiläa und mehr."
     image: /images/regions/dead-sea/hero.jpg
     query: Israel private day tour
-    priceFrom: 350
-    rating: 4.8
-    reviews: 2100
     cta: Private Touren ansehen
 faqs:
   - question: "Lohnt sich eine Privattour in Israel?"

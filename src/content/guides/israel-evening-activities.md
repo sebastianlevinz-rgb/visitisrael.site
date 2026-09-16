@@ -11,18 +11,12 @@ affiliateCtas:
     description: 'From Jerusalem night walks to sound-and-light shows at Masada and Tower of David evening experiences — browse guided evening experiences across Israel.'
     image: /images/regions/jerusalem/mahane-yehuda.jpg
     query: Israel evening night tour
-    priceFrom: 35
-    rating: 4.8
-    reviews: 1200
     cta: Browse evening tours
   - partner: viator
     title: 'After-Dark Experiences in Israel'
     description: 'Viator connects you with vetted local operators running sunset walking tours, stargazing nights in the Negev, and evening Jaffa experiences. Flexible booking, free cancellation on most options.'
     image: /images/regions/negev/mitzpe-ramon.jpg
     query: Israel night tour evening experience
-    priceFrom: 29
-    rating: 4.7
-    reviews: 950
     cta: Find night experiences
 faqs:
   - question: What is the best evening experience in Israel?

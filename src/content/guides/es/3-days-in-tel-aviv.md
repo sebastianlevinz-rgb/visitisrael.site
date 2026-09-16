@@ -11,18 +11,12 @@ affiliateCtas:
     description: 'Un tour privado guiado de un día completo por Tel Aviv — la Vieja Jaffa, la Ciudad Blanca Bauhaus, el Mercado Carmel y el paseo marítimo — adaptado a tu ritmo e intereses. Los tours privados se pueden personalizar para cualquiera de los tres días de este itinerario.'
     image: /images/regions/tel-aviv/rothschild.jpg
     query: Tel Aviv private city tour
-    priceFrom: 120
-    rating: 4.9
-    reviews: 3200
     cta: Ver tours privados
   - partner: viator
     title: Tour de Comida Callejera y Mercados de Tel Aviv
     description: 'Un paseo gastronómico guiado por el Mercado Carmel y las calles adyacentes — probando shakshuka, falafel, knafeh y zumos recién exprimidos con un guía local que conoce los puestos que merecen la pena. Ideal el Día 1 cuando el mercado es el protagonista.'
     image: /images/sub-destinations/tel-aviv/carmel-market.jpg
     query: Tel Aviv street food market tour
-    priceFrom: 55
-    rating: 4.8
-    reviews: 4100
     cta: Ver tours gastronómicos
   - partner: booking
     title: Hoteles en el Centro de Tel Aviv

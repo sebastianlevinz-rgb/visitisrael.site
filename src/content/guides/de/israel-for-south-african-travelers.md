@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Das jüdische Viertel der Altstadt, die Klagemauer-Tunnel, die Yad-Vashem-Holocaust-Gedenkstätte und die Ben-Zakkai-Synagogen-Anlage mit einem lizenzierten israelischen Reiseleiter erkunden. Besonders bedeutsam für südafrikanisch-jüdische Besucher, die ihre Wurzeln zu litauischen und osteuropäischen Gemeinden zurückverfolgen."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Jewish heritage Old City tour
-    priceFrom: 75
-    rating: 4.9
-    reviews: 2800
     cta: Jerusalem-Erbetouren ansehen
   - partner: booking
     title: "Hotels in Israel — Unterkunft für Ihre Reise buchen"

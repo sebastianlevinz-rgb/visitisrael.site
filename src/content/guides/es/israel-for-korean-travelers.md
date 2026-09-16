@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Recorre los sitios mas sagrados de la vida de Jesus — Mar de Galilea, Capernaum, Monte de las Bienaventuranzas y Yardenit — con un guia turistico licenciado por el Ministerio de Turismo de Israel. Disponible en ingles. Perfecto para peregrinos coreanos."
     image: /images/regions/galilee/hero.jpg
     query: Galilee Christian tour
-    priceFrom: 75
-    rating: 4.9
-    reviews: 3800
     cta: Ver tours de peregrinaje
   - partner: booking
     title: "Hoteles en Israel"

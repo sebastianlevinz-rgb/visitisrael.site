@@ -11,7 +11,6 @@ affiliateCtas:
     description: "Un guía con licencia te lleva por los cuatro barrios de la Ciudad Antigua — Judío, Cristiano, Musulmán y Armenio — con el Muro Occidental, la Vía Dolorosa y la Iglesia del Santo Sepulcro como puntos centrales. Grupos pequeños, explicaciones en español o inglés."
     image: /images/regions/jerusalem/old-city.jpg
     query: "Jerusalem Old City four quarters walking tour"
-    priceFrom: 49
     cta: "Ver tours por los cuatro barrios"
   - partner: viator
     title: "Tour privado por Jerusalén y la Ciudad Antigua"

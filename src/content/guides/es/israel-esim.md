@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Planes de datos de prepago que se activan automáticamente al aterrizar — sin cambiar SIM, sin hacer colas en el aeropuerto."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel eSIM
-    priceFrom: 5
-    rating: 4.7
-    reviews: 21000
     cta: Obtener una eSIM
 faqs:
   - question: "¿Es mejor una eSIM o una SIM local para Israel?"

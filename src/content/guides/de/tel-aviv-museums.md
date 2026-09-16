@@ -17,7 +17,6 @@ affiliateCtas:
     description: 'Geführte Touren durch die Weiße Stadt (Bauhaus), Tel-Aviv-Geschichte und kuratierte Museumserlebnisse — ideal für Erstbesuchende, die Kontext vor oder statt Selbstführungen suchen.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Tel Aviv culture history museum tour
-    priceFrom: 29
     cta: Tel-Aviv-Touren entdecken
   - partner: discovercars
     title: 'Mietwagen für das Design-Museum Holon'

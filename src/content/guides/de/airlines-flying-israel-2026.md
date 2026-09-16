@@ -11,8 +11,6 @@ affiliateCtas:
     description: "Skyscanner vergleicht alle aktuell operierenden Airlines zum Flughafen Ben Gurion und zeigt Echtzeit-Preise. Nutzen Sie die Kalenderansicht, um günstigste Daten bei den Anbietern zu finden, die Ihre Strecke bedienen."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Tel Aviv
-    rating: 4.6
-    reviews: 55000
     cta: Flüge nach Israel vergleichen
 faqs:
   - question: Fliegt British Airways 2026 nach Israel?

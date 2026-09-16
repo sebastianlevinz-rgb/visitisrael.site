@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'A personalised guided day in Jerusalem, Tel Aviv or the Galilee with a licensed Israeli Ministry of Tourism guide — adapted to your interests and pace. Ideal for first-time Canadian visitors wanting local context and historical depth from an expert.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Israel private guided tour Jerusalem
-    priceFrom: 120
-    rating: 4.9
-    reviews: 4200
     cta: See private tours
   - partner: booking
     title: 'Hotels in Israel'
@@ -26,8 +23,6 @@ affiliateCtas:
     description: 'Search every major car hire company at Ben Gurion Airport (TLV) in one place — Hertz, Sixt, Avis, Europcar and local Israeli operators. Your Canadian driving licence is valid. Free cancellation on most bookings.'
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare cars
 faqs:
   - question: Do Canadian citizens need a visa to visit Israel?

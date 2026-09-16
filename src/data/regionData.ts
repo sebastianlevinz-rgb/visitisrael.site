@@ -12,8 +12,6 @@ import type { Partner } from '@/config/affiliates';
 export interface Hotel {
   name: string;
   tier: 'luxury' | 'value' | 'hostel';
-  rating: number;
-  priceFrom: number;
   neighborhood: string;
   blurb: string;
 }
@@ -24,9 +22,6 @@ export interface TourSeed {
   description: string;
   image: string;
   query: string;
-  priceFrom: number;
-  rating: number;
-  reviews: number;
 }
 
 export interface RegionData {
@@ -56,18 +51,18 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Winter (Dec–Feb)', verdict: 'Quiet', note: 'Cool and rainy, occasional snow; cheapest hotels.' },
     ],
     hotels: [
-      { name: 'King David Hotel', tier: 'luxury', rating: 4.7, priceFrom: 480, neighborhood: 'City Centre', blurb: 'The grande dame of Jerusalem hotels since 1931, overlooking the Old City walls.' },
-      { name: 'Mamilla Hotel', tier: 'luxury', rating: 4.6, priceFrom: 420, neighborhood: 'Mamilla', blurb: 'Sleek design hotel steps from Jaffa Gate with a celebrated rooftop restaurant.' },
-      { name: 'Waldorf Astoria Jerusalem', tier: 'luxury', rating: 4.8, priceFrom: 550, neighborhood: 'City Centre', blurb: 'Restored 1920s landmark with marble lobby and Old City proximity.' },
-      { name: 'The Sephardic House Hotel', tier: 'value', rating: 4.4, priceFrom: 160, neighborhood: 'Jewish Quarter', blurb: 'Comfortable, well-located base inside the Old City walls.' },
-      { name: 'Harmony Hotel', tier: 'value', rating: 4.5, priceFrom: 175, neighborhood: 'Nahalat Shiva', blurb: 'Bright boutique hotel by the Ben Yehuda pedestrian zone with free happy hour.' },
-      { name: 'Abraham Hostel Jerusalem', tier: 'hostel', rating: 4.5, priceFrom: 35, neighborhood: 'Davidka Square', blurb: 'Legendary backpacker hub with dorms, privates and its own day-tour desk.' },
+      { name: 'King David Hotel', tier: 'luxury', neighborhood: 'City Centre', blurb: 'The grande dame of Jerusalem hotels since 1931, overlooking the Old City walls.' },
+      { name: 'Mamilla Hotel', tier: 'luxury', neighborhood: 'Mamilla', blurb: 'Sleek design hotel steps from Jaffa Gate with a celebrated rooftop restaurant.' },
+      { name: 'Waldorf Astoria Jerusalem', tier: 'luxury', neighborhood: 'City Centre', blurb: 'Restored 1920s landmark with marble lobby and Old City proximity.' },
+      { name: 'The Sephardic House Hotel', tier: 'value', neighborhood: 'Jewish Quarter', blurb: 'Comfortable, well-located base inside the Old City walls.' },
+      { name: 'Harmony Hotel', tier: 'value', neighborhood: 'Nahalat Shiva', blurb: 'Bright boutique hotel by the Ben Yehuda pedestrian zone with free happy hour.' },
+      { name: 'Abraham Hostel Jerusalem', tier: 'hostel', neighborhood: 'Davidka Square', blurb: 'Legendary backpacker hub with dorms, privates and its own day-tour desk.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Jerusalem Old City: Half-Day Walking Tour', description: 'The four quarters, the Western Wall and the Holy Sepulchre with an expert guide.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City walking tour', priceFrom: 39, rating: 4.8, reviews: 5120 },
-      { partner: 'viator', title: 'Jerusalem & Bethlehem Full-Day Tour', description: 'Combine the Old City highlights with a guided afternoon in Bethlehem.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Bethlehem day tour', priceFrom: 89, rating: 4.6, reviews: 2410 },
-      { partner: 'civitatis', title: 'Western Wall Tunnels Guided Tour', description: 'Walk the 488 m underground length of the Western Wall and Herodian street.', image: '/images/regions/jerusalem/hero.jpg', query: 'Western Wall tunnels tour', priceFrom: 29, rating: 4.7, reviews: 1330 },
-      { partner: 'abraham', title: 'Masada Sunrise & Dead Sea from Jerusalem', description: 'Dawn ascent of Masada, then float in the Dead Sea — back by afternoon.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada sunrise Dead Sea Jerusalem', priceFrom: 95, rating: 4.7, reviews: 3380 },
+      { partner: 'getyourguide', title: 'Jerusalem Old City: Half-Day Walking Tour', description: 'The four quarters, the Western Wall and the Holy Sepulchre with an expert guide.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Old City walking tour' },
+      { partner: 'viator', title: 'Jerusalem & Bethlehem Full-Day Tour', description: 'Combine the Old City highlights with a guided afternoon in Bethlehem.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem Bethlehem day tour' },
+      { partner: 'civitatis', title: 'Western Wall Tunnels Guided Tour', description: 'Walk the 488 m underground length of the Western Wall and Herodian street.', image: '/images/regions/jerusalem/hero.jpg', query: 'Western Wall tunnels tour' },
+      { partner: 'abraham', title: 'Masada Sunrise & Dead Sea from Jerusalem', description: 'Dawn ascent of Masada, then float in the Dead Sea — back by afternoon.', image: '/images/regions/dead-sea/hero.jpg', query: 'Masada sunrise Dead Sea Jerusalem' },
     ],
   },
 
@@ -88,18 +83,18 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Winter (Nov–Mar)', verdict: 'Mild', note: 'Mild 15–18°C with rain spells; cafés and museums shine.' },
     ],
     hotels: [
-      { name: 'The Norman', tier: 'luxury', rating: 4.8, priceFrom: 560, neighborhood: 'White City', blurb: 'Restored 1920s Bauhaus icon with a rooftop pool and Michelin-level dining.' },
-      { name: 'The Jaffa, a Luxury Collection Hotel', tier: 'luxury', rating: 4.7, priceFrom: 600, neighborhood: 'Jaffa', blurb: 'A 19th-century compound reimagined by John Pawson beside Old Jaffa.' },
-      { name: 'Hotel Montefiore', tier: 'luxury', rating: 4.6, priceFrom: 380, neighborhood: 'Lev Ha’ir', blurb: 'Intimate 12-room boutique above one of the city’s best brasseries.' },
-      { name: 'Brown TLV Urban Hotel', tier: 'value', rating: 4.4, priceFrom: 180, neighborhood: 'Rothschild', blurb: 'Style-forward boutique steps from Rothschild Boulevard with a rooftop deck.' },
-      { name: 'Sea Executive Suites', tier: 'value', rating: 4.3, priceFrom: 160, neighborhood: 'Beachfront', blurb: 'Apartment-style suites a block from the promenade — good for families.' },
-      { name: 'Abraham Hostel Tel Aviv', tier: 'hostel', rating: 4.5, priceFrom: 38, neighborhood: 'Levinsky', blurb: 'Buzzing flagship hostel with dorms, privates, a bar and a day-tour desk.' },
+      { name: 'The Norman', tier: 'luxury', neighborhood: 'White City', blurb: 'Restored 1920s Bauhaus icon with a rooftop pool and Michelin-level dining.' },
+      { name: 'The Jaffa, a Luxury Collection Hotel', tier: 'luxury', neighborhood: 'Jaffa', blurb: 'A 19th-century compound reimagined by John Pawson beside Old Jaffa.' },
+      { name: 'Hotel Montefiore', tier: 'luxury', neighborhood: 'Lev Ha’ir', blurb: 'Intimate 12-room boutique above one of the city’s best brasseries.' },
+      { name: 'Brown TLV Urban Hotel', tier: 'value', neighborhood: 'Rothschild', blurb: 'Style-forward boutique steps from Rothschild Boulevard with a rooftop deck.' },
+      { name: 'Sea Executive Suites', tier: 'value', neighborhood: 'Beachfront', blurb: 'Apartment-style suites a block from the promenade — good for families.' },
+      { name: 'Abraham Hostel Tel Aviv', tier: 'hostel', neighborhood: 'Levinsky', blurb: 'Buzzing flagship hostel with dorms, privates, a bar and a day-tour desk.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Bauhaus White City Walking Tour', description: "Decode Tel Aviv's UNESCO Bauhaus heritage with an architecture guide.", image: '/images/sub-destinations/tel-aviv/rothschild.jpg', query: 'Tel Aviv Bauhaus White City tour', priceFrom: 32, rating: 4.7, reviews: 1410 },
-      { partner: 'civitatis', title: 'Jaffa & Carmel Market Food Tour', description: 'Graze through Carmel Market and Old Jaffa with a local foodie guide.', image: '/images/sub-destinations/tel-aviv/carmel-market.jpg', query: 'Tel Aviv Jaffa food tour', priceFrom: 79, rating: 4.9, reviews: 1840 },
-      { partner: 'viator', title: 'Old Jaffa & Tel Aviv City Tour', description: 'From the ancient port of Jaffa to the beaches and boulevards of the new city.', image: '/images/sub-destinations/tel-aviv/old-jaffa.jpg', query: 'Old Jaffa Tel Aviv tour', priceFrom: 45, rating: 4.6, reviews: 990 },
-      { partner: 'getyourguide', title: 'Jerusalem Day Trip from Tel Aviv', description: 'Full-day guided trip to the Old City and the Western Wall.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem day trip from Tel Aviv', priceFrom: 89, rating: 4.6, reviews: 2120 },
+      { partner: 'getyourguide', title: 'Bauhaus White City Walking Tour', description: "Decode Tel Aviv's UNESCO Bauhaus heritage with an architecture guide.", image: '/images/sub-destinations/tel-aviv/rothschild.jpg', query: 'Tel Aviv Bauhaus White City tour' },
+      { partner: 'civitatis', title: 'Jaffa & Carmel Market Food Tour', description: 'Graze through Carmel Market and Old Jaffa with a local foodie guide.', image: '/images/sub-destinations/tel-aviv/carmel-market.jpg', query: 'Tel Aviv Jaffa food tour' },
+      { partner: 'viator', title: 'Old Jaffa & Tel Aviv City Tour', description: 'From the ancient port of Jaffa to the beaches and boulevards of the new city.', image: '/images/sub-destinations/tel-aviv/old-jaffa.jpg', query: 'Old Jaffa Tel Aviv tour' },
+      { partner: 'getyourguide', title: 'Jerusalem Day Trip from Tel Aviv', description: 'Full-day guided trip to the Old City and the Western Wall.', image: '/images/regions/jerusalem/hero.jpg', query: 'Jerusalem day trip from Tel Aviv' },
     ],
   },
 
@@ -120,17 +115,17 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Winter (Dec–Feb)', verdict: 'Mild', note: 'Warm by day, cool nights; the quietest, cheapest season.' },
     ],
     hotels: [
-      { name: 'Herods Dead Sea', tier: 'luxury', rating: 4.5, priceFrom: 320, neighborhood: 'Ein Bokek', blurb: 'Family-friendly spa resort with private beach and large pools.' },
-      { name: 'Isrotel Dead Sea', tier: 'luxury', rating: 4.5, priceFrom: 300, neighborhood: 'Ein Bokek', blurb: 'Full-service spa hotel with sulphur pools and beachfront access.' },
-      { name: 'David Dead Sea Resort & Spa', tier: 'value', rating: 4.3, priceFrom: 210, neighborhood: 'Ein Bokek', blurb: 'Big resort with a vast spa complex and mineral-pool circuit.' },
-      { name: 'Leonardo Club Dead Sea (All-Inclusive)', tier: 'value', rating: 4.2, priceFrom: 230, neighborhood: 'Ein Bokek', blurb: 'All-inclusive option popular with families and longer spa stays.' },
-      { name: 'Ein Gedi Kibbutz Hotel', tier: 'value', rating: 4.4, priceFrom: 190, neighborhood: 'Ein Gedi', blurb: 'Set in a botanical garden on the quieter northern shore near the reserve.' },
+      { name: 'Herods Dead Sea', tier: 'luxury', neighborhood: 'Ein Bokek', blurb: 'Family-friendly spa resort with private beach and large pools.' },
+      { name: 'Isrotel Dead Sea', tier: 'luxury', neighborhood: 'Ein Bokek', blurb: 'Full-service spa hotel with sulphur pools and beachfront access.' },
+      { name: 'David Dead Sea Resort & Spa', tier: 'value', neighborhood: 'Ein Bokek', blurb: 'Big resort with a vast spa complex and mineral-pool circuit.' },
+      { name: 'Leonardo Club Dead Sea (All-Inclusive)', tier: 'value', neighborhood: 'Ein Bokek', blurb: 'All-inclusive option popular with families and longer spa stays.' },
+      { name: 'Ein Gedi Kibbutz Hotel', tier: 'value', neighborhood: 'Ein Gedi', blurb: 'Set in a botanical garden on the quieter northern shore near the reserve.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Masada, Ein Gedi & Dead Sea Day Tour', description: 'Cable car up Masada, an Ein Gedi waterfall walk, then a float — from Jerusalem or Tel Aviv.', image: '/images/sub-destinations/dead-sea/masada.jpg', query: 'Masada Ein Gedi Dead Sea tour', priceFrom: 95, rating: 4.7, reviews: 3380 },
-      { partner: 'viator', title: 'Masada Sunrise & Dead Sea', description: 'Pre-dawn Snake Path ascent for sunrise, then the mineral shore.', image: '/images/sub-destinations/dead-sea/masada.jpg', query: 'Masada sunrise tour', priceFrom: 110, rating: 4.7, reviews: 1560 },
-      { partner: 'civitatis', title: 'Dead Sea Relaxation Day', description: 'Transfers plus free time to float and apply the famous black mud.', image: '/images/regions/dead-sea/hero.jpg', query: 'Dead Sea day trip', priceFrom: 70, rating: 4.5, reviews: 880 },
-      { partner: 'abraham', title: 'Masada & Dead Sea from Tel Aviv', description: 'Backpacker-friendly day trip combining Masada and a Dead Sea float.', image: '/images/sub-destinations/dead-sea/ein-gedi.jpg', query: 'Masada Dead Sea Tel Aviv', priceFrom: 99, rating: 4.6, reviews: 1240 },
+      { partner: 'getyourguide', title: 'Masada, Ein Gedi & Dead Sea Day Tour', description: 'Cable car up Masada, an Ein Gedi waterfall walk, then a float — from Jerusalem or Tel Aviv.', image: '/images/sub-destinations/dead-sea/masada.jpg', query: 'Masada Ein Gedi Dead Sea tour' },
+      { partner: 'viator', title: 'Masada Sunrise & Dead Sea', description: 'Pre-dawn Snake Path ascent for sunrise, then the mineral shore.', image: '/images/sub-destinations/dead-sea/masada.jpg', query: 'Masada sunrise tour' },
+      { partner: 'civitatis', title: 'Dead Sea Relaxation Day', description: 'Transfers plus free time to float and apply the famous black mud.', image: '/images/regions/dead-sea/hero.jpg', query: 'Dead Sea day trip' },
+      { partner: 'abraham', title: 'Masada & Dead Sea from Tel Aviv', description: 'Backpacker-friendly day trip combining Masada and a Dead Sea float.', image: '/images/sub-destinations/dead-sea/ein-gedi.jpg', query: 'Masada Dead Sea Tel Aviv' },
     ],
   },
 
@@ -151,16 +146,16 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Winter (Dec–Feb)', verdict: 'Cool', note: 'Cool and green with rain; lowest prices, fewest crowds.' },
     ],
     hotels: [
-      { name: 'The Scots Hotel', tier: 'luxury', rating: 4.7, priceFrom: 360, neighborhood: 'Tiberias', blurb: 'A restored 19th-century stone hospital on the lakeshore — the north’s finest hotel.' },
-      { name: 'The Setai Sea of Galilee', tier: 'luxury', rating: 4.6, priceFrom: 420, neighborhood: 'Sea of Galilee', blurb: 'Sleek lakeside resort with infinity pools and a destination spa.' },
-      { name: 'Pilgerhaus Tabgha', tier: 'value', rating: 4.5, priceFrom: 170, neighborhood: 'Tabgha', blurb: 'Tranquil German-run guesthouse beside the Christian holy sites.' },
-      { name: 'Leonardo Plaza Tiberias', tier: 'value', rating: 4.2, priceFrom: 150, neighborhood: 'Tiberias', blurb: 'Reliable lakeside base with pool, walkable to the promenade.' },
-      { name: 'Artist House Tzfat', tier: 'value', rating: 4.4, priceFrom: 130, neighborhood: 'Tzfat (Safed)', blurb: 'Characterful rooms in the Kabbalistic artists’ quarter of Safed.' },
+      { name: 'The Scots Hotel', tier: 'luxury', neighborhood: 'Tiberias', blurb: 'A restored 19th-century stone hospital on the lakeshore — the north’s finest hotel.' },
+      { name: 'The Setai Sea of Galilee', tier: 'luxury', neighborhood: 'Sea of Galilee', blurb: 'Sleek lakeside resort with infinity pools and a destination spa.' },
+      { name: 'Pilgerhaus Tabgha', tier: 'value', neighborhood: 'Tabgha', blurb: 'Tranquil German-run guesthouse beside the Christian holy sites.' },
+      { name: 'Leonardo Plaza Tiberias', tier: 'value', neighborhood: 'Tiberias', blurb: 'Reliable lakeside base with pool, walkable to the promenade.' },
+      { name: 'Artist House Tzfat', tier: 'value', neighborhood: 'Tzfat (Safed)', blurb: 'Characterful rooms in the Kabbalistic artists’ quarter of Safed.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Sea of Galilee & Nazareth Day Tour', description: 'Capernaum, the Mount of Beatitudes and Nazareth in one guided day.', image: '/images/sub-destinations/galilee/capernaum.jpg', query: 'Sea of Galilee Nazareth tour', priceFrom: 85, rating: 4.6, reviews: 1720 },
-      { partner: 'viator', title: 'Galilee & Golan Wine Tour', description: 'Taste award-winning northern wines across two or three boutique wineries.', image: '/images/regions/galilee/hero.jpg', query: 'Galilee Golan wine tour', priceFrom: 120, rating: 4.7, reviews: 540 },
-      { partner: 'civitatis', title: 'Tzfat & Galilee Day Trip', description: 'The Kabbalah town of Safed plus lakeside Christian sites.', image: '/images/regions/galilee/hero.jpg', query: 'Tzfat Safed Galilee tour', priceFrom: 90, rating: 4.6, reviews: 410 },
+      { partner: 'getyourguide', title: 'Sea of Galilee & Nazareth Day Tour', description: 'Capernaum, the Mount of Beatitudes and Nazareth in one guided day.', image: '/images/sub-destinations/galilee/capernaum.jpg', query: 'Sea of Galilee Nazareth tour' },
+      { partner: 'viator', title: 'Galilee & Golan Wine Tour', description: 'Taste award-winning northern wines across two or three boutique wineries.', image: '/images/regions/galilee/hero.jpg', query: 'Galilee Golan wine tour' },
+      { partner: 'civitatis', title: 'Tzfat & Galilee Day Trip', description: 'The Kabbalah town of Safed plus lakeside Christian sites.', image: '/images/regions/galilee/hero.jpg', query: 'Tzfat Safed Galilee tour' },
     ],
   },
 
@@ -181,16 +176,16 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Autumn (Oct)', verdict: 'Great', note: 'Heat eases, water still warm — excellent value.' },
     ],
     hotels: [
-      { name: 'Isrotel Royal Beach', tier: 'luxury', rating: 4.5, priceFrom: 300, neighborhood: 'Lagoon', blurb: 'Eilat’s flagship five-star on the promenade with multiple pools.' },
-      { name: 'Dan Eilat', tier: 'luxury', rating: 4.5, priceFrom: 290, neighborhood: 'North Beach', blurb: 'Landmark resort with a huge pool complex right on the beach.' },
-      { name: 'Herods Palace', tier: 'luxury', rating: 4.4, priceFrom: 310, neighborhood: 'Lagoon', blurb: 'Theatrical, family-focused resort with a private beach.' },
-      { name: 'Leonardo Plaza Eilat', tier: 'value', rating: 4.2, priceFrom: 180, neighborhood: 'North Beach', blurb: 'Solid mid-range resort steps from the lagoon and promenade.' },
-      { name: 'Arava Hostel', tier: 'hostel', rating: 4.2, priceFrom: 32, neighborhood: 'City Centre', blurb: 'Friendly budget base with a garden, a short walk to the beach.' },
+      { name: 'Isrotel Royal Beach', tier: 'luxury', neighborhood: 'Lagoon', blurb: 'Eilat’s flagship five-star on the promenade with multiple pools.' },
+      { name: 'Dan Eilat', tier: 'luxury', neighborhood: 'North Beach', blurb: 'Landmark resort with a huge pool complex right on the beach.' },
+      { name: 'Herods Palace', tier: 'luxury', neighborhood: 'Lagoon', blurb: 'Theatrical, family-focused resort with a private beach.' },
+      { name: 'Leonardo Plaza Eilat', tier: 'value', neighborhood: 'North Beach', blurb: 'Solid mid-range resort steps from the lagoon and promenade.' },
+      { name: 'Arava Hostel', tier: 'hostel', neighborhood: 'City Centre', blurb: 'Friendly budget base with a garden, a short walk to the beach.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Petra Day Trip from Eilat', description: 'Cross into Jordan for a full guided day at the rose-red city of Petra.', image: '/images/regions/eilat/hero.jpg', query: 'Petra day trip from Eilat', priceFrom: 219, rating: 4.6, reviews: 990 },
-      { partner: 'viator', title: 'Red Sea Snorkelling & Coral Beach', description: 'Guided snorkel over Eilat’s protected reef with gear included.', image: '/images/sub-destinations/eilat/coral-beach.jpg', query: 'Eilat snorkeling coral reef', priceFrom: 55, rating: 4.6, reviews: 620 },
-      { partner: 'civitatis', title: 'Timna Park & Red Canyon Jeep Tour', description: 'Desert rock formations, ancient copper mines and the Red Canyon.', image: '/images/sub-destinations/eilat/timna-park.jpg', query: 'Timna Park Eilat tour', priceFrom: 75, rating: 4.7, reviews: 380 },
+      { partner: 'getyourguide', title: 'Petra Day Trip from Eilat', description: 'Cross into Jordan for a full guided day at the rose-red city of Petra.', image: '/images/regions/eilat/hero.jpg', query: 'Petra day trip from Eilat' },
+      { partner: 'viator', title: 'Red Sea Snorkelling & Coral Beach', description: 'Guided snorkel over Eilat’s protected reef with gear included.', image: '/images/sub-destinations/eilat/coral-beach.jpg', query: 'Eilat snorkeling coral reef' },
+      { partner: 'civitatis', title: 'Timna Park & Red Canyon Jeep Tour', description: 'Desert rock formations, ancient copper mines and the Red Canyon.', image: '/images/sub-destinations/eilat/timna-park.jpg', query: 'Timna Park Eilat tour' },
     ],
   },
 
@@ -211,16 +206,16 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Winter (Dec–Feb)', verdict: 'Variable', note: 'Pleasant days, cold nights; bring warm layers for stargazing.' },
     ],
     hotels: [
-      { name: 'Beresheet', tier: 'luxury', rating: 4.7, priceFrom: 450, neighborhood: 'Mitzpe Ramon', blurb: 'Stone-built luxury hotel perched on the rim of the Ramon Crater with infinity pools.' },
-      { name: 'Six Senses Shaharut', tier: 'luxury', rating: 4.8, priceFrom: 900, neighborhood: 'Arava', blurb: 'Remote ultra-luxury desert retreat with a camel stable and spa.' },
-      { name: 'Adama Mitzpe Ramon', tier: 'value', rating: 4.3, priceFrom: 160, neighborhood: 'Mitzpe Ramon', blurb: 'Relaxed dance-and-wellness village on the crater’s edge.' },
-      { name: 'Carmey Avdat Farm', tier: 'value', rating: 4.6, priceFrom: 190, neighborhood: 'Sde Boker area', blurb: 'Boutique cabins on a working desert vineyard on the ancient Incense Route.' },
-      { name: 'Green Backpackers', tier: 'hostel', rating: 4.4, priceFrom: 30, neighborhood: 'Mitzpe Ramon', blurb: 'Welcoming hostel that runs crater hikes and stargazing trips.' },
+      { name: 'Beresheet', tier: 'luxury', neighborhood: 'Mitzpe Ramon', blurb: 'Stone-built luxury hotel perched on the rim of the Ramon Crater with infinity pools.' },
+      { name: 'Six Senses Shaharut', tier: 'luxury', neighborhood: 'Arava', blurb: 'Remote ultra-luxury desert retreat with a camel stable and spa.' },
+      { name: 'Adama Mitzpe Ramon', tier: 'value', neighborhood: 'Mitzpe Ramon', blurb: 'Relaxed dance-and-wellness village on the crater’s edge.' },
+      { name: 'Carmey Avdat Farm', tier: 'value', neighborhood: 'Sde Boker area', blurb: 'Boutique cabins on a working desert vineyard on the ancient Incense Route.' },
+      { name: 'Green Backpackers', tier: 'hostel', neighborhood: 'Mitzpe Ramon', blurb: 'Welcoming hostel that runs crater hikes and stargazing trips.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Makhtesh Ramon Jeep & Hike', description: 'Descend into the world’s largest erosion crater with a desert guide.', image: '/images/sub-destinations/negev/mitzpe-ramon.jpg', query: 'Makhtesh Ramon jeep tour', priceFrom: 80, rating: 4.7, reviews: 460 },
-      { partner: 'civitatis', title: 'Negev Stargazing Experience', description: 'Guided night under some of Israel’s darkest skies with telescopes.', image: '/images/regions/negev/hero.jpg', query: 'Negev stargazing Mitzpe Ramon', priceFrom: 45, rating: 4.8, reviews: 320 },
-      { partner: 'viator', title: 'Avdat & Ein Avdat Desert Day', description: 'The Nabatean city of Avdat and the spring-fed Ein Avdat canyon.', image: '/images/sub-destinations/negev/avdat.jpg', query: 'Avdat Ein Avdat tour', priceFrom: 90, rating: 4.6, reviews: 210 },
+      { partner: 'getyourguide', title: 'Makhtesh Ramon Jeep & Hike', description: 'Descend into the world’s largest erosion crater with a desert guide.', image: '/images/sub-destinations/negev/mitzpe-ramon.jpg', query: 'Makhtesh Ramon jeep tour' },
+      { partner: 'civitatis', title: 'Negev Stargazing Experience', description: 'Guided night under some of Israel’s darkest skies with telescopes.', image: '/images/regions/negev/hero.jpg', query: 'Negev stargazing Mitzpe Ramon' },
+      { partner: 'viator', title: 'Avdat & Ein Avdat Desert Day', description: 'The Nabatean city of Avdat and the spring-fed Ein Avdat canyon.', image: '/images/sub-destinations/negev/avdat.jpg', query: 'Avdat Ein Avdat tour' },
     ],
   },
 
@@ -241,16 +236,16 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Winter (Dec–Feb)', verdict: 'Cool', note: 'Cool and occasionally wet; atmospheric at Christmas.' },
     ],
     hotels: [
-      { name: 'Fauzi Azar Inn', tier: 'value', rating: 4.7, priceFrom: 110, neighborhood: 'Old City', blurb: 'A 200-year-old Arab mansion turned beloved guesthouse with free walking tours.' },
-      { name: 'Al-Mutran Guest House', tier: 'value', rating: 4.5, priceFrom: 120, neighborhood: 'Old City', blurb: 'Restored Ottoman-era home with vaulted rooms in the heart of the souk.' },
-      { name: 'Golden Crown Hotel', tier: 'value', rating: 4.2, priceFrom: 130, neighborhood: 'Hilltop', blurb: 'Full-service hotel with valley views, popular with pilgrim groups.' },
-      { name: 'Villa Nazareth', tier: 'value', rating: 4.3, priceFrom: 100, neighborhood: 'City Centre', blurb: 'Comfortable mid-range base with a rooftop and easy basilica access.' },
-      { name: 'Abu Saeed Hostel', tier: 'hostel', rating: 4.3, priceFrom: 40, neighborhood: 'Old City', blurb: 'Simple, friendly rooms in a historic old-city building.' },
+      { name: 'Fauzi Azar Inn', tier: 'value', neighborhood: 'Old City', blurb: 'A 200-year-old Arab mansion turned beloved guesthouse with free walking tours.' },
+      { name: 'Al-Mutran Guest House', tier: 'value', neighborhood: 'Old City', blurb: 'Restored Ottoman-era home with vaulted rooms in the heart of the souk.' },
+      { name: 'Golden Crown Hotel', tier: 'value', neighborhood: 'Hilltop', blurb: 'Full-service hotel with valley views, popular with pilgrim groups.' },
+      { name: 'Villa Nazareth', tier: 'value', neighborhood: 'City Centre', blurb: 'Comfortable mid-range base with a rooftop and easy basilica access.' },
+      { name: 'Abu Saeed Hostel', tier: 'hostel', neighborhood: 'Old City', blurb: 'Simple, friendly rooms in a historic old-city building.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Nazareth & Sea of Galilee Day Tour', description: 'The Basilica of the Annunciation plus Capernaum and the Galilee shore.', image: '/images/sub-destinations/nazareth/basilica-of-the-annunciation.jpg', query: 'Nazareth Sea of Galilee tour', priceFrom: 85, rating: 4.6, reviews: 1310 },
-      { partner: 'civitatis', title: 'Nazareth Old City & Market Walk', description: 'A guided wander through the souk, churches and food stalls.', image: '/images/sub-destinations/nazareth/old-city.jpg', query: 'Nazareth old city walking tour', priceFrom: 30, rating: 4.7, reviews: 280 },
-      { partner: 'viator', title: 'Nazareth from Tel Aviv', description: 'Full-day guided trip to Nazareth and the Galilee Christian sites.', image: '/images/regions/nazareth/hero.jpg', query: 'Nazareth day trip Tel Aviv', priceFrom: 95, rating: 4.5, reviews: 540 },
+      { partner: 'getyourguide', title: 'Nazareth & Sea of Galilee Day Tour', description: 'The Basilica of the Annunciation plus Capernaum and the Galilee shore.', image: '/images/sub-destinations/nazareth/basilica-of-the-annunciation.jpg', query: 'Nazareth Sea of Galilee tour' },
+      { partner: 'civitatis', title: 'Nazareth Old City & Market Walk', description: 'A guided wander through the souk, churches and food stalls.', image: '/images/sub-destinations/nazareth/old-city.jpg', query: 'Nazareth old city walking tour' },
+      { partner: 'viator', title: 'Nazareth from Tel Aviv', description: 'Full-day guided trip to Nazareth and the Galilee Christian sites.', image: '/images/regions/nazareth/hero.jpg', query: 'Nazareth day trip Tel Aviv' },
     ],
   },
 
@@ -271,16 +266,16 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Winter (Dec–Feb)', verdict: 'Mild', note: 'Mild and green with rain spells; lowest prices.' },
     ],
     hotels: [
-      { name: 'Dan Carmel Haifa', tier: 'luxury', rating: 4.4, priceFrom: 260, neighborhood: 'Carmel Centre', blurb: 'Hilltop classic with panoramic bay views and a pool.' },
-      { name: 'The Bay Club', tier: 'value', rating: 4.5, priceFrom: 200, neighborhood: 'Downtown / Port', blurb: 'Stylish boutique in a restored building near the port and bars.' },
-      { name: 'Colony Hotel Haifa', tier: 'value', rating: 4.5, priceFrom: 190, neighborhood: 'German Colony', blurb: 'Boutique Templer-era building steps from the Bahá’í Gardens approach.' },
-      { name: 'Loui M. Boutique Hotel', tier: 'value', rating: 4.3, priceFrom: 150, neighborhood: 'German Colony', blurb: 'Well-priced boutique on the café-lined Ben Gurion Boulevard.' },
-      { name: 'Port Inn', tier: 'hostel', rating: 4.4, priceFrom: 45, neighborhood: 'Downtown', blurb: 'Long-running guesthouse with dorms, privates and a garden.' },
+      { name: 'Dan Carmel Haifa', tier: 'luxury', neighborhood: 'Carmel Centre', blurb: 'Hilltop classic with panoramic bay views and a pool.' },
+      { name: 'The Bay Club', tier: 'value', neighborhood: 'Downtown / Port', blurb: 'Stylish boutique in a restored building near the port and bars.' },
+      { name: 'Colony Hotel Haifa', tier: 'value', neighborhood: 'German Colony', blurb: 'Boutique Templer-era building steps from the Bahá’í Gardens approach.' },
+      { name: 'Loui M. Boutique Hotel', tier: 'value', neighborhood: 'German Colony', blurb: 'Well-priced boutique on the café-lined Ben Gurion Boulevard.' },
+      { name: 'Port Inn', tier: 'hostel', neighborhood: 'Downtown', blurb: 'Long-running guesthouse with dorms, privates and a garden.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Haifa, Akko & Caesarea Day Tour', description: 'The Bahá’í Gardens, Crusader Akko and Roman Caesarea in one guided day.', image: '/images/sub-destinations/haifa/bahai-gardens.jpg', query: 'Haifa Akko Caesarea tour', priceFrom: 95, rating: 4.6, reviews: 1480 },
-      { partner: 'civitatis', title: 'Bahá’í Gardens & German Colony Walk', description: 'A guided walk up the terraces and through the historic colony.', image: '/images/sub-destinations/haifa/german-colony.jpg', query: 'Bahai Gardens Haifa tour', priceFrom: 35, rating: 4.7, reviews: 420 },
-      { partner: 'viator', title: 'Northern Israel Day Trip from Tel Aviv', description: 'Caesarea, Haifa’s gardens and Akko on a full guided day.', image: '/images/regions/haifa/hero.jpg', query: 'Northern Israel Caesarea Haifa Akko', priceFrom: 99, rating: 4.6, reviews: 870 },
+      { partner: 'getyourguide', title: 'Haifa, Akko & Caesarea Day Tour', description: 'The Bahá’í Gardens, Crusader Akko and Roman Caesarea in one guided day.', image: '/images/sub-destinations/haifa/bahai-gardens.jpg', query: 'Haifa Akko Caesarea tour' },
+      { partner: 'civitatis', title: 'Bahá’í Gardens & German Colony Walk', description: 'A guided walk up the terraces and through the historic colony.', image: '/images/sub-destinations/haifa/german-colony.jpg', query: 'Bahai Gardens Haifa tour' },
+      { partner: 'viator', title: 'Northern Israel Day Trip from Tel Aviv', description: 'Caesarea, Haifa’s gardens and Akko on a full guided day.', image: '/images/regions/haifa/hero.jpg', query: 'Northern Israel Caesarea Haifa Akko' },
     ],
   },
 
@@ -301,15 +296,15 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Winter (Dec–Feb)', verdict: 'Snow', note: 'Cold with possible snow on Hermon; some trails close.' },
     ],
     hotels: [
-      { name: 'Mizpe Hayamim', tier: 'luxury', rating: 4.6, priceFrom: 380, neighborhood: 'Rosh Pina (gateway)', blurb: 'Organic-farm spa hotel with gardens and valley views near the Galilee/Golan edge.' },
-      { name: 'Ramot Resort Hotel', tier: 'value', rating: 4.3, priceFrom: 210, neighborhood: 'Sea of Galilee / Golan', blurb: 'Chalet-style resort on the slopes above the lake, well placed for the Golan.' },
-      { name: 'Hagoshrim Kibbutz Hotel', tier: 'value', rating: 4.2, priceFrom: 180, neighborhood: 'Upper Galilee', blurb: 'Riverside kibbutz hotel handy for Banias and the northern reserves.' },
-      { name: 'Genghis Khan in the Golan', tier: 'hostel', rating: 4.5, priceFrom: 60, neighborhood: 'Givat Yoav', blurb: 'Sleep in Mongolian-style yurts on a Golan ranch — a memorable budget stay.' },
+      { name: 'Mizpe Hayamim', tier: 'luxury', neighborhood: 'Rosh Pina (gateway)', blurb: 'Organic-farm spa hotel with gardens and valley views near the Galilee/Golan edge.' },
+      { name: 'Ramot Resort Hotel', tier: 'value', neighborhood: 'Sea of Galilee / Golan', blurb: 'Chalet-style resort on the slopes above the lake, well placed for the Golan.' },
+      { name: 'Hagoshrim Kibbutz Hotel', tier: 'value', neighborhood: 'Upper Galilee', blurb: 'Riverside kibbutz hotel handy for Banias and the northern reserves.' },
+      { name: 'Genghis Khan in the Golan', tier: 'hostel', neighborhood: 'Givat Yoav', blurb: 'Sleep in Mongolian-style yurts on a Golan ranch — a memorable budget stay.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Golan Heights & Wineries Day Tour', description: 'Viewpoints, Nimrod Fortress and a tasting at a boutique Golan winery.', image: '/images/sub-destinations/golan/mount-bental.jpg', query: 'Golan Heights wine tour', priceFrom: 110, rating: 4.7, reviews: 520 },
-      { partner: 'viator', title: 'Banias & Nimrod Fortress Hike', description: 'The Banias waterfall reserve and the cliff-top Nimrod Fortress.', image: '/images/sub-destinations/golan/banias.jpg', query: 'Banias Nimrod Fortress tour', priceFrom: 90, rating: 4.6, reviews: 240 },
-      { partner: 'civitatis', title: 'Golan & Galilee from Tiberias', description: 'A guided loop of northern viewpoints, springs and Druze villages.', image: '/images/regions/golan/hero.jpg', query: 'Golan Galilee day tour', priceFrom: 95, rating: 4.6, reviews: 300 },
+      { partner: 'getyourguide', title: 'Golan Heights & Wineries Day Tour', description: 'Viewpoints, Nimrod Fortress and a tasting at a boutique Golan winery.', image: '/images/sub-destinations/golan/mount-bental.jpg', query: 'Golan Heights wine tour' },
+      { partner: 'viator', title: 'Banias & Nimrod Fortress Hike', description: 'The Banias waterfall reserve and the cliff-top Nimrod Fortress.', image: '/images/sub-destinations/golan/banias.jpg', query: 'Banias Nimrod Fortress tour' },
+      { partner: 'civitatis', title: 'Golan & Galilee from Tiberias', description: 'A guided loop of northern viewpoints, springs and Druze villages.', image: '/images/regions/golan/hero.jpg', query: 'Golan Galilee day tour' },
     ],
   },
 
@@ -330,14 +325,14 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Winter (Dec–Feb)', verdict: 'Mild', note: 'Mild with rain spells; atmospheric and quiet.' },
     ],
     hotels: [
-      { name: 'Dan Caesarea', tier: 'luxury', rating: 4.4, priceFrom: 280, neighborhood: 'Caesarea', blurb: 'Resort hotel beside Israel’s only 18-hole golf course, near the ruins.' },
-      { name: 'Helena Sea Suites (Netanya)', tier: 'value', rating: 4.3, priceFrom: 160, neighborhood: 'Netanya (nearby)', blurb: 'Seafront suites a short drive south, a handy coastal base.' },
-      { name: 'Ramada Hadera', tier: 'value', rating: 4.1, priceFrom: 140, neighborhood: 'Hadera (nearby)', blurb: 'Practical mid-range option just north of the park.' },
+      { name: 'Dan Caesarea', tier: 'luxury', neighborhood: 'Caesarea', blurb: 'Resort hotel beside Israel’s only 18-hole golf course, near the ruins.' },
+      { name: 'Helena Sea Suites (Netanya)', tier: 'value', neighborhood: 'Netanya (nearby)', blurb: 'Seafront suites a short drive south, a handy coastal base.' },
+      { name: 'Ramada Hadera', tier: 'value', neighborhood: 'Hadera (nearby)', blurb: 'Practical mid-range option just north of the park.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Caesarea, Haifa & Akko Day Tour', description: 'Roman Caesarea, the Bahá’í Gardens and Crusader Akko in one guided day.', image: '/images/sub-destinations/caesarea/national-park.jpg', query: 'Caesarea Haifa Akko tour', priceFrom: 95, rating: 4.6, reviews: 1480 },
-      { partner: 'viator', title: 'Caesarea Maritima Guided Visit', description: 'The theatre, harbour and Crusader fortress with an expert guide.', image: '/images/sub-destinations/caesarea/harbour.jpg', query: 'Caesarea Maritima tour', priceFrom: 49, rating: 4.6, reviews: 360 },
-      { partner: 'civitatis', title: 'Coastal Israel from Tel Aviv', description: 'Caesarea’s ruins and the aqueduct beach on a relaxed coastal day.', image: '/images/regions/caesarea/hero.jpg', query: 'Caesarea coastal day trip', priceFrom: 85, rating: 4.5, reviews: 290 },
+      { partner: 'getyourguide', title: 'Caesarea, Haifa & Akko Day Tour', description: 'Roman Caesarea, the Bahá’í Gardens and Crusader Akko in one guided day.', image: '/images/sub-destinations/caesarea/national-park.jpg', query: 'Caesarea Haifa Akko tour' },
+      { partner: 'viator', title: 'Caesarea Maritima Guided Visit', description: 'The theatre, harbour and Crusader fortress with an expert guide.', image: '/images/sub-destinations/caesarea/harbour.jpg', query: 'Caesarea Maritima tour' },
+      { partner: 'civitatis', title: 'Coastal Israel from Tel Aviv', description: 'Caesarea’s ruins and the aqueduct beach on a relaxed coastal day.', image: '/images/regions/caesarea/hero.jpg', query: 'Caesarea coastal day trip' },
     ],
   },
 
@@ -358,15 +353,15 @@ export const REGION_DATA: Record<string, RegionData> = {
       { season: 'Winter (Dec–Feb)', verdict: 'Mild', note: 'Mild and quiet with occasional rain.' },
     ],
     hotels: [
-      { name: 'Efendi Hotel', tier: 'luxury', rating: 4.8, priceFrom: 400, neighborhood: 'Old City', blurb: 'Two restored Ottoman palaces merged into a museum-quality boutique inside the walls.' },
-      { name: 'Akkotel', tier: 'value', rating: 4.5, priceFrom: 180, neighborhood: 'Old City Wall', blurb: 'Family-run boutique built into the Crusader-era city wall.' },
-      { name: 'Knights Palace Hotel', tier: 'value', rating: 4.2, priceFrom: 150, neighborhood: 'Old City', blurb: 'Atmospheric stone hotel in the heart of the old city.' },
-      { name: 'HI Akko Knights Hostel', tier: 'hostel', rating: 4.1, priceFrom: 40, neighborhood: 'Old City', blurb: 'Well-located hostel a short walk from the Knights’ Halls and harbour.' },
+      { name: 'Efendi Hotel', tier: 'luxury', neighborhood: 'Old City', blurb: 'Two restored Ottoman palaces merged into a museum-quality boutique inside the walls.' },
+      { name: 'Akkotel', tier: 'value', neighborhood: 'Old City Wall', blurb: 'Family-run boutique built into the Crusader-era city wall.' },
+      { name: 'Knights Palace Hotel', tier: 'value', neighborhood: 'Old City', blurb: 'Atmospheric stone hotel in the heart of the old city.' },
+      { name: 'HI Akko Knights Hostel', tier: 'hostel', neighborhood: 'Old City', blurb: 'Well-located hostel a short walk from the Knights’ Halls and harbour.' },
     ],
     tours: [
-      { partner: 'getyourguide', title: 'Akko Old City & Knights’ Halls Tour', description: 'The Hospitaller fortress, Templar Tunnel and Turkish bazaar with a guide.', image: '/images/sub-destinations/akko/old-city.jpg', query: 'Akko old city Knights Halls tour', priceFrom: 39, rating: 4.7, reviews: 410 },
-      { partner: 'getyourguide', title: 'Haifa, Akko & Caesarea Day Tour', description: 'The classic northern-coast trio in one guided day from Tel Aviv.', image: '/images/sub-destinations/akko/hospitaller-knights.jpg', query: 'Akko Haifa Caesarea day tour', priceFrom: 95, rating: 4.6, reviews: 1480 },
-      { partner: 'civitatis', title: 'Akko Food & Bazaar Walk', description: 'Taste hummus, knafeh and fresh seafood through the old-city market.', image: '/images/sub-destinations/akko/khan-al-umdan.jpg', query: 'Akko food tour bazaar', priceFrom: 45, rating: 4.7, reviews: 230 },
+      { partner: 'getyourguide', title: 'Akko Old City & Knights’ Halls Tour', description: 'The Hospitaller fortress, Templar Tunnel and Turkish bazaar with a guide.', image: '/images/sub-destinations/akko/old-city.jpg', query: 'Akko old city Knights Halls tour' },
+      { partner: 'getyourguide', title: 'Haifa, Akko & Caesarea Day Tour', description: 'The classic northern-coast trio in one guided day from Tel Aviv.', image: '/images/sub-destinations/akko/hospitaller-knights.jpg', query: 'Akko Haifa Caesarea day tour' },
+      { partner: 'civitatis', title: 'Akko Food & Bazaar Walk', description: 'Taste hummus, knafeh and fresh seafood through the old-city market.', image: '/images/sub-destinations/akko/khan-al-umdan.jpg', query: 'Akko food tour bazaar' },
     ],
   },
 };
@@ -384,9 +379,9 @@ export function genericRegionData(slug: string, name: string, hero: string): Reg
     ],
     hotels: [],
     tours: [
-      { partner: 'getyourguide', title: `Top-rated ${name} tours`, description: `Browse the best-reviewed guided tours and day trips in ${name}.`, image: hero, query: `${name} Israel tour`, priceFrom: 45, rating: 4.6, reviews: 800 },
-      { partner: 'viator', title: `${name} day trips & experiences`, description: `Skip-the-line tickets and small-group experiences across ${name}.`, image: hero, query: `${name} Israel day trip`, priceFrom: 55, rating: 4.5, reviews: 600 },
-      { partner: 'civitatis', title: `${name} guided excursions`, description: `English-language guided excursions and activities in ${cap(name)}.`, image: hero, query: `${name} Israel excursion`, priceFrom: 39, rating: 4.6, reviews: 420 },
+      { partner: 'getyourguide', title: `Top-rated ${name} tours`, description: `Browse the best-reviewed guided tours and day trips in ${name}.`, image: hero, query: `${name} Israel tour` },
+      { partner: 'viator', title: `${name} day trips & experiences`, description: `Skip-the-line tickets and small-group experiences across ${name}.`, image: hero, query: `${name} Israel day trip` },
+      { partner: 'civitatis', title: `${name} guided excursions`, description: `English-language guided excursions and activities in ${cap(name)}.`, image: hero, query: `${name} Israel excursion` },
     ],
   };
 }

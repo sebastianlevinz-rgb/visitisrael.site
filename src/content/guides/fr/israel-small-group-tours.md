@@ -11,9 +11,6 @@ affiliateCtas:
     description: "TourRadar propose la plus grande sélection de circuits organisés en Israël — de 3 à 14 jours, en petit groupe (maximum 12 à 16 participants selon l'opérateur), avec des options hebdomadaires dans toutes les saisons. Filtres par taille de groupe, budget et style de voyage."
     image: /images/regions/jerusalem/old-city.jpg
     query: small group tour Israel
-    priceFrom: 800
-    rating: 4.7
-    reviews: 12000
     cta: Comparer les circuits multi-jours
   - partner: viator
     title: "Excursions en petit groupe depuis Jérusalem et Tel Aviv"

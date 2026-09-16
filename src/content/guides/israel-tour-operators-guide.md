@@ -13,24 +13,18 @@ affiliateCtas:
     description: 'Thousands of Israel experiences from verified operators — filter by free cancellation, rating and activity type to find the right tour for your trip.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel tour
-    rating: 4.7
-    reviews: 50000
     cta: Browse tours
   - partner: viator
     title: 'Book via Viator'
     description: "TripAdvisor's booking platform with the widest verified-review database for Israel tours — useful for checking a specific operator's track record before you commit."
     image: /images/regions/dead-sea/hero.jpg
     query: Israel guided tour
-    rating: 4.6
-    reviews: 35000
     cta: See tours
   - partner: abraham
     title: 'Abraham Tours — Budget to Mid-Range'
     description: 'The market leader for independent and budget travellers, running sociable small-group day tours from hostel hubs in Jerusalem, Tel Aviv, Haifa and Eilat.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel small group tour
-    rating: 4.8
-    reviews: 12000
     cta: See Abraham tours
 faqs:
   - question: Which Israel tour company is best?

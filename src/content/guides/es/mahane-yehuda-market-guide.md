@@ -11,14 +11,12 @@ affiliateCtas:
     description: "Recorre el Shuk con un guía local degustando burekas calientes, especias recién molidas, los legendarios rugelach de Marzipan, kanafeh y lo mejor del street food jerosolimitano. Una de las mañanas más memorables que puedes vivir en la ciudad."
     image: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
     query: Mahane Yehuda market food tour Jerusalem
-    priceFrom: 55
     cta: Ver tours gastronómicos
   - partner: viator
     title: "Recorrido por el Shuk y la Ciudad Vieja de Jerusalén"
     description: "Combina Machane Yehuda con el Barrio Musulmán — burekas y rugelach en el Shuk, luego el pasillo del hummus en la Ciudad Vieja. Media jornada con las experiencias gastronómicas más representativas de Jerusalén."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem food tour market Old City tasting
-    priceFrom: 49
     cta: Ver este tour
   - partner: booking
     title: "Hoteles cerca del Mercado Mahane Yehuda"

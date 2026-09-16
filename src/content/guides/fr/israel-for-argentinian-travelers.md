@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Explorez le Quartier juif de la Vieille Ville, les Tunnels du Mur occidental, Yad Vashem et le complexe de la synagogue Ben Zakkai avec un guide agréé par le Ministère du Tourisme israélien. Profondément émouvant pour les visiteurs juifs argentins dont les familles tracent leurs origines en Europe de l'Est, au Maroc et en Syrie."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Jewish heritage private tour
-    priceFrom: 85
-    rating: 4.9
-    reviews: 2400
     cta: Voir les circuits patrimoine Jérusalem
   - partner: booking
     title: "Hôtels en Israël"

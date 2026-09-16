@@ -11,16 +11,12 @@ affiliateCtas:
     description: 'Use Skyscanner to find the cash price baseline before redeeming miles — knowing the cash fare tells you whether an award redemption delivers good value for your route and dates.'
     image: /images/regions/tel-aviv/hero.jpg
     destination: Tel Aviv
-    rating: 4.6
-    reviews: 55000
     cta: Compare flights to Israel
   - partner: booking
     title: 'Hotels in Israel'
     description: 'Compare hotels in Tel Aviv, Jerusalem, the Dead Sea and Eilat. IHG, Marriott and Hilton all have properties in Israel — consider paying for one night with points and the rest in cash to stretch your rewards further.'
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.4
-    reviews: 40000
     cta: Browse hotels in Israel
 faqs:
   - question: How many miles does it cost to fly to Israel?

@@ -17,7 +17,6 @@ affiliateCtas:
     description: "Christliches Viertel, Via Dolorosa, Grabeskirche und Jüdisches Viertel mit einem vom israelischen Tourismusministerium lizenzierten Reiseführer erkunden. Ideal für irische Pilger, die für jeden Ort einen fundierten historischen und spirituellen Kontext wünschen."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Old City walking tour
-    priceFrom: 35
     cta: Jerusalem-Touren ansehen
   - partner: discovercars
     title: "Mietwagen in Israel — Galiläa im eigenen Tempo entdecken"

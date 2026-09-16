@@ -11,8 +11,6 @@ affiliateCtas:
     description: "DiscoverCars busca entre todas las grandes empresas de alquiler que operan en Israel — autocaravanas, 4x4 y coches estándar — en el aeropuerto Ben Gurión y en ciudad. Cancelación gratuita en la mayoría de los vehículos. Compara tarifas diarias, kilómetros y niveles de seguro en un clic."
     image: /images/regions/negev/desert.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: "Comparar autocaravanas y coches"
   - partner: booking
     title: "Campings y alojamientos de respaldo en Israel"

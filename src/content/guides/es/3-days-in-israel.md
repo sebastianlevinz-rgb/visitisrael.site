@@ -17,9 +17,6 @@ affiliateCtas:
     description: 'La forma más eficiente de cubrir el Día 2 de este itinerario sin alquilar coche: autocar guiado desde Jerusalén o Tel Aviv hasta Masada (llegando antes del amanecer para el ascenso) y el Mar Muerto, con regreso por la tarde. Los hoteles de ambas ciudades son puntos de recogida.'
     image: /images/regions/dead-sea/hero.jpg
     query: Masada Dead Sea day tour from Jerusalem
-    priceFrom: 65
-    rating: 4.8
-    reviews: 5200
     cta: Ver tours a Masada y el Mar Muerto
   - partner: booking
     title: Hoteles en Jerusalén para una Base de 3 Días

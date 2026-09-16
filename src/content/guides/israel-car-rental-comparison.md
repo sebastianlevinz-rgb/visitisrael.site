@@ -11,16 +11,12 @@ affiliateCtas:
     description: 'DiscoverCars aggregates Eldan, Hertz, Avis, Sixt, Budget, Europcar and more — compare prices, pick up at Ben Gurion or any city office, and book with free cancellation on most cars.'
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare car rentals
   - partner: rentalcars
     title: 'Ben Gurion Airport Car Hire'
     description: 'Wide choice from the Ben Gurion Airport rental hall. Filter by automatic, family car, SUV or 4x4 and book with no hidden fees.'
     image: /images/regions/galilee/hero.jpg
     destination: Ben Gurion Airport
-    rating: 4.5
-    reviews: 30000
     cta: Find a car
 faqs:
   - question: Which car rental company is best in Israel?

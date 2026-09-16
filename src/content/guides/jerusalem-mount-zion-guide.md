@@ -13,18 +13,12 @@ affiliateCtas:
     description: 'A licensed guide leads you through the Armenian Quarter to Mount Zion, covering the Cenacle (Upper Room), King David''s Tomb, and Dormition Abbey with theological and historical commentary. Small English groups; flexible morning departures.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Mount Zion Upper Room guided walking tour
-    priceFrom: 35
-    rating: 4.7
-    reviews: 1240
     cta: See Mount Zion tours
   - partner: viator
     title: 'Jerusalem Christian Sites Private Tour (Mount Zion + Old City)'
     description: 'Private guide covering Mount Zion''s three pilgrimage sites plus the Church of the Holy Sepulchre and Via Dolorosa in one full day. Hotel pickup, flexible pace, English commentary.'
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Jerusalem Christian sites private tour Mount Zion Holy Sepulchre
-    priceFrom: 90
-    rating: 4.8
-    reviews: 870
     cta: Browse private tours
   - partner: booking
     title: 'Jerusalem Old City & Armenian Quarter Hotels'

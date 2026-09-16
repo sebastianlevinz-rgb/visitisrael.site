@@ -13,18 +13,12 @@ affiliateCtas:
     description: 'A licensed guide walks you through all four Old City quarters — Jewish, Christian, Muslim and Armenian — with the Western Wall, Via Dolorosa and Church of the Holy Sepulchre as centrepieces. Small groups, English commentary.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City four quarters walking tour
-    priceFrom: 49
-    rating: 4.8
-    reviews: 4120
     cta: See walking tours
   - partner: viator
     title: 'Jerusalem Old City Private Walking Tour'
     description: 'Private Old City tour at your own pace — Jewish Quarter archaeology, Western Wall, Via Dolorosa and the Holy Sepulchre with your own licensed guide. Flexible start times and hotel pickup available.'
     image: /images/regions/jerusalem/western-wall.jpg
     query: Jerusalem Old City private guided walking tour
-    priceFrom: 79
-    rating: 4.7
-    reviews: 2580
     cta: Browse private tours
   - partner: abraham
     title: 'Jerusalem Old City Walking Tour (Abraham Tours)'

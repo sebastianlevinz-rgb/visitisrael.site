@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Reserva un guía certificado por el Ministerio de Turismo israelí para Jerusalén, Galilea, el Mar Muerto o un viaje privado de varios días — tu propio experto, a tu propio ritmo."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel private tour guide
-    priceFrom: 80
-    rating: 4.8
-    reviews: 52000
     cta: Ver guías privados
   - partner: discovercars
     title: "Alquila un Coche para Viajar Independiente por Israel"
     description: "Compara todas las empresas de alquiler principales en Israel — cancelación gratuita en la mayoría de los coches. Imprescindible para Galilea, el Golán y el Néguev."
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Comparar alquileres de coches
 faqs:
   - question: "¿Necesito un guía para visitar el Muro de los Lamentos?"

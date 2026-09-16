@@ -18,7 +18,9 @@
     "photos:og": "node scripts/photos/gen-og.mjs",
     "qa:shots": "node scripts/qa/screenshots.mjs",
     "check:links": "node scripts/qa/check-links.mjs",
-    "test:e2e": "playwright test"
+    "test:e2e": "playwright test",
+    "check:affiliates": "node scripts/qa/affiliate-guard.mjs",
+    "test:qa": "node --test \"scripts/qa/__tests__/*.test.mjs\""
   },
   "dependencies": {
     "@astrojs/rss": "^4.0.18",

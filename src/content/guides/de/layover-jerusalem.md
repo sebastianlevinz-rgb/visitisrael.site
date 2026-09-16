@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'Speziell auf Stopover-Gäste zugeschnittene Touren starten vom Flughafenbereich und bringen Sie rechtzeitig zurück. Altstadtrundgänge, Klagemauer+Grabeskirche-Kombis und private Halbtagsoptionen verfügbar.'
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem layover tour from airport
-    priceFrom: 55
-    rating: 4.8
-    reviews: 8600
     cta: Jerusalem-Stopover-Touren ansehen
   - partner: welcomepickups
     title: 'Flughafentransfer nach Jerusalem vorbuchen'

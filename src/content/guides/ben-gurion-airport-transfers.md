@@ -11,24 +11,18 @@ affiliateCtas:
     description: 'A driver meets you at arrivals and takes you door-to-door to your hotel — flight tracked, fixed price, any hour including Shabbat.'
     image: /images/regions/tel-aviv/hero.jpg
     destination: Ben Gurion Airport
-    rating: 4.8
-    reviews: 9000
     cta: Book a transfer
   - partner: kiwitaxi
     title: 'Pre-Booked Taxi & Shuttle'
     description: 'Compare private cars and shuttles from TLV to Tel Aviv, Jerusalem and beyond, with up-front pricing.'
     image: /images/regions/jerusalem/hero.jpg
     destination: Ben Gurion Airport
-    rating: 4.6
-    reviews: 4200
     cta: Compare transfers
   - partner: getyourguide
     title: 'Shared Shuttle — Ben Gurion to Tel Aviv or Jerusalem'
     description: 'Book a seat on a scheduled shared shuttle van from Ben Gurion Airport. Fixed departure times, multiple drop-off points, no waiting for full vans.'
     image: /images/regions/tel-aviv/hero.jpg
     destination: Ben Gurion Airport transfer
-    rating: 4.5
-    reviews: 3100
     cta: Book a shared shuttle
 faqs:
   - question: How do I get from Ben Gurion Airport to Tel Aviv?

@@ -11,18 +11,12 @@ affiliateCtas:
     description: 'Walk the Jewish Quarter and Western Wall plaza with a licensed guide — covering the archaeology of the Herodian stones, prayer etiquette, and the full Old City context. Small groups, English commentary.'
     image: /images/regions/jerusalem/western-wall.jpg
     query: Jerusalem Old City Western Wall guided tour
-    priceFrom: 45
-    rating: 4.9
-    reviews: 3820
     cta: See Old City tours
   - partner: viator
     title: 'Jerusalem Private Walking Tour — Old City & Western Wall'
     description: 'Your own licensed guide for the Old City, Western Wall and Jewish Quarter. Flexible start times, hotel pickup, and full cultural context for Jewish, Christian and secular visitors.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City private guided walking tour Western Wall
-    priceFrom: 79
-    rating: 4.8
-    reviews: 2140
     cta: Browse private tours
 faqs:
   - question: What are the Western Wall opening hours?

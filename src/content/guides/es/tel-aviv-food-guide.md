@@ -11,18 +11,12 @@ affiliateCtas:
     description: "Recorre el Mercado Carmel y los callejones del Jaffa antiguo con un guía foodie local — degustaciones incluidas en cada parada."
     image: /images/sub-destinations/tel-aviv/carmel-market.jpg
     query: Tel Aviv food tour
-    priceFrom: 79
-    rating: 4.9
-    reviews: 1840
     cta: Reservar un tour gastronómico
   - partner: getyourguide
     title: "Recorrido de degustación por el Mercado Carmel"
     description: "Un paseo guiado por el mercado más famoso de Tel Aviv — especias, productos horneados, hummus y comida callejera con una guía experta."
     image: /images/sub-destinations/tel-aviv/florentin.jpg
     query: Carmel Market food tour Tel Aviv
-    priceFrom: 49
-    rating: 4.8
-    reviews: 920
     cta: Ver degustaciones
 faqs:
   - question: "¿Por qué es famosa la comida de Tel Aviv?"

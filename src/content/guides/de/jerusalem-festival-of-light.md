@@ -11,7 +11,6 @@ affiliateCtas:
     description: "Abendliche Stadtführungen durch die Altstadt Jerusalems — mit Ortskundigen, die die besten Aussichtspunkte kennen, die Geschichte hinter den beleuchteten Stätten erklären und die stillen Gassen zeigen, die die Massen verpassen."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City night tour evening
-    priceFrom: 35
     cta: Jerusalemer Abendtouren ansehen
   - partner: booking
     title: "Jerusalem Hotels — Frühzeitig für das Festivalwochenende buchen"

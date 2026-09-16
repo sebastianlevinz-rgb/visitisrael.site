@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'A personalised full-day tour of Jerusalem — Old City, Via Dolorosa, Church of the Holy Sepulchre, Western Wall and Mount of Olives — with a licensed Israeli Ministry of Tourism guide. Tailored for Polish visitors, including sites connected to the history of Polish Jews and Christian pilgrimage routes.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel private guided Jerusalem tour
-    priceFrom: 75
-    rating: 4.9
-    reviews: 3100
     cta: See Jerusalem tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation'

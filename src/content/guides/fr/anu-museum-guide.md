@@ -17,7 +17,6 @@ affiliateCtas:
     description: "Combinez votre visite du musée ANU avec une promenade culturelle guidée dans le campus de Ramat Aviv ou une journée complète consacrée au patrimoine juif de Tel Aviv — guides locaux certifiés, petit groupe."
     image: /images/sub-destinations/tel-aviv/tel-aviv-museum.jpg
     query: Tel Aviv Jewish heritage tour ANU museum
-    priceFrom: 29
     cta: Voir les visites du patrimoine de Tel Aviv
   - partner: booking
     title: "Hôtels au nord de Tel Aviv — Près du musée ANU"

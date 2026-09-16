@@ -1,11 +1,55 @@
 // @ts-check
 import { readdirSync, readFileSync } from 'node:fs';
+import { fileURLToPath } from 'node:url';
 import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 import pagefind from 'astro-pagefind';
 import tailwindcss from '@tailwindcss/vite';
+import { scanDist, formatReport } from './scripts/qa/affiliate-guard.mjs';
 
 const SITE = 'https://visitisrael.site';
+
+// --- Affiliate guard -----------------------------------------------------------
+// Reads the built HTML (what people receive, not the code) after every build.
+// A placeholder ID like `aid=BOOKING_AID` fails the build in every mode; in
+// production mode a partner link without an affiliate ID fails it too. In
+// pre-approval mode it prints "MODO PRE-AFILIADO — N links sin monetizar".
+/** PUBLIC_AFFILIATE_MODE from the environment (Vercel) or a local .env file. */
+function affiliateMode() {
+  let value = process.env.PUBLIC_AFFILIATE_MODE;
+  if (value === undefined) {
+    for (const file of ['.env.production', '.env']) {
+      try {
+        const m = readFileSync(file, 'utf8').match(/^PUBLIC_AFFILIATE_MODE\s*=\s*["']?([^"'\r\n]*)/m);
+        if (m) {
+          value = m[1];
+          break;
+        }
+      } catch {
+        // No such file: keep looking.
+      }
+    }
+  }
+  return value === 'production' ? 'production' : 'pre';
+}
+
+function affiliateGuard() {
+  return {
+    name: 'affiliate-guard',
+    hooks: {
+      /** @param {{ dir: URL, logger: import('astro').AstroIntegrationLogger }} ctx */
+      'astro:build:done': ({ dir, logger }) => {
+        const mode = affiliateMode();
+        const report = scanDist(fileURLToPath(dir), mode);
+        for (const line of formatReport(report)) {
+          if (report.ok) logger.info(line);
+          else logger.error(line);
+        }
+        if (!report.ok) throw new Error(`affiliate-guard: ${report.errors.join(' | ')}`);
+      },
+    },
+  };
+}
 
 // --- Sitemap <lastmod> from content `updatedAt` -------------------------------
 // @astrojs/sitemap emits no <lastmod> by default. We build a path → ISO-date map
@@ -101,6 +145,7 @@ export default defineConfig({
         return item;
       },
     }),
+    affiliateGuard(),
     pagefind(),
   ],
   image: {

@@ -11,24 +11,18 @@ affiliateCtas:
     description: "Explora camas en dormitorio y habitaciones privadas en los hosteles israelíes con mejor valoración. Abraham Hostel (Jerusalén, Tel Aviv, Nazaret), Hayarkon 48 (playa de Tel Aviv) y Porto Hostel (Jaffa) lideran los rankings de viajeros e incluyen guardaequipajes, cocina compartida y tours sociales gratuitos."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Israel
-    rating: 4.5
-    reviews: 12000
     cta: Ver hosteles económicos
   - partner: booking
     title: "Hoteles de gama media en Israel"
     description: "Compara hoteles de 3 y 4 estrellas en Tel Aviv, Jerusalén y el Mar Muerto. Filtra por puntuación, cancelación gratuita y desayuno incluido para encontrar la mejor relación calidad-precio para tus fechas."
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.4
-    reviews: 40000
     cta: Comparar hoteles
   - partner: tourradar
     title: "Tours privados y de lujo a Israel"
     description: "Tours privados con guía y circuitos en grupo reducido con hoteles de 5 estrellas, choferes privados y guías locales expertos incluidos. TourRadar lista tanto operadores independientes como grandes marcas para que puedas comparar itinerarios en un solo lugar."
     image: /images/regions/dead-sea/hero.jpg
     destination: Israel
-    rating: 4.7
-    reviews: 9500
     cta: Explorar tours con guía
 faqs:
   - question: "¿Es caro viajar a Israel?"

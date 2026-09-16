@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Comparez des centaines de voyages guidés en petit groupe en Israël avec les meilleurs opérateurs — avis vérifiés et réservation instantanée."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    rating: 4.7
-    reviews: 15000
     cta: Comparer les formules
   - partner: abraham
     title: "Circuits Israël pour voyageurs indépendants"
     description: "Circuits multi-jours et combinés Pétra-Sinaï dans un esprit convivial et flexible, adaptés aux voyageurs souhaitant une ambiance internationale."
     image: /images/regions/dead-sea/hero.jpg
     query: Israel multi-day
-    priceFrom: 199
-    rating: 4.6
-    reviews: 5400
     cta: Voir les séjours
 faqs:
   - question: "Les circuits guidés multi-jours en Israël valent-ils la peine ?"

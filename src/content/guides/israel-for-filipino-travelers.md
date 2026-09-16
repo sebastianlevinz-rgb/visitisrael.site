@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'Guided circuits through the Holy Land — Via Dolorosa, Church of the Holy Sepulchre, Nazareth Basilica of the Annunciation, Sea of Galilee boat, Jordan River baptism renewal and Bethlehem — with licensed Israeli Ministry of Tourism guides. Popular with Filipino Catholic pilgrimage groups from Metro Manila, Cebu and Davao.'
     image: /images/regions/nazareth/basilica.jpg
     query: Israel Christian pilgrimage Holy Land tour
-    priceFrom: 75
-    rating: 4.8
-    reviews: 3100
     cta: See Holy Land tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation for Your Trip'

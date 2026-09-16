@@ -11,16 +11,12 @@ affiliateCtas:
     description: 'Busque en todas las principales empresas de alquiler en Israel a la vez y reserve al mejor precio, con cancelación gratuita en la mayoría de los coches.'
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Comparar coches
   - partner: rentalcars
     title: 'Alquiler de Coche en el Aeropuerto Ben Gurion'
     description: 'Recoja en el Aeropuerto Ben Gurion y devuelva en la ciudad — amplia oferta y condiciones flexibles.'
     image: /images/regions/galilee/hero.jpg
     destination: Ben Gurion Airport
-    rating: 4.5
-    reviews: 30000
     cta: Buscar un coche
 faqs:
   - question: '¿Necesito alquilar un coche en Israel?'

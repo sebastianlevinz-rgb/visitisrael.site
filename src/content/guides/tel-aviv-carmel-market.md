@@ -11,14 +11,12 @@ affiliateCtas:
     description: 'Graze through Shuk HaCarmel with a local guide — spices, fresh-squeezed pomegranate juice, warm burekas, knafeh and the story behind every stall. One of the best morning hours you can spend in Tel Aviv.'
     image: /images/sub-destinations/tel-aviv/carmel-market.jpg
     query: Carmel Market food tour Tel Aviv
-    priceFrom: 49
     cta: Browse food tours
   - partner: civitatis
     title: 'Tel Aviv & Old Jaffa Food Tour'
     description: 'The classic Tel Aviv eating day — Carmel Market in the morning, then hummus at Abu Hassan and Abouelafia bakery in the lanes of Old Jaffa. Tastings included throughout.'
     image: /images/sub-destinations/tel-aviv/old-jaffa.jpg
     query: Tel Aviv Jaffa food tour market
-    priceFrom: 69
     cta: Book a food tour
 faqs:
   - question: What are Carmel Market opening hours?

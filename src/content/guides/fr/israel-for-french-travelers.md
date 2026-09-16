@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Des pensions de Jérusalem aux hôtels boutique de Tel Aviv et aux complexes balnéaires d'Eilat — tarifs en temps réel en euros avec annulation gratuite sur la plupart des réservations."
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 40000
     cta: Voir les hôtels en Israël
   - partner: getyourguide
     title: "Visites et expériences"
     description: "Visites guidées de Jérusalem, food tours de Tel Aviv, excursions à la mer Morte et promenades du patrimoine séfarade dans la Vieille Ville et Safed — tout réservable en euros."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Voir les visites en Israël
   - partner: discovercars
     title: "Location de voiture en Israël"

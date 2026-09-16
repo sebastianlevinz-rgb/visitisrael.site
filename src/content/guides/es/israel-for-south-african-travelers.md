@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Explora la Ciudad Vieja de Jerusalem, la Via Dolorosa, el Muro de los Lamentos y el Barrio Judio con un guia turistico licenciado por el Ministerio de Turismo de Israel. Disponible en ingles. Ideal para primera visita desde Sudafrica."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem guided tour
-    priceFrom: 55
-    rating: 4.8
-    reviews: 2900
     cta: Ver tours en Israel
   - partner: booking
     title: "Hoteles en Israel"

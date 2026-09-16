@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Circuits de pèlerinage guidés à travers la Terre Sainte — Nazareth, la mer de Galilée, Bethléem, la Via Dolorosa et le Jourdain — avec des guides agréés par le Ministère du Tourisme israélien. Populaires auprès des voyageurs du Kerala, du Tamil Nadu et de Goa."
     image: /images/regions/nazareth/hero.jpg
     query: Israel Christian pilgrimage Holy Land tour
-    priceFrom: 75
-    rating: 4.8
-    reviews: 3100
     cta: Voir les circuits Terre Sainte
   - partner: discovercars
     title: "Comparer la location de voiture à Ben Gourion"

@@ -11,16 +11,12 @@ affiliateCtas:
     description: "Recherchez en une fois toutes les grandes sociétés de location en Israël et réservez au meilleur prix, avec annulation gratuite sur la plupart des véhicules."
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Comparer les voitures
   - partner: rentalcars
     title: "Location à l'aéroport Ben Gourion"
     description: "Prise en charge à l'aéroport Ben Gourion et retour en ville — large choix et conditions flexibles."
     image: /images/regions/galilee/hero.jpg
     destination: Ben Gurion Airport
-    rating: 4.5
-    reviews: 30000
     cta: Trouver une voiture
 faqs:
   - question: "Ai-je besoin de louer une voiture en Israël ?"

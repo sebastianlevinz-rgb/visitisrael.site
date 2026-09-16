@@ -11,7 +11,6 @@ affiliateCtas:
     description: 'Guided evening tours of the Old City — walking the festival route with a local guide who knows the best vantage points, the history behind each illuminated site, and the quiet alleys the crowds miss. Available during and outside the festival season.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City night tour evening
-    priceFrom: 35
     cta: Browse Jerusalem evening tours
   - partner: booking
     title: 'Jerusalem Hotels — Book Early for Festival Week'

@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Entdecken Sie das Christliche Viertel, die Via Dolorosa, die Grabeskirche und das Jüdische Viertel mit einem vom israelischen Tourismusministerium zugelassenen Reiseleiter — ideal für italienische Pilger und Kulturreisende."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem private tour Holy Land
-    priceFrom: 45
-    rating: 4.9
-    reviews: 2800
     cta: Jerusalem-Touren ansehen
   - partner: discovercars
     title: "Mietwagen in Israel vergleichen — Galiläa und Negev erkunden"

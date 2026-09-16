@@ -11,16 +11,12 @@ affiliateCtas:
     description: 'Search every major rental company in Israel at once and book the best price, with free cancellation on most cars.'
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare cars
   - partner: rentalcars
     title: 'Ben Gurion Airport Car Hire'
     description: 'Pick up at Ben Gurion Airport and drop off in the city — wide choice and flexible terms.'
     image: /images/regions/galilee/hero.jpg
     destination: Ben Gurion Airport
-    rating: 4.5
-    reviews: 30000
     cta: Find a car
 faqs:
   - question: Do I need to rent a car in Israel?

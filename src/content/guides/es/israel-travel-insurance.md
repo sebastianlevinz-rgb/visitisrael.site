@@ -10,8 +10,6 @@ affiliateCtas:
     title: 'Seguro Médico de Viaje Nómada'
     description: 'Cobertura médica de viaje flexible que puede contratar por semanas o meses, incluso si ya está en el extranjero — popular entre viajeros de larga duración y trabajadores remotos.'
     image: /images/regions/galilee/hero.jpg
-    rating: 4.5
-    reviews: 12000
     cta: Obtener una cotización
 faqs:
   - question: '¿Necesito un seguro de viaje para Israel?'

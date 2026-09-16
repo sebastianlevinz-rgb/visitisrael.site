@@ -11,18 +11,12 @@ affiliateCtas:
     description: "Durch das Muslimische Viertel zu Abu Shukri, dann zum Machane-Yehuda-Markt und Azura — der Doppelstop für Hummus in Jerusalem mit einem Guide, der die Geschichte jeder Adresse kennt. Degustation inklusive."
     image: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
     query: Jerusalem hummus food tour Old City market
-    priceFrom: 55
-    rating: 4.8
-    reviews: 1180
     cta: Hummus-Tour buchen
   - partner: viator
     title: "Kulinarische Tour Jaffa und Tel Aviv"
     description: "Morgens bei Abu Hassan in Jaffa beginnen, dann durch die Altstadt, den Flohmarkt und den Karmelmarkt — der vollständige Gastronomie-Tag Tel Avivs."
     image: /images/regions/tel-aviv/jaffa.jpg
     query: Jaffa Tel Aviv street food tour hummus
-    priceFrom: 49
-    rating: 4.7
-    reviews: 840
     cta: Kulinarische Tour buchen
 faqs:
   - question: "Wie unterscheidet sich israelischer Hummus von Supermarkt-Hummus?"

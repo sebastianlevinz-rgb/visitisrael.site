@@ -11,26 +11,18 @@ affiliateCtas:
     description: 'Tausende bestbewertete geführte Touren, Tagesausflüge und Skip-the-Line-Tickets in ganz Israel mit kostenloser Stornierung.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Touren entdecken
   - partner: viator
     title: 'Tagesausflüge und Exkursionen'
     description: 'Kleingruppen- und Privatausflüge nach Masada, zum Toten Meer, nach Galiläa und Petra, mit verifizierten Bewertungen.'
     image: /images/regions/dead-sea/hero.jpg
     query: Israel day trip
-    priceFrom: 45
-    rating: 4.6
-    reviews: 30000
     cta: Ausflüge ansehen
   - partner: tiqets
     title: 'Skip-the-Line-Tickets für Sehenswürdigkeiten'
     description: 'Sofortige mobile Tickets für Museen und Sehenswürdigkeiten in Israel — Warteschlange überspringen und direkt eintreten.'
     image: /images/sub-destinations/jerusalem/tower-of-david.jpg
     query: Israel
-    rating: 4.6
-    reviews: 8000
     cta: Tickets holen
 faqs:
   - question: Was sind die besten Touren in Israel?

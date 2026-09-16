@@ -11,8 +11,6 @@ affiliateCtas:
     description: "Un coche de alquiler te abre todas las rutas de esta lista. DiscoverCars busca todas las principales compañías de alquiler en el Aeropuerto Ben Gurión y en recogidas en la ciudad de Tel Aviv — Hertz, Sixt, Avis, Europcar y operadores locales israelíes — de forma simultánea. Cancelación gratuita en la mayoría de las reservas; filtra por cambio automático, kilometraje ilimitado y devolución en otro punto."
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Comparar coches
   - partner: booking
     title: "Hoteles a lo largo de la ruta — Booking.com"

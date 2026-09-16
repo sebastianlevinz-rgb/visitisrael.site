@@ -13,27 +13,18 @@ affiliateCtas:
     description: "L'excursion la plus proche depuis Haïfa — la cité des Croisés classée à l'UNESCO, les tunnels souterrains et le port antique d'Akko en 4 à 5 heures."
     image: /images/regions/akko/old-city.jpg
     query: Akko Acre day trip from Haifa
-    priceFrom: 49
-    rating: 4.7
-    reviews: 860
     cta: Voir ce circuit
   - partner: viator
     title: "Rosh Hanikra et les grottes marines"
     description: "Les grottes de craie blanche à la frontière libanaise — descente en téléphérique jusqu'aux cavernes marines — en demi-journée depuis Haïfa."
     image: /images/regions/haifa/hero.jpg
     query: Rosh Hanikra tour from Haifa
-    priceFrom: 69
-    rating: 4.6
-    reviews: 440
     cta: Voir ce circuit
   - partner: civitatis
     title: "Ruines romaines de Césarée"
     description: "L'amphithéâtre romain spectaculaire, le port hérodien et la plage de l'aqueduc — en demi-journée au sud de Haïfa."
     image: /images/sub-destinations/caesarea/national-park.jpg
     query: Caesarea tour from Haifa
-    priceFrom: 55
-    rating: 4.6
-    reviews: 510
     cta: Voir ce circuit
 faqs:
   - question: "Quelle est la meilleure excursion à la journée depuis Haïfa ?"

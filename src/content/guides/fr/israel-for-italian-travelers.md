@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Explorez le Quartier chrétien, la Via Dolorosa, l'Église du Saint-Sépulcre et le Quartier juif avec un guide agréé par le Ministère du Tourisme israélien — idéal pour les pèlerins italiens et les voyageurs en quête de patrimoine."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem private tour Holy Land
-    priceFrom: 45
-    rating: 4.9
-    reviews: 2800
     cta: Voir les circuits Jérusalem
   - partner: discovercars
     title: "Location de voiture en Israël — Explorez la Galilée et le Néguev"

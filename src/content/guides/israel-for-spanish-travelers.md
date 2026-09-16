@@ -11,17 +11,12 @@ affiliateCtas:
     description: 'From Jerusalem guesthouses to Tel Aviv boutique hotels and Eilat beach resorts — live rates in euros with free cancellation on most bookings.'
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 40000
     cta: Browse Israel hotels
   - partner: getyourguide
     title: 'Tours & Experiences'
     description: 'Guided tours of Jerusalem, Tel Aviv food tours, Dead Sea day trips, and Sephardic heritage walks in the Old City and Safed — all bookable in euros.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Browse Israel tours
   - partner: discovercars
     title: 'Car Rental in Israel'

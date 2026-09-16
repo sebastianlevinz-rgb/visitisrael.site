@@ -17,7 +17,6 @@ affiliateCtas:
     description: "Un dia de guia personalizado en Jerusalen, Tel Aviv o la Galilea con un guia certificado por el Ministerio de Turismo israelí — adaptado a tus intereses, ritmo e itinerario."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel private guided tour
-    priceFrom: 120
     cta: Ver tours privados
   - partner: safetywing
     title: "Seguro de viaje internacional"

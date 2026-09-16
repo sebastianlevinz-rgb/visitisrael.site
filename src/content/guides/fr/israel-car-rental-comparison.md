@@ -11,16 +11,12 @@ affiliateCtas:
     description: "DiscoverCars agrège Eldan, Hertz, Avis, Sixt, Budget, Europcar et plus encore — comparez les prix, prenez la voiture à Ben Gourion ou en ville, et réservez avec annulation gratuite sur la plupart des véhicules."
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: "Comparer les locations de voiture"
   - partner: rentalcars
     title: "Location de voiture à l'aéroport Ben Gourion"
     description: "Large choix depuis le hall des loueurs de Ben Gourion. Filtrez par automatique, familiale, SUV ou 4x4 et réservez sans frais cachés."
     image: /images/regions/galilee/hero.jpg
     destination: Ben Gurion Airport
-    rating: 4.5
-    reviews: 30000
     cta: "Trouver une voiture"
 faqs:
   - question: "Quelle société de location est la meilleure en Israël ?"

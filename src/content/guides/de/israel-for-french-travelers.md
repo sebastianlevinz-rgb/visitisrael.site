@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Von Jerusalemer Altstadtgästehäusern über Tel-Aviver Boutiquehotels bis zu Eilat-Strandresorts — Live-Preise in Euro mit kostenloser Stornierung bei den meisten Buchungen."
     image: /images/regions/jerusalem/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 40000
     cta: Israel-Hotels durchsuchen
   - partner: getyourguide
     title: "Touren & Erlebnisse"
     description: "Geführte Touren durch Jerusalem, Tel-Aviv-Food-Touren, Totes-Meer-Tagesausflüge und sephardische Kulturerbe-Spaziergänge in der Altstadt und Safed — alle in Euro buchbar."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Israel-Touren durchsuchen
   - partner: discovercars
     title: "Mietwagen in Israel"

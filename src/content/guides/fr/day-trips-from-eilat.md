@@ -13,27 +13,18 @@ affiliateCtas:
     description: "Traversez la frontière de Wadi Araba vers la Jordanie et parcourez le célèbre Siq de Pétra jusqu'au Trésor — l'excursion transfrontalière incontournable depuis Eilat. Les circuits guidés gèrent toute la logistique."
     image: /images/regions/eilat/hero.jpg
     query: Petra day trip from Eilat Israel
-    priceFrom: 179
-    rating: 4.7
-    reviews: 1240
     cta: Voir les circuits Pétra
   - partner: viator
     title: "Safari jeep au coucher du soleil à Timna"
     description: "Un circuit jeep guidé autour des piliers de grès de Timna, des anciennes mines de cuivre et des Piliers de Salomon au crépuscule — à 25 km au nord d'Eilat dans le désert de l'Arava."
     image: /images/regions/eilat/timna-park.jpg
     query: Timna Park jeep tour from Eilat
-    priceFrom: 69
-    rating: 4.6
-    reviews: 380
     cta: Voir les circuits Timna
   - partner: getyourguide
     title: "Bateau à fond de verre et snorkeling en mer Rouge"
     description: "Naviguez au-dessus du récif corallien d'Eilat dans un bateau à fond de verre — tortues, poissons-perroquets et formations coralliennes visibles sans se mouiller — puis plongez masque et tuba."
     image: /images/regions/eilat/coral-beach.jpg
     query: Eilat glass bottom boat Red Sea snorkel tour
-    priceFrom: 35
-    rating: 4.5
-    reviews: 890
     cta: Voir les circuits nautiques
 faqs:
   - question: "Quelle est la meilleure excursion depuis Eilat ?"

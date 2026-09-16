@@ -11,27 +11,18 @@ affiliateCtas:
     description: "Der Klassiker ab Jerusalem — Sonnenaufgang auf der Festung, die Ein-Gedi-Oase und ein Bad im Toten Meer."
     image: /images/sub-destinations/dead-sea/masada.jpg
     query: Masada Dead Sea from Jerusalem
-    priceFrom: 95
-    rating: 4.7
-    reviews: 3380
     cta: Tour ansehen
   - partner: viator
     title: "Halbtagesausflug nach Bethlehem"
     description: "Mit einem Guide nach Bethlehem zur Geburtskirche — die gesamte Logistik ist inklusive."
     image: /images/regions/jerusalem/hero.jpg
     query: Bethlehem tour from Jerusalem
-    priceFrom: 49
-    rating: 4.5
-    reviews: 1620
     cta: Tour ansehen
   - partner: abraham
     title: "Petra ab Jerusalem (2 Tage)"
     description: "Eine budgetfreundliche Übernachtung in der Rosenroten Stadt Petra in Jordanien."
     image: /images/regions/eilat/hero.jpg
     query: Petra from Jerusalem
-    priceFrom: 295
-    rating: 4.6
-    reviews: 540
     cta: Reise ansehen
 faqs:
   - question: "Was ist der beste Tagesausflug von Jerusalem?"

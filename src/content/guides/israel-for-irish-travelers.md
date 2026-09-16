@@ -17,9 +17,6 @@ affiliateCtas:
     description: 'Explore the Christian Quarter, the Via Dolorosa, the Church of the Holy Sepulchre and the Jewish Quarter with a licensed Israeli Ministry of Tourism guide. Ideal for first-time Irish pilgrims wanting grounded historical and spiritual context for each site.'
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Old City walking tour
-    priceFrom: 35
-    rating: 4.9
-    reviews: 3200
     cta: See Jerusalem tours
   - partner: discovercars
     title: 'Car Rental Israel — Drive the Galilee and Negev at Your Own Pace'

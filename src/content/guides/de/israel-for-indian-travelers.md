@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Geführte Pilgertouren durch das Heilige Land — Nazareth, See Gennesaret, Bethlehem, Via Dolorosa und Jordan — mit vom israelischen Tourismusministerium zugelassenen Guides. Besonders beliebt bei Reisenden aus Kerala, Tamil Nadu und Goa."
     image: /images/regions/nazareth/hero.jpg
     query: Israel Christian pilgrimage Holy Land tour
-    priceFrom: 75
-    rating: 4.8
-    reviews: 3100
     cta: Heilig-Land-Touren ansehen
   - partner: discovercars
     title: "Mietwagen am Flughafen Ben Gurion vergleichen"

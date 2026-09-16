@@ -11,14 +11,12 @@ affiliateCtas:
     description: "Parcourez le Shuk HaCarmel avec un guide local — épices, jus de grenade fraîchement pressé, burekas chaudes, knafeh et l'histoire derrière chaque étal. Parmi les meilleures matinées que vous puissiez passer à Tel Aviv."
     image: /images/sub-destinations/tel-aviv/carmel-market.jpg
     query: Carmel Market food tour Tel Aviv
-    priceFrom: 49
     cta: Parcourir les tours gastronomiques
   - partner: civitatis
     title: "Tour gastronomique Tel Aviv & Vieux Jaffa"
     description: "La journée gastronomique classique de Tel Aviv — marché Carmel le matin, puis houmous chez Abu Hassan et boulangerie Abouelafia dans les ruelles du Vieux Jaffa. Dégustations incluses tout au long."
     image: /images/sub-destinations/tel-aviv/old-jaffa.jpg
     query: Tel Aviv Jaffa food tour market
-    priceFrom: 69
     cta: Réserver un tour gastronomique
 faqs:
   - question: "Quels sont les horaires du marché Carmel ?"

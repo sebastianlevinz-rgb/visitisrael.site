@@ -11,7 +11,6 @@ affiliateCtas:
     description: "Tours guiados por la Via Dolorosa, la Basilica del Santo Sepulcro y Nazaret — con guias licenciados por el Ministerio de Turismo israelí. Opciones en grupo e individuales adaptadas a viajeros filipinos en peregrinacion."
     image: /images/regions/nazareth/hero.jpg
     query: Christian pilgrimage tour Jerusalem Holy Land
-    priceFrom: 75
     cta: Ver tours de peregrinacion
   - partner: booking
     title: "Hoteles en Israel"

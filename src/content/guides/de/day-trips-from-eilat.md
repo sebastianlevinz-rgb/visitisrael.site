@@ -13,27 +13,18 @@ affiliateCtas:
     description: "Überqueren Sie die Wadi-Araba-Grenze nach Jordanien und wandern Sie durch den berühmten Siq zur Schatzkammer — der klassische Eilat-Grenzausflug. Guides übernehmen die Logistik."
     image: /images/regions/eilat/hero.jpg
     query: Petra day trip from Eilat Israel
-    priceFrom: 179
-    rating: 4.7
-    reviews: 1240
     cta: Petra-Touren ansehen
   - partner: viator
     title: "Timna-Park Jeep-Safari & Sonnenuntergang"
     description: "Geführte Jeep-Runde durch Timna-Parks Sandsteinformationen, antike Kupferminen und Salomons Säulen in der Abenddämmerung — 25 km nördlich von Eilat in der Arava-Wüste."
     image: /images/regions/eilat/timna-park.jpg
     query: Timna Park jeep tour from Eilat
-    priceFrom: 69
-    rating: 4.6
-    reviews: 380
     cta: Timna-Touren ansehen
   - partner: getyourguide
     title: "Rotes Meer Glasbodenboot & Schnorcheln"
     description: "Segeln Sie über Eilats Korallenriff in einem Glasbodenboot — Meeresschildkröten, Papageienfische und Korallen ohne ins Wasser zu müssen — dann Schnorcheln am Riff."
     image: /images/regions/eilat/coral-beach.jpg
     query: Eilat glass bottom boat Red Sea snorkel tour
-    priceFrom: 35
-    rating: 4.5
-    reviews: 890
     cta: Bootstouren ansehen
 faqs:
   - question: "Was ist der beste Tagesausflug ab Eilat?"

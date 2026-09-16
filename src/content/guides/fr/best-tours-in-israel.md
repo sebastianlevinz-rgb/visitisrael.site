@@ -11,26 +11,18 @@ affiliateCtas:
     description: "Parcourez des milliers de circuits guidés, excursions d'une journée et billets coupe-file très bien notés à travers Israël, avec annulation gratuite."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: "Voir les circuits"
   - partner: viator
     title: "Excursions et journées découverte"
     description: "Excursions en petit groupe et privées à Masada, la mer Morte, la Galilée et Pétra, avec avis vérifiés."
     image: /images/regions/dead-sea/hero.jpg
     query: Israel day trip
-    priceFrom: 45
-    rating: 4.6
-    reviews: 30000
     cta: "Voir les excursions"
   - partner: tiqets
     title: "Billets coupe-file pour les sites"
     description: "Billets mobiles instantanés pour les musées et sites d'Israël — contournez la file d'attente et entrez directement."
     image: /images/sub-destinations/jerusalem/tower-of-david.jpg
     query: Israel
-    rating: 4.6
-    reviews: 8000
     cta: "Obtenir les billets"
 faqs:
   - question: "Quels sont les meilleurs circuits à faire en Israël ?"

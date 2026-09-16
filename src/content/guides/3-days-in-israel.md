@@ -17,9 +17,6 @@ affiliateCtas:
     description: 'The most efficient way to cover Day 2 of this itinerary without a rental car: guided coach from Jerusalem or Tel Aviv to Masada (arriving before sunrise for the ascent) and the Dead Sea, returning in the afternoon. Hotels in both cities are pick-up points.'
     image: /images/regions/dead-sea/hero.jpg
     query: Masada Dead Sea day tour from Jerusalem
-    priceFrom: 65
-    rating: 4.8
-    reviews: 5200
     cta: See Masada & Dead Sea tours
   - partner: booking
     title: Jerusalem Hotels for a 3-Day Base

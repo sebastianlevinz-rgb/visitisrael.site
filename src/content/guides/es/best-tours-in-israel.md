@@ -11,26 +11,18 @@ affiliateCtas:
     description: 'Explora miles de tours guiados con alta puntuación, excursiones de un día y entradas sin espera en toda Israel, con cancelación gratuita.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Ver tours
   - partner: viator
     title: 'Excursiones de un día'
     description: 'Excursiones en grupo reducido y privadas a Masada, el Mar Muerto, la Galilea y Petra, con opiniones verificadas.'
     image: /images/regions/dead-sea/hero.jpg
     query: Israel day trip
-    priceFrom: 45
-    rating: 4.6
-    reviews: 30000
     cta: Ver excursiones
   - partner: tiqets
     title: 'Entradas sin espera a atracciones'
     description: 'Entradas móviles instantáneas para museos y atracciones de Israel — salta la fila y entra directamente.'
     image: /images/sub-destinations/jerusalem/tower-of-david.jpg
     query: Israel
-    rating: 4.6
-    reviews: 8000
     cta: Obtener entradas
 faqs:
   - question: ¿Cuáles son los mejores tours en Israel?

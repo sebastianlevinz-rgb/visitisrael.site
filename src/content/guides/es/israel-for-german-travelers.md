@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Un día personalizado en Jerusalén, Tel Aviv o Galilea con un guía licenciado por el Ministerio de Turismo israelí — adaptado a tus intereses y ritmo. Ideal para hispanohablantes de origen alemán que visitan Israel por primera vez."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel private guided tour
-    priceFrom: 120
-    rating: 4.9
-    reviews: 4200
     cta: Ver tours privados
   - partner: safetywing
     title: "Seguro de viaje para tu visita a Israel"

@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'Prepaid data plans that activate automatically when you land — no SIM swap, no airport queue.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel eSIM
-    priceFrom: 5
-    rating: 4.7
-    reviews: 21000
     cta: Get an eSIM
 faqs:
   - question: Is an eSIM or a local SIM better for Israel?

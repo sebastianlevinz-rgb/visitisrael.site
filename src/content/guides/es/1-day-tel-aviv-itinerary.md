@@ -11,18 +11,12 @@ affiliateCtas:
     description: 'Un recorrido guiado de dos horas por la Vieja Jaffa — el puerto antiguo, la Roca de Andrómeda, las calles del mercado de pulgas y miradores panorámicos en azotea — con un guía licenciado de habla inglesa.'
     image: /images/sub-destinations/tel-aviv/old-jaffa.jpg
     query: Old Jaffa walking tour Tel Aviv
-    priceFrom: 25
-    rating: 4.8
-    reviews: 8400
     cta: Ver tours por Jaffa
   - partner: viator
     title: 'Tour por los Puntos Destacados de Tel Aviv'
     description: 'Un tour de medio día por la arquitectura Bauhaus de la Ciudad Blanca, el Mercado Carmel y el paseo marítimo — con transporte incluido y un guía local que sabe dónde hay menos aglomeración.'
     image: /images/regions/tel-aviv/rothschild.jpg
     query: Tel Aviv city highlights tour White City
-    priceFrom: 49
-    rating: 4.7
-    reviews: 2100
     cta: Ver tours por la ciudad
   - partner: booking
     title: 'Hoteles en el Centro de Tel Aviv'

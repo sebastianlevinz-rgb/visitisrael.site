@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'A personalised full-day tour of Jerusalem — Old City, Via Dolorosa, Church of the Holy Sepulchre, Western Wall and Mount of Olives — with a licensed Israeli Ministry of Tourism guide. Ideal for Turkish visitors exploring the shared Ottoman heritage and Christian pilgrimage sites of the Holy Land.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel private guided Jerusalem tour
-    priceFrom: 75
-    rating: 4.9
-    reviews: 3100
     cta: See Jerusalem tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation'

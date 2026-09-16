@@ -11,18 +11,12 @@ affiliateCtas:
     description: 'Ciudad Vieja, Muro Occidental, Iglesia del Santo Sepulcro y Monte de los Olivos con un guía licenciado — traslado desde tu hotel o la estación de tren incluido.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem private day tour highlights
-    priceFrom: 99
-    rating: 4.8
-    reviews: 3240
     cta: Ver tours privados
   - partner: viator
     title: 'Tour a pie por la Ciudad Vieja de Jerusalén'
     description: 'Un recorrido guiado por los cuatro barrios de la Ciudad Vieja — judío, musulmán, cristiano y armenio — con el Muro Occidental y el Santo Sepulcro como centros principales.'
     image: /images/regions/jerusalem/western-wall.jpg
     query: Jerusalem Old City walking tour
-    priceFrom: 49
-    rating: 4.7
-    reviews: 1860
     cta: Ver este tour
   - partner: abraham
     title: 'Tour de ciudad por Jerusalén (Abraham Tours)'

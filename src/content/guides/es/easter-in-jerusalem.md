@@ -13,18 +13,12 @@ affiliateCtas:
     description: "Guías con licencia dirigen procesiones por la Vía Dolorosa, peregrinaciones del Viernes Santo y caminatas del amanecer de Pascua por la Ciudad Vieja. Formatos en grupos pequeños y privados; muchos tours combinan la Iglesia del Santo Sepulcro, el Monte de los Olivos, Getsemaní y la Vía Dolorosa en un solo día de Semana Santa."
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Easter Holy Week Jerusalem guided walking tour
-    priceFrom: 40
-    rating: 4.8
-    reviews: 2640
     cta: Ver tours de Semana Santa
   - partner: viator
     title: "Tour privado de Semana Santa y Pascua en Jerusalén"
     description: "Guía privado con licencia para el Viernes Santo, Sábado Santo o Domingo de Pascua — personaliza el ritmo, añade el Jardín de la Tumba o el Monte de los Olivos, y solicita un guía especializado en sitios cristianos. Disponible en español, inglés, francés y alemán."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Easter private Holy Week tour
-    priceFrom: 95
-    rating: 4.7
-    reviews: 980
     cta: Ver tours privados
   - partner: booking
     title: "Hoteles en Jerusalén — Reserva para la Semana Santa"

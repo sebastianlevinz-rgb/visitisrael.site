@@ -13,18 +13,12 @@ affiliateCtas:
     description: 'A licensed guide walks the 14 Stations of the Cross along the Via Dolorosa, ending inside the Church of the Holy Sepulchre with full commentary on the six-denomination Status Quo, the Edicule, and Calvary. Small groups in English.'
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Via Dolorosa Church Holy Sepulchre guided walking tour Jerusalem
-    priceFrom: 35
-    rating: 4.8
-    reviews: 3840
     cta: See tour options
   - partner: viator
     title: 'Jerusalem Christian Quarter & Holy Sepulchre Private Tour'
     description: 'Private guide through the Christian Quarter — Lion''s Gate, Via Dolorosa, St Anne''s Church, and the Holy Sepulchre — at your own pace. Flexible hours, hotel pickup, English commentary.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Christian Quarter Holy Sepulchre private guided tour
-    priceFrom: 75
-    rating: 4.7
-    reviews: 1620
     cta: Browse private tours
   - partner: abraham
     title: 'Jerusalem Old City Walking Tour (Abraham Tours)'

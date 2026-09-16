@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Explora Jerusalem, Tel Aviv y la Galilea con un guia turistico licenciado por el Ministerio de Turismo de Israel. Tours en ingles disponibles para viajeros nordicos. Adaptado a tus intereses, ya sea peregrinaje luterano, arquitectura Bauhaus o historia antigua."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel guided tour
-    priceFrom: 60
-    rating: 4.9
-    reviews: 3500
     cta: Ver tours en Israel
   - partner: booking
     title: "Hoteles en Israel"
@@ -26,8 +23,6 @@ affiliateCtas:
     description: "Compara todos los grandes proveedores de alquiler en Ben Gurion (TLV) — Hertz, Sixt, Avis, Europcar y operadores locales israelies. Tu carnet de conducir nordico es valido en Israel. Cancelacion gratuita en la mayoria de reservas."
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.7
-    reviews: 85000
     cta: Comparar coches en TLV
 faqs:
   - question: "¿Necesito visa para entrar a Israel desde Suecia, Noruega, Dinamarca, Finlandia o Islandia?"

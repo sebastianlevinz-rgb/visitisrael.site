@@ -13,27 +13,18 @@ affiliateCtas:
     description: "La excursión más cercana desde Haifa — la ciudad cruzada declarada Patrimonio de la Humanidad, los túneles subterráneos y el antiguo puerto de Akko en 4–5 horas."
     image: /images/regions/akko/old-city.jpg
     query: Akko Acre day trip from Haifa
-    priceFrom: 49
-    rating: 4.7
-    reviews: 860
     cta: Ver este tour
   - partner: viator
     title: Rosh Hanikra y las grutas marinas
     description: "Las blancas grutas de tiza en la frontera con el Líbano — el descenso en teleférico a las cuevas marinas — como medio día desde Haifa."
     image: /images/regions/haifa/hero.jpg
     query: Rosh Hanikra tour from Haifa
-    priceFrom: 69
-    rating: 4.6
-    reviews: 440
     cta: Ver este tour
   - partner: civitatis
     title: Ruinas romanas de Cesárea
     description: "El espectacular anfiteatro romano, el puerto herodiano y la playa del acueducto — medio día al sur desde Haifa."
     image: /images/sub-destinations/caesarea/national-park.jpg
     query: Caesarea tour from Haifa
-    priceFrom: 55
-    rating: 4.6
-    reviews: 510
     cta: Ver este tour
 faqs:
   - question: "¿Cuál es la mejor excursión desde Haifa?"

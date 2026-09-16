@@ -11,18 +11,12 @@ affiliateCtas:
     description: "Altstadt, Klagemauer, Grabeskirche und Ölberg mit einem lizenzierten Guide -- Transfer vom Hotel oder Bahnhof inklusive."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem private day tour highlights
-    priceFrom: 99
-    rating: 4.8
-    reviews: 3240
     cta: Privattouren ansehen
   - partner: viator
     title: "Jerusalem Altstadt-Stadtführung"
     description: "Geführter Rundgang durch alle vier Viertel der Altstadt -- jüdisch, muslimisch, christlich und armenisch -- mit Klagemauer und Grabeskirche als Hauptattraktionen."
     image: /images/regions/jerusalem/western-wall.jpg
     query: Jerusalem Old City walking tour
-    priceFrom: 49
-    rating: 4.7
-    reviews: 1860
     cta: Diese Tour ansehen
   - partner: abraham
     title: "Jerusalem Stadtführung (Abraham Tours)"

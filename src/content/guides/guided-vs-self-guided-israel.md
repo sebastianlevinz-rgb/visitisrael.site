@@ -11,17 +11,12 @@ affiliateCtas:
     description: 'Book a Ministry of Tourism certified guide for Jerusalem, Galilee, the Dead Sea or a multi-day private trip — your own expert, your own pace.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel private tour guide
-    priceFrom: 80
-    rating: 4.8
-    reviews: 52000
     cta: Browse private guides
   - partner: discovercars
     title: 'Rent a Car for Self-Guided Israel'
     description: 'Compare every major rental company in Israel — free cancellation on most cars. Essential for the Galilee, Golan and Negev.'
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Compare car rentals
 faqs:
   - question: Do I need a guide to visit the Western Wall?

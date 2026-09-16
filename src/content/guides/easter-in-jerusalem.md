@@ -13,18 +13,12 @@ affiliateCtas:
     description: 'Licensed guides lead Via Dolorosa processions, Good Friday pilgrimages and Easter sunrise walks through the Old City. Small-group and private formats in English; many tours combine the Church of the Holy Sepulchre, Mount of Olives, Gethsemane and the Via Dolorosa in a single Holy Week day.'
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Easter Holy Week Jerusalem guided walking tour
-    priceFrom: 40
-    rating: 4.8
-    reviews: 2640
     cta: See Holy Week tours
   - partner: viator
     title: 'Private Jerusalem Holy Week & Easter Tour'
     description: 'Private licensed guide for Good Friday, Holy Saturday or Easter Sunday — customise the pace, add the Garden Tomb or the Mount of Olives, and request a Christian-specialist guide. English, Spanish, French and German available.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Easter private Holy Week tour
-    priceFrom: 95
-    rating: 4.7
-    reviews: 980
     cta: Browse private tours
   - partner: booking
     title: 'Jerusalem Hotels — Book for Holy Week'

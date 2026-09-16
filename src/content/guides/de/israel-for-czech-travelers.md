@@ -17,7 +17,6 @@ affiliateCtas:
     description: "Ein massgeschneiderter Tag in Jerusalem, Tel Aviv oder Galiläa mit einem vom israelischen Tourismusministerium lizenzierten Reiseführer — angepasst an eigene Interessen, Tempo und Reiseroute. Ideal für tschechische Erstbesucher, die einen fundierten lokalen Kontext wünschen."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel private guided tour
-    priceFrom: 120
     cta: Privattouren ansehen
   - partner: safetywing
     title: "Reiseversicherung für Ihre Israel-Reise"

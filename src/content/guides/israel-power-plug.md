@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'Pair your plug adapter with a travel eSIM so you have data the moment you land at Ben Gurion Airport. No SIM swap, no kiosk queue.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel eSIM
-    priceFrom: 5
-    rating: 4.7
-    reviews: 21000
     cta: Get an Israel eSIM
   - partner: booking
     title: 'Hotels in Israel'

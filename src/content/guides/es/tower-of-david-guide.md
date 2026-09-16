@@ -13,18 +13,12 @@ affiliateCtas:
     description: "Combina el Museo de la Torre de David con un paseo guiado por la Ciudad Vieja — un guía autorizado integra las exposiciones cronológicas y la ciudad viva que las rodea en un relato coherente. Guías de habla hispana o inglesa, grupos pequeños."
     image: /images/sub-destinations/jerusalem/tower-of-david.jpg
     query: Tower of David Jerusalem guided tour Old City
-    priceFrom: 35
-    rating: 4.8
-    reviews: 740
     cta: Reserva tu plaza
   - partner: viator
     title: "Entradas para el Night Spectacular de la Torre de David"
     description: "El Night Spectacular de la Torre de David — un espectáculo de luz y sonido proyectado sobre las murallas de la antigua ciudadela — se celebra la mayoría de las noches durante todo el año. Reserva con antelación, especialmente en temporada alta cuando las sesiones se agotan semanas antes."
     image: /images/sub-destinations/jerusalem/old-city.jpg
     query: Tower of David Night Spectacular Jerusalem tickets
-    priceFrom: 30
-    rating: 4.7
-    reviews: 610
     cta: Reservar entradas para el Night Spectacular
 faqs:
   - question: "¿Qué es la Torre de David en Jerusalén?"

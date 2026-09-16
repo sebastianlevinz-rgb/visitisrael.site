@@ -16,7 +16,6 @@ affiliateCtas:
     title: "Flüge nach Tel Aviv Ben Gurion (TLV) — Preise vergleichen"
     description: "Ben Gurion Airport ist einer der bestangebundenen Flughäfen im Nahen Osten. Lufthansa, El Al, British Airways, Air France und viele weitere bedienen TLV. Preise vergleichen; bei flexiblen Meeting-Daten mit Stornierungsoptionen buchen."
     image: /images/regions/tel-aviv/hero.jpg
-    origin: "TLV"
     cta: "Flüge nach Tel Aviv vergleichen"
   - partner: getyourguide
     title: "Private Bleisure-Erlebnisse in Israel"

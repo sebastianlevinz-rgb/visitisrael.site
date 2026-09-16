@@ -11,16 +11,12 @@ affiliateCtas:
     description: "Durchsuchen Sie auf einmal alle großen Mietwagenanbieter in Israel und buchen Sie zum besten Preis – bei den meisten Fahrzeugen kostenlos stornierbar."
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Autos vergleichen
   - partner: rentalcars
     title: "Mietwagen am Flughafen Ben Gurion"
     description: "Abholung am Flughafen Ben Gurion und Rückgabe in der Stadt – große Auswahl und flexible Konditionen."
     image: /images/regions/galilee/hero.jpg
     destination: Ben Gurion Airport
-    rating: 4.5
-    reviews: 30000
     cta: Auto finden
 faqs:
   - question: "Benötige ich einen Mietwagen in Israel?"

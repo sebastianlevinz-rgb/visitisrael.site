@@ -11,7 +11,6 @@ affiliateCtas:
     description: 'Explore the Old City with a licensed Israeli Ministry of Tourism guide — Western Wall, Via Dolorosa, Church of the Holy Sepulchre, Church of the Nativity day-trip from Jerusalem, Yardenit Jordan River baptism site and the Mount of Olives. Private and small-group tours available in English.'
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Old City guided tour
-    priceFrom: 65
     cta: See Jerusalem tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation for Your Trip'

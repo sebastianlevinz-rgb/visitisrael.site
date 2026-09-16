@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Viele von Israels besten kostenlosen Sehenswürdigkeiten gewinnen durch tiefere Einblicke -- ein kundiger Guide an der Klagemauer, auf der Via Dolorosa oder in Yad Vashem verwandelt einen Besuch in ein dauerhaftes Erlebnis."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel guided tour Jerusalem Tel Aviv
-    priceFrom: 25
-    rating: 4.8
-    reviews: 62000
     cta: Geführte Erlebnisse durchsuchen
   - partner: booking
     title: "Budget- und Hostel-Unterkünfte in Israel"
     description: "Kostenlose Besichtigungen rentieren sich am meisten, wenn die Unterkunftskosten kontrolliert sind. Booking.com listet Hostels, Pensionen und Budgethotels in Jerusalem, Tel Aviv, Haifa und am Toten Meer."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Israel
-    rating: 4.5
-    reviews: 38000
     cta: Günstige Unterkünfte finden
 faqs:
   - question: "Was sind die besten kostenlosen Aktivitäten in Israel?"

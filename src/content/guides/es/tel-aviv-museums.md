@@ -17,7 +17,6 @@ affiliateCtas:
     description: "Tours a pie guiados por la Ciudad Blanca Bauhaus, la historia de Tel Aviv y experiencias en museos seleccionados — ideales para los que visitan por primera vez y quieren contexto antes (o en lugar de) las visitas autoguiadas."
     image: /images/regions/tel-aviv/hero.jpg
     query: Tel Aviv culture history museum tour
-    priceFrom: 29
     cta: Ver tours de Tel Aviv
   - partner: discovercars
     title: "Alquiler de coche para el Museo de Diseño Holon"

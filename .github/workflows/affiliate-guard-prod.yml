@@ -1,0 +1,41 @@
+name: Affiliate guard (production)
+
+# Checks the HTML that real visitors receive — not the code.
+#
+# The previous site served `aid=BOOKING_AID` on 2,018 pages for two months while
+# every code check stayed green. This job fetches live production pages after each
+# successful Vercel production deploy (and daily as a backstop) and fails if:
+#   - any placeholder affiliate ID is served (every mode), or
+#   - PUBLIC_AFFILIATE_MODE is "production" and a partner link has no affiliate ID.
+#
+# Set the repository variable PUBLIC_AFFILIATE_MODE to "production" once the real
+# IDs are loaded in Vercel. Until then it runs in pre-approval mode.
+
+on:
+  deployment_status:
+  schedule:
+    - cron: '17 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  guard:
+    if: >-
+      github.event_name != 'deployment_status' ||
+      (github.event.deployment_status.state == 'success' &&
+       github.event.deployment.environment == 'Production')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Guard live production pages
+        env:
+          PUBLIC_AFFILIATE_MODE: ${{ vars.PUBLIC_AFFILIATE_MODE }}
+        run: >-
+          node scripts/qa/affiliate-guard.mjs
+          --url https://visitisrael.site
+          --pages /,/jerusalem,/tel-aviv,/best-hotels-jerusalem,/jerusalem-tours-compared,/fr/plan-your-trip

@@ -13,18 +13,12 @@ affiliateCtas:
     description: "Acompaña a un guía licenciado en un recorrido subterráneo de 60–70 minutos a lo largo de la totalidad del Muro Occidental herodiano original — descubriendo la ciudad de 2.000 años de antigüedad bajo las calles del Barrio Musulmán. Grupos reducidos en inglés con reserva asegurada."
     image: /images/regions/jerusalem/western-wall.jpg
     query: Western Wall Tunnels guided tour Jerusalem
-    priceFrom: 30
-    rating: 4.9
-    reviews: 520
     cta: Reserva tu plaza
   - partner: viator
     title: "Tour privado por la Ciudad Vieja y los Túneles del Muro de los Lamentos"
     description: "Guía privado por el Barrio Judío y la plaza del Muro de los Lamentos, seguido del acceso a los Túneles para una exposición arqueológica e histórica completa. Horarios flexibles, recogida en hotel disponible y comentario en inglés."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City Western Wall Tunnels private guided tour
-    priceFrom: 75
-    rating: 4.8
-    reviews: 890
     cta: Ver tours privados
 faqs:
   - question: "¿Hay que reservar las entradas a los Túneles del Muro de los Lamentos con antelación?"

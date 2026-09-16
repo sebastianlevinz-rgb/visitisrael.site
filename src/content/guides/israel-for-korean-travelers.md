@@ -11,9 +11,6 @@ affiliateCtas:
     description: 'Sea of Galilee boat tour, Church of the Beatitudes, Capernaum, Church of the Multiplication and Yardenit baptism site on the Jordan River — guided circuit covering the core Galilee pilgrimage sites. Ideal for Korean evangelical church groups visiting the Holy Land for the first time.'
     image: /images/regions/galilee/mount-of-beatitudes.jpg
     query: Israel Galilee Christian tour Sea of Galilee
-    priceFrom: 75
-    rating: 4.8
-    reviews: 2900
     cta: See Galilee pilgrimage tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation for Your Trip'

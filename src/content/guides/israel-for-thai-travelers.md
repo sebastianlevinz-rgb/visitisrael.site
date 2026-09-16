@@ -11,7 +11,6 @@ affiliateCtas:
     description: 'Guided Holy Land circuits — Via Dolorosa, Church of the Holy Sepulchre, Nazareth Basilica of the Annunciation, Sea of Galilee, Jordan River baptism renewal and Bethlehem — with licensed Israeli Ministry of Tourism guides. Well suited to Thai Christian pilgrimage groups travelling from Bangkok or Chiang Mai.'
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Israel Christian pilgrimage Holy Land tour
-    priceFrom: 75
     cta: See Holy Land tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation for Your Trip'

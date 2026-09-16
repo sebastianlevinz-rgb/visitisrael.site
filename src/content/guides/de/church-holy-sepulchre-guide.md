@@ -13,18 +13,12 @@ affiliateCtas:
     description: "Ein lizenzierter Guide begleitet Sie an den 14 Stationen des Kreuzweges entlang der Via Dolorosa bis zur Grabeskirche mit ausführlichem Kommentar zum Status quo der sechs Konfessionen, der Ädiküla und dem Kalvarienberg. Kleingruppen auf Englisch und Deutsch."
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Via Dolorosa Church Holy Sepulchre guided walking tour Jerusalem
-    priceFrom: 35
-    rating: 4.8
-    reviews: 3840
     cta: Touren ansehen
   - partner: viator
     title: "Private Tour durch das Christliche Viertel und die Grabeskirche"
     description: "Privater Guide durch das Christliche Viertel — Löwentor, Via Dolorosa, St.-Anna-Kirche und die Grabeskirche — in Ihrem eigenen Tempo. Flexible Zeiten, Hotelabholung, englischsprachige Kommentare."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Christian Quarter Holy Sepulchre private guided tour
-    priceFrom: 75
-    rating: 4.7
-    reviews: 1620
     cta: Private Touren ansehen
   - partner: abraham
     title: "Jerusalem-Altstadtführung (Abraham Tours)"

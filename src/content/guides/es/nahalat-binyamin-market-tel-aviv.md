@@ -11,14 +11,12 @@ affiliateCtas:
     description: 'Visitas guiadas a pie por Tel Aviv que recorren el paseo peatonal de Nahalat Binyamin, el adyacente Mercado Carmel y el barrio de Neve Tzedek. Los guías locales te presentan a los diseñadores y artesanos israelíes detrás de los puestos.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Tel Aviv market culture tour
-    priceFrom: 45
     cta: Ver tours de mercados
   - partner: civitatis
     title: 'Tour a Pie por Tel Aviv con Visita al Mercado'
     description: 'Combina una visita guiada al antiguo Jaffa con el Mercado Carmel y Nahalat Binyamin — una de las experiencias de media jornada más populares en Tel Aviv para viajeros independientes que quieren contexto cultural junto a los puestos de artesanía.'
     image: /images/sub-destinations/tel-aviv/carmel-market.jpg
     query: Tel Aviv walking tour markets
-    priceFrom: 39
     cta: Reservar tour a pie
   - partner: booking
     title: 'Hoteles Cerca del Mercado Nahalat Binyamin'

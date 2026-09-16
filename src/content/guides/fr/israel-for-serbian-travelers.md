@@ -17,7 +17,6 @@ affiliateCtas:
     description: "Visites guidées de la Vieille Ville de Jérusalem, circuits de pèlerinage chrétien orthodoxe, excursions à la Mer Morte et découverte du lac de Tibériade — tout réservable à l'avance."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel
-    priceFrom: 29
     cta: Parcourir les circuits en Israël
   - partner: discovercars
     title: "Location de voiture en Israël"

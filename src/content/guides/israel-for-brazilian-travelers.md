@@ -11,7 +11,6 @@ affiliateCtas:
     description: 'Guided Holy Land circuits — Via Dolorosa, Church of the Holy Sepulchre, Nativity Bethlehem, Sea of Galilee, Jordan River baptism renewal and Nazareth — with licensed Israeli Ministry of Tourism guides. Well suited to Brazilian Catholic and evangelical pilgrimage groups travelling from São Paulo, Rio de Janeiro or Porto Alegre.'
     image: /images/regions/jerusalem/holy-sepulchre.jpg
     query: Israel Christian pilgrimage Holy Land tour
-    priceFrom: 75
     cta: See Holy Land tours
   - partner: booking
     title: 'Hotels in Israel — Book Accommodation for Your Trip'

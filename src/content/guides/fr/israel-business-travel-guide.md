@@ -16,7 +16,6 @@ affiliateCtas:
     title: "Vols vers Tel Aviv Ben Gourion (TLV) — Comparez les tarifs"
     description: "Ben Gourion est l'un des aéroports les mieux desservis du Moyen-Orient. El Al, Air France, Lufthansa, British Airways et une dizaine d'autres compagnies opèrent vers TLV. Comparez les prix et réservez avec souplesse si vos dates de réunion sont susceptibles de changer."
     image: /images/regions/tel-aviv/hero.jpg
-    origin: "TLV"
     cta: "Comparer les vols vers Tel Aviv"
   - partner: getyourguide
     title: "Expériences bleisure privées en Israël"

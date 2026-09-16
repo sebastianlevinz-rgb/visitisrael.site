@@ -17,9 +17,6 @@ affiliateCtas:
     description: "Das Christliche Viertel, die Via Dolorosa, die Grabeskirche und das Jüdische Viertel mit einem lizenzierten israelischen Reiseleiter erkunden — ideal für nordische Pilger und Kulturreisende."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Old City walking tour
-    priceFrom: 35
-    rating: 4.9
-    reviews: 3200
     cta: Jerusalem-Touren ansehen
   - partner: safetywing
     title: "Reisekrankenversicherung für Israel — Nomad Insurance"

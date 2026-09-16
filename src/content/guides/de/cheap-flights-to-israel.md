@@ -11,8 +11,6 @@ affiliateCtas:
     description: "Skyscanner vergleicht Hunderte von Airlines und Buchungsseiten, um die günstigsten verfügbaren Tarife für Ihre Reisedaten anzuzeigen. Nutzen Sie die Monatsansicht und Preisalarme, um Preise im Zeitverlauf zu verfolgen und beim günstigsten Zeitpunkt zu buchen."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Tel Aviv
-    rating: 4.6
-    reviews: 55000
     cta: Flüge nach Israel vergleichen
 faqs:
   - question: "Wann ist der günstigste Zeitpunkt, um nach Israel zu fliegen?"

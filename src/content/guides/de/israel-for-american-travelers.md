@@ -17,17 +17,12 @@ affiliateCtas:
     description: "Ein persönlich geführter Tag in Jerusalem, Tel Aviv oder der Galiläa mit einem vom israelischen Tourismusministerium zugelassenen Reiseleiter — angepasst an Ihre Interessen, Ihr Tempo und Ihre Route. Ideal für amerikanische Erstbesucher, die lokalen Kontext suchen."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel private guided tour
-    priceFrom: 120
-    rating: 4.9
-    reviews: 4200
     cta: Privattouren ansehen
   - partner: discovercars
     title: "Mietwagen am Flughafen Ben Gurion vergleichen"
     description: "Alle großen Vermieter am Flughafen Ben Gurion (TLV) auf einen Blick vergleichen — Hertz, Sixt, Avis, Europcar und lokale israelische Anbieter. Ihr US-Führerschein ist gültig. Kostenlose Stornierung für die meisten Buchungen."
     image: /images/regions/negev/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 70000
     cta: Fahrzeuge vergleichen
 faqs:
   - question: "Brauchen amerikanische Staatsbürger ein Visum für Israel?"

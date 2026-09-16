@@ -11,27 +11,18 @@ affiliateCtas:
     description: 'Walk Machane Yehuda with a local guide — tasting burekas, hummus, rugelach and the secrets of the Shuk, then the Muslim Quarter hummus corridor in the Old City.'
     image: /images/regions/jerusalem/mahane-yehuda.jpg
     query: Jerusalem food tour Machane Yehuda market
-    priceFrom: 55
-    rating: 4.8
-    reviews: 1240
     cta: Book a food tour
   - partner: viator
     title: 'Machane Yehuda Market Tasting Walk'
     description: 'A guided graze through Jerusalem signature market — spices, freshly baked burekas, the legendary Marzipan rugelach, and Israel finest Jerusalem mixed grill.'
     image: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
     query: Machane Yehuda food tour Jerusalem market
-    priceFrom: 49
-    rating: 4.7
-    reviews: 860
     cta: See this tour
   - partner: civitatis
     title: 'Jerusalem Old City Food Walk'
     description: 'Eat your way through the Old City — Abu Shukri hummus in the Muslim Quarter, Armenian Quarter bakeries, and the best street food inside the city walls.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City food walking tour
-    priceFrom: 39
-    rating: 4.8
-    reviews: 620
     cta: Book a food walk
 faqs:
   - question: What food is Jerusalem famous for?

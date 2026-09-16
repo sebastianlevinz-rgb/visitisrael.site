@@ -11,27 +11,18 @@ affiliateCtas:
     description: "Recorre el Mahane Yehuda con un guía local probando burekas, hummus, rugelach y los secretos del Shuk, y luego el corredor del hummus del Barrio Musulmán en la Ciudad Vieja. Grupos reducidos, guía en español o inglés."
     image: /images/regions/jerusalem/mahane-yehuda.jpg
     query: Jerusalem food tour Machane Yehuda market
-    priceFrom: 55
-    rating: 4.8
-    reviews: 1240
     cta: Reservar un tour gastronómico
   - partner: viator
     title: "Recorrido de degustación por el Mercado Mahane Yehuda"
     description: "Un paseo guiado por el mercado más famoso de Jerusalén — especias, burekas recién horneadas, los legendarios rugelach de Marzipan y la mejor comida callejera del Shuk."
     image: /images/sub-destinations/jerusalem/mahane-yehuda.jpg
     query: Machane Yehuda food tour Jerusalem market
-    priceFrom: 49
-    rating: 4.7
-    reviews: 860
     cta: Ver este tour
   - partner: civitatis
     title: "Tour gastronómico por la Ciudad Vieja de Jerusalén"
     description: "Come por la Ciudad Vieja — hummus de Abu Shukri en el Barrio Musulmán, panaderías del Barrio Armenio y la mejor comida callejera dentro de las murallas."
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Old City food walking tour
-    priceFrom: 39
-    rating: 4.8
-    reviews: 620
     cta: Reservar un recorrido
 faqs:
   - question: "¿Por qué es famosa la comida de Jerusalén?"

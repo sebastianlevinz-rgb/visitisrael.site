@@ -13,27 +13,18 @@ affiliateCtas:
     description: 'Haifa''s nearest day trip — the UNESCO Crusader city, underground tunnels and the ancient port of Akko in 4–5 hours.'
     image: /images/regions/akko/old-city.jpg
     query: Akko Acre day trip from Haifa
-    priceFrom: 49
-    rating: 4.7
-    reviews: 860
     cta: See this tour
   - partner: viator
     title: 'Rosh Hanikra & Sea Caves'
     description: 'The white chalk grottoes at the Lebanon border — cable car descent to the sea caves — as a half-day from Haifa.'
     image: /images/regions/haifa/hero.jpg
     query: Rosh Hanikra tour from Haifa
-    priceFrom: 69
-    rating: 4.6
-    reviews: 440
     cta: See this tour
   - partner: civitatis
     title: 'Caesarea Roman Ruins'
     description: 'The spectacular Roman amphitheatre, Herodian harbour and aqueduct beach — a half-day south from Haifa.'
     image: /images/sub-destinations/caesarea/national-park.jpg
     query: Caesarea tour from Haifa
-    priceFrom: 55
-    rating: 4.6
-    reviews: 510
     cta: See this tour
 faqs:
   - question: What is the best day trip from Haifa?

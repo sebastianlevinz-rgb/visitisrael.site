@@ -11,27 +11,18 @@ affiliateCtas:
     description: "Die Altstadt, die Klagemauer und die Grabeskirche auf einer geführten Tagestour ab Tel Aviv."
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem day trip from Tel Aviv
-    priceFrom: 89
-    rating: 4.6
-    reviews: 2120
     cta: Tour ansehen
   - partner: viator
     title: "Caesarea, Haifa und Akko"
     description: "Die Nordküste an einem Tag — das römische Caesarea, die Bahá'í-Gärten und der Kreuzfahrerhafen Akko."
     image: /images/sub-destinations/haifa/bahai-gardens.jpg
     query: Caesarea Haifa Akko from Tel Aviv
-    priceFrom: 99
-    rating: 4.6
-    reviews: 870
     cta: Tour ansehen
   - partner: civitatis
     title: "Masada und Totes Meer"
     description: "Der Wüstenklassiker — Masada und ein Bad im Toten Meer — als langer Tagesausflug ab Tel Aviv."
     image: /images/sub-destinations/dead-sea/masada.jpg
     query: Masada Dead Sea from Tel Aviv
-    priceFrom: 99
-    rating: 4.6
-    reviews: 1240
     cta: Tour ansehen
 faqs:
   - question: "Was ist der beste Tagesausflug von Tel Aviv?"

@@ -16,7 +16,6 @@ affiliateCtas:
     title: "Vuelos a Tel Aviv Ben Gurión (TLV) — Compara tarifas"
     description: "Ben Gurión es uno de los aeropuertos mejor conectados de Oriente Medio. El Al, Iberia, Lufthansa, Air France y otras compañías operan vuelos a TLV. Compara precios y reserva con flexibilidad si tus fechas de reunión pueden cambiar."
     image: /images/regions/tel-aviv/hero.jpg
-    origin: "TLV"
     cta: "Comparar vuelos a Tel Aviv"
   - partner: getyourguide
     title: "Experiencias bleisure privadas en Israel"

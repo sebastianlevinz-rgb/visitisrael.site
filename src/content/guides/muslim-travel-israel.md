@@ -11,18 +11,12 @@ affiliateCtas:
     description: 'Guided walking tour of Jerusalem''s Islamic landmarks with a licensed guide — the Muslim Quarter, Al-Aqsa Mosque compound approach, Dome of the Rock plaza, Mamluk architecture and the Ottoman city walls. Small groups; entrance to the Temple Mount compound is subject to the current access schedule.'
     image: /images/regions/jerusalem/old-city.jpg
     query: Jerusalem Islamic heritage tour
-    priceFrom: 45
-    rating: 4.8
-    reviews: 3100
     cta: See Jerusalem tours
   - partner: viator
     title: 'Old City Jerusalem Walking Tour'
     description: 'Explore all four quarters of Jerusalem''s Old City — including the Muslim Quarter and Temple Mount approach — with a licensed local guide who provides historical and religious context for the Islamic, Jewish and Christian sites that share this extraordinary 1km² walled city.'
     image: /images/regions/jerusalem/hero.jpg
     query: Jerusalem Old City tour Muslim Quarter
-    priceFrom: 35
-    rating: 4.8
-    reviews: 5200
     cta: See Old City tours
   - partner: booking
     title: 'Hotels Near the Old City, Jerusalem'

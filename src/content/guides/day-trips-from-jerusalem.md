@@ -13,27 +13,18 @@ affiliateCtas:
     description: 'The classic Jerusalem day trip — dawn on Masada, the Ein Gedi oasis and a float in the Dead Sea.'
     image: /images/sub-destinations/dead-sea/masada.jpg
     query: Masada Dead Sea from Jerusalem
-    priceFrom: 95
-    rating: 4.7
-    reviews: 3380
     cta: See this tour
   - partner: viator
     title: 'Bethlehem Half-Day Tour'
     description: 'Cross to Bethlehem for the Church of the Nativity with a guide who handles the logistics.'
     image: /images/regions/jerusalem/hero.jpg
     query: Bethlehem tour from Jerusalem
-    priceFrom: 49
-    rating: 4.5
-    reviews: 1620
     cta: See this tour
   - partner: abraham
     title: 'Petra from Jerusalem (2-Day)'
     description: 'A backpacker-friendly overnight to the rose-red city of Petra in Jordan.'
     image: /images/regions/eilat/hero.jpg
     query: Petra from Jerusalem
-    priceFrom: 295
-    rating: 4.6
-    reviews: 540
     cta: See this trip
 faqs:
   - question: What is the best day trip from Jerusalem?

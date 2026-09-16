@@ -11,17 +11,12 @@ affiliateCtas:
     description: 'Rooms sell out and prices spike around Pride, the High Holidays and Christmas — lock in accommodation early.'
     image: /images/regions/tel-aviv/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 40000
     cta: Check hotel availability
   - partner: getyourguide
     title: 'Tours & Experiences'
     description: 'Guided tours and experiences across Israel, ideal for building around a festival or holiday trip.'
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Browse tours
 faqs:
   - question: When is Tel Aviv Pride?

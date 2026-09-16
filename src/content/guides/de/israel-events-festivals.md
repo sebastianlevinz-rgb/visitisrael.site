@@ -11,17 +11,12 @@ affiliateCtas:
     description: "Zimmer werden knapp und Preise steigen rund um Pride, die Hohen Feiertage und Weihnachten — Unterkunft frühzeitig sichern."
     image: /images/regions/tel-aviv/hero.jpg
     destination: Israel
-    rating: 4.6
-    reviews: 40000
     cta: Verfügbarkeit prüfen
   - partner: getyourguide
     title: "Touren & Erlebnisse"
     description: "Geführte Touren und Erlebnisse durch Israel, ideal als Ergänzung zu einer Festival- oder Feiertagsreise."
     image: /images/regions/jerusalem/hero.jpg
     query: Israel
-    priceFrom: 29
-    rating: 4.7
-    reviews: 50000
     cta: Touren durchsuchen
 faqs:
   - question: Wann findet die Tel Aviv Pride statt?

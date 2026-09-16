@@ -11,9 +11,6 @@ affiliateCtas:
     description: "Combinez votre adaptateur de prise avec une eSIM de voyage pour avoir des données dès l'atterrissage à l'aéroport Ben Gourion. Aucun échange de SIM, aucune file d'attente."
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel eSIM
-    priceFrom: 5
-    rating: 4.7
-    reviews: 21000
     cta: Obtenir une eSIM Israël
   - partner: booking
     title: "Hôtels en Israël"

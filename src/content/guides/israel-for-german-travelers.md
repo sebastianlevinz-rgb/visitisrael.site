@@ -17,9 +17,6 @@ affiliateCtas:
     description: 'A personalised guided day in Jerusalem, Tel Aviv or the Galilee with a licensed Israeli Ministry of Tourism guide — adapted to your interests, pace and itinerary. Ideal for first-time German visitors wanting local context.'
     image: /images/regions/tel-aviv/hero.jpg
     query: Israel private guided tour
-    priceFrom: 120
-    rating: 4.9
-    reviews: 4200
     cta: See private tours
   - partner: safetywing
     title: 'Travel Insurance for Your Israel Trip'

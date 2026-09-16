@@ -11,7 +11,6 @@ affiliateCtas:
     description: "Circuits guidés à travers les hauts lieux chrétiens — Via Dolorosa, Église du Saint-Sépulcre, Basilique de l'Annonciation à Nazareth, traversée en bateau sur le lac de Tibériade, baptême au Jourdain et Bethléem — avec des guides agréés par le Ministère du Tourisme israélien. Idéal pour les groupes de pèlerinage philippins."
     image: /images/regions/nazareth/hero.jpg
     query: Israel Christian pilgrimage Holy Land tour
-    priceFrom: 75
     cta: Voir les circuits Terre Sainte
   - partner: booking
     title: "Hôtels en Israël — réservez votre hébergement"
