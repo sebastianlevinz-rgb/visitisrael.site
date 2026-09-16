@@ -61,14 +61,19 @@ Mientras se espera la aprobación **no se escriben páginas nuevas**: se mejora 
       cuerpo a 18 px, componentes sin inglés colado, secciones duplicadas y notas internas
       del loop fuera de las regiones.
 - [x] Panel de control en `/dashboard`.
+- [x] Fotos reales con licencia (2026-09-17): 32 fotos (20 Pexels, 12 Wikimedia Commons)
+      reemplazan las 10 heroes de IA y los 47 placeholders; ledger único en
+      `data/photo-credits.json`, crédito visible sobre cada hero, página `/photo-credits`,
+      `photo-guard` en `pnpm check` y en el build; 832 archivos huérfanos borrados.
 - [x] Estudios: diseño (`gestion/auditoria/diseno-referentes.md`), cobertura de afiliados
       (`cobertura-afiliados.md`), fotos (`fotos.md`), negocio (`gestion/negocio/`).
 
 ## Pendientes de calidad (se pueden hacer sin datos)
 
-- [ ] **Fotos**: 10 de 11 heroes de región son imágenes generadas por IA y 47 de 120
-      imágenes son placeholders; ninguna foto muestra crédito. Reemplazar con Pexels /
-      Commons / Unsplash según `gestion/auditoria/fotos.md` (necesita key de Pexels).
+- [ ] **Fotos, segunda vuelta**: el hero de `dead-sea-tours-compared` debería ser
+      `masada.jpg` (frontmatter en 5 idiomas); faltan fotos propias de Belén y Petra;
+      la key de Unsplash en `.env` es inválida (tiene 33 caracteres; las válidas tienen
+      43) — regenerar en unsplash.com/oauth/applications si se quiere usar esa fuente.
 - [ ] **Autor con nombre y foto** (`src/data/authors.ts`, `AuthorByline.astro`): falta que
       Sebastian defina quién firma (nombre, bio de dos líneas, foto).
 - [ ] Traducir `src/data/regionData.ts`: key facts, tours, hoteles y temporadas salen en

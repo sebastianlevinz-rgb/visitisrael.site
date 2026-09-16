@@ -76,12 +76,26 @@ pnpm build             # buildea y corre el guardia de afiliados sobre el HTML
 pnpm check             # lint de largo de meta + astro check
 pnpm check:links       # links rotos, huérfanas, profundidad de click
 pnpm check:affiliates  # guardia sobre dist/ (o --url https://visitisrael.site)
-pnpm test:qa           # tests del guardia de afiliados
+pnpm check:photos      # guardia de fotos: toda imagen usada tiene crédito y licencia
+pnpm test:qa           # tests de los guardias (afiliados + fotos)
 pnpm test:e2e          # Playwright: smoke + a11y sobre todas las rutas del build
+node scripts/photos/fetch.mjs   # baja las fotos del manifest y actualiza el ledger
 ```
 
+### Fotos
+
+- Toda imagen de `public/images` nace de una entrada en `scripts/photos/manifest.json`
+  (fuente Pexels, Wikimedia Commons o Unsplash) y queda registrada, con autor y licencia,
+  en `data/photo-credits.json`. `Hero.astro` muestra el crédito; `/photo-credits` lista
+  todos. `photo-guard` falla el build ante una imagen sin crédito, con licencia dudosa,
+  marcada como IA o huérfana.
+- Las keys van en `.env` (gitignored): `PEXELS_API_KEY`, `UNSPLASH_ACCESS_KEY`. La de
+  Unsplash cargada el 2026-09-17 es inválida (33 caracteres; las válidas tienen 43).
+- Prohibido: imágenes generadas por IA de lugares reales o de personas reales.
+
 Gate antes de cualquier push a master:
-`pnpm check && pnpm build && pnpm test:qa && pnpm check:links && pnpm test:e2e`.
+`pnpm check && pnpm build && pnpm test:qa && pnpm check:links && pnpm test:e2e`
+(`pnpm check` ya incluye `check:photos`; `pnpm build` corre los dos guardias).
 
 `test:e2e` necesita el navegador de Playwright, que en esta máquina no está instalado
 (`pnpm exec playwright install chromium`, descarga de ~150 MB: pedir OK).
