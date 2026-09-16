@@ -1,42 +1,35 @@
 ---
+/**
+ * Layout for internal, never-indexed pages (/dashboard). Excluded from the sitemap
+ * (astro.config.mjs) and from the orphan check (scripts/qa/check-links.mjs).
+ */
 import '@/styles/global.css';
 
 export interface Props {
   title: string;
-  dark?: boolean;
 }
-const { title, dark = false } = Astro.props;
-const nav = [
-  { href: '/dashboard', label: 'Dashboard' },
-  { href: '/dashboard/seo', label: 'SEO Intelligence' },
-  { href: '/competitors', label: 'Competitors' },
-  { href: '/pitch', label: 'Pitch' },
-  { href: '/content-library', label: 'Content Library' },
-];
+const { title } = Astro.props;
 ---
 
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Internal module: never index. -->
     <meta name="robots" content="noindex, nofollow" />
-    <title>{title} · Visit Israel (internal)</title>
+    <title>{title} · Visit Israel (interno)</title>
   </head>
-  <body class:list={[dark ? 'bg-[#0e1116] text-[#e7e3da]' : 'bg-sand text-ink', 'min-h-screen']}>
-    <header class:list={[dark ? 'border-white/10 bg-black/30' : 'border-border bg-card', 'border-b']}>
+  <body class="min-h-screen bg-sand text-ink">
+    <header class="border-b border-border bg-card">
       <div class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-5 gap-y-2 px-4 py-3">
-        <a href="/dashboard" class="font-display text-lg font-bold no-underline" class:list={[dark ? 'text-white' : 'text-ink']}>
-          Visit Israel <span class="text-primary">·</span> Internal
+        <a href="/dashboard" class="font-display text-lg font-bold text-ink no-underline">
+          Visit Israel <span class="text-primary">·</span> Panel de control
         </a>
         <nav class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
-          {nav.map((n) => (
-            <a href={n.href} class:list={[dark ? 'text-white/70 hover:text-white' : 'text-ink-muted hover:text-primary', 'no-underline']}>
-              {n.label}
-            </a>
-          ))}
-          <a href="/" class:list={[dark ? 'text-white/40' : 'text-ink-muted', 'no-underline']}>↗ Live site</a>
+          <a href="/" class="text-ink-muted no-underline hover:text-primary">↗ Sitio</a>
+          <a href="https://github.com/sebastianlevinz-rgb/visitisrael.site" class="text-ink-muted no-underline hover:text-primary">↗ GitHub</a>
+          <a href="https://vercel.com/sebastianlevinz-7104s-projects/visitisrael-site" class="text-ink-muted no-underline hover:text-primary">↗ Vercel</a>
         </nav>
       </div>
     </header>

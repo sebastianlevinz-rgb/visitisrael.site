@@ -1,0 +1,266 @@
+---
+/**
+ * Panel de control — foto del sitio al momento del build. Todo sale de datos reales:
+ * las colecciones de contenido, src/config/affiliates.ts, vercel.json y ROADMAP.md.
+ * Nada se escribe a mano acá: si un número no sale de un archivo, no está.
+ *
+ * noindex (InternalLayout), fuera del sitemap y del chequeo de huérfanas.
+ */
+import { readFileSync } from 'node:fs';
+import { getCollection } from 'astro:content';
+import InternalLayout from '@/layouts/InternalLayout.astro';
+import { locales, PAGE_GROUPS, type Locale } from '@/i18n/ui';
+import { AFFILIATE_IDS, AFFILIATE_MODE, PARTNERS, type Partner } from '@/config/affiliates';
+
+const ROOT = new URL('../../../', import.meta.url);
+const read = (p: string) => readFileSync(new URL(p, ROOT), 'utf8');
+
+// --- Contenido --------------------------------------------------------------
+const localeOf = (id: string): Locale => {
+  const seg = id.split('/')[0] as Locale;
+  return (locales as readonly string[]).includes(seg) && id.includes('/') ? seg : 'en';
+};
+const baseOf = (id: string) => (id.includes('/') ? id.slice(id.indexOf('/') + 1) : id);
+const words = (body: string | undefined) => (body ?? '').split(/\s+/).filter((w) => /\w/.test(w)).length;
+
+type Row = {
+  coll: string;
+  slug: string;
+  url: string;
+  title: string;
+  group: string;
+  updatedAt?: Date;
+  ctas: number;
+  byLocale: Record<string, number | null>;
+};
+
+const groupOf = (slug: string) => {
+  for (const [g, pages] of Object.entries(PAGE_GROUPS)) if (pages.some((p) => p.slug === slug)) return g;
+  return '—';
+};
+
+async function rowsFor(coll: 'regions' | 'guides' | 'itineraries', urlPrefix: string): Promise<Row[]> {
+  const entries = await getCollection(coll);
+  const en = entries.filter((e) => localeOf(e.id) === 'en');
+  return en
+    .map((e) => {
+      const byLocale: Record<string, number | null> = {};
+      for (const l of locales) {
+        const match = entries.find((x) => localeOf(x.id) === l && baseOf(x.id) === e.id);
+        byLocale[l] = match ? words(match.body) : null;
+      }
+      const d: any = e.data;
+      return {
+        coll,
+        slug: e.id,
+        url: `${urlPrefix}/${e.id}`,
+        title: String(d.title).split(':')[0],
+        group: coll === 'guides' ? groupOf(e.id) : coll,
+        updatedAt: d.updatedAt,
+        ctas: Array.isArray(d.affiliateCtas) ? d.affiliateCtas.length : 0,
+        byLocale,
+      };
+    })
+    .sort((a, b) => a.slug.localeCompare(b.slug));
+}
+
+const rows = [
+  ...(await rowsFor('regions', '')),
+  ...(await rowsFor('guides', '')),
+  ...(await rowsFor('itineraries', '/itineraries')),
+];
+const legal = await getCollection('legal');
+
+const perLocale = Object.fromEntries(
+  locales.map((l) => [l, rows.filter((r) => r.byLocale[l] !== null).length]),
+) as Record<Locale, number>;
+const missing = rows.flatMap((r) => locales.filter((l) => r.byLocale[l] === null).map((l) => `${l}/${r.slug}`));
+const contentPages = Object.values(perLocale).reduce((a, b) => a + b, 0);
+// Por idioma: home + plan-your-trip + itineraries index. Más búsqueda, 404 y este panel.
+const hubPages = locales.length * 3;
+const totalPages = contentPages + legal.length + hubPages + 3;
+
+const thin = rows.filter((r) => (r.byLocale.en ?? 0) < 700);
+const stale = rows.filter((r) => r.updatedAt && Date.now() - r.updatedAt.getTime() > 180 * 86400e3);
+
+// --- Afiliados --------------------------------------------------------------
+const partners = (Object.keys(PARTNERS) as Partner[]).map((p) => ({
+  ...PARTNERS[p],
+  configured: AFFILIATE_IDS[PARTNERS[p].idKey].length > 0,
+}));
+const configuredCount = partners.filter((p) => p.configured).length;
+
+// --- Redirects y pendientes -------------------------------------------------
+const redirects = (JSON.parse(read('vercel.json')).redirects ?? []).length;
+
+type Todo = { done: boolean; text: string };
+type Section = { title: string; todos: Todo[] };
+const sections: Section[] = [];
+{
+  let current: Section | null = null;
+  for (const raw of read('ROADMAP.md').split(/\r?\n/)) {
+    const h = raw.match(/^##\s+(.*)/);
+    if (h) {
+      current = { title: h[1].replace(/[✅🔄⏸]/g, '').trim(), todos: [] };
+      sections.push(current);
+      continue;
+    }
+    const item = raw.match(/^- \[( |x)\]\s+(.*)/);
+    if (item && current) {
+      current.todos.push({ done: item[1] === 'x', text: item[2] });
+    } else if (current && /^\s{6}\S/.test(raw) && current.todos.length) {
+      current.todos[current.todos.length - 1]!.text += ` ${raw.trim()}`;
+    }
+  }
+}
+const plain = (s: string) => s.replace(/\*\*|`/g, '');
+const pendingSections = sections.filter((s) => s.todos.length);
+const openCount = pendingSections.reduce((n, s) => n + s.todos.filter((t) => !t.done).length, 0);
+
+const docs = [
+  ['ROADMAP', 'ROADMAP.md'],
+  ['Estado del sitio (auditoría)', 'gestion/auditoria/estado-del-sitio.md'],
+  ['Loop detenido', 'gestion/auditoria/loop-detenido.md'],
+  ['Diseño: referentes', 'gestion/auditoria/diseno-referentes.md'],
+  ['Cobertura de afiliados', 'gestion/auditoria/cobertura-afiliados.md'],
+  ['Mapa de redirects (CSV)', 'gestion/rebuild/mapa-redirects.csv'],
+  ['Mega prompt v3', 'MEGA-PROMPT-V3.md'],
+].map(([label, path]) => ({ label, href: `https://github.com/sebastianlevinz-rgb/visitisrael.site/blob/master/${path}` }));
+
+const built = new Date().toISOString().slice(0, 16).replace('T', ' ') + ' UTC';
+const fmtDate = (d?: Date) => (d ? d.toISOString().slice(0, 10) : '—');
+const groupLabel: Record<string, string> = { practical: 'Práctico', stay: 'Dormir', tours: 'Tours', regions: 'Región', itineraries: 'Itinerario', '—': '—' };
+---
+
+<InternalLayout title="Panel de control">
+  <h1 class="font-display text-3xl font-bold">Panel de control</h1>
+  <p class="mt-1 text-ink-muted">Foto del build del {built}. Todo sale de archivos del repo; nada está escrito a mano.</p>
+
+  <div class="mt-6 grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-6">
+    {
+      [
+        { k: 'Páginas en el build', v: totalPages },
+        { k: 'Páginas de contenido', v: contentPages },
+        { k: 'Idiomas', v: locales.length },
+        { k: 'Redirects 301', v: redirects },
+        { k: 'Partners con ID real', v: `${configuredCount}/${partners.length}` },
+        { k: 'Pendientes abiertos', v: openCount },
+      ].map((s) => (
+        <div class="rounded-card border border-border bg-card p-4 shadow-card">
+          <p class="text-2xl font-bold text-primary">{s.v}</p>
+          <p class="text-xs uppercase tracking-wide text-ink-muted">{s.k}</p>
+        </div>
+      ))
+    }
+  </div>
+
+  <section class="mt-10">
+    <h2 class="font-display text-2xl font-bold">La caja</h2>
+    <div class:list={['mt-3 rounded-card border p-4', AFFILIATE_MODE === 'production' ? 'border-primary bg-primary-soft' : 'border-gold bg-gold/10']}>
+      <p class="font-semibold">
+        Modo <code>{AFFILIATE_MODE}</code> —
+        {AFFILIATE_MODE === 'production'
+          ? 'los links llevan ID de afiliado; si falta uno, el build falla.'
+          : 'los links a partners salen limpios, sin ID. El sitio NO cobra hasta cargar los IDs en Vercel y pasar PUBLIC_AFFILIATE_MODE a production.'}
+      </p>
+    </div>
+    <div class="mt-4 grid grid-cols-2 gap-2 sm:grid-cols-3 lg:grid-cols-6">
+      {
+        partners.map((p) => (
+          <div class:list={['rounded-card border px-3 py-2 text-sm', p.configured ? 'border-primary bg-primary-soft' : 'border-border bg-card']}>
+            <span class="font-semibold">{p.label}</span>
+            <span class="block text-xs text-ink-muted">
+              {p.category} · {p.configured ? 'ID cargado' : `falta PUBLIC_${p.idKey}`}
+            </span>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <h2 class="font-display text-2xl font-bold">Pendientes ({openCount} abiertos)</h2>
+    <p class="mt-1 text-sm text-ink-muted">Leídos de <code>ROADMAP.md</code>. Se tildan editando ese archivo.</p>
+    <div class="mt-4 grid gap-4 md:grid-cols-2">
+      {
+        pendingSections.map((s) => (
+          <div class="rounded-card border border-border bg-card p-4 shadow-card">
+            <h3 class="font-display text-lg font-bold">{s.title}</h3>
+            <ul class="mt-2 space-y-1.5 text-sm">
+              {s.todos.map((t) => (
+                <li class:list={['flex gap-2', t.done && 'text-ink-muted line-through']}>
+                  <span aria-hidden="true">{t.done ? '☑' : '☐'}</span>
+                  <span>{plain(t.text)}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <h2 class="font-display text-2xl font-bold">Contenido</h2>
+    <p class="mt-1 text-sm text-ink-muted">
+      {rows.length} páginas base · por idioma: {locales.map((l) => `${l.toUpperCase()} ${perLocale[l]}`).join(' · ')} · legales (solo EN): {legal.length}
+      {missing.length > 0 && <span class="text-[#8a2b2b]"> · faltan {missing.length} traducciones: {missing.join(', ')}</span>}
+    </p>
+    <div class="mt-4 overflow-x-auto rounded-card border border-border bg-card shadow-card">
+      <table class="w-full text-sm">
+        <thead class="bg-sand-deep text-left text-xs uppercase tracking-wide text-ink-muted">
+          <tr>
+            <th class="px-3 py-2">Página</th>
+            <th class="px-3 py-2">Grupo</th>
+            {locales.map((l) => <th class="px-3 py-2 text-right">{l.toUpperCase()}</th>)}
+            <th class="px-3 py-2 text-right">CTAs</th>
+            <th class="px-3 py-2">Actualizada</th>
+          </tr>
+        </thead>
+        <tbody>
+          {
+            rows.map((r) => (
+              <tr class="border-t border-border">
+                <td class="px-3 py-2">
+                  <a href={r.url} class="font-semibold text-primary no-underline hover:underline">{r.title}</a>
+                  <span class="block text-xs text-ink-muted">{r.url}</span>
+                </td>
+                <td class="px-3 py-2">{groupLabel[r.group] ?? r.group}</td>
+                {locales.map((l) => (
+                  <td class:list={['px-3 py-2 text-right tabular-nums', r.byLocale[l] === null && 'text-[#8a2b2b]']}>
+                    {r.byLocale[l] === null ? 'falta' : r.byLocale[l]}
+                  </td>
+                ))}
+                <td class="px-3 py-2 text-right tabular-nums">{r.ctas}</td>
+                <td class="px-3 py-2 tabular-nums">{fmtDate(r.updatedAt)}</td>
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+    <p class="mt-2 text-xs text-ink-muted">Las cifras por idioma son palabras del cuerpo (sin frontmatter).</p>
+  </section>
+
+  <section class="mt-10 grid gap-4 md:grid-cols-2">
+    <div class="rounded-card border border-border bg-card p-4 shadow-card">
+      <h3 class="font-display text-lg font-bold">Páginas flacas (EN &lt; 700 palabras)</h3>
+      {thin.length === 0 ? <p class="mt-2 text-sm text-ink-muted">Ninguna.</p> : (
+        <ul class="mt-2 space-y-1 text-sm">{thin.map((r) => <li><a href={r.url} class="text-primary">{r.slug}</a> — {r.byLocale.en} palabras</li>)}</ul>
+      )}
+    </div>
+    <div class="rounded-card border border-border bg-card p-4 shadow-card">
+      <h3 class="font-display text-lg font-bold">Sin actualizar hace más de 6 meses</h3>
+      {stale.length === 0 ? <p class="mt-2 text-sm text-ink-muted">Ninguna.</p> : (
+        <ul class="mt-2 space-y-1 text-sm">{stale.map((r) => <li><a href={r.url} class="text-primary">{r.slug}</a> — {fmtDate(r.updatedAt)}</li>)}</ul>
+      )}
+    </div>
+  </section>
+
+  <section class="mt-10">
+    <h2 class="font-display text-2xl font-bold">Documentos</h2>
+    <ul class="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+      {docs.map((d) => <li><a href={d.href} class="block rounded-card border border-border bg-card px-4 py-3 text-sm font-semibold text-primary no-underline shadow-card hover:underline">{d.label} ↗</a></li>)}
+    </ul>
+  </section>
+</InternalLayout>
