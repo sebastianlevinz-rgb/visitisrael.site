@@ -1,0 +1,151 @@
+---
+/**
+ * /gestion — mapa de todas las páginas internas y de utilidad que no salen en la
+ * navegación pública, más los documentos de gestión del repo en GitHub.
+ *
+ * noindex (InternalLayout), fuera del sitemap y del chequeo de huérfanas
+ * (scripts/qa/check-links.mjs excluye /gestion y todo lo que cuelgue).
+ * Si se agrega una página noindex, se suma acá a mano: este mapa no se autogenera.
+ */
+import InternalLayout from '@/layouts/InternalLayout.astro';
+
+const REPO = 'https://github.com/sebastianlevinz-rgb/visitisrael.site/blob/master';
+const gh = (path: string) => `${REPO}/${path}`;
+
+type Page = { href: string; label: string; desc: string; noindex: boolean };
+type Group = { title: string; note?: string; pages: Page[] };
+
+const groups: Group[] = [
+  {
+    title: 'Gestión (noindex)',
+    note: 'Solo para el equipo. Usan InternalLayout: sin navegación pública, sin sitemap.',
+    pages: [
+      { href: '/dashboard', label: '/dashboard', desc: 'Panel de control: foto del sitio al momento del build (páginas, idiomas, afiliados, redirects, pendientes del ROADMAP).', noindex: true },
+      { href: '/gestion', label: '/gestion', desc: 'Este mapa: índice de páginas internas y documentos de gestión.', noindex: true },
+      { href: '/gestion/competidores', label: '/gestion/competidores', desc: 'Estudio de mercado: competidores de visitisrael.site y qué hacen mejor o peor.', noindex: true },
+      { href: '/mariluz', label: '/mariluz', desc: 'Propuesta de sociedad para Mariluz (guía licenciada), publicada desde gestion/negocio/propuesta-mariluz.md para mandarle el link.', noindex: true },
+    ],
+  },
+  {
+    title: 'Utilidad (públicas, fuera del menú)',
+    note: 'Se llega desde el footer o desde el buscador, no desde la navegación principal.',
+    pages: [
+      { href: '/search', label: '/search', desc: 'Buscador del sitio (Pagefind). noindex.', noindex: true },
+      { href: '/photo-credits', label: '/photo-credits', desc: 'Créditos de todas las fotos: autor, fuente y licencia, generados del ledger data/photo-credits.json. Enlazada en el footer.', noindex: false },
+      { href: '/404', label: '/404', desc: 'Página de error. noindex; no cuenta como ruta del build.', noindex: true },
+      { href: '/rss.xml', label: '/rss.xml', desc: 'Feed RSS de las guías.', noindex: false },
+      { href: '/sitemap-index.xml', label: '/sitemap-index.xml', desc: 'Sitemap generado por @astrojs/sitemap; excluye todo lo noindex.', noindex: false },
+    ],
+  },
+];
+
+type Doc = { path: string; desc: string };
+type DocGroup = { title: string; docs: Doc[] };
+
+const docGroups: DocGroup[] = [
+  {
+    title: 'Raíz del repo',
+    docs: [
+      { path: 'CLAUDE.md', desc: 'Reglas de trabajo, stack real y trampas conocidas. Se lee antes de tocar cualquier cosa.' },
+      { path: 'ROADMAP.md', desc: 'Fase actual y pendientes; el dashboard lee los checkboxes de acá.' },
+      { path: 'REVIEW.md', desc: 'Estándar de calidad de página: qué tiene que tener una página para estar bien.' },
+      { path: 'README.md', desc: 'Presentación técnica del proyecto.' },
+      { path: 'SECURITY.md', desc: 'Política de seguridad y reporte de vulnerabilidades.' },
+    ],
+  },
+  {
+    title: 'gestion/auditoria',
+    docs: [
+      { path: 'gestion/auditoria/estado-del-sitio.md', desc: 'Auditoría general: estado del sitio con números.' },
+      { path: 'gestion/auditoria/cobertura-afiliados.md', desc: 'Qué páginas tienen CTAs de afiliado y cuáles no.' },
+      { path: 'gestion/auditoria/competidores.md', desc: 'Estudio de mercado: fuente de /gestion/competidores.' },
+      { path: 'gestion/auditoria/diseno-referentes.md', desc: 'Referentes de diseño y qué se tomó de cada uno.' },
+      { path: 'gestion/auditoria/diseno-2026-09-17.md', desc: 'Auditoría de diseño de la home (móvil y escritorio) del 17-sep-2026.' },
+      { path: 'gestion/auditoria/fotos.md', desc: 'Pipeline de fotos: manifest, ledger de créditos y guardia de build.' },
+      { path: 'gestion/auditoria/loop-detenido.md', desc: 'Por qué se cortó el loop autónomo y qué no hay que volver a hacer.' },
+    ],
+  },
+  {
+    title: 'gestion/negocio',
+    docs: [
+      { path: 'gestion/negocio/propuesta-mariluz.md', desc: 'Fuente de /mariluz: propuesta, guion, flujo de fondos, cláusulas.' },
+      { path: 'gestion/negocio/benchmarks.md', desc: 'Datos de respaldo de la propuesta: comisiones de plataformas, turismo, tarifas.' },
+    ],
+  },
+  {
+    title: 'gestion/rutinas',
+    docs: [
+      { path: 'gestion/rutinas/auditar-pagina.md', desc: 'Prompt recurrente para auditar una página contra REVIEW.md.' },
+      { path: 'gestion/rutinas/inventario-del-sitio.md', desc: 'Prompt recurrente para levantar el inventario de páginas.' },
+      { path: 'gestion/rutinas/tanda-de-consolidacion.md', desc: 'Prompt recurrente para una tanda de consolidación de contenido.' },
+      { path: 'gestion/rutinas/verificar-loop-muerto.md', desc: 'Prompt recurrente para comprobar que el loop sigue apagado.' },
+    ],
+  },
+  {
+    title: 'gestion/rebuild',
+    docs: [
+      { path: 'gestion/rebuild/mapa-redirects.csv', desc: 'Mapa completo de las 1.919 URLs viejas y su destino 301.' },
+      { path: 'gestion/rebuild/redirects.mjs', desc: 'Genera los redirects de vercel.json a partir del mapa; correr después de un build.' },
+    ],
+  },
+];
+---
+
+<InternalLayout title="Mapa interno">
+  <h1 class="font-display text-3xl font-bold">Mapa interno</h1>
+  <p class="mt-2 max-w-3xl text-ink-muted">
+    Índice de las páginas que no salen en la navegación pública y de los documentos de gestión del repo.
+  </p>
+  <div class="mt-4 max-w-3xl rounded-card border border-gold bg-gold/10 px-4 py-3 text-sm">
+    <strong>Páginas noindex:</strong> no aparecen en Google ni en el sitemap, pero cualquiera con el link las puede ver.
+    No poner acá nada que no pueda circular.
+  </div>
+
+  {
+    groups.map((g) => (
+      <section class="mt-10">
+        <h2 class="font-display text-2xl font-bold">{g.title}</h2>
+        {g.note && <p class="mt-1 text-sm text-ink-muted">{g.note}</p>}
+        <ul class="mt-4 grid gap-3 md:grid-cols-2">
+          {g.pages.map((p) => (
+            <li class="rounded-card border border-border bg-card p-4 shadow-card">
+              <a href={p.href} class="font-mono text-sm font-semibold text-primary no-underline hover:underline">
+                {p.label}
+              </a>
+              {p.noindex && (
+                <span class="ms-2 rounded-full bg-sand-deep px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-ink-muted">
+                  noindex
+                </span>
+              )}
+              <p class="mt-1 text-sm">{p.desc}</p>
+            </li>
+          ))}
+        </ul>
+      </section>
+    ))
+  }
+
+  <section class="mt-12">
+    <h2 class="font-display text-2xl font-bold">Documentos de gestión (GitHub)</h2>
+    <p class="mt-1 text-sm text-ink-muted">
+      Abren en el repo, rama <code>master</code>. Editar ahí; el sitio no los copia salvo <code>/mariluz</code>, que se genera del markdown en cada build.
+    </p>
+    {
+      docGroups.map((dg) => (
+        <div class="mt-6">
+          <h3 class="font-display text-lg font-bold">{dg.title}</h3>
+          <ul class="mt-2 divide-y divide-border rounded-card border border-border bg-card shadow-card">
+            {dg.docs.map((d) => (
+              <li class="flex flex-col gap-0.5 px-4 py-3 sm:flex-row sm:items-baseline sm:gap-4">
+                <a href={gh(d.path)} class="shrink-0 font-mono text-sm font-semibold text-primary no-underline hover:underline">
+                  {d.path} ↗
+                </a>
+                <span class="text-sm text-ink-muted">{d.desc}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+      ))
+    }
+  </section>
+</InternalLayout>

@@ -76,9 +76,10 @@ const perLocale = Object.fromEntries(
 ) as Record<Locale, number>;
 const missing = rows.flatMap((r) => locales.filter((l) => r.byLocale[l] === null).map((l) => `${l}/${r.slug}`));
 const contentPages = Object.values(perLocale).reduce((a, b) => a + b, 0);
-// Por idioma: home + plan-your-trip + itineraries index. Más búsqueda, 404 y este panel.
+// Por idioma: home + plan-your-trip + itineraries index. Más búsqueda, 404, este panel,
+// /gestion, /gestion/competidores y /mariluz (mismo conteo que tests/e2e/smoke.spec.ts).
 const hubPages = locales.length * 3;
-const totalPages = contentPages + legal.length + hubPages + 3;
+const totalPages = contentPages + legal.length + hubPages + 6;
 
 const thin = rows.filter((r) => (r.byLocale.en ?? 0) < 700);
 const stale = rows.filter((r) => r.updatedAt && Date.now() - r.updatedAt.getTime() > 180 * 86400e3);
@@ -118,6 +119,7 @@ const pendingSections = sections.filter((s) => s.todos.length);
 const openCount = pendingSections.reduce((n, s) => n + s.todos.filter((t) => !t.done).length, 0);
 
 const docs = [
+  ['Mapa interno (/gestion)', null],
   ['ROADMAP', 'ROADMAP.md'],
   ['Estado del sitio (auditoría)', 'gestion/auditoria/estado-del-sitio.md'],
   ['Loop detenido', 'gestion/auditoria/loop-detenido.md'],
@@ -125,7 +127,10 @@ const docs = [
   ['Cobertura de afiliados', 'gestion/auditoria/cobertura-afiliados.md'],
   ['Mapa de redirects (CSV)', 'gestion/rebuild/mapa-redirects.csv'],
   ['Mega prompt v3', 'MEGA-PROMPT-V3.md'],
-].map(([label, path]) => ({ label, href: `https://github.com/sebastianlevinz-rgb/visitisrael.site/blob/master/${path}` }));
+].map(([label, path]) => ({
+  label,
+  href: path ? `https://github.com/sebastianlevinz-rgb/visitisrael.site/blob/master/${path}` : '/gestion',
+}));
 
 const built = new Date().toISOString().slice(0, 16).replace('T', ' ') + ' UTC';
 const fmtDate = (d?: Date) => (d ? d.toISOString().slice(0, 10) : '—');

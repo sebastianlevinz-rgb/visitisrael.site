@@ -1,14 +1,21 @@
 ---
 /**
- * Layout for internal, never-indexed pages (/dashboard). Excluded from the sitemap
- * (astro.config.mjs) and from the orphan check (scripts/qa/check-links.mjs).
+ * Layout for internal, never-indexed pages (/dashboard, /gestion, /mariluz). Excluded
+ * from the sitemap (astro.config.mjs) and from the orphan check (scripts/qa/check-links.mjs).
+ *
+ * - `documentTitle`: full <title>, verbatim (default: `${title} · Visit Israel (interno)`).
+ * - `bare`: hide the internal nav (GitHub/Vercel/mapa) — for pages sent to someone
+ *   outside the team, like /mariluz.
  */
 import '@/styles/global.css';
 
 export interface Props {
   title: string;
+  documentTitle?: string;
+  bare?: boolean;
 }
-const { title } = Astro.props;
+const { title, documentTitle, bare = false } = Astro.props;
+const fullTitle = documentTitle ?? `${title} · Visit Israel (interno)`;
 ---
 
 <!doctype html>
@@ -18,19 +25,32 @@ const { title } = Astro.props;
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!-- Internal module: never index. -->
     <meta name="robots" content="noindex, nofollow" />
-    <title>{title} · Visit Israel (interno)</title>
+    <title>{fullTitle}</title>
   </head>
   <body class="min-h-screen bg-sand text-ink">
     <header class="border-b border-border bg-card">
       <div class="mx-auto flex max-w-6xl flex-wrap items-center gap-x-5 gap-y-2 px-4 py-3">
-        <a href="/dashboard" class="font-display text-lg font-bold text-ink no-underline">
-          Visit Israel <span class="text-primary">·</span> Panel de control
-        </a>
-        <nav class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
-          <a href="/" class="text-ink-muted no-underline hover:text-primary">↗ Sitio</a>
-          <a href="https://github.com/sebastianlevinz-rgb/visitisrael.site" class="text-ink-muted no-underline hover:text-primary">↗ GitHub</a>
-          <a href="https://vercel.com/sebastianlevinz-7104s-projects/visitisrael-site" class="text-ink-muted no-underline hover:text-primary">↗ Vercel</a>
-        </nav>
+        {
+          bare ? (
+            <a href="/" class="font-display text-lg font-bold text-ink no-underline">
+              Visit Israel <span class="text-primary">·</span> visitisrael.site
+            </a>
+          ) : (
+            <a href="/dashboard" class="font-display text-lg font-bold text-ink no-underline">
+              Visit Israel <span class="text-primary">·</span> Panel de control
+            </a>
+          )
+        }
+        {
+          !bare && (
+            <nav class="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+              <a href="/gestion" class="text-ink-muted no-underline hover:text-primary">Mapa interno</a>
+              <a href="/" class="text-ink-muted no-underline hover:text-primary">↗ Sitio</a>
+              <a href="https://github.com/sebastianlevinz-rgb/visitisrael.site" class="text-ink-muted no-underline hover:text-primary">↗ GitHub</a>
+              <a href="https://vercel.com/sebastianlevinz-7104s-projects/visitisrael-site" class="text-ink-muted no-underline hover:text-primary">↗ Vercel</a>
+            </nav>
+          )
+        }
       </div>
     </header>
     <main class="mx-auto max-w-6xl px-4 py-8">

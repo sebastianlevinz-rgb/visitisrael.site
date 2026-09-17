@@ -136,8 +136,9 @@ export default defineConfig({
         locales: { en: 'en', fr: 'fr', de: 'de', es: 'es', he: 'he' },
       },
       // Internal modules are noindex; keep them out of the sitemap.
+      // /gestion covers everything under it (/gestion/competidores, ...).
       filter: (page) =>
-        !/\/(dashboard|pitch|competitors|content-library|search)(\/|$)/.test(
+        !/\/(dashboard|gestion|mariluz|pitch|competitors|content-library|search)(\/|$)/.test(
           page
         ),
       // Attach an accurate <lastmod> from each page's content `updatedAt`.

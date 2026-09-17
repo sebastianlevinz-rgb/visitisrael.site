@@ -1,0 +1,52 @@
+---
+/**
+ * /mariluz — la propuesta de sociedad, publicada tal cual está en
+ * gestion/negocio/propuesta-mariluz.md para mandarle el link a Mariluz.
+ * El markdown es la única fuente: acá no se escribe ni se reescribe nada.
+ *
+ * noindex (InternalLayout), fuera del sitemap y del chequeo de huérfanas.
+ * La H1 la aporta el propio markdown (el smoke test exige una sola H1).
+ */
+import InternalLayout from '@/layouts/InternalLayout.astro';
+import { Content } from '../../gestion/negocio/propuesta-mariluz.md';
+
+const source =
+  'https://github.com/sebastianlevinz-rgb/visitisrael.site/blob/master/gestion/negocio/propuesta-mariluz.md';
+---
+
+<InternalLayout title="Propuesta para Mariluz" documentTitle="Propuesta para Mariluz — VisitIsrael" bare>
+  <article class="prose-content mx-auto max-w-3xl">
+    <Content />
+  </article>
+  <footer class="mx-auto mt-12 max-w-3xl border-t border-border pt-4 text-xs text-ink-muted">
+    <p>
+      Página interna de visitisrael.site: no aparece en Google ni en el sitemap; cualquiera con el link la puede ver.
+      Fuente: <a href={source} class="text-primary underline">propuesta-mariluz.md</a> en GitHub.
+    </p>
+  </footer>
+</InternalLayout>
+
+<style>
+  /* La H1 viene del markdown; el layout interno no la estiliza. */
+  article :global(h1) {
+    font-family: var(--font-display);
+    font-size: var(--text-3xl);
+    font-weight: 700;
+    line-height: 1.2;
+  }
+  article :global(h2) {
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+  article :global(hr) {
+    border: 0;
+    border-top: 1px solid var(--color-border);
+    margin-block: 2rem;
+  }
+  /* Las tablas del flujo de fondos tienen 8 columnas: scroll horizontal en móvil. */
+  article :global(table) {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+</style>

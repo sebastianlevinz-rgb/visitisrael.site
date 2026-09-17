@@ -26,7 +26,7 @@ planLinks.push({ href: `${localePrefix}/itineraries`, label: t('nav.itineraries'
 
 // Language switcher: the same page in the other locale. Legal pages and search are
 // English-only, so those fall back to the locale home.
-const EN_ONLY = new Set(['/404', '/search', '/about', '/contact', '/privacy', '/affiliate-disclosure', '/accessibility-statement', '/photo-credits']);
+const EN_ONLY = new Set(['/404', '/search', '/about', '/contact', '/privacy', '/affiliate-disclosure', '/accessibility-statement', '/photo-credits', '/mariluz', '/gestion', '/gestion/competidores']);
 const pathNoLocale = Astro.url.pathname.replace(localePrefixRe, '').replace(/(.)\/$/, '$1') || '/';
 const switchHref = (l: Locale) =>
   pathNoLocale === '/' || EN_ONLY.has(pathNoLocale) ? localeHome(l) : `${prefixFor(l)}${pathNoLocale}`;

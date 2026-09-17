@@ -64,7 +64,7 @@ function isValid(href) {
 // Pages excluded from the orphan check (entry points / intentionally unlinked /
 // noindex utility routes).
 const ORPHAN_EXCLUDE = new Set(['/', '/404', '/search']);
-const ORPHAN_EXCLUDE_PREFIX = ['/dashboard', '/pitch', '/competitors', '/content-library'];
+const ORPHAN_EXCLUDE_PREFIX = ['/dashboard', '/gestion', '/mariluz', '/pitch', '/competitors', '/content-library'];
 
 const htmlPages = allFiles.filter((f) => f.endsWith('.html'));
 const broken = []; // { page, href }

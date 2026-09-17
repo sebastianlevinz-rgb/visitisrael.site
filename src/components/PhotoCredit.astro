@@ -15,8 +15,19 @@ export interface Props {
   credit: PhotoCredit;
   locale?: Locale;
   class?: string;
+  /**
+   * `overlay` (default): a translucent chip in the bottom corner of the photo.
+   * `below`: a muted static line to place right under the photo (phones, where
+   * 11px white text over sky was unreadable).
+   */
+  variant?: 'overlay' | 'below';
 }
-const { credit, locale = getLocaleFromPath(Astro.url.pathname), class: cls = '' } = Astro.props;
+const {
+  credit,
+  locale = getLocaleFromPath(Astro.url.pathname),
+  class: cls = '',
+  variant = 'overlay',
+} = Astro.props;
 const t = useTranslations(locale);
 
 // Split the template into literal text and {placeholder} tokens, e.g.
@@ -27,13 +38,17 @@ const links: Record<'author' | 'source' | 'license', { href: string; label: stri
   source: { href: credit.sourceUrl, label: SOURCE_NAMES[credit.source] ?? credit.source },
   license: { href: credit.licenseUrl, label: credit.license },
 };
-const linkClass = 'underline decoration-white/40 underline-offset-2 hover:text-white hover:decoration-white';
+const linkClass =
+  variant === 'overlay'
+    ? 'underline decoration-white/40 underline-offset-2 hover:text-white hover:decoration-white'
+    : 'underline decoration-border underline-offset-2 hover:text-primary';
+const wrapClass =
+  variant === 'overlay'
+    ? 'pointer-events-auto absolute bottom-3 end-3 z-10 max-w-[70vw] truncate rounded-md bg-black/40 px-2 py-1 text-[11px] leading-tight text-white/90 backdrop-blur-sm'
+    : 'mx-auto max-w-6xl px-4 pt-2 text-end text-xs leading-snug text-ink-muted';
 ---
 
-<p
-  class={`photo-credit pointer-events-auto absolute bottom-2 end-3 z-10 max-w-[70vw] truncate text-[11px] leading-tight text-white/80 [text-shadow:0_1px_3px_rgb(0_0_0/0.8)] ${cls}`}
-  dir="auto"
->
+<p class={`photo-credit ${wrapClass} ${cls}`} dir="auto">
   {
     parts.map((part, i) =>
       i % 2 === 1 ? (

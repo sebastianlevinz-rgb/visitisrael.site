@@ -6,9 +6,10 @@ const prefixes = locales.map((l) => (l === 'en' ? '' : `/${l}`));
 
 test('the build contains the expected v3 page set', () => {
   // Per locale: 20 content pages + home + plan-your-trip + itineraries index.
-  // Plus 6 legal/credits pages (EN only), /search and /dashboard. 404.html is not an index route.
+  // Plus 6 legal/credits pages (EN only) and 5 internal/utility routes: /search, /dashboard,
+  // /gestion, /gestion/competidores and /mariluz. 404.html is not an index route.
   const contentPerLocale = 7 + 19 + 2;
-  const expected = locales.length * (contentPerLocale + 3) + 6 + 2;
+  const expected = locales.length * (contentPerLocale + 3) + 6 + 5;
   expect(ROUTES.length, ROUTES.join('\n')).toBe(expected);
 });
 

@@ -5,14 +5,14 @@
   "images": [
     {
       "path": "/images/regions/jerusalem/hero.jpg",
-      "source": "pexels",
-      "sourceId": "15442791",
-      "sourceUrl": "https://www.pexels.com/photo/jerusalem-cityscape-drone-shot-15442791/",
-      "author": "Ioannis Stavrakakis",
-      "authorUrl": "https://www.pexels.com/@ioannis-stavrakakis-445048053",
-      "license": "Pexels License",
-      "licenseUrl": "https://www.pexels.com/license/",
-      "alt": "Aerial view of Jerusalem's Old City with the Dome of the Rock and the Mount of Olives behind",
+      "source": "commons",
+      "sourceId": "Jerusalem-2013(2)-View_of_the_Dome_of_the_Rock_&_Temple_Mount_02.jpg",
+      "sourceUrl": "https://commons.wikimedia.org/wiki/File:Jerusalem-2013(2)-View_of_the_Dome_of_the_Rock_%26_Temple_Mount_02.jpg",
+      "author": "Godot13",
+      "authorUrl": "https://commons.wikimedia.org/wiki/User:Godot13",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "alt": "The walled Old City of Jerusalem seen from the Mount of Olives, with the golden Dome of the Rock at its centre",
       "usedBy": [
         "home",
         "jerusalem",

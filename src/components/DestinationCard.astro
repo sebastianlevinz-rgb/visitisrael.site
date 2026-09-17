@@ -44,7 +44,8 @@ const blurb = regionBlurb(region, locale);
     <h3 class="mt-1 font-display text-xl font-bold text-ink sm:text-2xl sm:text-inherit">
       {name}
     </h3>
-    <p class="mt-1.5 line-clamp-2 text-sm leading-snug text-ink-muted sm:line-clamp-none sm:text-inherit sm:opacity-95">
+    {/* line-clamp-3 fits every blurb in full at phone widths; -2 made Chrome cut mid-word to fit the ellipsis. */}
+    <p class="mt-1.5 line-clamp-3 text-sm leading-snug text-ink-muted sm:line-clamp-none sm:text-inherit sm:opacity-95">
       {blurb}
     </p>
     <span class="mt-3 inline-flex items-center gap-1 text-sm font-semibold text-primary sm:text-inherit">
