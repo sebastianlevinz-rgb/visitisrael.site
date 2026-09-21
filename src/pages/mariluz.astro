@@ -9,9 +9,6 @@
  */
 import InternalLayout from '@/layouts/InternalLayout.astro';
 import { Content } from '../../gestion/negocio/propuesta-mariluz.md';
-
-const source =
-  'https://github.com/sebastianlevinz-rgb/visitisrael.site/blob/master/gestion/negocio/propuesta-mariluz.md';
 ---
 
 <InternalLayout title="Propuesta para Mariluz" documentTitle="Propuesta para Mariluz — VisitIsrael" bare>
@@ -19,10 +16,7 @@ const source =
     <Content />
   </article>
   <footer class="mx-auto mt-12 max-w-3xl border-t border-border pt-4 text-xs text-ink-muted">
-    <p>
-      Página interna de visitisrael.site: no aparece en Google ni en el sitemap; cualquiera con el link la puede ver.
-      Fuente: <a href={source} class="text-primary underline">propuesta-mariluz.md</a> en GitHub.
-    </p>
+    <p>Página privada de visitisrael.site: no aparece en Google ni en el menú del sitio.</p>
   </footer>
 </InternalLayout>
 
