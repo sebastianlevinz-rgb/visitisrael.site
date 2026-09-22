@@ -4,10 +4,12 @@ import Hero from '@/components/Hero.astro';
 import DestinationCard from '@/components/DestinationCard.astro';
 import AffiliateCard from '@/components/AffiliateCard.astro';
 import AffiliateDisclosure from '@/components/AffiliateDisclosure.astro';
+import FaqSection from '@/components/FaqSection.astro';
 import Pic from '@/components/Pic.astro';
 import { REGIONS } from '@/data/regions';
 import { homeAlternates, useTranslations, PAGE_GROUPS } from '@/i18n/ui';
 import { creditFor } from '@/lib/photos';
+import type { Faq } from '@/lib/schema';
 
 const HOME_HERO = '/images/regions/jerusalem/hero.jpg';
 
@@ -75,6 +77,78 @@ const tourGuides = [
 const planLinks = [
   ...[...PAGE_GROUPS.practical, ...PAGE_GROUPS.stay].map((p) => ({ href: `/${p.slug}`, label: t(p.key) })),
   { href: '/itineraries', label: t('nav.itineraries') },
+];
+
+/**
+ * "Plan an Israel trip: the essentials" — six short blocks that answer the first
+ * questions a first-time visitor has, each pointing to the full guide. Editorial
+ * copy; no prices or figures that are not stable facts.
+ */
+const essentials: { heading: string; text: string; href: string; cta: string }[] = [
+  {
+    heading: 'When to go',
+    text: 'Spring (March to May) and autumn (September to November) are the two windows that work everywhere in the country: warm, dry days in Jerusalem and the Galilee, sea warm enough to swim in Tel Aviv, and bearable heat at the Dead Sea and in the Negev. Summer is very hot in the south and the Judean Desert but fine on the coast; winter is mild and rainy in the north and pleasant in Eilat. Both shoulder seasons also hold the major Jewish holidays, when hotels fill and prices rise, so check the calendar before you fix dates.',
+    href: '/best-time-to-visit-israel',
+    cta: 'Best time to visit Israel',
+  },
+  {
+    heading: 'Entry: visa and ETA-IL',
+    text: 'Citizens of most Western countries do not need a visa for a tourist stay of up to 90 days, but visa-exempt travellers are now required to obtain an ETA-IL electronic travel authorisation online before flying; apply a few days ahead, not at the airport. On arrival you receive a small entry slip instead of a passport stamp; keep it, as hotels and the Bethlehem crossing ask for it. Passports should be valid for at least six months beyond your stay. Requirements change, so confirm your nationality on the official portal before booking.',
+    href: '/visa-information',
+    cta: 'Israel visa and ETA-IL guide',
+  },
+  {
+    heading: 'Getting around',
+    text: 'Israel is small: trains link Ben Gurion Airport to Tel Aviv in about 20 minutes and to Jerusalem in about 30, and intercity buses reach almost every town. One contactless card or app covers trains, buses and the Jerusalem light rail. The catch is Shabbat: from Friday afternoon to Saturday night public transport stops nationwide, and only shared taxis (sheruts) and private taxis run. A rental car pays off for the Galilee, the Golan and the Negev, where sights are spread out; it is a burden in Tel Aviv and Jerusalem, where parking is scarce.',
+    href: '/car-rental-israel',
+    cta: 'Car rental in Israel: when it pays off',
+  },
+  {
+    heading: 'Money and costs',
+    text: 'The currency is the new Israeli shekel (ILS, written ₪). Cards and contactless payment are accepted almost everywhere, including market stalls and taxis, so you need little cash; ATMs are plentiful in the cities. Expect prices in line with Western Europe: accommodation and eating out are the big items, while public transport, hummus lunches and the free sites of the Old City keep a day cheap if you let them. Tipping in restaurants is customary, usually added in cash or on the card at your request. Guided day trips and hotel breakfasts are the easiest places to overspend.',
+    href: '/first-time-in-israel',
+    cta: 'First time in Israel: the basics',
+  },
+  {
+    heading: 'Safety',
+    text: 'Israel receives millions of visitors a year, and the tourist circuit (Jerusalem, Tel Aviv, the Dead Sea, the Galilee, Eilat) functions with routine security screening at stations, malls and holy sites. The everyday risks are the ordinary ones: pickpockets in crowded markets, sunstroke in the desert, and Shabbat closures catching you out. The regional situation can change quickly, so read your government’s current travel advisory before booking, check it again the week you fly, and keep your travel insurance in date. Our safety guide tracks the advisories and what they mean in practice.',
+    href: '/is-israel-safe',
+    cta: 'Is Israel safe to visit?',
+  },
+  {
+    heading: 'How many days',
+    text: 'A first trip needs a week. Seven days covers the core without rushing: three nights in Jerusalem with a Dead Sea and Masada day, three in Tel Aviv with a day trip north to Caesarea, Haifa or the Galilee, and the train between them. Ten days adds the north properly (Nazareth, the Sea of Galilee, the Golan) and the far south, with Eilat and an optional day across the border to Petra. Less than five days means choosing between Jerusalem and Tel Aviv; both together in four days is possible but leaves the Dead Sea out.',
+    href: '/itineraries',
+    cta: '7- and 10-day itineraries',
+  },
+];
+
+const homeFaqs: Faq[] = [
+  {
+    question: 'Do I need a visa to visit Israel?',
+    answer:
+      'Most visitors from North America, Europe, Australia and many other countries enter visa-free for up to 90 days, but since the ETA-IL system was introduced, visa-exempt travellers must obtain an electronic travel authorisation online before their flight. Apply a few days ahead and check the official portal for your nationality, because the list of exempt countries and the rules change.',
+  },
+  {
+    question: 'What is the best month to visit Israel?',
+    answer:
+      'April, May, October and November give the most reliable weather across the whole country: warm and dry in Jerusalem and the Galilee, swimmable in Tel Aviv, and not yet or no longer extreme at the Dead Sea and in the Negev. March and September are nearly as good. Avoid planning around Passover and the autumn High Holidays unless you want the atmosphere, because hotels fill and much of the country closes for several days.',
+  },
+  {
+    question: 'How many days do you need in Israel?',
+    answer:
+      'Seven days is the realistic minimum for a first trip that includes Jerusalem, Tel Aviv and the Dead Sea. Ten days adds the Galilee, the Golan and Eilat, with time for a Petra day trip from Eilat. With only three or four days, base yourself in one city (Jerusalem for history, Tel Aviv for the beach and food) and take a single day trip.',
+  },
+  {
+    question: 'Is it safe to travel to Israel right now?',
+    answer:
+      'Tourism continues across the main circuit and the destinations in this guide see visitors year-round, with visible security at stations, malls and holy sites. Conditions can change, so the honest answer depends on the date you read this: check your government’s travel advisory before booking and again before flying, buy insurance that covers changes, and read our safety guide for what the advisories mean on the ground.',
+  },
+  {
+    question: 'What happens on Shabbat and how does it affect a trip?',
+    answer:
+      'From about an hour before sunset on Friday until an hour after sunset on Saturday, public transport stops, most Jewish-owned shops and restaurants close, and Jerusalem in particular goes quiet. Tel Aviv keeps its beaches, cafés and restaurants going; the Old City of Jerusalem’s Christian and Muslim Quarters stay open; the Dead Sea, Eilat and Arab towns are unaffected. Plan your Saturday as a beach, desert or Old City day, and take the train on Friday morning or Saturday night.',
+  },
 ];
 ---
 
@@ -178,8 +252,35 @@ const planLinks = [
     </div>
   </section>
 
+  <!-- The essentials: six short answers, each pointing to its full guide. -->
+  <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="essentials">
+    <div class="mb-6" data-reveal>
+      <p class="eyebrow">Before you book</p>
+      <h2 id="essentials" class="font-display text-3xl font-bold text-ink">Plan an Israel trip: the essentials</h2>
+      <p class="mt-3 max-w-3xl text-ink-muted">
+        The six questions every first-time visitor asks, answered in a paragraph each. The linked guides carry the
+        detail, and are updated as the rules change.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {
+        essentials.map((e) => (
+          <article class="flex flex-col rounded-card border border-border bg-card p-6 shadow-card">
+            <h3 class="font-display text-xl font-bold text-ink">{e.heading}</h3>
+            <p class="mt-3 flex-1 leading-relaxed text-ink">{e.text}</p>
+            <a href={e.href} class="mt-4 inline-block font-semibold text-primary">
+              {e.cta} →
+            </a>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <FaqSection faqs={homeFaqs} />
+
   <!-- Plan-your-trip practical links. -->
-  <section class="mx-auto max-w-6xl px-4 pb-4 pt-16" aria-labelledby="plan">
+  <section class="mx-auto max-w-6xl px-4 pb-4 pt-4" aria-labelledby="plan">
     <h2 id="plan" class="mb-6 font-display text-3xl font-bold text-ink">Plan your trip</h2>
     <div class="grid grid-cols-2 gap-4 sm:grid-cols-3 lg:grid-cols-5">
       {

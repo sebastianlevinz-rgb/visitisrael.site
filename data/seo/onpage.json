@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-09-22T11:55:18.403Z",
+  "generatedAt": "2026-09-22T12:20:23.951Z",
   "site": "https://visitisrael.site",
   "summary": {
     "pagesAnalyzed": 160,
     "pagesInDist": 168,
     "excludedInternal": 8,
-    "avgWords": 1767,
+    "avgWords": 1801,
     "perLocale": {
       "en": {
         "pages": 36,
-        "words": 70739,
-        "thin": 6,
-        "avgWords": 1965
+        "words": 76167,
+        "thin": 5,
+        "avgWords": 2116
       },
       "de": {
         "pages": 31,
@@ -47,7 +47,7 @@
       "missingDescriptions": 0,
       "shortDescriptions": 0,
       "longDescriptions": 0,
-      "thin": 13,
+      "thin": 12,
       "veryThin": 4,
       "noUniqueH1": 0,
       "brokenHreflang": 0,
@@ -102,7 +102,6 @@
     "shortDescriptions": [],
     "longDescriptions": [],
     "thin": [
-      "/",
       "/about",
       "/de",
       "/de/best-time-to-visit-israel",
@@ -165,8 +164,8 @@
         "Visit Israel"
       ],
       "h1Count": 1,
-      "h2Count": 8,
-      "h3Count": 14,
+      "h2Count": 10,
+      "h3Count": 20,
       "canonical": "/",
       "canonicalOk": true,
       "hreflang": [
@@ -200,13 +199,14 @@
       "ogImage": true,
       "jsonLd": [
         "Organization",
-        "WebSite"
+        "WebSite",
+        "FAQPage"
       ],
-      "words": 574,
+      "words": 1614,
       "images": 15,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 95,
+      "internalLinks": 101,
       "internalTargets": [
         "/jerusalem",
         "/tel-aviv",
@@ -286,9 +286,9 @@
         "Old City, Yad Vashem & more Jerusalem tours compared",
         "Sunrise climb, then float Dead Sea & Masada tours",
         "Caesarea, Haifa, the Galilee Day trips from Tel Aviv",
-        "Hotels in Tel Aviv",
-        "Dead Sea hotels",
-        "Hotels in Eilat"
+        "Best time to visit Israel →",
+        "Israel visa and ETA-IL guide →",
+        "Car rental in Israel: when it pays off →"
       ],
       "externalLinks": 7,
       "externalDomains": [
@@ -28697,7 +28697,7 @@
       ],
       "noindex": false,
       "inSitemap": true,
-      "inboundLinks": 15,
+      "inboundLinks": 16,
       "inboundFrom": [
         "/day-trips-from-tel-aviv",
         "/de/itineraries/10-days-in-israel",
@@ -28710,6 +28710,7 @@
         "/israel-tour-packages",
         "/itineraries",
         "/itineraries/10-days-in-israel",
+        "/jerusalem",
         "/jerusalem-bethlehem-day-trip",
         "/masada-visitor-guide",
         "/nazareth-sea-of-galilee-day-trip",
@@ -28727,8 +28728,8 @@
         "Jerusalem"
       ],
       "h1Count": 1,
-      "h2Count": 21,
-      "h3Count": 21,
+      "h2Count": 26,
+      "h3Count": 32,
       "canonical": "/jerusalem",
       "canonicalOk": true,
       "hreflang": [
@@ -28769,11 +28770,11 @@
         "ItemList",
         "FAQPage"
       ],
-      "words": 3199,
+      "words": 7587,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 79,
+      "internalLinks": 90,
       "internalTargets": [
         "/",
         "/tel-aviv",
@@ -28797,13 +28798,14 @@
         "/best-hotels-jerusalem",
         "/jerusalem-tours-compared",
         "/about",
-        "/masada-visitor-guide",
+        "/dead-sea-tours-compared",
         "/jerusalem-bethlehem-day-trip",
+        "/itineraries/7-days-in-israel",
+        "/masada-visitor-guide",
         "/day-trips-from-tel-aviv",
         "/best-hotels-tel-aviv",
         "/dead-sea-hotels-guide",
         "/eilat-hotels-guide",
-        "/dead-sea-tours-compared",
         "/petra-from-israel",
         "/nazareth-sea-of-galilee-day-trip",
         "/caesarea-haifa-akko-day-trip",
@@ -28843,19 +28845,19 @@
         "Home",
         "The Visit Israel Editorial Team",
         "Full guide: best hotels in Jerusalem →",
-        "Masada",
+        "Dead Sea and Masada",
         "Bethlehem",
-        "Day trips from Tel Aviv",
-        "Mediterranean cool Tel Aviv Golden beaches, Bauhaus architecture and a 24-hour food, art and nightlife scene. Explore",
-        "The lowest place on Earth Dead Sea Float on mineral-rich water, climb Masada at sunrise and hike the Ein Gedi oasis. Explore",
-        "Green hills and holy water Galilee The Sea of Galilee, Christian pilgrimage routes, hilltop Tzfat and boutique wineries. Explore",
-        "Hotels in Tel Aviv",
-        "Dead Sea hotels",
-        "Hotels in Eilat",
-        "Dead Sea & Masada tours",
-        "Masada: visiting & tours",
-        "Bethlehem from Jerusalem",
-        "Petra from Israel"
+        "7-day Israel itinerary",
+        "first-time in Israel guide",
+        "tour operators we compare",
+        "best time to visit Israel",
+        "best hotels in Jerusalem",
+        "Masada visitor guide",
+        "Dead Sea region guide",
+        "Dead Sea tours guide",
+        "Jerusalem and Bethlehem day trip",
+        "car rental in Israel",
+        "Day trips from Tel Aviv"
       ],
       "externalLinks": 10,
       "externalDomains": [
