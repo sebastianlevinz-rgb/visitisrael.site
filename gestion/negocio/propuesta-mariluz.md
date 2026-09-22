@@ -23,6 +23,41 @@ guías viejas. Estudiamos a los competidores uno por uno: los medios grandes dej
 actualizar Israel hace años y varios blogs de nicho cerraron o quedaron abandonados. **El
 lugar está casi vacío.** Y en español, lo que hay son crónicas de viajes de hace diez años.
 
+## Por qué la cara tenés que ser vos
+
+Te lo digo sin vueltas: **un sitio hecho por inteligencia artificial no vale nada.**
+Cualquiera puede generar mil páginas sobre Israel en una tarde; de hecho, yo lo hice: este
+sitio llegó a tener dos mil páginas escritas por una máquina y las tiré casi todas. Google
+las ignora, la gente no las cree, y no hay una sola razón para que alguien reserve por
+ahí. Internet ya está lleno de eso.
+
+Lo que no se puede generar es lo tuyo. Que vos digas algo como "a Masada subí de noche cincuenta
+veces, no vayas por la rampa romana en agosto" tiene un valor que ningún texto automático
+va a tener nunca. Cuando vos revisás una guía, tachás una pavada, agregás el dato que solo
+sabe alguien que estuvo, y le ponés tu nombre, esa página deja de ser una más y pasa a ser
+**la opinión de una guía licenciada que vive de esto**. Eso es lo que la gente busca y lo
+que Google premia: experiencia real, de una persona real, verificable.
+
+Y no es solo texto. Cada foto tuya en el lugar, cada video de un minuto en el que contás
+algo que no está en ningún libro, cada corrección que hacés, va sumando. Un sitio curado
+por vos, con tus fotos y tu cara, vale cada mes más que el mes anterior. Un sitio generado
+vale cada mes menos.
+
+Por eso el orden es este: yo pongo la máquina, vos ponés el criterio. Sin lo tuyo, la
+máquina produce ruido. Con lo tuyo, produce algo que no existe para Israel en ningún
+idioma.
+
+Lo que ganás vos con eso, además de los clientes:
+
+- **Tu nombre queda asociado a la referencia sobre Israel** en cinco idiomas, y eso no se
+  lo lleva nadie: es tu reputación, con o sin este proyecto.
+- **Dejás de depender de las plataformas.** GetYourGuide y Viator se quedan con el 20–30 %
+  de cada tour y no le dan tu nombre a nadie. Acá el cliente te busca a vos.
+- **Elegís con quién trabajar.** Cuando hay más demanda que días, te quedás con los grupos
+  que te gustan.
+- **Tu red de guías te responde a vos.** Los clientes que derivás son tuyos; los guías que
+  los toman los elegís vos.
+
 ## Cómo funciona
 
 Es un círculo, y cada vuelta lo hace más grande:
