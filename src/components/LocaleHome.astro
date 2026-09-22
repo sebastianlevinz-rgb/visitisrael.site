@@ -6,9 +6,11 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import Hero from '@/components/Hero.astro';
 import DestinationCard from '@/components/DestinationCard.astro';
+import FaqSection from '@/components/FaqSection.astro';
 import { REGIONS } from '@/data/regions';
 import { useTranslations, homeAlternates, localePrefix, PAGE_GROUPS, type Locale } from '@/i18n/ui';
 import { creditFor } from '@/lib/photos';
+import type { Faq } from '@/lib/schema';
 
 const HOME_HERO = '/images/regions/jerusalem/hero.jpg';
 
@@ -62,6 +64,316 @@ const groups = [
   { heading: t('plan.stayHeading'), pages: PAGE_GROUPS.stay },
   { heading: t('plan.toursHeading'), pages: PAGE_GROUPS.tours },
 ];
+
+/**
+ * "Plan an Israel trip: the essentials" + home FAQ — the same six blocks and five
+ * questions the English home carries (src/pages/index.astro), translated per locale.
+ * Editorial copy only; every fact comes from the English version. All six linked
+ * guides exist in the four locales, so every href takes the locale prefix.
+ */
+interface Essential {
+  heading: string;
+  text: string;
+  href: string;
+  cta: string;
+}
+interface HomeCopy {
+  essentialsEyebrow: string;
+  essentialsHeading: string;
+  essentialsIntro: string;
+  essentials: Essential[];
+  faqs: Faq[];
+}
+
+const COPY = {
+  fr: {
+    essentialsEyebrow: 'Avant de réserver',
+    essentialsHeading: 'Préparer un voyage en Israël : l’essentiel',
+    essentialsIntro:
+      'Les six questions que se pose tout visiteur qui vient pour la première fois, chacune traitée en un paragraphe. Les guides liés donnent le détail et sont mis à jour au fil des changements de règles.',
+    essentials: [
+      {
+        heading: 'Quand partir',
+        text: 'Le printemps (de mars à mai) et l’automne (de septembre à novembre) sont les deux périodes qui conviennent partout dans le pays : journées chaudes et sèches à Jérusalem et en Galilée, mer assez chaude pour se baigner à Tel Aviv, chaleur supportable à la mer Morte et dans le Néguev. L’été est très chaud dans le sud et dans le désert de Judée, mais agréable sur la côte ; l’hiver est doux et pluvieux dans le nord, et plaisant à Eilat. Ces deux intersaisons coïncident aussi avec les grandes fêtes juives, pendant lesquelles les hôtels se remplissent et les prix montent : consultez le calendrier avant de fixer vos dates.',
+        href: `${prefix}/best-time-to-visit-israel`,
+        cta: 'Meilleure période pour visiter Israël',
+      },
+      {
+        heading: 'Entrée : visa et ETA-IL',
+        text: 'Les ressortissants de la plupart des pays occidentaux n’ont pas besoin de visa pour un séjour touristique de 90 jours au maximum, mais les voyageurs exemptés de visa doivent désormais obtenir en ligne une autorisation électronique de voyage ETA-IL avant de prendre l’avion : faites la demande quelques jours à l’avance, pas à l’aéroport. À l’arrivée, vous recevez un petit coupon d’entrée à la place d’un tampon sur le passeport ; conservez-le, les hôtels et le passage vers Bethléem le demandent. Le passeport doit rester valable au moins six mois après la fin du séjour. Les règles évoluent : vérifiez votre nationalité sur le portail officiel avant de réserver.',
+        href: `${prefix}/visa-information`,
+        cta: 'Visa pour Israël et ETA-IL : le guide',
+      },
+      {
+        heading: 'Se déplacer',
+        text: 'Israël est un petit pays : le train relie l’aéroport Ben Gourion à Tel Aviv en 20 minutes environ et à Jérusalem en 30, et les bus interurbains desservent presque toutes les villes. Une seule carte sans contact ou application couvre les trains, les bus et le tramway de Jérusalem. Le piège, c’est le shabbat : du vendredi après-midi au samedi soir, les transports publics s’arrêtent dans tout le pays, et seuls les taxis collectifs (sheruts) et les taxis privés circulent. La voiture de location se justifie en Galilée, sur le Golan et dans le Néguev, où les sites sont dispersés ; elle devient un fardeau à Tel Aviv et à Jérusalem, où le stationnement est rare.',
+        href: `${prefix}/car-rental-israel`,
+        cta: 'Louer une voiture en Israël : quand ça vaut le coup',
+      },
+      {
+        heading: 'Argent et budget',
+        text: 'La monnaie est le nouveau shekel israélien (ILS, noté ₪). Cartes et paiement sans contact sont acceptés presque partout, jusque sur les étals des marchés et dans les taxis, donc peu d’espèces sont nécessaires ; les distributeurs abondent en ville. Attendez-vous à des prix comparables à ceux de l’Europe de l’Ouest : l’hébergement et les restaurants sont les gros postes, tandis que transports publics, déjeuner de houmous et sites gratuits de la vieille ville gardent une journée bon marché si vous le souhaitez. Le pourboire au restaurant est d’usage, en espèces ou ajouté sur la carte à votre demande. Excursions guidées et petits-déjeuners d’hôtel sont les postes où l’on dépense le plus facilement trop.',
+        href: `${prefix}/first-time-in-israel`,
+        cta: 'Première fois en Israël : les bases',
+      },
+      {
+        heading: 'Sécurité',
+        text: 'Israël reçoit des millions de visiteurs par an, et le circuit touristique (Jérusalem, Tel Aviv, la mer Morte, la Galilée, Eilat) fonctionne avec des contrôles de sécurité de routine dans les gares, les centres commerciaux et les lieux saints. Les risques du quotidien sont les risques ordinaires : pickpockets dans les marchés bondés, insolation dans le désert, et fermetures du shabbat qui vous prennent au dépourvu. La situation régionale peut changer vite : lisez les conseils aux voyageurs actuels de votre gouvernement avant de réserver, relisez-les la semaine du départ et gardez votre assurance voyage à jour. Notre guide sécurité suit ces conseils et explique ce qu’ils signifient en pratique.',
+        href: `${prefix}/is-israel-safe`,
+        cta: 'Israël est-il un pays sûr pour voyager ?',
+      },
+      {
+        heading: 'Combien de jours',
+        text: 'Un premier voyage demande une semaine. Sept jours couvrent l’essentiel sans courir : trois nuits à Jérusalem avec une journée à la mer Morte et à Massada, trois à Tel Aviv avec une excursion vers le nord (Césarée, Haïfa ou la Galilée), et le train entre les deux. Dix jours permettent d’ajouter vraiment le nord (Nazareth, le lac de Tibériade, le Golan) et l’extrême sud, avec Eilat et, en option, une journée à Pétra de l’autre côté de la frontière. Avec moins de cinq jours, il faut choisir entre Jérusalem et Tel Aviv ; les deux en quatre jours restent possibles, mais sans la mer Morte.',
+        href: `${prefix}/itineraries`,
+        cta: 'Itinéraires de 7 et 10 jours',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Faut-il un visa pour visiter Israël ?',
+        answer:
+          'La plupart des visiteurs venant d’Amérique du Nord, d’Europe, d’Australie et de nombreux autres pays entrent sans visa pour 90 jours au maximum, mais depuis la mise en place du système ETA-IL, les voyageurs exemptés de visa doivent obtenir une autorisation électronique de voyage en ligne avant leur vol. Faites la demande quelques jours à l’avance et vérifiez votre nationalité sur le portail officiel, car la liste des pays exemptés et les règles changent.',
+      },
+      {
+        question: 'Quel est le meilleur mois pour visiter Israël ?',
+        answer:
+          'Avril, mai, octobre et novembre offrent la météo la plus fiable dans tout le pays : chaud et sec à Jérusalem et en Galilée, baignade possible à Tel Aviv, et une chaleur pas encore ou plus extrême à la mer Morte et dans le Néguev. Mars et septembre sont presque aussi bons. Évitez de caler votre voyage sur Pessah et les grandes fêtes d’automne, sauf si vous recherchez l’ambiance, car les hôtels se remplissent et une grande partie du pays ferme pendant plusieurs jours.',
+      },
+      {
+        question: 'Combien de jours faut-il pour visiter Israël ?',
+        answer:
+          'Sept jours sont le minimum réaliste pour un premier voyage incluant Jérusalem, Tel Aviv et la mer Morte. Dix jours permettent d’ajouter la Galilée, le Golan et Eilat, avec le temps d’une excursion d’une journée à Pétra depuis Eilat. Avec seulement trois ou quatre jours, installez-vous dans une seule ville (Jérusalem pour l’histoire, Tel Aviv pour la plage et la gastronomie) et faites une seule excursion.',
+      },
+      {
+        question: 'Est-il sûr de voyager en Israël en ce moment ?',
+        answer:
+          'Le tourisme se poursuit sur le circuit principal et les destinations de ce guide reçoivent des visiteurs toute l’année, avec une sécurité visible dans les gares, les centres commerciaux et les lieux saints. Les conditions peuvent changer, donc la réponse honnête dépend de la date à laquelle vous lisez ceci : consultez les conseils aux voyageurs de votre gouvernement avant de réserver et de nouveau avant de partir, souscrivez une assurance qui couvre les modifications, et lisez notre guide sécurité pour comprendre ce que ces conseils signifient sur le terrain.',
+      },
+      {
+        question: 'Que se passe-t-il pendant le shabbat et quel effet sur le voyage ?',
+        answer:
+          'D’environ une heure avant le coucher du soleil le vendredi jusqu’à une heure après le coucher du soleil le samedi, les transports publics s’arrêtent, la plupart des commerces et restaurants juifs ferment, et Jérusalem en particulier devient très calme. Tel Aviv garde ses plages, ses cafés et ses restaurants ouverts ; les quartiers chrétien et musulman de la vieille ville de Jérusalem restent ouverts ; la mer Morte, Eilat et les villes arabes ne sont pas concernées. Prévoyez votre samedi comme une journée plage, désert ou vieille ville, et prenez le train le vendredi matin ou le samedi soir.',
+      },
+    ],
+  },
+  de: {
+    essentialsEyebrow: 'Bevor Sie buchen',
+    essentialsHeading: 'Israel-Reise planen: das Wichtigste',
+    essentialsIntro:
+      'Die sechs Fragen, die sich jeder Erstbesucher stellt, jeweils in einem Absatz beantwortet. Die verlinkten Ratgeber liefern die Details und werden aktualisiert, sobald sich die Regeln ändern.',
+    essentials: [
+      {
+        heading: 'Wann reisen',
+        text: 'Frühling (März bis Mai) und Herbst (September bis November) sind die beiden Zeitfenster, die überall im Land funktionieren: warme, trockene Tage in Jerusalem und Galiläa, ein Meer, das in Tel Aviv warm genug zum Baden ist, und erträgliche Hitze am Toten Meer und im Negev. Der Sommer ist im Süden und in der Judäischen Wüste sehr heiß, an der Küste aber gut auszuhalten; der Winter ist im Norden mild und regnerisch und in Eilat angenehm. In beide Nebensaisons fallen zudem die großen jüdischen Feiertage, an denen die Hotels voll sind und die Preise steigen. Prüfen Sie also den Kalender, bevor Sie Ihre Termine festlegen.',
+        href: `${prefix}/best-time-to-visit-israel`,
+        cta: 'Beste Reisezeit für Israel',
+      },
+      {
+        heading: 'Einreise: Visum und ETA-IL',
+        text: 'Bürger der meisten westlichen Länder brauchen für einen touristischen Aufenthalt von bis zu 90 Tagen kein Visum, müssen aber als visumfreie Reisende inzwischen vor dem Abflug online eine elektronische Reisegenehmigung ETA-IL beantragen; erledigen Sie das einige Tage vorher, nicht am Flughafen. Bei der Ankunft erhalten Sie statt eines Passstempels einen kleinen Einreisezettel; bewahren Sie ihn auf, denn Hotels und der Übergang nach Bethlehem fragen danach. Der Reisepass sollte noch mindestens sechs Monate über den Aufenthalt hinaus gültig sein. Die Vorschriften ändern sich, prüfen Sie daher die Regelung für Ihre Staatsangehörigkeit vor der Buchung auf dem offiziellen Portal.',
+        href: `${prefix}/visa-information`,
+        cta: 'Visum für Israel und ETA-IL: der Ratgeber',
+      },
+      {
+        heading: 'Unterwegs im Land',
+        text: 'Israel ist klein: Züge verbinden den Flughafen Ben Gurion in etwa 20 Minuten mit Tel Aviv und in etwa 30 Minuten mit Jerusalem, und Überlandbusse erreichen fast jede Stadt. Eine einzige kontaktlose Karte oder App gilt für Züge, Busse und die Stadtbahn in Jerusalem. Der Haken ist der Schabbat: Von Freitagnachmittag bis Samstagabend steht der öffentliche Verkehr landesweit still, nur Sammeltaxis (Sheruts) und normale Taxis fahren. Ein Mietwagen lohnt sich für Galiläa, den Golan und den Negev, wo die Sehenswürdigkeiten weit auseinanderliegen; in Tel Aviv und Jerusalem ist er eine Last, weil Parkplätze knapp sind.',
+        href: `${prefix}/car-rental-israel`,
+        cta: 'Mietwagen in Israel: wann er sich lohnt',
+      },
+      {
+        heading: 'Geld und Kosten',
+        text: 'Die Währung ist der Neue Israelische Schekel (ILS, geschrieben ₪). Karten und kontaktloses Bezahlen werden fast überall akzeptiert, auch an Marktständen und im Taxi, sodass Sie wenig Bargeld brauchen; Geldautomaten gibt es in den Städten reichlich. Rechnen Sie mit Preisen auf westeuropäischem Niveau: Unterkunft und Essen gehen sind die großen Posten, während öffentlicher Verkehr, ein Hummus zum Mittag und die kostenlosen Stätten der Altstadt einen Tag günstig halten, wenn Sie es darauf anlegen. Trinkgeld im Restaurant ist üblich, meist in bar oder auf Wunsch über die Karte. Geführte Tagesausflüge und Hotelfrühstück sind die Posten, bei denen man am leichtesten zu viel ausgibt.',
+        href: `${prefix}/first-time-in-israel`,
+        cta: 'Zum ersten Mal in Israel: die Grundlagen',
+      },
+      {
+        heading: 'Sicherheit',
+        text: 'Israel empfängt jedes Jahr Millionen Besucher, und die touristische Route (Jerusalem, Tel Aviv, das Tote Meer, Galiläa, Eilat) funktioniert mit routinemäßigen Sicherheitskontrollen an Bahnhöfen, in Einkaufszentren und an heiligen Stätten. Die Alltagsrisiken sind die gewöhnlichen: Taschendiebe auf vollen Märkten, Sonnenstich in der Wüste und Schabbat-Schließungen, die einen überraschen. Die regionale Lage kann sich schnell ändern. Lesen Sie deshalb vor der Buchung die aktuellen Reisehinweise Ihrer Regierung, prüfen Sie sie in der Abflugwoche erneut und halten Sie Ihre Reiseversicherung gültig. Unser Sicherheitsratgeber verfolgt die Reisehinweise und erklärt, was sie in der Praxis bedeuten.',
+        href: `${prefix}/is-israel-safe`,
+        cta: 'Ist Israel ein sicheres Reiseland?',
+      },
+      {
+        heading: 'Wie viele Tage',
+        text: 'Eine erste Reise braucht eine Woche. Sieben Tage decken den Kern ohne Hetze ab: drei Nächte in Jerusalem mit einem Tag am Toten Meer und in Masada, drei in Tel Aviv mit einem Tagesausflug nach Norden (Caesarea, Haifa oder Galiläa) und die Zugfahrt zwischen beiden. Zehn Tage nehmen den Norden richtig mit (Nazareth, See Genezareth, Golan) und den tiefen Süden mit Eilat und optional einem Tag über die Grenze nach Petra. Bei weniger als fünf Tagen müssen Sie sich zwischen Jerusalem und Tel Aviv entscheiden; beide in vier Tagen sind möglich, aber dann bleibt das Tote Meer außen vor.',
+        href: `${prefix}/itineraries`,
+        cta: 'Reiserouten für 7 und 10 Tage',
+      },
+    ],
+    faqs: [
+      {
+        question: 'Brauche ich ein Visum für Israel?',
+        answer:
+          'Die meisten Besucher aus Nordamerika, Europa, Australien und vielen weiteren Ländern reisen für bis zu 90 Tage visumfrei ein. Seit Einführung des ETA-IL-Systems müssen visumfreie Reisende jedoch vor dem Flug online eine elektronische Reisegenehmigung einholen. Beantragen Sie sie einige Tage vorher und prüfen Sie die Regelung für Ihre Staatsangehörigkeit auf dem offiziellen Portal, denn die Liste der befreiten Länder und die Vorschriften ändern sich.',
+      },
+      {
+        question: 'Welcher Monat ist der beste für eine Israel-Reise?',
+        answer:
+          'April, Mai, Oktober und November bieten landesweit das zuverlässigste Wetter: warm und trocken in Jerusalem und Galiläa, Badewetter in Tel Aviv, und am Toten Meer und im Negev noch nicht oder nicht mehr extrem heiß. März und September sind fast ebenso gut. Legen Sie die Reise nicht auf Pessach und die Hohen Feiertage im Herbst, es sei denn, Sie suchen genau diese Atmosphäre, denn die Hotels sind voll und große Teile des Landes schließen für mehrere Tage.',
+      },
+      {
+        question: 'Wie viele Tage braucht man für Israel?',
+        answer:
+          'Sieben Tage sind das realistische Minimum für eine erste Reise mit Jerusalem, Tel Aviv und dem Toten Meer. Zehn Tage erlauben zusätzlich Galiläa, den Golan und Eilat, mit Zeit für einen Tagesausflug von Eilat nach Petra. Mit nur drei oder vier Tagen bleiben Sie in einer Stadt (Jerusalem für Geschichte, Tel Aviv für Strand und Essen) und machen einen einzigen Tagesausflug.',
+      },
+      {
+        question: 'Ist eine Reise nach Israel derzeit sicher?',
+        answer:
+          'Der Tourismus läuft auf der Hauptroute weiter, und die Ziele in diesem Reiseführer werden das ganze Jahr besucht, mit sichtbarer Sicherheitspräsenz an Bahnhöfen, in Einkaufszentren und an heiligen Stätten. Die Lage kann sich ändern, die ehrliche Antwort hängt also vom Datum ab, an dem Sie dies lesen: Prüfen Sie die Reisehinweise Ihrer Regierung vor der Buchung und noch einmal vor dem Abflug, schließen Sie eine Versicherung ab, die Umbuchungen abdeckt, und lesen Sie in unserem Sicherheitsratgeber, was die Hinweise vor Ort bedeuten.',
+      },
+      {
+        question: 'Was passiert am Schabbat und wie wirkt er sich auf die Reise aus?',
+        answer:
+          'Von etwa einer Stunde vor Sonnenuntergang am Freitag bis eine Stunde nach Sonnenuntergang am Samstag steht der öffentliche Verkehr still, die meisten jüdisch geführten Geschäfte und Restaurants schließen, und besonders Jerusalem wird sehr ruhig. Tel Aviv hält Strände, Cafés und Restaurants offen; das christliche und das muslimische Viertel der Jerusalemer Altstadt bleiben geöffnet; das Tote Meer, Eilat und die arabischen Städte sind nicht betroffen. Planen Sie Ihren Samstag als Strand-, Wüsten- oder Altstadttag und nehmen Sie den Zug am Freitagvormittag oder Samstagabend.',
+      },
+    ],
+  },
+  es: {
+    essentialsEyebrow: 'Antes de reservar',
+    essentialsHeading: 'Planear un viaje a Israel: lo esencial',
+    essentialsIntro:
+      'Las seis preguntas que se hace todo visitante que viene por primera vez, respondidas en un párrafo cada una. Las guías enlazadas tienen el detalle y se actualizan cuando cambian las reglas.',
+    essentials: [
+      {
+        heading: 'Cuándo ir',
+        text: 'La primavera (de marzo a mayo) y el otoño (de septiembre a noviembre) son las dos ventanas que funcionan en todo el país: días cálidos y secos en Jerusalén y Galilea, mar lo bastante templado para nadar en Tel Aviv y un calor soportable en el Mar Muerto y el Néguev. El verano es muy caluroso en el sur y en el desierto de Judea, pero agradable en la costa; el invierno es suave y lluvioso en el norte y placentero en Eilat. En las dos temporadas intermedias caen además las grandes festividades judías, cuando los hoteles se llenan y los precios suben, así que revisa el calendario antes de fijar las fechas.',
+        href: `${prefix}/best-time-to-visit-israel`,
+        cta: 'Mejor época para visitar Israel',
+      },
+      {
+        heading: 'Entrada: visado y ETA-IL',
+        text: 'Los ciudadanos de la mayoría de los países occidentales no necesitan visado para una estancia turística de hasta 90 días, pero los viajeros exentos de visado ahora deben obtener en línea una autorización electrónica de viaje ETA-IL antes de volar; solicítala con unos días de antelación, no en el aeropuerto. Al llegar recibes un pequeño comprobante de entrada en lugar de un sello en el pasaporte; guárdalo, porque los hoteles y el cruce a Belén lo piden. El pasaporte debe tener al menos seis meses de validez más allá de tu estancia. Los requisitos cambian, así que confirma los de tu nacionalidad en el portal oficial antes de reservar.',
+        href: `${prefix}/visa-information`,
+        cta: 'Guía de visado y ETA-IL para Israel',
+      },
+      {
+        heading: 'Cómo moverse',
+        text: 'Israel es pequeño: el tren conecta el aeropuerto Ben Gurión con Tel Aviv en unos 20 minutos y con Jerusalén en unos 30, y los autobuses interurbanos llegan a casi todas las ciudades. Una sola tarjeta sin contacto o app sirve para trenes, autobuses y el tren ligero de Jerusalén. El problema es el Shabat: desde el viernes por la tarde hasta el sábado por la noche el transporte público se detiene en todo el país y solo circulan los taxis compartidos (sherut) y los taxis privados. Alquilar un coche compensa en Galilea, el Golán y el Néguev, donde los lugares están dispersos; es una carga en Tel Aviv y Jerusalén, donde el estacionamiento es escaso.',
+        href: `${prefix}/car-rental-israel`,
+        cta: 'Alquiler de coche en Israel: cuándo compensa',
+      },
+      {
+        heading: 'Dinero y gastos',
+        text: 'La moneda es el nuevo shékel israelí (ILS, escrito ₪). Las tarjetas y el pago sin contacto se aceptan casi en todas partes, incluidos los puestos de los mercados y los taxis, así que necesitas poco efectivo; hay cajeros automáticos por todas las ciudades. Espera precios similares a los de Europa occidental: el alojamiento y comer fuera son las partidas grandes, mientras que el transporte público, un almuerzo de hummus y los sitios gratuitos de la Ciudad Vieja mantienen barato el día si te lo propones. En los restaurantes es costumbre dejar propina, en efectivo o añadida a la tarjeta si lo pides. Las excursiones guiadas y los desayunos de hotel son donde más fácil se gasta de más.',
+        href: `${prefix}/first-time-in-israel`,
+        cta: 'Primera vez en Israel: lo básico',
+      },
+      {
+        heading: 'Seguridad',
+        text: 'Israel recibe millones de visitantes al año, y el circuito turístico (Jerusalén, Tel Aviv, el Mar Muerto, Galilea, Eilat) funciona con controles de seguridad rutinarios en estaciones, centros comerciales y lugares sagrados. Los riesgos cotidianos son los de siempre: carteristas en los mercados llenos, insolación en el desierto y los cierres del Shabat que te toman por sorpresa. La situación regional puede cambiar con rapidez, así que lee las recomendaciones de viaje vigentes de tu gobierno antes de reservar, vuelve a consultarlas la semana del vuelo y mantén al día tu seguro de viaje. Nuestra guía de seguridad sigue esas recomendaciones y explica qué significan en la práctica.',
+        href: `${prefix}/is-israel-safe`,
+        cta: '¿Es seguro viajar a Israel?',
+      },
+      {
+        heading: 'Cuántos días',
+        text: 'Un primer viaje necesita una semana. Siete días cubren lo esencial sin prisas: tres noches en Jerusalén con un día en el Mar Muerto y Masada, tres en Tel Aviv con una excursión al norte (Cesarea, Haifa o Galilea) y el tren entre ambas. Diez días permiten añadir el norte de verdad (Nazaret, el mar de Galilea, el Golán) y el extremo sur, con Eilat y un día opcional a Petra cruzando la frontera. Con menos de cinco días hay que elegir entre Jerusalén y Tel Aviv; las dos juntas en cuatro días es posible, pero deja fuera el Mar Muerto.',
+        href: `${prefix}/itineraries`,
+        cta: 'Itinerarios de 7 y 10 días',
+      },
+    ],
+    faqs: [
+      {
+        question: '¿Necesito visado para visitar Israel?',
+        answer:
+          'La mayoría de los visitantes de América del Norte, Europa, Australia y muchos otros países entran sin visado hasta 90 días, pero desde que se introdujo el sistema ETA-IL, los viajeros exentos de visado deben obtener en línea una autorización electrónica de viaje antes del vuelo. Solicítala con unos días de antelación y confirma tu nacionalidad en el portal oficial, porque la lista de países exentos y las reglas cambian.',
+      },
+      {
+        question: '¿Cuál es el mejor mes para visitar Israel?',
+        answer:
+          'Abril, mayo, octubre y noviembre ofrecen el clima más fiable en todo el país: cálido y seco en Jerusalén y Galilea, apto para nadar en Tel Aviv, y todavía no o ya no extremo en el Mar Muerto y el Néguev. Marzo y septiembre son casi igual de buenos. Evita planificar alrededor de Pésaj y las grandes festividades de otoño, salvo que busques ese ambiente, porque los hoteles se llenan y buena parte del país cierra durante varios días.',
+      },
+      {
+        question: '¿Cuántos días se necesitan en Israel?',
+        answer:
+          'Siete días son el mínimo realista para un primer viaje que incluya Jerusalén, Tel Aviv y el Mar Muerto. Diez días añaden Galilea, el Golán y Eilat, con tiempo para una excursión de un día a Petra desde Eilat. Con solo tres o cuatro días, quédate en una sola ciudad (Jerusalén por la historia, Tel Aviv por la playa y la comida) y haz una única excursión.',
+      },
+      {
+        question: '¿Es seguro viajar a Israel ahora mismo?',
+        answer:
+          'El turismo continúa en el circuito principal y los destinos de esta guía reciben visitantes todo el año, con seguridad visible en estaciones, centros comerciales y lugares sagrados. Las condiciones pueden cambiar, así que la respuesta honesta depende de la fecha en que leas esto: consulta las recomendaciones de viaje de tu gobierno antes de reservar y otra vez antes de volar, contrata un seguro que cubra cambios y lee nuestra guía de seguridad para saber qué significan esas recomendaciones sobre el terreno.',
+      },
+      {
+        question: '¿Qué pasa en Shabat y cómo afecta al viaje?',
+        answer:
+          'Desde una hora antes de la puesta de sol del viernes hasta una hora después de la puesta de sol del sábado, el transporte público se detiene, la mayoría de las tiendas y restaurantes judíos cierran y Jerusalén, en particular, se queda en silencio. Tel Aviv mantiene abiertas sus playas, cafés y restaurantes; los barrios cristiano y musulmán de la Ciudad Vieja de Jerusalén siguen abiertos; el Mar Muerto, Eilat y las ciudades árabes no se ven afectados. Planifica el sábado como día de playa, desierto o Ciudad Vieja, y toma el tren el viernes por la mañana o el sábado por la noche.',
+      },
+    ],
+  },
+  he: {
+    essentialsEyebrow: 'לפני שמזמינים',
+    essentialsHeading: 'תכנון טיול בישראל: הדברים החשובים',
+    essentialsIntro:
+      'שש השאלות שכל מבקר שמגיע בפעם הראשונה שואל, עם תשובה בפסקה אחת לכל שאלה. המדריכים המקושרים מכילים את הפירוט ומתעדכנים כשהכללים משתנים.',
+    essentials: [
+      {
+        heading: 'מתי לבוא',
+        text: 'האביב (מרץ עד מאי) והסתיו (ספטמבר עד נובמבר) הם שני חלונות הזמן שמתאימים לכל חלקי הארץ: ימים חמים ויבשים בירושלים ובגליל, ים חמים דיו לשחייה בתל אביב, וחום סביר בים המלח ובנגב. הקיץ חם מאוד בדרום ובמדבר יהודה אך נעים בחוף; החורף מתון וגשום בצפון ונעים באילת. בשתי עונות המעבר חלים גם החגים הגדולים, כשהמלונות מתמלאים והמחירים עולים, לכן בדקו את לוח השנה לפני שאתם קובעים תאריכים.',
+        href: `${prefix}/best-time-to-visit-israel`,
+        cta: 'הזמן הטוב ביותר לבקר בישראל',
+      },
+      {
+        heading: 'כניסה: ויזה ו-ETA-IL',
+        text: 'אזרחי רוב המדינות המערביות אינם זקוקים לויזה לשהות תיירותית של עד 90 יום, אך נוסעים פטורים מויזה נדרשים כעת לקבל אישור נסיעה אלקטרוני ETA-IL באינטרנט לפני הטיסה; הגישו את הבקשה כמה ימים מראש, לא בשדה התעופה. בהגעה מקבלים פתק כניסה קטן במקום חותמת בדרכון; שמרו אותו, כי מלונות ומעבר הגבול לבית לחם מבקשים לראותו. הדרכון צריך להיות בתוקף לפחות שישה חודשים מעבר לתום השהות. הדרישות משתנות, לכן בדקו את הכללים לאזרחותכם בפורטל הרשמי לפני ההזמנה.',
+        href: `${prefix}/visa-information`,
+        cta: 'מדריך ויזה ו-ETA-IL לישראל',
+      },
+      {
+        heading: 'איך מתניידים',
+        text: 'ישראל קטנה: הרכבת מחברת את נתב״ג לתל אביב בכ-20 דקות ולירושלים בכ-30, ואוטובוסים בין-עירוניים מגיעים כמעט לכל עיר. כרטיס אחד ללא מגע או אפליקציה אחת מכסים רכבות, אוטובוסים ואת הרכבת הקלה בירושלים. המלכוד הוא השבת: מיום שישי אחר הצהריים ועד מוצאי שבת התחבורה הציבורית עוצרת בכל הארץ, ורק מוניות שירות ומוניות פרטיות פועלות. רכב שכור משתלם בגליל, בגולן ובנגב, שם האתרים מפוזרים; בתל אביב ובירושלים הוא נטל, כי החנייה נדירה.',
+        href: `${prefix}/car-rental-israel`,
+        cta: 'השכרת רכב בישראל: מתי זה משתלם',
+      },
+      {
+        heading: 'כסף והוצאות',
+        text: 'המטבע הוא השקל החדש (ILS, נכתב ₪). כרטיסי אשראי ותשלום ללא מגע מתקבלים כמעט בכל מקום, כולל דוכנים בשוק ומוניות, כך שצריך מעט מזומן; כספומטים יש בשפע בערים. צפו למחירים ברמה של מערב אירופה: לינה ואכילה בחוץ הן ההוצאות הגדולות, בעוד תחבורה ציבורית, ארוחת חומוס בצהריים והאתרים החינמיים בעיר העתיקה שומרים על יום זול אם רוצים. טיפ במסעדות מקובל, בדרך כלל במזומן או בכרטיס לפי בקשתכם. סיורי יום מודרכים וארוחות בוקר במלון הם המקומות שבהם הכי קל להוציא יותר מדי.',
+        href: `${prefix}/first-time-in-israel`,
+        cta: 'פעם ראשונה בישראל: הבסיס',
+      },
+      {
+        heading: 'ביטחון ובטיחות',
+        text: 'ישראל מקבלת מיליוני מבקרים בשנה, והמסלול התיירותי (ירושלים, תל אביב, ים המלח, הגליל, אילת) פועל עם בידוק ביטחוני שגרתי בתחנות, בקניונים ובמקומות הקדושים. הסיכונים היומיומיים הם הרגילים: כייסים בשווקים צפופים, מכת שמש במדבר, וסגירות של שבת שמפתיעות מי שלא תכנן. המצב האזורי יכול להשתנות במהירות, לכן קראו את המלצות הנסיעה העדכניות של ממשלתכם לפני ההזמנה, בדקו אותן שוב בשבוע הטיסה, ושמרו על ביטוח נסיעות בתוקף. מדריך הבטיחות שלנו עוקב אחר ההמלצות ומסביר מה הן אומרות בפועל.',
+        href: `${prefix}/is-israel-safe`,
+        cta: 'האם בטוח לטייל בישראל?',
+      },
+      {
+        heading: 'כמה ימים',
+        text: 'טיול ראשון דורש שבוע. שבעה ימים מכסים את הליבה בלי לרוץ: שלושה לילות בירושלים עם יום בים המלח ובמצדה, שלושה בתל אביב עם טיול יום צפונה לקיסריה, לחיפה או לגליל, והרכבת ביניהן. עשרה ימים מוסיפים את הצפון כמו שצריך (נצרת, הכנרת, הגולן) ואת הדרום הרחוק, עם אילת ויום אופציונלי מעבר לגבול בפטרה. פחות מחמישה ימים פירושם לבחור בין ירושלים לתל אביב; שתיהן יחד בארבעה ימים אפשרי, אך משאיר את ים המלח בחוץ.',
+        href: `${prefix}/itineraries`,
+        cta: 'מסלולים של 7 ו-10 ימים',
+      },
+    ],
+    faqs: [
+      {
+        question: 'האם צריך ויזה כדי לבקר בישראל?',
+        answer:
+          'רוב המבקרים מצפון אמריקה, אירופה, אוסטרליה ומדינות רבות אחרות נכנסים ללא ויזה לשהות של עד 90 יום, אך מאז הוכנסה מערכת ETA-IL, נוסעים פטורים מויזה חייבים לקבל אישור נסיעה אלקטרוני באינטרנט לפני הטיסה. הגישו בקשה כמה ימים מראש ובדקו את הכללים לאזרחותכם בפורטל הרשמי, כי רשימת המדינות הפטורות והכללים משתנים.',
+      },
+      {
+        question: 'מהו החודש הטוב ביותר לבקר בישראל?',
+        answer:
+          'אפריל, מאי, אוקטובר ונובמבר מציעים את מזג האוויר האמין ביותר בכל הארץ: חם ויבש בירושלים ובגליל, מתאים לשחייה בתל אביב, ועדיין לא או כבר לא קיצוני בים המלח ובנגב. מרץ וספטמבר טובים כמעט באותה מידה. הימנעו מתכנון סביב פסח וחגי תשרי, אלא אם אתם מחפשים דווקא את האטמוספרה, כי המלונות מתמלאים וחלק גדול מהארץ נסגר לכמה ימים.',
+      },
+      {
+        question: 'כמה ימים צריך לטיול בישראל?',
+        answer:
+          'שבעה ימים הם המינימום הריאלי לטיול ראשון שכולל את ירושלים, תל אביב וים המלח. עשרה ימים מוסיפים את הגליל, הגולן ואילת, עם זמן לטיול יום לפטרה מאילת. עם שלושה או ארבעה ימים בלבד, התבססו בעיר אחת (ירושלים להיסטוריה, תל אביב לחוף ולאוכל) וצאו לטיול יום אחד.',
+      },
+      {
+        question: 'האם בטוח לטייל בישראל עכשיו?',
+        answer:
+          'התיירות ממשיכה במסלול המרכזי, והיעדים במדריך הזה מקבלים מבקרים כל השנה, עם אבטחה גלויה בתחנות, בקניונים ובמקומות הקדושים. התנאים יכולים להשתנות, ולכן התשובה הכנה תלויה בתאריך שבו אתם קוראים את זה: בדקו את המלצות הנסיעה של ממשלתכם לפני ההזמנה ושוב לפני הטיסה, רכשו ביטוח שמכסה שינויים, וקראו את מדריך הבטיחות שלנו כדי להבין מה ההמלצות אומרות בשטח.',
+      },
+      {
+        question: 'מה קורה בשבת ואיך זה משפיע על הטיול?',
+        answer:
+          'מכשעה לפני השקיעה ביום שישי ועד כשעה אחרי השקיעה בשבת, התחבורה הציבורית עוצרת, רוב החנויות והמסעדות בבעלות יהודית נסגרות, וירושלים במיוחד נהיית שקטה. תל אביב ממשיכה עם החופים, בתי הקפה והמסעדות; הרובע הנוצרי והרובע המוסלמי בעיר העתיקה בירושלים נשארים פתוחים; ים המלח, אילת והיישובים הערביים אינם מושפעים. תכננו את השבת כיום חוף, מדבר או עיר עתיקה, וקחו את הרכבת ביום שישי בבוקר או במוצאי שבת.',
+      },
+    ],
+  },
+} satisfies Record<Exclude<Locale, 'en'>, HomeCopy>;
+const copy: HomeCopy = COPY[locale];
+/** The CTA arrow follows the reading direction: the layout sets dir="rtl" for Hebrew. */
+const arrow = locale === 'he' ? '←' : '→';
 ---
 
 <BaseLayout
@@ -93,7 +405,31 @@ const groups = [
     </div>
   </section>
 
-  <section class="mx-auto max-w-6xl px-4 pt-14" aria-labelledby="plan">
+  <!-- The essentials: six short answers, each pointing to its full guide (same markup as the EN home). -->
+  <section class="mx-auto max-w-6xl px-4 pt-16" aria-labelledby="essentials">
+    <div class="mb-6" data-reveal>
+      <p class="eyebrow">{copy.essentialsEyebrow}</p>
+      <h2 id="essentials" class="font-display text-3xl font-bold text-ink">{copy.essentialsHeading}</h2>
+      <p class="mt-3 max-w-3xl text-ink-muted">{copy.essentialsIntro}</p>
+    </div>
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {
+        copy.essentials.map((e) => (
+          <article class="flex flex-col rounded-card border border-border bg-card p-6 shadow-card">
+            <h3 class="font-display text-xl font-bold text-ink">{e.heading}</h3>
+            <p class="mt-3 flex-1 leading-relaxed text-ink">{e.text}</p>
+            <a href={e.href} class="mt-4 inline-block font-semibold text-primary">
+              {e.cta} {arrow}
+            </a>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <FaqSection faqs={copy.faqs} />
+
+  <section class="mx-auto max-w-6xl px-4 pt-4" aria-labelledby="plan">
     <h2 id="plan" class="mb-6 font-display text-3xl font-bold text-ink">{t('home.planHeading')}</h2>
     <div class="grid gap-6 sm:grid-cols-3">
       {
