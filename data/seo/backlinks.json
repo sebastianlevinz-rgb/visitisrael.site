@@ -1,0 +1,2571 @@
+{
+  "generatedAt": "2026-09-22T09:32:08.915Z",
+  "costUsd": 0,
+  "summary": {
+    "ourRank": 0,
+    "ourBacklinks": 16,
+    "ourReferringDomains": 16,
+    "backlinksChecked": 16,
+    "live": 16,
+    "redirected": 0,
+    "lost": 0,
+    "toxic": 16,
+    "unverified": 0,
+    "other": 0,
+    "apiCalls": 0,
+    "cachedCalls": 26
+  },
+  "notes": [
+    "Índice de DataForSEO (arranca 2019). Se consultó también backlinks_status_type \"all\" (live + perdidos) el 2026-09-22: mismo resultado, sin enlaces históricos a URLs de 2017-2018. Google Search Console puede tener otra foto.",
+    "toxic = spam score >= 50 o anchor/título de venta de backlinks, PBN, casino o farmacia. Candidatos a disavow, no a conservar.",
+    "La verificación de estado se hace siguiendo redirects a mano contra producción (HEAD, fallback GET): chain[0] es el primer código y status el final."
+  ],
+  "domains": [
+    {
+      "domain": "visitisrael.site",
+      "rank": 0,
+      "backlinks": 16,
+      "referringDomains": 16,
+      "referringMainDomains": 16,
+      "brokenBacklinks": 0,
+      "referringIps": 13,
+      "internalLinksCount": 0,
+      "externalLinksCount": 0,
+      "firstSeen": "2026-06-11 20:02:08 +00:00",
+      "topReferring": []
+    },
+    {
+      "domain": "touristisrael.com",
+      "rank": 325,
+      "backlinks": 18677,
+      "referringDomains": 5164,
+      "referringMainDomains": 4325,
+      "brokenBacklinks": 4386,
+      "referringIps": 2861,
+      "internalLinksCount": 195422,
+      "externalLinksCount": 8800,
+      "firstSeen": "2019-01-16 00:23:53 +00:00",
+      "topReferring": [
+        {
+          "domain": "booking-tours.com",
+          "rank": 241,
+          "backlinks": 340
+        },
+        {
+          "domain": "womenexpert.net",
+          "rank": 205,
+          "backlinks": 30
+        },
+        {
+          "domain": "israelactive.com",
+          "rank": 182,
+          "backlinks": 85
+        },
+        {
+          "domain": "asianladydate.com",
+          "rank": 166,
+          "backlinks": 1
+        },
+        {
+          "domain": "c99.nl",
+          "rank": 163,
+          "backlinks": 141
+        },
+        {
+          "domain": "tripomatic.com",
+          "rank": 162,
+          "backlinks": 99
+        },
+        {
+          "domain": "charcon-files.org",
+          "rank": 158,
+          "backlinks": 425
+        },
+        {
+          "domain": "sharinhislove.com",
+          "rank": 150,
+          "backlinks": 656
+        },
+        {
+          "domain": "voyageforum.com",
+          "rank": 144,
+          "backlinks": 21
+        },
+        {
+          "domain": "lovebrides.org",
+          "rank": 128,
+          "backlinks": 1
+        },
+        {
+          "domain": "ahuva18.com",
+          "rank": 125,
+          "backlinks": 121
+        },
+        {
+          "domain": "biblicalisraeltours.com",
+          "rank": 124,
+          "backlinks": 79
+        },
+        {
+          "domain": "ovidiuloy.blogspot.com",
+          "rank": 123,
+          "backlinks": 214
+        },
+        {
+          "domain": "littleduckie.com.au",
+          "rank": 123,
+          "backlinks": 24
+        },
+        {
+          "domain": "leonas-lalaland.de",
+          "rank": 121,
+          "backlinks": 155
+        },
+        {
+          "domain": "wetalkwomen.org",
+          "rank": 117,
+          "backlinks": 1
+        },
+        {
+          "domain": "underwater.org",
+          "rank": 116,
+          "backlinks": 6
+        },
+        {
+          "domain": "e-architect.com",
+          "rank": 115,
+          "backlinks": 10
+        },
+        {
+          "domain": "wanderlog.com",
+          "rank": 114,
+          "backlinks": 125
+        },
+        {
+          "domain": "worldjewishtravel.org",
+          "rank": 113,
+          "backlinks": 64
+        },
+        {
+          "domain": "dansdeals.com",
+          "rank": 110,
+          "backlinks": 69
+        },
+        {
+          "domain": "ashdodcafe.com",
+          "rank": 104,
+          "backlinks": 115
+        },
+        {
+          "domain": "wilsons.life",
+          "rank": 104,
+          "backlinks": 100
+        },
+        {
+          "domain": "askanydifference.com",
+          "rank": 102,
+          "backlinks": 11
+        },
+        {
+          "domain": "infotravel.lt",
+          "rank": 101,
+          "backlinks": 42
+        },
+        {
+          "domain": "grethevangeffen.nl",
+          "rank": 100,
+          "backlinks": 11
+        },
+        {
+          "domain": "prchiz.pl",
+          "rank": 98,
+          "backlinks": 30
+        },
+        {
+          "domain": "mosqueimage.web.app",
+          "rank": 96,
+          "backlinks": 65
+        },
+        {
+          "domain": "tamatsulab.com",
+          "rank": 96,
+          "backlinks": 6
+        },
+        {
+          "domain": "harbingerdardinger.com",
+          "rank": 96,
+          "backlinks": 10
+        },
+        {
+          "domain": "excellenceluxuryvillas.com",
+          "rank": 94,
+          "backlinks": 24
+        },
+        {
+          "domain": "grokipedia.com",
+          "rank": 94,
+          "backlinks": 299
+        },
+        {
+          "domain": "fieldlilies.blogspot.com",
+          "rank": 94,
+          "backlinks": 1205
+        },
+        {
+          "domain": "israelmega.com",
+          "rank": 92,
+          "backlinks": 35
+        },
+        {
+          "domain": "rjstreets.com",
+          "rank": 90,
+          "backlinks": 18
+        },
+        {
+          "domain": "avia.md",
+          "rank": 90,
+          "backlinks": 12
+        },
+        {
+          "domain": "unitedwithisrael.org",
+          "rank": 88,
+          "backlinks": 64
+        },
+        {
+          "domain": "wykop.pl",
+          "rank": 87,
+          "backlinks": 4
+        },
+        {
+          "domain": "ejwiki.org",
+          "rank": 87,
+          "backlinks": 41
+        },
+        {
+          "domain": "thesapphiresrilanka.com",
+          "rank": 85,
+          "backlinks": 7
+        },
+        {
+          "domain": "rove.me",
+          "rank": 84,
+          "backlinks": 22
+        },
+        {
+          "domain": "ahuzatshaulhotel.com",
+          "rank": 84,
+          "backlinks": 24
+        },
+        {
+          "domain": "airial.travel",
+          "rank": 83,
+          "backlinks": 21
+        },
+        {
+          "domain": "publicholidays.co.il",
+          "rank": 81,
+          "backlinks": 3
+        },
+        {
+          "domain": "seeker.io",
+          "rank": 81,
+          "backlinks": 8
+        },
+        {
+          "domain": "wedjat-tours.com",
+          "rank": 80,
+          "backlinks": 41
+        },
+        {
+          "domain": "magpie.travel",
+          "rank": 79,
+          "backlinks": 8
+        },
+        {
+          "domain": "diplomatisches-magazin.de",
+          "rank": 79,
+          "backlinks": 4
+        },
+        {
+          "domain": "havefunwithhistory.com",
+          "rank": 79,
+          "backlinks": 2
+        },
+        {
+          "domain": "coding.al",
+          "rank": 79,
+          "backlinks": 2
+        }
+      ]
+    },
+    {
+      "domain": "backpackisrael.com",
+      "rank": 151,
+      "backlinks": 545,
+      "referringDomains": 128,
+      "referringMainDomains": 126,
+      "brokenBacklinks": 41,
+      "referringIps": 106,
+      "internalLinksCount": 8564,
+      "externalLinksCount": 3072,
+      "firstSeen": "2022-03-20 21:10:51 +00:00",
+      "topReferring": [
+        {
+          "domain": "pinterest.com",
+          "rank": 125,
+          "backlinks": 1
+        },
+        {
+          "domain": "raveburbleblog.com",
+          "rank": 78,
+          "backlinks": 136
+        },
+        {
+          "domain": "trono-villegas.com",
+          "rank": 23,
+          "backlinks": 1
+        },
+        {
+          "domain": "mad-in-israel.com",
+          "rank": 4,
+          "backlinks": 5
+        },
+        {
+          "domain": "grokipedia.com",
+          "rank": 2,
+          "backlinks": 24
+        },
+        {
+          "domain": "cvillico.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "digitizeseo.info",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "usaseobiz.info",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "goldbacklinks.info",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "tokoseo.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "five.co.in",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "youseotools.link",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "buymeacoffee.com",
+          "rank": 0,
+          "backlinks": 2
+        },
+        {
+          "domain": "ko-fi.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "webseodigital.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "dupurgeniefr.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "techbumppy.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "mediaboooster.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "fittyfoody.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "cmocheatsheets.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "forbesstories.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "fashionclothingnews.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "clifflisting.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "bestnz-poker-casinoslot.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "theforbestimes.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "uncledspizza.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "quotesblom.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "thedocmag.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "ufabettererm4.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "betwinnermirror.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "archive-hu.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "esim4.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "profilpelajar.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "homesforsaleoldgreenwichct.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "betulcrime.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "ggmap.us.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "bazerdaily.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "expert-bremerhaven.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "anchorurl.cloud",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "topofhotel.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "jt.org",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "airial.travel",
+          "rank": 0,
+          "backlinks": 2
+        },
+        {
+          "domain": "read.org.in",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "rankvanceseo.info",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "alljobs.info",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "sergechel.info",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "vikkiblatrina.pages.dev",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "seomuda.id",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "shoplogist.com",
+          "rank": 0,
+          "backlinks": 1
+        },
+        {
+          "domain": "torun-stolarz.pl",
+          "rank": 0,
+          "backlinks": 1
+        }
+      ]
+    },
+    {
+      "domain": "secrettelaviv.com",
+      "rank": 252,
+      "backlinks": 4116,
+      "referringDomains": 1920,
+      "referringMainDomains": 1543,
+      "brokenBacklinks": 2,
+      "referringIps": 930,
+      "internalLinksCount": 233599,
+      "externalLinksCount": 76566,
+      "firstSeen": "2019-01-15 23:22:52 +00:00",
+      "topReferring": [
+        {
+          "domain": "wanderlog.com",
+          "rank": 126,
+          "backlinks": 144
+        },
+        {
+          "domain": "dailyfreier.com",
+          "rank": 114,
+          "backlinks": 93
+        },
+        {
+          "domain": "outgoing.world",
+          "rank": 112,
+          "backlinks": 28
+        },
+        {
+          "domain": "airial.travel",
+          "rank": 107,
+          "backlinks": 45
+        },
+        {
+          "domain": "tripomatic.com",
+          "rank": 101,
+          "backlinks": 14
+        },
+        {
+          "domain": "beenthereeatenthat.net",
+          "rank": 100,
+          "backlinks": 84
+        },
+        {
+          "domain": "themoderngay.com",
+          "rank": 87,
+          "backlinks": 60
+        },
+        {
+          "domain": "forward.co.il",
+          "rank": 84,
+          "backlinks": 9
+        },
+        {
+          "domain": "galeriecharlot.com",
+          "rank": 73,
+          "backlinks": 70
+        },
+        {
+          "domain": "adamweingrod.com",
+          "rank": 68,
+          "backlinks": 2
+        },
+        {
+          "domain": "momwhoruns.com",
+          "rank": 68,
+          "backlinks": 52
+        },
+        {
+          "domain": "dailyxtratravel.com",
+          "rank": 66,
+          "backlinks": 72
+        },
+        {
+          "domain": "bolindersthlm.com",
+          "rank": 65,
+          "backlinks": 14
+        },
+        {
+          "domain": "intently.co",
+          "rank": 63,
+          "backlinks": 5
+        },
+        {
+          "domain": "milione.net",
+          "rank": 60,
+          "backlinks": 15
+        },
+        {
+          "domain": "israelactive.com",
+          "rank": 60,
+          "backlinks": 4
+        },
+        {
+          "domain": "israelandbeyond.de",
+          "rank": 57,
+          "backlinks": 2
+        },
+        {
+          "domain": "seotrends.pro",
+          "rank": 51,
+          "backlinks": 1
+        },
+        {
+          "domain": "vsitestatus.com",
+          "rank": 51,
+          "backlinks": 4
+        },
+        {
+          "domain": "hotelcontact.net",
+          "rank": 51,
+          "backlinks": 1
+        },
+        {
+          "domain": "tsitestatus.com",
+          "rank": 51,
+          "backlinks": 4
+        },
+        {
+          "domain": "evendo.com",
+          "rank": 51,
+          "backlinks": 7
+        },
+        {
+          "domain": "madan.org.il",
+          "rank": 51,
+          "backlinks": 2
+        },
+        {
+          "domain": "galeriecharlot.fr",
+          "rank": 50,
+          "backlinks": 32
+        },
+        {
+          "domain": "koma-medien.de",
+          "rank": 44,
+          "backlinks": 2
+        },
+        {
+          "domain": "fastbase.com",
+          "rank": 42,
+          "backlinks": 7
+        },
+        {
+          "domain": "telaviv-helsinki.com",
+          "rank": 40,
+          "backlinks": 3
+        },
+        {
+          "domain": "hyggewomenscenter.com",
+          "rank": 40,
+          "backlinks": 1
+        },
+        {
+          "domain": "cbnisrael.org",
+          "rank": 36,
+          "backlinks": 10
+        },
+        {
+          "domain": "grokipedia.com",
+          "rank": 30,
+          "backlinks": 48
+        },
+        {
+          "domain": "mantripping.com",
+          "rank": 29,
+          "backlinks": 2
+        },
+        {
+          "domain": "israelnieuws.nl",
+          "rank": 28,
+          "backlinks": 9
+        },
+        {
+          "domain": "ourfrenchtravels.com",
+          "rank": 28,
+          "backlinks": 5
+        },
+        {
+          "domain": "al-monitor.com",
+          "rank": 27,
+          "backlinks": 3
+        },
+        {
+          "domain": "turkisrael.org.il",
+          "rank": 27,
+          "backlinks": 6
+        },
+        {
+          "domain": "wellicious.com",
+          "rank": 26,
+          "backlinks": 6
+        },
+        {
+          "domain": "instahop.com",
+          "rank": 23,
+          "backlinks": 1
+        },
+        {
+          "domain": "shalom.media",
+          "rank": 23,
+          "backlinks": 1
+        },
+        {
+          "domain": "ronastern.com",
+          "rank": 23,
+          "backlinks": 1
+        },
+        {
+          "domain": "dzismis.com",
+          "rank": 22,
+          "backlinks": 28
+        },
+        {
+          "domain": "bookstr.web.app",
+          "rank": 19,
+          "backlinks": 9
+        },
+        {
+          "domain": "tlv1.fm",
+          "rank": 17,
+          "backlinks": 3
+        },
+        {
+          "domain": "masaisrael.org",
+          "rank": 16,
+          "backlinks": 12
+        },
+        {
+          "domain": "joydevoyage.com",
+          "rank": 16,
+          "backlinks": 3
+        },
+        {
+          "domain": "morikodance.carrd.co",
+          "rank": 14,
+          "backlinks": 2
+        },
+        {
+          "domain": "yairgil.com",
+          "rank": 14,
+          "backlinks": 2
+        },
+        {
+          "domain": "goinglobal.com",
+          "rank": 12,
+          "backlinks": 4
+        },
+        {
+          "domain": "talknsave.net",
+          "rank": 11,
+          "backlinks": 6
+        },
+        {
+          "domain": "startupintros.com",
+          "rank": 9,
+          "backlinks": 5
+        },
+        {
+          "domain": "mena-watch.com",
+          "rank": 8,
+          "backlinks": 5
+        }
+      ]
+    },
+    {
+      "domain": "funinjerusalem.com",
+      "rank": 261,
+      "backlinks": 2617,
+      "referringDomains": 796,
+      "referringMainDomains": 682,
+      "brokenBacklinks": 2201,
+      "referringIps": 460,
+      "internalLinksCount": 203166,
+      "externalLinksCount": 23045,
+      "firstSeen": "2019-01-17 07:38:26 +00:00",
+      "topReferring": []
+    },
+    {
+      "domain": "viajeroscallejeros.com",
+      "rank": 313,
+      "backlinks": 39381,
+      "referringDomains": 2460,
+      "referringMainDomains": 2191,
+      "brokenBacklinks": 15,
+      "referringIps": 1476,
+      "internalLinksCount": 1144,
+      "externalLinksCount": 187,
+      "firstSeen": "2019-01-18 23:14:45 +00:00",
+      "topReferring": []
+    },
+    {
+      "domain": "losviajesdedomi.com",
+      "rank": 243,
+      "backlinks": 8257,
+      "referringDomains": 917,
+      "referringMainDomains": 902,
+      "brokenBacklinks": 0,
+      "referringIps": 504,
+      "internalLinksCount": 0,
+      "externalLinksCount": 0,
+      "firstSeen": "2019-01-18 23:14:45 +00:00",
+      "topReferring": []
+    },
+    {
+      "domain": "kommwirmachendaseinfach.de",
+      "rank": 265,
+      "backlinks": 5122,
+      "referringDomains": 2514,
+      "referringMainDomains": 2494,
+      "brokenBacklinks": 0,
+      "referringIps": 561,
+      "internalLinksCount": 72467,
+      "externalLinksCount": 17086,
+      "firstSeen": "2019-01-18 09:28:55 +00:00",
+      "topReferring": []
+    },
+    {
+      "domain": "sommertage.com",
+      "rank": 290,
+      "backlinks": 9744,
+      "referringDomains": 2347,
+      "referringMainDomains": 2227,
+      "brokenBacklinks": 4,
+      "referringIps": 1113,
+      "internalLinksCount": 70439,
+      "externalLinksCount": 9887,
+      "firstSeen": "2019-01-16 03:24:26 +00:00",
+      "topReferring": []
+    },
+    {
+      "domain": "hike-israel.com",
+      "rank": 212,
+      "backlinks": 1823,
+      "referringDomains": 427,
+      "referringMainDomains": 413,
+      "brokenBacklinks": 0,
+      "referringIps": 245,
+      "internalLinksCount": 0,
+      "externalLinksCount": 0,
+      "firstSeen": "2019-01-17 23:54:06 +00:00",
+      "topReferring": []
+    },
+    {
+      "domain": "beinharimtours.com",
+      "rank": 261,
+      "backlinks": 9270,
+      "referringDomains": 1608,
+      "referringMainDomains": 1353,
+      "brokenBacklinks": 7614,
+      "referringIps": 1052,
+      "internalLinksCount": 0,
+      "externalLinksCount": 0,
+      "firstSeen": "2019-01-18 05:08:30 +00:00",
+      "topReferring": []
+    }
+  ],
+  "ourReferring": [
+    {
+      "toxic": true,
+      "domain": "bestenglishonlinecasino.online",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-09-22 02:32:20 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 70,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "clonidine01mg.store",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-09-21 03:54:33 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 75,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "pecah77gacor.site",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-09-20 08:41:47 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 75,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "bitproperty.online",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-09-19 13:33:43 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 60,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "fashionclothingnews.com",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-08-30 23:57:17 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 70,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "uncledspizza.com",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-08-25 11:50:29 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 60,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "theforbestimes.com",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-08-25 07:51:54 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 60,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "quotesblom.com",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-08-24 21:01:07 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 60,
+      "brokenBacklinks": 0,
+      "countries": [
+        "US"
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "seo-growth-authority-boost-hub.shop",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-08-17 08:13:57 +00:00",
+      "lostDate": null,
+      "dofollow": false,
+      "nofollowLinks": 1,
+      "spamScore": 60,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "betwinnermirror.com",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-08-15 12:49:27 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 70,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "homesforsaleoldgreenwichct.com",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-08-11 12:51:01 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 70,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "betulcrime.com",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-08-11 11:19:51 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 60,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "ggmap.us.com",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-08-05 21:44:53 +00:00",
+      "lostDate": null,
+      "dofollow": true,
+      "nofollowLinks": 0,
+      "spamScore": 60,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "seo-growth-optimization-hub.shop",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-08-02 10:39:19 +00:00",
+      "lostDate": null,
+      "dofollow": false,
+      "nofollowLinks": 1,
+      "spamScore": 60,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "seopxl-organic-boost-lab.shop",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-07-15 09:49:37 +00:00",
+      "lostDate": null,
+      "dofollow": false,
+      "nofollowLinks": 1,
+      "spamScore": 60,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    },
+    {
+      "toxic": true,
+      "domain": "seopxl-traffic-growth-lab.shop",
+      "rank": 0,
+      "backlinks": 1,
+      "referringPages": 1,
+      "firstSeen": "2026-06-11 20:02:08 +00:00",
+      "lostDate": null,
+      "dofollow": false,
+      "nofollowLinks": 1,
+      "spamScore": 60,
+      "brokenBacklinks": 0,
+      "countries": [
+        ""
+      ]
+    }
+  ],
+  "ourBacklinks": [
+    {
+      "toxic": true,
+      "fromDomain": "bestenglishonlinecasino.online",
+      "fromUrl": "https://bestenglishonlinecasino.online/crawl-index-network/premium-white-hat-seo-links-to-increase-trust-flow-build-lasting-authority-with-safe-link-velocity-9c2bfa.html",
+      "fromTitle": "Premium White Hat SEO Links to Increase Trust Flow. Build Lasting Authority, with Safe Link Velocity.",
+      "anchor": "High Quality Niche Edit Links for visitisrael.site Designed to Improve DA, DR and TF. Strengthen Website Reputation, for Competitive SERP Results.",
+      "rank": 0,
+      "domainRank": 249,
+      "spamScore": 70,
+      "dofollow": true,
+      "firstSeen": "2026-09-22 02:32:20 +00:00",
+      "lastSeen": "2026-09-22 02:32:20 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "clonidine01mg.store",
+      "fromUrl": "https://clonidine01mg.store/pbn-directory/advanced-white-hat-seo-links-to-raise-domain-rating-grow-search-traffic-and-grow-your-business-online-dde613.html",
+      "fromTitle": "Advanced White Hat SEO Links to Raise Domain Rating. Grow Search Traffic, and Grow Your Business Online.",
+      "anchor": "High Quality Niche Edit Links for visitisrael.site Designed to Improve DA, DR and TF. Strengthen Website Reputation, for Competitive SERP Results.",
+      "rank": 0,
+      "domainRank": 209,
+      "spamScore": 75,
+      "dofollow": true,
+      "firstSeen": "2026-09-21 03:54:33 +00:00",
+      "lastSeen": "2026-09-21 03:54:33 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "pecah77gacor.site",
+      "fromUrl": "https://pecah77gacor.site/search-visibility-network/trusted-seo-authority-backlinks-to-increase-trust-flow-strengthen-website-reputation-with-safe-link-velocity-8a58b1.html",
+      "fromTitle": "Trusted SEO Authority Backlinks to Increase Trust Flow. Strengthen Website Reputation, with Safe Link Velocity.",
+      "anchor": "High Quality Niche Edit Links for visitisrael.site Designed to Improve DA, DR and TF. Strengthen Website Reputation, for Competitive SERP Results.",
+      "rank": 0,
+      "domainRank": 224,
+      "spamScore": 75,
+      "dofollow": true,
+      "firstSeen": "2026-09-20 08:41:47 +00:00",
+      "lastSeen": "2026-09-20 08:41:47 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "bitproperty.online",
+      "fromUrl": "https://bitproperty.online/offpage-seo-directory/advanced-manual-outreach-backlinks-to-boost-domain-authority-improve-google-rankings-and-grow-your-business-online-49281b.html",
+      "fromTitle": "Advanced Manual Outreach Backlinks to Boost Domain Authority. Improve Google Rankings, and Grow Your Business Online.",
+      "anchor": "High Quality Niche Edit Links for visitisrael.site Designed to Improve DA, DR and TF. Strengthen Website Reputation, for Competitive SERP Results.",
+      "rank": 0,
+      "domainRank": 132,
+      "spamScore": 60,
+      "dofollow": true,
+      "firstSeen": "2026-09-19 13:33:43 +00:00",
+      "lastSeen": "2026-09-19 13:33:43 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "seopxl-organic-boost-lab.shop",
+      "fromUrl": "https://seopxl-organic-boost-lab.shop/seopxl-organic-boost-lab-for-enhancing-natural-traffic-improving-search-presence-and-building-long-term-website-authority-fiqaxwignv/",
+      "fromTitle": "Seopxl Optimization Lab Focused on Technical SEO, Content Strategy, and Improving Overall Search Engine Performance Consistently.",
+      "anchor": "visitisrael.site",
+      "rank": 0,
+      "domainRank": 34,
+      "spamScore": 60,
+      "dofollow": false,
+      "firstSeen": "2026-07-15 09:49:37 +00:00",
+      "lastSeen": "2026-09-02 18:27:57 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "fashionclothingnews.com",
+      "fromUrl": "https://fashionclothingnews.com/all/3103/31.html",
+      "fromTitle": "🏆🏆Boost your Google rankings with Premium PBN & Link Building🏆🏆",
+      "anchor": "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service visitisrael.site Rank First Page Google Fast SEO Link Building Buy Backlinks Online Cheap",
+      "rank": 0,
+      "domainRank": 0,
+      "spamScore": 70,
+      "dofollow": true,
+      "firstSeen": "2026-08-30 23:57:17 +00:00",
+      "lastSeen": "2026-08-30 23:57:17 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "uncledspizza.com",
+      "fromUrl": "https://uncledspizza.com/all/3103/31.html",
+      "fromTitle": "🏆🏆Boost your Google rankings with Premium PBN & Link Building🏆🏆",
+      "anchor": "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service visitisrael.site Rank First Page Google Fast SEO Link Building Buy Backlinks Online Cheap",
+      "rank": 0,
+      "domainRank": 16,
+      "spamScore": 60,
+      "dofollow": true,
+      "firstSeen": "2026-08-25 11:50:29 +00:00",
+      "lastSeen": "2026-08-25 11:50:29 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "theforbestimes.com",
+      "fromUrl": "https://theforbestimes.com/all/3103/31.html",
+      "fromTitle": "🏆🏆Boost your Google rankings with Premium PBN & Link Building🏆🏆",
+      "anchor": "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service visitisrael.site Rank First Page Google Fast SEO Link Building Buy Backlinks Online Cheap",
+      "rank": 0,
+      "domainRank": 216,
+      "spamScore": 60,
+      "dofollow": true,
+      "firstSeen": "2026-08-25 07:51:54 +00:00",
+      "lastSeen": "2026-08-25 07:51:54 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "quotesblom.com",
+      "fromUrl": "https://quotesblom.com/all/3103/31.html",
+      "fromTitle": "🏆🏆Boost your Google rankings with Premium PBN & Link Building🏆🏆",
+      "anchor": "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service visitisrael.site Rank First Page Google Fast SEO Link Building Buy Backlinks Online Cheap",
+      "rank": 0,
+      "domainRank": 126,
+      "spamScore": 60,
+      "dofollow": true,
+      "firstSeen": "2026-08-24 21:01:07 +00:00",
+      "lastSeen": "2026-08-24 21:01:07 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "seo-growth-authority-boost-hub.shop",
+      "fromUrl": "https://seo-growth-authority-boost-hub.shop/seo-growth-premium-optimization-hub-for-maximizing-search-rankings-improving-site-performance-and-building-strong-digital-authority-lz9xu0xumo/",
+      "fromTitle": "SEO Growth Optimization Hub for Improving Website Performance, Boosting Organic Traffic, and Enhancing Search Rankings.",
+      "anchor": "visitisrael.site",
+      "rank": 0,
+      "domainRank": 0,
+      "spamScore": 60,
+      "dofollow": false,
+      "firstSeen": "2026-08-17 08:13:57 +00:00",
+      "lastSeen": "2026-08-17 08:13:57 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "www.betwinnermirror.com",
+      "fromUrl": "https://www.betwinnermirror.com/all/3103/31.html",
+      "fromTitle": "🏆🏆Boost your Google rankings with Premium PBN & Link Building🏆🏆",
+      "anchor": "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service visitisrael.site Rank First Page Google Fast SEO Link Building Buy Backlinks Online Cheap",
+      "rank": 0,
+      "domainRank": 125,
+      "spamScore": 70,
+      "dofollow": true,
+      "firstSeen": "2026-08-15 12:49:27 +00:00",
+      "lastSeen": "2026-08-15 12:49:27 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "homesforsaleoldgreenwichct.com",
+      "fromUrl": "https://homesforsaleoldgreenwichct.com/all/3103/31.html",
+      "fromTitle": "🏆🏆Boost your Google rankings with Premium PBN & Link Building🏆🏆",
+      "anchor": "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service visitisrael.site Rank First Page Google Fast SEO Link Building Buy Backlinks Online Cheap",
+      "rank": 0,
+      "domainRank": 18,
+      "spamScore": 70,
+      "dofollow": true,
+      "firstSeen": "2026-08-11 12:51:01 +00:00",
+      "lastSeen": "2026-08-11 12:51:01 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "betulcrime.com",
+      "fromUrl": "https://betulcrime.com/all/3103/31.html",
+      "fromTitle": "🏆🏆Boost your Google rankings with Premium PBN & Link Building🏆🏆",
+      "anchor": "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service visitisrael.site Rank First Page Google Fast SEO Link Building Buy Backlinks Online Cheap",
+      "rank": 0,
+      "domainRank": 203,
+      "spamScore": 60,
+      "dofollow": true,
+      "firstSeen": "2026-08-11 11:19:51 +00:00",
+      "lastSeen": "2026-08-11 11:19:51 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "ggmap.us.com",
+      "fromUrl": "https://ggmap.us.com/all/3103/31.html",
+      "fromTitle": "🏆🏆Boost your Google rankings with Premium PBN & Link Building🏆🏆",
+      "anchor": "High Quality Dofollow Backlinks DA 50 PA 40 Premium PBN Network Service visitisrael.site Rank First Page Google Fast SEO Link Building Buy Backlinks Online Cheap",
+      "rank": 0,
+      "domainRank": 52,
+      "spamScore": 60,
+      "dofollow": true,
+      "firstSeen": "2026-08-05 21:44:53 +00:00",
+      "lastSeen": "2026-08-05 21:44:53 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "seopxl-traffic-growth-lab.shop",
+      "fromUrl": "https://seopxl-traffic-growth-lab.shop/seopxl-traffic-growth-lab-for-boosting-website-visits-increasing-organic-reach-and-scaling-consistent-search-engine-performance-8wwv7tjdp4/",
+      "fromTitle": "Seopxl Performance Authority Engine for Building Domain Strength, Improving Backlinks, and Achieving Higher Search Rankings Effectively.",
+      "anchor": "visitisrael.site",
+      "rank": 0,
+      "domainRank": 0,
+      "spamScore": 60,
+      "dofollow": false,
+      "firstSeen": "2026-06-11 20:02:08 +00:00",
+      "lastSeen": "2026-08-02 19:12:32 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    },
+    {
+      "toxic": true,
+      "fromDomain": "seo-growth-optimization-hub.shop",
+      "fromUrl": "https://seo-growth-optimization-hub.shop/seo-growth-optimization-hub-for-improving-website-performance-boosting-organic-traffic-and-enhancing-search-rankings-vb3x85hdpq/",
+      "fromTitle": "SEO Growth Premium Optimization Hub for Maximizing Search Rankings, Improving Site Performance, and Building Strong Digital Authority.",
+      "anchor": "visitisrael.site",
+      "rank": 0,
+      "domainRank": 0,
+      "spamScore": 60,
+      "dofollow": false,
+      "firstSeen": "2026-08-02 10:39:19 +00:00",
+      "lastSeen": "2026-08-02 10:39:19 +00:00",
+      "linkedUrl": "https://visitisrael.site/",
+      "linkedPath": "/",
+      "inRedirectMap": false,
+      "vercelRule": null,
+      "expectedDestination": null,
+      "chain": [
+        200
+      ],
+      "finalUrl": "https://visitisrael.site/",
+      "status": 200,
+      "classification": "live"
+    }
+  ],
+  "lostLinks": [],
+  "opportunities": [
+    {
+      "url": "https://israelactive.com",
+      "title": "israelactive.com",
+      "why": "enlaza a touristisrael.com y a secrettelaviv.com (rank 182)",
+      "source": "competitors"
+    },
+    {
+      "url": "https://tripomatic.com",
+      "title": "tripomatic.com",
+      "why": "enlaza a touristisrael.com y a secrettelaviv.com (rank 162)",
+      "source": "competitors"
+    },
+    {
+      "url": "https://wanderlog.com",
+      "title": "wanderlog.com",
+      "why": "enlaza a touristisrael.com y a secrettelaviv.com (rank 126)",
+      "source": "competitors"
+    },
+    {
+      "url": "https://airial.travel",
+      "title": "airial.travel",
+      "why": "enlaza a touristisrael.com, backpackisrael.com y a secrettelaviv.com (rank 107)",
+      "source": "competitors"
+    },
+    {
+      "url": "https://grokipedia.com",
+      "title": "grokipedia.com",
+      "why": "enlaza a touristisrael.com, backpackisrael.com y a secrettelaviv.com (rank 94)",
+      "source": "competitors"
+    },
+    {
+      "url": "https://onegirlwholeworld.com/middle-east/israel/",
+      "title": "Israel Travel: Tips For Planning Your Trip",
+      "why": "aparece #2 en Google (EN) para \"israel travel blogs\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.easttowestrms.com/middleeast/israel/",
+      "title": "A LOCAL'S GUIDE ON ISRAEL TRAVEL TIPS AND WHAT ...",
+      "why": "aparece #3 en Google (EN) para \"israel travel blogs\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://travelbooksfood.com/planning-trip-to-israel",
+      "title": "Planning a trip to Israel in 2026 (DIY Guide and doing it solo)",
+      "why": "aparece #4 en Google (EN) para \"israel travel blogs\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.masaisrael.org/12-best-israel-travel-blogs-for-your-trip-masa-israel/",
+      "title": "12 Best Israel Travel Blogs for Your Trip",
+      "why": "aparece #5 en Google (EN) para \"israel travel blogs\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.beinharimtours.com/news/",
+      "title": "Israel Travel Blog",
+      "why": "aparece #6 en Google (EN) para \"israel travel blogs\" — es competidor",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.goaheadtours.com/travel-blog/articles/israel-travel-guide",
+      "title": "Israel Travel Guide: Best Tips for Your Trip",
+      "why": "aparece #7 en Google (EN) para \"israel travel blogs\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.touristisrael.com/israel-travel-news/",
+      "title": "Israel Travel Blog",
+      "why": "aparece #8 en Google (EN) para \"israel travel blogs\" — es competidor",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.sheneedsless.com/israel-48-hours/",
+      "title": "Israel Travel Guide: Tel Aviv, Jerusalem & Dead Sea",
+      "why": "aparece #9 en Google (EN) para \"israel travel blogs\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://israelitravelbloggers.com/",
+      "title": "Israeli Travel Bloggers - Let us introduce you to our Israeli ...",
+      "why": "aparece #11 en Google (EN) para \"israel travel blogs\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://dekeltours.com/travel-guide/",
+      "title": "Israel Travel Guide | Blog",
+      "why": "aparece #10 en Google (EN) para \"best israel travel blogs\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.jfedwcnj.org/israel2016/israel-travel-resources",
+      "title": "Israel Travel Resources",
+      "why": "aparece #2 en Google (EN) para \"\"israel travel resources\" links\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.baischabad.com/templates/articlecco_cdo/aid/67026/jewish/Resources.htm",
+      "title": "Jewish Resources on the Internet",
+      "why": "aparece #5 en Google (EN) para \"\"israel travel resources\" links\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.nextleveloftravel.com/israel/14-best-places-in-israel/",
+      "title": "14 Beautiful Places to Visit in Israel: Tourist Spots I Loved!",
+      "why": "aparece #7 en Google (EN) para \"\"israel travel resources\" links\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.cheapoair.com/hotels/cheap-hotels-in-israel-il",
+      "title": "Book Cheap Hotels in",
+      "why": "aparece #8 en Google (EN) para \"\"israel travel resources\" links\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.tripsim.co.uk/airport/tel-aviv-airport-wifi",
+      "title": "Tel Aviv TLV Airport WiFi Guide - TripSIM Travel eSIM",
+      "why": "aparece #9 en Google (EN) para \"\"israel travel resources\" links\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.joanpeacetravel.com/before-you-go",
+      "title": "Trip Tips",
+      "why": "aparece #10 en Google (EN) para \"\"israel travel resources\" links\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://anglo-list.com/page/95/?option=com_aclassf&Itemid=192&ct=med5",
+      "title": "Page 95 – Anglo-List",
+      "why": "aparece #11 en Google (EN) para \"\"israel travel resources\" links\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://tzurtours.com/israel-travel-tips/",
+      "title": "Israel Travel Tips 2026 | First-Timer's Essential Guide by ...",
+      "why": "aparece #4 en Google (EN) para \"israel travel blog list 2026\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://bloggers.feedspot.com/israel_travel_blogs/",
+      "title": "15 Best Israel Travel Blogs to Follow in 2026",
+      "why": "aparece #6 en Google (EN) para \"israel travel blog list 2026\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.tourradar.com/d/israel",
+      "title": "10 Best Israel Tours & Trips 2026/2027",
+      "why": "aparece #9 en Google (EN) para \"israel travel blog list 2026\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://slavaguide.com/en/blog/touring-israel",
+      "title": "Touring Israel 2026 - Free Comprehensive Guide",
+      "why": "aparece #10 en Google (EN) para \"israel travel blog list 2026\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://yeahthatskosher.com/writers-tools/",
+      "title": "Write for Us",
+      "why": "aparece #2 en Google (EN) para \"\"write for us\" israel travel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.thecollegefix.com/through-alarms-and-rockets-my-trip-to-israel-showed-me-gods-faithfulness/",
+      "title": "Through alarms and rockets, my trip to Israel showed me ...",
+      "why": "aparece #4 en Google (EN) para \"\"write for us\" israel travel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.bradtguides.com/destinations/middle-east/israel/",
+      "title": "Israel Travel Information and Guide",
+      "why": "aparece #6 en Google (EN) para \"\"write for us\" israel travel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://tcjewfolk.com/2023/04/14/travel-anxiety-and-a-first-timers-visit-to-israel/",
+      "title": "Travel Anxiety and a First-Timers Visit To Israel",
+      "why": "aparece #7 en Google (EN) para \"\"write for us\" israel travel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.travelweekly.com/Middle-East-Africa-Travel/us-issues-caution-alert-for-american-travelers",
+      "title": "Updated: U.S. issues an alert urging caution worldwide for ...",
+      "why": "aparece #8 en Google (EN) para \"\"write for us\" israel travel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.travellersquest.com/write-for-us",
+      "title": "Write for Us –Guest Blogging",
+      "why": "aparece #9 en Google (EN) para \"\"write for us\" israel travel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://embassies.gov.il/angola/en/contacts",
+      "title": "Contact us | Ministry of Foreign Affairs",
+      "why": "aparece #10 en Google (EN) para \"\"write for us\" israel travel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.xyzasia.com/write-for-us",
+      "title": "Write for Us",
+      "why": "aparece #11 en Google (EN) para \"\"write for us\" israel travel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://blog.ricksteves.com/blog/category/israel/",
+      "title": "Destination: Israel - Rick Steves' Travel Blog",
+      "why": "aparece #3 en Google (EN) para \"intitle:\"israel\" \"travel blogs\"\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://travelsofadam.com/middle-east-north-africa/israel/",
+      "title": "Israel",
+      "why": "aparece #5 en Google (EN) para \"intitle:\"israel\" \"travel blogs\"\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://deilusionarecuerdo.com/en/travel-israel/",
+      "title": "Planning a trip to Israel",
+      "why": "aparece #6 en Google (EN) para \"intitle:\"israel\" \"travel blogs\"\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.tripadvisor.in/ShowTopic-g293977-i1733-k10445380-Israel_Upper_Galilee_Misc_travel-Israel.html",
+      "title": "Israel Upper Galilee & Misc travel",
+      "why": "aparece #7 en Google (EN) para \"intitle:\"israel\" \"travel blogs\"\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.travellerspoint.com/blogs/Israel/",
+      "title": "Israel - Travel Blogs",
+      "why": "aparece #8 en Google (EN) para \"intitle:\"israel\" \"travel blogs\"\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.viajeroscallejeros.com/viaje-israel-palestina-por-libre/",
+      "title": "Viaje a Israel y Palestina por libre en 12 días",
+      "why": "aparece #2 en Google (ES) para \"blogs de viajes israel\" — es competidor",
+      "source": "serp"
+    },
+    {
+      "url": "https://nuba.com/viajes/oriente-medio-israel/",
+      "title": "Viajes a Israel, a Medida y en Privado",
+      "why": "aparece #5 en Google (ES) para \"blogs de viajes israel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://blog.viajesyfotos.net/viajar-a-israel-algunas-recomendaciones/",
+      "title": "Viajar a Israel ▷ Recomendaciones; lugares imprescindibles",
+      "why": "aparece #6 en Google (ES) para \"blogs de viajes israel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.viajeselcorteingles.es/grandes-viajes/destinos/viajes-a-israel",
+      "title": "Viajes a Israel",
+      "why": "aparece #7 en Google (ES) para \"blogs de viajes israel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Israel",
+      "title": "Detalle recomendaciones de viaje",
+      "why": "aparece #8 en Google (ES) para \"blogs de viajes israel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.lemundoisnostro.com/2016/03/israel-palestina-jordania-una-semana.html",
+      "title": "Israel, viaje exprés de 4 días - Lemundoisnostro.com",
+      "why": "aparece #9 en Google (ES) para \"blogs de viajes israel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://losviajesdemary.com/mi-viaje-a-israel-1-un-giro-inesperado/",
+      "title": "Mi viaje a Israel #1 | Un giro inesperado",
+      "why": "aparece #10 en Google (ES) para \"blogs de viajes israel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.guiasdeviajeanaya.es/destino/israel/",
+      "title": "Viajar a Israel. Guías de viaje Anaya Touring y Trotamundos",
+      "why": "aparece #11 en Google (ES) para \"blogs de viajes israel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://monoviajero.com/guia-israel/",
+      "title": "▷ ISRAEL: Guía Completa + varios itinerarios",
+      "why": "aparece #2 en Google (ES) para \"\"guía israel\" recursos\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://world-camps.org/es/category/summer-camps/asia/israel/",
+      "title": "Las guías de viaje de Israel para niños",
+      "why": "aparece #3 en Google (ES) para \"\"guía israel\" recursos\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://viajes.chavetas.es/guia/israel-palestina/jerusalen-de-los-cristianos/",
+      "title": "El Jerusalén de los Cristianos",
+      "why": "aparece #4 en Google (ES) para \"\"guía israel\" recursos\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.tierrasantaisrael.com/Paquete-de-Viajes-Cristianos-a-Tierra-Santa/Circuito-de-Tierra-Santa-a-Israel-y-Roma-en-espanol/",
+      "title": "Circuito de Tierra Santa a Israel y Roma en español",
+      "why": "aparece #5 en Google (ES) para \"\"guía israel\" recursos\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://bibleproject.com/pt-br/guides/josue/",
+      "title": "Livro de Josué | Guia com informações e recursos úteis",
+      "why": "aparece #6 en Google (ES) para \"\"guía israel\" recursos\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.amazon.es/Una-gu%C3%ADa-Israel-para-ni%C3%B1os/dp/1691203025",
+      "title": "Una guía a Israel para niños: Todo lo que has querido ...",
+      "why": "aparece #7 en Google (ES) para \"\"guía israel\" recursos\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.elconfidencialdigital.com/monarquia/articulo/an/israel-huerta-comparte-guia-completa-como-automatizar-negocio-digital-totalidad/20240906070240128792.html",
+      "title": "Israel Huerta comparte una guía completa sobre cómo ...",
+      "why": "aparece #9 en Google (ES) para \"\"guía israel\" recursos\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.tripadvisor.es/Attraction_Review-g293983-d17409909-Reviews-Genesis_Tour-Jerusalem_Jerusalem_District.html",
+      "title": "GENESIS TOUR (Jerusalén) - Qué SABER antes de ir (2026)",
+      "why": "aparece #10 en Google (ES) para \"\"guía israel\" recursos\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://antiaviajes.com/oriente/viajes-a-israel/",
+      "title": "Viajes a Israel - Antia",
+      "why": "aparece #7 en Google (ES) para \"mejores blogs de viajes a israel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.frikiporviajar.com/israel/",
+      "title": "Viaje a Israel | Blog de Israel",
+      "why": "aparece #8 en Google (ES) para \"mejores blogs de viajes a israel\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://kommwirmachendaseinfach.de/israel-reisetipps-insider-tipps/",
+      "title": "Israel Reiseblog - Die TOP Highlights & Reisetipps",
+      "why": "aparece #2 en Google (DE) para \"israel reiseblog liste\" — es competidor",
+      "source": "serp"
+    },
+    {
+      "url": "https://viel-unterwegs.de/reiseziele/israel/",
+      "title": "Israel Reisen: Die schönsten Reiseziele & Tipps",
+      "why": "aparece #3 en Google (DE) para \"israel reiseblog liste\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.skr.de/blog/israel-tipps/",
+      "title": "Israel Tipps - Reise nach Jerusalem",
+      "why": "aparece #4 en Google (DE) para \"israel reiseblog liste\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.sommertage.com/reiseblog/israel/",
+      "title": "Israel Reiseblog: Reisetipps und Erfahrungen",
+      "why": "aparece #5 en Google (DE) para \"israel reiseblog liste\" — es competidor",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.gindeslebens.com/israel/",
+      "title": "Israel Sehenswürdigkeiten, Highlights und Tipps",
+      "why": "aparece #6 en Google (DE) para \"israel reiseblog liste\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.israel-reiseleiter.com/blog",
+      "title": "Blog | Tipps zu Israel Reisen auf Deutsch - Israel-Reiseleiter",
+      "why": "aparece #7 en Google (DE) para \"israel reiseblog liste\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://generation-world.de/rund-um-die-welt/asien/israel/",
+      "title": "Israel Reisetipps und Inspirationen - Generation World",
+      "why": "aparece #8 en Google (DE) para \"israel reiseblog liste\"",
+      "source": "serp"
+    },
+    {
+      "url": "https://www.diesenhaus.de/reisemagazin-diesenhaus-ram/",
+      "title": "Israel Reisemagazin - Israel Reisen mit Diesenhaus Ram",
+      "why": "aparece #11 en Google (DE) para \"israel reiseblog liste\"",
+      "source": "serp"
+    }
+  ],
+  "serp": [
+    {
+      "keyword": "israel travel blogs",
+      "lang": "en",
+      "location_code": 2840,
+      "results": [
+        {
+          "position": 2,
+          "url": "https://onegirlwholeworld.com/middle-east/israel/",
+          "title": "Israel Travel: Tips For Planning Your Trip",
+          "domain": "onegirlwholeworld.com"
+        },
+        {
+          "position": 3,
+          "url": "https://www.easttowestrms.com/middleeast/israel/",
+          "title": "A LOCAL'S GUIDE ON ISRAEL TRAVEL TIPS AND WHAT ...",
+          "domain": "www.easttowestrms.com"
+        },
+        {
+          "position": 4,
+          "url": "https://travelbooksfood.com/planning-trip-to-israel",
+          "title": "Planning a trip to Israel in 2026 (DIY Guide and doing it solo)",
+          "domain": "travelbooksfood.com"
+        },
+        {
+          "position": 5,
+          "url": "https://www.masaisrael.org/12-best-israel-travel-blogs-for-your-trip-masa-israel/",
+          "title": "12 Best Israel Travel Blogs for Your Trip",
+          "domain": "www.masaisrael.org"
+        },
+        {
+          "position": 6,
+          "url": "https://www.beinharimtours.com/news/",
+          "title": "Israel Travel Blog",
+          "domain": "www.beinharimtours.com"
+        },
+        {
+          "position": 7,
+          "url": "https://www.goaheadtours.com/travel-blog/articles/israel-travel-guide",
+          "title": "Israel Travel Guide: Best Tips for Your Trip",
+          "domain": "www.goaheadtours.com"
+        },
+        {
+          "position": 8,
+          "url": "https://www.touristisrael.com/israel-travel-news/",
+          "title": "Israel Travel Blog",
+          "domain": "www.touristisrael.com"
+        },
+        {
+          "position": 9,
+          "url": "https://www.sheneedsless.com/israel-48-hours/",
+          "title": "Israel Travel Guide: Tel Aviv, Jerusalem & Dead Sea",
+          "domain": "www.sheneedsless.com"
+        },
+        {
+          "position": 11,
+          "url": "https://israelitravelbloggers.com/",
+          "title": "Israeli Travel Bloggers - Let us introduce you to our Israeli ...",
+          "domain": "israelitravelbloggers.com"
+        }
+      ]
+    },
+    {
+      "keyword": "best israel travel blogs",
+      "lang": "en",
+      "location_code": 2840,
+      "results": [
+        {
+          "position": 2,
+          "url": "https://www.easttowestrms.com/middleeast/israel/",
+          "title": "A LOCAL'S GUIDE ON ISRAEL TRAVEL TIPS AND WHAT ...",
+          "domain": "www.easttowestrms.com"
+        },
+        {
+          "position": 3,
+          "url": "https://onegirlwholeworld.com/middle-east/israel/",
+          "title": "Israel Travel: Tips For Planning Your Trip",
+          "domain": "onegirlwholeworld.com"
+        },
+        {
+          "position": 4,
+          "url": "https://travelbooksfood.com/planning-trip-to-israel",
+          "title": "Planning a trip to Israel in 2026 (DIY Guide and doing it solo)",
+          "domain": "travelbooksfood.com"
+        },
+        {
+          "position": 5,
+          "url": "https://www.masaisrael.org/12-best-israel-travel-blogs-for-your-trip-masa-israel/",
+          "title": "12 Best Israel Travel Blogs for Your Trip",
+          "domain": "www.masaisrael.org"
+        },
+        {
+          "position": 6,
+          "url": "https://www.goaheadtours.com/travel-blog/articles/israel-travel-guide",
+          "title": "Israel Travel Guide: Best Tips for Your Trip",
+          "domain": "www.goaheadtours.com"
+        },
+        {
+          "position": 7,
+          "url": "https://www.touristisrael.com/israel-travel-news/",
+          "title": "Israel Travel Blog",
+          "domain": "www.touristisrael.com"
+        },
+        {
+          "position": 9,
+          "url": "https://www.sheneedsless.com/israel-48-hours/",
+          "title": "Israel Travel Guide: Tel Aviv, Jerusalem & Dead Sea",
+          "domain": "www.sheneedsless.com"
+        },
+        {
+          "position": 10,
+          "url": "https://dekeltours.com/travel-guide/",
+          "title": "Israel Travel Guide | Blog",
+          "domain": "dekeltours.com"
+        },
+        {
+          "position": 11,
+          "url": "https://www.beinharimtours.com/news/",
+          "title": "Israel Travel Blog",
+          "domain": "www.beinharimtours.com"
+        }
+      ]
+    },
+    {
+      "keyword": "\"israel travel resources\" links",
+      "lang": "en",
+      "location_code": 2840,
+      "results": [
+        {
+          "position": 2,
+          "url": "https://www.jfedwcnj.org/israel2016/israel-travel-resources",
+          "title": "Israel Travel Resources",
+          "domain": "www.jfedwcnj.org"
+        },
+        {
+          "position": 3,
+          "url": "https://www.facebook.com/RepLangworthy/posts/important-resources-for-americans-in-israel/291334263843450/",
+          "title": "Important resources for Americans in Israel:",
+          "domain": "www.facebook.com"
+        },
+        {
+          "position": 4,
+          "url": "https://www.touristisrael.com/israel-travel-resources/page/60/",
+          "title": "Israel Travel Guides & Articles - Page 60 of 83",
+          "domain": "www.touristisrael.com"
+        },
+        {
+          "position": 5,
+          "url": "https://www.baischabad.com/templates/articlecco_cdo/aid/67026/jewish/Resources.htm",
+          "title": "Jewish Resources on the Internet",
+          "domain": "www.baischabad.com"
+        },
+        {
+          "position": 7,
+          "url": "https://www.nextleveloftravel.com/israel/14-best-places-in-israel/",
+          "title": "14 Beautiful Places to Visit in Israel: Tourist Spots I Loved!",
+          "domain": "www.nextleveloftravel.com"
+        },
+        {
+          "position": 8,
+          "url": "https://www.cheapoair.com/hotels/cheap-hotels-in-israel-il",
+          "title": "Book Cheap Hotels in",
+          "domain": "www.cheapoair.com"
+        },
+        {
+          "position": 9,
+          "url": "https://www.tripsim.co.uk/airport/tel-aviv-airport-wifi",
+          "title": "Tel Aviv TLV Airport WiFi Guide - TripSIM Travel eSIM",
+          "domain": "www.tripsim.co.uk"
+        },
+        {
+          "position": 10,
+          "url": "https://www.joanpeacetravel.com/before-you-go",
+          "title": "Trip Tips",
+          "domain": "www.joanpeacetravel.com"
+        },
+        {
+          "position": 11,
+          "url": "https://anglo-list.com/page/95/?option=com_aclassf&Itemid=192&ct=med5",
+          "title": "Page 95 – Anglo-List",
+          "domain": "anglo-list.com"
+        }
+      ]
+    },
+    {
+      "keyword": "israel travel blog list 2026",
+      "lang": "en",
+      "location_code": 2840,
+      "results": [
+        {
+          "position": 2,
+          "url": "https://onegirlwholeworld.com/middle-east/israel/",
+          "title": "Israel Travel: Tips For Planning Your Trip",
+          "domain": "onegirlwholeworld.com"
+        },
+        {
+          "position": 3,
+          "url": "https://travelbooksfood.com/planning-trip-to-israel",
+          "title": "Planning a trip to Israel in 2026 (DIY Guide and doing it solo)",
+          "domain": "travelbooksfood.com"
+        },
+        {
+          "position": 4,
+          "url": "https://tzurtours.com/israel-travel-tips/",
+          "title": "Israel Travel Tips 2026 | First-Timer's Essential Guide by ...",
+          "domain": "tzurtours.com"
+        },
+        {
+          "position": 5,
+          "url": "https://www.touristisrael.com/israel-travel-news/",
+          "title": "Israel Travel Blog",
+          "domain": "www.touristisrael.com"
+        },
+        {
+          "position": 6,
+          "url": "https://bloggers.feedspot.com/israel_travel_blogs/",
+          "title": "15 Best Israel Travel Blogs to Follow in 2026",
+          "domain": "bloggers.feedspot.com"
+        },
+        {
+          "position": 7,
+          "url": "https://www.facebook.com/touristisrael1/videos/%EF%B8%8F-traveling-to-israel-in-2026-heres-everything-you-need-to-know-is-it-safe-to-tr/2086918718785596/",
+          "title": "🇮🇱 Traveling to Israel in 2026? Here's everything you need ...",
+          "domain": "www.facebook.com"
+        },
+        {
+          "position": 8,
+          "url": "https://www.instagram.com/reel/DUGXfU_jHtO/?hl=en",
+          "title": "it's why I started Tales of Israel seven years ago and it's ...",
+          "domain": "www.instagram.com"
+        },
+        {
+          "position": 9,
+          "url": "https://www.tourradar.com/d/israel",
+          "title": "10 Best Israel Tours & Trips 2026/2027",
+          "domain": "www.tourradar.com"
+        },
+        {
+          "position": 10,
+          "url": "https://slavaguide.com/en/blog/touring-israel",
+          "title": "Touring Israel 2026 - Free Comprehensive Guide",
+          "domain": "slavaguide.com"
+        }
+      ]
+    },
+    {
+      "keyword": "\"write for us\" israel travel",
+      "lang": "en",
+      "location_code": 2840,
+      "results": [
+        {
+          "position": 2,
+          "url": "https://yeahthatskosher.com/writers-tools/",
+          "title": "Write for Us",
+          "domain": "yeahthatskosher.com"
+        },
+        {
+          "position": 4,
+          "url": "https://www.thecollegefix.com/through-alarms-and-rockets-my-trip-to-israel-showed-me-gods-faithfulness/",
+          "title": "Through alarms and rockets, my trip to Israel showed me ...",
+          "domain": "www.thecollegefix.com"
+        },
+        {
+          "position": 5,
+          "url": "https://medium.com/living-in-israel/how-to-write-for-living-in-israel-ad0648fa86eb",
+          "title": "How To Write For Living In Israel | by Daniel Rosehill",
+          "domain": "medium.com"
+        },
+        {
+          "position": 6,
+          "url": "https://www.bradtguides.com/destinations/middle-east/israel/",
+          "title": "Israel Travel Information and Guide",
+          "domain": "www.bradtguides.com"
+        },
+        {
+          "position": 7,
+          "url": "https://tcjewfolk.com/2023/04/14/travel-anxiety-and-a-first-timers-visit-to-israel/",
+          "title": "Travel Anxiety and a First-Timers Visit To Israel",
+          "domain": "tcjewfolk.com"
+        },
+        {
+          "position": 8,
+          "url": "https://www.travelweekly.com/Middle-East-Africa-Travel/us-issues-caution-alert-for-american-travelers",
+          "title": "Updated: U.S. issues an alert urging caution worldwide for ...",
+          "domain": "www.travelweekly.com"
+        },
+        {
+          "position": 9,
+          "url": "https://www.travellersquest.com/write-for-us",
+          "title": "Write for Us –Guest Blogging",
+          "domain": "www.travellersquest.com"
+        },
+        {
+          "position": 10,
+          "url": "https://embassies.gov.il/angola/en/contacts",
+          "title": "Contact us | Ministry of Foreign Affairs",
+          "domain": "embassies.gov.il"
+        },
+        {
+          "position": 11,
+          "url": "https://www.xyzasia.com/write-for-us",
+          "title": "Write for Us",
+          "domain": "www.xyzasia.com"
+        }
+      ]
+    },
+    {
+      "keyword": "intitle:\"israel\" \"travel blogs\"",
+      "lang": "en",
+      "location_code": 2840,
+      "results": [
+        {
+          "position": 2,
+          "url": "https://www.easttowestrms.com/middleeast/israel/",
+          "title": "A LOCAL'S GUIDE ON ISRAEL TRAVEL TIPS AND WHAT ...",
+          "domain": "www.easttowestrms.com"
+        },
+        {
+          "position": 3,
+          "url": "https://blog.ricksteves.com/blog/category/israel/",
+          "title": "Destination: Israel - Rick Steves' Travel Blog",
+          "domain": "blog.ricksteves.com"
+        },
+        {
+          "position": 4,
+          "url": "https://www.masaisrael.org/12-best-israel-travel-blogs-for-your-trip-masa-israel/",
+          "title": "12 Best Israel Travel Blogs for Your Trip",
+          "domain": "www.masaisrael.org"
+        },
+        {
+          "position": 5,
+          "url": "https://travelsofadam.com/middle-east-north-africa/israel/",
+          "title": "Israel",
+          "domain": "travelsofadam.com"
+        },
+        {
+          "position": 6,
+          "url": "https://deilusionarecuerdo.com/en/travel-israel/",
+          "title": "Planning a trip to Israel",
+          "domain": "deilusionarecuerdo.com"
+        },
+        {
+          "position": 7,
+          "url": "https://www.tripadvisor.in/ShowTopic-g293977-i1733-k10445380-Israel_Upper_Galilee_Misc_travel-Israel.html",
+          "title": "Israel Upper Galilee & Misc travel",
+          "domain": "www.tripadvisor.in"
+        },
+        {
+          "position": 8,
+          "url": "https://www.travellerspoint.com/blogs/Israel/",
+          "title": "Israel - Travel Blogs",
+          "domain": "www.travellerspoint.com"
+        },
+        {
+          "position": 10,
+          "url": "https://dekeltours.com/travel/",
+          "title": "Uncomplicated Israel Travel",
+          "domain": "dekeltours.com"
+        },
+        {
+          "position": 11,
+          "url": "https://bloggers.feedspot.com/israel_travel_blogs/",
+          "title": "15 Best Israel Travel Blogs to Follow in 2026",
+          "domain": "bloggers.feedspot.com"
+        }
+      ]
+    },
+    {
+      "keyword": "blogs de viajes israel",
+      "lang": "es",
+      "location_code": 2724,
+      "results": [
+        {
+          "position": 2,
+          "url": "https://www.viajeroscallejeros.com/viaje-israel-palestina-por-libre/",
+          "title": "Viaje a Israel y Palestina por libre en 12 días",
+          "domain": "www.viajeroscallejeros.com"
+        },
+        {
+          "position": 3,
+          "url": "https://deilusionarecuerdo.com/que-ver-en-israel-en-una-semana/",
+          "title": "Qué ver en Israel en 7 días para no perderte (casi) nada",
+          "domain": "deilusionarecuerdo.com"
+        },
+        {
+          "position": 5,
+          "url": "https://nuba.com/viajes/oriente-medio-israel/",
+          "title": "Viajes a Israel, a Medida y en Privado",
+          "domain": "nuba.com"
+        },
+        {
+          "position": 6,
+          "url": "https://blog.viajesyfotos.net/viajar-a-israel-algunas-recomendaciones/",
+          "title": "Viajar a Israel ▷ Recomendaciones; lugares imprescindibles",
+          "domain": "blog.viajesyfotos.net"
+        },
+        {
+          "position": 7,
+          "url": "https://www.viajeselcorteingles.es/grandes-viajes/destinos/viajes-a-israel",
+          "title": "Viajes a Israel",
+          "domain": "www.viajeselcorteingles.es"
+        },
+        {
+          "position": 8,
+          "url": "https://www.exteriores.gob.es/es/ServiciosAlCiudadano/Paginas/Detalle-recomendaciones-de-viaje.aspx?trc=Israel",
+          "title": "Detalle recomendaciones de viaje",
+          "domain": "www.exteriores.gob.es"
+        },
+        {
+          "position": 9,
+          "url": "https://www.lemundoisnostro.com/2016/03/israel-palestina-jordania-una-semana.html",
+          "title": "Israel, viaje exprés de 4 días - Lemundoisnostro.com",
+          "domain": "www.lemundoisnostro.com"
+        },
+        {
+          "position": 10,
+          "url": "https://losviajesdemary.com/mi-viaje-a-israel-1-un-giro-inesperado/",
+          "title": "Mi viaje a Israel #1 | Un giro inesperado",
+          "domain": "losviajesdemary.com"
+        },
+        {
+          "position": 11,
+          "url": "https://www.guiasdeviajeanaya.es/destino/israel/",
+          "title": "Viajar a Israel. Guías de viaje Anaya Touring y Trotamundos",
+          "domain": "www.guiasdeviajeanaya.es"
+        }
+      ]
+    },
+    {
+      "keyword": "\"guía israel\" recursos",
+      "lang": "es",
+      "location_code": 2724,
+      "results": [
+        {
+          "position": 2,
+          "url": "https://monoviajero.com/guia-israel/",
+          "title": "▷ ISRAEL: Guía Completa + varios itinerarios",
+          "domain": "monoviajero.com"
+        },
+        {
+          "position": 3,
+          "url": "https://world-camps.org/es/category/summer-camps/asia/israel/",
+          "title": "Las guías de viaje de Israel para niños",
+          "domain": "world-camps.org"
+        },
+        {
+          "position": 4,
+          "url": "https://viajes.chavetas.es/guia/israel-palestina/jerusalen-de-los-cristianos/",
+          "title": "El Jerusalén de los Cristianos",
+          "domain": "viajes.chavetas.es"
+        },
+        {
+          "position": 5,
+          "url": "https://www.tierrasantaisrael.com/Paquete-de-Viajes-Cristianos-a-Tierra-Santa/Circuito-de-Tierra-Santa-a-Israel-y-Roma-en-espanol/",
+          "title": "Circuito de Tierra Santa a Israel y Roma en español",
+          "domain": "www.tierrasantaisrael.com"
+        },
+        {
+          "position": 6,
+          "url": "https://bibleproject.com/pt-br/guides/josue/",
+          "title": "Livro de Josué | Guia com informações e recursos úteis",
+          "domain": "bibleproject.com"
+        },
+        {
+          "position": 7,
+          "url": "https://www.amazon.es/Una-gu%C3%ADa-Israel-para-ni%C3%B1os/dp/1691203025",
+          "title": "Una guía a Israel para niños: Todo lo que has querido ...",
+          "domain": "www.amazon.es"
+        },
+        {
+          "position": 9,
+          "url": "https://www.elconfidencialdigital.com/monarquia/articulo/an/israel-huerta-comparte-guia-completa-como-automatizar-negocio-digital-totalidad/20240906070240128792.html",
+          "title": "Israel Huerta comparte una guía completa sobre cómo ...",
+          "domain": "www.elconfidencialdigital.com"
+        },
+        {
+          "position": 10,
+          "url": "https://www.tripadvisor.es/Attraction_Review-g293983-d17409909-Reviews-Genesis_Tour-Jerusalem_Jerusalem_District.html",
+          "title": "GENESIS TOUR (Jerusalén) - Qué SABER antes de ir (2026)",
+          "domain": "www.tripadvisor.es"
+        },
+        {
+          "position": 11,
+          "url": "https://www.facebook.com/jpmasespanol/posts/benjam%C3%ADn-netanyahu-afirm%C3%B3-que-pretende-iniciar-este-a%C3%B1o-una-reducci%C3%B3n-gradual-de/1028064343098008/",
+          "title": "Benjamín Netanyahu afirmó que pretende iniciar este año una ...",
+          "domain": "www.facebook.com"
+        }
+      ]
+    },
+    {
+      "keyword": "mejores blogs de viajes a israel",
+      "lang": "es",
+      "location_code": 2724,
+      "results": [
+        {
+          "position": 2,
+          "url": "https://www.viajeroscallejeros.com/viaje-israel-palestina-por-libre/",
+          "title": "Viaje a Israel y Palestina por libre en 12 días",
+          "domain": "www.viajeroscallejeros.com"
+        },
+        {
+          "position": 3,
+          "url": "https://deilusionarecuerdo.com/que-ver-en-israel-en-una-semana/",
+          "title": "Qué ver en Israel en 7 días para no perderte (casi) nada",
+          "domain": "deilusionarecuerdo.com"
+        },
+        {
+          "position": 4,
+          "url": "https://blog.viajesyfotos.net/viajar-a-israel-algunas-recomendaciones/",
+          "title": "Viajar a Israel ▷ Recomendaciones; lugares imprescindibles",
+          "domain": "blog.viajesyfotos.net"
+        },
+        {
+          "position": 6,
+          "url": "https://monoviajero.com/guia-israel/",
+          "title": "▷ ISRAEL: Guía Completa + varios itinerarios",
+          "domain": "monoviajero.com"
+        },
+        {
+          "position": 7,
+          "url": "https://antiaviajes.com/oriente/viajes-a-israel/",
+          "title": "Viajes a Israel - Antia",
+          "domain": "antiaviajes.com"
+        },
+        {
+          "position": 8,
+          "url": "https://www.frikiporviajar.com/israel/",
+          "title": "Viaje a Israel | Blog de Israel",
+          "domain": "www.frikiporviajar.com"
+        },
+        {
+          "position": 9,
+          "url": "https://losviajesdemary.com/guia-para-viajar-a-israel/",
+          "title": "Guía para viajar a Israel",
+          "domain": "losviajesdemary.com"
+        },
+        {
+          "position": 10,
+          "url": "https://www.viajeselcorteingles.es/grandes-viajes/destinos/viajes-a-israel",
+          "title": "Viajes a Israel",
+          "domain": "www.viajeselcorteingles.es"
+        },
+        {
+          "position": 11,
+          "url": "https://www.guiasdeviajeanaya.es/destino/israel/",
+          "title": "Viajar a Israel. Guías de viaje Anaya Touring y Trotamundos",
+          "domain": "www.guiasdeviajeanaya.es"
+        }
+      ]
+    },
+    {
+      "keyword": "israel reiseblog liste",
+      "lang": "de",
+      "location_code": 2276,
+      "results": [
+        {
+          "position": 2,
+          "url": "https://kommwirmachendaseinfach.de/israel-reisetipps-insider-tipps/",
+          "title": "Israel Reiseblog - Die TOP Highlights & Reisetipps",
+          "domain": "kommwirmachendaseinfach.de"
+        },
+        {
+          "position": 3,
+          "url": "https://viel-unterwegs.de/reiseziele/israel/",
+          "title": "Israel Reisen: Die schönsten Reiseziele & Tipps",
+          "domain": "viel-unterwegs.de"
+        },
+        {
+          "position": 4,
+          "url": "https://www.skr.de/blog/israel-tipps/",
+          "title": "Israel Tipps - Reise nach Jerusalem",
+          "domain": "www.skr.de"
+        },
+        {
+          "position": 5,
+          "url": "https://www.sommertage.com/reiseblog/israel/",
+          "title": "Israel Reiseblog: Reisetipps und Erfahrungen",
+          "domain": "www.sommertage.com"
+        },
+        {
+          "position": 6,
+          "url": "https://www.gindeslebens.com/israel/",
+          "title": "Israel Sehenswürdigkeiten, Highlights und Tipps",
+          "domain": "www.gindeslebens.com"
+        },
+        {
+          "position": 7,
+          "url": "https://www.israel-reiseleiter.com/blog",
+          "title": "Blog | Tipps zu Israel Reisen auf Deutsch - Israel-Reiseleiter",
+          "domain": "www.israel-reiseleiter.com"
+        },
+        {
+          "position": 8,
+          "url": "https://generation-world.de/rund-um-die-welt/asien/israel/",
+          "title": "Israel Reisetipps und Inspirationen - Generation World",
+          "domain": "generation-world.de"
+        },
+        {
+          "position": 9,
+          "url": "https://kommwirmachendaseinfach.de/israel-rundreise-tipps/",
+          "title": "Israel Rundreise - Alle Tipps, Empfehlungen und Highlights",
+          "domain": "kommwirmachendaseinfach.de"
+        },
+        {
+          "position": 11,
+          "url": "https://www.diesenhaus.de/reisemagazin-diesenhaus-ram/",
+          "title": "Israel Reisemagazin - Israel Reisen mit Diesenhaus Ram",
+          "domain": "www.diesenhaus.de"
+        }
+      ]
+    }
+  ],
+  "errors": []
+}

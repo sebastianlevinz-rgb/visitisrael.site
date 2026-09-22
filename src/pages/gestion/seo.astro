@@ -1,0 +1,711 @@
+---
+/**
+ * /gestion/seo — auditoría SEO continua. Muestra los JSON de data/seo/ que generan los
+ * scripts de scripts/seo/ (pnpm seo:refresh) y el diagnóstico escrito en
+ * gestion/auditoria/seo.md. Nada se escribe a mano acá: si un dataset no existe, la
+ * sección lo dice y muestra el comando para generarlo.
+ *
+ * noindex (InternalLayout), fuera del sitemap y del chequeo de huérfanas.
+ * Una sola H1 (la de la página): la H1 del markdown se baja a H2 al renderizar.
+ */
+import InternalLayout from '@/layouts/InternalLayout.astro';
+
+// --- Datasets (defensivo: el glob devuelve vacío si el archivo no existe) ------------
+/* eslint-disable @typescript-eslint/no-explicit-any */
+const jsonMods = import.meta.glob('../../../data/seo/*.json', { eager: true }) as Record<string, { default: any }>;
+const dataset = (name: string): any => jsonMods[`../../../data/seo/${name}.json`]?.default ?? null;
+
+const onpage = dataset('onpage');
+const psi = dataset('psi');
+const keywords = dataset('keywords');
+const competitors = dataset('competitors');
+const backlinks = dataset('backlinks');
+
+const datasets = [
+  { name: 'onpage', label: 'On-page (dist/)', data: onpage, cmd: 'pnpm seo:onpage' },
+  { name: 'psi', label: 'PageSpeed Insights', data: psi, cmd: 'pnpm seo:psi' },
+  { name: 'keywords', label: 'Keywords y posiciones', data: keywords, cmd: 'node scripts/seo/keywords.mjs' },
+  { name: 'competitors', label: 'Competidores', data: competitors, cmd: 'node scripts/seo/competitors.mjs' },
+  { name: 'backlinks', label: 'Backlinks', data: backlinks, cmd: 'node scripts/seo/backlinks.mjs' },
+];
+
+// --- Diagnóstico (markdown) ------------------------------------------------------------
+type MdModule = { compiledContent: () => Promise<string> };
+const mdMods = import.meta.glob('../../../gestion/auditoria/seo.md', { eager: true }) as Record<string, MdModule>;
+const mdModule = Object.values(mdMods)[0];
+let diagnosticoHtml: string | null = null;
+if (mdModule) {
+  const html = await mdModule.compiledContent();
+  // Una sola H1 por página: la del markdown pasa a H2.
+  diagnosticoHtml = html.replace(/<h1(\s[^>]*)?>/g, '<h2$1>').replace(/<\/h1>/g, '</h2>');
+}
+
+// --- Helpers ---------------------------------------------------------------------------
+const fmtDate = (iso: string | undefined | null) => {
+  if (!iso) return '—';
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return iso;
+  return d.toLocaleString('es-AR', { dateStyle: 'medium', timeStyle: 'short', timeZone: 'America/Argentina/Buenos_Aires' });
+};
+const n = (v: unknown) => (typeof v === 'number' && Number.isFinite(v) ? v.toLocaleString('es-AR') : v == null ? '—' : String(v));
+const ms = (v: unknown) => (typeof v === 'number' ? `${(v / 1000).toFixed(v >= 10_000 ? 0 : 1)} s` : '—');
+const pct = (v: unknown) => (typeof v === 'number' ? `${v}%` : '—');
+const scoreClass = (v: unknown) =>
+  typeof v !== 'number' ? '' : v >= 90 ? 'text-green-700 font-semibold' : v >= 50 ? 'text-amber-700 font-semibold' : 'text-red-700 font-semibold';
+const host = (url: string | undefined | null) => {
+  if (!url) return '—';
+  try {
+    return new URL(url).hostname.replace(/^www\./, '');
+  } catch {
+    return url;
+  }
+};
+
+// --- On-page: filas y marcas -----------------------------------------------------------
+type OnpagePage = {
+  path: string;
+  locale: string;
+  words: number;
+  titleLength: number;
+  descriptionLength: number;
+  h1Count: number;
+  hreflangOk: boolean;
+  hreflang: unknown[];
+  inboundLinks: number;
+  noindex: boolean;
+  inSitemap: boolean;
+  jsonLd: string[];
+  imagesWithoutAlt: number;
+};
+const thresholds = onpage?.summary?.thresholds ?? { title: [30, 60], description: [70, 155], thin: 600, veryThin: 300, fewInbound: 3 };
+const onpageRows: (OnpagePage & { flags: string[] })[] = ((onpage?.pages ?? []) as OnpagePage[]).map((p) => {
+  const flags: string[] = [];
+  if (p.words < thresholds.veryThin) flags.push('muy thin');
+  else if (p.words < thresholds.thin) flags.push('thin');
+  if (p.titleLength < thresholds.title[0]) flags.push('title corto');
+  if (p.titleLength > thresholds.title[1]) flags.push('title largo');
+  if (p.descriptionLength < thresholds.description[0]) flags.push('desc corta');
+  if (p.descriptionLength > thresholds.description[1]) flags.push('desc larga');
+  if (p.h1Count !== 1) flags.push(`H1 ×${p.h1Count}`);
+  if (!p.hreflangOk) flags.push('hreflang roto');
+  if (p.inboundLinks < thresholds.fewInbound) flags.push('pocas entrantes');
+  if (!p.noindex && !p.inSitemap) flags.push('fuera del sitemap');
+  if (p.imagesWithoutAlt > 0) flags.push(`${p.imagesWithoutAlt} img sin alt`);
+  return { ...p, flags };
+});
+// Problemáticas primero (más marcas → arriba), después por palabras ascendente.
+onpageRows.sort((a, b) => b.flags.length - a.flags.length || a.words - b.words);
+
+const issueLabels: Record<string, string> = {
+  duplicateTitles: 'Títulos duplicados',
+  duplicateDescriptions: 'Descriptions duplicadas',
+  missingTitles: 'Sin title',
+  shortTitles: `Títulos < ${thresholds.title[0]}`,
+  longTitles: `Títulos > ${thresholds.title[1]}`,
+  missingDescriptions: 'Sin description',
+  shortDescriptions: `Descriptions < ${thresholds.description[0]}`,
+  longDescriptions: `Descriptions > ${thresholds.description[1]}`,
+  thin: `Thin (${thresholds.veryThin}–${thresholds.thin - 1} palabras)`,
+  veryThin: `Muy thin (< ${thresholds.veryThin} palabras)`,
+  noUniqueH1: 'Sin H1 único',
+  brokenHreflang: 'Hreflang roto',
+  badCanonical: 'Canonical distinto de la URL',
+  missingOgImage: 'Sin og:image',
+  noJsonLd: 'Sin JSON-LD',
+  imagesWithoutAlt: 'Imágenes sin alt',
+  fewInbound: `Menos de ${thresholds.fewInbound} links entrantes`,
+  noindexInSitemap: 'Noindex en el sitemap',
+  indexableNotInSitemap: 'Indexables fuera del sitemap',
+};
+const issueCounts: [string, number][] = Object.entries(onpage?.summary?.issueCounts ?? {}).map(([k, v]) => [k, v as number]);
+
+// --- Keywords ---------------------------------------------------------------------------
+type KwPage = {
+  path: string;
+  locale: string;
+  keyword: string;
+  volume: number | null;
+  difficulty: number | null;
+  cpc: number | null;
+  intent: string | null;
+  position: number | null;
+  rankingUrl: string | null;
+  topCompetitors: { url: string; position: number; domain: string; wordCount: number | null }[];
+  avgTopWords: number | null;
+};
+const wordsByPath = new Map<string, number>(onpageRows.map((p) => [p.path, p.words]));
+const kwRows: KwPage[] = keywords?.pages ?? [];
+---
+
+<InternalLayout title="SEO" documentTitle="SEO — VisitIsrael">
+  <h1 class="font-display text-3xl font-bold">SEO</h1>
+  <p class="mt-2 max-w-3xl text-ink-muted">
+    Auditoría continua de visitisrael.site: on-page sobre el build, PageSpeed, keywords, competidores y backlinks.
+    Los datos salen de <code>data/seo/*.json</code>; el diagnóstico, de <code>gestion/auditoria/seo.md</code>.
+  </p>
+
+  <!-- 1. Datasets y comando -->
+  <section class="mt-6 rounded-card border border-border bg-card p-4 shadow-card">
+    <h2 class="font-display text-lg font-bold">Datos cargados</h2>
+    <p class="mt-1 text-sm text-ink-muted">
+      Refrescar todo: <code class="cmd">pnpm build &amp;&amp; pnpm seo:refresh</code> (on-page lee <code>dist/</code>; el resto pega a APIs).
+    </p>
+    <ul class="mt-3 grid gap-2 sm:grid-cols-2 lg:grid-cols-5">
+      {
+        datasets.map((d) => (
+          <li class={`rounded border px-3 py-2 text-sm ${d.data ? 'border-border bg-sand' : 'border-gold bg-gold/10'}`}>
+            <div class="font-semibold">{d.label}</div>
+            {d.data ? (
+              <div class="text-xs text-ink-muted">{fmtDate(d.data.generatedAt)}</div>
+            ) : (
+              <div class="text-xs">
+                sin datos: correr <code class="cmd">{d.cmd}</code>
+              </div>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+
+  <!-- 2. Diagnóstico -->
+  <section class="mt-10">
+    <h2 class="font-display text-2xl font-bold">Diagnóstico</h2>
+    {
+      diagnosticoHtml ? (
+        <article class="prose-content diagnostico mt-3 max-w-4xl" set:html={diagnosticoHtml} />
+      ) : (
+        <p class="mt-2 rounded border border-gold bg-gold/10 px-3 py-2 text-sm">
+          sin datos: falta <code>gestion/auditoria/seo.md</code>.
+        </p>
+      )
+    }
+  </section>
+
+  <!-- 3. On-page -->
+  <section class="mt-12">
+    <h2 class="font-display text-2xl font-bold">On-page</h2>
+    {
+      !onpage ? (
+        <p class="mt-2 rounded border border-gold bg-gold/10 px-3 py-2 text-sm">
+          sin datos: correr <code class="cmd">pnpm seo:refresh</code>
+        </p>
+      ) : (
+        <>
+          <p class="mt-1 text-sm text-ink-muted">
+            {n(onpage.summary.pagesAnalyzed)} páginas públicas analizadas de {n(onpage.summary.pagesInDist)} en el build ·
+            promedio {n(onpage.summary.avgWords)} palabras · sitemap con {n(onpage.summary.sitemap?.urls)} URLs · generado {fmtDate(onpage.generatedAt)}.
+          </p>
+
+          <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-5">
+            {Object.entries(onpage.summary.perLocale ?? {}).map(([loc, v]: [string, any]) => (
+              <div class="rounded-card border border-border bg-card p-3 shadow-card">
+                <div class="font-mono text-xs uppercase text-ink-muted">{loc}</div>
+                <div class="text-lg font-bold">{n(v.pages)} páginas</div>
+                <div class="text-xs text-ink-muted">
+                  {n(v.avgWords)} palabras promedio · {n(v.thin)} thin
+                </div>
+              </div>
+            ))}
+          </div>
+
+          <h3 class="mt-8 font-display text-lg font-bold">Problemas detectados</h3>
+          <ul class="mt-2 grid gap-2 sm:grid-cols-2 lg:grid-cols-3">
+            {issueCounts.map(([k, v]) => (
+              <li class={`flex items-baseline justify-between gap-3 rounded border px-3 py-2 text-sm ${v > 0 ? 'border-gold bg-gold/10' : 'border-border bg-card'}`}>
+                <span>{issueLabels[k] ?? k}</span>
+                <span class={`font-mono font-bold ${v > 0 ? 'text-red-700' : 'text-green-700'}`}>{n(v)}</span>
+              </li>
+            ))}
+          </ul>
+
+          <div class="mt-4 grid gap-3 text-sm md:grid-cols-2">
+            <div class="rounded-card border border-border bg-card p-3 shadow-card">
+              <div class="font-semibold">robots.txt</div>
+              <div class="text-ink-muted">
+                {onpage.robots?.exists ? 'existe' : 'NO existe'} · Disallow: {(onpage.robots?.disallow ?? []).join(', ') || 'ninguno'} ·
+                sitemap declarado: {onpage.robots?.sitemap ? 'sí' : 'no'}
+                {onpage.summary.robots?.coversGestion === false && ' · /gestion no está en Disallow (lo cubre el noindex)'}
+              </div>
+            </div>
+            <div class="rounded-card border border-border bg-card p-3 shadow-card">
+              <div class="font-semibold">Sitemap</div>
+              <div class="text-ink-muted">
+                {n(onpage.sitemap?.urls)} URLs · {n(onpage.sitemap?.urlsNotInDist?.length)} sin página en dist ·
+                {n(onpage.sitemap?.internalPagesInSitemap?.length)} internas coladas · {n(onpage.sitemap?.noindexInSitemap?.length)} noindex ·
+                {n(onpage.sitemap?.indexableMissing?.length)} indexables faltantes
+              </div>
+            </div>
+          </div>
+
+          {(onpage.issues?.brokenHreflang ?? []).length > 0 && (
+            <div class="mt-4 rounded-card border border-red-300 bg-red-50 p-3 text-sm">
+              <div class="font-semibold text-red-800">Hreflang roto</div>
+              <ul class="mt-1 list-disc ps-5">
+                {onpage.issues.brokenHreflang.map((b: any) => (
+                  <li>
+                    <code>{b.path}</code>: {b.issues.join('; ')}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          {(onpage.issues?.duplicateTitles ?? []).length > 0 && (
+            <div class="mt-4 rounded-card border border-gold bg-gold/10 p-3 text-sm">
+              <div class="font-semibold">Títulos duplicados</div>
+              <ul class="mt-1 list-disc ps-5">
+                {onpage.issues.duplicateTitles.map((d: any) => (
+                  <li>
+                    “{d.value}” → {d.paths.join(', ')}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          )}
+
+          <h3 class="mt-8 font-display text-lg font-bold">Páginas ({n(onpageRows.length)})</h3>
+          <p class="mt-1 text-sm text-ink-muted">
+            Primero las que tienen marcas. Umbrales: title {thresholds.title[0]}–{thresholds.title[1]}, description{' '}
+            {thresholds.description[0]}–{thresholds.description[1]}, thin &lt; {thresholds.thin} palabras, entrantes ≥ {thresholds.fewInbound}.
+          </p>
+          <div class="table-wrap mt-3">
+            <table>
+              <thead>
+                <tr>
+                  <th>Ruta</th>
+                  <th>Idioma</th>
+                  <th class="num">Palabras</th>
+                  <th class="num">Title</th>
+                  <th class="num">Desc</th>
+                  <th>H1</th>
+                  <th>Hreflang</th>
+                  <th class="num">Entrantes</th>
+                  <th>JSON-LD</th>
+                  <th>Marcas</th>
+                </tr>
+              </thead>
+              <tbody>
+                {onpageRows.map((p) => (
+                  <tr class={p.flags.length ? 'flagged' : ''}>
+                    <td>
+                      <a href={p.path} class="font-mono text-primary no-underline hover:underline">
+                        {p.path}
+                      </a>
+                    </td>
+                    <td class="font-mono uppercase">{p.locale}</td>
+                    <td class={`num ${p.words < thresholds.veryThin ? 'bad' : p.words < thresholds.thin ? 'warn' : ''}`}>{n(p.words)}</td>
+                    <td class={`num ${p.titleLength < thresholds.title[0] || p.titleLength > thresholds.title[1] ? 'warn' : ''}`}>{p.titleLength}</td>
+                    <td class={`num ${p.descriptionLength < thresholds.description[0] || p.descriptionLength > thresholds.description[1] ? 'warn' : ''}`}>
+                      {p.descriptionLength}
+                    </td>
+                    <td class={p.h1Count === 1 ? 'ok' : 'bad'}>{p.h1Count === 1 ? 'ok' : `×${p.h1Count}`}</td>
+                    <td class={p.hreflangOk ? 'ok' : 'bad'}>{p.hreflang.length === 0 ? 'sin' : p.hreflangOk ? 'ok' : 'roto'}</td>
+                    <td class={`num ${p.inboundLinks < thresholds.fewInbound ? 'bad' : ''}`}>{n(p.inboundLinks)}</td>
+                    <td class="text-xs text-ink-muted">{p.jsonLd.filter((t) => !['Organization', 'WebSite'].includes(t)).join(', ') || '—'}</td>
+                    <td class="text-xs">{p.flags.join(' · ') || '—'}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )
+    }
+  </section>
+
+  <!-- 4. Rendimiento (PSI) -->
+  <section class="mt-12">
+    <h2 class="font-display text-2xl font-bold">Rendimiento (PageSpeed Insights)</h2>
+    {
+      !psi ? (
+        <p class="mt-2 rounded border border-gold bg-gold/10 px-3 py-2 text-sm">
+          sin datos: correr <code class="cmd">pnpm seo:refresh</code>
+        </p>
+      ) : (
+        <>
+          <p class="mt-1 text-sm text-ink-muted">
+            Estrategia {psi.strategy} · {n(psi.summary?.ok)}/{n(psi.summary?.urls)} URLs medidas · generado {fmtDate(psi.generatedAt)}
+            {psi.lastFailedAttempt && ` · último intento fallido: ${fmtDate(psi.lastFailedAttempt.at)}`}.
+            {psi.summary?.ok === 0 && (
+              <>
+                {' '}
+                Sin key la cuota anónima de Google suele estar agotada (HTTP 429): cargar <code>PSI_API_KEY</code> en <code>.env</code> y volver a correr.
+              </>
+            )}
+          </p>
+          <div class="table-wrap mt-3">
+            <table>
+              <thead>
+                <tr>
+                  <th>URL</th>
+                  <th class="num">Perf</th>
+                  <th class="num">SEO</th>
+                  <th class="num">A11y</th>
+                  <th class="num">LCP</th>
+                  <th class="num">CLS</th>
+                  <th class="num">TBT</th>
+                  <th class="num">INP (campo)</th>
+                  <th>Oportunidades principales</th>
+                </tr>
+              </thead>
+              <tbody>
+                {(psi.results ?? []).map((r: any) => (
+                  <tr class={!r.ok || (r.scores?.performance ?? 100) < 50 ? 'flagged' : ''}>
+                    <td>
+                      <a href={r.path} class="font-mono text-primary no-underline hover:underline">
+                        {r.path}
+                      </a>
+                    </td>
+                    {r.ok ? (
+                      <>
+                        <td class={`num ${scoreClass(r.scores.performance)}`}>{pct(r.scores.performance)}</td>
+                        <td class={`num ${scoreClass(r.scores.seo)}`}>{pct(r.scores.seo)}</td>
+                        <td class={`num ${scoreClass(r.scores.accessibility)}`}>{pct(r.scores.accessibility)}</td>
+                        <td class={`num ${(r.metrics.lcpMs ?? 0) > 2500 ? 'warn' : ''}`}>{ms(r.metrics.lcpMs)}</td>
+                        <td class={`num ${(r.metrics.cls ?? 0) > 0.1 ? 'warn' : ''}`}>{n(r.metrics.cls)}</td>
+                        <td class={`num ${(r.metrics.tbtMs ?? 0) > 200 ? 'warn' : ''}`}>{r.metrics.tbtMs != null ? `${r.metrics.tbtMs} ms` : '—'}</td>
+                        <td class="num">{r.field?.inp ? `${r.field.inp.p75} ms` : '—'}</td>
+                        <td class="text-xs">
+                          {(r.opportunities ?? []).length
+                            ? r.opportunities.map((o: any) => `${o.title}${o.savingsMs ? ` (${ms(o.savingsMs)})` : ''}`).join(' · ')
+                            : '—'}
+                        </td>
+                      </>
+                    ) : (
+                      <td colspan="8" class="text-xs text-red-700">
+                        {r.error}
+                      </td>
+                    )}
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )
+    }
+  </section>
+
+  <!-- 5. Keywords -->
+  <section class="mt-12">
+    <h2 class="font-display text-2xl font-bold">Keywords y posiciones</h2>
+    {
+      !keywords ? (
+        <p class="mt-2 rounded border border-gold bg-gold/10 px-3 py-2 text-sm">
+          sin datos: correr <code class="cmd">pnpm seo:refresh</code> (necesita <code>scripts/seo/keywords.mjs</code> y credenciales en <code>.env</code>)
+        </p>
+      ) : (
+        <>
+          <p class="mt-1 text-sm text-ink-muted">
+            {n(kwRows.length)} páginas con keyword objetivo · generado {fmtDate(keywords.generatedAt)}
+            {keywords.locationByLocale && (
+              <>
+                {' '}
+                · mercados:{' '}
+                {Object.entries(keywords.locationByLocale)
+                  .map(([l, loc]) => `${l} → ${loc}`)
+                  .join(', ')}
+              </>
+            )}
+            .
+          </p>
+          <div class="table-wrap mt-3">
+            <table>
+              <thead>
+                <tr>
+                  <th>Ruta</th>
+                  <th>Keyword</th>
+                  <th class="num">Volumen</th>
+                  <th class="num">Dificultad</th>
+                  <th>Intención</th>
+                  <th class="num">Posición</th>
+                  <th>#1 hoy</th>
+                  <th class="num">Palabras nuestras</th>
+                  <th class="num">Prom. top 3</th>
+                </tr>
+              </thead>
+              <tbody>
+                {kwRows.map((k) => {
+                  const top = (k.topCompetitors ?? []).find((c) => c.position === 1) ?? (k.topCompetitors ?? [])[0];
+                  const ours = wordsByPath.get(k.path);
+                  const behind = ours != null && k.avgTopWords != null && ours < k.avgTopWords * 0.8;
+                  const noRank = k.position == null || k.position > 20;
+                  return (
+                    <tr class={noRank || behind ? 'flagged' : ''}>
+                      <td>
+                        <a href={k.path} class="font-mono text-primary no-underline hover:underline">
+                          {k.path}
+                        </a>
+                      </td>
+                      <td>{k.keyword}</td>
+                      <td class="num">{n(k.volume)}</td>
+                      <td class={`num ${(k.difficulty ?? 0) >= 60 ? 'warn' : ''}`}>{n(k.difficulty)}</td>
+                      <td class="text-xs">{k.intent ?? '—'}</td>
+                      <td class={`num ${k.position == null ? 'bad' : k.position <= 10 ? 'ok' : 'warn'}`}>{k.position ?? 'no rankea'}</td>
+                      <td class="text-xs">
+                        {top ? (
+                          <a href={top.url} rel="noopener nofollow" class="text-primary no-underline hover:underline">
+                            {top.domain || host(top.url)}
+                          </a>
+                        ) : (
+                          '—'
+                        )}
+                      </td>
+                      <td class={`num ${behind ? 'warn' : ''}`}>{n(ours)}</td>
+                      <td class="num">{n(k.avgTopWords)}</td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </>
+      )
+    }
+  </section>
+
+  <!-- 6. Competidores -->
+  <section class="mt-12">
+    <h2 class="font-display text-2xl font-bold">Competidores</h2>
+    {
+      !competitors ? (
+        <p class="mt-2 rounded border border-gold bg-gold/10 px-3 py-2 text-sm">
+          sin datos: correr <code class="cmd">pnpm seo:refresh</code> (necesita <code>scripts/seo/competitors.mjs</code>)
+        </p>
+      ) : (
+        <>
+          <p class="mt-1 text-sm text-ink-muted">
+            {n((competitors.domains ?? []).length)} dominios · generado {fmtDate(competitors.generatedAt)}. ETV = tráfico orgánico estimado mensual.
+          </p>
+          <div class="table-wrap mt-3">
+            <table>
+              <thead>
+                <tr>
+                  <th>Dominio</th>
+                  <th class="num">Keywords orgánicas</th>
+                  <th class="num">ETV</th>
+                  <th>Top keywords (posición · volumen)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {(competitors.domains ?? []).map((d: any) => (
+                  <tr>
+                    <td class="font-mono">{d.domain}</td>
+                    <td class="num">{n(d.organicKeywords)}</td>
+                    <td class="num">{n(d.etv)}</td>
+                    <td class="text-xs">
+                      {(d.topKeywords ?? [])
+                        .slice(0, 8)
+                        .map((k: any) => `${k.keyword} (#${k.position} · ${n(k.volume)})`)
+                        .join(' · ') || '—'}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {(competitors.domains ?? []).some((d: any) => (d.gapKeywords ?? []).length) && (
+            <>
+              <h3 class="mt-8 font-display text-lg font-bold">Keywords donde ellos rankean y nosotros no</h3>
+              <div class="table-wrap mt-3">
+                <table>
+                  <thead>
+                    <tr>
+                      <th>Competidor</th>
+                      <th>Keyword</th>
+                      <th class="num">Volumen</th>
+                      <th>Su URL</th>
+                      <th>Página nuestra sugerida</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {(competitors.domains ?? []).flatMap((d: any) =>
+                      (d.gapKeywords ?? []).map((g: any) => (
+                        <tr>
+                          <td class="font-mono text-xs">{d.domain}</td>
+                          <td>{g.keyword}</td>
+                          <td class="num">{n(g.volume)}</td>
+                          <td class="text-xs">
+                            <a href={g.competitorUrl} rel="noopener nofollow" class="text-primary no-underline hover:underline">
+                              {g.competitorUrl?.replace(/^https?:\/\/(www\.)?/, '')}
+                            </a>
+                          </td>
+                          <td class="font-mono text-xs">{g.suggestedPage ?? '—'}</td>
+                        </tr>
+                      )),
+                    )}
+                  </tbody>
+                </table>
+              </div>
+            </>
+          )}
+        </>
+      )
+    }
+  </section>
+
+  <!-- 7. Backlinks -->
+  <section class="mt-12">
+    <h2 class="font-display text-2xl font-bold">Backlinks</h2>
+    {
+      !backlinks ? (
+        <p class="mt-2 rounded border border-gold bg-gold/10 px-3 py-2 text-sm">
+          sin datos: correr <code class="cmd">pnpm seo:refresh</code> (necesita <code>scripts/seo/backlinks.mjs</code>)
+        </p>
+      ) : (
+        <>
+          <p class="mt-1 text-sm text-ink-muted">
+            {n((backlinks.domains ?? []).length)} dominios comparados · generado {fmtDate(backlinks.generatedAt)}.
+          </p>
+          <div class="table-wrap mt-3">
+            <table>
+              <thead>
+                <tr>
+                  <th>Dominio</th>
+                  <th class="num">Rank</th>
+                  <th class="num">Backlinks</th>
+                  <th class="num">Dominios ref.</th>
+                  <th class="num">Dominios principales</th>
+                  <th class="num">Rotos</th>
+                  <th>Top referentes (rank · backlinks)</th>
+                </tr>
+              </thead>
+              <tbody>
+                {(backlinks.domains ?? []).map((d: any) => (
+                  <tr class={/visitisrael/.test(d.domain ?? '') ? 'ours' : ''}>
+                    <td class="font-mono">{d.domain}</td>
+                    <td class="num">{n(d.rank)}</td>
+                    <td class="num">{n(d.backlinks)}</td>
+                    <td class="num">{n(d.referringDomains)}</td>
+                    <td class="num">{n(d.referringMainDomains)}</td>
+                    <td class={`num ${(d.brokenBacklinks ?? 0) > 0 ? 'warn' : ''}`}>{n(d.brokenBacklinks)}</td>
+                    <td class="text-xs">
+                      {(d.topReferring ?? [])
+                        .slice(0, 6)
+                        .map((r: any) => `${r.domain} (${n(r.rank)} · ${n(r.backlinks)})`)
+                        .join(' · ') || '—'}
+                    </td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+
+          {(backlinks.opportunities ?? []).length > 0 && (
+            <>
+              <h3 class="mt-8 font-display text-lg font-bold">Oportunidades de link</h3>
+              <ul class="mt-2 divide-y divide-border rounded-card border border-border bg-card shadow-card">
+                {backlinks.opportunities.map((o: any) => (
+                  <li class="px-4 py-3 text-sm">
+                    <a href={o.url} rel="noopener nofollow" class="font-semibold text-primary no-underline hover:underline">
+                      {o.title || host(o.url)}
+                    </a>
+                    <span class="ms-2 text-xs text-ink-muted">{host(o.url)}</span>
+                    <p class="mt-0.5 text-ink-muted">{o.why}</p>
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
+        </>
+      )
+    }
+  </section>
+
+  <footer class="mx-auto mt-12 border-t border-border pt-4 text-xs text-ink-muted">
+    <p>
+      Página interna de visitisrael.site: no aparece en Google ni en el sitemap; cualquiera con el link la puede ver.
+      Scripts en <code>scripts/seo/</code>; datos en <code>data/seo/</code>; diagnóstico en <code>gestion/auditoria/seo.md</code>.
+    </p>
+  </footer>
+</InternalLayout>
+
+<style>
+  code {
+    font-size: 0.85em;
+    background: var(--color-sand-deep);
+    padding: 0.1em 0.3em;
+    border-radius: 4px;
+  }
+  code.cmd {
+    white-space: nowrap;
+  }
+  /* Tablas anchas: scroll horizontal en móvil (mismo criterio que /mariluz). */
+  .table-wrap {
+    overflow-x: auto;
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    background: var(--color-card);
+  }
+  table {
+    width: 100%;
+    min-width: 720px;
+    border-collapse: collapse;
+    font-size: 0.8125rem;
+  }
+  th,
+  td {
+    padding: 0.4rem 0.6rem;
+    text-align: start;
+    vertical-align: top;
+    border-bottom: 1px solid var(--color-border);
+  }
+  th {
+    background: var(--color-sand-deep);
+    font-weight: 700;
+    white-space: nowrap;
+    position: sticky;
+    top: 0;
+  }
+  td.num,
+  th.num {
+    text-align: end;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  tr.flagged td {
+    background: color-mix(in srgb, var(--color-gold) 12%, transparent);
+  }
+  tr.ours td {
+    font-weight: 700;
+  }
+  td.ok {
+    color: #15803d;
+  }
+  td.warn {
+    color: #b45309;
+    font-weight: 600;
+  }
+  td.bad {
+    color: #b91c1c;
+    font-weight: 700;
+  }
+  /* La H1 del markdown se renderiza como H2 (una sola H1 por página). */
+  .diagnostico :global(h2:first-child) {
+    font-family: var(--font-display);
+    font-size: var(--text-2xl);
+    margin-top: 0.5rem;
+  }
+  .diagnostico :global(h2),
+  .diagnostico :global(h3),
+  .diagnostico :global(h4) {
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+  .diagnostico :global(table) {
+    display: block;
+    overflow-x: auto;
+    font-size: 0.875rem;
+  }
+  .diagnostico :global(td),
+  .diagnostico :global(th) {
+    min-width: 8rem;
+  }
+  .diagnostico :global(hr) {
+    border: 0;
+    border-top: 1px solid var(--color-border);
+    margin-block: 2rem;
+  }
+</style>

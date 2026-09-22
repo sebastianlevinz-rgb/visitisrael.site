@@ -1,0 +1,257 @@
+{
+  "_comment": "Mapa de páginas objetivo → keyword primaria + 2 secundarias por idioma. Lo consumen scripts/seo/keywords.mjs y competitors.mjs. Las rutas van sin prefijo de idioma; los scripts lo agregan (/fr, /de, /es, /he).",
+  "locationByLocale": {
+    "en": { "location_code": 2840, "language_code": "en", "location_name": "United States" },
+    "es": { "location_code": 2724, "language_code": "es", "location_name": "Spain" },
+    "fr": { "location_code": 2250, "language_code": "fr", "location_name": "France" },
+    "de": { "location_code": 2276, "language_code": "de", "location_name": "Germany" },
+    "he": { "location_code": 2376, "language_code": "he", "location_name": "Israel" }
+  },
+  "pages": [
+    { "slug": "", "collection": "home", "path": "/",
+      "keywords": {
+        "en": { "primary": "israel travel guide", "secondary": ["visit israel", "israel tourism"] },
+        "es": { "primary": "viajar a israel", "secondary": ["guía de viaje israel", "turismo en israel"] },
+        "fr": { "primary": "voyage israël", "secondary": ["visiter israël", "guide de voyage israël"] },
+        "de": { "primary": "israel reise", "secondary": ["israel urlaub", "israel reiseführer"] },
+        "he": { "primary": "טיול בישראל", "secondary": ["אטרקציות בישראל", "מדריך טיולים ישראל"] }
+      } },
+    { "slug": "plan-your-trip", "collection": "hub", "path": "/plan-your-trip",
+      "keywords": {
+        "en": { "primary": "plan a trip to israel", "secondary": ["israel trip planner", "how to plan a trip to israel"] },
+        "es": { "primary": "cómo planificar un viaje a israel", "secondary": ["organizar viaje a israel", "viaje a israel por libre"] },
+        "fr": { "primary": "organiser un voyage en israël", "secondary": ["préparer voyage israël", "voyage israël par soi-même"] },
+        "de": { "primary": "israel reise planen", "secondary": ["israel individualreise", "israel rundreise selbst planen"] },
+        "he": { "primary": "תכנון טיול בישראל", "secondary": ["טיול בארץ", "איך לתכנן טיול בארץ"] }
+      } },
+
+    { "slug": "jerusalem", "collection": "regions", "path": "/jerusalem",
+      "keywords": {
+        "en": { "primary": "things to do in jerusalem", "secondary": ["jerusalem travel guide", "visit jerusalem"] },
+        "es": { "primary": "que ver en jerusalén", "secondary": ["jerusalén turismo", "que hacer en jerusalén"] },
+        "fr": { "primary": "que faire à jérusalem", "secondary": ["visiter jérusalem", "jérusalem tourisme"] },
+        "de": { "primary": "jerusalem sehenswürdigkeiten", "secondary": ["jerusalem reiseführer", "was tun in jerusalem"] },
+        "he": { "primary": "מה לעשות בירושלים", "secondary": ["אטרקציות בירושלים", "טיול בירושלים"] }
+      } },
+    { "slug": "tel-aviv", "collection": "regions", "path": "/tel-aviv",
+      "keywords": {
+        "en": { "primary": "things to do in tel aviv", "secondary": ["tel aviv travel guide", "visit tel aviv"] },
+        "es": { "primary": "que ver en tel aviv", "secondary": ["tel aviv turismo", "que hacer en tel aviv"] },
+        "fr": { "primary": "que faire à tel aviv", "secondary": ["visiter tel aviv", "tel aviv tourisme"] },
+        "de": { "primary": "tel aviv sehenswürdigkeiten", "secondary": ["tel aviv reiseführer", "was tun in tel aviv"] },
+        "he": { "primary": "מה לעשות בתל אביב", "secondary": ["אטרקציות בתל אביב", "טיול בתל אביב"] }
+      } },
+    { "slug": "dead-sea", "collection": "regions", "path": "/dead-sea",
+      "keywords": {
+        "en": { "primary": "dead sea israel", "secondary": ["things to do at the dead sea", "visit dead sea"] },
+        "es": { "primary": "mar muerto israel", "secondary": ["que hacer en el mar muerto", "visitar el mar muerto"] },
+        "fr": { "primary": "mer morte israël", "secondary": ["visiter la mer morte", "que faire à la mer morte"] },
+        "de": { "primary": "totes meer israel", "secondary": ["totes meer urlaub", "totes meer sehenswürdigkeiten"] },
+        "he": { "primary": "ים המלח", "secondary": ["מה לעשות בים המלח", "אטרקציות בים המלח"] }
+      } },
+    { "slug": "galilee", "collection": "regions", "path": "/galilee",
+      "keywords": {
+        "en": { "primary": "sea of galilee", "secondary": ["things to do in galilee", "galilee israel"] },
+        "es": { "primary": "mar de galilea", "secondary": ["galilea israel", "que ver en galilea"] },
+        "fr": { "primary": "lac de tibériade", "secondary": ["galilée israël", "que faire en galilée"] },
+        "de": { "primary": "see genezareth", "secondary": ["galiläa israel", "galiläa sehenswürdigkeiten"] },
+        "he": { "primary": "טיול בגליל", "secondary": ["אטרקציות בגליל", "מה לעשות בכנרת"] }
+      } },
+    { "slug": "eilat", "collection": "regions", "path": "/eilat",
+      "keywords": {
+        "en": { "primary": "things to do in eilat", "secondary": ["eilat israel", "eilat travel guide"] },
+        "es": { "primary": "eilat israel", "secondary": ["que hacer en eilat", "que ver en eilat"] },
+        "fr": { "primary": "eilat israël", "secondary": ["que faire à eilat", "visiter eilat"] },
+        "de": { "primary": "eilat israel", "secondary": ["eilat sehenswürdigkeiten", "eilat urlaub"] },
+        "he": { "primary": "מה לעשות באילת", "secondary": ["אטרקציות באילת", "טיול באילת"] }
+      } },
+    { "slug": "haifa", "collection": "regions", "path": "/haifa",
+      "keywords": {
+        "en": { "primary": "things to do in haifa", "secondary": ["haifa israel", "bahai gardens haifa"] },
+        "es": { "primary": "que ver en haifa", "secondary": ["haifa israel", "jardines bahai haifa"] },
+        "fr": { "primary": "que faire à haïfa", "secondary": ["haïfa israël", "jardins bahai haïfa"] },
+        "de": { "primary": "haifa sehenswürdigkeiten", "secondary": ["haifa israel", "bahai gärten haifa"] },
+        "he": { "primary": "מה לעשות בחיפה", "secondary": ["אטרקציות בחיפה", "הגנים הבהאיים"] }
+      } },
+    { "slug": "negev", "collection": "regions", "path": "/negev",
+      "keywords": {
+        "en": { "primary": "negev desert", "secondary": ["things to do in the negev", "mitzpe ramon"] },
+        "es": { "primary": "desierto del neguev", "secondary": ["que ver en el neguev", "mitzpe ramon"] },
+        "fr": { "primary": "désert du néguev", "secondary": ["que faire dans le néguev", "mitzpe ramon"] },
+        "de": { "primary": "negev wüste", "secondary": ["negev sehenswürdigkeiten", "mitzpe ramon"] },
+        "he": { "primary": "טיול בנגב", "secondary": ["אטרקציות בנגב", "מצפה רמון"] }
+      } },
+
+    { "slug": "first-time-in-israel", "collection": "guides", "path": "/first-time-in-israel",
+      "keywords": {
+        "en": { "primary": "first time in israel", "secondary": ["israel travel tips", "traveling to israel"] },
+        "es": { "primary": "viajar a israel por primera vez", "secondary": ["consejos para viajar a israel", "que saber antes de viajar a israel"] },
+        "fr": { "primary": "voyage en israël première fois", "secondary": ["conseils voyage israël", "partir en israël"] },
+        "de": { "primary": "israel reisetipps", "secondary": ["israel zum ersten mal", "israel reise vorbereitung"] },
+        "he": { "primary": "פעם ראשונה בישראל", "secondary": ["טיפים לטיול בישראל", "טיול בארץ למתחילים"] }
+      } },
+    { "slug": "visa-information", "collection": "guides", "path": "/visa-information",
+      "keywords": {
+        "en": { "primary": "israel visa", "secondary": ["eta il", "do i need a visa for israel"] },
+        "es": { "primary": "visa para israel", "secondary": ["eta israel", "requisitos para viajar a israel"] },
+        "fr": { "primary": "visa israël", "secondary": ["eta israël", "formalités israël"] },
+        "de": { "primary": "israel visum", "secondary": ["eta israel", "einreise israel"] },
+        "he": { "primary": "ויזה לישראל", "secondary": ["eta-il", "כניסה לישראל לתיירים"] }
+      } },
+    { "slug": "best-time-to-visit-israel", "collection": "guides", "path": "/best-time-to-visit-israel",
+      "keywords": {
+        "en": { "primary": "best time to visit israel", "secondary": ["israel weather by month", "when to visit israel"] },
+        "es": { "primary": "mejor época para viajar a israel", "secondary": ["cuando viajar a israel", "clima en israel"] },
+        "fr": { "primary": "meilleure période pour visiter israël", "secondary": ["quand partir en israël", "climat israël"] },
+        "de": { "primary": "beste reisezeit israel", "secondary": ["israel wetter", "israel klima"] },
+        "he": { "primary": "מתי כדאי לטייל בישראל", "secondary": ["מזג אוויר בישראל", "העונה הטובה ביותר לטיול בארץ"] }
+      } },
+    { "slug": "is-israel-safe", "collection": "guides", "path": "/is-israel-safe",
+      "keywords": {
+        "en": { "primary": "is israel safe to visit", "secondary": ["is it safe to travel to israel", "israel safety"] },
+        "es": { "primary": "es seguro viajar a israel", "secondary": ["seguridad en israel", "viajar a israel ahora"] },
+        "fr": { "primary": "israël est-il sûr", "secondary": ["voyager en israël danger", "sécurité israël touristes"] },
+        "de": { "primary": "ist israel sicher", "secondary": ["israel reisewarnung", "israel sicherheit urlaub"] },
+        "he": { "primary": "האם בטוח לטייל בישראל", "secondary": ["ביטחון תיירים בישראל", "טיול בישראל בטוח"] }
+      } },
+    { "slug": "car-rental-israel", "collection": "guides", "path": "/car-rental-israel",
+      "keywords": {
+        "en": { "primary": "car rental israel", "secondary": ["rent a car in israel", "driving in israel"] },
+        "es": { "primary": "alquiler de coches en israel", "secondary": ["alquilar coche en israel", "conducir en israel"] },
+        "fr": { "primary": "location voiture israël", "secondary": ["louer une voiture en israël", "conduire en israël"] },
+        "de": { "primary": "mietwagen israel", "secondary": ["auto mieten israel", "autofahren in israel"] },
+        "he": { "primary": "השכרת רכב בישראל", "secondary": ["השכרת רכב נתבג", "השכרת רכב תל אביב"] }
+      } },
+
+    { "slug": "best-hotels-jerusalem", "collection": "guides", "path": "/best-hotels-jerusalem",
+      "keywords": {
+        "en": { "primary": "best hotels in jerusalem", "secondary": ["where to stay in jerusalem", "jerusalem hotels"] },
+        "es": { "primary": "hoteles en jerusalén", "secondary": ["donde alojarse en jerusalén", "mejores hoteles en jerusalén"] },
+        "fr": { "primary": "hôtel jérusalem", "secondary": ["où dormir à jérusalem", "meilleurs hôtels jérusalem"] },
+        "de": { "primary": "hotel jerusalem", "secondary": ["übernachten in jerusalem", "beste hotels jerusalem"] },
+        "he": { "primary": "מלונות בירושלים", "secondary": ["איפה לישון בירושלים", "מלונות מומלצים בירושלים"] }
+      } },
+    { "slug": "best-hotels-tel-aviv", "collection": "guides", "path": "/best-hotels-tel-aviv",
+      "keywords": {
+        "en": { "primary": "best hotels in tel aviv", "secondary": ["where to stay in tel aviv", "tel aviv hotels"] },
+        "es": { "primary": "hoteles en tel aviv", "secondary": ["donde alojarse en tel aviv", "mejores hoteles en tel aviv"] },
+        "fr": { "primary": "hôtel tel aviv", "secondary": ["où dormir à tel aviv", "meilleurs hôtels tel aviv"] },
+        "de": { "primary": "hotel tel aviv", "secondary": ["übernachten in tel aviv", "beste hotels tel aviv"] },
+        "he": { "primary": "מלונות בתל אביב", "secondary": ["איפה לישון בתל אביב", "מלונות מומלצים בתל אביב"] }
+      } },
+    { "slug": "dead-sea-hotels-guide", "collection": "guides", "path": "/dead-sea-hotels-guide",
+      "keywords": {
+        "en": { "primary": "dead sea hotels", "secondary": ["where to stay dead sea", "ein bokek hotels"] },
+        "es": { "primary": "hoteles en el mar muerto", "secondary": ["donde alojarse en el mar muerto", "hoteles ein bokek"] },
+        "fr": { "primary": "hôtel mer morte", "secondary": ["où dormir mer morte", "hôtel ein bokek"] },
+        "de": { "primary": "totes meer hotel", "secondary": ["hotel ein bokek", "totes meer hotel israel"] },
+        "he": { "primary": "מלונות בים המלח", "secondary": ["מלונות עין בוקק", "מלונות מומלצים בים המלח"] }
+      } },
+    { "slug": "eilat-hotels-guide", "collection": "guides", "path": "/eilat-hotels-guide",
+      "keywords": {
+        "en": { "primary": "eilat hotels", "secondary": ["where to stay in eilat", "best hotels in eilat"] },
+        "es": { "primary": "hoteles en eilat", "secondary": ["donde alojarse en eilat", "mejores hoteles en eilat"] },
+        "fr": { "primary": "hôtel eilat", "secondary": ["où dormir à eilat", "meilleurs hôtels eilat"] },
+        "de": { "primary": "hotel eilat", "secondary": ["übernachten in eilat", "beste hotels eilat"] },
+        "he": { "primary": "מלונות באילת", "secondary": ["איפה לישון באילת", "מלונות מומלצים באילת"] }
+      } },
+
+    { "slug": "jerusalem-tours-compared", "collection": "guides", "path": "/jerusalem-tours-compared",
+      "keywords": {
+        "en": { "primary": "jerusalem tours", "secondary": ["jerusalem walking tour", "old city jerusalem tour"] },
+        "es": { "primary": "tours en jerusalén", "secondary": ["free tour jerusalén", "excursiones en jerusalén"] },
+        "fr": { "primary": "visite guidée jérusalem", "secondary": ["free tour jérusalem", "excursion jérusalem"] },
+        "de": { "primary": "jerusalem stadtführung", "secondary": ["jerusalem tour", "jerusalem führung deutsch"] },
+        "he": { "primary": "סיורים בירושלים", "secondary": ["סיור מודרך בירושלים", "סיורים בעיר העתיקה"] }
+      } },
+    { "slug": "dead-sea-tours-compared", "collection": "guides", "path": "/dead-sea-tours-compared",
+      "keywords": {
+        "en": { "primary": "dead sea tours", "secondary": ["dead sea day trip from jerusalem", "masada and dead sea tour"] },
+        "es": { "primary": "excursión al mar muerto", "secondary": ["tour mar muerto desde jerusalén", "excursión masada y mar muerto"] },
+        "fr": { "primary": "excursion mer morte", "secondary": ["excursion mer morte depuis jérusalem", "excursion massada mer morte"] },
+        "de": { "primary": "totes meer ausflug", "secondary": ["totes meer tagesausflug jerusalem", "masada totes meer tour"] },
+        "he": { "primary": "טיול לים המלח", "secondary": ["טיול יום לים המלח", "טיול מצדה וים המלח"] }
+      } },
+    { "slug": "day-trips-from-tel-aviv", "collection": "guides", "path": "/day-trips-from-tel-aviv",
+      "keywords": {
+        "en": { "primary": "day trips from tel aviv", "secondary": ["tel aviv day tours", "excursions from tel aviv"] },
+        "es": { "primary": "excursiones desde tel aviv", "secondary": ["que ver cerca de tel aviv", "tours desde tel aviv"] },
+        "fr": { "primary": "excursion depuis tel aviv", "secondary": ["que faire autour de tel aviv", "excursion d'une journée tel aviv"] },
+        "de": { "primary": "tagesausflüge von tel aviv", "secondary": ["ausflüge ab tel aviv", "tel aviv umgebung"] },
+        "he": { "primary": "טיולי יום מתל אביב", "secondary": ["טיולים ליד תל אביב", "טיול יום במרכז"] }
+      } },
+    { "slug": "masada-visitor-guide", "collection": "guides", "path": "/masada-visitor-guide",
+      "keywords": {
+        "en": { "primary": "masada", "secondary": ["masada sunrise hike", "masada national park"] },
+        "es": { "primary": "masada israel", "secondary": ["visitar masada", "fortaleza de masada"] },
+        "fr": { "primary": "massada", "secondary": ["visiter massada", "massada israël"] },
+        "de": { "primary": "masada", "secondary": ["masada israel", "masada besuchen"] },
+        "he": { "primary": "מצדה", "secondary": ["זריחה במצדה", "רכבל מצדה"] }
+      } },
+    { "slug": "jerusalem-bethlehem-day-trip", "collection": "guides", "path": "/jerusalem-bethlehem-day-trip",
+      "keywords": {
+        "en": { "primary": "bethlehem day trip from jerusalem", "secondary": ["bethlehem tour", "how to get to bethlehem from jerusalem"] },
+        "es": { "primary": "excursión a belén desde jerusalén", "secondary": ["como ir de jerusalén a belén", "visitar belén"] },
+        "fr": { "primary": "excursion bethléem depuis jérusalem", "secondary": ["visiter bethléem", "comment aller à bethléem depuis jérusalem"] },
+        "de": { "primary": "tagesausflug bethlehem von jerusalem", "secondary": ["bethlehem besuchen", "von jerusalem nach bethlehem"] },
+        "he": { "primary": "טיול לבית לחם", "secondary": ["סיור בבית לחם", "איך מגיעים לבית לחם"] }
+      } },
+    { "slug": "petra-from-israel", "collection": "guides", "path": "/petra-from-israel",
+      "keywords": {
+        "en": { "primary": "petra from israel", "secondary": ["petra day trip from eilat", "tel aviv to petra"] },
+        "es": { "primary": "petra desde israel", "secondary": ["excursión a petra desde eilat", "como ir de israel a petra"] },
+        "fr": { "primary": "pétra depuis israël", "secondary": ["excursion pétra depuis eilat", "aller à pétra depuis israël"] },
+        "de": { "primary": "petra von israel", "secondary": ["petra tagesausflug eilat", "von israel nach petra"] },
+        "he": { "primary": "טיול לפטרה", "secondary": ["פטרה מאילת", "טיול יום לפטרה"] }
+      } },
+    { "slug": "nazareth-sea-of-galilee-day-trip", "collection": "guides", "path": "/nazareth-sea-of-galilee-day-trip",
+      "keywords": {
+        "en": { "primary": "nazareth and sea of galilee tour", "secondary": ["nazareth day trip", "christian tour israel"] },
+        "es": { "primary": "excursión a nazaret y mar de galilea", "secondary": ["visitar nazaret", "tour cristiano israel"] },
+        "fr": { "primary": "excursion nazareth lac de tibériade", "secondary": ["visiter nazareth", "circuit chrétien israël"] },
+        "de": { "primary": "tagesausflug nazareth see genezareth", "secondary": ["nazareth besuchen", "christliche reise israel"] },
+        "he": { "primary": "טיול לנצרת", "secondary": ["אטרקציות בנצרת", "טיול בכנרת"] }
+      } },
+    { "slug": "caesarea-haifa-akko-day-trip", "collection": "guides", "path": "/caesarea-haifa-akko-day-trip",
+      "keywords": {
+        "en": { "primary": "caesarea haifa akko tour", "secondary": ["caesarea day trip", "akko day trip from tel aviv"] },
+        "es": { "primary": "excursión a cesarea haifa y acre", "secondary": ["visitar cesarea", "acre israel"] },
+        "fr": { "primary": "excursion césarée haïfa acre", "secondary": ["visiter césarée", "acre israël"] },
+        "de": { "primary": "tagesausflug caesarea haifa akko", "secondary": ["caesarea israel", "akko israel"] },
+        "he": { "primary": "טיול לקיסריה", "secondary": ["אטרקציות בקיסריה", "טיול בעכו"] }
+      } },
+    { "slug": "tel-aviv-food-tours", "collection": "guides", "path": "/tel-aviv-food-tours",
+      "keywords": {
+        "en": { "primary": "tel aviv food tour", "secondary": ["carmel market food tour", "levinsky market tour"] },
+        "es": { "primary": "tour gastronómico tel aviv", "secondary": ["mercado carmel tel aviv", "donde comer en tel aviv"] },
+        "fr": { "primary": "tour gastronomique tel aviv", "secondary": ["marché carmel tel aviv", "où manger à tel aviv"] },
+        "de": { "primary": "food tour tel aviv", "secondary": ["carmel markt tel aviv", "essen in tel aviv"] },
+        "he": { "primary": "סיור אוכל בתל אביב", "secondary": ["שוק הכרמל", "שוק לוינסקי"] }
+      } },
+    { "slug": "israel-tour-packages", "collection": "guides", "path": "/israel-tour-packages",
+      "keywords": {
+        "en": { "primary": "israel tour packages", "secondary": ["israel tours", "guided tours of israel"] },
+        "es": { "primary": "viajes organizados a israel", "secondary": ["circuitos por israel", "paquetes de viaje a israel"] },
+        "fr": { "primary": "circuit israël", "secondary": ["voyage organisé israël", "séjour israël"] },
+        "de": { "primary": "israel rundreise", "secondary": ["israel pauschalreise", "israel gruppenreise"] },
+        "he": { "primary": "חבילות טיול בישראל", "secondary": ["טיול מאורגן בישראל", "סיורים מאורגנים בארץ"] }
+      } },
+
+    { "slug": "7-days-in-israel", "collection": "itineraries", "path": "/itineraries/7-days-in-israel",
+      "keywords": {
+        "en": { "primary": "7 days in israel", "secondary": ["israel itinerary 7 days", "one week in israel"] },
+        "es": { "primary": "israel en 7 días", "secondary": ["itinerario israel 7 días", "una semana en israel"] },
+        "fr": { "primary": "israël en 7 jours", "secondary": ["itinéraire israël 7 jours", "une semaine en israël"] },
+        "de": { "primary": "israel reiseroute 7 tage", "secondary": ["israel rundreise 7 tage", "eine woche israel"] },
+        "he": { "primary": "טיול שבוע בישראל", "secondary": ["מסלול טיול 7 ימים בישראל", "טיול של שבוע בארץ"] }
+      } },
+    { "slug": "10-days-in-israel", "collection": "itineraries", "path": "/itineraries/10-days-in-israel",
+      "keywords": {
+        "en": { "primary": "10 days in israel", "secondary": ["israel itinerary 10 days", "israel itinerary"] },
+        "es": { "primary": "israel en 10 días", "secondary": ["itinerario israel 10 días", "ruta por israel"] },
+        "fr": { "primary": "israël en 10 jours", "secondary": ["itinéraire israël 10 jours", "itinéraire israël"] },
+        "de": { "primary": "israel reiseroute 10 tage", "secondary": ["israel rundreise 10 tage", "israel route"] },
+        "he": { "primary": "מסלול טיול 10 ימים בישראל", "secondary": ["טיול 10 ימים בישראל", "מסלול טיול בארץ"] }
+      } }
+  ]
+}

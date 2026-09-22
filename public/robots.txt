@@ -7,6 +7,8 @@ Disallow: /dashboard
 Disallow: /pitch
 Disallow: /competitors
 Disallow: /content-library
+Disallow: /gestion
+Disallow: /mariluz
 
 # AI crawlers — explicitly welcomed for GEO / AI Overviews
 User-agent: GPTBot

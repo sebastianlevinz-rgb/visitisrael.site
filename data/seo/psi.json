@@ -1,0 +1,172 @@
+{
+  "generatedAt": "2026-09-22T09:59:48.041Z",
+  "site": "https://visitisrael.site",
+  "strategy": "mobile",
+  "withApiKey": false,
+  "summary": {
+    "strategy": "mobile",
+    "urls": 6,
+    "ok": 6,
+    "failed": 0,
+    "avgScores": {
+      "performance": 91,
+      "seo": 100,
+      "accessibility": 100
+    },
+    "avgLcpMs": 2799,
+    "avgTbtMs": 73,
+    "worstPerformance": "/he"
+  },
+  "results": [
+    {
+      "url": "https://visitisrael.site/",
+      "path": "/",
+      "ok": true,
+      "scores": {
+        "performance": 95,
+        "seo": 100,
+        "accessibility": 100
+      },
+      "metrics": {
+        "lcpMs": 2728,
+        "cls": 0.003,
+        "tbtMs": 8,
+        "fcpMs": 1270,
+        "speedIndexMs": 3038,
+        "ttiMs": 2738
+      },
+      "opportunities": [],
+      "seoFailing": [],
+      "accessibilityFailing": [],
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-09-22T09:57:54.817Z",
+      "field": null,
+      "source": "lighthouse-local"
+    },
+    {
+      "url": "https://visitisrael.site/jerusalem",
+      "path": "/jerusalem",
+      "ok": true,
+      "scores": {
+        "performance": 93,
+        "seo": 100,
+        "accessibility": 100
+      },
+      "metrics": {
+        "lcpMs": 2395,
+        "cls": 0.034,
+        "tbtMs": 252,
+        "fcpMs": 1270,
+        "speedIndexMs": 1419,
+        "ttiMs": 2402
+      },
+      "opportunities": [],
+      "seoFailing": [],
+      "accessibilityFailing": [],
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-09-22T09:58:16.188Z",
+      "field": null,
+      "source": "lighthouse-local"
+    },
+    {
+      "url": "https://visitisrael.site/best-hotels-jerusalem",
+      "path": "/best-hotels-jerusalem",
+      "ok": true,
+      "scores": {
+        "performance": 89,
+        "seo": 100,
+        "accessibility": 100
+      },
+      "metrics": {
+        "lcpMs": 2973,
+        "cls": 0.132,
+        "tbtMs": 30,
+        "fcpMs": 1718,
+        "speedIndexMs": 3033,
+        "ttiMs": 2979
+      },
+      "opportunities": [],
+      "seoFailing": [],
+      "accessibilityFailing": [],
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-09-22T09:58:36.140Z",
+      "field": null,
+      "source": "lighthouse-local"
+    },
+    {
+      "url": "https://visitisrael.site/es",
+      "path": "/es",
+      "ok": true,
+      "scores": {
+        "performance": 95,
+        "seo": 100,
+        "accessibility": 100
+      },
+      "metrics": {
+        "lcpMs": 2818,
+        "cls": 0.023,
+        "tbtMs": 15,
+        "fcpMs": 1279,
+        "speedIndexMs": 2963,
+        "ttiMs": 2822
+      },
+      "opportunities": [],
+      "seoFailing": [],
+      "accessibilityFailing": [],
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-09-22T09:58:57.131Z",
+      "field": null,
+      "source": "lighthouse-local"
+    },
+    {
+      "url": "https://visitisrael.site/he",
+      "path": "/he",
+      "ok": true,
+      "scores": {
+        "performance": 88,
+        "seo": 100,
+        "accessibility": 100
+      },
+      "metrics": {
+        "lcpMs": 3254,
+        "cls": 0,
+        "tbtMs": 133,
+        "fcpMs": 1754,
+        "speedIndexMs": 4598,
+        "ttiMs": 3254
+      },
+      "opportunities": [],
+      "seoFailing": [],
+      "accessibilityFailing": [],
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-09-22T09:59:16.887Z",
+      "field": null,
+      "source": "lighthouse-local"
+    },
+    {
+      "url": "https://visitisrael.site/itineraries/7-days-in-israel",
+      "path": "/itineraries/7-days-in-israel",
+      "ok": true,
+      "scores": {
+        "performance": 88,
+        "seo": 100,
+        "accessibility": 100
+      },
+      "metrics": {
+        "lcpMs": 2627,
+        "cls": 0.179,
+        "tbtMs": 0,
+        "fcpMs": 1577,
+        "speedIndexMs": 2735,
+        "ttiMs": 2627
+      },
+      "opportunities": [],
+      "seoFailing": [],
+      "accessibilityFailing": [],
+      "lighthouseVersion": "13.5.0",
+      "fetchTime": "2026-09-22T09:59:37.773Z",
+      "field": null,
+      "source": "lighthouse-local"
+    }
+  ]
+}

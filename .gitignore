@@ -97,3 +97,6 @@ playwright-report/
 # (run as the first step in pnpm build). Not committed; regenerated on every Vercel build.
 public/images/**/*-400w.*
 public/images/**/*-800w.*
+
+# Caché de requests de scripts/seo (DataForSEO, Firecrawl): se regenera, no se versiona
+data/seo/cache/

@@ -1,0 +1,110 @@
+{
+  "runs": [
+    {
+      "script": "backlinks.mjs",
+      "at": "2026-09-22T09:29:51.606Z",
+      "usd": 0.4189,
+      "calls": 26,
+      "cachedCalls": 0
+    },
+    {
+      "script": "backlinks.mjs (probe status_type=all)",
+      "at": "2026-09-22T09:30:43.639Z",
+      "usd": 0.024576,
+      "calls": 1
+    },
+    {
+      "script": "backlinks.mjs",
+      "at": "2026-09-22T09:31:36.200Z",
+      "usd": 0,
+      "calls": 0,
+      "cachedCalls": 26
+    },
+    {
+      "script": "backlinks.mjs",
+      "at": "2026-09-22T09:32:08.918Z",
+      "usd": 0,
+      "calls": 0,
+      "cachedCalls": 26
+    },
+    {
+      "at": "2026-09-22T09:35:09.572Z",
+      "script": "keywords.mjs",
+      "usd": 0.7714,
+      "calls": 27,
+      "cachedCalls": 0,
+      "firecrawlScrapes": 0,
+      "errors": 145
+    },
+    {
+      "at": "2026-09-22T09:39:17.828Z",
+      "script": "keywords.mjs",
+      "usd": 0.3,
+      "calls": 151,
+      "cachedCalls": 20,
+      "firecrawlScrapes": 0,
+      "errors": 5
+    },
+    {
+      "at": "2026-09-22T09:40:37.152Z",
+      "script": "keywords.mjs",
+      "usd": 0.012,
+      "calls": 7,
+      "cachedCalls": 165,
+      "firecrawlScrapes": 0,
+      "errors": 1
+    },
+    {
+      "at": "2026-09-22T09:41:16.191Z",
+      "script": "probe-firecrawl",
+      "usd": 0,
+      "calls": 0,
+      "firecrawlScrapes": 1
+    },
+    {
+      "at": "2026-09-22T09:47:40.338Z",
+      "script": "keywords.mjs",
+      "usd": 0.002,
+      "calls": 2,
+      "cachedCalls": 169,
+      "firecrawlScrapes": 99,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-22T09:50:55.366Z",
+      "script": "competitors.mjs",
+      "usd": 0.7152,
+      "calls": 30,
+      "cachedCalls": 0,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-22T09:51:38.747Z",
+      "script": "keywords.mjs",
+      "usd": 0,
+      "calls": 1,
+      "cachedCalls": 170,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-22T09:51:39.128Z",
+      "script": "competitors.mjs",
+      "usd": 0,
+      "calls": 0,
+      "cachedCalls": 30,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-22T09:52:07.792Z",
+      "script": "keywords.mjs",
+      "usd": 0,
+      "calls": 0,
+      "cachedCalls": 170,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    }
+  ]
+}

@@ -79,6 +79,7 @@ pnpm check:affiliates  # guardia sobre dist/ (o --url https://visitisrael.site)
 pnpm check:photos      # guardia de fotos: toda imagen usada tiene crédito y licencia
 pnpm test:qa           # tests de los guardias (afiliados + fotos)
 pnpm test:e2e          # Playwright: smoke + a11y sobre todas las rutas del build
+pnpm seo:refresh       # auditoría SEO continua → data/seo/*.json y /gestion/seo (DataForSEO: ~US$2,30 con --force, US$0 desde caché)
 node scripts/photos/fetch.mjs   # baja las fotos del manifest y actualiza el ledger
 ```
 
@@ -89,8 +90,9 @@ node scripts/photos/fetch.mjs   # baja las fotos del manifest y actualiza el led
   en `data/photo-credits.json`. `Hero.astro` muestra el crédito; `/photo-credits` lista
   todos. `photo-guard` falla el build ante una imagen sin crédito, con licencia dudosa,
   marcada como IA o huérfana.
-- Las keys van en `.env` (gitignored): `PEXELS_API_KEY`, `UNSPLASH_ACCESS_KEY`. La de
-  Unsplash cargada el 2026-09-17 es inválida (33 caracteres; las válidas tienen 43).
+- Las keys van en `.env` (gitignored): `PEXELS_API_KEY`, `UNSPLASH_ACCESS_KEY` (inválida al
+  2026-09-22: la API devuelve 401), y para SEO `DATAFORSEO_LOGIN`/`DATAFORSEO_PASSWORD`,
+  `FIRECRAWL_API_KEY` (`EXA_API_KEY` inválida). Nunca se imprimen ni se versionan.
 - Prohibido: imágenes generadas por IA de lugares reales o de personas reales.
 
 Gate antes de cualquier push a master:

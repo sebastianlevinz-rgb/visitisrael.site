@@ -70,6 +70,12 @@ Mientras se espera la aprobación **no se escriben páginas nuevas**: se mejora 
 
 ## Pendientes de calidad (se pueden hacer sin datos)
 
+- [ ] **SEO (auditoría 2026-09-22, `gestion/auditoria/seo.md`, `/gestion/seo`)**: Sebastian
+      conecta Search Console + sube `gestion/seo/disavow.txt` (16 backlinks tóxicos, 0
+      orgánicos); Claude recorta 63 descriptions y 24 títulos, arregla CLS en guías con
+      tarjetas, profundiza `/is-israel-safe`, `/jerusalem-tours-compared`, `/jerusalem` y la
+      home (2–4× menos palabras que el top 3), da texto a los índices de itinerarios (100
+      palabras) y `/plan-your-trip`. Refresco mensual con `pnpm seo:refresh`.
 - [ ] **Fotos, segunda vuelta**: el hero de `dead-sea-tours-compared` debería ser
       `masada.jpg` (frontmatter en 5 idiomas); faltan fotos propias de Belén y Petra;
       la key de Unsplash en `.env` es inválida (tiene 33 caracteres; las válidas tienen
