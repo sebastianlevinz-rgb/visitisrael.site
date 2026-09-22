@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-22T09:59:48.041Z",
+  "generatedAt": "2026-09-22T12:01:43.702Z",
   "site": "https://visitisrael.site",
   "strategy": "mobile",
   "withApiKey": false,
@@ -9,12 +9,12 @@
     "ok": 6,
     "failed": 0,
     "avgScores": {
-      "performance": 91,
+      "performance": 95,
       "seo": 100,
       "accessibility": 100
     },
-    "avgLcpMs": 2799,
-    "avgTbtMs": 73,
+    "avgLcpMs": 2749,
+    "avgTbtMs": 51,
     "worstPerformance": "/he"
   },
   "results": [
@@ -23,23 +23,23 @@
       "path": "/",
       "ok": true,
       "scores": {
-        "performance": 95,
+        "performance": 96,
         "seo": 100,
         "accessibility": 100
       },
       "metrics": {
-        "lcpMs": 2728,
-        "cls": 0.003,
-        "tbtMs": 8,
-        "fcpMs": 1270,
-        "speedIndexMs": 3038,
-        "ttiMs": 2738
+        "lcpMs": 2743,
+        "cls": 0,
+        "tbtMs": 54,
+        "fcpMs": 1093,
+        "speedIndexMs": 2112,
+        "ttiMs": 2743
       },
       "opportunities": [],
       "seoFailing": [],
       "accessibilityFailing": [],
       "lighthouseVersion": "13.5.0",
-      "fetchTime": "2026-09-22T09:57:54.817Z",
+      "fetchTime": "2026-09-22T11:59:55.176Z",
       "field": null,
       "source": "lighthouse-local"
     },
@@ -48,23 +48,23 @@
       "path": "/jerusalem",
       "ok": true,
       "scores": {
-        "performance": 93,
+        "performance": 97,
         "seo": 100,
         "accessibility": 100
       },
       "metrics": {
-        "lcpMs": 2395,
-        "cls": 0.034,
-        "tbtMs": 252,
-        "fcpMs": 1270,
-        "speedIndexMs": 1419,
-        "ttiMs": 2402
+        "lcpMs": 2482,
+        "cls": 0,
+        "tbtMs": 30,
+        "fcpMs": 1252,
+        "speedIndexMs": 1615,
+        "ttiMs": 2482
       },
       "opportunities": [],
       "seoFailing": [],
       "accessibilityFailing": [],
       "lighthouseVersion": "13.5.0",
-      "fetchTime": "2026-09-22T09:58:16.188Z",
+      "fetchTime": "2026-09-22T12:00:16.619Z",
       "field": null,
       "source": "lighthouse-local"
     },
@@ -73,23 +73,23 @@
       "path": "/best-hotels-jerusalem",
       "ok": true,
       "scores": {
-        "performance": 89,
+        "performance": 94,
         "seo": 100,
         "accessibility": 100
       },
       "metrics": {
-        "lcpMs": 2973,
-        "cls": 0.132,
-        "tbtMs": 30,
-        "fcpMs": 1718,
-        "speedIndexMs": 3033,
-        "ttiMs": 2979
+        "lcpMs": 2561,
+        "cls": 0,
+        "tbtMs": 200,
+        "fcpMs": 1040,
+        "speedIndexMs": 1696,
+        "ttiMs": 2583
       },
       "opportunities": [],
       "seoFailing": [],
       "accessibilityFailing": [],
       "lighthouseVersion": "13.5.0",
-      "fetchTime": "2026-09-22T09:58:36.140Z",
+      "fetchTime": "2026-09-22T12:00:36.850Z",
       "field": null,
       "source": "lighthouse-local"
     },
@@ -103,18 +103,18 @@
         "accessibility": 100
       },
       "metrics": {
-        "lcpMs": 2818,
-        "cls": 0.023,
-        "tbtMs": 15,
-        "fcpMs": 1279,
-        "speedIndexMs": 2963,
-        "ttiMs": 2822
+        "lcpMs": 2949,
+        "cls": 0,
+        "tbtMs": 13,
+        "fcpMs": 1033,
+        "speedIndexMs": 1590,
+        "ttiMs": 2949
       },
       "opportunities": [],
       "seoFailing": [],
       "accessibilityFailing": [],
       "lighthouseVersion": "13.5.0",
-      "fetchTime": "2026-09-22T09:58:57.131Z",
+      "fetchTime": "2026-09-22T12:00:56.841Z",
       "field": null,
       "source": "lighthouse-local"
     },
@@ -123,23 +123,23 @@
       "path": "/he",
       "ok": true,
       "scores": {
-        "performance": 88,
+        "performance": 93,
         "seo": 100,
         "accessibility": 100
       },
       "metrics": {
-        "lcpMs": 3254,
-        "cls": 0,
-        "tbtMs": 133,
-        "fcpMs": 1754,
-        "speedIndexMs": 4598,
-        "ttiMs": 3254
+        "lcpMs": 3120,
+        "cls": 0.057,
+        "tbtMs": 10,
+        "fcpMs": 1435,
+        "speedIndexMs": 2131,
+        "ttiMs": 3123
       },
       "opportunities": [],
       "seoFailing": [],
       "accessibilityFailing": [],
       "lighthouseVersion": "13.5.0",
-      "fetchTime": "2026-09-22T09:59:16.887Z",
+      "fetchTime": "2026-09-22T12:01:15.502Z",
       "field": null,
       "source": "lighthouse-local"
     },
@@ -148,23 +148,23 @@
       "path": "/itineraries/7-days-in-israel",
       "ok": true,
       "scores": {
-        "performance": 88,
+        "performance": 97,
         "seo": 100,
         "accessibility": 100
       },
       "metrics": {
-        "lcpMs": 2627,
-        "cls": 0.179,
+        "lcpMs": 2638,
+        "cls": 0,
         "tbtMs": 0,
-        "fcpMs": 1577,
-        "speedIndexMs": 2735,
-        "ttiMs": 2627
+        "fcpMs": 1277,
+        "speedIndexMs": 1837,
+        "ttiMs": 2639
       },
       "opportunities": [],
       "seoFailing": [],
       "accessibilityFailing": [],
       "lighthouseVersion": "13.5.0",
-      "fetchTime": "2026-09-22T09:59:37.773Z",
+      "fetchTime": "2026-09-22T12:01:34.193Z",
       "field": null,
       "source": "lighthouse-local"
     }
