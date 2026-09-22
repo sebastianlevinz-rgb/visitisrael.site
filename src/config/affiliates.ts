@@ -50,6 +50,8 @@ export const AFFILIATE_IDS = {
   AMAZON_ASSOCIATE_TAG: readEnv('PUBLIC_AMAZON_ASSOCIATE_TAG'),
   INSUREMYTRIP_AID: readEnv('PUBLIC_INSUREMYTRIP_AID'),
   SQUAREMOUTH_AID: readEnv('PUBLIC_SQUAREMOUTH_AID'),
+  BEINHARIM_AFFILIATE_ID: readEnv('PUBLIC_BEINHARIM_AFFILIATE_ID'),
+  HOLAFLY_REF: readEnv('PUBLIC_HOLAFLY_REF'),
 } as const;
 
 type IdKey = keyof typeof AFFILIATE_IDS;
@@ -72,7 +74,9 @@ export type Partner =
   | 'discovercars'
   | 'tiqets'
   | 'insuremytrip'
-  | 'squaremouth';
+  | 'squaremouth'
+  | 'beinharim'
+  | 'holafly';
 
 export interface PartnerMeta {
   id: Partner;
@@ -109,6 +113,10 @@ export const PARTNERS: Record<Partner, PartnerMeta> = {
   tiqets: { id: 'tiqets', label: 'Tiqets', idKey: 'TIQETS_PARTNER', category: 'tickets' },
   insuremytrip: { id: 'insuremytrip', label: 'InsureMyTrip', idKey: 'INSUREMYTRIP_AID', category: 'insurance' },
   squaremouth: { id: 'squaremouth', label: 'Squaremouth', idKey: 'SQUAREMOUTH_AID', category: 'insurance' },
+  // Israeli operator with a public programme: 15 %, 90-day cookie, direct or ShareASale.
+  beinharim: { id: 'beinharim', label: 'Bein Harim', idKey: 'BEINHARIM_AFFILIATE_ID', category: 'tours' },
+  // eSIM for Spanish-speaking readers (Airalo covers EN); affiliate links are Impact short links.
+  holafly: { id: 'holafly', label: 'Holafly', idKey: 'HOLAFLY_REF', category: 'esim' },
 };
 
 /** True once the partner's real ID has been configured. */
@@ -186,6 +194,10 @@ export function affiliateUrl(
       return `https://www.insuremytrip.com/search-results/${qs({ destination: 'Israel' }, ['affiliateID', id])}`;
     case 'squaremouth':
       return `https://www.squaremouth.com/search/${qs({ destination: 'Israel' }, ['affiliateID', id])}`;
+    case 'beinharim':
+      return `https://www.beinharimtours.com/${qs({}, ['affiliate_id', id])}`;
+    case 'holafly':
+      return id ? `https://holafly.sjv.io/${id}` : 'https://esim.holafly.com/esim-israel/';
   }
 }
 

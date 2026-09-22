@@ -76,6 +76,11 @@ Mientras se espera la aprobación **no se escriben páginas nuevas**: se mejora 
       tarjetas, profundiza `/is-israel-safe`, `/jerusalem-tours-compared`, `/jerusalem` y la
       home (2–4× menos palabras que el top 3), da texto a los índices de itinerarios (100
       palabras) y `/plan-your-trip`. Refresco mensual con `pnpm seo:refresh`.
+- [ ] **Dominio .com** (22-09-2026): visitisrael.com cuesta US$200. Decidido seguir con .site; la
+      terminación no da ranking, el .com suma confianza y tráfico directo. Retomar con ingresos.
+      Si se compra: 301 de todo el .site, propiedad nueva en Search Console, links de afiliado.
+- [ ] **Afiliados nuevos** (22-09-2026): Bein Harim y Holafly ya están en affiliates.ts (sin ID).
+      Propuesta de guía de eSIM para Israel (Airalo EN, Holafly ES): pendiente de OK de Sebastian.
 - [ ] **Fotos, segunda vuelta**: el hero de `dead-sea-tours-compared` debería ser
       `masada.jpg` (frontmatter en 5 idiomas); faltan fotos propias de Belén y Petra;
       la key de Unsplash en `.env` es inválida (tiene 33 caracteres; las válidas tienen

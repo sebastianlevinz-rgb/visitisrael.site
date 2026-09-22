@@ -65,6 +65,8 @@ export const PARTNER_RULES = [
   { partner: 'tiqets', host: /(^|\.)tiqets\.com$/, param: 'partner' },
   { partner: 'insuremytrip', host: /(^|\.)insuremytrip\.com$/, param: 'affiliateID' },
   { partner: 'squaremouth', host: /(^|\.)squaremouth\.com$/, param: 'affiliateID' },
+  { partner: 'beinharim', host: /(^|\.)beinharimtours\.com$/, param: 'affiliate_id' },
+  { partner: 'holafly', host: /(^|\.)holafly\.(com|sjv\.io)$/, param: 'ref', pathId: /^\/[A-Za-z0-9]{4,}$/ },
   { partner: 'amazon', host: /(^|\.)amazon\.[a-z.]+$/, param: 'tag' },
 ];
 
@@ -169,8 +171,13 @@ export function formatReport(report) {
 }
 
 /** Scan a built dist directory. */
+/** Internal pages (noindex) cite partner sites editorially, e.g. the competitor study; they are not monetised. */
+const NOINDEX_RE = /<meta\s+name="robots"\s+content="[^"]*noindex/i;
+
 export function scanDist(distDir, mode) {
-  const docs = htmlFiles(distDir).map((f) => ({ name: f.slice(distDir.length).replace(/\\/g, '/'), html: readFileSync(f, 'utf8') }));
+  const docs = htmlFiles(distDir)
+    .map((f) => ({ name: f.slice(distDir.length).replace(/\\/g, '/'), html: readFileSync(f, 'utf8') }))
+    .filter((d) => !NOINDEX_RE.test(d.html));
   return buildReport(docs, mode);
 }
 

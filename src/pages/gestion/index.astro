@@ -40,6 +40,61 @@ const groups: Group[] = [
   },
 ];
 
+type Pending = {
+  status: 'pendiente' | 'decidido' | 'futuro';
+  title: string;
+  date: string;
+  text: string;
+  link?: { href: string; label: string };
+};
+const pending: Pending[] = [
+  {
+    status: 'futuro',
+    title: 'Dominio visitisrael.com (US$200)',
+    date: '22-09-2026',
+    text: 'Decidido seguir con .site. Google no da ventaja de ranking por la terminación: el .com suma confianza, memoria y tráfico directo, no posiciones. Retomar cuando haya ingresos o cuando aparezca a menor precio. Si se compra: redirect 301 de todo el .site al .com, cambio de propiedad en Search Console y actualización de todos los links de afiliado.',
+  },
+  {
+    status: 'pendiente',
+    title: 'Search Console + disavow',
+    date: '22-09-2026',
+    text: 'Verificar visitisrael.site, enviar sitemap-index.xml y subir gestion/seo/disavow.txt (16 backlinks tóxicos). Sin esto no hay datos reales de impresiones ni reindexación rápida del sitio nuevo. Opcional: Bing Webmaster + IndexNow.',
+    link: { href: '/gestion/seo', label: 'Ver auditoría SEO' },
+  },
+  {
+    status: 'pendiente',
+    title: 'IDs de afiliados',
+    date: '22-09-2026',
+    text: 'Aplicar a GetYourGuide, Viator, Civitatis, Bein Harim (15 %, 90 días), Booking vía CJ o Awin, y Travelpayouts (Skyscanner, Airalo, Holafly, DiscoverCars). Con los IDs cargados en Vercel y PUBLIC_AFFILIATE_MODE=production, el build exige que ninguno falte. Hoy: 20 partners configurados, 0 con ID.',
+    link: { href: '/dashboard', label: 'Ver partners en el panel' },
+  },
+  {
+    status: 'pendiente',
+    title: 'Autor con nombre y cara',
+    date: '22-09-2026',
+    text: 'Si Mariluz dice que sí: nombre, licencia, foto y bio en 5 idiomas en /about y firma en cada guía. Es la acción 2 del estudio de competidores y de la auditoría SEO.',
+    link: { href: '/mariluz', label: 'Propuesta' },
+  },
+  {
+    status: 'pendiente',
+    title: 'WhatsApp y formulario del sitio',
+    date: '22-09-2026',
+    text: 'Acordado con Mariluz: cada cliente que llega por el sitio queda registrado. Falta el número de WhatsApp del sitio para armar el formulario y el mensaje automático.',
+  },
+  {
+    status: 'pendiente',
+    title: 'Guía de eSIM para Israel',
+    date: '22-09-2026',
+    text: 'Propuesta: una guía "eSIM para Israel: cuál conviene y planes" en 5 idiomas, con Airalo (EN/FR/DE), Holafly (ES) y comparación honesta (datos, precio orientativo, cobertura). Partners ya configurados. Es una página nueva: requiere el OK explícito de Sebastian.',
+  },
+  {
+    status: 'pendiente',
+    title: 'Keys y accesos',
+    date: '22-09-2026',
+    text: 'Unsplash (401) y Exa (inválida) no funcionan; no bloquean nada. Opcionales: PSI_API_KEY para PageSpeed sin cuota, y activar Vercel Analytics para medir clics por caja.',
+  },
+];
+
 type Doc = { path: string; desc: string };
 type DocGroup = { title: string; docs: Doc[] };
 
@@ -128,6 +183,39 @@ const docGroups: DocGroup[] = [
       </section>
     ))
   }
+
+  <section class="mt-12" id="pendientes">
+    <h2 class="font-display text-2xl font-bold">Decisiones y pendientes</h2>
+    <p class="mt-1 text-sm text-ink-muted">
+      Lo que solo Sebastian puede hacer o decidir, con fecha. Se actualiza a mano; el detalle técnico vive en
+      <code>ROADMAP.md</code>.
+    </p>
+    <ul class="mt-4 space-y-3">
+      {
+        pending.map((p) => (
+          <li class="rounded-card border border-border bg-card p-4 shadow-card">
+            <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+              <span
+                class={`rounded-full px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide ${
+                  p.status === 'decidido' ? 'bg-primary-soft text-primary' : p.status === 'futuro' ? 'bg-sand-deep text-ink-muted' : 'bg-gold/15 text-gold-deep'
+                }`}
+              >
+                {p.status}
+              </span>
+              <p class="font-display text-lg font-bold">{p.title}</p>
+              <span class="text-xs text-ink-muted">{p.date}</span>
+            </div>
+            <p class="mt-1 text-sm">{p.text}</p>
+            {p.link && (
+              <a href={p.link.href} class="mt-1 inline-block text-sm text-primary underline">
+                {p.link.label}
+              </a>
+            )}
+          </li>
+        ))
+      }
+    </ul>
+  </section>
 
   <section class="mt-12">
     <h2 class="font-display text-2xl font-bold">Documentos de gestión (GitHub)</h2>
