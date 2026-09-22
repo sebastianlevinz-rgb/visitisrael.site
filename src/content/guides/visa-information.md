@@ -1,6 +1,6 @@
 ---
 title: 'Israel Visa & ETA-IL Entry Requirements for Tourists (2026)'
-description: 'Israel entry requirements: who needs a visa, the mandatory ETA-IL authorization, the paper entry slip, how long you can stay and what to expect at the border.'
+description: 'Israel visa and entry rules: who needs a visa, the mandatory ETA-IL authorization, the paper entry slip, how long you can stay and border checks.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planning
 updatedAt: 2026-07-27

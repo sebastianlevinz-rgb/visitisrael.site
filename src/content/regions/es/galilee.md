@@ -1,7 +1,7 @@
 ---
 lang: es
 title: "Qué hacer en Galilea: guía de viaje al mar de Galilea 2026"
-description: "Planifica tu visita a Galilea 2026: mar de Galilea, peregrinación cristiana, Cafarnaúm, monte de las Bienaventuranzas, Tiberíades, senderismo y consejos prácticos."
+description: "Mar de Galilea y Galilea en 2026: peregrinación cristiana, Cafarnaúm, monte de las Bienaventuranzas, Tiberíades, senderismo y consejos prácticos."
 region: galilee
 heroImage: /images/regions/galilee/hero.jpg
 latitude: 32.7833

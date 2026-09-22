@@ -1,6 +1,6 @@
 ---
-title: "Excursions Mer Morte 2026 : comparatif flottaison, Massada et circuits"
-description: "Excursions Mer Morte depuis Jérusalem et Tel Aviv : excursion seule, combo Massada, guide privé ou route en voiture — comparatif honnête des formats et conseils pour choisir."
+title: "Excursion Mer Morte 2026 : flottaison, Massada et circuits"
+description: "Excursion Mer Morte depuis Jérusalem et Tel Aviv : flottaison seule, combo Massada, guide privé ou voiture — comparatif des formats et comment choisir."
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Circuits
 verdictName: excursions Mer Morte

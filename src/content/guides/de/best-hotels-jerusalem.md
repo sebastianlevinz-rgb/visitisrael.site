@@ -1,6 +1,6 @@
 ---
 title: "Die besten Hotels in Jerusalem 2026 — Stadtviertel & Picks"
-description: "Beste Hotels in Jerusalem nach Stadtviertel: Luxus am Jaffa-Tor, Boutique in der Deutschen Kolonie, Mittelklasse nahe Mahane Yehuda, Budget in Altstadt-Nähe."
+description: "Hotels in Jerusalem nach Stadtviertel: Luxus am Jaffa-Tor, Boutique in der Deutschen Kolonie, Mittelklasse nahe Mahane Yehuda und Budget nahe der Altstadt."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Unterkunft
 updatedAt: 2026-07-29

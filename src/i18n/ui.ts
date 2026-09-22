@@ -246,9 +246,9 @@ const ui = {
     'nav.northCoast': 'Césarée, Haïfa et Acre en un jour',
     'nav.foodTours': 'Circuits gastronomiques à Tel Aviv',
     'nav.packages': 'Circuits de plusieurs jours',
-    'plan.title': 'Préparer votre voyage en Israël : guides, itinéraires et régions',
+    'plan.title': 'Organiser un voyage en Israël : guides et itinéraires',
     'plan.description':
-      'Tout pour préparer un voyage en Israël au même endroit : guides pratiques, hôtels et circuits, itinéraires prêts à l’emploi et guides détaillés de 7 régions.',
+      'Organiser un voyage en Israël au même endroit : guides pratiques, hôtels et circuits, itinéraires prêts à l’emploi et guides détaillés de 7 régions.',
     'plan.heroTitle': 'Préparez votre voyage',
     'plan.heroSubtitle': 'Guides pratiques, hébergement, circuits, itinéraires et 7 régions — commencez ici.',
     'plan.practicalHeading': 'Guides pratiques',
@@ -346,9 +346,9 @@ const ui = {
     'nav.northCoast': 'Caesarea, Haifa & Akko Tagesausflug',
     'nav.foodTours': 'Food-Touren in Tel Aviv',
     'nav.packages': 'Mehrtägige Rundreisen',
-    'plan.title': 'Reise nach Israel planen: Reiseführer, Reiserouten & Regionen',
+    'plan.title': 'Israel-Reise planen: Reiseführer, Reiserouten & Regionen',
     'plan.description':
-      'Alles für die Planung einer Israel-Reise an einem Ort: praktische Reiseführer, Hotels und Touren, fertige Reiserouten und ausführliche Guides zu 7 Regionen.',
+      'Israel-Reise planen an einem Ort: praktische Reiseführer, Hotels und Touren, fertige Reiserouten und ausführliche Guides zu 7 Regionen.',
     'plan.heroTitle': 'Planen Sie Ihre Reise',
     'plan.heroSubtitle': 'Praktische Reiseführer, Unterkünfte, Touren, Reiserouten und 7 Regionen — fangen Sie hier an.',
     'plan.practicalHeading': 'Praktische Reiseführer',

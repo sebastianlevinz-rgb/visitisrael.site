@@ -1,6 +1,6 @@
 ---
 lang: de
-title: "Tel Aviv: Reiseführer 2026"
+title: "Tel Aviv Sehenswürdigkeiten: Reiseführer für Israel 2026"
 description: "Tel Aviv besuchen 2026: Bauhaus-Weißstadt, Mittelmeerstrände, Alt-Jaffa, Karmelmarkt, Hotels und Ausflüge — praktischer Reiseführer für Ihren Israelurlaub."
 region: tel-aviv
 heroImage: /images/regions/tel-aviv/hero.jpg

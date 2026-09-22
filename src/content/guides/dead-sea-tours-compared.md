@@ -1,6 +1,6 @@
 ---
 title: 'Dead Sea Tours Compared: Float, Masada & Day Trips (2026)'
-description: 'Dead Sea tours compared: Dead Sea only floats, Masada combos, private guides and self-drive — what each covers and where to book from Jerusalem or Tel Aviv.'
+description: 'Dead Sea tours compared: float-only trips, Masada combos, private guides and self-drive — what each covers and where to book from Jerusalem or Tel Aviv.'
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Tours
 verdictName: Dead Sea tours

@@ -1,6 +1,6 @@
 ---
 title: "Tagesausflug Caesarea, Haifa & Akko ab Tel Aviv"
-description: "Der Nordküsten-Tagesausflug ab Tel Aviv 2026: der römische Hafen von Caesarea, die Bahá'í-Gärten von Haifa und das Kreuzfahrer-Akko, dazu Rosch haNikra, Preise und Tipps zum Selbstfahren."
+description: "Tagesausflug Caesarea, Haifa und Akko ab Tel Aviv 2026: römischer Hafen, Bahá'í-Gärten, Kreuzfahrerstadt, Rosch haNikra, Preise und Tipps zum Selbstfahren."
 heroImage: /images/regions/caesarea/hero.jpg
 category: Touren
 verdictName: die Nordküste

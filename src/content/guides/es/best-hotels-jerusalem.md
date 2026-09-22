@@ -1,6 +1,6 @@
 ---
 title: 'Mejores hoteles en Jerusalén 2026: Guía por barrio'
-description: 'Los mejores hoteles en Jerusalén por barrio: lujo cerca de la Puerta de Jaffa, boutique en la Colonia Alemana, precio medio cerca de Mahane Yehuda y hostales económicos junto a la Ciudad Vieja.'
+description: 'Hoteles en Jerusalén por barrio: lujo junto a la Puerta de Jaffa, boutique en la Colonia Alemana, precio medio cerca de Mahane Yehuda y hostales baratos.'
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Accommodation
 updatedAt: 2026-07-25

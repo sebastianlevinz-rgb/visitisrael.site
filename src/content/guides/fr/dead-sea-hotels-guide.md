@@ -1,6 +1,6 @@
 ---
-title: "Hôtels Mer Morte 2026 : Ein Bokek et les alternatives — guide complet"
-description: "Hôtels à la Mer Morte : comparatif honnête des établissements d'Ein Bokek par gamme de prix, l'alternative Ein Gedi, et quand un hôtel vaut mieux qu'une excursion."
+title: "Hôtel Mer Morte 2026 : Ein Bokek et les alternatives"
+description: "Hôtel à la Mer Morte : comparatif des établissements d'Ein Bokek par gamme de prix, l'alternative Ein Gedi, et quand un hôtel vaut mieux qu'une excursion."
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Hébergement
 updatedAt: 2026-07-30

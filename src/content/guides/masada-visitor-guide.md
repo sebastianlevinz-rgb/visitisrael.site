@@ -1,6 +1,6 @@
 ---
 title: "Masada Visitor Guide: Tours, Sunrise Hike & Cable Car"
-description: "How to visit Masada in 2026: Snake Path vs cable car, the sunrise hike, what to see on top, and Masada, Ein Gedi and Dead Sea tours from Jerusalem and Tel Aviv."
+description: "Masada in 2026: Snake Path vs cable car, the sunrise hike, what to see on top, and Masada, Ein Gedi and Dead Sea tours from Jerusalem and Tel Aviv."
 heroImage: /images/regions/dead-sea/masada.jpg
 category: Tours
 verdictName: Masada

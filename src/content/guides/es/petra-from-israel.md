@@ -1,6 +1,6 @@
 ---
 title: "Petra desde Israel: excursiones desde Eilat y Tel Aviv"
-description: "Petra desde Israel en 2026: la excursión de un día desde Eilat, los dos días Petra y Wadi Rum, el día con vuelo desde Tel Aviv, y la logística de frontera y visado."
+description: "Petra desde Israel en 2026: la excursión de un día desde Eilat, los dos días Petra y Wadi Rum, el día con vuelo desde Tel Aviv, más frontera y visado."
 heroImage: /images/regions/eilat/hero.jpg
 category: Tours
 verdictName: Petra desde Eilat

@@ -1,6 +1,6 @@
 ---
 lang: en
-title: 'Things to Do in the Galilee: Sea of Galilee Travel Guide 2026'
+title: 'Things to Do in the Galilee: Sea of Galilee Guide 2026'
 description: 'Plan your Galilee trip: Sea of Galilee Christian pilgrimage sites, Capernaum, Mount of Beatitudes, Tiberias, Mount Arbel, hiking, day trips and food.'
 slug: galilee
 region: galilee

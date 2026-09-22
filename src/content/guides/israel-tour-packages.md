@@ -1,6 +1,6 @@
 ---
 title: "Israel Tour Packages: Multi-Day Tours of 2 to 10 Days"
-description: "Multi-day Israel tour packages for 2026: 2 to 4 day Jerusalem and Dead Sea circuits, the classic 7 to 8 day tour, 10 days with Petra, small group vs private."
+description: "Israel tour packages for 2026: 2 to 4 day Jerusalem and Dead Sea circuits, the classic 7 to 8 day tour, 10 days with Petra, small group or private."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
 verdictName: a multi-day Israel package

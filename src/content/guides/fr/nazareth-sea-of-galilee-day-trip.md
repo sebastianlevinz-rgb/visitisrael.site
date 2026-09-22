@@ -1,6 +1,6 @@
 ---
 title: "Excursion Nazareth et lac de Tibériade : circuit chrétien"
-description: "L'excursion chrétienne en Galilée depuis Tel Aviv ou Jérusalem en 2026 : Nazareth, Capharnaüm, le mont des Béatitudes, Tabgha et le Jourdain, avec les tarifs."
+description: "Excursion Nazareth et lac de Tibériade depuis Tel Aviv ou Jérusalem en 2026 : Capharnaüm, mont des Béatitudes, Tabgha et le Jourdain, avec les tarifs."
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Circuits
 verdictName: la Galilée

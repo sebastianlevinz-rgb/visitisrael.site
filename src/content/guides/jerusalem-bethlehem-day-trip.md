@@ -1,6 +1,6 @@
 ---
 title: "Bethlehem Day Trip from Jerusalem: Tours & Logistics"
-description: "Bethlehem from Jerusalem in 2026: half-day Church of the Nativity tours, the Bethlehem, Jericho and Jordan River full day, checkpoint and passport logistics."
+description: "Bethlehem day trip from Jerusalem 2026: half-day Church of the Nativity tours, the Bethlehem, Jericho and Jordan River full day, checkpoint and passport."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Tours
 verdictName: Bethlehem

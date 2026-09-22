@@ -1,6 +1,6 @@
 ---
 title: "Paquetes de viaje a Israel: tours de 2 a 10 días"
-description: "Paquetes de varios días por Israel para 2026: circuitos de 2 a 4 días Jerusalén y Mar Muerto, el tour clásico de 7 a 8 días, 10 días con Petra, grupo pequeño o privado."
+description: "Viajes organizados a Israel 2026: circuitos de 2 a 4 días por Jerusalén y mar Muerto, el clásico de 7 a 8 días, 10 días con Petra, grupo pequeño o privado."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
 verdictName: un paquete de varios días por Israel

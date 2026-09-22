@@ -1,6 +1,6 @@
 ---
-title: "Visiter Massada : circuits, ascension à l'aube et téléphérique"
-description: "Visiter Massada en 2026 : sentier du Serpent ou téléphérique, la montée à l'aube, quoi voir au sommet, et les excursions Massada, Ein Gedi et Mer Morte depuis Jérusalem et Tel Aviv."
+title: "Massada : circuits, ascension à l'aube et téléphérique"
+description: "Massada en 2026 : sentier du Serpent ou téléphérique, montée à l'aube, quoi voir au sommet, et les excursions depuis Jérusalem et Tel Aviv comparées."
 heroImage: /images/regions/dead-sea/masada.jpg
 category: Circuits
 verdictName: Massada

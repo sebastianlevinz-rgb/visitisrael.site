@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Privacy Policy
+title: 'Privacy Policy: How Visit Israel Handles Your Data'
 description: 'How VisitIsrael.site handles your data: no user accounts, no advertising trackers, no selling of data. What our host logs and how affiliate links work.'
 updatedAt: 2026-05-27
 ---

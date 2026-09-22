@@ -1,6 +1,6 @@
 ---
-title: 'Mejores hoteles en Tel Aviv 2026: Opciones para cada presupuesto'
-description: 'Los mejores hoteles en Tel Aviv por barrio: opciones económicas, precio medio y lujo, incluidas las nuevas aperturas de 2026 Six Senses y Nobu Hotel Tel Aviv.'
+title: 'Hoteles en Tel Aviv 2026: los mejores para cada presupuesto'
+description: 'Hoteles en Tel Aviv por barrio: opciones económicas, de precio medio y de lujo, incluidas las aperturas de 2026 Six Senses y Nobu Hotel Tel Aviv.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Accommodation
 updatedAt: 2026-07-20

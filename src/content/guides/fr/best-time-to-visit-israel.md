@@ -1,6 +1,6 @@
 ---
 title: "Meilleure période pour visiter Israël : guide des saisons"
-description: "Quand visiter Israël ? Guide saison par saison et mois par mois avec les températures, l'affluence, les fêtes religieuses et les prix à Jérusalem, Tel Aviv,"
+description: "Meilleure période pour visiter Israël : guide saison par saison avec températures, affluence, fêtes et prix à Jérusalem, Tel Aviv, désert et côte."
 heroImage: /images/regions/galilee/hero.jpg
 category: Planification
 updatedAt: 2026-05-20

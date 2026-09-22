@@ -1,6 +1,6 @@
 ---
 title: "Excursión a Cesarea, Haifa y Acre desde Tel Aviv"
-description: "La excursión por la costa norte desde Tel Aviv en 2026: el puerto romano de Cesarea, los jardines bahá'ís de Haifa y la Acre de los cruzados, más Rosh Hanikra, precios y consejos para ir en coche."
+description: "Excursión a Cesarea, Haifa y Acre desde Tel Aviv 2026: puerto romano, jardines bahá'ís, ciudad cruzada, Rosh Hanikra, precios y consejos para ir en coche."
 heroImage: /images/regions/caesarea/hero.jpg
 category: Tours
 verdictName: la costa norte

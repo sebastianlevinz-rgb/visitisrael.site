@@ -1,6 +1,6 @@
 ---
 title: "Petra von Israel aus: Tagesausflüge ab Eilat & Tel Aviv"
-description: "Petra von Israel aus 2026: die Tagestour ab Eilat, die zweitägige Petra-und-Wadi-Rum-Reise, der Tag mit Flug ab Tel Aviv sowie die Logistik von Grenze und Visum."
+description: "Petra von Israel aus 2026: die Tagestour ab Eilat, die zweitägige Petra-und-Wadi-Rum-Reise, der Tag mit Flug ab Tel Aviv sowie Grenz- und Visum-Logistik."
 heroImage: /images/regions/eilat/hero.jpg
 category: Touren
 verdictName: Petra ab Eilat

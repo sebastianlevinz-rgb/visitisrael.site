@@ -1,6 +1,6 @@
 ---
 title: "Circuits organisés en Israël : voyages de 2 à 10 jours"
-description: "Circuits organisés de plusieurs jours en Israël pour 2026 : formules de 2 à 4 jours Jérusalem et Mer Morte, le circuit classique de 7 à 8 jours, 10 jours avec Pétra, petit groupe ou privé."
+description: "Circuit Israël 2026 : formules de 2 à 4 jours Jérusalem et Mer Morte, le classique de 7 à 8 jours, 10 jours avec Pétra, en petit groupe ou en privé."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Circuits
 verdictName: un circuit organisé de plusieurs jours en Israël

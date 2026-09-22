@@ -1,6 +1,6 @@
 ---
 title: "Food-Touren in Tel Aviv: Carmel-Markt, Jaffa & Levinsky"
-description: "Food-Touren in Tel Aviv und Jaffa im Vergleich für 2026: Verkostungen auf dem Carmel-Markt, Hummus-Spaziergänge durch Alt-Jaffa, das Gewürzviertel Levinsky, Preise und Alternativen ohne Essen."
+description: "Food Tour Tel Aviv im Vergleich 2026: Verkostungen auf dem Carmel-Markt, Hummus-Touren durch Alt-Jaffa, Gewürzviertel Levinsky, Preise und Alternativen."
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Touren
 verdictName: die Food-Szene von Tel Aviv

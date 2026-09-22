@@ -1,7 +1,7 @@
 ---
 lang: fr
 title: "Tel Aviv-Jaffa : guide de voyage 2026"
-description: "Planifiez votre visite à Tel Aviv 2026 : plages méditerranéennes, Ville Blanche Bauhaus, Vieux-Jaffa, marché Carmel, hôtels et restaurants — guide pratique."
+description: "Que faire à Tel Aviv en 2026 : plages méditerranéennes, Ville Blanche Bauhaus, Vieux-Jaffa, marché Carmel, hôtels et restaurants — guide pratique complet."
 region: tel-aviv
 heroImage: /images/regions/tel-aviv/hero.jpg
 latitude: 32.0853

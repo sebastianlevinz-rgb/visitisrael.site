@@ -1,6 +1,6 @@
 ---
 lang: es
-title: '7 días en Israel: el itinerario clásico para una primera visita'
+title: 'Israel en 7 días: el itinerario clásico de primera visita'
 description: 'Itinerario de una semana en Israel: Jerusalén, mar Muerto, Masada, Tel Aviv, Jaffa y Galilea — tiempos, costos, transporte, hoteles y visitas guiadas.'
 days: 7
 heroImage: /images/regions/jerusalem/hero.jpg

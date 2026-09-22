@@ -1,7 +1,7 @@
 ---
 lang: en
 title: '10 Days in Israel: The Complete North-to-South Itinerary'
-description: 'A complete 10-day Israel itinerary: Tel Aviv, the northern coast, the Galilee and Golan, Jerusalem, the Dead Sea, and Eilat with a Petra day trip — day-by-day timings, real costs in ₪ and $, transport, hotels and bookable tours.'
+description: '10 days in Israel, north to south: Tel Aviv, the coast, Galilee, Golan, Jerusalem, the Dead Sea and Eilat with Petra — timings, costs, hotels and tours.'
 slug: 10-days-in-israel
 days: 10
 heroImage: /images/regions/galilee/hero.jpg

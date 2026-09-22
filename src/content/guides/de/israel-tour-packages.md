@@ -1,6 +1,6 @@
 ---
 title: "Israel-Pauschalreisen: mehrtägige Touren von 2 bis 10 Tagen"
-description: "Mehrtägige Israel-Pauschalreisen 2026: 2- bis 4-tägige Jerusalem- und Totes-Meer-Runden, die klassische 7- bis 8-Tage-Tour, 10 Tage mit Petra, Kleingruppe oder privat."
+description: "Israel-Rundreisen 2026 im Vergleich: 2 bis 4 Tage Jerusalem und Totes Meer, die klassische 7- bis 8-Tage-Tour, 10 Tage mit Petra, Kleingruppe oder privat."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Touren
 verdictName: eine mehrtägige Israel-Pauschalreise

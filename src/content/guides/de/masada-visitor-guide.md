@@ -1,6 +1,6 @@
 ---
 title: "Masada besuchen: Touren, Sonnenaufgangswanderung & Seilbahn"
-description: "Masada 2026 besuchen: Schlangenpfad oder Seilbahn, die Wanderung zum Sonnenaufgang, was es oben zu sehen gibt, und Masada-, Ein-Gedi- und Totes-Meer-Touren ab Jerusalem und Tel Aviv."
+description: "Masada 2026 besuchen: Schlangenpfad oder Seilbahn, Wanderung zum Sonnenaufgang, was oben zu sehen ist, und Touren ab Jerusalem und Tel Aviv im Vergleich."
 heroImage: /images/regions/dead-sea/masada.jpg
 category: Touren
 verdictName: Masada

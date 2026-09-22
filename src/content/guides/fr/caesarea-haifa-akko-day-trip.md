@@ -1,6 +1,6 @@
 ---
 title: "Excursion Césarée, Haïfa et Acre depuis Tel Aviv"
-description: "L'excursion de la côte nord depuis Tel Aviv en 2026 : le port romain de Césarée, les jardins bahá'ís de Haïfa et l'Acre des croisés, plus Rosh Hanikra, les tarifs et les conseils pour conduire."
+description: "Excursion Césarée, Haïfa et Acre depuis Tel Aviv 2026 : port romain, jardins bahá'ís et cité des croisés, Rosh Hanikra, tarifs et conseils de conduite."
 heroImage: /images/regions/caesarea/hero.jpg
 category: Circuits
 verdictName: la côte nord

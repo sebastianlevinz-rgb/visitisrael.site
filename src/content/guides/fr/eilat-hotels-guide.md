@@ -1,6 +1,6 @@
 ---
 title: "Où dormir à Eilat : les meilleurs hôtels par zone 2026"
-description: "Guide des hôtels d'Eilat pour 2026 : resorts de North Beach, zone du récif de Coral Beach et hébergements économiques du centre comparés par zone et par budget, et quand réserver."
+description: "Hôtel à Eilat 2026 : resorts de North Beach, zone de Coral Beach et hébergements économiques du centre, comparés par zone et budget, et quand réserver."
 heroImage: /images/regions/eilat/hero.jpg
 category: Hébergement
 updatedAt: 2026-09-16

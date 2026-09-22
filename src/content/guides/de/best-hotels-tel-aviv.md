@@ -1,5 +1,5 @@
 ---
-title: "Die besten Hotels in Tel Aviv 2026 — Stadtviertel & Preisklassen"
+title: "Die besten Hotels in Tel Aviv 2026: Viertel & Preisklassen"
 description: "Die besten Hotels in Tel Aviv nach Viertel: Budget, Mittelklasse und Luxus, inklusive der 2026-Neueröffnungen Six Senses und Nobu Hotel Tel Aviv."
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Unterkunft

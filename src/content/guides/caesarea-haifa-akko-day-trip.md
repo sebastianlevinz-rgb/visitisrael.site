@@ -1,6 +1,6 @@
 ---
 title: "Caesarea, Haifa & Akko Day Trip from Tel Aviv"
-description: "The north-coast day trip from Tel Aviv in 2026: Caesarea's Roman harbour, Haifa's Bahá'í Gardens and Crusader Akko, plus Rosh Hanikra, costs and driving tips."
+description: "Caesarea, Haifa and Akko day trip from Tel Aviv: Roman harbour, Bahá'í Gardens and the Crusader city, plus Rosh Hanikra, 2026 costs and driving tips."
 heroImage: /images/regions/caesarea/hero.jpg
 category: Tours
 verdictName: the north coast

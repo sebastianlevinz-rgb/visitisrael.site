@@ -1,6 +1,6 @@
 ---
 title: "Excursión a Belén desde Jerusalén: tours y logística"
-description: "Belén desde Jerusalén en 2026: tours de medio día a la basílica de la Natividad, el día completo Belén, Jericó y río Jordán, y la logística del checkpoint y el pasaporte."
+description: "Excursión a Belén desde Jerusalén 2026: tours de medio día a la basílica de la Natividad, el día completo con Jericó y el Jordán, checkpoint y pasaporte."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Tours
 verdictName: Belén

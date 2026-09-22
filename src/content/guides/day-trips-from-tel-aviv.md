@@ -1,6 +1,6 @@
 ---
 title: 'The Best Day Trips from Tel Aviv (2026)'
-description: 'The best day trips from Tel Aviv: Jerusalem, Caesarea–Haifa–Akko on the coast, Masada & the Dead Sea, the Galilee and more — how to do each and guided options.'
+description: 'Best day trips from Tel Aviv: Jerusalem, the Caesarea–Haifa–Akko coast, Masada and the Dead Sea, the Galilee and more — how to do each and guided options.'
 heroImage: /images/regions/caesarea/hero.jpg
 category: Tours
 verdictName: day trips from Tel Aviv

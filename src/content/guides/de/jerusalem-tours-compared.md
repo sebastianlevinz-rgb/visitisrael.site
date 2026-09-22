@@ -1,6 +1,6 @@
 ---
-title: "Jerusalem-Touren im Vergleich: Welche Führung ist die beste? (2026)"
-description: "Jerusalem-Touren im Vergleich — Altstadtspaziergänge, Ganztagestouren, Jerusalem-Bethlehem-Kombi, Klagemauer-Tunnel und Privatführer: Was jede Tour kostet und wie Sie wählen."
+title: "Jerusalem Stadtführung im Vergleich: Welche ist die beste?"
+description: "Jerusalem Stadtführungen im Vergleich: Altstadtrundgänge, Ganztagestouren, Bethlehem-Kombi, Klagemauer-Tunnel und Privatführer — Kosten und Auswahl."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Touren
 verdictName: Jerusalem-Touren

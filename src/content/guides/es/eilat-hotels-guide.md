@@ -1,6 +1,6 @@
 ---
 title: "Dónde alojarse en Eilat: los mejores hoteles por zona 2026"
-description: "Guía de hoteles de Eilat para 2026: resorts de North Beach, la zona del arrecife de Coral Beach y alojamientos económicos del centro comparados por zona y presupuesto, y cuándo reservar."
+description: "Hoteles en Eilat 2026: resorts de North Beach, la zona del arrecife de Coral Beach y alojamientos económicos del centro, comparados por zona y presupuesto."
 heroImage: /images/regions/eilat/hero.jpg
 category: Alojamiento
 updatedAt: 2026-09-16

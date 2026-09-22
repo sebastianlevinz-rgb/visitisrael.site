@@ -1,6 +1,6 @@
 ---
-title: "Excursion à Bethléem depuis Jérusalem : circuits et logistique"
-description: "Bethléem depuis Jérusalem en 2026 : circuits d'une demi-journée à l'église de la Nativité, la journée Bethléem, Jéricho et Jourdain, et la logistique du checkpoint et du passeport."
+title: "Excursion Bethléem depuis Jérusalem : tours et logistique"
+description: "Excursion Bethléem depuis Jérusalem 2026 : demi-journée à l'église de la Nativité, journée Bethléem, Jéricho et Jourdain, checkpoint et passeport."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Circuits
 verdictName: Bethléem

@@ -1,6 +1,6 @@
 ---
 title: "Tagesausflug nach Bethlehem ab Jerusalem: Touren & Logistik"
-description: "Bethlehem ab Jerusalem 2026: Halbtagstouren zur Geburtskirche, der ganze Tag Bethlehem, Jericho und Jordan, sowie die Logistik von Checkpoint und Reisepass."
+description: "Tagesausflug Bethlehem von Jerusalem 2026: Halbtagstouren zur Geburtskirche, der ganze Tag Bethlehem, Jericho und Jordan, dazu Checkpoint und Reisepass."
 heroImage: /images/regions/jerusalem/old-city.jpg
 category: Touren
 verdictName: Bethlehem

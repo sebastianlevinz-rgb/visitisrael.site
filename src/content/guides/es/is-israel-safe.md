@@ -1,6 +1,6 @@
 ---
 title: '¿Es seguro visitar Israel? Guía honesta 2026'
-description: 'Un análisis práctico y honesto de la seguridad en Israel para turistas: qué esperar en el día a día, cómo consultar los consejos oficiales y precauciones de sentido común.'
+description: '¿Es seguro viajar a Israel? Un análisis práctico y honesto para turistas: qué esperar día a día, cómo consultar los consejos oficiales y precauciones.'
 heroImage: /images/regions/tel-aviv/hero.jpg
 category: Planificación
 updatedAt: 2026-08-16

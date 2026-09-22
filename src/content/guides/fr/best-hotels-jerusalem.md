@@ -1,6 +1,6 @@
 ---
 title: "Meilleurs hôtels à Jérusalem 2026 : guide par quartier"
-description: "Les meilleurs hôtels de Jérusalem par quartier : luxe près de la Porte de Jaffa, boutique dans la Colonie allemande, milieu de gamme près de Mahane Yehuda, auberges."
+description: "Hôtel à Jérusalem par quartier : luxe près de la Porte de Jaffa, boutique dans la Colonie allemande, milieu de gamme près de Mahane Yehuda et auberges."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Accommodation
 updatedAt: 2026-07-28

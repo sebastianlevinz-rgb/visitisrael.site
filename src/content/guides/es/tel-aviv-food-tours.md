@@ -1,6 +1,6 @@
 ---
 title: "Tours gastronómicos en Tel Aviv: Carmel, Jaffa y Levinsky"
-description: "Tours gastronómicos en Tel Aviv y Jaffa comparados para 2026: degustaciones en el mercado Carmel, rutas de hummus por la vieja Jaffa, el barrio de especias de Levinsky, precios y alternativas."
+description: "Tour gastronómico Tel Aviv 2026: degustaciones en el mercado Carmel, rutas de hummus por la vieja Jaffa y el barrio Levinsky, con precios y alternativas."
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Tours
 verdictName: la escena gastronómica de Tel Aviv

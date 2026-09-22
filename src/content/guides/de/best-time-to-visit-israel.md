@@ -1,6 +1,6 @@
 ---
 title: "Beste Reisezeit für Israel: Saison- und Monatsüberblick"
-description: "Wann Israel bereisen? Ein Saison- und Monatsüberblick mit Temperaturen, Reisezahlen, Feiertagen und Preisen in Jerusalem, Tel Aviv, der Wüste und an der Küste."
+description: "Beste Reisezeit für Israel: Saison- und Monatsüberblick mit Temperaturen, Besucherzahlen, Feiertagen und Preisen in Jerusalem, Tel Aviv, Wüste und Küste."
 heroImage: /images/regions/galilee/hero.jpg
 category: Planung
 updatedAt: 2026-05-20

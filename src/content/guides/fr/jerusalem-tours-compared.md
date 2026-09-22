@@ -1,6 +1,6 @@
 ---
-title: "Circuits Jérusalem comparés : quelle visite guidée choisir ? (2026)"
-description: "Circuits Jérusalem comparés — visites de la Vieille Ville, circuit d'une journée complète, combiné Jérusalem-Bethléem, tunnels du Mur des Lamentations et guides privés : coûts et comment choisir."
+title: "Visite guidée Jérusalem : comparatif des circuits 2026"
+description: "Visite guidée Jérusalem : comparatif des visites de la Vieille Ville, journée complète, combiné Bethléem, tunnels du Mur des Lamentations et guides privés."
 heroImage: /images/regions/jerusalem/hero.jpg
 category: Circuits
 verdictName: circuits à Jérusalem

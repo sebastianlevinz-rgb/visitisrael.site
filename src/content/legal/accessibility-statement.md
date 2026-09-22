@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Accessibility Statement
+title: Accessibility Statement for the Visit Israel Travel Guide
 description: 'VisitIsrael.site aims to meet WCAG 2.1 AA. Our accessibility features, known limitations, and how to report an accessibility problem.'
 updatedAt: 2026-05-27
 ---

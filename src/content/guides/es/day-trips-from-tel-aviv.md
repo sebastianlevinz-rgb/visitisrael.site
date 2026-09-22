@@ -1,6 +1,6 @@
 ---
 title: 'Las mejores excursiones de un día desde Tel Aviv (2026)'
-description: 'Las mejores excursiones desde Tel Aviv: Jerusalén, la costa norte (Cesarea–Haifa–Akko), Masada y el Mar Muerto, la Galilea y más — cómo hacerlas y opciones con guía.'
+description: 'Excursiones desde Tel Aviv: Jerusalén, la costa norte (Cesarea, Haifa y Acre), Masada y el mar Muerto, Galilea y más — cómo hacerlas y opciones con guía.'
 heroImage: /images/regions/caesarea/hero.jpg
 category: Tours
 updatedAt: 2026-05-27

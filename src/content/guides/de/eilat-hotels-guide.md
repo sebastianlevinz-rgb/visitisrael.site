@@ -1,6 +1,6 @@
 ---
 title: "Übernachten in Eilat: die besten Hotels nach Zone 2026"
-description: "Hotelführer Eilat 2026: Resorts am North Beach, die Riffzone Coral Beach und günstige Unterkünfte im Zentrum nach Zone und Preisklasse verglichen, plus Tipps, wann man bucht."
+description: "Hotels in Eilat 2026: Resorts am North Beach, Riffzone Coral Beach und günstige Unterkünfte im Zentrum nach Zone und Preis verglichen, plus Buchungstipps."
 heroImage: /images/regions/eilat/hero.jpg
 category: Unterkunft
 updatedAt: 2026-09-16

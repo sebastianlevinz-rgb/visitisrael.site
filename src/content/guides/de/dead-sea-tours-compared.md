@@ -1,6 +1,6 @@
 ---
-title: "Totes-Meer-Touren verglichen: Float, Masada & Tagesausflüge (2026)"
-description: "Totes-Meer-Touren verglichen: Nur-Float-Touren, Masada-Kombos, Privatführer und Selbstfahrer — was jede abdeckt und wo man ab Jerusalem oder Tel Aviv bucht."
+title: "Totes-Meer-Ausflug: Float, Masada & Touren im Vergleich 2026"
+description: "Totes-Meer-Ausflüge verglichen: Float-Touren, Masada-Kombis, Privatführer und Selbstfahrer — was jede abdeckt und wo man ab Jerusalem oder Tel Aviv bucht."
 heroImage: /images/regions/dead-sea/ein-bokek.jpg
 category: Touren
 updatedAt: 2026-07-30

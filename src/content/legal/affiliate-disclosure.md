@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Affiliate Disclosure
+title: 'Affiliate Disclosure: How Visit Israel Earns Commission'
 description: 'VisitIsrael.site earns commission on bookings made through affiliate links, at no extra cost to you. Our full FTC-compliant disclosure and partner list.'
 updatedAt: 2026-05-27
 ---

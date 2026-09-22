@@ -1,7 +1,7 @@
 ---
 lang: es
 title: "Qué hacer en Eilat: guía de viaje mar Rojo 2026"
-description: "Planifica tu estadía en Eilat: arrecife de coral, Reserva Natural Coral Beach, parque Timna, Dolphin Reef, buceo y excursión a Petra — guía de viaje completa."
+description: "Eilat, Israel: arrecife de coral, Reserva Natural Coral Beach, parque Timna, Dolphin Reef, buceo y excursión a Petra — guía de viaje completa para 2026."
 region: eilat
 heroImage: /images/regions/eilat/hero.jpg
 latitude: 29.5577

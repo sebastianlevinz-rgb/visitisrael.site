@@ -1,6 +1,6 @@
 ---
 title: "Tel Aviv Food Tours: Carmel Market, Jaffa & Levinsky"
-description: "Tel Aviv and Jaffa food tours compared for 2026: Carmel Market tastings, Old Jaffa hummus walks, the Levinsky spice district, costs, and non-food alternatives."
+description: "Tel Aviv food tours compared for 2026: Carmel Market tastings, Old Jaffa hummus walks, the Levinsky spice district, costs and non-food alternatives."
 heroImage: /images/regions/tel-aviv/carmel-market.jpg
 category: Tours
 verdictName: Tel Aviv's food scene

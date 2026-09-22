@@ -1,7 +1,7 @@
 ---
 lang: en
 title: "Things to Do in Haifa: Bahá’í World Centre Guide 2026"
-description: "Plan your Haifa trip — Bahá’í Gardens UNESCO terraces, German Colony, Stella Maris Monastery, Wadi Nisnas, Mount Carmel, and how to get there from Tel Aviv."
+description: "Plan your Haifa trip: Bahá’í Gardens UNESCO terraces, German Colony, Stella Maris Monastery, Wadi Nisnas, Mount Carmel and how to get there from Tel Aviv."
 slug: haifa
 region: haifa
 heroImage: /images/regions/haifa/hero.jpg

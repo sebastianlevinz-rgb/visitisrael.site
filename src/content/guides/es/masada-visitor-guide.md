@@ -1,6 +1,6 @@
 ---
 title: "Guía para visitar Masada: tours, amanecer y teleférico"
-description: "Cómo visitar Masada en 2026: sendero de la Serpiente o teleférico, la subida al amanecer, qué ver en la cima, y los tours a Masada, Ein Gedi y el Mar Muerto desde Jerusalén y Tel Aviv."
+description: "Masada, Israel, en 2026: sendero de la Serpiente o teleférico, la subida al amanecer, qué ver en la cima y los tours desde Jerusalén y Tel Aviv comparados."
 heroImage: /images/regions/dead-sea/masada.jpg
 category: Tours
 verdictName: Masada

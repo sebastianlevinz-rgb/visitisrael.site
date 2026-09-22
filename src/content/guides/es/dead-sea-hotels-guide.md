@@ -1,6 +1,6 @@
 ---
-title: 'Dónde alojarse en el Mar Muerto: mejores hoteles en Ein Bokek (2026)'
-description: 'Guía de hoteles del Mar Muerto: selección en la franja resort de Ein Bokek en niveles de lujo y rango medio, precios estacionales honestos y la alternativa económica en Ein Gedi.'
+title: 'Hoteles en el mar Muerto: dónde alojarse en Ein Bokek 2026'
+description: 'Hoteles en el mar Muerto: selección en la franja de resorts de Ein Bokek en lujo y rango medio, precios por temporada y la alternativa barata de Ein Gedi.'
 heroImage: /images/regions/dead-sea/hero.jpg
 category: Alojamiento
 updatedAt: 2026-07-02

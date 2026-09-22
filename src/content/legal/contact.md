@@ -1,6 +1,6 @@
 ---
 lang: en
-title: Contact Visit Israel
+title: 'Contact Visit Israel: Corrections, Feedback and Partners'
 description: 'How to contact VisitIsrael.site for editorial questions, factual corrections, accessibility feedback, or affiliate and partnership inquiries.'
 updatedAt: 2026-05-27
 ---

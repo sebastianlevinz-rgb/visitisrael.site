@@ -1,7 +1,7 @@
 ---
 lang: en
-title: About Visit Israel
-description: 'About VisitIsrael.site — an independent English-language travel guide to Israel, how we research our guides, and how the site is funded through affiliate links.'
+title: 'About Visit Israel: An Independent Travel Guide to Israel'
+description: 'About VisitIsrael.site, an independent English-language travel guide to Israel: how we research each guide and how affiliate links fund the site.'
 updatedAt: 2026-05-27
 ---
 **VisitIsrael.site** is an independent, English-language travel guide to Israel. We cover all 11 regions of the country — from [Jerusalem](/jerusalem) and [Tel Aviv](/tel-aviv) to the [Dead Sea](/dead-sea), the [Galilee](/galilee), [Eilat](/eilat) and the [Negev](/negev) — with in-depth attraction guides, day-by-day [itineraries](/itineraries), where-to-stay recommendations, and practical [planning guides](/plan-your-trip).

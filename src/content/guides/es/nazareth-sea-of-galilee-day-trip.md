@@ -1,6 +1,6 @@
 ---
 title: "Excursión a Nazaret y el mar de Galilea: tour cristiano"
-description: "La excursión cristiana por Galilea desde Tel Aviv o Jerusalén en 2026: Nazaret, Cafarnaúm, el monte de las Bienaventuranzas, Tabgha y el río Jordán, con precios."
+description: "Excursión a Nazaret y mar de Galilea desde Tel Aviv o Jerusalén en 2026: Cafarnaúm, monte de las Bienaventuranzas, Tabgha y el río Jordán, con precios."
 heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Tours
 verdictName: Galilea
