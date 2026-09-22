@@ -77,9 +77,10 @@ const perLocale = Object.fromEntries(
 const missing = rows.flatMap((r) => locales.filter((l) => r.byLocale[l] === null).map((l) => `${l}/${r.slug}`));
 const contentPages = Object.values(perLocale).reduce((a, b) => a + b, 0);
 // Por idioma: home + plan-your-trip + itineraries index. Más búsqueda, 404, este panel,
-// /gestion, /gestion/competidores, /gestion/seo y /mariluz (mismo conteo que tests/e2e/smoke.spec.ts).
+// /gestion, /gestion/competidores, /gestion/seo, /mariluz y /mariluz/paquetes (mismo conteo que
+// tests/e2e/smoke.spec.ts).
 const hubPages = locales.length * 3;
-const totalPages = contentPages + legal.length + hubPages + 7;
+const totalPages = contentPages + legal.length + hubPages + 8;
 
 const thin = rows.filter((r) => (r.byLocale.en ?? 0) < 700);
 const stale = rows.filter((r) => r.updatedAt && Date.now() - r.updatedAt.getTime() > 180 * 86400e3);
