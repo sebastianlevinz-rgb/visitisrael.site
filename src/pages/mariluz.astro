@@ -2,7 +2,7 @@
 /**
  * /mariluz — la propuesta de sociedad, publicada tal cual está en
  * gestion/negocio/propuesta-mariluz.md para mandarle el link a Mariluz, seguida de
- * mariluz-modelo.md (fuentes de ingreso, comisiones, reparto, roles) en #numeros.
+ * MariluzModelo.astro (embudo, fuentes de ingreso, comisiones, reparto, roles) en #numeros.
  * El markdown es la única fuente: acá no se escribe ni se reescribe nada.
  *
  * noindex (InternalLayout), fuera del sitemap y del chequeo de huérfanas.
@@ -10,16 +10,14 @@
  */
 import InternalLayout from '@/layouts/InternalLayout.astro';
 import { Content } from '../../gestion/negocio/propuesta-mariluz.md';
-import { Content as Modelo } from '../../gestion/negocio/mariluz-modelo.md';
+import MariluzModelo from '@/components/MariluzModelo.astro';
 ---
 
 <InternalLayout title="Propuesta para Mariluz" documentTitle="Propuesta para Mariluz — VisitIsrael" bare>
   <article class="prose-content mx-auto max-w-3xl">
     <Content />
   </article>
-  <article id="numeros" class="prose-content mx-auto mt-16 max-w-3xl border-t border-border pt-10">
-    <Modelo />
-  </article>
+  <MariluzModelo />
   <footer class="mx-auto mt-12 max-w-3xl border-t border-border pt-4 text-xs text-ink-muted">
     <p>Página privada de visitisrael.site: no aparece en Google ni en el menú del sitio.</p>
   </footer>

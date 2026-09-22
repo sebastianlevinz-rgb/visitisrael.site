@@ -1,0 +1,336 @@
+---
+/**
+ * Second half of /mariluz: how the money comes in, explained visually — the funnel,
+ * the two income sources, what each affiliate pays, the split rule, a sample month,
+ * who does what, and what was agreed. Replaces the markdown tables, which did not
+ * survive a phone screen. Copy is in Spanish (it is written to Mariluz).
+ */
+
+const sources = [
+  { name: 'Instagram · TikTok', what: 'Videos cortos con Mari y piezas con IA' },
+  { name: 'Google (SEO)', what: 'Guías que aparecen cuando alguien busca "qué ver en Jerusalén"' },
+  { name: 'Facebook · YouTube', what: 'Videos largos y comunidad' },
+];
+
+type Outcome = {
+  tone: 'grey' | 'blue' | 'green';
+  title: string;
+  share: string;
+  steps: string[];
+  money: string;
+  whose: string;
+};
+const outcomes: Outcome[] = [
+  {
+    tone: 'grey',
+    title: 'Se va sin hacer nada',
+    share: 'La mayoría, siempre',
+    steps: ['Lee la guía, mira fotos, se va.', 'No apretó ningún link ni escribió.', 'Queda la marca: nos vuelve a ver en redes o en Google.'],
+    money: 'US$0',
+    whose: 'Nadie cobra. Es normal: en un sitio de viajes, 97 de cada 100 visitas terminan así.',
+  },
+  {
+    tone: 'blue',
+    title: 'Hace clic en un afiliado y reserva',
+    share: 'Hotel, tour de plataforma, auto, seguro',
+    steps: ['Aprieta un link a Booking, GetYourGuide, Bein Harim, etc.', 'Reserva ahí; paga lo mismo de siempre.', 'La plataforma nos paga una comisión (4–15 %).'],
+    money: 'Comisión → caja del sitio',
+    whose: 'Se descuentan los gastos del sitio y lo que queda se divide en dos.',
+  },
+  {
+    tone: 'green',
+    title: 'Pide un tour o un paquete',
+    share: 'Formulario o WhatsApp del sitio',
+    steps: ['Escribe: quiere un guía, un tour privado, un paquete.', 'El WhatsApp automatizado se lo deriva a Mari.', 'Mari lo atiende: lo hace ella, o lo pasa a un guía de su red.'],
+    money: 'Lo hace Mari → 100 % Mari · Lo hace otro guía → 15 % al sitio',
+    whose: 'Ese 15 % entra a la caja del sitio y se divide en dos.',
+  },
+];
+
+type Program = { name: string; sells: string; rate: string; rateNote: string; example: string; result: string };
+const programs: Program[] = [
+  { name: 'Booking.com', sells: 'Hoteles', rate: '4–5 %', rateNote: 'del valor de la estadía (es el 25–30 % de lo que Booking le cobra al hotel)', example: 'Una pareja de España reserva 5 noches en Jerusalén por US$1.000', result: 'US$40–50' },
+  { name: 'Bein Harim', sells: 'Tours de día y paquetes (operador israelí)', rate: '15 %', rateNote: 'cookie de 90 días: el mejor de la lista', example: 'Excursión Masada + Mar Muerto para 2 por US$230', result: 'US$35' },
+  { name: 'GetYourGuide', sells: 'Tours y entradas', rate: '8 %', rateNote: 'cookie de 30 días', example: 'Familia compra 4 entradas a un tour de Masada por US$300', result: 'US$24' },
+  { name: 'Civitatis', sells: 'Tours (público en español)', rate: '8–10 %', rateNote: '+ €1 por cada free tour', example: 'Tour pago de US$200; o un free tour para 4', result: 'US$16–20 · €4' },
+  { name: 'Viator', sells: 'Tours', rate: '8 %', rateNote: 'cookie de 30 días', example: 'Tour de un día a Belén por US$150', result: 'US$12' },
+  { name: 'DiscoverCars', sells: 'Alquiler de autos', rate: '≈ US$20', rateNote: 'por reserva (70 % de su ganancia)', example: 'Un auto por 10 días', result: '~US$20' },
+  { name: 'Booking.com autos', sells: 'Alquiler de autos', rate: '6 %', rateNote: 'del alquiler', example: 'Una semana por US$400', result: 'US$24' },
+  { name: 'SafetyWing', sells: 'Seguro de viaje', rate: '≈ 10 %', rateNote: 'de la póliza', example: 'Seguro de 2 semanas por US$80', result: 'US$8' },
+  { name: 'Skyscanner', sells: 'Vuelos', rate: 'US$0,40–1', rateNote: 'por clic. Es un % (20–50 %) de lo que gana Skyscanner por clic, no del pasaje', example: 'Familia de Alemania busca 4 pasajes por US$1.000', result: 'US$0,40–1, compre o no' },
+  { name: 'Booking.com vuelos', sells: 'Vuelos', rate: '€2', rateNote: 'por vuelo reservado', example: '4 pasajes', result: '€8' },
+];
+
+const month = [
+  { label: 'Comisiones de afiliados del mes', amount: 'US$300' },
+  { label: '6 tours que Mari no pudo tomar, hechos por guías de su red, US$450 cada uno → 15 % al sitio', amount: 'US$405' },
+  { label: 'Total que entra a la caja del sitio', amount: 'US$705', strong: true },
+  { label: 'Gastos del sitio (hosting y herramientas)', amount: '−US$50' },
+  { label: 'Ganancia del sitio', amount: 'US$655', strong: true },
+  { label: 'Mitad de Mari', amount: 'US$327' },
+  { label: 'Mitad de Sebastian', amount: 'US$327' },
+];
+
+const roles = {
+  mari: [
+    ['Operación', 'Hacer los tours y paquetes que lleguen; cuando no puede, conseguir y coordinar al guía que los hace.'],
+    ['Atención', 'Atender a las personas: el viajero que escribe, pregunta, reserva y viaja. El WhatsApp automatizado le deriva la consulta.'],
+    ['Contenido del sitio', 'Grabar y contar lo que sabe; corregir lo que esté mal; decidir qué se cuenta y qué no.'],
+    ['Contenido para redes', 'Aparecer en los videos que necesitan una persona real; aportar el calendario de fiestas y peregrinaciones.'],
+    ['Criterio', 'Tiene la última palabra sobre lo que se dice de Israel.'],
+  ],
+  seb: [
+    ['Tecnología y SEO', 'El sitio, el posicionamiento en Google, la medición, las automatizaciones (formulario, WhatsApp, agenda).'],
+    ['Atención', 'Atender todo lo que no es una persona: afiliados, plataformas, proveedores, herramientas.'],
+    ['Contenido del sitio', 'Decir qué contenido hace falta y en qué orden; estructurar, editar, traducir a 5 idiomas, publicar.'],
+    ['Contenido para redes', 'Guiones, edición, piezas con IA, publicación en TikTok, Instagram, Facebook y YouTube.'],
+    ['Criterio', 'Tiene la última palabra sobre lo técnico.'],
+  ],
+};
+
+const agreed = [
+  ['Nadie le paga nada a nadie.', 'Mari pone su tiempo, Sebastian pone el suyo. Mari atiende a las personas; Sebastian a los afiliados, las plataformas y la tecnología.'],
+  ['Sin pauta.', 'Crecimiento orgánico: SEO, TikTok, Instagram, Facebook, YouTube. El único gasto del sitio son hosting y herramientas (~US$50/mes).'],
+  ['Comisión de canal del 15 %', 'sobre los tours que hace otro guía de la red de Mari (10 % si hace falta para que la red funcione).'],
+  ['Cada cliente que llega por el sitio queda registrado:', 'formulario en el sitio y WhatsApp automatizado que deriva la consulta a Mari (o a una agenda). Lo que se pueda automatizar, se automatiza.'],
+  ['Liquidación mensual o bimestral,', 'con la planilla a la vista.'],
+  ['Grabación:', 'los días que haga falta, los ponen los dos.'],
+  ['Prueba de 30 días:', 'una jornada de grabación y los primeros videos, sin contrato.'],
+];
+
+const tone = {
+  grey: { ring: 'border-border', head: 'bg-sand-deep text-ink', badge: 'bg-sand-deep text-ink-muted', dot: 'bg-ink-muted' },
+  blue: { ring: 'border-primary/40', head: 'bg-primary text-white', badge: 'bg-primary-soft text-primary', dot: 'bg-primary' },
+  green: { ring: 'border-gold', head: 'bg-gold-deep text-white', badge: 'bg-gold/15 text-gold-deep', dot: 'bg-gold-deep' },
+} as const;
+---
+
+<section id="numeros" class="mx-auto mt-20 max-w-5xl border-t border-border pt-12">
+  <p class="eyebrow">Segunda parte</p>
+  <h2 class="font-display text-3xl font-bold text-ink sm:text-4xl">Cómo entra la plata</h2>
+  <p class="mt-3 max-w-3xl text-lg text-ink-muted">
+    Una idea por bloque. Los ejemplos con cifras son ejemplos, no promesas. Lo del último bloque es lo que ya
+    acordamos entre los dos.
+  </p>
+
+  <!-- 1. El embudo -->
+  <div class="mt-12">
+    <h3 class="font-display text-2xl font-bold text-ink">1. El recorrido de un visitante</h3>
+    <p class="mt-2 max-w-3xl text-ink-muted">
+      Arriba, de dónde viene la gente. En el medio, el sitio. Abajo, las tres cosas que pueden pasar y qué
+      cobra quién en cada caso.
+    </p>
+
+    <div class="mt-8 grid gap-3 sm:grid-cols-3">
+      {
+        sources.map((s) => (
+          <div class="rounded-card border border-border bg-card p-4 text-center shadow-card">
+            <p class="font-display text-lg font-bold text-ink">{s.name}</p>
+            <p class="mt-1 text-sm text-ink-muted">{s.what}</p>
+          </div>
+        ))
+      }
+    </div>
+
+    <div class="flex justify-center py-3" aria-hidden="true">
+      <svg class="h-10 w-10 text-primary" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 4v16m0 0l-6-6m6 6l6-6" /></svg>
+    </div>
+
+    <div class="rounded-card border-2 border-primary bg-primary-soft p-6 text-center">
+      <p class="font-display text-2xl font-bold text-primary">visitisrael.site</p>
+      <p class="mt-1 text-ink">Guías de 7 regiones, hoteles y tours comparados, itinerarios · 5 idiomas</p>
+      <p class="mt-2 text-sm text-ink-muted">Con un formulario y un WhatsApp del sitio para que cada cliente quede registrado</p>
+    </div>
+
+    <div class="flex justify-center py-3" aria-hidden="true">
+      <svg class="h-10 w-24 text-primary" viewBox="0 0 96 40" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M48 2v10M48 12H12v22M48 12v22M48 12h36v22M12 34l-5-5m5 5l5-5M48 34l-5-5m5 5l5-5M84 34l-5-5m5 5l5-5" /></svg>
+    </div>
+
+    <div class="grid gap-4 md:grid-cols-3">
+      {
+        outcomes.map((o, i) => (
+          <article class={`flex flex-col overflow-hidden rounded-card border-2 bg-card shadow-card ${tone[o.tone].ring}`}>
+            <header class={`px-5 py-4 md:min-h-[8.75rem] ${tone[o.tone].head}`}>
+              <p class="text-xs font-semibold uppercase tracking-widest opacity-80">Camino {i + 1}</p>
+              <h4 class="mt-1 font-display text-xl font-bold leading-tight">{o.title}</h4>
+              <p class="mt-1 text-sm opacity-90">{o.share}</p>
+            </header>
+            <ol class="flex-1 space-y-3 px-5 py-4">
+              {o.steps.map((step, n) => (
+                <li class="flex gap-3 text-sm text-ink">
+                  <span class={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[11px] font-bold text-white ${tone[o.tone].dot}`}>{n + 1}</span>
+                  <span>{step}</span>
+                </li>
+              ))}
+            </ol>
+            <footer class="border-t border-border px-5 py-4">
+              <p class={`inline-block rounded-full px-3 py-1 text-sm font-bold ${tone[o.tone].badge}`}>{o.money}</p>
+              <p class="mt-2 text-sm text-ink-muted">{o.whose}</p>
+            </footer>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+
+  <!-- 2. Dos fuentes -->
+  <div class="mt-16">
+    <h3 class="font-display text-2xl font-bold text-ink">2. Las dos fuentes de ingreso</h3>
+    <div class="mt-6 grid gap-4 md:grid-cols-2">
+      <div class="rounded-card border border-primary/40 bg-card p-6 shadow-card">
+        <p class="eyebrow">Fuente 1</p>
+        <h4 class="font-display text-xl font-bold text-primary">Afiliados</h4>
+        <p class="mt-2 text-ink">
+          El sitio recomienda hoteles, tours, autos, seguros y vuelos con links a plataformas. Cuando alguien
+          reserva después de apretar un link nuestro, la plataforma nos paga una comisión. <strong>El viajero
+          paga lo mismo</strong>: la comisión sale del margen de la plataforma.
+        </p>
+      </div>
+      <div class="rounded-card border border-gold bg-card p-6 shadow-card">
+        <p class="eyebrow">Fuente 2</p>
+        <h4 class="font-display text-xl font-bold text-gold-deep">Tours y paquetes con guía</h4>
+        <ul class="mt-2 space-y-2 text-ink">
+          <li><strong>Lo hace Mari</strong> → el ingreso es 100 % de Mari. El sitio no cobra nada.</li>
+          <li><strong>Mari no puede y lo pasa a un guía de su red</strong> → ese guía le paga al sitio una comisión de canal del 15 % (menos que cualquier plataforma, que se queda con 20–30 %).</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- 3. Afiliados -->
+  <div class="mt-16">
+    <h3 class="font-display text-2xl font-bold text-ink">3. Cuánto paga cada afiliado</h3>
+    <p class="mt-2 max-w-3xl text-ink-muted">
+      Datos publicados por cada programa o por Travelpayouts (el "hub" que junta unos 100 programas de viaje en un
+      panel y un pago), verificados el 22-09-2026. <strong class="text-ink">Pagan poco por operación; se gana por
+      volumen.</strong> Y en vuelos, casi nada.
+    </p>
+    <div class="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        programs.map((p) => (
+          <div class="flex flex-col rounded-card border border-border bg-card p-5 shadow-card">
+            <div class="flex items-baseline justify-between gap-3">
+              <p class="font-display text-lg font-bold text-ink">{p.name}</p>
+              <p class={`shrink-0 font-display font-bold text-primary ${p.rate.length > 5 ? 'text-lg' : 'text-2xl'}`}>{p.rate}</p>
+            </div>
+            <p class="text-sm text-ink-muted">{p.sells}</p>
+            <p class="mt-1 text-xs text-ink-muted">{p.rateNote}</p>
+            <div class="mt-4 rounded-btn bg-sand-deep p-3 text-sm">
+              <p class="text-ink">{p.example}</p>
+              <p class="mt-1 font-bold text-ink">→ nos quedan {p.result}</p>
+            </div>
+          </div>
+        ))
+      }
+    </div>
+    <div class="mt-6 rounded-card border border-gold bg-gold/10 p-5">
+      <p class="text-ink">
+        <strong>El ejemplo que solemos usar:</strong> una familia que gasta US$1.000 en pasajes nos deja entre 1 y
+        8 dólares. La misma familia que reserva el hotel por nuestro link deja US$40–50, y si toma un tour de Bein
+        Harim, US$35. <strong>Por eso el sitio empuja hoteles y tours, no vuelos.</strong>
+      </p>
+      <p class="mt-2 text-sm text-ink-muted">
+        "Cookie" es el tiempo que tenemos marcado al visitante después del clic: Bein Harim 90 días, GetYourGuide y
+        Viator 30, Booking solo esa sesión.
+      </p>
+    </div>
+  </div>
+
+  <!-- 4. Reparto -->
+  <div class="mt-16">
+    <h3 class="font-display text-2xl font-bold text-ink">4. La regla de reparto</h3>
+    <div class="mt-6 grid gap-4 md:grid-cols-4">
+      {
+        [
+          ['Entra', 'Comisiones de afiliados + comisiones de tours hechos por otros guías. Todo a una sola caja: la del sitio.'],
+          ['Sale', 'Los gastos del sitio: hosting y herramientas, ~US$50 por mes. Sin pauta.'],
+          ['Queda', 'La ganancia del sitio.'],
+          ['Se divide', 'Mitad Mari, mitad Sebastian.'],
+        ].map(([h, t], i) => (
+          <div class="relative rounded-card border border-border bg-card p-5 shadow-card">
+            <span class="absolute -top-3 start-4 rounded-full bg-primary px-2.5 py-0.5 text-xs font-bold text-white">{i + 1}</span>
+            <p class="mt-1 font-display text-lg font-bold text-ink">{h}</p>
+            <p class="mt-1 text-sm text-ink-muted">{t}</p>
+          </div>
+        ))
+      }
+    </div>
+    <div class="mt-6 rounded-card border-2 border-gold bg-card p-5 shadow-card">
+      <p class="font-display text-lg font-bold text-gold-deep">Lo que no entra en la caja</p>
+      <p class="mt-1 text-ink">Los tours que hace Mari. Son de Mari, completos, siempre.</p>
+    </div>
+  </div>
+
+  <!-- 5. Mes de ejemplo -->
+  <div class="mt-16">
+    <h3 class="font-display text-2xl font-bold text-ink">5. Un mes de ejemplo</h3>
+    <p class="mt-2 max-w-3xl text-ink-muted">Cifras ilustrativas: un mes de temporada, con tráfico y con los afiliados ya aprobados.</p>
+    <div class="mt-6 grid gap-4 md:grid-cols-[3fr_2fr]">
+      <div class="rounded-card border border-border bg-card shadow-card">
+        <p class="border-b border-border px-5 py-3 text-xs font-semibold uppercase tracking-widest text-ink-muted">La caja del sitio</p>
+        <ul>
+          {
+            month.map((m) => (
+              <li class={`flex items-baseline justify-between gap-4 border-b border-border px-5 py-3 last:border-0 ${m.strong ? 'bg-sand-deep font-bold' : ''}`}>
+                <span class="text-sm text-ink">{m.label}</span>
+                <span class="shrink-0 font-display text-lg text-ink">{m.amount}</span>
+              </li>
+            ))
+          }
+        </ul>
+      </div>
+      <div class="flex flex-col justify-center rounded-card border-2 border-gold bg-gold/10 p-6">
+        <p class="text-xs font-semibold uppercase tracking-widest text-gold-deep">Aparte, fuera de la caja</p>
+        <p class="mt-2 font-display text-4xl font-bold text-ink">US$5.400</p>
+        <p class="mt-1 text-ink">12 días de tour que hizo Mari ese mes, a su tarifa. <strong>100 % de Mari.</strong></p>
+      </div>
+    </div>
+    <p class="mt-4 max-w-3xl text-ink-muted">
+      Lo que muestra el ejemplo: al principio la caja del sitio es chica y <strong class="text-ink">lo que mueve la
+      aguja son los clientes que le llegan a Mari</strong>. La caja crece con el tráfico y con la red de guías; en
+      un año o dos el reparto empieza a pesar. El sitio existe para traer clientes; el reparto es lo que le da
+      sentido a que Sebastian ponga tiempo en hacerlo crecer.
+    </p>
+  </div>
+
+  <!-- 6. Roles -->
+  <div class="mt-16">
+    <h3 class="font-display text-2xl font-bold text-ink">6. Quién hace qué</h3>
+    <div class="mt-6 grid gap-4 md:grid-cols-2">
+      {
+        [
+          ['Mari', 'Curadora y cara', roles.mari, 'border-gold', 'text-gold-deep'],
+          ['Sebastian', 'Brazo tecnológico', roles.seb, 'border-primary/40', 'text-primary'],
+        ].map(([who, tag, items, ring, color]) => (
+          <div class={`rounded-card border-2 bg-card p-6 shadow-card ${ring}`}>
+            <p class="eyebrow">{tag}</p>
+            <p class={`font-display text-2xl font-bold ${color}`}>{who}</p>
+            <dl class="mt-4 space-y-3">
+              {(items as string[][]).map(([k, v]) => (
+                <div>
+                  <dt class="text-xs font-semibold uppercase tracking-widest text-ink-muted">{k}</dt>
+                  <dd class="mt-0.5 text-sm text-ink">{v}</dd>
+                </div>
+              ))}
+            </dl>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <!-- 7. Acordado -->
+  <div class="mt-16">
+    <h3 class="font-display text-2xl font-bold text-ink">7. Lo acordado</h3>
+    <ol class="mt-6 space-y-3">
+      {
+        agreed.map(([h, t], i) => (
+          <li class="flex gap-4 rounded-card border border-border bg-card p-4 shadow-card">
+            <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary font-display text-sm font-bold text-white">{i + 1}</span>
+            <p class="text-ink"><strong>{h}</strong> {t}</p>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</section>
