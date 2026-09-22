@@ -12,7 +12,8 @@ te van a llegar más clientes de los que podés atender, y ahí empieza la parte
 
 ## Por qué vos
 
-Yo puedo hacer un sitio en cinco idiomas, editar cien videos y poner pauta. Lo que no puedo
+Yo puedo hacer un sitio en cinco idiomas, editar cien videos y publicarlos en todas las
+redes. Lo que no puedo
 fabricar es lo único que importa: **alguien que sepa de verdad**. Vos tenés la licencia, los
 tres idiomas, los años caminando esos lugares y, sobre todo, criterio. Sabés qué es una
 trampa para turistas y qué es una joya. Sabés qué se le dice a un peregrino y qué a una
@@ -107,7 +108,7 @@ le pide lugar.
 - Produzco con inteligencia artificial todo lo que no necesita que vos estés: mapas
   animados, explicaciones de historia, piezas cortas de datos y consejos. Esas piezas
   también pasan por vos antes de salir.
-- Pongo la pauta, mido qué funciona y ajusto.
+- Mido qué funciona y ajusto. Sin pauta: todo orgánico, SEO y redes.
 
 Va a haber dos tipos de video: **los que te tienen a vos de protagonista** y **los hechos
 con IA**. Los dos llevan tu curaduría. Esa es la diferencia con cualquier cuenta de viajes
@@ -130,8 +131,9 @@ momento: los que construyen audiencia cuando está vacío son los que están pri
 la gente vuelve.
 
 Lo que sí te puedo decir es cómo lo pienso: **vamos a medias**. Lo que entre por este
-proyecto lo repartimos de una forma que escribimos juntos, simple y antes de empezar, para
-que nunca sea un tema entre nosotros. La plata para arrancar la pongo yo.
+proyecto lo repartimos de una forma simple, escrita antes de empezar, para que nunca sea un
+tema entre nosotros: está más abajo, en "Cómo entra la plata". Nadie pone plata: el sitio ya
+está hecho y casi no tiene gastos. Los dos ponemos tiempo.
 
 ## El primer paso
 
