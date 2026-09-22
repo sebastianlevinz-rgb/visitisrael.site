@@ -1,0 +1,671 @@
+---
+/**
+ * /gestion/competidores — el estudio de mercado de gestion/auditoria/competidores.md
+ * contado en tarjetas, con el mismo lenguaje visual que /mariluz#numeros: un dato
+ * grande por tarjeta, chips, grillas que apilan en móvil y nada de tablas anchas.
+ *
+ * Los datos de abajo salen del markdown (fecha 2026-09-17; Israel Together agregado el
+ * 2026-09-22). Si un dato no está en el informe, no está acá. El informe completo se
+ * muestra entero al final, dentro de un <details>, para no perder nada.
+ *
+ * Colores: azul = nosotros / primary; dorado = destacado; gris = neutro.
+ */
+
+type Kind = 'oficial' | 'operador' | 'medio' | 'blog' | 'marketplace' | 'agencia';
+
+type Site = {
+  name: string;
+  domain: string; // lo que se ve
+  url: string; // siempre https://
+  langs: string;
+  kind: Kind;
+  traffic: string; // dato grande
+  trafficNote?: string;
+  model: string; // modelo de ingresos, una línea
+  good: string; // qué hacen bien, 1–2 líneas
+  lesson: string; // qué nos enseña, 1 línea
+  highlight?: boolean; // dorado
+};
+
+type SmallSite = { name: string; domain: string; url: string; kind: Kind; line: string };
+
+type Starter = {
+  name: string;
+  domain: string;
+  url: string;
+  who: string;
+  traffic: string;
+  model: string;
+  good: string;
+};
+
+type Light = 'green' | 'amber' | 'red';
+type Criterion = { name: string; them: string; us: string; light: Light; word: string };
+
+const kindLabel: Record<Kind, string> = {
+  oficial: 'oficial',
+  operador: 'operador',
+  medio: 'medio',
+  blog: 'blog',
+  marketplace: 'marketplace',
+  agencia: 'agencia',
+};
+
+/* 0. Resumen en diez líneas (§0 del md) */
+const tenLines: [string, string][] = [
+  [
+    'Nadie combina las cuatro cosas:',
+    'contenido de guía en 5 idiomas + widgets de tours con precio real + autor visible + fecha de actualización. Nosotros tenemos la primera y la última; las del medio (widgets con ID, autor con nombre) todavía no. El Ministerio (goisrael.com) tiene 8 idiomas pero cero monetización, contenido de 2019 y ~11–17K visitas/mes. Tourist Israel tiene la mejor UX de venta pero solo inglés. Petit Futé y Civitatis son multi-idioma pero directorio/marketplace, no guía.',
+  ],
+  [
+    'El mercado en inglés está en manos de operadores, no de afiliados:',
+    'Tourist Israel (~105K visitas/mes, DR 69, vende tours propios), Bein Harim (~14–42K), Abraham. Los blogs de nicho de afiliados están muertos o cerrando (Israel Travel Secrets cerró el 4-sep-2026; israelbyfoot.com está en venta), o son de una persona con Booking vía Travelpayouts y Ko-fi (Backpack Israel).',
+  ],
+  [
+    'Los medios grandes abandonaron Israel:',
+    'Time Out Israel tiene artículos de 2022 y 0 links de afiliado; Lonely Planet tiene una página país sin texto editorial; Israel21c ya no existe; Culture Trip tiene contenido de 2020; The Planet D tiene un top 10 sin monetizar. Ninguno de los blogs genéricos (Blonde Abroad, Two Wandering Soles, Along Dusty Roads, Wandering Wheatleys) tiene guía de Israel.',
+  ],
+  [
+    'En español el estándar es una batería fija:',
+    'Civitatis (aid propio) + Booking + seguro con código de 5% (IATI o Heymondo) + Holafly eSIM + Skyscanner, repetida en cada post. Viajeros Callejeros (1,7–3,8M visitas/mes en todo el sitio) rankea con un viaje de 2012 reciclado. Nosotros no tenemos ni seguro ni eSIM ni códigos.',
+  ],
+  [
+    'En alemán mandan GetYourGuide con widgets nativos',
+    '(Sommertage, 28 menciones en la landing de Israel), Booking, Skyscanner, Airalo, y la marca obligatoria "enthält Werbung". En francés mandan Routard y Petit Futé con guías 2019–2023: hueco claro para una guía FR actualizada.',
+  ],
+  [
+    'Hebreo no es mercado receptivo:',
+    'tiuli.com (418K visitas/mes) y masa.co.il (~130K) son turismo interno. Nuestra versión HE compite contra eso, no contra afiliados. Ojo con dónde ponemos el esfuerzo.',
+  ],
+  [
+    'Todo el tráfico de Israel cayó 10–29% en agosto 2026 vs julio',
+    '(SimilarWeb): es el efecto guerra que ya está en benchmarks.md §5. No es culpa de nadie; es el mercado.',
+  ],
+  [
+    'Lo que rinde de verdad en sitios de una persona es la persona:',
+    'Backpack Israel (guía certificado con cara en el hero), Real Greek Experiences ("nacida en Atenas"), Julie Dawn Fox (servicios de planificación + códigos FOX10), Greece Travel Secrets (página de códigos de descuento negociados con 16 operadores chicos). Todos convierten tráfico informativo en servicio propio, no solo en comisión.',
+  ],
+  [
+    'El único dato duro de ingresos por reserva de un sitio chico es Petra On The Way:',
+    '~€8 por reserva de GetYourGuide en 2025. El único income report de un sitio nuevo es Bachelor of Travel: US$38,56 en agosto 2025 con 4.000 sesiones y 120 posts. Ese es nuestro punto de partida realista, no Nomadic Matt.',
+  ],
+  [
+    'Veredicto corto:',
+    'tenemos la estructura de un sitio que factura y ninguna de las tres cosas que hacen facturar: IDs cargados, una cara con nombre, y medición de qué caja convierte.',
+  ],
+];
+
+/* 1. Los que más importan (10) */
+const top: Site[] = [
+  {
+    name: 'Tourist Israel',
+    domain: 'touristisrael.com',
+    url: 'https://touristisrael.com/',
+    langs: 'EN',
+    kind: 'operador',
+    traffic: '~105K',
+    trafficNote: '−15,8 % m/m; 70 % orgánico; DR 69',
+    model: 'Venta directa de tours, paquetes, transfers y hoteles. 0 afiliados.',
+    good: 'Arquitectura destino × tipo × salida × duración que captura toda la long-tail; badges en tarjeta; en móvil, barra inferior fija con "From US$69" y un solo botón.',
+    lesson: 'El mejor sitio de venta de Israel tiene 539 palabras por destino, sin autor, sin fecha y un solo idioma.',
+  },
+  {
+    name: 'Bein Harim',
+    domain: 'beinharimtours.com',
+    url: 'https://beinharimtours.com/',
+    langs: 'EN · ES · DE · FR',
+    kind: 'operador',
+    traffic: '~14–42K',
+    trafficNote: 'según si la cifra es mensual o trimestral; DR 41',
+    model: 'Tours propios + programa de afiliados público: 15 %, cookie de 90 días, ShareASale o directo.',
+    good: 'Precio y duración en cada tarjeta ("$75 · 1 Day"); blog con bylines reales; el HTML más liviano de los operadores (223 KB).',
+    lesson: 'Es el partner israelí más fácil de integrar y no está en affiliates.ts.',
+    highlight: true,
+  },
+  {
+    name: 'Ministerio de Turismo',
+    domain: 'goisrael.com',
+    url: 'https://www.goisrael.com/',
+    langs: 'EN · DE · FR · ES · IT · RU · PT · AR',
+    kind: 'oficial',
+    traffic: '~11K',
+    trafficNote: 'israel.travel, el segundo sitio del Ministerio: ~16,5K',
+    model: 'Institucional, sin afiliados; deriva a operadores del país del visitante.',
+    good: 'Tarjeta geo-localizada de "tiempo de vuelo + temperatura del agua" según de dónde entra el usuario.',
+    lesson: 'Ocho idiomas y contenido de 2019 no mueven tráfico: la cantidad de idiomas sola no alcanza.',
+  },
+  {
+    name: 'Lonely Planet',
+    domain: 'lonelyplanet.com/destinations/israel',
+    url: 'https://www.lonelyplanet.com/destinations/israel',
+    langs: 'EN',
+    kind: 'medio',
+    traffic: 'Sin dato',
+    trafficNote: 'la sección Israel no se desglosa; el dominio ~3,1M',
+    model: 'Widget de GetYourGuide (3 ítems) + 4 slots de ads + tienda de guías.',
+    good: 'El bloque "Top places → widget GYG de 3 ítems con disclosure de una línea → destino relacionado". Atlas Obscura usa el mismo patrón con 4 ítems.',
+    lesson: 'Es exactamente lo que podemos poner con nuestro partner ID, sin inventar precio ni rating.',
+  },
+  {
+    name: 'Viajeros Callejeros',
+    domain: 'viajeroscallejeros.com',
+    url: 'https://www.viajeroscallejeros.com/consejos-para-viajar-israel/',
+    langs: 'ES',
+    kind: 'blog',
+    traffic: '1,7–3,8M',
+    trafficNote: 'todo el sitio; Israel es una fracción. 84 % España',
+    model: 'Afiliación: Holafly (código 5 %), Civitatis, Heymondo, Skyscanner, Booking, en cada post.',
+    good: 'La misma batería de cajas en cada post (vuelos, hotel, coche, tours, eSIM, seguro), con código de descuento propio que además sirve de medición.',
+    lesson: 'Rankea en español con un viaje de 2012 reciclado: el hueco en ES es de calidad y fecha.',
+  },
+  {
+    name: 'Chavetas',
+    domain: 'viajes.chavetas.es',
+    url: 'https://viajes.chavetas.es/guia/israel-palestina/',
+    langs: 'ES',
+    kind: 'blog',
+    traffic: '~107K',
+    trafficNote: 'todo el sitio; 67 % orgánico',
+    model: 'Afiliación: IATI, Holafly, Civitatis, Tiqets, Rentalcars, Booking, con bloque de descuentos.',
+    good: 'Página-guía país como hub (diario + "lo mejor de" + descuentos) y 14 eventos de tracking que miden qué caja convierte.',
+    lesson: 'Nadie más mide clics por ubicación de caja. Nosotros tampoco.',
+  },
+  {
+    name: 'Sommertage',
+    domain: 'sommertage.com/reiseblog/israel',
+    url: 'https://www.sommertage.com/reiseblog/israel/',
+    langs: 'DE · EN',
+    kind: 'blog',
+    traffic: '~104–142K',
+    trafficNote: 'Semrush 103,9K / SimilarWeb 141,9K; 34 % Alemania',
+    model: 'Afiliación: widgets nativos de GetYourGuide (28 en la landing de Israel).',
+    good: 'Widget de GYG en la landing por destino, no solo link de texto; toggle DE/EN que trae un cuarto del tráfico desde EE. UU. y UK.',
+    lesson: 'En alemán el estándar es GYG con widget más la marca "enthält Werbung", que nuestra versión DE no tiene.',
+  },
+  {
+    name: 'Backpack Israel',
+    domain: 'backpackisrael.com',
+    url: 'https://www.backpackisrael.com/',
+    langs: 'EN',
+    kind: 'blog',
+    traffic: '8–15K',
+    trafficNote: 'inferencia por rank; SimilarWeb no muestra cifra',
+    model: 'Tours privados + planificación + Booking vía Travelpayouts + Ko-fi.',
+    good: 'Retrato y credencial de guía certificado en el hero; "Published / Updated" doble y visible; convierte tráfico informativo en servicio propio.',
+    lesson: 'Es el patrón de todos los sitios chicos que rinden: una persona con nombre, cara y credencial.',
+    highlight: true,
+  },
+  {
+    name: 'Civitatis',
+    domain: 'civitatis.com/es/jerusalen',
+    url: 'https://www.civitatis.com/es/jerusalen/',
+    langs: 'ES · EN · FR · IT · PT',
+    kind: 'marketplace',
+    traffic: '8,1M',
+    trafficNote: 'todo el dominio; 49 % España, 5,4 % Argentina',
+    model: 'Marketplace de tours; el partner que usan casi todos los blogs en español.',
+    good: 'Tarjeta con nota, opiniones, viajeros, duración, idioma, "desde 85 US$" y cancelación gratuita: el formato que el lector hispano espera.',
+    lesson: 'No podemos inventar nota ni viajeros; sí mostrar duración, idioma y cancelación, y dejar precio y nota al widget.',
+  },
+  {
+    name: 'Israel Together',
+    domain: 'israeltogether.org',
+    url: 'https://www.israeltogether.org/',
+    langs: 'ES',
+    kind: 'agencia',
+    traffic: '~1,5K',
+    trafficNote: 'HypeStat, sin fecha, fiabilidad baja; SimilarWeb sin datos',
+    model: 'Viajes grupales educativos de 10 días a Israel para adultos y familias judías de Latinoamérica; paquete propio, 0 afiliados, precio no publicado.',
+    good: 'Página de programa con chips de atributos (10 días · media pensión · guía en español · madrij), FAQ y un solo CTA: WhatsApp o entrevista personal. Comunidad post-viaje (cenas de Shabat, cursos) como retención.',
+    lesson: 'Es el modelo "grupo desde Argentina" que un lector argentino busca en vez de Booking: partner local para la propuesta de tours, no competidor de SEO. Ojo: al 2026-09-22 el dominio está caído (error de Wix) y venden por WhatsApp y redes.',
+    highlight: true,
+  },
+];
+
+/* 2. Por idioma: los demás sitios, una línea cada uno */
+type LangBlock = { code: string; title: string; note?: string; sites: SmallSite[] };
+const byLang: LangBlock[] = [
+  {
+    code: 'EN',
+    title: 'Inglés',
+    note: 'Ningún afiliado fuerte vivo: los blogs de nicho cerraron o están en venta, los medios grandes abandonaron Israel, y los que facturan son operadores.',
+    sites: [
+      { name: 'israel.travel', domain: 'israel.travel', url: 'https://israel.travel/', kind: 'oficial', line: 'Segundo sitio del Ministerio, WordPress, habla de 2019; ~16,5K/mes; "deals" de operadores sin afiliación visible.' },
+      { name: 'iTravelJerusalem', domain: 'itraveljerusalem.com', url: 'https://www.itraveljerusalem.com/', kind: 'oficial', line: 'Portal oficial de Jerusalén (HE, EN); ~90K/mes; revende tours de Bein Harim por afiliación.' },
+      { name: 'Time Out Israel', domain: 'timeout.com/israel', url: 'https://www.timeout.com/israel', kind: 'medio', line: 'Artículos de 2022, 0 links de afiliado; display y newsletter. Hueco para "things to do in Tel Aviv" actualizado.' },
+      { name: 'Atlas Obscura', domain: 'atlasobscura.com/things-to-do/israel', url: 'https://www.atlasobscura.com/things-to-do/israel', kind: 'medio', line: '88 lugares, "Updated July 29, 2026"; widget de GetYourGuide de 4 ítems + mapa interactivo + membresía.' },
+      { name: 'Culture Trip', domain: 'theculturetrip.com/asia/israel', url: 'https://theculturetrip.com/asia/israel', kind: 'medio', line: 'Contenido de 2020; afiliación de hoteles y Trips propios sin Israel. Tráfico no verificado.' },
+      { name: 'Secret Tel Aviv', domain: 'secrettelaviv.com', url: 'https://www.secrettelaviv.com/', kind: 'medio', line: 'Comunidad anglófona desde 2011; 37–110K/mes; ads + jobs + afiliados en guías de hoteles "Top Hotels in Israel 2026".' },
+      { name: 'Abraham Tours', domain: 'abrahamtours.com', url: 'https://abrahamtours.com/', kind: 'operador', line: 'Operador + hostels; ~8,2K/mes; programa de afiliados con comisión no publicada. Está en affiliates.ts.' },
+      { name: 'Hike Israel', domain: 'hike-israel.com', url: 'https://hike-israel.com/', kind: 'blog', line: 'Erez Speiser, senderismo autoguiado; 8–15K/mes inferido; mapas a US$5, treks, Ezoic. israelbyfoot.com está en venta.' },
+      { name: 'Fun in Jerusalem', domain: 'funinjerusalem.com', url: 'https://funinjerusalem.com/', kind: 'blog', line: 'Directorio de actividades para familias; ~25,7K/mes; cobra listados a proveedores (B2B), 0 afiliados.' },
+      { name: 'East to West', domain: 'easttowestrms.com', url: 'https://easttowestrms.com/middleeast/israel/', kind: 'blog', line: 'Blog personal multi-destino desde Tel Aviv; ~4,9K/mes; Amazon, World Nomads, Abraham.' },
+      { name: 'Israel Travel Secrets', domain: 'israel-travel-secrets.com', url: 'https://israel-travel-secrets.com/', kind: 'blog', line: 'Cerrado el 4-sep-2026; ~6K/mes residual.' },
+      { name: 'Nomadic Matt', domain: 'nomadicmatt.com', url: 'https://www.nomadicmatt.com/', kind: 'blog', line: 'Guía de Israel viva, "Updated February 3, 2026"; ~236K/mes todo el sitio.' },
+      { name: 'Earth Trekkers', domain: 'earthtrekkers.com', url: 'https://www.earthtrekkers.com/', kind: 'blog', line: '30 things to do Jerusalem, "Last updated Dec 3, 2025"; ~377K/mes todo el sitio.' },
+      { name: 'The Planet D', domain: 'theplanetd.com', url: 'https://theplanetd.com/top-10-things-to-do-in-israel/', kind: 'blog', line: 'Un top 10 con fecha refrescada y 0 afiliados; ~37K/mes (el About dice 1M).' },
+      { name: 'The Blonde Abroad · Two Wandering Soles', domain: 'theblondeabroad.com', url: 'https://www.theblondeabroad.com/', kind: 'blog', line: 'No tienen Israel (solo Jordania o Mar Muerto lado Jordania). Tampoco Along Dusty Roads ni Wandering Wheatleys.' },
+    ],
+  },
+  {
+    code: 'ES',
+    title: 'Español',
+    note: 'Batería fija de partners en cada post: Civitatis + Booking + seguro con código 5 % + Holafly + Skyscanner. Viajeros Callejeros, Chavetas, Civitatis e Israel Together están arriba.',
+    sites: [
+      { name: 'Los Viajes de Domi', domain: 'losviajesdedomi.com', url: 'https://losviajesdedomi.com/que-ver-en-israel/', kind: 'blog', line: 'Domi Ramos (Sevilla); ~89K/mes, 81 % orgánico, con Perú, México, Colombia y Argentina; seguros IATI como producto ancla, Civitatis, widgets de Booking por ciudad.' },
+      { name: 'Lonely Planet España', domain: 'lonelyplanet.es', url: 'https://www.lonelyplanet.es/asia/israel-y-los-territorios-palestinos', kind: 'medio', line: '~110K/mes todo el dominio; vende la guía (26,90 €) + widget Booking + display; contenido 2017–2020.' },
+      { name: 'Monoviajero', domain: 'monoviajero.com', url: 'https://monoviajero.com/guia-israel/', kind: 'blog', line: 'Guía país; tráfico no verificado; Chapka, Skyscanner, Holafly, Civitatis, Booking, IATI.' },
+    ],
+  },
+  {
+    code: 'FR · DE',
+    title: 'Francés y alemán',
+    note: 'En francés mandan dos editoriales con guías de 2019–2023: hueco de fecha. En alemán, GetYourGuide con widget y la marca legal "enthält Werbung". Sommertage está arriba.',
+    sites: [
+      { name: 'Routard', domain: 'routard.com', url: 'https://www.routard.com/fr/guide/moyen-orient/israel-palestine', kind: 'medio', line: 'FR · Guide du Routard (Hachette); ~1,7–2,6M/mes; venta de guía 2022/23 + IATI, Rentalcars, Booking + foros muy activos.' },
+      { name: 'Petit Futé', domain: 'petitfute.com', url: 'https://www.petitfute.com/p155-israel', kind: 'medio', line: 'FR · fichas por localidad en 5 idiomas; ~2,8–4,6M/mes; guía "2019/2020" + display + fichas pagas.' },
+      { name: 'Guide Israel', domain: 'guide-israel.info', url: 'https://guide-israel.info/', kind: 'blog', line: 'FR · Isabelle Cohen, guía francófona privada en Jerusalén; sin dato de tráfico; tours privados + libro + Booking, Amazon, IATI.' },
+      { name: 'Komm wir machen das einfach', domain: 'kommwirmachendaseinfach.de', url: 'https://kommwirmachendaseinfach.de/land/israel/', kind: 'blog', line: 'DE · hub con 15 posts prácticos (Einreise, Kosten, Sicherheit, Mietwagen); ~128K/mes; GetYourGuide, Amazon, Airalo; links con asterisco y "enthält Werbung".' },
+      { name: 'Viel Unterwegs', domain: 'viel-unterwegs.de', url: 'https://viel-unterwegs.de/reiseziele/israel/', kind: 'blog', line: 'DE · Katrin Lehr, "Updated 25-07-2023"; ~102K/mes; GYG, Skyscanner, Booking, Airalo con código VU10.' },
+    ],
+  },
+  {
+    code: 'HE',
+    title: 'Hebreo',
+    note: 'No hay turismo receptivo en hebreo para turistas del exterior: es turismo interno. Nuestra versión HE compite con esto, no con afiliados. No es donde se gana plata con Booking y GetYourGuide.',
+    sites: [
+      { name: 'Tiuli', domain: 'tiuli.com', url: 'https://www.tiuli.com/', kind: 'medio', line: 'Grupo Lametayel; solo hebreo; 418,5K visitas (Semrush jul-26); reservas, cupones, listados pagos.' },
+      { name: 'Masa', domain: 'masa.co.il', url: 'https://www.masa.co.il/', kind: 'medio', line: '~130K/mes, 88 % Israel; mapas, guías, seguros, hoteles.' },
+    ],
+  },
+];
+
+/* 3. Los que están empezando / a nuestro nivel (8) */
+const starters: Starter[] = [
+  {
+    name: 'Petra On The Way',
+    domain: 'petraontheway.com',
+    url: 'https://petraontheway.com/',
+    who: 'Petra Větrovská, Praga; 1 persona; CZ/EN/ES, multi-destino',
+    traffic: '~85,7K',
+    model: 'GetYourGuide (links, widgets, calendarios) + Booking; ~€8 por reserva de GYG en 2025.',
+    good: 'Cara y nombre en cada artículo; tagging propio de campañas GYG para saber qué convierte; trilingüe; TOC, tiempo de lectura y mapas.',
+  },
+  {
+    name: 'Jordan Traveler',
+    domain: 'jordantraveler.com',
+    url: 'https://jordantraveler.com/',
+    who: 'Valerie (The Kolibro Group)',
+    traffic: '~8,4K',
+    model: 'Booking + Hotels.com + su propio tour grupal 1–2 veces al año.',
+    good: 'Tabla "día × actividad" al inicio de cada itinerario; rango de precio de hotel al lado de cada recomendación; "published / updated"; responde 20+ comentarios por post.',
+  },
+  {
+    name: 'Real Greek Experiences',
+    domain: 'realgreekexperiences.com',
+    url: 'https://realgreekexperiences.com/',
+    who: 'Vanessa Foudouli, ateniense, desde 2016',
+    traffic: 'Sin cifra',
+    model: 'Ferryhopper + Ferryscanner, GYG, Viator, Booking, DiscoverCars + planificación por mail + walking tours propios.',
+    good: '"Nacida en Atenas" como marca; doble embudo: tour propio y, si no hay fecha, GYG; CTA principal = mail para itinerario a medida, sin herramienta cara.',
+  },
+  {
+    name: 'Greece Travel Secrets',
+    domain: 'greecetravelsecrets.com',
+    url: 'https://greecetravelsecrets.com/',
+    who: 'Sandy Papas + John, Brisbane',
+    traffic: '~41,3K',
+    model: 'GYG, Booking, Ferryhopper, Viator + consultas privadas pagas + retiros + página de códigos con 16 operadores al 5–15 %.',
+    good: 'La página de códigos es un activo propio: negocia 10 % con operadores locales y se vuelve "el lugar" antes de reservar; "FREE ITINERARY" como lead magnet; escalera post → código → consulta → retiro.',
+  },
+  {
+    name: 'Greece and Beyond',
+    domain: 'greeceandbeyond.com',
+    url: 'https://greeceandbeyond.com/',
+    who: 'Chrysoula, ateniense',
+    traffic: 'Sin cifra',
+    model: 'Itinerarios a medida + transfers privados.',
+    good: 'Ejemplo de lo que no alcanza: local con nombre, 6 destinos en tarjetas, dos CTAs de servicio, pero sin fecha "updated", sin disclosure, sin buscador y rank de 8 millones.',
+  },
+  {
+    name: 'Portugalist',
+    domain: 'portugalist.com',
+    url: 'https://www.portugalist.com/',
+    who: 'James Cave, desde 2016',
+    traffic: '~69,5K',
+    model: 'Antes ads (Mediavine); hoy leads de relocación + libro + podcast.',
+    good: 'Pivot de "qué ver" (saturado, RPM bajo) a "cómo mudarse" (intención alta); 152 reseñas de Google con nombre; logos de prensa arriba del fold; "consulta gratuita" como captura de lead.',
+  },
+  {
+    name: 'Julie Dawn Fox',
+    domain: 'juliedawnfox.com',
+    url: 'https://juliedawnfox.com/',
+    who: 'Julie Dawn Fox, británica en Portugal desde 2007',
+    traffic: '~49,3K',
+    model: 'Servicios pagos (consulta, revisión de itinerario) + tienda de itinerarios + Viator, GYG, operadores con códigos FOX5 / FOX10.',
+    good: 'Cada artículo de tours termina en una caja "Which X tour is best for you?" con 3–4 opciones y botón; "Starter Pack" gratis en el menú; "Last updated May 2026" en cada página.',
+  },
+  {
+    name: 'We Travel Portugal',
+    domain: 'wetravelportugal.com',
+    url: 'https://www.wetravelportugal.com/',
+    who: 'Ana Veiga + Ollie Richards, Lisboa, desde 2018',
+    traffic: '~43,1K',
+    model: 'GYG, Booking/Stay22, Viator + itinerarios personalizados + newsletter.',
+    good: 'Fotografía propia como diferencial en el H1; guías por pueblo con "[2026]" en el título, TOC y precios "desde" en texto; Stay22 para hoteles sin armar widgets.',
+  },
+];
+
+/* 4. Nosotros contra ellos (§4.1 en filas) */
+const criteria: Criterion[] = [
+  { name: 'Idiomas', them: '1; Sommertage 2; Petra On The Way 3.', us: '5 (EN, FR, DE, ES, HE).', light: 'green', word: 'Ventaja' },
+  { name: 'Profundidad por destino', them: '2.000–4.000 palabras "updated 2026" en los blogs chicos que rinden; ~540 en Tourist Israel.', us: '~2.600 en EN; 600–800 en FR, DE y ES.', light: 'amber', word: 'A medias' },
+  { name: 'Autor con nombre y cara', them: 'Sí, con credencial (guía certificado, "nacida en Atenas").', us: 'No: "The Visit Israel Editorial Team", avatar "VI".', light: 'red', word: 'Falta' },
+  { name: 'Reseñas y prueba social', them: 'Google Reviews (Portugalist 152), TripAdvisor, "300 consultas", comentarios abiertos.', us: 'Nada.', light: 'red', word: 'Falta' },
+  { name: 'Precio y rating en la tarjeta de tour', them: 'Sí: propio en operadores; widget de GetYourGuide en LP, Atlas y Sommertage.', us: 'No: "Live prices on GetYourGuide".', light: 'red', word: 'Falta' },
+  { name: 'Partners activos', them: '3–5 con ID: GYG, Booking, Civitatis, Viator, operadores con código.', us: '11 definidos en affiliates.ts, 0 con ID.', light: 'red', word: 'Falta' },
+  { name: 'Medición de clics por caja', them: 'Chavetas: 14 eventos por ubicación. Petra: tagging de campañas GYG.', us: 'No: Vercel Analytics sin eventos.', light: 'red', word: 'Falta' },
+  { name: 'Fotos', them: 'Propias; We Travel Portugal las usa como diferencial.', us: 'Stock con crédito (Pexels, Wikimedia, Unsplash).', light: 'amber', word: 'A medias' },
+  { name: 'Servicio propio', them: 'Planificación, tours, códigos negociados con operadores locales.', us: 'No; es la propuesta con Mariluz en gestion/negocio.', light: 'red', word: 'Falta' },
+  { name: 'Tráfico (agosto 2026)', them: '8–86K los sitios chicos; ~105K Tourist Israel.', us: 'Sin medición.', light: 'red', word: 'Sin dato' },
+];
+
+const verdict =
+  'Tenemos la estructura de un sitio que factura y ninguna de las tres cosas que hacen facturar. La estructura (KeyFacts, TourVerdict, Toc, BookYourTrip, FAQ con schema, HTML liviano, 5 idiomas) está por encima de todos los blogs de nicho de Israel y a la par de los sitios chicos que funcionan en Grecia y Portugal. Pero esos sitios cobran porque tienen IDs cargados, una persona con nombre que responde comentarios y vende un servicio propio, y miden qué caja convierte. Nosotros tenemos cero de las tres. El mercado en inglés no tiene ningún afiliado fuerte vivo, así que el hueco existe. En español el hueco es de calidad (contenido de 2012 con cajas de afiliado) y en francés de fecha (guías 2019–2023). El punto de partida realista es el de Bachelor of Travel (US$38/mes con 4.000 sesiones), no el de Nomadic Matt, y el tráfico de Israel cayó 10–29 % en agosto por la guerra: la recuperación real la ponen en Pésaj 2027. Esto se gana en 2027, con una cara y con datos, no con más páginas.';
+
+const actions: [string, string][] = [
+  [
+    'Cargar los IDs de GetYourGuide, Civitatis y Viator, sumar Bein Harim (15 %, 90 días, ShareASale 48735) a affiliates.ts y entrar a Booking por CJ o Awin.',
+    'Es la fase 3 del ROADMAP y depende solo de Sebastian. Hasta que un clic registre, nada de lo demás se puede evaluar. Bajar los partners activos a 5: GYG, Civitatis (ES), Viator, Bein Harim, Booking.',
+  ],
+  [
+    'Poner una persona con nombre, foto y credencial en authors.ts y en /about,',
+    'y que el byline diga "Israel travel writer since…" o "guía licenciada" (si la propuesta con Mariluz avanza, es ella; si no, Sebastian con su rol real). Es la única mejora que todos los sitios chicos que rinden comparten.',
+  ],
+  [
+    'Reemplazar la grilla de tours de región por el widget nativo de GetYourGuide (3–4 ítems por destino) con el kicker "In partnership with GetYourGuide" y un solo disclosure,',
+    'como LP, Atlas y Sommertage. Muestra precio y rating reales sin inventarlos. En ES, el mismo bloque con el widget de Civitatis. Necesita aprobación (cambia el look) y el ID del paso 1.',
+  ],
+  [
+    'Medir clics por caja y por página con eventos de Vercel Analytics',
+    '(StickyCTA, BookYourTrip, AffiliateCard, InlineTourCTA, widget), con un nombre de ubicación por evento como hace Chavetas. Sin esto, en la fase 4 ("esperar datos") no va a haber datos. Costo: dos tardes.',
+  ],
+  [
+    'Completar la batería de partners por idioma en las páginas que ya existen, sin crear páginas nuevas:',
+    'en ES, caja de seguro con código (IATI o Heymondo, 5 %) y Holafly en plan-your-trip y en las guías prácticas; en DE, la marca "enthält Werbung" y links con asterisco (obligación legal); en FR, fecha "mis à jour 2026" visible arriba. Y completar las traducciones de región a por lo menos 1.500 palabras antes de traducir nada nuevo.',
+  ],
+];
+
+const lightTone: Record<Light, { badge: string; dot: string }> = {
+  green: { badge: 'bg-green-100 text-green-800', dot: 'bg-green-600' },
+  amber: { badge: 'bg-amber-100 text-amber-800', dot: 'bg-amber-500' },
+  red: { badge: 'bg-red-100 text-red-800', dot: 'bg-red-600' },
+};
+
+const chip = 'inline-block rounded-full px-2.5 py-0.5 text-xs font-semibold';
+---
+
+<section class="mx-auto max-w-5xl">
+  <p class="eyebrow">Estudio de mercado · 17-09-2026, Israel Together agregado el 22-09-2026</p>
+  <h1 class="font-display text-3xl font-bold text-ink sm:text-4xl">Competidores</h1>
+  <p class="mt-3 max-w-3xl text-lg text-ink-muted">
+    Quién más habla de viajar a Israel, cómo gana plata y qué nos enseña. Una idea por tarjeta. Las cifras de
+    tráfico son de SimilarWeb gratuito (agosto 2026): <strong class="text-ink">orden de magnitud, con un margen de
+    ×3 hacia abajo</strong>, no dato exacto. Cada sitio tiene su link.
+  </p>
+
+  <!-- 0. En diez líneas -->
+  <div class="mt-12">
+    <h2 class="font-display text-2xl font-bold text-ink">En diez líneas</h2>
+    <ol class="mt-6 space-y-3">
+      {
+        tenLines.map(([h, t], i) => (
+          <li class="flex gap-4 rounded-card border border-border bg-card p-4 shadow-card">
+            <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary font-display text-sm font-bold text-white">{i + 1}</span>
+            <p class="text-ink"><strong>{h}</strong> {t}</p>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+
+  <!-- 1. Los que más importan -->
+  <div class="mt-16">
+    <h2 class="font-display text-2xl font-bold text-ink">1. Los que más importan</h2>
+    <p class="mt-2 max-w-3xl text-ink-muted">
+      Diez sitios. El número grande es visitas por mes según SimilarWeb, orden de magnitud. Borde dorado: los que
+      más nos enseñan.
+    </p>
+    <div class="mt-6 grid gap-4 md:grid-cols-2">
+      {
+        top.map((s) => (
+          <article class={`flex flex-col rounded-card border-2 bg-card p-5 shadow-card ${s.highlight ? 'border-gold' : 'border-border'}`}>
+            <div class="flex items-start justify-between gap-3">
+              <div class="min-w-0">
+                <h3 class="font-display text-xl font-bold text-ink">{s.name}</h3>
+                <a href={s.url} target="_blank" rel="noopener" class="break-all text-sm text-primary underline">{s.domain} ↗</a>
+              </div>
+              <div class="shrink-0 text-end">
+                <p class="font-display text-2xl font-bold text-primary">{s.traffic}</p>
+                <p class="text-xs text-ink-muted">visitas/mes</p>
+              </div>
+            </div>
+            <div class="mt-3 flex flex-wrap gap-1.5">
+              <span class={`${chip} bg-sand-deep text-ink`}>{s.langs}</span>
+              <span class={`${chip} ${s.kind === 'operador' || s.kind === 'agencia' ? 'bg-gold/15 text-gold-deep' : 'bg-primary-soft text-primary'}`}>{kindLabel[s.kind]}</span>
+            </div>
+            <p class="mt-2 text-xs text-ink-muted">
+              SimilarWeb, orden de magnitud{s.trafficNote ? ` · ${s.trafficNote}` : ''}.
+            </p>
+            <dl class="mt-4 flex-1 space-y-3">
+              <div>
+                <dt class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Cómo gana plata</dt>
+                <dd class="mt-0.5 text-sm text-ink">{s.model}</dd>
+              </div>
+              <div>
+                <dt class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Qué hacen bien</dt>
+                <dd class="mt-0.5 text-sm text-ink">{s.good}</dd>
+              </div>
+            </dl>
+            <div class="mt-4 rounded-btn bg-sand-deep p-3 text-sm">
+              <p class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Qué nos enseña</p>
+              <p class="mt-1 font-semibold text-ink">{s.lesson}</p>
+            </div>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+
+  <!-- 2. Por idioma -->
+  <div class="mt-16">
+    <h2 class="font-display text-2xl font-bold text-ink">2. Los demás, por idioma</h2>
+    <p class="mt-2 max-w-3xl text-ink-muted">Una línea por sitio. Cifras: visitas por mes, SimilarWeb, orden de magnitud.</p>
+    <div class="mt-6 space-y-8">
+      {
+        byLang.map((b) => (
+          <div>
+            <div class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+              <span class="rounded-full bg-primary px-3 py-1 font-display text-sm font-bold text-white">{b.code}</span>
+              <h3 class="font-display text-xl font-bold text-ink">{b.title}</h3>
+            </div>
+            {b.note && <p class="mt-2 max-w-3xl text-sm text-ink-muted">{b.note}</p>}
+            <div class="mt-4 grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+              {b.sites.map((s) => (
+                <div class="rounded-card border border-border bg-card p-4 shadow-card">
+                  <div class="flex flex-wrap items-baseline justify-between gap-x-2 gap-y-1">
+                    <p class="font-display font-bold text-ink">{s.name}</p>
+                    <span class={`${chip} bg-sand-deep text-ink-muted`}>{kindLabel[s.kind]}</span>
+                  </div>
+                  <a href={s.url} target="_blank" rel="noopener" class="break-all text-xs text-primary underline">{s.domain} ↗</a>
+                  <p class="mt-2 text-sm text-ink">{s.line}</p>
+                </div>
+              ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </div>
+
+  <!-- 3. Los que están empezando -->
+  <div class="mt-16">
+    <h2 class="font-display text-2xl font-bold text-ink">3. Los que están empezando o están a nuestro nivel</h2>
+    <p class="mt-2 max-w-3xl text-ink-muted">
+      Ocho sitios de una o dos personas, de un solo país (Jordania, Grecia, Portugal) o de nicho, y qué hacen bien
+      con pocos recursos.
+    </p>
+    <div class="mt-6 grid gap-4 md:grid-cols-2">
+      {
+        starters.map((s) => (
+          <article class="flex flex-col rounded-card border border-border bg-card p-5 shadow-card">
+            <div class="flex items-start justify-between gap-3">
+              <div class="min-w-0">
+                <h3 class="font-display text-lg font-bold text-ink">{s.name}</h3>
+                <a href={s.url} target="_blank" rel="noopener" class="break-all text-sm text-primary underline">{s.domain} ↗</a>
+                <p class="mt-1 text-xs text-ink-muted">{s.who}</p>
+              </div>
+              <div class="shrink-0 text-end">
+                <p class={`font-display font-bold text-primary ${s.traffic.length > 7 ? 'text-lg' : 'text-2xl'}`}>{s.traffic}</p>
+                <p class="text-xs text-ink-muted">visitas/mes</p>
+              </div>
+            </div>
+            <dl class="mt-4 flex-1 space-y-3">
+              <div>
+                <dt class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Cómo gana plata</dt>
+                <dd class="mt-0.5 text-sm text-ink">{s.model}</dd>
+              </div>
+              <div>
+                <dt class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Qué hace bien con poco</dt>
+                <dd class="mt-0.5 text-sm text-ink">{s.good}</dd>
+              </div>
+            </dl>
+          </article>
+        ))
+      }
+    </div>
+    <div class="mt-6 rounded-card border-2 border-gold bg-gold/10 p-5">
+      <p class="text-xs font-semibold uppercase tracking-widest text-gold-deep">El punto de partida realista</p>
+      <p class="mt-2 font-display text-4xl font-bold text-ink">US$38,56</p>
+      <p class="mt-1 text-ink">
+        <strong>Bachelor of Travel, agosto 2025</strong>: una persona, 120 posts, ~4.000 sesiones. GetYourGuide 20,50;
+        DiscoverCars 9,84; Stay22 7,61; Amazon 0,61. Es el sitio más parecido al nuestro que publica números.
+      </p>
+      <p class="mt-2 text-sm text-ink-muted">
+        Regla práctica de Top Travel Sights: ~€100 por trimestre de GetYourGuide con 25K usuarios/mes. Y Living the
+        Dream: el 90 % de sus US$10.800 viene del blog hiperlocal, no del global. Lo hiperlocal monetiza mejor.
+      </p>
+    </div>
+  </div>
+
+  <!-- 4. Nosotros contra ellos -->
+  <div class="mt-16">
+    <h2 class="font-display text-2xl font-bold text-ink">4. Nosotros contra ellos</h2>
+    <p class="mt-2 max-w-3xl text-ink-muted">
+      Datos nuestros al 17-09-2026: 163 páginas en 5 idiomas, 7 regiones, 19 guías, 2 itinerarios, 32 fotos con
+      crédito, un autor genérico, 11 partners definidos y 0 IDs cargados. Por cada criterio: qué hacen los sitios
+      que rinden, qué tenemos nosotros y un semáforo.
+    </p>
+    <ul class="mt-6 space-y-3">
+      {
+        criteria.map((c) => (
+          <li class="grid gap-3 rounded-card border border-border bg-card p-4 shadow-card md:grid-cols-[1fr_1fr_8rem] md:items-start">
+            <div>
+              <p class="font-display font-bold text-ink">{c.name}</p>
+              <p class="mt-0.5 text-xs font-semibold uppercase tracking-widest text-ink-muted">Los que rinden</p>
+              <p class="mt-0.5 text-sm text-ink">{c.them}</p>
+            </div>
+            <div class="rounded-btn bg-primary-soft p-3">
+              <p class="text-xs font-semibold uppercase tracking-widest text-primary">Nosotros</p>
+              <p class="mt-0.5 text-sm text-ink">{c.us}</p>
+            </div>
+            <div class="flex items-center gap-2 md:justify-end">
+              <span class={`inline-flex items-center gap-2 rounded-full px-3 py-1 text-sm font-bold ${lightTone[c.light].badge}`}>
+                <span class={`h-2.5 w-2.5 rounded-full ${lightTone[c.light].dot}`} aria-hidden="true" />
+                {c.word}
+              </span>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+
+    <div class="mt-8 rounded-card border-2 border-primary bg-primary-soft p-6">
+      <p class="eyebrow">Veredicto</p>
+      <p class="text-ink">{verdict}</p>
+    </div>
+
+    <h3 class="mt-10 font-display text-xl font-bold text-ink">Cinco acciones, en orden</h3>
+    <ol class="mt-4 space-y-3">
+      {
+        actions.map(([h, t], i) => (
+          <li class="flex gap-4 rounded-card border border-border bg-card p-4 shadow-card">
+            <span class="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary font-display text-sm font-bold text-white">{i + 1}</span>
+            <p class="text-ink"><strong>{h}</strong> {t}</p>
+          </li>
+        ))
+      }
+    </ol>
+    <p class="mt-4 max-w-3xl text-sm text-ink-muted">
+      Lo que no vale la pena ahora: fotos propias (ayuda, pero no antes de los IDs), newsletter sin lead magnet,
+      mapa interactivo, más páginas, más idiomas.
+    </p>
+  </div>
+
+  <!-- 5. Informe completo -->
+  <details class="mt-16 rounded-card border border-border bg-card shadow-card">
+    <summary class="cursor-pointer px-5 py-4 font-display text-lg font-bold text-ink">
+      Informe completo (el markdown entero, con todas las tablas)
+    </summary>
+    <div class="prose-content report border-t border-border px-5 py-6">
+      <slot />
+    </div>
+  </details>
+
+  <p class="mt-8 text-xs text-ink-muted">
+    Fuentes: SimilarWeb gratuito (agosto 2026), HypeStat, Semrush donde respondió, y el HTML de cada sitio,
+    consultados el 17-09-2026. Israel Together: copia de Wayback del 07-09-2025, Facebook y prensa, consultados el
+    22-09-2026. Semrush devolvió 404 en casi todos los dominios; ninguna cifra de facturación es real, son
+    estimaciones tráfico × RPM que sirven para comparar, no para planificar.
+  </p>
+</section>
+
+<style>
+  /* El informe completo dentro de <details>: tablas anchas con scroll, sin romper el ancho de la página. */
+  .report :global(h2),
+  .report :global(h3),
+  .report :global(h4) {
+    font-family: var(--font-display);
+    font-weight: 700;
+  }
+  .report :global(h4) {
+    font-size: var(--text-lg);
+    margin-top: 1.4rem;
+  }
+  .report :global(hr) {
+    border: 0;
+    border-top: 1px solid var(--color-border);
+    margin-block: 2rem;
+  }
+  .report :global(table) {
+    display: block;
+    overflow-x: auto;
+    max-width: 100%;
+    font-size: 0.875rem;
+  }
+  .report :global(td),
+  .report :global(th) {
+    min-width: 8rem;
+    vertical-align: top;
+  }
+  .report :global(code) {
+    font-size: 0.85em;
+    background: var(--color-sand-deep);
+    padding: 0.1em 0.3em;
+    border-radius: 4px;
+  }
+  /* Dominios con ruta y URLs largas (títulos 2.x, fuentes): que corten en vez de ensanchar la página. */
+  .report {
+    overflow-wrap: anywhere;
+  }
+</style>

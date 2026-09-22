@@ -1,23 +1,33 @@
 ---
 /**
- * /gestion/competidores — el estudio de mercado de competidores, publicado tal cual
- * está en gestion/auditoria/competidores.md. El markdown es la única fuente: acá no
- * se escribe ni se reescribe nada.
+ * /gestion/competidores — el estudio de mercado de competidores, contado en tarjetas
+ * (CompetidoresPanel.astro, mismo lenguaje visual que /mariluz#numeros) y, al final,
+ * el markdown completo gestion/auditoria/competidores.md dentro de un <details>.
+ *
+ * Los datos del panel salen del markdown; el markdown sigue siendo la fuente.
  *
  * noindex (InternalLayout), fuera del sitemap y del chequeo de huérfanas.
- * La H1 la aporta el propio markdown (el smoke test exige una sola H1).
+ * La H1 la pone el panel; al markdown se le quita su H1 para que haya una sola
+ * (el smoke test exige una sola H1).
  */
 import InternalLayout from '@/layouts/InternalLayout.astro';
-import { Content } from '../../../gestion/auditoria/competidores.md';
+import CompetidoresPanel from '@/components/CompetidoresPanel.astro';
+import { compiledContent } from '../../../gestion/auditoria/competidores.md';
 
 const source =
   'https://github.com/sebastianlevinz-rgb/visitisrael.site/blob/master/gestion/auditoria/competidores.md';
+
+// El markdown abre con "# Competidores — estudio de mercado": se baja a <p> para no duplicar la H1.
+const reportHtml = (await compiledContent()).replace(
+  /^\s*<h1[^>]*>([\s\S]*?)<\/h1>/,
+  '<p class="font-display text-xl font-bold">$1</p>',
+);
 ---
 
 <InternalLayout title="Competidores" documentTitle="Competidores — VisitIsrael">
-  <article class="prose-content mx-auto max-w-5xl">
-    <Content />
-  </article>
+  <CompetidoresPanel>
+    <Fragment set:html={reportHtml} />
+  </CompetidoresPanel>
   <footer class="mx-auto mt-12 max-w-5xl border-t border-border pt-4 text-xs text-ink-muted">
     <p>
       Página interna de visitisrael.site: no aparece en Google ni en el sitemap; cualquiera con el link la puede ver.
@@ -25,45 +35,3 @@ const source =
     </p>
   </footer>
 </InternalLayout>
-
-<style>
-  /* La H1 viene del markdown; el layout interno no la estiliza. */
-  article :global(h1) {
-    font-family: var(--font-display);
-    font-size: var(--text-3xl);
-    font-weight: 700;
-    line-height: 1.2;
-  }
-  article :global(h2),
-  article :global(h3),
-  article :global(h4) {
-    font-family: var(--font-display);
-    font-weight: 700;
-  }
-  article :global(h4) {
-    font-size: var(--text-lg);
-    margin-top: 1.4rem;
-  }
-  article :global(hr) {
-    border: 0;
-    border-top: 1px solid var(--color-border);
-    margin-block: 2rem;
-  }
-  /* Tablas anchas (comparativas): scroll horizontal, sin forzar una sola línea por celda. */
-  article :global(table) {
-    display: block;
-    overflow-x: auto;
-    font-size: 0.875rem;
-  }
-  article :global(td),
-  article :global(th) {
-    min-width: 8rem;
-    vertical-align: top;
-  }
-  article :global(code) {
-    font-size: 0.85em;
-    background: var(--color-sand-deep);
-    padding: 0.1em 0.3em;
-    border-radius: 4px;
-  }
-</style>
