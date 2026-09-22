@@ -32,11 +32,73 @@ const guideTitle = (slug: string) => {
   const entry = guides.find((g) => g.id === entryIdFor(locale, slug));
   return entry?.data.title.split(':')[0] ?? slug;
 };
+/**
+ * Editorial copy per locale: an intro that explains how the hub is organised and a
+ * one-line note under each group saying what that group settles. Links remain
+ * PAGE_GROUPS' job; the intro only names the groups and the itineraries/regions.
+ */
+const COPY: Record<Locale, { intro: string; notes: Record<'practical' | 'stay' | 'tours', string> }> = {
+  en: {
+    intro:
+      'This is the hub for planning a trip to Israel: every guide on the site, sorted by the question it answers. Start with the practical guides if you are still deciding — whether you need a visa, when to go, how safe it feels on the ground and whether a rental car is worth it. Move to Where to stay once your dates are fixed: neighbourhood-by-neighbourhood hotel picks for Jerusalem, Tel Aviv, the Dead Sea and Eilat, chosen for location rather than star count. The tours and day trips section compares the guided options for the places that are hard to do alone — Masada at sunrise, Bethlehem, Petra, the Galilee — with honest notes on when a tour is worth it and when a bus or a rental car does the job. If you would rather follow a plan, the two itineraries string all of this together over 7 or 10 days, and the seven region pages go deep on each part of the country. Booking links on these pages are affiliate links, always labelled; they never change our picks.',
+    notes: {
+      practical:
+        'The decisions to make before you book anything: entry rules, season, safety on the ground and whether to drive.',
+      stay: 'Where to base yourself in the four places most visitors sleep, by neighbourhood and trip style — no star ratings, no invented review counts.',
+      tours:
+        'Guided options compared for the sites that are hard to reach or understand on your own, with a plain verdict on when a tour pays off.',
+    },
+  },
+  fr: {
+    intro:
+      "C'est ici que se prépare un voyage en Israël : tous les guides du site, classés selon la question à laquelle ils répondent. Commencez par les guides pratiques si vous hésitez encore — faut-il un visa, quand partir, quel est le sentiment de sécurité sur place et une voiture de location vaut-elle la peine. Passez à Où dormir une fois vos dates fixées : des sélections d'hôtels quartier par quartier pour Jérusalem, Tel Aviv, la mer Morte et Eilat, choisies pour leur emplacement plutôt que pour leur nombre d'étoiles. La section circuits et excursions compare les options guidées pour les lieux difficiles à visiter seul — Massada à l'aube, Bethléem, Pétra, la Galilée — avec des remarques honnêtes sur les cas où un circuit se justifie et ceux où un bus ou une voiture suffit. Si vous préférez suivre un plan, les deux itinéraires enchaînent tout cela sur 7 ou 10 jours, et les sept pages de région approfondissent chaque partie du pays. Les liens de réservation sont des liens d'affiliation, toujours signalés ; ils n'influencent jamais nos choix.",
+    notes: {
+      practical:
+        "Les décisions à prendre avant de réserver quoi que ce soit : formalités d'entrée, saison, sécurité sur place et conduite ou non.",
+      stay: "Où poser vos valises dans les quatre lieux où dorment la plupart des visiteurs, par quartier et par style de voyage — sans étoiles ni nombre d'avis inventés.",
+      tours:
+        'Les options guidées comparées pour les sites difficiles à atteindre ou à comprendre seul, avec un verdict clair sur les cas où un circuit vaut son prix.',
+    },
+  },
+  de: {
+    intro:
+      'Hier wird eine Israel-Reise geplant: alle Reiseführer der Seite, sortiert nach der Frage, die sie beantworten. Beginnen Sie mit den praktischen Reiseführern, wenn Sie noch überlegen — ob Sie ein Visum brauchen, wann Sie reisen sollten, wie sicher es sich vor Ort anfühlt und ob sich ein Mietwagen lohnt. Wechseln Sie zu Unterkunft, sobald die Termine stehen: Hotelempfehlungen Viertel für Viertel für Jerusalem, Tel Aviv, das Tote Meer und Eilat, ausgewählt nach Lage statt nach Sternen. Der Bereich Touren und Tagesausflüge vergleicht die geführten Angebote für Orte, die allein schwer zu machen sind — Masada bei Sonnenaufgang, Bethlehem, Petra, Galiläa — mit ehrlichen Hinweisen, wann sich eine Tour lohnt und wann Bus oder Mietwagen reichen. Wer lieber einem Plan folgt: Die beiden Reiserouten verbinden all das über 7 oder 10 Tage, und die sieben Regionsseiten gehen bei jedem Landesteil in die Tiefe. Buchungslinks auf diesen Seiten sind Affiliate-Links, immer gekennzeichnet; sie ändern nie unsere Auswahl.',
+    notes: {
+      practical:
+        'Die Entscheidungen vor jeder Buchung: Einreiseregeln, Reisezeit, Sicherheit vor Ort und ob Sie selbst fahren.',
+      stay: 'Wo Sie in den vier Orten übernachten, in denen die meisten Besucher schlafen — nach Viertel und Reisestil, ohne Sterne und erfundene Bewertungszahlen.',
+      tours:
+        'Geführte Angebote im Vergleich für Orte, die allein schwer zu erreichen oder zu verstehen sind, mit klarem Urteil, wann sich eine Tour auszahlt.',
+    },
+  },
+  es: {
+    intro:
+      'Este es el punto de partida para planificar un viaje a Israel: todas las guías del sitio, ordenadas según la pregunta que responden. Empieza por las guías prácticas si todavía estás decidiendo — si necesitas visado, cuándo ir, cómo se siente la seguridad sobre el terreno y si merece la pena alquilar coche. Pasa a Dónde dormir cuando tengas las fechas: selecciones de hoteles barrio por barrio para Jerusalén, Tel Aviv, el Mar Muerto y Eilat, elegidas por su ubicación y no por las estrellas. La sección de tours y excursiones compara las opciones guiadas para los lugares que cuesta hacer por tu cuenta — Masada al amanecer, Belén, Petra, Galilea — con notas honestas sobre cuándo compensa un tour y cuándo basta un autobús o un coche de alquiler. Si prefieres seguir un plan, los dos itinerarios encadenan todo esto en 7 o 10 días, y las siete páginas de región profundizan en cada parte del país. Los enlaces de reserva son enlaces de afiliado, siempre señalados; nunca cambian nuestras recomendaciones.',
+    notes: {
+      practical:
+        'Las decisiones que van antes de reservar nada: requisitos de entrada, temporada, seguridad sobre el terreno y si conducir o no.',
+      stay: 'Dónde alojarte en los cuatro lugares donde duerme la mayoría de los visitantes, por barrio y estilo de viaje — sin estrellas ni cifras de reseñas inventadas.',
+      tours:
+        'Opciones guiadas comparadas para los sitios difíciles de alcanzar o de entender por tu cuenta, con un veredicto claro sobre cuándo compensa un tour.',
+    },
+  },
+  he: {
+    intro:
+      'כאן מתכננים טיול בישראל: כל המדריכים באתר, מסודרים לפי השאלה שהם עונים עליה. התחילו במדריכים המעשיים אם אתם עדיין מתלבטים — האם צריך ויזה, מתי לצאת, מה תחושת הביטחון בשטח והאם שווה לשכור רכב. עברו ל״איפה לישון״ ברגע שהתאריכים סגורים: המלצות מלונות שכונה אחר שכונה לירושלים, תל אביב, ים המלח ואילת, שנבחרו לפי מיקום ולא לפי מספר כוכבים. מדור הסיורים וטיולי היום משווה בין האפשרויות המודרכות לאתרים שקשה לעשות לבד — מצדה בזריחה, בית לחם, פטרה, הגליל — עם הערות כנות על מתי סיור מודרך שווה את זה ומתי אוטובוס או רכב שכור מספיקים. אם אתם מעדיפים ללכת לפי תוכנית, שני המסלולים מחברים את כל זה ל-7 או 10 ימים, ושבעת עמודי האזורים מעמיקים בכל חלק של הארץ. קישורי ההזמנה בעמודים האלה הם קישורי שותפים, תמיד מסומנים; הם לעולם לא משנים את הבחירות שלנו.',
+    notes: {
+      practical: 'ההחלטות שבאות לפני שמזמינים משהו: תנאי כניסה, עונה, ביטחון בשטח והאם לנהוג בעצמכם.',
+      stay: 'איפה להתבסס בארבעת המקומות שבהם ישנים רוב המבקרים, לפי שכונה וסגנון טיול — בלי כוכבים ובלי מספרי ביקורות מומצאים.',
+      tours: 'השוואה בין האפשרויות המודרכות לאתרים שקשה להגיע אליהם או להבין אותם לבד, עם שורה תחתונה ברורה מתי סיור משתלם.',
+    },
+  },
+};
+const copy = COPY[locale];
+
 const groups = [
-  { id: 'practical', heading: t('plan.practicalHeading'), pages: PAGE_GROUPS.practical },
-  { id: 'stay', heading: t('plan.stayHeading'), pages: PAGE_GROUPS.stay },
-  { id: 'tours', heading: t('plan.toursHeading'), pages: PAGE_GROUPS.tours },
-];
+  { id: 'practical', heading: t('plan.practicalHeading'), note: copy.notes.practical, pages: PAGE_GROUPS.practical },
+  { id: 'stay', heading: t('plan.stayHeading'), note: copy.notes.stay, pages: PAGE_GROUPS.stay },
+  { id: 'tours', heading: t('plan.toursHeading'), note: copy.notes.tours, pages: PAGE_GROUPS.tours },
+] as const;
 
 const itineraries = (await getCollection('itineraries'))
   .filter((e) => splitEntryId(e.id).locale === locale)
@@ -61,12 +123,17 @@ const itineraryId = (id: string) => splitEntryId(id).slug;
   />
   <Breadcrumbs items={crumbs} />
 
+  <section class="mx-auto max-w-3xl px-4 pt-10">
+    <p class="text-lg leading-relaxed text-ink">{copy.intro}</p>
+  </section>
+
   {
     groups.map((g) => (
       <section class="mx-auto max-w-6xl px-4 pt-10" aria-labelledby={`plan-${g.id}`}>
-        <h2 id={`plan-${g.id}`} class="mb-5 font-display text-3xl font-bold text-ink">
+        <h2 id={`plan-${g.id}`} class="font-display text-3xl font-bold text-ink">
           {g.heading}
         </h2>
+        <p class="mb-5 mt-2 max-w-3xl text-ink-muted">{g.note}</p>
         <div class="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {g.pages.map((p) => (
             <a

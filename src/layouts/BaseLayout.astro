@@ -8,6 +8,14 @@ import { organization, website } from '@/lib/schema';
 import { getLocaleFromPath, ogLocale, textDirection, useTranslations, type Locale } from '@/i18n/ui';
 import Analytics from '@vercel/analytics/astro';
 import SpeedInsights from '@vercel/speed-insights/astro';
+// Hashed URLs of the two fonts every page paints above the fold (hero title +
+// subtitle). Preloading them gets the woff2 in before first paint on most
+// connections, so the swap from the metric-matched fallback (global.css) is
+// invisible. Same content hash as the url() Vite writes in the CSS bundle.
+import playfairBoldUrl from '@fontsource/playfair-display/files/playfair-display-latin-700-normal.woff2?url';
+import sourceSansUrl from '@fontsource-variable/source-sans-3/files/source-sans-3-latin-wght-normal.woff2?url';
+import frankRuhlUrl from '@fontsource-variable/frank-ruhl-libre/files/frank-ruhl-libre-hebrew-wght-normal.woff2?url';
+import heeboUrl from '@fontsource-variable/heebo/files/heebo-hebrew-wght-normal.woff2?url';
 
 export interface Props {
   title: string;
@@ -62,6 +70,9 @@ const lcpAvif = /\.jpe?g$/i.test(image)
   ? image.replace(/\.jpe?g$/i, '.avif')
   : image;
 const year = new Date().getFullYear();
+// Hebrew pages render the hero in Frank Ruhl Libre + Heebo; the others in
+// Playfair + Source Sans. Only the pair actually used above the fold is preloaded.
+const fontPreloads = locale === 'he' ? [frankRuhlUrl, heeboUrl] : [playfairBoldUrl, sourceSansUrl];
 
 // Organization + WebSite emitted once, sitewide — the publisher entity that
 // grounds every Article's {'@id'} reference and powers the sitelinks searchbox.
@@ -82,6 +93,10 @@ const siteSchema = noindex ? [] : [organization(), website()];
       ))
     }
     {noindex && <meta name="robots" content="noindex, nofollow" />}
+
+    <!-- Above-the-fold fonts (title + body), so the swap from the metric-matched
+         fallback happens before first paint whenever the network allows. -->
+    {fontPreloads.map((href) => <link rel="preload" as="font" type="font/woff2" href={href} crossorigin />)}
 
     <!-- Preload the LCP hero (AVIF) — same image the <Hero> renders above the fold. -->
     <link

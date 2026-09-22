@@ -14,6 +14,73 @@
 @import '@fontsource-variable/heebo';
 
 /*
+ * Metric-matched fallbacks (CLS fix, 2026-09-22). The fontsource faces use
+ * font-display: swap, so the first paint is in a local serif/sans and the text
+ * reflows when the woff2 lands: the hero title, anchored to the bottom of the
+ * photo, jumped by CLS 0.13–0.18 on mobile. These faces wrap the local fonts
+ * with size-adjust (average advance width ratio, Latin letter frequencies) and
+ * Playfair's / Source Sans's own vertical metrics, so the fallback lays out on
+ * the same line breaks as the real font. A face whose local() source is not
+ * installed is skipped and matching falls through to the next family, so each
+ * platform gets its own ratio. Measured with fontkit/fontTools from the files
+ * in node_modules and C:\Windows\Fonts.
+ */
+@font-face {
+  font-family: 'Playfair Display Fallback Georgia';
+  src: local('Georgia Bold'), local('Georgia-Bold');
+  font-weight: 600 700;
+  size-adjust: 89.64%;
+  ascent-override: 108.2%;
+  descent-override: 25.1%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Playfair Display Fallback Times';
+  src: local('Times New Roman Bold'), local('TimesNewRomanPS-BoldMT');
+  font-weight: 600 700;
+  size-adjust: 108.06%;
+  ascent-override: 108.2%;
+  descent-override: 25.1%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Source Sans 3 Fallback';
+  src: local('Arial'), local('ArialMT');
+  font-weight: 100 450;
+  size-adjust: 94.72%;
+  ascent-override: 102.4%;
+  descent-override: 40%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Source Sans 3 Fallback';
+  src: local('Arial'), local('ArialMT');
+  font-weight: 451 599;
+  size-adjust: 96.15%;
+  ascent-override: 102.4%;
+  descent-override: 40%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Source Sans 3 Fallback';
+  src: local('Arial Bold'), local('Arial-BoldMT');
+  font-weight: 600 650;
+  size-adjust: 90.11%;
+  ascent-override: 102.4%;
+  descent-override: 40%;
+  line-gap-override: 0%;
+}
+@font-face {
+  font-family: 'Source Sans 3 Fallback';
+  src: local('Arial Bold'), local('Arial-BoldMT');
+  font-weight: 651 900;
+  size-adjust: 91.4%;
+  ascent-override: 102.4%;
+  descent-override: 40%;
+  line-gap-override: 0%;
+}
+
+/*
  * Visit Israel design system — editorial travel-magazine aesthetic.
  * Tailwind v4 @theme: each token below generates utilities
  * (e.g. --color-sand → bg-sand/text-sand; --font-display → font-display).
@@ -37,8 +104,10 @@
   --color-gold-deep: #a9883a;
 
   /* Typography: serif display + legible humanist sans */
-  --font-display: 'Playfair Display', ui-serif, Georgia, serif;
-  --font-body: 'Source Sans 3 Variable', ui-sans-serif, system-ui, sans-serif;
+  /* The "Fallback" families are the metric-matched local faces declared above. */
+  --font-display: 'Playfair Display', 'Playfair Display Fallback Georgia', 'Playfair Display Fallback Times',
+    ui-serif, Georgia, serif;
+  --font-body: 'Source Sans 3 Variable', 'Source Sans 3 Fallback', ui-sans-serif, system-ui, sans-serif;
 
   /* Generous editorial radii + soft shadows */
   --radius-card: 1rem;

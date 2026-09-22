@@ -1,0 +1,349 @@
+---
+/**
+ * Locale-aware itineraries index, rendered by src/pages/itineraries/index.astro and
+ * src/pages/{fr,de,es,he}/itineraries/index.astro. One template for the five
+ * locales: hero, the itinerary cards from the collection, a "7 or 10 days" guide
+ * (how to choose, rhythm, where to start, when to go) and three FAQs with FAQPage
+ * schema via FaqSection. The copy below is editorial, written per locale; the facts
+ * come from src/content/itineraries (no prices, no invented figures).
+ */
+import { getCollection } from 'astro:content';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import Hero from '@/components/Hero.astro';
+import Breadcrumbs from '@/components/Breadcrumbs.astro';
+import FaqSection from '@/components/FaqSection.astro';
+import { useTranslations, pageAlternates, localeHome, localePrefix, splitEntryId, type Locale } from '@/i18n/ui';
+import type { Faq } from '@/lib/schema';
+
+interface Props {
+  locale: Locale;
+}
+const { locale } = Astro.props;
+const t = useTranslations(locale);
+const prefix = localePrefix(locale);
+const path = `${prefix}/itineraries`;
+
+const itineraries = (await getCollection('itineraries'))
+  .filter((e) => splitEntryId(e.id).locale === locale)
+  .sort((a, b) => (a.data.days ?? 0) - (b.data.days ?? 0));
+
+const seven = `${prefix}/itineraries/7-days-in-israel`;
+const ten = `${prefix}/itineraries/10-days-in-israel`;
+const bestTime = `${prefix}/best-time-to-visit-israel`;
+const firstTime = `${prefix}/first-time-in-israel`;
+const a = (href: string, text: string) => `<a href="${href}">${text}</a>`;
+/** Bold link, as the closing paragraph always had it. */
+const b = (href: string, text: string) => `<a href="${href}" class="font-semibold text-primary">${text}</a>`;
+
+interface Copy {
+  title: string;
+  description: string;
+  heroTitle: string;
+  heroSubtitle: string;
+  heroAlt: string;
+  crumb: string;
+  intro: string;
+  daysLabel: string;
+  chooseHeading: string;
+  /** Paragraphs may carry <a> tags built with a(); rendered with set:html. */
+  chooseIntro: string;
+  blocks: { heading: string; text: string }[];
+  faqs: Faq[];
+  outro: string;
+}
+
+const COPY: Record<Locale, Copy> = {
+  en: {
+    title: 'Israel Itineraries: 7 & 10-Day Routes',
+    description:
+      'Ready-made Israel travel itineraries — a classic 7-day first trip and a 10-day route that adds the north and the desert, with tours, hotels and transport.',
+    heroTitle: 'Israel Itineraries',
+    heroSubtitle: 'Day-by-day routes for first-time visitors and return trips.',
+    heroAlt: 'Jerusalem Old City — start of many Israel itineraries',
+    crumb: 'Itineraries',
+    intro:
+      "Not sure how to string Israel together? These itineraries do the routing for you — each balances the must-see sights with realistic travel times, and links straight to the tours, hotels and transport you'll need.",
+    daysLabel: 'days',
+    chooseHeading: '7 or 10 days: how to choose',
+    chooseIntro: `The two routes cover the same core — Jerusalem, the Dead Sea and Tel Aviv — and differ in how far they reach beyond it. The ${a(seven, '7-day itinerary')} is the classic first trip: three nights in Jerusalem, three in Tel Aviv, a Masada and Dead Sea day and one day in the north, all by train and guided day trips with no rental car. The ${a(ten, '10-day itinerary')} loops the whole country, from the northern coast, the Galilee and the Golan down to Jerusalem, the Dead Sea and Eilat, and ends with a Petra day trip across the Jordanian border. Pick 7 days if you want two bases and no driving; pick 10 if you want the north and the Red Sea as well.`,
+    blocks: [
+      {
+        heading: 'The rhythm of each route',
+        text: 'Seven days moves at a city pace: long walking days in the Old City and Tel Aviv, broken by one early start for sunrise at Masada. Ten days changes gear halfway — the northern loop is a road trip where a car makes sense for days 3 to 5, and the south is best reached by a domestic flight to Eilat rather than a long drive. Both plans are built around Shabbat: from Friday afternoon to Saturday evening trains pause and most shops close, so a beach, desert or driving day is slotted there.',
+      },
+      {
+        heading: 'Where to start',
+        text: "Every route starts and ends at Ben Gurion Airport (TLV). The train reaches Jerusalem in about 30 minutes and Tel Aviv in about 20, so your first night can be in either city; the 7-day plan opens in Jerusalem, the 10-day plan in Tel Aviv. You don't need to book a transfer in advance except on Shabbat, when a shared taxi (sherut) replaces the train.",
+      },
+      {
+        heading: 'When to go',
+        text: `Spring (March–May) and autumn (September–November) give mild weather everywhere from the Galilee to the Negev. Summer is very hot in Jerusalem, the Dead Sea and Eilat, and winter brings rain to the north. Check the Jewish holiday calendar before fixing dates: Passover and the autumn High Holidays bring closures and higher hotel prices, while the weeks just after them are quiet. The ${a(bestTime, 'best time to visit guide')} has the month-by-month detail.`,
+      },
+    ],
+    faqs: [
+      {
+        question: 'Can I do either itinerary without a rental car?',
+        answer:
+          'The 7-day route, yes: trains link the airport, Jerusalem and Tel Aviv, and the Dead Sea and northern days work as guided day trips. The 10-day route is easier with a car for the Galilee and Golan days, where sights are spread out and buses are sparse; the rest runs on trains, taxis and tours.',
+      },
+      {
+        question: 'Should I start in Jerusalem or Tel Aviv?',
+        answer:
+          'Either works from Ben Gurion. Starting in Jerusalem puts the most intense sightseeing first, while you are fresh, and leaves the beach for the end; starting in Tel Aviv gives a gentler landing and sets up the northern loop. Our 7-day plan opens in Jerusalem, the 10-day plan in Tel Aviv.',
+      },
+      {
+        question: 'Which itinerary is better for a first visit?',
+        answer:
+          'Seven days if you have one week or want to avoid driving: it covers everything most first-time visitors come for. Ten days if you can spare the extra time, because it adds the north, Eilat and Petra without rushing the core. Both can be trimmed or extended — each page suggests variations.',
+      },
+    ],
+    outro: `More routes are being added regularly. In the meantime, browse the ${b(localeHome('en'), '7 regions')} or start with our ${b(firstTime, 'first-time guide')}.`,
+  },
+  fr: {
+    title: 'Itinéraires Israël : routes de 7 et 10 jours',
+    description:
+      'Itinéraires Israël clés en main : un premier voyage de 7 jours et une route de 10 jours avec le nord et le désert, circuits, hébergements et transports.',
+    heroTitle: 'Itinéraires Israël',
+    heroSubtitle: 'Routes jour par jour pour les premiers visiteurs et les voyageurs confirmés.',
+    heroAlt: 'Vieille Ville de Jérusalem — point de départ de nombreux itinéraires en Israël',
+    crumb: 'Itinéraires',
+    intro:
+      'Vous ne savez pas comment organiser votre voyage en Israël ? Ces itinéraires font le travail à votre place — chacun équilibre les incontournables avec des temps de trajet réalistes et propose directement les circuits, hôtels et transports dont vous aurez besoin.',
+    daysLabel: 'jours',
+    chooseHeading: '7 ou 10 jours : comment choisir',
+    chooseIntro: `Les deux routes couvrent le même noyau — Jérusalem, la mer Morte et Tel Aviv — et diffèrent par ce qu'elles ajoutent autour. L'${a(seven, 'itinéraire de 7 jours')} est le premier voyage classique : trois nuits à Jérusalem, trois à Tel Aviv, une journée à Massada et à la mer Morte et une journée dans le nord, le tout en train et en excursions guidées, sans voiture de location. L'${a(ten, 'itinéraire de 10 jours')} fait le tour du pays, de la côte nord, la Galilée et le Golan jusqu'à Jérusalem, la mer Morte et Eilat, et se termine par une excursion d'une journée à Pétra, de l'autre côté de la frontière jordanienne. Choisissez 7 jours pour deux bases et zéro conduite ; choisissez 10 jours pour ajouter le nord et la mer Rouge.`,
+    blocks: [
+      {
+        heading: 'Le rythme de chaque route',
+        text: "Sept jours se vivent au rythme de la ville : de longues journées à pied dans la Vieille Ville et à Tel Aviv, coupées par un seul réveil très matinal pour l'aube à Massada. Dix jours changent de cadence à mi-parcours — la boucle du nord est un road trip où une voiture se justifie pour les jours 3 à 5, et le sud se rejoint mieux par un vol intérieur vers Eilat que par une longue route. Les deux plans tiennent compte du Shabbat : du vendredi après-midi au samedi soir, les trains s'arrêtent et la plupart des commerces ferment, donc une journée de plage, de désert ou de route y est placée.",
+      },
+      {
+        heading: 'Par où commencer',
+        text: "Chaque route commence et se termine à l'aéroport Ben Gourion (TLV). Le train rejoint Jérusalem en 30 minutes environ et Tel Aviv en 20, votre première nuit peut donc être dans l'une ou l'autre ville ; le plan de 7 jours s'ouvre à Jérusalem, celui de 10 jours à Tel Aviv. Inutile de réserver un transfert à l'avance, sauf pendant le Shabbat, où un taxi collectif (sherout) remplace le train.",
+      },
+      {
+        heading: 'Quand partir',
+        text: `Le printemps (mars–mai) et l'automne (septembre–novembre) offrent un temps doux partout, de la Galilée au Néguev. L'été est très chaud à Jérusalem, à la mer Morte et à Eilat, et l'hiver apporte la pluie dans le nord. Vérifiez le calendrier des fêtes juives avant de fixer vos dates : Pessah et les grandes fêtes d'automne entraînent des fermetures et des hôtels plus chers, tandis que les semaines qui les suivent sont calmes. Le ${a(bestTime, 'guide de la meilleure période')} détaille chaque mois.`,
+      },
+    ],
+    faqs: [
+      {
+        question: "Peut-on faire l'un ou l'autre itinéraire sans voiture de location ?",
+        answer:
+          "Celui de 7 jours, oui : le train relie l'aéroport, Jérusalem et Tel Aviv, et les journées mer Morte et nord se font en excursion guidée. Celui de 10 jours est plus simple avec une voiture pour les jours en Galilée et sur le Golan, où les sites sont dispersés et les bus rares ; le reste se fait en train, en taxi et en circuits.",
+      },
+      {
+        question: 'Faut-il commencer par Jérusalem ou par Tel Aviv ?',
+        answer:
+          "Les deux fonctionnent depuis Ben Gourion. Commencer par Jérusalem place les visites les plus intenses en premier, quand vous êtes frais, et garde la plage pour la fin ; commencer par Tel Aviv offre un atterrissage plus doux et prépare la boucle du nord. Notre plan de 7 jours s'ouvre à Jérusalem, celui de 10 jours à Tel Aviv.",
+      },
+      {
+        question: 'Quel itinéraire convient le mieux à un premier voyage ?',
+        answer:
+          "Sept jours si vous disposez d'une semaine ou souhaitez éviter de conduire : il couvre tout ce que la plupart des premiers visiteurs viennent voir. Dix jours si vous avez le temps, car il ajoute le nord, Eilat et Pétra sans précipiter le cœur du voyage. Chacun se raccourcit ou s'allonge — chaque page propose des variantes.",
+      },
+    ],
+    outro: `D'autres routes sont ajoutées régulièrement. En attendant, parcourez les ${b(localeHome('fr'), '7 régions')} ou commencez par notre ${b(firstTime, 'guide du premier voyage')}.`,
+  },
+  de: {
+    title: 'Israel-Reisepläne: 7- und 10-Tage-Routen',
+    description:
+      'Fertige Israel-Reisepläne — eine klassische 7-tägige erste Reise und eine 10-Tage-Route mit dem Norden und der Wüste, mit Touren, Hotels und Transport.',
+    heroTitle: 'Israel-Reisepläne',
+    heroSubtitle: 'Tagesweise Routen für Erstbesucher und erfahrene Reisende.',
+    heroAlt: 'Altstadt Jerusalem — Ausgangspunkt vieler Israel-Reisepläne',
+    crumb: 'Reisepläne',
+    intro:
+      'Unsicher, wie Sie Israel zusammenstellen sollen? Diese Reisepläne übernehmen die Routenplanung für Sie — jeder balanciert die Must-See-Sehenswürdigkeiten mit realistischen Fahrzeiten und verlinkt direkt auf Touren, Hotels und Transport, die Sie benötigen.',
+    daysLabel: 'Tage',
+    chooseHeading: '7 oder 10 Tage: So wählen Sie',
+    chooseIntro: `Beide Routen decken denselben Kern ab — Jerusalem, das Tote Meer und Tel Aviv — und unterscheiden sich darin, wie weit sie darüber hinausgehen. Die ${a(seven, '7-Tage-Route')} ist die klassische erste Reise: drei Nächte in Jerusalem, drei in Tel Aviv, ein Tag für Masada und das Tote Meer und ein Tag im Norden, alles mit Zug und geführten Tagesausflügen, ohne Mietwagen. Die ${a(ten, '10-Tage-Route')} umrundet das ganze Land, von der Nordküste, Galiläa und dem Golan hinunter nach Jerusalem, zum Toten Meer und nach Eilat, und endet mit einem Tagesausflug nach Petra über die jordanische Grenze. Wählen Sie 7 Tage, wenn Sie zwei Standorte und kein Fahren wollen; wählen Sie 10, wenn der Norden und das Rote Meer dazugehören sollen.`,
+    blocks: [
+      {
+        heading: 'Der Rhythmus der beiden Routen',
+        text: 'Sieben Tage laufen im Stadttempo: lange Tage zu Fuß in der Altstadt und in Tel Aviv, unterbrochen von einem einzigen frühen Start für den Sonnenaufgang auf Masada. Zehn Tage wechseln auf halber Strecke den Gang — die Nordschleife ist ein Roadtrip, bei dem sich ein Auto für die Tage 3 bis 5 lohnt, und der Süden ist per Inlandsflug nach Eilat besser zu erreichen als über die lange Straße. Beide Pläne sind um den Schabbat herum gebaut: von Freitagnachmittag bis Samstagabend pausieren die Züge und die meisten Geschäfte schließen, also liegt dort ein Strand-, Wüsten- oder Fahrtag.',
+      },
+      {
+        heading: 'Wo Sie beginnen',
+        text: 'Jede Route beginnt und endet am Flughafen Ben Gurion (TLV). Der Zug erreicht Jerusalem in etwa 30 Minuten und Tel Aviv in etwa 20, die erste Nacht kann also in beiden Städten liegen; der 7-Tage-Plan startet in Jerusalem, der 10-Tage-Plan in Tel Aviv. Ein Transfer muss nicht vorab gebucht werden — außer am Schabbat, wenn ein Sammeltaxi (Sherut) den Zug ersetzt.',
+      },
+      {
+        heading: 'Wann reisen',
+        text: `Frühling (März–Mai) und Herbst (September–November) bringen überall mildes Wetter, von Galiläa bis in den Negev. Der Sommer ist in Jerusalem, am Toten Meer und in Eilat sehr heiß, der Winter bringt Regen in den Norden. Prüfen Sie den jüdischen Feiertagskalender, bevor Sie Termine festlegen: Pessach und die Hohen Feiertage im Herbst bedeuten Schließungen und teurere Hotels, die Wochen direkt danach sind ruhig. Der ${a(bestTime, 'Reiseführer zur besten Reisezeit')} hat die Details Monat für Monat.`,
+      },
+    ],
+    faqs: [
+      {
+        question: 'Geht eine der beiden Routen ohne Mietwagen?',
+        answer:
+          'Die 7-Tage-Route ja: Züge verbinden Flughafen, Jerusalem und Tel Aviv, und die Tage am Toten Meer und im Norden funktionieren als geführte Tagesausflüge. Die 10-Tage-Route ist mit Auto für die Tage in Galiläa und auf dem Golan einfacher, wo die Sehenswürdigkeiten verstreut liegen und Busse selten fahren; der Rest läuft mit Zug, Taxi und Touren.',
+      },
+      {
+        question: 'Soll ich in Jerusalem oder in Tel Aviv anfangen?',
+        answer:
+          'Beides klappt ab Ben Gurion. Wer in Jerusalem beginnt, hat das intensivste Programm zuerst, solange man noch frisch ist, und den Strand zum Schluss; wer in Tel Aviv beginnt, landet sanfter und bereitet die Nordschleife vor. Unser 7-Tage-Plan startet in Jerusalem, der 10-Tage-Plan in Tel Aviv.',
+      },
+      {
+        question: 'Welche Route passt besser zur ersten Reise?',
+        answer:
+          'Sieben Tage, wenn Sie eine Woche haben oder nicht fahren möchten: Sie decken alles ab, wofür die meisten Erstbesucher kommen. Zehn Tage, wenn Sie die Zeit haben, denn sie ergänzen den Norden, Eilat und Petra, ohne den Kern zu hetzen. Beide lassen sich kürzen oder verlängern — jede Seite schlägt Varianten vor.',
+      },
+    ],
+    outro: `Weitere Routen werden regelmäßig hinzugefügt. In der Zwischenzeit erkunden Sie die ${b(localeHome('de'), '7 Regionen')} oder beginnen mit unserem ${b(firstTime, 'Erstbesuch-Leitfaden')}.`,
+  },
+  es: {
+    title: 'Itinerarios por Israel: rutas de 7 y 10 días',
+    description:
+      'Itinerarios listos para Israel — un primer viaje clásico de 7 días y una ruta de 10 días que suma el norte y el desierto, con tours, hoteles y transporte.',
+    heroTitle: 'Itinerarios por Israel',
+    heroSubtitle: 'Rutas día a día para primeros visitantes y viajeros con experiencia.',
+    heroAlt: 'Ciudad Antigua de Jerusalén — punto de partida de muchos itinerarios por Israel',
+    crumb: 'Itinerarios',
+    intro:
+      '¿No sabes cómo organizar tu viaje a Israel? Estos itinerarios hacen la planificación por ti — cada uno equilibra los imprescindibles con tiempos de traslado realistas, y enlaza directamente a los tours, hoteles y transporte que necesitas.',
+    daysLabel: 'días',
+    chooseHeading: '¿7 o 10 días? Cómo elegir',
+    chooseIntro: `Las dos rutas cubren el mismo núcleo — Jerusalén, el Mar Muerto y Tel Aviv — y se diferencian en hasta dónde llegan más allá. El ${a(seven, 'itinerario de 7 días')} es el primer viaje clásico: tres noches en Jerusalén, tres en Tel Aviv, un día en Masada y el Mar Muerto y un día en el norte, todo en tren y excursiones guiadas, sin coche de alquiler. El ${a(ten, 'itinerario de 10 días')} recorre el país entero, desde la costa norte, Galilea y el Golán hasta Jerusalén, el Mar Muerto y Eilat, y termina con una excursión de un día a Petra cruzando la frontera jordana. Elige 7 días si quieres dos bases y nada de conducir; elige 10 si también quieres el norte y el Mar Rojo.`,
+    blocks: [
+      {
+        heading: 'El ritmo de cada ruta',
+        text: 'Siete días van a ritmo de ciudad: jornadas largas a pie por la Ciudad Vieja y Tel Aviv, con un único madrugón para ver el amanecer en Masada. Diez días cambian de marcha a mitad de camino — el bucle del norte es un viaje por carretera donde el coche tiene sentido para los días 3 a 5, y al sur conviene llegar en vuelo interno a Eilat antes que por una carretera larga. Los dos planes están construidos alrededor del Shabat: desde el viernes por la tarde hasta el sábado por la noche los trenes se detienen y la mayoría de los comercios cierran, así que ahí se coloca un día de playa, desierto o carretera.',
+      },
+      {
+        heading: 'Desde dónde empezar',
+        text: 'Todas las rutas empiezan y terminan en el aeropuerto Ben Gurión (TLV). El tren llega a Jerusalén en unos 30 minutos y a Tel Aviv en unos 20, así que la primera noche puede ser en cualquiera de las dos ciudades; el plan de 7 días abre en Jerusalén y el de 10 en Tel Aviv. No hace falta reservar traslado con antelación, salvo en Shabat, cuando un taxi compartido (sherut) sustituye al tren.',
+      },
+      {
+        heading: 'Cuándo ir',
+        text: `La primavera (marzo–mayo) y el otoño (septiembre–noviembre) dan un clima suave en todo el país, de Galilea al Néguev. El verano es muy caluroso en Jerusalén, el Mar Muerto y Eilat, y el invierno trae lluvia al norte. Consulta el calendario de festividades judías antes de fijar fechas: Pésaj y las Grandes Fiestas de otoño traen cierres y hoteles más caros, mientras que las semanas justo después son tranquilas. La ${a(bestTime, 'guía de la mejor época para viajar')} tiene el detalle mes a mes.`,
+      },
+    ],
+    faqs: [
+      {
+        question: '¿Se puede hacer alguno de los itinerarios sin coche de alquiler?',
+        answer:
+          'El de 7 días, sí: el tren une el aeropuerto, Jerusalén y Tel Aviv, y los días del Mar Muerto y del norte funcionan como excursiones guiadas. El de 10 días es más fácil con coche para los días de Galilea y el Golán, donde los sitios están dispersos y hay pocos autobuses; el resto va en tren, taxi y tours.',
+      },
+      {
+        question: '¿Empiezo por Jerusalén o por Tel Aviv?',
+        answer:
+          'Las dos opciones funcionan desde Ben Gurión. Empezar en Jerusalén pone primero las visitas más intensas, cuando llegas con energía, y deja la playa para el final; empezar en Tel Aviv da un aterrizaje más suave y prepara el bucle del norte. Nuestro plan de 7 días abre en Jerusalén y el de 10 en Tel Aviv.',
+      },
+      {
+        question: '¿Qué itinerario es mejor para una primera visita?',
+        answer:
+          'Siete días si tienes una semana o prefieres no conducir: cubre todo lo que la mayoría viene a ver la primera vez. Diez días si puedes dedicar el tiempo extra, porque suma el norte, Eilat y Petra sin apurar el núcleo. Los dos se pueden recortar o alargar — cada página propone variantes.',
+      },
+    ],
+    outro: `Se añaden nuevas rutas regularmente. Mientras tanto, explora las ${b(localeHome('es'), '7 regiones')} o empieza con nuestra ${b(firstTime, 'guía para la primera vez en Israel')}.`,
+  },
+  he: {
+    title: 'מסלולי טיול בישראל: מסלולים של 7 ו-10 ימים',
+    description:
+      'מסלולי טיול מוכנים בישראל — טיול ראשון קלאסי של 7 ימים ומסלול של 10 ימים שמוסיף את הצפון ואת המדבר, עם סיורים, מלונות ותחבורה.',
+    heroTitle: 'מסלולי טיול בישראל',
+    heroSubtitle: 'מסלולים יום אחר יום למבקרים בפעם הראשונה ולמי שחוזרים.',
+    heroAlt: 'העיר העתיקה בירושלים — נקודת הפתיחה של מסלולי טיול רבים בישראל',
+    crumb: 'מסלולי טיול',
+    intro:
+      'לא בטוחים איך לחבר את ישראל לטיול אחד? המסלולים האלה עושים את העבודה בשבילכם — כל אחד מאזן בין האתרים שאסור לפספס לבין זמני נסיעה ריאליים, ומקשר ישירות לסיורים, למלונות ולתחבורה שתצטרכו.',
+    daysLabel: 'ימים',
+    chooseHeading: '7 או 10 ימים: איך לבחור',
+    chooseIntro: `שני המסלולים מכסים את אותו הגרעין — ירושלים, ים המלח ותל אביב — ונבדלים במה שהם מוסיפים מעבר לו. ${a(seven, 'מסלול 7 הימים')} הוא הטיול הראשון הקלאסי: שלושה לילות בירושלים, שלושה בתל אביב, יום במצדה ובים המלח ויום אחד בצפון, הכול ברכבת ובסיורי יום מודרכים, בלי רכב שכור. ${a(ten, 'מסלול 10 הימים')} עושה סיבוב על כל הארץ, מחוף הצפון, הגליל והגולן דרך ירושלים וים המלח ועד אילת, ומסתיים בטיול יום לפטרה מעבר לגבול הירדני. בחרו 7 ימים אם אתם רוצים שני בסיסים ובלי נהיגה; בחרו 10 אם אתם רוצים גם את הצפון וגם את ים סוף.`,
+    blocks: [
+      {
+        heading: 'הקצב של כל מסלול',
+        text: 'שבעה ימים מתקדמים בקצב עירוני: ימים ארוכים ברגל בעיר העתיקה ובתל אביב, עם השכמה מוקדמת אחת בלבד לזריחה במצדה. עשרה ימים מחליפים הילוך באמצע — לולאת הצפון היא טיול כביש שבו רכב משתלם לימים 3 עד 5, ואל הדרום עדיף להגיע בטיסה פנימית לאילת ולא בנסיעה ארוכה. שתי התוכניות בנויות סביב השבת: מיום שישי אחר הצהריים ועד מוצאי שבת הרכבות עוצרות ורוב החנויות סגורות, ולכן שם משובץ יום של חוף, מדבר או נהיגה.',
+      },
+      {
+        heading: 'מאיפה מתחילים',
+        text: 'כל מסלול מתחיל ומסתיים בנתב״ג (TLV). הרכבת מגיעה לירושלים בכ-30 דקות ולתל אביב בכ-20, כך שהלילה הראשון יכול להיות בכל אחת מהערים; תוכנית 7 הימים נפתחת בירושלים, ותוכנית 10 הימים בתל אביב. אין צורך להזמין הסעה מראש, חוץ מבשבת, כשמונית שירות מחליפה את הרכבת.',
+      },
+      {
+        heading: 'מתי לצאת',
+        text: `האביב (מרץ–מאי) והסתיו (ספטמבר–נובמבר) מביאים מזג אוויר נוח בכל הארץ, מהגליל ועד הנגב. הקיץ חם מאוד בירושלים, בים המלח ובאילת, והחורף מביא גשם לצפון. בדקו את לוח החגים לפני שקובעים תאריכים: פסח וחגי תשרי מביאים סגירות ומלונות יקרים יותר, ואילו השבועות שמיד אחריהם שקטים. ב${a(bestTime, 'מדריך לתקופה הטובה ביותר לביקור')} יש את הפירוט חודש אחר חודש.`,
+      },
+    ],
+    faqs: [
+      {
+        question: 'אפשר לעשות את אחד המסלולים בלי רכב שכור?',
+        answer:
+          'את מסלול 7 הימים, כן: הרכבת מחברת את שדה התעופה, ירושלים ותל אביב, וימי ים המלח והצפון עובדים כסיורי יום מודרכים. מסלול 10 הימים קל יותר עם רכב לימי הגליל והגולן, שבהם האתרים מפוזרים והאוטובוסים נדירים; השאר מתנהל ברכבות, במוניות ובסיורים.',
+      },
+      {
+        question: 'להתחיל בירושלים או בתל אביב?',
+        answer:
+          'שתי האפשרויות עובדות מנתב״ג. התחלה בירושלים שמה את הסיורים האינטנסיביים ביותר בהתחלה, כשאתם רעננים, ומשאירה את החוף לסוף; התחלה בתל אביב נותנת נחיתה רכה יותר ומכינה את לולאת הצפון. תוכנית 7 הימים שלנו נפתחת בירושלים, ותוכנית 10 הימים בתל אביב.',
+      },
+      {
+        question: 'איזה מסלול מתאים יותר לביקור ראשון?',
+        answer:
+          'שבעה ימים אם יש לכם שבוע או שאתם מעדיפים לא לנהוג: הם מכסים את כל מה שרוב המבקרים בפעם הראשונה באים לראות. עשרה ימים אם יש לכם את הזמן הנוסף, כי הם מוסיפים את הצפון, אילת ופטרה בלי להאיץ את הליבה. את שניהם אפשר לקצר או להאריך — בכל עמוד מוצעות וריאציות.',
+      },
+    ],
+    outro: `מסלולים נוספים מתווספים באופן קבוע. בינתיים, עברו על ${b(localeHome('he'), '7 האזורים')} או התחילו ${b(firstTime, 'במדריך לפעם הראשונה בישראל')}.`,
+  },
+};
+const c = COPY[locale];
+const crumbs = [
+  { name: t('nav.home'), path: localeHome(locale) },
+  { name: c.crumb, path },
+];
+---
+
+<BaseLayout title={c.title} description={c.description} path={path} alternates={pageAlternates('itineraries')}>
+  <Hero image="/images/regions/jerusalem/hero.jpg" title={c.heroTitle} subtitle={c.heroSubtitle} alt={c.heroAlt} />
+  <Breadcrumbs items={crumbs} />
+
+  <section class="mx-auto max-w-6xl px-4 pt-10">
+    <p class="mx-auto max-w-3xl text-lg leading-relaxed text-ink">{c.intro}</p>
+
+    <div class="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        itineraries.map((it) => (
+          <a
+            href={`${prefix}/itineraries/${splitEntryId(it.id).slug}`}
+            class="group relative block aspect-[3/2] overflow-hidden rounded-card shadow-card transition-shadow hover:shadow-card-hover"
+          >
+            <img
+              src={it.data.heroImage ?? '/images/regions/jerusalem/hero.jpg'}
+              alt={it.data.title}
+              width="800"
+              height="533"
+              loading="lazy"
+              class="absolute inset-0 h-full w-full object-cover transition-transform duration-500 group-hover:scale-105"
+            />
+            <div class="photo-overlay absolute inset-0" />
+            <div class="absolute inset-x-0 bottom-0 p-5">
+              {it.data.days && (
+                <span class="photo-title text-xs font-semibold uppercase tracking-widest opacity-90">
+                  {it.data.days} {c.daysLabel}
+                </span>
+              )}
+              <h2 class="photo-title mt-1 font-display text-xl font-bold leading-tight">{it.data.title}</h2>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-3xl px-4 pt-12" aria-labelledby="choose">
+    <h2 id="choose" class="font-display text-3xl font-bold text-ink">{c.chooseHeading}</h2>
+    <p class="mt-4 leading-relaxed text-ink" set:html={c.chooseIntro} />
+    {
+      c.blocks.map((b) => (
+        <>
+          <h3 class="mt-8 font-display text-xl font-bold text-ink">{b.heading}</h3>
+          <p class="mt-2 leading-relaxed text-ink" set:html={b.text} />
+        </>
+      ))
+    }
+  </section>
+
+  <FaqSection faqs={c.faqs} />
+
+  <section class="mx-auto max-w-3xl px-4 pb-4">
+    <p class="text-ink-muted" set:html={c.outro} />
+  </section>
+</BaseLayout>
