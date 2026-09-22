@@ -1,54 +1,54 @@
 {
-  "generatedAt": "2026-09-22T09:28:46.246Z",
+  "generatedAt": "2026-09-22T11:55:18.403Z",
   "site": "https://visitisrael.site",
   "summary": {
     "pagesAnalyzed": 160,
-    "pagesInDist": 167,
-    "excludedInternal": 7,
-    "avgWords": 1702,
+    "pagesInDist": 168,
+    "excludedInternal": 8,
+    "avgWords": 1767,
     "perLocale": {
       "en": {
         "pages": 36,
-        "words": 63833,
-        "thin": 8,
-        "avgWords": 1773
+        "words": 70739,
+        "thin": 6,
+        "avgWords": 1965
       },
       "de": {
         "pages": 31,
-        "words": 44414,
-        "thin": 5,
-        "avgWords": 1433
+        "words": 45302,
+        "thin": 4,
+        "avgWords": 1461
       },
       "es": {
         "pages": 31,
-        "words": 57801,
-        "thin": 3,
-        "avgWords": 1865
+        "words": 58804,
+        "thin": 1,
+        "avgWords": 1897
       },
       "fr": {
         "pages": 31,
-        "words": 53972,
-        "thin": 5,
-        "avgWords": 1741
+        "words": 54981,
+        "thin": 3,
+        "avgWords": 1774
       },
       "he": {
         "pages": 31,
-        "words": 52230,
+        "words": 52951,
         "thin": 3,
-        "avgWords": 1685
+        "avgWords": 1708
       }
     },
     "issueCounts": {
       "duplicateTitles": 0,
       "duplicateDescriptions": 0,
       "missingTitles": 0,
-      "shortTitles": 8,
-      "longTitles": 16,
+      "shortTitles": 0,
+      "longTitles": 0,
       "missingDescriptions": 0,
       "shortDescriptions": 0,
-      "longDescriptions": 63,
-      "thin": 10,
-      "veryThin": 14,
+      "longDescriptions": 0,
+      "thin": 13,
+      "veryThin": 4,
       "noUniqueH1": 0,
       "brokenHreflang": 0,
       "badCanonical": 0,
@@ -65,11 +65,13 @@
         "/dashboard",
         "/pitch",
         "/competitors",
-        "/content-library"
+        "/content-library",
+        "/gestion",
+        "/mariluz"
       ],
       "sitemap": "https://visitisrael.site/sitemap-index.xml",
       "allowsAll": true,
-      "coversGestion": false
+      "coversGestion": true
     },
     "sitemap": {
       "urls": 161,
@@ -94,127 +96,30 @@
     "duplicateTitles": [],
     "duplicateDescriptions": [],
     "missingTitles": [],
-    "shortTitles": [
-      "/about",
-      "/accessibility-statement",
-      "/affiliate-disclosure",
-      "/contact",
-      "/de",
-      "/de/tel-aviv",
-      "/he",
-      "/privacy"
-    ],
-    "longTitles": [
-      "/de/best-hotels-tel-aviv",
-      "/de/dead-sea-tours-compared",
-      "/de/jerusalem-tours-compared",
-      "/de/plan-your-trip",
-      "/es/best-hotels-tel-aviv",
-      "/es/dead-sea-hotels-guide",
-      "/es/itineraries/7-days-in-israel",
-      "/fr/day-trips-from-tel-aviv",
-      "/fr/dead-sea-hotels-guide",
-      "/fr/dead-sea-tours-compared",
-      "/fr/itineraries/7-days-in-israel",
-      "/fr/jerusalem-bethlehem-day-trip",
-      "/fr/jerusalem-tours-compared",
-      "/fr/masada-visitor-guide",
-      "/fr/plan-your-trip",
-      "/galilee"
-    ],
+    "shortTitles": [],
+    "longTitles": [],
     "missingDescriptions": [],
     "shortDescriptions": [],
-    "longDescriptions": [
-      "/",
-      "/about",
-      "/best-hotels-jerusalem",
-      "/caesarea-haifa-akko-day-trip",
-      "/day-trips-from-tel-aviv",
-      "/de",
-      "/de/best-hotels-jerusalem",
-      "/de/best-time-to-visit-israel",
-      "/de/caesarea-haifa-akko-day-trip",
-      "/de/dead-sea-tours-compared",
-      "/de/eilat-hotels-guide",
-      "/de/is-israel-safe",
-      "/de/israel-tour-packages",
-      "/de/jerusalem-bethlehem-day-trip",
-      "/de/jerusalem-tours-compared",
-      "/de/masada-visitor-guide",
-      "/de/petra-from-israel",
-      "/de/plan-your-trip",
-      "/de/tel-aviv-food-tours",
-      "/dead-sea-tours-compared",
-      "/es",
-      "/es/best-hotels-jerusalem",
-      "/es/best-hotels-tel-aviv",
-      "/es/caesarea-haifa-akko-day-trip",
-      "/es/day-trips-from-tel-aviv",
-      "/es/dead-sea-hotels-guide",
-      "/es/eilat",
-      "/es/eilat-hotels-guide",
-      "/es/galilee",
-      "/es/is-israel-safe",
-      "/es/israel-tour-packages",
-      "/es/jerusalem-bethlehem-day-trip",
-      "/es/masada-visitor-guide",
-      "/es/nazareth-sea-of-galilee-day-trip",
-      "/es/petra-from-israel",
-      "/es/tel-aviv-food-tours",
-      "/fr",
-      "/fr/best-hotels-jerusalem",
-      "/fr/best-time-to-visit-israel",
-      "/fr/caesarea-haifa-akko-day-trip",
-      "/fr/dead-sea-hotels-guide",
-      "/fr/dead-sea-tours-compared",
-      "/fr/eilat",
-      "/fr/eilat-hotels-guide",
-      "/fr/israel-tour-packages",
-      "/fr/itineraries",
-      "/fr/jerusalem-bethlehem-day-trip",
-      "/fr/jerusalem-tours-compared",
-      "/fr/masada-visitor-guide",
-      "/fr/nazareth-sea-of-galilee-day-trip",
-      "/fr/petra-from-israel",
-      "/fr/plan-your-trip",
-      "/fr/tel-aviv",
-      "/fr/tel-aviv-food-tours",
-      "/haifa",
-      "/is-israel-safe",
-      "/israel-tour-packages",
-      "/itineraries/10-days-in-israel",
-      "/jerusalem-bethlehem-day-trip",
-      "/masada-visitor-guide",
-      "/petra-from-israel",
-      "/tel-aviv-food-tours",
-      "/visa-information"
-    ],
+    "longDescriptions": [],
     "thin": [
       "/",
+      "/about",
+      "/de",
       "/de/best-time-to-visit-israel",
       "/de/day-trips-from-tel-aviv",
       "/de/plan-your-trip",
-      "/es/plan-your-trip",
+      "/es",
+      "/fr",
       "/fr/best-time-to-visit-israel",
       "/fr/day-trips-from-tel-aviv",
-      "/fr/plan-your-trip",
-      "/he/plan-your-trip",
-      "/plan-your-trip"
+      "/he",
+      "/he/itineraries",
+      "/he/plan-your-trip"
     ],
     "veryThin": [
-      "/about",
       "/accessibility-statement",
       "/affiliate-disclosure",
       "/contact",
-      "/de",
-      "/de/itineraries",
-      "/es",
-      "/es/itineraries",
-      "/fr",
-      "/fr/itineraries",
-      "/he",
-      "/he/itineraries",
-      "/itineraries",
       "/privacy"
     ],
     "noUniqueH1": [],
@@ -241,7 +146,9 @@
       "/dashboard",
       "/pitch",
       "/competitors",
-      "/content-library"
+      "/content-library",
+      "/gestion",
+      "/mariluz"
     ],
     "sitemap": "https://visitisrael.site/sitemap-index.xml",
     "allowsAll": true
@@ -252,8 +159,8 @@
       "locale": "en",
       "title": "Visit Israel — The Travel Guide to Israel",
       "titleLength": 41,
-      "description": "Plan a trip to Israel: in-depth guides to Jerusalem, Tel Aviv, the Dead Sea, the Galilee, Eilat, the Negev and Haifa, with day-by-day itineraries, the best hotels and tours compared.",
-      "descriptionLength": 182,
+      "description": "Israel travel guide: in-depth guides to Jerusalem, Tel Aviv, the Dead Sea, Galilee, Eilat, Negev and Haifa, plus itineraries, hotels and tours compared.",
+      "descriptionLength": 152,
       "h1": [
         "Visit Israel"
       ],
@@ -395,7 +302,7 @@
       ],
       "noindex": false,
       "inSitemap": true,
-      "inboundLinks": 43,
+      "inboundLinks": 42,
       "inboundFrom": [
         "/about",
         "/accessibility-statement",
@@ -416,7 +323,6 @@
         "/eilat-hotels-guide",
         "/es",
         "/es/first-time-in-israel",
-        "/es/itineraries",
         "/first-time-in-israel",
         "/fr",
         "/fr/first-time-in-israel",
@@ -445,12 +351,12 @@
     {
       "path": "/about",
       "locale": "en",
-      "title": "About Visit Israel",
-      "titleLength": 18,
-      "description": "About VisitIsrael.site — an independent English-language travel guide to Israel, how we research our guides, and how the site is funded through affiliate links.",
-      "descriptionLength": 160,
+      "title": "About Visit Israel: An Independent Travel Guide to Israel",
+      "titleLength": 57,
+      "description": "About VisitIsrael.site, an independent English-language travel guide to Israel: how we research each guide and how affiliate links fund the site.",
+      "descriptionLength": 145,
       "h1": [
-        "About Visit Israel"
+        "About Visit Israel: An Independent Travel Guide to Israel"
       ],
       "h1Count": 1,
       "h2Count": 8,
@@ -467,7 +373,7 @@
         "Article",
         "BreadcrumbList"
       ],
-      "words": 294,
+      "words": 300,
       "images": 0,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -729,12 +635,12 @@
     {
       "path": "/accessibility-statement",
       "locale": "en",
-      "title": "Accessibility Statement",
-      "titleLength": 23,
+      "title": "Accessibility Statement for the Visit Israel Travel Guide",
+      "titleLength": 57,
       "description": "VisitIsrael.site aims to meet WCAG 2.1 AA. Our accessibility features, known limitations, and how to report an accessibility problem.",
       "descriptionLength": 133,
       "h1": [
-        "Accessibility Statement"
+        "Accessibility Statement for the Visit Israel Travel Guide"
       ],
       "h1Count": 1,
       "h2Count": 7,
@@ -751,7 +657,7 @@
         "Article",
         "BreadcrumbList"
       ],
-      "words": 223,
+      "words": 229,
       "images": 0,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -1013,12 +919,12 @@
     {
       "path": "/affiliate-disclosure",
       "locale": "en",
-      "title": "Affiliate Disclosure",
-      "titleLength": 20,
+      "title": "Affiliate Disclosure: How Visit Israel Earns Commission",
+      "titleLength": 55,
       "description": "VisitIsrael.site earns commission on bookings made through affiliate links, at no extra cost to you. Our full FTC-compliant disclosure and partner list.",
       "descriptionLength": 152,
       "h1": [
-        "Affiliate Disclosure"
+        "Affiliate Disclosure: How Visit Israel Earns Commission"
       ],
       "h1Count": 1,
       "h2Count": 7,
@@ -1035,7 +941,7 @@
         "Article",
         "BreadcrumbList"
       ],
-      "words": 227,
+      "words": 232,
       "images": 0,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -1299,8 +1205,8 @@
       "locale": "en",
       "title": "Best Hotels in Jerusalem 2026: Neighbourhood Guide & Picks",
       "titleLength": 58,
-      "description": "Best hotels in Jerusalem by neighbourhood: luxury near Jaffa Gate, boutique in German Colony, mid-range near Mahane Yehuda, and budget hostels near Old City.",
-      "descriptionLength": 157,
+      "description": "Best hotels in Jerusalem by neighbourhood: luxury near Jaffa Gate, boutique in German Colony, mid-range near Mahane Yehuda and budget near the Old City.",
+      "descriptionLength": 152,
       "h1": [
         "Best Hotels in Jerusalem 2026: Neighbourhood Guide & Picks"
       ],
@@ -1879,8 +1785,8 @@
       "locale": "en",
       "title": "Caesarea, Haifa & Akko Day Trip from Tel Aviv",
       "titleLength": 45,
-      "description": "The north-coast day trip from Tel Aviv in 2026: Caesarea's Roman harbour, Haifa's Bahá'í Gardens and Crusader Akko, plus Rosh Hanikra, costs and driving tips.",
-      "descriptionLength": 158,
+      "description": "Caesarea, Haifa and Akko day trip from Tel Aviv: Roman harbour, Bahá'í Gardens and the Crusader city, plus Rosh Hanikra, 2026 costs and driving tips.",
+      "descriptionLength": 149,
       "h1": [
         "Caesarea, Haifa & Akko Day Trip from Tel Aviv"
       ],
@@ -2267,12 +2173,12 @@
     {
       "path": "/contact",
       "locale": "en",
-      "title": "Contact Visit Israel",
-      "titleLength": 20,
+      "title": "Contact Visit Israel: Corrections, Feedback and Partners",
+      "titleLength": 56,
       "description": "How to contact VisitIsrael.site for editorial questions, factual corrections, accessibility feedback, or affiliate and partnership inquiries.",
       "descriptionLength": 141,
       "h1": [
-        "Contact Visit Israel"
+        "Contact Visit Israel: Corrections, Feedback and Partners"
       ],
       "h1Count": 1,
       "h2Count": 7,
@@ -2289,7 +2195,7 @@
         "Article",
         "BreadcrumbList"
       ],
-      "words": 187,
+      "words": 191,
       "images": 0,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -2553,8 +2459,8 @@
       "locale": "en",
       "title": "The Best Day Trips from Tel Aviv (2026)",
       "titleLength": 39,
-      "description": "The best day trips from Tel Aviv: Jerusalem, Caesarea–Haifa–Akko on the coast, Masada & the Dead Sea, the Galilee and more — how to do each and guided options.",
-      "descriptionLength": 159,
+      "description": "Best day trips from Tel Aviv: Jerusalem, the Caesarea–Haifa–Akko coast, Masada and the Dead Sea, the Galilee and more — how to do each and guided options.",
+      "descriptionLength": 154,
       "h1": [
         "The Best Day Trips from Tel Aviv (2026)"
       ],
@@ -2747,10 +2653,10 @@
     {
       "path": "/de",
       "locale": "de",
-      "title": "Israel besuchen — Reiseführer",
-      "titleLength": 29,
-      "description": "Planen Sie Ihre Israel-Reise: 7 Regionen von Jerusalem bis zum Roten Meer, Reiserouten, die besten Hotels und Touren im Vergleich, mit klar gekennzeichneten Buchungslinks.",
-      "descriptionLength": 171,
+      "title": "Israel-Reise planen: Reiseführer, Routen, Hotels & Touren",
+      "titleLength": 57,
+      "description": "Israel-Reise planen: 7 Regionen von Jerusalem bis zum Roten Meer, Reiserouten, beste Hotels und Touren im Vergleich, mit klar markierten Buchungslinks.",
+      "descriptionLength": 151,
       "h1": [
         "Israel besuchen"
       ],
@@ -2792,11 +2698,11 @@
         "Organization",
         "WebSite"
       ],
-      "words": 234,
+      "words": 377,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 96,
+      "internalLinks": 100,
       "internalTargets": [
         "/de/jerusalem",
         "/de/tel-aviv",
@@ -2863,6 +2769,7 @@
         "Français",
         "Español",
         "עברית",
+        "Toten Meer",
         "Das spirituelle Herz Israels Jerusalem Die Viertel der Altstadt, die Klagemauer und die Grabeskirche, dazu Tagesausflüge ans Tote Meer. Entdecken",
         "Mediterrane Lässigkeit Tel Aviv Goldene Strände, Bauhaus-Architektur und eine Food-, Kunst- und Nachtszene rund um die Uhr. Entdecken",
         "Der tiefste Punkt der Erde Totes Meer Auf mineralreichem Wasser treiben, bei Sonnenaufgang auf Masada steigen und durch die Oase Ein Gedi wandern. Entdecken",
@@ -2877,8 +2784,7 @@
         "Ausflüge ab Tel Aviv",
         "Masada: Besuch & Touren",
         "Bethlehem ab Jerusalem",
-        "Petra ab Israel",
-        "Nazareth & See Genezareth"
+        "Petra ab Israel"
       ],
       "externalLinks": 5,
       "externalDomains": [
@@ -2938,8 +2844,8 @@
       "locale": "de",
       "title": "Die besten Hotels in Jerusalem 2026 — Stadtviertel & Picks",
       "titleLength": 58,
-      "description": "Beste Hotels in Jerusalem nach Stadtviertel: Luxus am Jaffa-Tor, Boutique in der Deutschen Kolonie, Mittelklasse nahe Mahane Yehuda, Budget in Altstadt-Nähe.",
-      "descriptionLength": 157,
+      "description": "Hotels in Jerusalem nach Stadtviertel: Luxus am Jaffa-Tor, Boutique in der Deutschen Kolonie, Mittelklasse nahe Mahane Yehuda und Budget nahe der Altstadt.",
+      "descriptionLength": 155,
       "h1": [
         "Die besten Hotels in Jerusalem 2026 — Stadtviertel & Picks"
       ],
@@ -3125,12 +3031,12 @@
     {
       "path": "/de/best-hotels-tel-aviv",
       "locale": "de",
-      "title": "Die besten Hotels in Tel Aviv 2026 — Stadtviertel & Preisklassen",
-      "titleLength": 64,
+      "title": "Die besten Hotels in Tel Aviv 2026: Viertel & Preisklassen",
+      "titleLength": 58,
       "description": "Die besten Hotels in Tel Aviv nach Viertel: Budget, Mittelklasse und Luxus, inklusive der 2026-Neueröffnungen Six Senses und Nobu Hotel Tel Aviv.",
       "descriptionLength": 145,
       "h1": [
-        "Die besten Hotels in Tel Aviv 2026 — Stadtviertel & Preisklassen"
+        "Die besten Hotels in Tel Aviv 2026: Viertel & Preisklassen"
       ],
       "h1Count": 1,
       "h2Count": 15,
@@ -3315,8 +3221,8 @@
       "locale": "de",
       "title": "Beste Reisezeit für Israel: Saison- und Monatsüberblick",
       "titleLength": 55,
-      "description": "Wann Israel bereisen? Ein Saison- und Monatsüberblick mit Temperaturen, Reisezahlen, Feiertagen und Preisen in Jerusalem, Tel Aviv, der Wüste und an der Küste.",
-      "descriptionLength": 159,
+      "description": "Beste Reisezeit für Israel: Saison- und Monatsüberblick mit Temperaturen, Besucherzahlen, Feiertagen und Preisen in Jerusalem, Tel Aviv, Wüste und Küste.",
+      "descriptionLength": 153,
       "h1": [
         "Beste Reisezeit für Israel: Saison- und Monatsüberblick"
       ],
@@ -3509,8 +3415,8 @@
       "locale": "de",
       "title": "Tagesausflug Caesarea, Haifa & Akko ab Tel Aviv",
       "titleLength": 47,
-      "description": "Der Nordküsten-Tagesausflug ab Tel Aviv 2026: der römische Hafen von Caesarea, die Bahá'í-Gärten von Haifa und das Kreuzfahrer-Akko, dazu Rosch haNikra, Preise und Tipps zum Selbstfahren.",
-      "descriptionLength": 187,
+      "description": "Tagesausflug Caesarea, Haifa und Akko ab Tel Aviv 2026: römischer Hafen, Bahá'í-Gärten, Kreuzfahrerstadt, Rosch haNikra, Preise und Tipps zum Selbstfahren.",
+      "descriptionLength": 155,
       "h1": [
         "Tagesausflug Caesarea, Haifa & Akko ab Tel Aviv"
       ],
@@ -3894,8 +3800,8 @@
       "locale": "de",
       "title": "Die besten Tagesausflüge von Tel Aviv (2026)",
       "titleLength": 44,
-      "description": "Die besten Tagesausflüge von Tel Aviv: Jerusalem, die Nordküste (Caesarea–Haifa–Akko), Masada und das Tote Meer, Galiläa und mehr — Planung und geführte",
-      "descriptionLength": 152,
+      "description": "Tagesausflüge von Tel Aviv: Jerusalem, die Nordküste (Caesarea–Haifa–Akko), Masada und das Tote Meer, Galiläa und mehr — Planung und geführte Optionen.",
+      "descriptionLength": 151,
       "h1": [
         "Die besten Tagesausflüge von Tel Aviv (2026)"
       ],
@@ -4469,12 +4375,12 @@
     {
       "path": "/de/dead-sea-tours-compared",
       "locale": "de",
-      "title": "Totes-Meer-Touren verglichen: Float, Masada & Tagesausflüge (2026)",
-      "titleLength": 66,
-      "description": "Totes-Meer-Touren verglichen: Nur-Float-Touren, Masada-Kombos, Privatführer und Selbstfahrer — was jede abdeckt und wo man ab Jerusalem oder Tel Aviv bucht.",
-      "descriptionLength": 156,
+      "title": "Totes-Meer-Ausflug: Float, Masada & Touren im Vergleich 2026",
+      "titleLength": 60,
+      "description": "Totes-Meer-Ausflüge verglichen: Float-Touren, Masada-Kombis, Privatführer und Selbstfahrer — was jede abdeckt und wo man ab Jerusalem oder Tel Aviv bucht.",
+      "descriptionLength": 154,
       "h1": [
-        "Totes-Meer-Touren verglichen: Float, Masada & Tagesausflüge (2026)"
+        "Totes-Meer-Ausflug: Float, Masada & Touren im Vergleich 2026"
       ],
       "h1Count": 1,
       "h2Count": 15,
@@ -4517,7 +4423,7 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 1539,
+      "words": 1540,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -4852,8 +4758,8 @@
       "locale": "de",
       "title": "Übernachten in Eilat: die besten Hotels nach Zone 2026",
       "titleLength": 54,
-      "description": "Hotelführer Eilat 2026: Resorts am North Beach, die Riffzone Coral Beach und günstige Unterkünfte im Zentrum nach Zone und Preisklasse verglichen, plus Tipps, wann man bucht.",
-      "descriptionLength": 174,
+      "description": "Hotels in Eilat 2026: Resorts am North Beach, Riffzone Coral Beach und günstige Unterkünfte im Zentrum nach Zone und Preis verglichen, plus Buchungstipps.",
+      "descriptionLength": 154,
       "h1": [
         "Übernachten in Eilat: die besten Hotels nach Zone 2026"
       ],
@@ -5621,8 +5527,8 @@
       "locale": "de",
       "title": "Ist Israel sicher? Ein ehrlicher Reiseführer für 2026",
       "titleLength": 53,
-      "description": "Ein praktischer, ehrlicher Blick auf die Sicherheit in Israel für Touristen: Alltag vor Ort, offizielle Reisehinweise, regionale Besonderheiten und sinnvolle",
-      "descriptionLength": 157,
+      "description": "Ist Israel sicher? Ehrlicher Blick auf die Sicherheit für Touristen: Alltag, offizielle Reisehinweise, regionale Unterschiede und Vorsichtsmaßnahmen.",
+      "descriptionLength": 149,
       "h1": [
         "Ist Israel sicher? Ein ehrlicher Reiseführer für 2026"
       ],
@@ -5818,8 +5724,8 @@
       "locale": "de",
       "title": "Israel-Pauschalreisen: mehrtägige Touren von 2 bis 10 Tagen",
       "titleLength": 59,
-      "description": "Mehrtägige Israel-Pauschalreisen 2026: 2- bis 4-tägige Jerusalem- und Totes-Meer-Runden, die klassische 7- bis 8-Tage-Tour, 10 Tage mit Petra, Kleingruppe oder privat.",
-      "descriptionLength": 167,
+      "description": "Israel-Rundreisen 2026 im Vergleich: 2 bis 4 Tage Jerusalem und Totes Meer, die klassische 7- bis 8-Tage-Tour, 10 Tage mit Petra, Kleingruppe oder privat.",
+      "descriptionLength": 154,
       "h1": [
         "Israel-Pauschalreisen: mehrtägige Touren von 2 bis 10 Tagen"
       ],
@@ -6017,23 +5923,49 @@
         "Israel-Reisepläne"
       ],
       "h1Count": 1,
-      "h2Count": 6,
-      "h3Count": 0,
+      "h2Count": 8,
+      "h3Count": 3,
       "canonical": "/de/itineraries",
       "canonicalOk": true,
-      "hreflang": [],
+      "hreflang": [
+        {
+          "lang": "en",
+          "path": "/itineraries"
+        },
+        {
+          "lang": "fr",
+          "path": "/fr/itineraries"
+        },
+        {
+          "lang": "de",
+          "path": "/de/itineraries"
+        },
+        {
+          "lang": "es",
+          "path": "/es/itineraries"
+        },
+        {
+          "lang": "he",
+          "path": "/he/itineraries"
+        },
+        {
+          "lang": "x-default",
+          "path": "/itineraries"
+        }
+      ],
       "hreflangOk": true,
       "hreflangIssues": [],
       "ogImage": true,
       "jsonLd": [
         "Organization",
-        "WebSite"
+        "WebSite",
+        "FAQPage"
       ],
-      "words": 93,
+      "words": 628,
       "images": 3,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 70,
+      "internalLinks": 73,
       "internalTargets": [
         "/de",
         "/de/jerusalem",
@@ -6105,6 +6037,9 @@
         "Startseite",
         "7 Tage 7 Tage Israel: Der klassische Reiseplan für Erstbesucher",
         "10 Tage 10 Tage Israel: Der vollständige Reiseplan von Nord nach Süd",
+        "7-Tage-Route",
+        "10-Tage-Route",
+        "Reiseführer zur besten Reisezeit",
         "7 Regionen",
         "Erstbesuch-Leitfaden",
         "Hotels in Tel Aviv",
@@ -6114,10 +6049,7 @@
         "Ausflüge ab Tel Aviv",
         "Masada: Besuch & Touren",
         "Bethlehem ab Jerusalem",
-        "Petra ab Israel",
-        "Nazareth & See Genezareth",
-        "Caesarea, Haifa & Akko Tagesausflug",
-        "Food-Touren in Tel Aviv"
+        "Petra ab Israel"
       ],
       "externalLinks": 5,
       "externalDomains": [
@@ -6711,8 +6643,8 @@
       "locale": "de",
       "title": "Tagesausflug nach Bethlehem ab Jerusalem: Touren & Logistik",
       "titleLength": 59,
-      "description": "Bethlehem ab Jerusalem 2026: Halbtagstouren zur Geburtskirche, der ganze Tag Bethlehem, Jericho und Jordan, sowie die Logistik von Checkpoint und Reisepass.",
-      "descriptionLength": 156,
+      "description": "Tagesausflug Bethlehem von Jerusalem 2026: Halbtagstouren zur Geburtskirche, der ganze Tag Bethlehem, Jericho und Jordan, dazu Checkpoint und Reisepass.",
+      "descriptionLength": 152,
       "h1": [
         "Tagesausflug nach Bethlehem ab Jerusalem: Touren & Logistik"
       ],
@@ -6901,12 +6833,12 @@
     {
       "path": "/de/jerusalem-tours-compared",
       "locale": "de",
-      "title": "Jerusalem-Touren im Vergleich: Welche Führung ist die beste? (2026)",
-      "titleLength": 67,
-      "description": "Jerusalem-Touren im Vergleich — Altstadtspaziergänge, Ganztagestouren, Jerusalem-Bethlehem-Kombi, Klagemauer-Tunnel und Privatführer: Was jede Tour kostet und wie Sie wählen.",
-      "descriptionLength": 174,
+      "title": "Jerusalem Stadtführung im Vergleich: Welche ist die beste?",
+      "titleLength": 58,
+      "description": "Jerusalem Stadtführungen im Vergleich: Altstadtrundgänge, Ganztagestouren, Bethlehem-Kombi, Klagemauer-Tunnel und Privatführer — Kosten und Auswahl.",
+      "descriptionLength": 148,
       "h1": [
-        "Jerusalem-Touren im Vergleich: Welche Führung ist die beste? (2026)"
+        "Jerusalem Stadtführung im Vergleich: Welche ist die beste?"
       ],
       "h1Count": 1,
       "h2Count": 16,
@@ -6949,7 +6881,7 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 1053,
+      "words": 1052,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -7095,8 +7027,8 @@
       "locale": "de",
       "title": "Masada besuchen: Touren, Sonnenaufgangswanderung & Seilbahn",
       "titleLength": 59,
-      "description": "Masada 2026 besuchen: Schlangenpfad oder Seilbahn, die Wanderung zum Sonnenaufgang, was es oben zu sehen gibt, und Masada-, Ein-Gedi- und Totes-Meer-Touren ab Jerusalem und Tel Aviv.",
-      "descriptionLength": 182,
+      "description": "Masada 2026 besuchen: Schlangenpfad oder Seilbahn, Wanderung zum Sonnenaufgang, was oben zu sehen ist, und Touren ab Jerusalem und Tel Aviv im Vergleich.",
+      "descriptionLength": 153,
       "h1": [
         "Masada besuchen: Touren, Sonnenaufgangswanderung & Seilbahn"
       ],
@@ -7669,8 +7601,8 @@
       "locale": "de",
       "title": "Petra von Israel aus: Tagesausflüge ab Eilat & Tel Aviv",
       "titleLength": 55,
-      "description": "Petra von Israel aus 2026: die Tagestour ab Eilat, die zweitägige Petra-und-Wadi-Rum-Reise, der Tag mit Flug ab Tel Aviv sowie die Logistik von Grenze und Visum.",
-      "descriptionLength": 161,
+      "description": "Petra von Israel aus 2026: die Tagestour ab Eilat, die zweitägige Petra-und-Wadi-Rum-Reise, der Tag mit Flug ab Tel Aviv sowie Grenz- und Visum-Logistik.",
+      "descriptionLength": 153,
       "h1": [
         "Petra von Israel aus: Tagesausflüge ab Eilat & Tel Aviv"
       ],
@@ -7858,10 +7790,10 @@
     {
       "path": "/de/plan-your-trip",
       "locale": "de",
-      "title": "Reise nach Israel planen: Reiseführer, Reiserouten & Regionen",
-      "titleLength": 61,
-      "description": "Alles für die Planung einer Israel-Reise an einem Ort: praktische Reiseführer, Hotels und Touren, fertige Reiserouten und ausführliche Guides zu 7 Regionen.",
-      "descriptionLength": 156,
+      "title": "Israel-Reise planen: Reiseführer, Reiserouten & Regionen",
+      "titleLength": 56,
+      "description": "Israel-Reise planen an einem Ort: praktische Reiseführer, Hotels und Touren, fertige Reiserouten und ausführliche Guides zu 7 Regionen.",
+      "descriptionLength": 135,
       "h1": [
         "Planen Sie Ihre Reise"
       ],
@@ -7903,7 +7835,7 @@
         "Organization",
         "WebSite"
       ],
-      "words": 348,
+      "words": 558,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -7983,11 +7915,11 @@
         "Ist Israel sicher? Ist Israel sicher? Ein ehrlicher Reiseführer für 2026",
         "Mietwagen Mietwagen in Israel",
         "Hotels in Jerusalem Die besten Hotels in Jerusalem 2026 — Stadtviertel & Picks",
-        "Hotels in Tel Aviv Die besten Hotels in Tel Aviv 2026 — Stadtviertel & Preisklassen",
+        "Hotels in Tel Aviv Die besten Hotels in Tel Aviv 2026",
         "Hotels am Toten Meer Totes Meer Hotels",
         "Hotels in Eilat Übernachten in Eilat",
-        "Touren in Jerusalem Jerusalem-Touren im Vergleich",
-        "Touren Totes Meer & Masada Totes-Meer-Touren verglichen",
+        "Touren in Jerusalem Jerusalem Stadtführung im Vergleich",
+        "Touren Totes Meer & Masada Totes-Meer-Ausflug",
         "Ausflüge ab Tel Aviv Die besten Tagesausflüge von Tel Aviv (2026)",
         "Masada: Besuch & Touren Masada besuchen",
         "Bethlehem ab Jerusalem Tagesausflug nach Bethlehem ab Jerusalem",
@@ -8043,8 +7975,8 @@
     {
       "path": "/de/tel-aviv",
       "locale": "de",
-      "title": "Tel Aviv: Reiseführer 2026",
-      "titleLength": 26,
+      "title": "Tel Aviv Sehenswürdigkeiten: Reiseführer für Israel 2026",
+      "titleLength": 56,
       "description": "Tel Aviv besuchen 2026: Bauhaus-Weißstadt, Mittelmeerstrände, Alt-Jaffa, Karmelmarkt, Hotels und Ausflüge — praktischer Reiseführer für Ihren Israelurlaub.",
       "descriptionLength": 155,
       "h1": [
@@ -8237,8 +8169,8 @@
       "locale": "de",
       "title": "Food-Touren in Tel Aviv: Carmel-Markt, Jaffa & Levinsky",
       "titleLength": 55,
-      "description": "Food-Touren in Tel Aviv und Jaffa im Vergleich für 2026: Verkostungen auf dem Carmel-Markt, Hummus-Spaziergänge durch Alt-Jaffa, das Gewürzviertel Levinsky, Preise und Alternativen ohne Essen.",
-      "descriptionLength": 192,
+      "description": "Food Tour Tel Aviv im Vergleich 2026: Verkostungen auf dem Carmel-Markt, Hummus-Touren durch Alt-Jaffa, Gewürzviertel Levinsky, Preise und Alternativen.",
+      "descriptionLength": 152,
       "h1": [
         "Food-Touren in Tel Aviv: Carmel-Markt, Jaffa & Levinsky"
       ],
@@ -9022,8 +8954,8 @@
       "locale": "en",
       "title": "Dead Sea Tours Compared: Float, Masada & Day Trips (2026)",
       "titleLength": 57,
-      "description": "Dead Sea tours compared: Dead Sea only floats, Masada combos, private guides and self-drive — what each covers and where to book from Jerusalem or Tel Aviv.",
-      "descriptionLength": 156,
+      "description": "Dead Sea tours compared: float-only trips, Masada combos, private guides and self-drive — what each covers and where to book from Jerusalem or Tel Aviv.",
+      "descriptionLength": 152,
       "h1": [
         "Dead Sea Tours Compared: Float, Masada & Day Trips (2026)"
       ],
@@ -9611,10 +9543,10 @@
     {
       "path": "/es",
       "locale": "es",
-      "title": "Visitar Israel — Guía de viaje",
-      "titleLength": 30,
-      "description": "Planifica tu viaje a Israel: 7 regiones desde Jerusalén hasta el Mar Rojo, itinerarios, los mejores hoteles y tours comparados, con enlaces de reserva claramente señalados.",
-      "descriptionLength": 172,
+      "title": "Viajar a Israel: guía de viaje, rutas, hoteles y tours",
+      "titleLength": 54,
+      "description": "Viajar a Israel: 7 regiones desde Jerusalén hasta el mar Rojo, itinerarios, los mejores hoteles y tours comparados, con enlaces de reserva bien señalados.",
+      "descriptionLength": 154,
       "h1": [
         "Visitar Israel"
       ],
@@ -9656,11 +9588,11 @@
         "Organization",
         "WebSite"
       ],
-      "words": 290,
+      "words": 449,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 96,
+      "internalLinks": 100,
       "internalTargets": [
         "/es/jerusalem",
         "/es/tel-aviv",
@@ -9802,8 +9734,8 @@
       "locale": "es",
       "title": "Mejores hoteles en Jerusalén 2026: Guía por barrio",
       "titleLength": 50,
-      "description": "Los mejores hoteles en Jerusalén por barrio: lujo cerca de la Puerta de Jaffa, boutique en la Colonia Alemana, precio medio cerca de Mahane Yehuda y hostales económicos junto a la Ciudad Vieja.",
-      "descriptionLength": 193,
+      "description": "Hoteles en Jerusalén por barrio: lujo junto a la Puerta de Jaffa, boutique en la Colonia Alemana, precio medio cerca de Mahane Yehuda y hostales baratos.",
+      "descriptionLength": 153,
       "h1": [
         "Mejores hoteles en Jerusalén 2026: Guía por barrio"
       ],
@@ -9989,12 +9921,12 @@
     {
       "path": "/es/best-hotels-tel-aviv",
       "locale": "es",
-      "title": "Mejores hoteles en Tel Aviv 2026: Opciones para cada presupuesto",
-      "titleLength": 64,
-      "description": "Los mejores hoteles en Tel Aviv por barrio: opciones económicas, precio medio y lujo, incluidas las nuevas aperturas de 2026 Six Senses y Nobu Hotel Tel Aviv.",
-      "descriptionLength": 158,
+      "title": "Hoteles en Tel Aviv 2026: los mejores para cada presupuesto",
+      "titleLength": 59,
+      "description": "Hoteles en Tel Aviv por barrio: opciones económicas, de precio medio y de lujo, incluidas las aperturas de 2026 Six Senses y Nobu Hotel Tel Aviv.",
+      "descriptionLength": 145,
       "h1": [
-        "Mejores hoteles en Tel Aviv 2026: Opciones para cada presupuesto"
+        "Hoteles en Tel Aviv 2026: los mejores para cada presupuesto"
       ],
       "h1Count": 1,
       "h2Count": 15,
@@ -10367,8 +10299,8 @@
       "locale": "es",
       "title": "Excursión a Cesarea, Haifa y Acre desde Tel Aviv",
       "titleLength": 48,
-      "description": "La excursión por la costa norte desde Tel Aviv en 2026: el puerto romano de Cesarea, los jardines bahá'ís de Haifa y la Acre de los cruzados, más Rosh Hanikra, precios y consejos para ir en coche.",
-      "descriptionLength": 196,
+      "description": "Excursión a Cesarea, Haifa y Acre desde Tel Aviv 2026: puerto romano, jardines bahá'ís, ciudad cruzada, Rosh Hanikra, precios y consejos para ir en coche.",
+      "descriptionLength": 154,
       "h1": [
         "Excursión a Cesarea, Haifa y Acre desde Tel Aviv"
       ],
@@ -10747,8 +10679,8 @@
       "locale": "es",
       "title": "Las mejores excursiones de un día desde Tel Aviv (2026)",
       "titleLength": 55,
-      "description": "Las mejores excursiones desde Tel Aviv: Jerusalén, la costa norte (Cesarea–Haifa–Akko), Masada y el Mar Muerto, la Galilea y más — cómo hacerlas y opciones con guía.",
-      "descriptionLength": 165,
+      "description": "Excursiones desde Tel Aviv: Jerusalén, la costa norte (Cesarea, Haifa y Acre), Masada y el mar Muerto, Galilea y más — cómo hacerlas y opciones con guía.",
+      "descriptionLength": 153,
       "h1": [
         "Las mejores excursiones de un día desde Tel Aviv (2026)"
       ],
@@ -11129,12 +11061,12 @@
     {
       "path": "/es/dead-sea-hotels-guide",
       "locale": "es",
-      "title": "Dónde alojarse en el Mar Muerto: mejores hoteles en Ein Bokek (2026)",
-      "titleLength": 68,
-      "description": "Guía de hoteles del Mar Muerto: selección en la franja resort de Ein Bokek en niveles de lujo y rango medio, precios estacionales honestos y la alternativa económica en Ein Gedi.",
-      "descriptionLength": 178,
+      "title": "Hoteles en el mar Muerto: dónde alojarse en Ein Bokek 2026",
+      "titleLength": 58,
+      "description": "Hoteles en el mar Muerto: selección en la franja de resorts de Ein Bokek en lujo y rango medio, precios por temporada y la alternativa barata de Ein Gedi.",
+      "descriptionLength": 154,
       "h1": [
-        "Dónde alojarse en el Mar Muerto: mejores hoteles en Ein Bokek (2026)"
+        "Hoteles en el mar Muerto: dónde alojarse en Ein Bokek 2026"
       ],
       "h1Count": 1,
       "h2Count": 14,
@@ -11177,7 +11109,7 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 2854,
+      "words": 2853,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -11508,8 +11440,8 @@
       "locale": "es",
       "title": "Qué hacer en Eilat: guía de viaje mar Rojo 2026",
       "titleLength": 47,
-      "description": "Planifica tu estadía en Eilat: arrecife de coral, Reserva Natural Coral Beach, parque Timna, Dolphin Reef, buceo y excursión a Petra — guía de viaje completa.",
-      "descriptionLength": 158,
+      "description": "Eilat, Israel: arrecife de coral, Reserva Natural Coral Beach, parque Timna, Dolphin Reef, buceo y excursión a Petra — guía de viaje completa para 2026.",
+      "descriptionLength": 152,
       "h1": [
         "Eilat"
       ],
@@ -11556,7 +11488,7 @@
         "ItemList",
         "FAQPage"
       ],
-      "words": 2483,
+      "words": 2482,
       "images": 7,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -11700,8 +11632,8 @@
       "locale": "es",
       "title": "Dónde alojarse en Eilat: los mejores hoteles por zona 2026",
       "titleLength": 58,
-      "description": "Guía de hoteles de Eilat para 2026: resorts de North Beach, la zona del arrecife de Coral Beach y alojamientos económicos del centro comparados por zona y presupuesto, y cuándo reservar.",
-      "descriptionLength": 186,
+      "description": "Hoteles en Eilat 2026: resorts de North Beach, la zona del arrecife de Coral Beach y alojamientos económicos del centro, comparados por zona y presupuesto.",
+      "descriptionLength": 155,
       "h1": [
         "Dónde alojarse en Eilat: los mejores hoteles por zona 2026"
       ],
@@ -12081,8 +12013,8 @@
       "locale": "es",
       "title": "Qué hacer en Galilea: guía de viaje al mar de Galilea 2026",
       "titleLength": 58,
-      "description": "Planifica tu visita a Galilea 2026: mar de Galilea, peregrinación cristiana, Cafarnaúm, monte de las Bienaventuranzas, Tiberíades, senderismo y consejos prácticos.",
-      "descriptionLength": 163,
+      "description": "Mar de Galilea y Galilea en 2026: peregrinación cristiana, Cafarnaúm, monte de las Bienaventuranzas, Tiberíades, senderismo y consejos prácticos.",
+      "descriptionLength": 145,
       "h1": [
         "Galilea"
       ],
@@ -12129,7 +12061,7 @@
         "ItemList",
         "FAQPage"
       ],
-      "words": 2597,
+      "words": 2595,
       "images": 7,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -12465,8 +12397,8 @@
       "locale": "es",
       "title": "¿Es seguro visitar Israel? Guía honesta 2026",
       "titleLength": 44,
-      "description": "Un análisis práctico y honesto de la seguridad en Israel para turistas: qué esperar en el día a día, cómo consultar los consejos oficiales y precauciones de sentido común.",
-      "descriptionLength": 171,
+      "description": "¿Es seguro viajar a Israel? Un análisis práctico y honesto para turistas: qué esperar día a día, cómo consultar los consejos oficiales y precauciones.",
+      "descriptionLength": 150,
       "h1": [
         "¿Es seguro visitar Israel? Guía honesta 2026"
       ],
@@ -12656,8 +12588,8 @@
       "locale": "es",
       "title": "Paquetes de viaje a Israel: tours de 2 a 10 días",
       "titleLength": 48,
-      "description": "Paquetes de varios días por Israel para 2026: circuitos de 2 a 4 días Jerusalén y Mar Muerto, el tour clásico de 7 a 8 días, 10 días con Petra, grupo pequeño o privado.",
-      "descriptionLength": 168,
+      "description": "Viajes organizados a Israel 2026: circuitos de 2 a 4 días por Jerusalén y mar Muerto, el clásico de 7 a 8 días, 10 días con Petra, grupo pequeño o privado.",
+      "descriptionLength": 155,
       "h1": [
         "Paquetes de viaje a Israel: tours de 2 a 10 días"
       ],
@@ -12855,23 +12787,49 @@
         "Itinerarios por Israel"
       ],
       "h1Count": 1,
-      "h2Count": 6,
-      "h3Count": 0,
+      "h2Count": 8,
+      "h3Count": 3,
       "canonical": "/es/itineraries",
       "canonicalOk": true,
-      "hreflang": [],
+      "hreflang": [
+        {
+          "lang": "en",
+          "path": "/itineraries"
+        },
+        {
+          "lang": "fr",
+          "path": "/fr/itineraries"
+        },
+        {
+          "lang": "de",
+          "path": "/de/itineraries"
+        },
+        {
+          "lang": "es",
+          "path": "/es/itineraries"
+        },
+        {
+          "lang": "he",
+          "path": "/he/itineraries"
+        },
+        {
+          "lang": "x-default",
+          "path": "/itineraries"
+        }
+      ],
       "hreflangOk": true,
       "hreflangIssues": [],
       "ogImage": true,
       "jsonLd": [
         "Organization",
-        "WebSite"
+        "WebSite",
+        "FAQPage"
       ],
-      "words": 109,
+      "words": 720,
       "images": 3,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 70,
+      "internalLinks": 73,
       "internalTargets": [
         "/es",
         "/es/jerusalem",
@@ -12896,7 +12854,6 @@
         "/es/jerusalem-tours-compared",
         "/es/itineraries/7-days-in-israel",
         "/es/itineraries/10-days-in-israel",
-        "/",
         "/es/best-hotels-tel-aviv",
         "/es/dead-sea-hotels-guide",
         "/es/eilat-hotels-guide",
@@ -12942,10 +12899,13 @@
         "Deutsch",
         "עברית",
         "Inicio",
-        "7 días 7 días en Israel: el itinerario clásico para una primera visita",
+        "7 días Israel en 7 días: el itinerario clásico de primera visita",
         "10 días 10 días en Israel: el itinerario completo de norte a sur",
+        "itinerario de 7 días",
+        "itinerario de 10 días",
+        "guía de la mejor época para viajar",
         "7 regiones",
-        "guía completa en inglés",
+        "guía para la primera vez en Israel",
         "Hoteles en Tel Aviv",
         "Hoteles del Mar Muerto",
         "Hoteles en Eilat",
@@ -12953,10 +12913,7 @@
         "Excursiones desde Tel Aviv",
         "Masada: visita y tours",
         "Belén desde Jerusalén",
-        "Petra desde Israel",
-        "Nazaret y Mar de Galilea",
-        "Cesarea, Haifa y Acre en un día",
-        "Tours gastronómicos en Tel Aviv"
+        "Petra desde Israel"
       ],
       "externalLinks": 5,
       "externalDomains": [
@@ -13181,12 +13138,12 @@
     {
       "path": "/es/itineraries/7-days-in-israel",
       "locale": "es",
-      "title": "7 días en Israel: el itinerario clásico para una primera visita",
-      "titleLength": 63,
+      "title": "Israel en 7 días: el itinerario clásico de primera visita",
+      "titleLength": 57,
       "description": "Itinerario de una semana en Israel: Jerusalén, mar Muerto, Masada, Tel Aviv, Jaffa y Galilea — tiempos, costos, transporte, hoteles y visitas guiadas.",
       "descriptionLength": 150,
       "h1": [
-        "7 días en Israel: el itinerario clásico para una primera visita"
+        "Israel en 7 días: el itinerario clásico de primera visita"
       ],
       "h1Count": 1,
       "h2Count": 16,
@@ -13230,7 +13187,7 @@
         "TouristTrip",
         "FAQPage"
       ],
-      "words": 1421,
+      "words": 1420,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -13551,8 +13508,8 @@
       "locale": "es",
       "title": "Excursión a Belén desde Jerusalén: tours y logística",
       "titleLength": 52,
-      "description": "Belén desde Jerusalén en 2026: tours de medio día a la basílica de la Natividad, el día completo Belén, Jericó y río Jordán, y la logística del checkpoint y el pasaporte.",
-      "descriptionLength": 170,
+      "description": "Excursión a Belén desde Jerusalén 2026: tours de medio día a la basílica de la Natividad, el día completo con Jericó y el Jordán, checkpoint y pasaporte.",
+      "descriptionLength": 153,
       "h1": [
         "Excursión a Belén desde Jerusalén: tours y logística"
       ],
@@ -13935,8 +13892,8 @@
       "locale": "es",
       "title": "Guía para visitar Masada: tours, amanecer y teleférico",
       "titleLength": 54,
-      "description": "Cómo visitar Masada en 2026: sendero de la Serpiente o teleférico, la subida al amanecer, qué ver en la cima, y los tours a Masada, Ein Gedi y el Mar Muerto desde Jerusalén y Tel Aviv.",
-      "descriptionLength": 184,
+      "description": "Masada, Israel, en 2026: sendero de la Serpiente o teleférico, la subida al amanecer, qué ver en la cima y los tours desde Jerusalén y Tel Aviv comparados.",
+      "descriptionLength": 155,
       "h1": [
         "Guía para visitar Masada: tours, amanecer y teleférico"
       ],
@@ -14125,8 +14082,8 @@
       "locale": "es",
       "title": "Excursión a Nazaret y el mar de Galilea: tour cristiano",
       "titleLength": 55,
-      "description": "La excursión cristiana por Galilea desde Tel Aviv o Jerusalén en 2026: Nazaret, Cafarnaúm, el monte de las Bienaventuranzas, Tabgha y el río Jordán, con precios.",
-      "descriptionLength": 161,
+      "description": "Excursión a Nazaret y mar de Galilea desde Tel Aviv o Jerusalén en 2026: Cafarnaúm, monte de las Bienaventuranzas, Tabgha y el río Jordán, con precios.",
+      "descriptionLength": 151,
       "h1": [
         "Excursión a Nazaret y el mar de Galilea: tour cristiano"
       ],
@@ -14509,8 +14466,8 @@
       "locale": "es",
       "title": "Petra desde Israel: excursiones desde Eilat y Tel Aviv",
       "titleLength": 54,
-      "description": "Petra desde Israel en 2026: la excursión de un día desde Eilat, los dos días Petra y Wadi Rum, el día con vuelo desde Tel Aviv, y la logística de frontera y visado.",
-      "descriptionLength": 164,
+      "description": "Petra desde Israel en 2026: la excursión de un día desde Eilat, los dos días Petra y Wadi Rum, el día con vuelo desde Tel Aviv, más frontera y visado.",
+      "descriptionLength": 150,
       "h1": [
         "Petra desde Israel: excursiones desde Eilat y Tel Aviv"
       ],
@@ -14743,7 +14700,7 @@
         "Organization",
         "WebSite"
       ],
-      "words": 425,
+      "words": 663,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -14823,8 +14780,8 @@
         "¿Es seguro Israel? ¿Es seguro visitar Israel? Guía honesta 2026",
         "Alquiler de coche Alquiler de Coche en Israel",
         "Hoteles en Jerusalén Mejores hoteles en Jerusalén 2026",
-        "Hoteles en Tel Aviv Mejores hoteles en Tel Aviv 2026",
-        "Hoteles del Mar Muerto Dónde alojarse en el Mar Muerto",
+        "Hoteles en Tel Aviv Hoteles en Tel Aviv 2026",
+        "Hoteles del Mar Muerto Hoteles en el mar Muerto",
         "Hoteles en Eilat Dónde alojarse en Eilat",
         "Tours en Jerusalén Tours por Jerusalén Comparados",
         "Tours Mar Muerto y Masada Tours al Mar Muerto comparados",
@@ -15077,8 +15034,8 @@
       "locale": "es",
       "title": "Tours gastronómicos en Tel Aviv: Carmel, Jaffa y Levinsky",
       "titleLength": 57,
-      "description": "Tours gastronómicos en Tel Aviv y Jaffa comparados para 2026: degustaciones en el mercado Carmel, rutas de hummus por la vieja Jaffa, el barrio de especias de Levinsky, precios y alternativas.",
-      "descriptionLength": 192,
+      "description": "Tour gastronómico Tel Aviv 2026: degustaciones en el mercado Carmel, rutas de hummus por la vieja Jaffa y el barrio Levinsky, con precios y alternativas.",
+      "descriptionLength": 153,
       "h1": [
         "Tours gastronómicos en Tel Aviv: Carmel, Jaffa y Levinsky"
       ],
@@ -15650,10 +15607,10 @@
     {
       "path": "/fr",
       "locale": "fr",
-      "title": "Visiter Israël — Guide de voyage",
-      "titleLength": 32,
-      "description": "Préparez votre voyage en Israël : 7 régions de Jérusalem à la mer Rouge, itinéraires, meilleurs hôtels et circuits comparés, avec des liens de réservation clairement signalés.",
-      "descriptionLength": 175,
+      "title": "Voyage en Israël : guide de voyage, itinéraires et hôtels",
+      "titleLength": 57,
+      "description": "Voyage en Israël : 7 régions de Jérusalem à la mer Rouge, itinéraires, meilleurs hôtels et circuits comparés, avec des liens de réservation bien signalés.",
+      "descriptionLength": 154,
       "h1": [
         "Visiter Israël"
       ],
@@ -15695,11 +15652,11 @@
         "Organization",
         "WebSite"
       ],
-      "words": 294,
+      "words": 459,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 96,
+      "internalLinks": 100,
       "internalTargets": [
         "/fr/jerusalem",
         "/fr/tel-aviv",
@@ -15766,6 +15723,7 @@
         "Deutsch",
         "Español",
         "עברית",
+        "mer Morte",
         "Le cœur spirituel d’Israël Jérusalem Les quartiers de la Vieille Ville, le mur des Lamentations et le Saint-Sépulcre, avec des excursions vers la mer Morte. Découvrir",
         "L’esprit méditerranéen Tel Aviv Plages dorées, architecture Bauhaus et une scène gastronomique, artistique et nocturne qui ne s’arrête jamais. Découvrir",
         "Le point le plus bas de la Terre Mer Morte Flottez sur une eau riche en minéraux, grimpez à Massada au lever du soleil et randonnez dans l’oasis d’Ein Gedi. Découvrir",
@@ -15780,8 +15738,7 @@
         "Excursions depuis Tel Aviv",
         "Massada : visite et circuits",
         "Bethléem depuis Jérusalem",
-        "Pétra depuis Israël",
-        "Nazareth et lac de Tibériade"
+        "Pétra depuis Israël"
       ],
       "externalLinks": 5,
       "externalDomains": [
@@ -15841,8 +15798,8 @@
       "locale": "fr",
       "title": "Meilleurs hôtels à Jérusalem 2026 : guide par quartier",
       "titleLength": 54,
-      "description": "Les meilleurs hôtels de Jérusalem par quartier : luxe près de la Porte de Jaffa, boutique dans la Colonie allemande, milieu de gamme près de Mahane Yehuda, auberges.",
-      "descriptionLength": 165,
+      "description": "Hôtel à Jérusalem par quartier : luxe près de la Porte de Jaffa, boutique dans la Colonie allemande, milieu de gamme près de Mahane Yehuda et auberges.",
+      "descriptionLength": 151,
       "h1": [
         "Meilleurs hôtels à Jérusalem 2026 : guide par quartier"
       ],
@@ -16218,8 +16175,8 @@
       "locale": "fr",
       "title": "Meilleure période pour visiter Israël : guide des saisons",
       "titleLength": 57,
-      "description": "Quand visiter Israël ? Guide saison par saison et mois par mois avec les températures, l'affluence, les fêtes religieuses et les prix à Jérusalem, Tel Aviv,",
-      "descriptionLength": 156,
+      "description": "Meilleure période pour visiter Israël : guide saison par saison avec températures, affluence, fêtes et prix à Jérusalem, Tel Aviv, désert et côte.",
+      "descriptionLength": 146,
       "h1": [
         "Meilleure période pour visiter Israël : guide des saisons"
       ],
@@ -16412,8 +16369,8 @@
       "locale": "fr",
       "title": "Excursion Césarée, Haïfa et Acre depuis Tel Aviv",
       "titleLength": 48,
-      "description": "L'excursion de la côte nord depuis Tel Aviv en 2026 : le port romain de Césarée, les jardins bahá'ís de Haïfa et l'Acre des croisés, plus Rosh Hanikra, les tarifs et les conseils pour conduire.",
-      "descriptionLength": 193,
+      "description": "Excursion Césarée, Haïfa et Acre depuis Tel Aviv 2026 : port romain, jardins bahá'ís et cité des croisés, Rosh Hanikra, tarifs et conseils de conduite.",
+      "descriptionLength": 151,
       "h1": [
         "Excursion Césarée, Haïfa et Acre depuis Tel Aviv"
       ],
@@ -16602,8 +16559,8 @@
       "locale": "fr",
       "title": "Location de voiture en Israël : guide complet 2026",
       "titleLength": 50,
-      "description": "Tout sur la location de voiture en Israël : quand ça vaut le coup, les coûts, les règles de conduite, le Shabbat, le stationnement, les restrictions aux",
-      "descriptionLength": 152,
+      "description": "Location de voiture en Israël : quand ça vaut le coup, les coûts, les règles de conduite, le Shabbat, le stationnement, les frontières et où réserver.",
+      "descriptionLength": 150,
       "h1": [
         "Location de voiture en Israël : guide complet 2026"
       ],
@@ -16795,12 +16752,12 @@
     {
       "path": "/fr/day-trips-from-tel-aviv",
       "locale": "fr",
-      "title": "Les meilleures excursions d'une journée depuis Tel Aviv (2026)",
-      "titleLength": 62,
+      "title": "Les meilleures excursions d'une journée depuis Tel Aviv",
+      "titleLength": 55,
       "description": "Les meilleures excursions depuis Tel Aviv : Jérusalem, côte nord (Césarée–Haïfa–Akko), Masada, mer Morte et Galilée — en autonomie ou en circuit guidé.",
       "descriptionLength": 151,
       "h1": [
-        "Les meilleures excursions d'une journée depuis Tel Aviv (2026)"
+        "Les meilleures excursions d'une journée depuis Tel Aviv"
       ],
       "h1Count": 1,
       "h2Count": 10,
@@ -16843,7 +16800,7 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 589,
+      "words": 588,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -17184,12 +17141,12 @@
     {
       "path": "/fr/dead-sea-hotels-guide",
       "locale": "fr",
-      "title": "Hôtels Mer Morte 2026 : Ein Bokek et les alternatives — guide complet",
-      "titleLength": 69,
-      "description": "Hôtels à la Mer Morte : comparatif honnête des établissements d'Ein Bokek par gamme de prix, l'alternative Ein Gedi, et quand un hôtel vaut mieux qu'une excursion.",
-      "descriptionLength": 163,
+      "title": "Hôtel Mer Morte 2026 : Ein Bokek et les alternatives",
+      "titleLength": 52,
+      "description": "Hôtel à la Mer Morte : comparatif des établissements d'Ein Bokek par gamme de prix, l'alternative Ein Gedi, et quand un hôtel vaut mieux qu'une excursion.",
+      "descriptionLength": 154,
       "h1": [
-        "Hôtels Mer Morte 2026 : Ein Bokek et les alternatives — guide complet"
+        "Hôtel Mer Morte 2026 : Ein Bokek et les alternatives"
       ],
       "h1Count": 1,
       "h2Count": 14,
@@ -17232,7 +17189,7 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 2450,
+      "words": 2448,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -17372,12 +17329,12 @@
     {
       "path": "/fr/dead-sea-tours-compared",
       "locale": "fr",
-      "title": "Excursions Mer Morte 2026 : comparatif flottaison, Massada et circuits",
-      "titleLength": 70,
-      "description": "Excursions Mer Morte depuis Jérusalem et Tel Aviv : excursion seule, combo Massada, guide privé ou route en voiture — comparatif honnête des formats et conseils pour choisir.",
-      "descriptionLength": 174,
+      "title": "Excursion Mer Morte 2026 : flottaison, Massada et circuits",
+      "titleLength": 58,
+      "description": "Excursion Mer Morte depuis Jérusalem et Tel Aviv : flottaison seule, combo Massada, guide privé ou voiture — comparatif des formats et comment choisir.",
+      "descriptionLength": 151,
       "h1": [
-        "Excursions Mer Morte 2026 : comparatif flottaison, Massada et circuits"
+        "Excursion Mer Morte 2026 : flottaison, Massada et circuits"
       ],
       "h1Count": 1,
       "h2Count": 15,
@@ -17420,7 +17377,7 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 1928,
+      "words": 1927,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -17563,8 +17520,8 @@
       "locale": "fr",
       "title": "Que faire à Eilat : guide de voyage mer Rouge 2026",
       "titleLength": 50,
-      "description": "Planifiez votre séjour à Eilat : récif de corail, Réserve naturelle Coral Beach, parc Timna, Dolphin Reef, plongée et excursion à Pétra — guide voyage complet.",
-      "descriptionLength": 159,
+      "description": "Eilat, Israël : récif de corail, réserve naturelle Coral Beach, parc Timna, Dolphin Reef, plongée et excursion à Pétra — guide de voyage complet 2026.",
+      "descriptionLength": 150,
       "h1": [
         "Eilat"
       ],
@@ -17611,7 +17568,7 @@
         "ItemList",
         "FAQPage"
       ],
-      "words": 2387,
+      "words": 2386,
       "images": 7,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -17755,8 +17712,8 @@
       "locale": "fr",
       "title": "Où dormir à Eilat : les meilleurs hôtels par zone 2026",
       "titleLength": 54,
-      "description": "Guide des hôtels d'Eilat pour 2026 : resorts de North Beach, zone du récif de Coral Beach et hébergements économiques du centre comparés par zone et par budget, et quand réserver.",
-      "descriptionLength": 179,
+      "description": "Hôtel à Eilat 2026 : resorts de North Beach, zone de Coral Beach et hébergements économiques du centre, comparés par zone et budget, et quand réserver.",
+      "descriptionLength": 151,
       "h1": [
         "Où dormir à Eilat : les meilleurs hôtels par zone 2026"
       ],
@@ -17944,8 +17901,8 @@
       "locale": "fr",
       "title": "Israël pour la première fois : guide complet 2026",
       "titleLength": 49,
-      "description": "Tout ce qu'un premier visiteur en Israël doit savoir : quand partir, combien de temps, arriver depuis l'aéroport, le Shabbat, l'argent, les bagages et un",
-      "descriptionLength": 153,
+      "description": "Israël pour la première fois : quand partir, combien de temps, arriver depuis l'aéroport, le Shabbat, l'argent, les bagages et un itinéraire type.",
+      "descriptionLength": 146,
       "h1": [
         "Israël pour la première fois : guide complet 2026"
       ],
@@ -18721,8 +18678,8 @@
       "locale": "fr",
       "title": "Circuits organisés en Israël : voyages de 2 à 10 jours",
       "titleLength": 54,
-      "description": "Circuits organisés de plusieurs jours en Israël pour 2026 : formules de 2 à 4 jours Jérusalem et Mer Morte, le circuit classique de 7 à 8 jours, 10 jours avec Pétra, petit groupe ou privé.",
-      "descriptionLength": 188,
+      "description": "Circuit Israël 2026 : formules de 2 à 4 jours Jérusalem et Mer Morte, le classique de 7 à 8 jours, 10 jours avec Pétra, en petit groupe ou en privé.",
+      "descriptionLength": 148,
       "h1": [
         "Circuits organisés en Israël : voyages de 2 à 10 jours"
       ],
@@ -18914,29 +18871,55 @@
       "locale": "fr",
       "title": "Itinéraires Israël : routes de 7 et 10 jours",
       "titleLength": 44,
-      "description": "Itinéraires de voyage en Israël clés en main — un premier voyage classique de 7 jours et une route de 10 jours qui ajoute le nord et le désert, avec circuits, hébergements et transports.",
-      "descriptionLength": 186,
+      "description": "Itinéraires Israël clés en main : un premier voyage de 7 jours et une route de 10 jours avec le nord et le désert, circuits, hébergements et transports.",
+      "descriptionLength": 152,
       "h1": [
         "Itinéraires Israël"
       ],
       "h1Count": 1,
-      "h2Count": 6,
-      "h3Count": 0,
+      "h2Count": 8,
+      "h3Count": 3,
       "canonical": "/fr/itineraries",
       "canonicalOk": true,
-      "hreflang": [],
+      "hreflang": [
+        {
+          "lang": "en",
+          "path": "/itineraries"
+        },
+        {
+          "lang": "fr",
+          "path": "/fr/itineraries"
+        },
+        {
+          "lang": "de",
+          "path": "/de/itineraries"
+        },
+        {
+          "lang": "es",
+          "path": "/es/itineraries"
+        },
+        {
+          "lang": "he",
+          "path": "/he/itineraries"
+        },
+        {
+          "lang": "x-default",
+          "path": "/itineraries"
+        }
+      ],
       "hreflangOk": true,
       "hreflangIssues": [],
       "ogImage": true,
       "jsonLd": [
         "Organization",
-        "WebSite"
+        "WebSite",
+        "FAQPage"
       ],
-      "words": 110,
+      "words": 716,
       "images": 3,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 70,
+      "internalLinks": 73,
       "internalTargets": [
         "/fr",
         "/fr/jerusalem",
@@ -19006,8 +18989,11 @@
         "Español",
         "עברית",
         "Accueil",
-        "7 jours 7 jours en Israël : l'itinéraire classique de première visite",
+        "7 jours Israël en 7 jours : itinéraire classique de première visite",
         "10 jours 10 jours en Israël : l'itinéraire complet du nord au sud",
+        "itinéraire de 7 jours",
+        "itinéraire de 10 jours",
+        "guide de la meilleure période",
         "7 régions",
         "guide du premier voyage",
         "Hôtels à Tel Aviv",
@@ -19017,10 +19003,7 @@
         "Excursions depuis Tel Aviv",
         "Massada : visite et circuits",
         "Bethléem depuis Jérusalem",
-        "Pétra depuis Israël",
-        "Nazareth et lac de Tibériade",
-        "Césarée, Haïfa et Acre en un jour",
-        "Circuits gastronomiques à Tel Aviv"
+        "Pétra depuis Israël"
       ],
       "externalLinks": 5,
       "externalDomains": [
@@ -19245,12 +19228,12 @@
     {
       "path": "/fr/itineraries/7-days-in-israel",
       "locale": "fr",
-      "title": "7 jours en Israël : l'itinéraire classique de première visite",
-      "titleLength": 61,
+      "title": "Israël en 7 jours : itinéraire classique de première visite",
+      "titleLength": 59,
       "description": "Itinéraire d'une semaine en Israël : Jérusalem, mer Morte, Massada, Tel Aviv, Jaffa et Galilée — timings, coûts, transports, hôtels et visites guidées.",
       "descriptionLength": 151,
       "h1": [
-        "7 jours en Israël : l'itinéraire classique de première visite"
+        "Israël en 7 jours : itinéraire classique de première visite"
       ],
       "h1Count": 1,
       "h2Count": 16,
@@ -19612,12 +19595,12 @@
     {
       "path": "/fr/jerusalem-bethlehem-day-trip",
       "locale": "fr",
-      "title": "Excursion à Bethléem depuis Jérusalem : circuits et logistique",
-      "titleLength": 62,
-      "description": "Bethléem depuis Jérusalem en 2026 : circuits d'une demi-journée à l'église de la Nativité, la journée Bethléem, Jéricho et Jourdain, et la logistique du checkpoint et du passeport.",
-      "descriptionLength": 180,
+      "title": "Excursion Bethléem depuis Jérusalem : tours et logistique",
+      "titleLength": 57,
+      "description": "Excursion Bethléem depuis Jérusalem 2026 : demi-journée à l'église de la Nativité, journée Bethléem, Jéricho et Jourdain, checkpoint et passeport.",
+      "descriptionLength": 146,
       "h1": [
-        "Excursion à Bethléem depuis Jérusalem : circuits et logistique"
+        "Excursion Bethléem depuis Jérusalem : tours et logistique"
       ],
       "h1Count": 1,
       "h2Count": 14,
@@ -19660,7 +19643,7 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 2330,
+      "words": 2329,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -19804,12 +19787,12 @@
     {
       "path": "/fr/jerusalem-tours-compared",
       "locale": "fr",
-      "title": "Circuits Jérusalem comparés : quelle visite guidée choisir ? (2026)",
-      "titleLength": 67,
-      "description": "Circuits Jérusalem comparés — visites de la Vieille Ville, circuit d'une journée complète, combiné Jérusalem-Bethléem, tunnels du Mur des Lamentations et guides privés : coûts et comment choisir.",
-      "descriptionLength": 195,
+      "title": "Visite guidée Jérusalem : comparatif des circuits 2026",
+      "titleLength": 54,
+      "description": "Visite guidée Jérusalem : comparatif des visites de la Vieille Ville, journée complète, combiné Bethléem, tunnels du Mur des Lamentations et guides privés.",
+      "descriptionLength": 155,
       "h1": [
-        "Circuits Jérusalem comparés : quelle visite guidée choisir ? (2026)"
+        "Visite guidée Jérusalem : comparatif des circuits 2026"
       ],
       "h1Count": 1,
       "h2Count": 16,
@@ -19852,7 +19835,7 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 1356,
+      "words": 1355,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -19996,12 +19979,12 @@
     {
       "path": "/fr/masada-visitor-guide",
       "locale": "fr",
-      "title": "Visiter Massada : circuits, ascension à l'aube et téléphérique",
-      "titleLength": 62,
-      "description": "Visiter Massada en 2026 : sentier du Serpent ou téléphérique, la montée à l'aube, quoi voir au sommet, et les excursions Massada, Ein Gedi et Mer Morte depuis Jérusalem et Tel Aviv.",
-      "descriptionLength": 181,
+      "title": "Massada : circuits, ascension à l'aube et téléphérique",
+      "titleLength": 54,
+      "description": "Massada en 2026 : sentier du Serpent ou téléphérique, montée à l'aube, quoi voir au sommet, et les excursions depuis Jérusalem et Tel Aviv comparées.",
+      "descriptionLength": 149,
       "h1": [
-        "Visiter Massada : circuits, ascension à l'aube et téléphérique"
+        "Massada : circuits, ascension à l'aube et téléphérique"
       ],
       "h1Count": 1,
       "h2Count": 15,
@@ -20044,7 +20027,7 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 2797,
+      "words": 2796,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -20188,8 +20171,8 @@
       "locale": "fr",
       "title": "Excursion Nazareth et lac de Tibériade : circuit chrétien",
       "titleLength": 57,
-      "description": "L'excursion chrétienne en Galilée depuis Tel Aviv ou Jérusalem en 2026 : Nazareth, Capharnaüm, le mont des Béatitudes, Tabgha et le Jourdain, avec les tarifs.",
-      "descriptionLength": 158,
+      "description": "Excursion Nazareth et lac de Tibériade depuis Tel Aviv ou Jérusalem en 2026 : Capharnaüm, mont des Béatitudes, Tabgha et le Jourdain, avec les tarifs.",
+      "descriptionLength": 150,
       "h1": [
         "Excursion Nazareth et lac de Tibériade : circuit chrétien"
       ],
@@ -20572,8 +20555,8 @@
       "locale": "fr",
       "title": "Pétra depuis Israël : excursions depuis Eilat et Tel Aviv",
       "titleLength": 57,
-      "description": "Pétra depuis Israël en 2026 : l'excursion d'une journée depuis Eilat, les deux jours Pétra et Wadi Rum, la journée avec vol depuis Tel Aviv, et la logistique frontière et visa.",
-      "descriptionLength": 176,
+      "description": "Pétra depuis Israël 2026 : excursion d'une journée depuis Eilat, deux jours Pétra et Wadi Rum, journée avec vol depuis Tel Aviv, frontière et visa.",
+      "descriptionLength": 147,
       "h1": [
         "Pétra depuis Israël : excursions depuis Eilat et Tel Aviv"
       ],
@@ -20761,10 +20744,10 @@
     {
       "path": "/fr/plan-your-trip",
       "locale": "fr",
-      "title": "Préparer votre voyage en Israël : guides, itinéraires et régions",
-      "titleLength": 64,
-      "description": "Tout pour préparer un voyage en Israël au même endroit : guides pratiques, hôtels et circuits, itinéraires prêts à l’emploi et guides détaillés de 7 régions.",
-      "descriptionLength": 157,
+      "title": "Organiser un voyage en Israël : guides et itinéraires",
+      "titleLength": 53,
+      "description": "Organiser un voyage en Israël au même endroit : guides pratiques, hôtels et circuits, itinéraires prêts à l’emploi et guides détaillés de 7 régions.",
+      "descriptionLength": 148,
       "h1": [
         "Préparez votre voyage"
       ],
@@ -20806,7 +20789,7 @@
         "Organization",
         "WebSite"
       ],
-      "words": 418,
+      "words": 663,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -20887,13 +20870,13 @@
         "Location de voiture Location de voiture en Israël",
         "Hôtels à Jérusalem Meilleurs hôtels à Jérusalem 2026",
         "Hôtels à Tel Aviv Meilleurs hôtels de Tel Aviv 2026",
-        "Hôtels de la mer Morte Hôtels Mer Morte 2026",
+        "Hôtels de la mer Morte Hôtel Mer Morte 2026",
         "Hôtels à Eilat Où dormir à Eilat",
-        "Circuits à Jérusalem Circuits Jérusalem comparés",
-        "Circuits mer Morte & Massada Excursions Mer Morte 2026",
-        "Excursions depuis Tel Aviv Les meilleures excursions d'une journée depuis Tel Aviv (2026)",
-        "Massada : visite et circuits Visiter Massada",
-        "Bethléem depuis Jérusalem Excursion à Bethléem depuis Jérusalem",
+        "Circuits à Jérusalem Visite guidée Jérusalem",
+        "Circuits mer Morte & Massada Excursion Mer Morte 2026",
+        "Excursions depuis Tel Aviv Les meilleures excursions d'une journée depuis Tel Aviv",
+        "Massada : visite et circuits Massada",
+        "Bethléem depuis Jérusalem Excursion Bethléem depuis Jérusalem",
         "Pétra depuis Israël Pétra depuis Israël"
       ],
       "externalLinks": 4,
@@ -20948,8 +20931,8 @@
       "locale": "fr",
       "title": "Tel Aviv-Jaffa : guide de voyage 2026",
       "titleLength": 37,
-      "description": "Planifiez votre visite à Tel Aviv 2026 : plages méditerranéennes, Ville Blanche Bauhaus, Vieux-Jaffa, marché Carmel, hôtels et restaurants — guide pratique.",
-      "descriptionLength": 156,
+      "description": "Que faire à Tel Aviv en 2026 : plages méditerranéennes, Ville Blanche Bauhaus, Vieux-Jaffa, marché Carmel, hôtels et restaurants — guide pratique complet.",
+      "descriptionLength": 154,
       "h1": [
         "Tel Aviv"
       ],
@@ -20996,7 +20979,7 @@
         "ItemList",
         "FAQPage"
       ],
-      "words": 1730,
+      "words": 1731,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -21140,8 +21123,8 @@
       "locale": "fr",
       "title": "Tours gastronomiques à Tel Aviv : Carmel, Jaffa et Levinsky",
       "titleLength": 59,
-      "description": "Tours gastronomiques à Tel Aviv et Jaffa comparés pour 2026 : dégustations au marché du Carmel, balades houmous dans le vieux Jaffa, le quartier des épices de Levinsky, tarifs et alternatives.",
-      "descriptionLength": 192,
+      "description": "Tour gastronomique Tel Aviv 2026 : dégustations au marché du Carmel, balades houmous dans le vieux Jaffa, quartier Levinsky, tarifs et alternatives.",
+      "descriptionLength": 148,
       "h1": [
         "Tours gastronomiques à Tel Aviv : Carmel, Jaffa et Levinsky"
       ],
@@ -21518,8 +21501,8 @@
     {
       "path": "/galilee",
       "locale": "en",
-      "title": "Things to Do in the Galilee: Sea of Galilee Travel Guide 2026",
-      "titleLength": 61,
+      "title": "Things to Do in the Galilee: Sea of Galilee Guide 2026",
+      "titleLength": 54,
       "description": "Plan your Galilee trip: Sea of Galilee Christian pilgrimage sites, Capernaum, Mount of Beatitudes, Tiberias, Mount Arbel, hiking, day trips and food.",
       "descriptionLength": 149,
       "h1": [
@@ -21733,8 +21716,8 @@
       "locale": "en",
       "title": "Things to Do in Haifa: Bahá’í World Centre Guide 2026",
       "titleLength": 53,
-      "description": "Plan your Haifa trip — Bahá’í Gardens UNESCO terraces, German Colony, Stella Maris Monastery, Wadi Nisnas, Mount Carmel, and how to get there from Tel Aviv.",
-      "descriptionLength": 156,
+      "description": "Plan your Haifa trip: Bahá’í Gardens UNESCO terraces, German Colony, Stella Maris Monastery, Wadi Nisnas, Mount Carmel and how to get there from Tel Aviv.",
+      "descriptionLength": 154,
       "h1": [
         "Haifa"
       ],
@@ -21935,8 +21918,8 @@
     {
       "path": "/he",
       "locale": "he",
-      "title": "לבקר בישראל — מדריך טיולים",
-      "titleLength": 26,
+      "title": "טיול בישראל: מדריך טיולים, מסלולים, מלונות וסיורים",
+      "titleLength": 50,
       "description": "תכננו טיול בישראל: 7 אזורים מירושלים ועד ים סוף, מסלולי טיול, המלונות והסיורים הטובים ביותר בהשוואה, עם קישורי הזמנה מסומנים בבירור.",
       "descriptionLength": 132,
       "h1": [
@@ -21980,11 +21963,11 @@
         "Organization",
         "WebSite"
       ],
-      "words": 228,
+      "words": 341,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 96,
+      "internalLinks": 100,
       "internalTargets": [
         "/he/jerusalem",
         "/he/tel-aviv",
@@ -25176,23 +25159,49 @@
         "מסלולי טיול בישראל"
       ],
       "h1Count": 1,
-      "h2Count": 6,
-      "h3Count": 0,
+      "h2Count": 8,
+      "h3Count": 3,
       "canonical": "/he/itineraries",
       "canonicalOk": true,
-      "hreflang": [],
+      "hreflang": [
+        {
+          "lang": "en",
+          "path": "/itineraries"
+        },
+        {
+          "lang": "fr",
+          "path": "/fr/itineraries"
+        },
+        {
+          "lang": "de",
+          "path": "/de/itineraries"
+        },
+        {
+          "lang": "es",
+          "path": "/es/itineraries"
+        },
+        {
+          "lang": "he",
+          "path": "/he/itineraries"
+        },
+        {
+          "lang": "x-default",
+          "path": "/itineraries"
+        }
+      ],
       "hreflangOk": true,
       "hreflangIssues": [],
       "ogImage": true,
       "jsonLd": [
         "Organization",
-        "WebSite"
+        "WebSite",
+        "FAQPage"
       ],
-      "words": 91,
+      "words": 518,
       "images": 3,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 70,
+      "internalLinks": 73,
       "internalTargets": [
         "/he",
         "/he/jerusalem",
@@ -25264,6 +25273,9 @@
         "דף הבית",
         "7 ימים 7 ימים בישראל: המסלול הקלאסי לביקור ראשון",
         "10 ימים 10 ימים בישראל: המסלול המלא מצפון לדרום",
+        "מסלול 7 הימים",
+        "מסלול 10 הימים",
+        "מדריך לתקופה הטובה ביותר לביקור",
         "7 האזורים",
         "במדריך לפעם הראשונה בישראל",
         "מלונות בתל אביב",
@@ -25273,10 +25285,7 @@
         "טיולי יום מתל אביב",
         "מצדה: ביקור וסיורים",
         "בית לחם מירושלים",
-        "פטרה מישראל",
-        "נצרת והכנרת",
-        "קיסריה, חיפה ועכו ביום אחד",
-        "סיורי אוכל בתל אביב"
+        "פטרה מישראל"
       ],
       "externalLinks": 5,
       "externalDomains": [
@@ -27054,7 +27063,7 @@
         "Organization",
         "WebSite"
       ],
-      "words": 341,
+      "words": 522,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -27768,13 +27777,13 @@
       "locale": "en",
       "title": "Is Israel Safe to Visit? An Honest 2026 Guide",
       "titleLength": 45,
-      "description": "A practical, honest look at safety in Israel for tourists: what to expect day to day, how to check current advice, regional notes and common-sense precautions.",
-      "descriptionLength": 159,
+      "description": "Is Israel safe to visit? A practical, honest look at safety for tourists: day-to-day reality, how to check current advice, regional notes and precautions.",
+      "descriptionLength": 154,
       "h1": [
         "Is Israel Safe to Visit? An Honest 2026 Guide"
       ],
       "h1Count": 1,
-      "h2Count": 12,
+      "h2Count": 15,
       "h3Count": 0,
       "canonical": "/is-israel-safe",
       "canonicalOk": true,
@@ -27814,11 +27823,11 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 886,
+      "words": 4210,
       "images": 1,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 76,
+      "internalLinks": 83,
       "internalTargets": [
         "/",
         "/jerusalem",
@@ -27842,13 +27851,13 @@
         "/best-hotels-jerusalem",
         "/jerusalem-tours-compared",
         "/about",
+        "/masada-visitor-guide",
+        "/jerusalem-bethlehem-day-trip",
         "/best-hotels-tel-aviv",
         "/dead-sea-hotels-guide",
         "/eilat-hotels-guide",
         "/dead-sea-tours-compared",
         "/day-trips-from-tel-aviv",
-        "/masada-visitor-guide",
-        "/jerusalem-bethlehem-day-trip",
         "/petra-from-israel",
         "/nazareth-sea-of-galilee-day-trip",
         "/caesarea-haifa-akko-day-trip",
@@ -27887,32 +27896,34 @@
         "עברית",
         "Home",
         "The Visit Israel Editorial Team",
-        "first-time guide",
-        "itineraries",
+        "Jerusalem guide",
+        "Tel Aviv guide",
+        "Masada visitor guide",
+        "Dead Sea page",
+        "Galilee guide",
+        "Haifa guide",
+        "Jerusalem and Bethlehem day trip",
+        "car rental in Israel",
+        "visa information",
+        "first-time in Israel guide",
+        "best time to visit",
+        "entry rules",
         "Hotels in Tel Aviv",
-        "Dead Sea hotels",
-        "Hotels in Eilat",
-        "Dead Sea & Masada tours",
-        "Day trips from Tel Aviv",
-        "Masada: visiting & tours",
-        "Bethlehem from Jerusalem",
-        "Petra from Israel",
-        "Nazareth & Sea of Galilee",
-        "Caesarea, Haifa & Akko day trip",
-        "Tel Aviv food tours",
-        "Multi-day tour packages"
+        "Dead Sea hotels"
       ],
-      "externalLinks": 9,
+      "externalLinks": 11,
       "externalDomains": [
         "il.usembassy.gov",
         "safetywing.com",
+        "travel.gc.ca",
         "travel.state.gov",
         "www.booking.com",
         "www.discovercars.com",
         "www.getyourguide.com",
         "www.gov.uk",
         "www.pexels.com",
-        "www.skyscanner.net"
+        "www.skyscanner.net",
+        "www.smartraveller.gov.au"
       ],
       "noindex": false,
       "inSitemap": true,
@@ -27966,8 +27977,8 @@
       "locale": "en",
       "title": "Israel Tour Packages: Multi-Day Tours of 2 to 10 Days",
       "titleLength": 53,
-      "description": "Multi-day Israel tour packages for 2026: 2 to 4 day Jerusalem and Dead Sea circuits, the classic 7 to 8 day tour, 10 days with Petra, small group vs private.",
-      "descriptionLength": 157,
+      "description": "Israel tour packages for 2026: 2 to 4 day Jerusalem and Dead Sea circuits, the classic 7 to 8 day tour, 10 days with Petra, small group or private.",
+      "descriptionLength": 147,
       "h1": [
         "Israel Tour Packages: Multi-Day Tours of 2 to 10 Days"
       ],
@@ -28170,23 +28181,49 @@
         "Israel Itineraries"
       ],
       "h1Count": 1,
-      "h2Count": 6,
-      "h3Count": 0,
+      "h2Count": 8,
+      "h3Count": 3,
       "canonical": "/itineraries",
       "canonicalOk": true,
-      "hreflang": [],
+      "hreflang": [
+        {
+          "lang": "en",
+          "path": "/itineraries"
+        },
+        {
+          "lang": "fr",
+          "path": "/fr/itineraries"
+        },
+        {
+          "lang": "de",
+          "path": "/de/itineraries"
+        },
+        {
+          "lang": "es",
+          "path": "/es/itineraries"
+        },
+        {
+          "lang": "he",
+          "path": "/he/itineraries"
+        },
+        {
+          "lang": "x-default",
+          "path": "/itineraries"
+        }
+      ],
       "hreflangOk": true,
       "hreflangIssues": [],
       "ogImage": true,
       "jsonLd": [
         "Organization",
-        "WebSite"
+        "WebSite",
+        "FAQPage"
       ],
-      "words": 97,
+      "words": 647,
       "images": 3,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
-      "internalLinks": 70,
+      "internalLinks": 73,
       "internalTargets": [
         "/",
         "/jerusalem",
@@ -28258,6 +28295,9 @@
         "Home",
         "7 days 7 Days in Israel: The Classic First-Time Itinerary",
         "10 days 10 Days in Israel: The Complete North-to-South Itinerary",
+        "7-day itinerary",
+        "10-day itinerary",
+        "best time to visit guide",
         "7 regions",
         "first-time guide",
         "Hotels in Tel Aviv",
@@ -28267,10 +28307,7 @@
         "Day trips from Tel Aviv",
         "Masada: visiting & tours",
         "Bethlehem from Jerusalem",
-        "Petra from Israel",
-        "Nazareth & Sea of Galilee",
-        "Caesarea, Haifa & Akko day trip",
-        "Tel Aviv food tours"
+        "Petra from Israel"
       ],
       "externalLinks": 5,
       "externalDomains": [
@@ -28340,8 +28377,8 @@
       "locale": "en",
       "title": "10 Days in Israel: The Complete North-to-South Itinerary",
       "titleLength": 56,
-      "description": "A complete 10-day Israel itinerary: Tel Aviv, the northern coast, the Galilee and Golan, Jerusalem, the Dead Sea, and Eilat with a Petra day trip — day-by-day timings, real costs in ₪ and $, transport, hotels and bookable tours.",
-      "descriptionLength": 228,
+      "description": "10 days in Israel, north to south: Tel Aviv, the coast, Galilee, Golan, Jerusalem, the Dead Sea and Eilat with Petra — timings, costs, hotels and tours.",
+      "descriptionLength": 152,
       "h1": [
         "10 Days in Israel: The Complete North-to-South Itinerary"
       ],
@@ -28899,8 +28936,8 @@
       "locale": "en",
       "title": "Bethlehem Day Trip from Jerusalem: Tours & Logistics",
       "titleLength": 52,
-      "description": "Bethlehem from Jerusalem in 2026: half-day Church of the Nativity tours, the Bethlehem, Jericho and Jordan River full day, checkpoint and passport logistics.",
-      "descriptionLength": 157,
+      "description": "Bethlehem day trip from Jerusalem 2026: half-day Church of the Nativity tours, the Bethlehem, Jericho and Jordan River full day, checkpoint and passport.",
+      "descriptionLength": 153,
       "h1": [
         "Bethlehem Day Trip from Jerusalem: Tours & Logistics"
       ],
@@ -29103,7 +29140,7 @@
       ],
       "h1Count": 1,
       "h2Count": 16,
-      "h3Count": 3,
+      "h3Count": 13,
       "canonical": "/jerusalem-tours-compared",
       "canonicalOk": true,
       "hreflang": [
@@ -29142,7 +29179,7 @@
         "BreadcrumbList",
         "FAQPage"
       ],
-      "words": 1176,
+      "words": 3945,
       "images": 4,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -29170,18 +29207,18 @@
         "/car-rental-israel",
         "/best-hotels-jerusalem",
         "/about",
+        "/israel-tour-packages",
+        "/tel-aviv-food-tours",
+        "/jerusalem-bethlehem-day-trip",
+        "/masada-visitor-guide",
+        "/dead-sea-tours-compared",
         "/best-hotels-tel-aviv",
         "/dead-sea-hotels-guide",
         "/eilat-hotels-guide",
-        "/dead-sea-tours-compared",
         "/day-trips-from-tel-aviv",
-        "/masada-visitor-guide",
-        "/jerusalem-bethlehem-day-trip",
         "/petra-from-israel",
         "/nazareth-sea-of-galilee-day-trip",
         "/caesarea-haifa-akko-day-trip",
-        "/tel-aviv-food-tours",
-        "/israel-tour-packages",
         "/contact",
         "/affiliate-disclosure",
         "/privacy",
@@ -29216,19 +29253,19 @@
         "Home",
         "The Visit Israel Editorial Team",
         "Jerusalem region guide",
-        "Western Wall",
-        "Church of the Holy Sepulchre",
-        "Via Dolorosa",
-        "Old City",
-        "Mount of Olives",
-        "Israel Museum",
-        "City of David",
-        "region guide",
+        "Israel tour packages guide",
+        "Tel Aviv food tours",
+        "Jerusalem and Bethlehem day trip guide",
+        "safety guide",
+        "best time to visit Israel",
+        "first-time in Israel guide",
+        "Masada visitor guide",
+        "Dead Sea tours compared",
         "where to stay in Jerusalem",
+        "visa and entry rules",
         "Hotels in Tel Aviv",
         "Dead Sea hotels",
-        "Hotels in Eilat",
-        "Dead Sea & Masada tours"
+        "Hotels in Eilat"
       ],
       "externalLinks": 9,
       "externalDomains": [
@@ -29292,8 +29329,8 @@
       "locale": "en",
       "title": "Masada Visitor Guide: Tours, Sunrise Hike & Cable Car",
       "titleLength": 53,
-      "description": "How to visit Masada in 2026: Snake Path vs cable car, the sunrise hike, what to see on top, and Masada, Ein Gedi and Dead Sea tours from Jerusalem and Tel Aviv.",
-      "descriptionLength": 160,
+      "description": "Masada in 2026: Snake Path vs cable car, the sunrise hike, what to see on top, and Masada, Ein Gedi and Dead Sea tours from Jerusalem and Tel Aviv.",
+      "descriptionLength": 147,
       "h1": [
         "Masada Visitor Guide: Tours, Sunrise Hike & Cable Car"
       ],
@@ -29883,8 +29920,8 @@
       "locale": "en",
       "title": "Petra from Israel: Day Trips from Eilat & Tel Aviv",
       "titleLength": 50,
-      "description": "Petra from Israel in 2026: the one-day tour from Eilat, the two-day Petra and Wadi Rum trip, the flight-based day from Tel Aviv, plus border and visa logistics.",
-      "descriptionLength": 160,
+      "description": "Petra from Israel in 2026: the one-day tour from Eilat, the two-day Petra and Wadi Rum trip, the flight day from Tel Aviv, plus border and visa logistics.",
+      "descriptionLength": 154,
       "h1": [
         "Petra from Israel: Day Trips from Eilat & Tel Aviv"
       ],
@@ -30122,7 +30159,7 @@
         "Organization",
         "WebSite"
       ],
-      "words": 404,
+      "words": 640,
       "images": 8,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -30267,12 +30304,12 @@
     {
       "path": "/privacy",
       "locale": "en",
-      "title": "Privacy Policy",
-      "titleLength": 14,
+      "title": "Privacy Policy: How Visit Israel Handles Your Data",
+      "titleLength": 50,
       "description": "How VisitIsrael.site handles your data: no user accounts, no advertising trackers, no selling of data. What our host logs and how affiliate links work.",
       "descriptionLength": 151,
       "h1": [
-        "Privacy Policy"
+        "Privacy Policy: How Visit Israel Handles Your Data"
       ],
       "h1Count": 1,
       "h2Count": 9,
@@ -30289,7 +30326,7 @@
         "Article",
         "BreadcrumbList"
       ],
-      "words": 276,
+      "words": 282,
       "images": 0,
       "imagesWithoutAlt": 0,
       "imagesEmptyAlt": 0,
@@ -30766,8 +30803,8 @@
       "locale": "en",
       "title": "Tel Aviv Food Tours: Carmel Market, Jaffa & Levinsky",
       "titleLength": 52,
-      "description": "Tel Aviv and Jaffa food tours compared for 2026: Carmel Market tastings, Old Jaffa hummus walks, the Levinsky spice district, costs, and non-food alternatives.",
-      "descriptionLength": 159,
+      "description": "Tel Aviv food tours compared for 2026: Carmel Market tastings, Old Jaffa hummus walks, the Levinsky spice district, costs and non-food alternatives.",
+      "descriptionLength": 148,
       "h1": [
         "Tel Aviv Food Tours: Carmel Market, Jaffa & Levinsky"
       ],
@@ -30962,8 +30999,8 @@
       "locale": "en",
       "title": "Israel Visa & ETA-IL Entry Requirements for Tourists (2026)",
       "titleLength": 59,
-      "description": "Israel entry requirements: who needs a visa, the mandatory ETA-IL authorization, the paper entry slip, how long you can stay and what to expect at the border.",
-      "descriptionLength": 158,
+      "description": "Israel visa and entry rules: who needs a visa, the mandatory ETA-IL authorization, the paper entry slip, how long you can stay and border checks.",
+      "descriptionLength": 145,
       "h1": [
         "Israel Visa & ETA-IL Entry Requirements for Tourists (2026)"
       ],
