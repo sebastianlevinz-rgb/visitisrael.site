@@ -31,7 +31,7 @@ visitante sin login, no un ranking objetivo.
 
 ---
 
-**Confirmado por Sebastian el 23-09-2026**: Mari acepta ser la cara a cámara; graba en español y en inglés; hay equipo de grabación. Con eso, el segundo canal en inglés no necesita esperar a los 12–15 videos: en cada jornada se graban los bloques a cámara en los dos idiomas (mismo B-roll, mismas piezas IA) y el canal EN arranca un mes después del ES, con la biblioteca ya editada.
+**Confirmado por Sebastian el 23-09-2026** (las cinco preguntas de §9): (1) Mari acepta ser la cara a cámara en long-form; (2) graba en español y en inglés; (3) frecuencia: lo antes posible y la mayor cantidad de jornadas posible, así que el plan de dos jornadas es el arranque, no el ritmo; (4) hay gimbal, micrófono de solapa inalámbrico y todo el equipo; (5) aprobada la página "Shabat y fiestas para el viajero" (`/shabbat-and-holidays-israel`, en producción desde el 23-09): las ideas 5, 18 y 27 ya tienen guía propia a la que mandar tráfico. Con (2), el segundo canal en inglés no espera a los 12–15 videos: en cada jornada se graban los bloques a cámara en los dos idiomas (mismo B-roll, mismas piezas IA) y el canal EN arranca un mes después del ES, con la biblioteca ya editada.
 
 ---
 
