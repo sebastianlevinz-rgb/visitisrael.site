@@ -130,6 +130,15 @@
       "usd": 0.002,
       "calls": 1,
       "cachedCalls": 0
+    },
+    {
+      "at": "2026-09-23T09:41:26.746Z",
+      "script": "video/youtube.mjs",
+      "usd": 0.016,
+      "calls": 8,
+      "cachedCalls": 46,
+      "firecrawlScrapes": 0,
+      "errors": 0
     }
   ]
 }

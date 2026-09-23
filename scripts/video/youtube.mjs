@@ -50,6 +50,15 @@ const QUERIES = [
   { keyword: 'jerusalem 4k walk', location_code: 2840, language_code: 'en', market: 'en-US' },
   { keyword: 'israel travel 2025', location_code: 2840, language_code: 'en', market: 'en-US' },
   { keyword: 'jerusalem mistakes tourists', location_code: 2840, language_code: 'en', market: 'en-US' },
+  // Inglés, segunda tanda (23-09): grandes canales y documentales, para el ranking EN.
+  { keyword: 'israel travel documentary', location_code: 2840, language_code: 'en', market: 'en-US' },
+  { keyword: 'israel 4k', location_code: 2840, language_code: 'en', market: 'en-US' },
+  { keyword: 'drew binsky israel', location_code: 2840, language_code: 'en', market: 'en-US' },
+  { keyword: 'yes theory israel', location_code: 2840, language_code: 'en', market: 'en-US' },
+  { keyword: 'best ever food review show israel', location_code: 2840, language_code: 'en', market: 'en-US' },
+  { keyword: 'jerusalem travel', location_code: 2840, language_code: 'en', market: 'en-US' },
+  { keyword: 'tel aviv travel', location_code: 2840, language_code: 'en', market: 'en-US' },
+  { keyword: 'dead sea israel', location_code: 2840, language_code: 'en', market: 'en-US' },
   // Español, España
   { keyword: 'viaje a israel', location_code: 2724, language_code: 'es', market: 'es-ES' },
   { keyword: 'que ver en jerusalen', location_code: 2724, language_code: 'es', market: 'es-ES' },
