@@ -5,7 +5,7 @@ heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Tours
 verdictName: Galilea
 verdictQuery: Nazareth Sea of Galilee Christian day tour
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Reserva tu tour a Nazaret y el mar de Galilea"
 affiliateCtas:
   - partner: getyourguide
@@ -48,7 +48,11 @@ Galilea es el paisaje de los Evangelios: el lago, los pueblos de pescadores y la
 
 La mayoría de los tours siguen una versión de esta ruta, en este orden.
 
-**Nazaret.** La mayor ciudad árabe de Israel y la ciudad de la Anunciación. La **basílica de la Anunciación**, terminada en 1969, es la iglesia más grande de Oriente Medio y se alza sobre la gruta identificada tradicionalmente como la casa de María; el patio está flanqueado por mosaicos de la Virgen donados por comunidades católicas de todo el mundo. La mayoría de los tours pasan también por la iglesia griega ortodoxa de San Gabriel, en el pozo de María, y dedican unos minutos al mercado del casco antiguo. Algunos añaden **Caná**, a 10 km, asociada al milagro de las bodas.
+**Nazaret.** La mayor ciudad árabe de Israel y la ciudad de la Anunciación. La **basílica de la Anunciación**, terminada en 1969, es la iglesia más grande de Oriente Medio y se alza sobre la gruta identificada tradicionalmente como la casa de María; el patio está flanqueado por mosaicos de la Virgen donados por comunidades católicas de todo el mundo. La mayoría de los tours pasan también por la iglesia griega ortodoxa de San Gabriel, en el pozo de María, y dedican unos minutos al mercado del casco antiguo.
+
+**Caná (Kafr Kanna).** Un pueblo pequeño a 10 km al noreste de Nazaret, en la carretera hacia el lago, asociado al milagro de las bodas de Juan 2. Aparecía en 8 de los 12 itinerarios de peregrinación que leímos en septiembre de 2026, casi todos católicos, y es donde las parejas de esos tours renuevan sus votos matrimoniales. Es una parada de 15 a 30 minutos, no de una hora, y cae de forma natural en el trayecto entre Nazaret y el mar de Galilea. Cada iglesia del pueblo tiene su propio horario; confírmalo en el sitio oficial o con tu guía antes de montar una mañana alrededor de esta parada.
+
+**Monte Tabor.** La colina redondeada que se levanta sola sobre el valle de Jezreel, al sureste de Nazaret, con una iglesia franciscana en la cima diseñada por Antonio Barluzzi, el mismo arquitecto que la del monte de las Bienaventuranzas. También aparecía en 8 de los 12 itinerarios, otra vez sobre todo en los católicos, y la vista sobre el valle es la más amplia del día. A la cima se sube por una carretera estrecha de curvas cerradas, así que pregunta a tu operador cómo resuelve el último tramo en vez de dar por hecho que el autocar sube hasta arriba. Los horarios los fijan las comunidades del monte y no pudimos confirmarlos en una página oficial en septiembre de 2026.
 
 **Cafarnaúm.** El pueblo junto al lago que los cuatro Evangelios llaman la ciudad de Jesús. La **sinagoga** de caliza blanca del siglo IV o V se asienta sobre los cimientos de basalto negro de otra anterior, y a pocos pasos una iglesia octogonal moderna se suspende sobre la **casa de Pedro** excavada, con suelo de cristal para ver los restos debajo. Es un parque nacional con entrada; calcula una hora.
 
@@ -56,9 +60,25 @@ La mayoría de los tours siguen una versión de esta ruta, en este orden.
 
 **Tabgha.** Dos iglesias en la orilla: la **iglesia de la Multiplicación**, con su mosaico bizantino de los panes y los peces ante el altar, y la **iglesia del Primado de Pedro**, una pequeña capilla construida alrededor de una roca al borde del agua. Ambas son gratuitas.
 
+**Magdala.** En la orilla oeste, entre Tiberíades y Cafarnaúm, un parque arqueológico que abrió tras el descubrimiento aquí, en 2009, de una sinagoga del siglo I, con la piedra de Magdala tallada en el centro y el moderno centro Duc in Altum junto a la excavación. Es un paseo por una ciudad del siglo I más que una visita a una iglesia, por eso algunos tours lo saltan y por eso conviene comprobar si el tuyo lo incluye. Estaba en 8 de los 12 itinerarios que leímos.
+
 **Yardenit.** Donde el río Jordán sale del lago por su extremo sur, un sitio bautismal gestionado por el kibutz Kinneret, con vestuarios, alquiler de túnicas y escalones que bajan al río. Los grupos de peregrinos suelen bautizarse o renovar sus votos aquí; los demás visitantes miran.
 
-Algunos itinerarios añaden una **travesía en barca de madera** por el lago, una parada en **Magdala**, donde en 2009 se descubrió una sinagoga del siglo I, o un rato en el paseo de **Tiberíades**. Lee el itinerario antes de reservar, porque dos tours con el mismo nombre pueden diferir justo en esos extras.
+Algunos itinerarios añaden una **travesía en barca de madera** por el lago o un rato en el paseo de **Tiberíades**. Lee el itinerario antes de reservar, porque dos tours con el mismo nombre pueden diferir justo en esos extras.
+
+### Yardenit o Qasr al-Yahud: qué sitio del Jordán lleva tu itinerario
+
+Nueve de los doce itinerarios de peregrinación que leímos en septiembre de 2026 mencionan una parada en "el río Jordán" sin decir a cuál de los dos sitios bautismales se refieren. Están a unos 100 km de distancia, caen en días distintos del viaje y no son intercambiables.
+
+| | **Yardenit** | **Qasr al-Yahud** |
+|---|---|---|
+| **Dónde está** | En la salida sur del mar de Galilea, a pocos minutos al sur de Tiberíades por la ruta 90 | En el Jordán, cerca de Jericó, en Cisjordania, a unos 50 km al este de Jerusalén |
+| **En qué día cae** | El día de Galilea, el que describe esta página | El [día de Belén, Jericó y el río Jordán](/es/jerusalem-bethlehem-day-trip) desde Jerusalén |
+| **Cómo se llega** | Sencillo en coche o autocar, con aparcamiento gratuito en el sitio | En tour o taxi autorizado. La mayoría de los contratos de alquiler israelíes restringen o anulan el seguro en partes de Cisjordania, así que revisa el tuyo antes de conducir; ver la [guía de alquiler de coches](/es/car-rental-israel) |
+| **Qué esperar** | Un centro de visitantes gestionado por el kibutz Kinneret, vestuarios, alquiler de túnica y toalla, entrada al agua por escalones y, casi siempre, varios grupos a la vez | Un sitio ribereño más sobrio, con menos instalaciones, donde la orilla de enfrente ya es Jordania |
+| **Quién suele usarlo** | Grupos cuyo itinerario gira en torno a Galilea, y visitantes independientes que no quieren añadir un segundo desplazamiento | Grupos que quieren el sitio identificado por la tradición: la mayoría de los itinerarios católicos y ortodoxos, y los grupos protestantes que programan un servicio de inmersión completa |
+
+No pudimos confirmar los horarios vigentes de ninguno de los dos en una página oficial en septiembre de 2026, y ambos cierran en invierno antes de lo que la mayoría espera. Si entrar en el agua te importa, pregunta al operador por el nombre del sitio que lleva el itinerario y a qué hora, y lleva toalla y ropa de cambio en cualquier caso.
 
 ## Formatos de tour comparados
 

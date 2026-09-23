@@ -5,7 +5,7 @@ heroImage: /images/regions/jerusalem/old-city.jpg
 category: Tours
 verdictName: Bethlehem
 verdictQuery: Bethlehem half day tour from Jerusalem
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Book your Bethlehem tour from Jerusalem"
 affiliateCtas:
   - partner: getyourguide
@@ -92,6 +92,22 @@ This is the part first-timers worry about, and it is simpler than it sounds.
 
 For visa and entry questions about Israel itself, see [visa information](/visa-information). For the broader safety picture, see [is Israel safe](/is-israel-safe).
 
+## The Christmas window: three dates, not one
+
+Almost every tour catalogue sells "Christmas in Bethlehem" as 24 and 25 December. Bethlehem in fact celebrates it three times across four weeks, on the calendars of the churches that share the Church of the Nativity, and the Palestinian tourism authority lists all three (travelpalestine.ps, consulted 23 September 2026). For a visitor they behave as three separate micro-seasons, with different crowds, different availability and different prices.
+
+| | **24–25 December** | **6–7 January** | **18–19 January** |
+|---|---|---|---|
+| **Whose** | Catholic and Protestant | Greek Orthodox and other Eastern churches | Armenian |
+| **What happens** | The Latin Patriarch's procession into Manger Square on the afternoon of the 24th, and Midnight Mass in St Catherine's, screened on the square | A second patriarchal procession and liturgy on the same square | The third procession and liturgy; the decorations come down afterwards |
+| **Crowds** | The peak of the year | Much smaller, and mostly regional and local visitors | The smallest of the three |
+| **Booking** | Midnight Mass is ticketed through the Latin Patriarchate and sells out; Jerusalem hotels and day tours fill weeks ahead | Easier, though still the busiest week of January | Easiest of the three |
+| **Best for** | Anyone who wants the full occasion and has booked months ahead | Visitors who want Manger Square decorated without the 24 December crush | Visitors who want the square nearly to themselves with the lights still up |
+
+Between the three dates the square stays decorated, so in practice the whole run from 25 December to 19 January is Christmas in Bethlehem. If you are coming for the atmosphere rather than for a particular service, the first half of January is the best value of the three windows: the same square, the same tree, a fraction of the demand.
+
+What does not change is the logistics. The checkpoint, the passport requirement and the rental-car exclusion work exactly the same way on all three dates, and the queue for the Grotto is long on every one of them. For the full 2027 Christian calendar, including both Easter dates, see our [Shabbat and holidays guide](/shabbat-and-holidays-israel).
+
 ## Practical details
 
 **How long does it take?** The drive is 25 to 40 minutes each way plus the checkpoint. A half-day tour is four to five hours door to door; the Jericho combination nine to eleven.
@@ -100,7 +116,7 @@ For visa and entry questions about Israel itself, see [visa information](/visa-i
 
 **Queues at the Grotto.** Twenty to forty minutes is normal at midday. Tours that reach the church before 9 am, or independent visitors who arrive after 4 pm, wait far less.
 
-**Christmas.** Manger Square is decorated through December and the Latin Midnight Mass on 24 December is ticketed months ahead through the Latin Patriarchate. Book tours and Jerusalem hotels early for that period; see [best hotels in Jerusalem](/best-hotels-jerusalem).
+**The Christmas window.** Manger Square is decorated from late December to the Armenian Christmas on 19 January, and the three celebrations are three different experiences; the section above compares them. Book tours and Jerusalem hotels early for the 24 December peak; see [best hotels in Jerusalem](/best-hotels-jerusalem).
 
 **Ramadan and Shabbat.** Ramadan changes some restaurant hours in Bethlehem but does not close the sites. Shabbat does not affect Bethlehem, which makes it a useful Saturday excursion when much of West Jerusalem is closed, though bus 231 and tour departures still run.
 
@@ -110,4 +126,4 @@ For anyone spending two or more days in Jerusalem, yes. The Church of the Nativi
 
 ## Planning the rest of your trip
 
-Bethlehem pairs naturally with a guided day in Jerusalem's Old City; our [Jerusalem tours compared](/jerusalem-tours-compared) guide explains the formats. The other classic Christian day trip, [Nazareth and the Sea of Galilee](/nazareth-sea-of-galilee-day-trip), covers the northern half of the story. Both are standard days in most [multi-day Israel packages](/israel-tour-packages), and both fit into our [7-day itinerary](/itineraries/7-days-in-israel).
+Bethlehem pairs naturally with a guided day in Jerusalem's Old City; our [Jerusalem tours compared](/jerusalem-tours-compared) guide explains the formats, and the [Church of the Holy Sepulchre](/church-of-the-holy-sepulchre) is the Jerusalem counterpart to the Church of the Nativity, shared under a similar arrangement between the same communities. The other classic Christian day trip, [Nazareth and the Sea of Galilee](/nazareth-sea-of-galilee-day-trip), covers the northern half of the story. Both are standard days in most [multi-day Israel packages](/israel-tour-packages), and both fit into our [7-day itinerary](/itineraries/7-days-in-israel).

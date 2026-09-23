@@ -5,7 +5,7 @@ heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
 verdictName: un paquete de varios días por Israel
 verdictQuery: Israel multi day tour package
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Explora los tours de varios días por Israel"
 affiliateCtas:
   - partner: getyourguide
@@ -100,6 +100,37 @@ Dos paquetes con precios similares pueden diferir en una docena de comidas y var
 ## Cuánto cuestan los paquetes
 
 En 2026, los paquetes de dos o tres días cuestan por lo general entre 600 y 1.100 US$ por persona; los circuitos guiados de siete u ocho días con hoteles de tres o cuatro estrellas entre 1.800 y 4.000 US$, con el rango marcado sobre todo por la categoría del hotel y el tamaño del grupo; y las combinaciones Israel y Jordania de diez a doce días desde unos 3.000 US$. Quien viaja solo paga suplemento individual salvo que el operador empareje compañeros de habitación. Los precios tocan techo en Semana Santa, en octubre y en Navidad.
+
+## Comparar precios: normaliza primero el billete de avión
+
+Los precios publicados de los paquetes no son comparables tal como están, y casi ningún operador lo aclara. Al leer los catálogos de peregrinación el 23 de septiembre de 2026 encontramos precios de portada que incluían el vuelo internacional, precios que empezaban en el aeropuerto Ben Gurión y precios que excluían todos los vuelos, incluido el de la propia ciudad de salida del operador. Dos paquetes de "ocho días en Tierra Santa" pueden diferir en el valor de un billete de largo radio antes de haber comparado un solo hotel.
+
+Averigua a cuál de estos cuatro formatos pertenece un precio antes de comparar nada más.
+
+| Formato de precio | Dónde empieza el viaje | Qué cubre normalmente el precio de portada | Qué tienes que pagar aparte | Capellán y misa diaria |
+|---|---|---|---|---|
+| **Con aéreo, salida europea** | Madrid, Barcelona, Valencia o Málaga | Vuelo ida y vuelta, hoteles, la mayoría de las comidas, guía y transporte terrestre | Propinas, suplemento individual, algunos almuerzos | **Sí** en los programas ligados a una parroquia; **no** en los turísticos generales |
+| **Con aéreo, salida americana** | Nueva York o el aeropuerto de origen; Ciudad de México o Bogotá en los operadores latinoamericanos | Vuelo ida y vuelta, hoteles, media pensión, guía y transporte terrestre | Propinas en casi todos los casos, almuerzos, suplemento individual | **No** en los grandes programas protestantes; **sí** en los católicos mexicanos y colombianos |
+| **Land only (sin vuelo, con encuentro en Israel)** | El aeropuerto Ben Gurión, donde se reúne el grupo | Hoteles, transporte terrestre, guía, media pensión o pensión completa | **Todo el vuelo internacional**, y las propinas salvo que se diga lo contrario | **Sí** en los programas franciscanos, que además llevan las propinas prepagadas; **no** en los protestantes |
+| **Sin vuelo, billetes por tu cuenta** | Tu propio aeropuerto, con reserva aparte | Hoteles, transporte terrestre, guía | Todos los vuelos, incluido el tramo del país de origen que algunos operadores dejan fuera | **Solo a partir de un mínimo de personas** en al menos un operador español: 20 peregrinos |
+
+**Cómo eran los rangos a septiembre de 2026.** Las salidas de ocho días desde España con vuelo incluido publicaban precios "desde" de aproximadamente 1.500 a 2.800 € por persona. Las salidas con vuelo desde Norteamérica, en el estándar de nueve o diez días, se agrupaban entre unos 3.000 y 4.000 US$, mientras que los operadores latinoamericanos iban desde unos 1.400 US$ en un circuito corto hasta más de 5.000 US$ en uno de dos semanas. Los programas land only de siete a once días, que empiezan en el aeropuerto de Israel, iban de unos 1.400 a 3.700 US$. Son precios "desde" publicados y leídos el 23 de septiembre de 2026, no presupuestos: el número vigente solo lo da la página del operador.
+
+### Los costes ocultos: propinas, tasas y suplementos
+
+**Las propinas son lo que pilla a la gente desprevenida.** Se esperan para el guía y el conductor en todos los itinerarios, y los operadores las tratan de tres formas distintas: incluidas en el precio, cobradas como importe fijo prepagado, o enteramente a tu cargo. Un operador estadounidense de peregrinación publica la cifra abiertamente: Pilgrim Tours declara propinas prepagadas de **110 a 140 US$ por persona** para todo el viaje, como línea aparte (pilgrimtours.com, consultado el 23 de septiembre de 2026). Franciscan Pilgrimage Programs y 206 Tours las incluyen en el precio del paquete; Educational Opportunities incluye solo las del personal de hotel. Un paquete que parece 100 US$ más barato puede haber sacado esa línea de la portada, nada más.
+
+**Las otras líneas separadas.** Los operadores italianos son los más explícitos: Brevivet lista una cuota de inscripción de 39 €, tasas aéreas de 230 € y un suplemento de habitación individual de 360 € como partidas aparte, junto al precio del circuito (brevivet.it, consultado el 23 de septiembre de 2026). Los operadores cuyos itinerarios cruzan a Jordania o Egipto suelen declarar así las tasas de frontera. Nada de esto está escondido en el sentido deshonesto; simplemente no está en el número de la portada del folleto, y por eso la comparación hay que hacerla sobre lo incluido.
+
+### Capellán y misa diaria: la línea que parte el mercado
+
+Que un sacerdote viaje con el grupo y que haya misa todos los días es la mayor diferencia entre dos paquetes de la misma duración y el mismo precio, y no siempre está en la ficha de producto. De los catálogos leídos el 23 de septiembre de 2026:
+
+- **Lo declaran por escrito:** 206 Tours y Franciscan Pilgrimage Programs en Estados Unidos, Halcón Viajes en España (guía franciscano, con alojamiento en casas franciscanas), San Juan del Hospital en Valencia y Peregrinaciones.mx en México.
+- **No lo mencionan en absoluto:** los grandes programas protestantes y evangélicos, y varios operadores turísticos generalistas que venden en español. El silencio es deliberado, porque esos itinerarios están construidos para otro tipo de grupo.
+- **Solo a partir de un mínimo de personas:** Éxodo Peregrinaciones asigna capellán **solo desde 20 peregrinos**; Peregrino.travel promete misa "cuando sea posible", coordinada con la Custodia de Tierra Santa.
+
+El itinerario lo delata antes que el texto de venta. Si la misa diaria es el motivo del viaje, pídela por escrito antes de pagar la señal, y pregunta quién reserva los turnos en los santuarios: en Jerusalén se adjudican de forma centralizada, no los arregla el guía la misma mañana. Nuestra guía de [sitios cristianos de Israel](/es/christian-sites-israel) detalla qué lugares visitan realmente los itinerarios de peregrinación y cómo se traducen las diferencias entre tradiciones en recorridos distintos.
 
 ## Reserva y cuestiones prácticas
 

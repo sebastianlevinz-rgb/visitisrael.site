@@ -5,7 +5,7 @@ heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Circuits
 verdictName: la Galilée
 verdictQuery: Nazareth Sea of Galilee Christian day tour
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Réservez votre circuit Nazareth et lac de Tibériade"
 affiliateCtas:
   - partner: getyourguide
@@ -48,7 +48,11 @@ La Galilée est le paysage des Évangiles : le lac, les villages de pêcheurs et
 
 La plupart des circuits suivent une version de cet itinéraire, dans cet ordre.
 
-**Nazareth.** La plus grande ville arabe d'Israël et la ville de l'Annonciation. La **basilique de l'Annonciation**, achevée en 1969, est la plus grande église du Moyen-Orient et s'élève au-dessus de la grotte traditionnellement identifiée comme la maison de Marie ; la cour est bordée de mosaïques de la Vierge offertes par des communautés catholiques du monde entier. La plupart des circuits passent aussi devant l'église grecque orthodoxe Saint-Gabriel, au puits de Marie, et accordent quelques minutes au marché de la vieille ville. Certains ajoutent **Cana**, à 10 km, associée au miracle des noces.
+**Nazareth.** La plus grande ville arabe d'Israël et la ville de l'Annonciation. La **basilique de l'Annonciation**, achevée en 1969, est la plus grande église du Moyen-Orient et s'élève au-dessus de la grotte traditionnellement identifiée comme la maison de Marie ; la cour est bordée de mosaïques de la Vierge offertes par des communautés catholiques du monde entier. La plupart des circuits passent aussi devant l'église grecque orthodoxe Saint-Gabriel, au puits de Marie, et accordent quelques minutes au marché de la vieille ville.
+
+**Cana (Kafr Kanna).** Une petite ville à 10 km au nord-est de Nazareth, sur la route du lac, associée au miracle des noces de Jean 2. Elle figurait dans 8 des 12 programmes de pèlerinage que nous avons lus en septembre 2026, presque tous catholiques, et c'est là que les couples de ces circuits renouvellent leurs vœux de mariage. Comptez un arrêt de 15 à 30 minutes, pas une heure ; il tombe naturellement sur le trajet entre Nazareth et la mer de Galilée. Chaque église de la ville a ses propres horaires ; vérifiez sur le site officiel ou auprès de votre guide avant de construire une matinée autour de cet arrêt.
+
+**Le mont Thabor.** La colline arrondie qui s'élève seule au-dessus de la vallée de Jezreel, au sud-est de Nazareth, avec au sommet une église franciscaine dessinée par Antonio Barluzzi, l'architecte de celle du mont des Béatitudes. Elle figurait elle aussi dans 8 des 12 programmes, là encore surtout les catholiques, et la vue sur la vallée est la plus large de la journée. Le sommet se rejoint par une route étroite en lacets : demandez à votre opérateur comment se fait la dernière montée plutôt que de supposer que le car monte jusqu'en haut. Les horaires sont fixés par les communautés de la montagne et nous n'avons pas pu les confirmer sur une page officielle en septembre 2026.
 
 **Capharnaüm.** Le village du bord du lac que les quatre Évangiles appellent la ville de Jésus. La **synagogue** de calcaire blanc du IVe ou Ve siècle repose sur les fondations de basalte noir d'une synagogue antérieure, et quelques pas plus loin une église octogonale moderne surplombe la **maison de Pierre** mise au jour, avec un sol vitré pour voir les vestiges en dessous. C'est un parc national payant ; comptez une heure.
 
@@ -56,9 +60,25 @@ La plupart des circuits suivent une version de cet itinéraire, dans cet ordre.
 
 **Tabgha.** Deux églises sur la rive : l'**église de la Multiplication**, avec sa mosaïque byzantine des pains et des poissons devant l'autel, et l'**église de la Primauté de Pierre**, une petite chapelle bâtie autour d'un rocher au bord de l'eau. Les deux sont gratuites.
 
+**Magdala.** Sur la rive ouest, entre Tibériade et Capharnaüm, un parc archéologique ouvert après la découverte ici, en 2009, d'une synagogue du Ier siècle, avec la pierre de Magdala sculptée en son centre et le centre moderne Duc in Altum à côté du chantier. C'est une promenade dans une ville du Ier siècle plutôt qu'une visite d'église, ce qui explique que certains circuits le sautent et qu'il vaut la peine de vérifier si le vôtre l'inclut. Il figurait dans 8 des 12 programmes lus.
+
 **Yardenit.** Là où le Jourdain quitte le lac à son extrémité sud, un site de baptême géré par le kibboutz Kinneret, avec vestiaires, location de tuniques et marches descendant dans le fleuve. Les groupes de pèlerins y sont souvent baptisés ou renouvellent leurs vœux ; les autres visiteurs regardent.
 
-Certains programmes ajoutent une **traversée en bateau de bois** sur le lac, un arrêt à **Magdala**, où une synagogue du Ier siècle a été découverte en 2009, ou un moment sur le front de lac de **Tibériade**. Lisez le programme avant de réserver, car deux circuits au même nom peuvent différer précisément sur ces extras.
+Certains programmes ajoutent une **traversée en bateau de bois** sur le lac ou un moment sur le front de lac de **Tibériade**. Lisez le programme avant de réserver, car deux circuits au même nom peuvent différer précisément sur ces extras.
+
+### Yardenit ou Qasr al-Yahud : quel site du Jourdain figure à votre programme
+
+Neuf des douze programmes de pèlerinage lus en septembre 2026 annoncent un arrêt au « Jourdain » sans dire lequel des deux sites de baptême est concerné. Ils sont à une centaine de kilomètres l'un de l'autre, tombent des jours différents du voyage et ne sont pas interchangeables.
+
+| | **Yardenit** | **Qasr al-Yahud** |
+|---|---|---|
+| **Où c'est** | À la sortie sud de la mer de Galilée, à quelques minutes au sud de Tibériade par la route 90 | Sur le Jourdain près de Jéricho, en Cisjordanie, à environ 50 km à l'est de Jérusalem |
+| **Quel jour** | La journée en Galilée, celle que décrit cette page | La [journée Bethléem, Jéricho et Jourdain](/fr/jerusalem-bethlehem-day-trip) au départ de Jérusalem |
+| **Comment y aller** | Simple en voiture ou en car, parking gratuit sur place | En circuit organisé ou en taxi agréé. La plupart des contrats de location israéliens restreignent ou annulent l'assurance dans certaines parties de la Cisjordanie : vérifiez le vôtre avant de conduire, voir le [guide de la location de voiture](/fr/car-rental-israel) |
+| **À quoi s'attendre** | Un centre d'accueil géré par le kibboutz Kinneret, vestiaires, location de tunique et de serviette, entrée dans l'eau par des marches, et le plus souvent plusieurs groupes à la fois | Un site de berge plus sobre, avec moins d'équipements, où la rive d'en face est déjà la Jordanie |
+| **Qui l'utilise** | Les groupes dont le programme tourne autour de la Galilée, et les visiteurs indépendants qui ne veulent pas ajouter un second déplacement | Les groupes qui veulent le site identifié par la tradition : la plupart des programmes catholiques et orthodoxes, et les groupes protestants qui prévoient un service d'immersion complète |
+
+Nous n'avons pu confirmer les horaires en vigueur d'aucun des deux sur une page officielle en septembre 2026, et tous deux ferment en hiver plus tôt qu'on ne l'imagine. Si entrer dans l'eau compte pour vous, demandez à l'opérateur le nom du site retenu et l'heure du passage, et emportez de toute façon une serviette et des vêtements de rechange.
 
 ## Comparatif des formules
 

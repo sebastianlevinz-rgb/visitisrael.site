@@ -16,7 +16,7 @@ secondaryKeywords:
 latitude: 32.7833
 longitude: 35.55
 publishedAt: 2026-05-11
-updatedAt: 2026-05-11
+updatedAt: 2026-09-23
 faqs:
   - question: How many days should I spend in the Galilee?
     answer: Two full days lets you cover the headline Sea of Galilee pilgrimage circuit — Capernaum, Mount of Beatitudes, Tabgha and Yardenit — plus one nature day at Mount Arbel or Banias. Three days adds Nazareth, the Jesus Trail or a deeper visit to Tiberias. Most first visitors base in Tiberias or a lakeside kibbutz guesthouse for two nights.
@@ -63,25 +63,49 @@ There are three practical lodging options across the region, each with a differe
 
 The Sea of Galilee shore holds the most concentrated cluster of New Testament sites anywhere — much of the Gospel account of Jesus's public ministry took place within a fifteen-kilometre stretch from Capernaum south to Magdala. The sites are respectful of multiple traditions: **Catholic Franciscan custody** holds the Mount of Beatitudes and most of the Latin-rite sites, **Greek Orthodox jurisdiction** covers Capernaum's churches and Yardenit, and **Protestant pilgrim groups** use the same sites for outdoor liturgy. The pilgrimage circuit is open to visitors of any faith or none, and the tone of these notes is factual.
 
+**A note on opening hours.** Very few of these sites publish hours on an official page, and several change them between the summer and winter halves of the year. Where there is a source it is named below; everywhere else the honest instruction is to **confirm on the official site or with your guide** before building a morning around a stop. The pattern to plan for is a **long midday closure** at most of the churches, which is what catches independent visitors out.
+
 ### Capernaum (Kfar Nahum)
 
 **Capernaum** is the northern shore archaeological park that the Gospels identify as Jesus's adopted town during his Galilean ministry. The site holds two main visitor draws: the **synagogue ruins** of a 4th-century white-limestone synagogue built atop the earlier 1st-century basalt foundation that Jesus would have known, and the **memorial church** built in 1990 over the traditional site of **Peter's house** (the church floats on stilts above the archaeological remains, which are visible through a glass floor). The site is administered by the **Franciscan Custody of the Holy Land** at the western (Catholic) section; a separate **Greek Orthodox church** sits at the lake shore a hundred metres east, marking the eastern boundary of the ancient town. Modest dress required at both churches.
+
+**Hours and fee.** Capernaum is the one site in the cluster with a ticket office and an entrance fee. We could not confirm current opening hours on an official page in September 2026, so check before you go; whatever they turn out to be, arriving before 09:00 from May to October puts you ahead of the first coaches, because Capernaum is the northernmost stop and the first to fill.
 
 ### Mount of Beatitudes
 
 The **Mount of Beatitudes** is the gentle hill above the northern shore traditionally identified with Jesus's delivery of the **Sermon on the Mount** (Matthew 5–7). The current **octagonal Catholic church** at the summit was completed in 1938 by Italian architect Antonio Barluzzi (also responsible for the church on the Mount of Tabor and the Basilica of the Agony in Jerusalem); the eight sides represent the eight Beatitudes themselves. The church is under **Franciscan custody**; outdoor open-air liturgy spaces in the surrounding garden are widely used by pilgrim groups of every Christian tradition. The view across the Sea of Galilee to the Golan Heights is among the most photographed in the country.
 
+**Hours.** The site has long been listed as open roughly **08:00–11:45 and 14:30–17:00, closing at 16:00 from October to March** (seetheholyland.net, consulted 23 September 2026). That is a well-established third-party reference rather than an official page, and the midday closure is the part visitors get wrong; confirm before planning a late-morning arrival.
+
 ### Tabgha (optional adjacent site)
 
 **Tabgha**, immediately west of Capernaum, holds two adjacent Christian sites: the **Church of the Multiplication of the Loaves and Fishes** (Benedictine custody) with its early Byzantine mosaic of bread and fish in front of the altar, and the **Church of the Primacy of St. Peter** (Franciscan custody) on a small rocky platform at the lake edge marking the traditional site of the post-Resurrection meal. The two churches sit within easy walking distance of each other.
 
+**Hours.** Both churches close for part of the middle of the day, and the Church of the Multiplication keeps a different Friday schedule. We could not confirm current hours on an official page in September 2026; confirm on the official site, and do not plan a lunchtime arrival.
+
 ### Yardenit
 
-**Yardenit** is the symbolic **Jordan River baptismal site** at the southern outflow of the Sea of Galilee, where the river leaves the lake and begins its run south toward the Dead Sea. The site operates under **Greek Orthodox jurisdiction** and is used by Christian groups of every tradition — Catholic, Protestant, Evangelical, Orthodox — for individual and group baptisms in the river. White robes are available for rent at the visitor centre; the baptismal pools are stepped into the river bank and the water is shallow enough for safe immersion. A separate site at **Qasr el-Yahud** further south on the West Bank Jordan is the traditional historical baptism site of Jesus and is also open to visitors.
+**Yardenit** is the symbolic **Jordan River baptismal site** at the southern outflow of the Sea of Galilee, where the river leaves the lake and begins its run south toward the Dead Sea. The site operates under **Greek Orthodox jurisdiction** and is used by Christian groups of every tradition — Catholic, Protestant, Evangelical, Orthodox — for individual and group baptisms in the river. White robes are available for rent at the visitor centre; the baptismal pools are stepped into the river bank and the water is shallow enough for safe immersion.
+
+**Yardenit is not the same site as Qasr al-Yahud**, and most tour catalogues do not say which of the two they mean. Qasr al-Yahud lies about 100 km south, on the Jordan near Jericho in the West Bank, is the traditionally identified baptism site, and falls on a Jerusalem day rather than a Galilee one. If entering the water matters to you, ask the operator which site the itinerary uses; the [Nazareth and Sea of Galilee day trip](/nazareth-sea-of-galilee-day-trip) guide compares the two side by side. Hours at Yardenit are set by the site operator and were not confirmable on an official page in September 2026.
 
 ### Magdala
 
 **Magdala**, on the western shore between Tiberias and Capernaum, is a recent archaeological excavation begun in 2009 that uncovered a **1st-century synagogue** with an intricately carved stone block at its centre (the Magdala Stone, now the earliest known three-dimensional menorah depiction). The town is the traditional hometown of **Mary Magdalene**; a modern **Duc in Altum** spiritual centre sits adjacent to the dig and is open to visitors. Magdala is unusual in the Galilee pilgrim circuit because it is an archaeological park rather than an active worship site — the visit is a 1st-century town walk rather than a liturgical experience.
+
+**Hours.** Magdala is run as a visitor site with its own centre, its own admission and its own seasonal hours; confirm on the official site.
+
+### Cana (Kafr Kanna)
+
+**Cana** sits 10 km north-east of Nazareth on the road towards the lake, and is associated with the wedding miracle of John 2. It is not on the lakeshore, but it belongs to the same touring day: it appeared in 8 of the 12 pilgrimage itineraries read for our 2026 survey of operator catalogues, almost all of them Catholic ones, and it is where couples on those tours renew their marriage vows. Plan 15 to 30 minutes rather than an hour. Each church in the town keeps its own hours; confirm on the official site.
+
+### The boat, in both senses
+
+Every one of the 12 pilgrimage itineraries surveyed in September 2026 includes the Sea of Galilee itself, and most of them include **a crossing of the lake in a wooden boat**, usually between Tiberias, Ginosar and Kibbutz Ein Gev. The crossings are run commercially and are normally booked by the tour operator as part of the day; independent visitors should ask at the Tiberias marina rather than assume a published timetable exists.
+
+Separately, the **first-century fishing boat recovered from the lakebed in 1986**, when drought dropped the water level far enough to expose it, is displayed indoors at **Kibbutz Ginosar**. It is the one stop on the circuit where you see an actual vessel of the period instead of a reconstruction, and it is the obvious refuge in midday heat or winter rain. Museum hours are published by the site; confirm on the official site.
+
+For how this cluster fits into a full itinerary alongside the Jerusalem and Bethlehem half, see our [Christian sites in Israel](/christian-sites-israel) guide; the lakeside day itself is covered in the [Nazareth and Sea of Galilee day trip](/nazareth-sea-of-galilee-day-trip).
 
 ## Nature and Hiking in the Galilee
 

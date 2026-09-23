@@ -7,7 +7,7 @@ heroImage: /images/regions/galilee/hero.jpg
 latitude: 32.7833
 longitude: 35.55
 publishedAt: 2026-05-11
-updatedAt: 2026-07-06
+updatedAt: 2026-09-23
 faqs:
   - question: "Combien de jours faut-il pour visiter la Galilée ?"
     answer: "Deux jours complets permettent de couvrir le circuit de pèlerinage de la mer de Galilée — Capharnaüm, mont des Béatitudes, Tabgha et Yardenit — ainsi qu'une journée nature sur le mont Arbel ou à Banias. Trois jours permettent d'ajouter Nazareth ou un tronçon du sentier de Jésus. La plupart des premiers visiteurs séjournent à Tibériade ou dans une maison d'hôtes de kibboutz au bord du lac pour deux nuits."
@@ -50,21 +50,47 @@ Trois options pratiques s'offrent à vous, chacune avec un compromis différent.
 
 La rive de la mer de Galilée concentre le groupe de sites néotestamentaires le plus dense au monde — une grande partie du ministère public de Jésus se déroula dans un rayon de quinze kilomètres de Capharnaüm à Magdala. Les sites respectent plusieurs traditions : **la custodie franciscaine** administre le mont des Béatitudes et la plupart des sites de rite latin ; **la juridiction grecque orthodoxe** couvre les églises de Capharnaüm et Yardenit.
 
+**À propos des horaires.** Très peu de ces sites publient leurs horaires sur une page officielle, et plusieurs les changent entre la moitié estivale et la moitié hivernale de l'année. Là où une source existe, elle est citée ci-dessous ; partout ailleurs, la consigne honnête est de **vérifier sur le site officiel ou auprès de votre guide** avant de construire une matinée autour d'un arrêt. Le schéma à anticiper est une **longue fermeture de midi** dans la plupart des églises, et c'est ce qui piège les visiteurs indépendants.
+
 ### Capharnaüm (Kfar Nahum)
 
 **Capharnaüm** est le parc archéologique de la rive nord que les Évangiles identifient comme la ville adoptée de Jésus durant son ministère galiléen. Le site présente deux attraits principaux : les **ruines de synagogue** d'une synagogue de calcaire blanc du IVe siècle construite sur la fondation de basalte du Ier siècle que Jésus aurait connue, et l'**église mémorial** érigée en 1990 au-dessus du site traditionnel de la **maison de Pierre** (l'église repose sur des pilotis au-dessus des vestiges archéologiques, visibles à travers un plancher de verre). Tenue correcte exigée.
+
+**Horaires et entrée.** Capharnaüm est le seul site du groupe avec une billetterie et un droit d'entrée. Nous n'avons pas pu confirmer les horaires en vigueur sur une page officielle en septembre 2026 : vérifiez avant de partir. Quels qu'ils soient, arriver avant 09:00 de mai à octobre vous place devant les premiers cars, car Capharnaüm est l'arrêt le plus au nord et le premier à se remplir.
 
 ### Mont des Béatitudes
 
 Le **mont des Béatitudes** est la douce colline au-dessus de la rive nord traditionnellement identifiée à la proclamation du **Sermon sur la montagne** (Matthieu 5–7). L'**église catholique octogonale** au sommet, achevée en 1938 par l'architecte Antonio Barluzzi, représente les huit Béatitudes dans ses huit côtés. La vue sur la mer de Galilée jusqu'au Golan est parmi les plus photographiées du pays.
 
+**Horaires.** Le site est référencé de longue date comme ouvert environ de **08:00 à 11:45 et de 14:30 à 17:00, avec fermeture à 16:00 d'octobre à mars** (seetheholyland.net, consulté le 23 septembre 2026). C'est une référence tierce bien établie, pas une page officielle, et c'est la fermeture de midi que les visiteurs calculent mal ; vérifiez avant de prévoir une arrivée en fin de matinée.
+
 ### Tabgha
 
 **Tabgha**, juste à l'ouest de Capharnaüm, réunit deux sites chrétiens voisins : l'**église de la Multiplication des pains et des poissons** (garde bénédictine) avec sa mosaïque byzantine des pains et poissons devant l'autel, et l'**église du Primat de saint Pierre** (garde franciscaine) sur une petite plateforme rocheuse au bord du lac.
 
+**Horaires.** Les deux églises ferment pendant une partie du milieu de journée, et l'église de la Multiplication suit un horaire différent le vendredi. Nous n'avons pas pu confirmer les horaires en vigueur sur une page officielle en septembre 2026 ; vérifiez sur le site officiel et ne prévoyez pas d'arriver à l'heure du déjeuner.
+
 ### Yardenit
 
 **Yardenit** est le site symbolique de **baptême dans le Jourdain** au débouché sud de la mer de Galilée, administré par la juridiction grecque orthodoxe et utilisé par des groupes chrétiens de toutes traditions. Des robes blanches sont disponibles à la location au centre d'accueil ; les piscines baptismales descendent en gradins dans la berge de la rivière.
+
+**Yardenit n'est pas Qasr al-Yahud**, et la plupart des catalogues de circuits ne précisent pas lequel des deux ils annoncent. Qasr al-Yahud se trouve à une centaine de kilomètres au sud, sur le Jourdain près de Jéricho, en Cisjordanie ; c'est le site identifié par la tradition et il tombe sur une journée depuis Jérusalem, pas sur la journée en Galilée. Si entrer dans l'eau compte pour vous, demandez à l'opérateur quel site figure au programme ; le guide de la [journée Nazareth et mer de Galilée](/fr/nazareth-sea-of-galilee-day-trip) compare les deux côte à côte. Les horaires de Yardenit sont fixés par l'exploitant du site et n'ont pas pu être confirmés sur une page officielle en septembre 2026.
+
+### Magdala
+
+**Magdala**, sur la rive ouest entre Tibériade et Capharnaüm, est une fouille commencée en 2009 qui a mis au jour une **synagogue du Ier siècle** avec en son centre un bloc de pierre sculpté (la pierre de Magdala). La localité est la ville natale traditionnelle de **Marie-Madeleine** ; le centre moderne **Duc in Altum** jouxte le chantier et se visite. Magdala est atypique dans le circuit car c'est un parc archéologique et non un lieu de culte actif : la visite est une promenade dans une ville du Ier siècle.
+
+**Horaires.** Magdala fonctionne comme un site de visite avec son propre centre d'accueil, sa propre entrée et ses propres horaires saisonniers ; vérifiez sur le site officiel.
+
+### Cana (Kafr Kanna)
+
+**Cana** se situe à 10 km au nord-est de Nazareth, sur la route du lac, et est associée au miracle des noces de Jean 2. Ce n'est pas un site de bord de lac, mais il appartient à la même journée de circuit : il figurait dans 8 des 12 programmes de pèlerinage lus lors de notre relevé des catalogues d'opérateurs en 2026, presque tous catholiques, et c'est là que les couples de ces circuits renouvellent leurs vœux de mariage. Comptez 15 à 30 minutes, pas une heure. Chaque église de la ville a ses propres horaires ; vérifiez sur le site officiel.
+
+### Le bateau, dans les deux sens
+
+Les 12 programmes de pèlerinage relevés en septembre 2026 incluent tous la mer de Galilée, et presque tous une **traversée du lac en bateau de bois**, généralement entre Tibériade, Ginosar et le kibboutz Ein Gev. Ces traversées sont commerciales et sont normalement réservées par l'opérateur dans le cadre de la journée ; les visiteurs indépendants ont intérêt à se renseigner au port de Tibériade plutôt qu'à supposer l'existence d'un horaire publié.
+
+À part cela, le **bateau de pêche du Ier siècle remonté du fond du lac en 1986**, quand la sécheresse a fait baisser le niveau de l'eau assez pour le découvrir, est exposé à l'abri au **kibboutz Ginosar**. C'est le seul arrêt du circuit où l'on voit une embarcation réelle de l'époque plutôt qu'une reconstitution, et le refuge évident par forte chaleur de midi ou pluie d'hiver. Les horaires sont publiés par le musée ; vérifiez sur le site officiel.
 
 ## Randonnée et nature en Galilée
 

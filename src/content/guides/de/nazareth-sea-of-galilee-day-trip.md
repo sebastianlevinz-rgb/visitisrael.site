@@ -5,7 +5,7 @@ heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Touren
 verdictName: Galiläa
 verdictQuery: Nazareth Sea of Galilee Christian day tour
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Ihre Tour nach Nazareth und zum See Genezareth buchen"
 affiliateCtas:
   - partner: getyourguide
@@ -48,7 +48,11 @@ Galiläa ist die Landschaft der Evangelien: der See, die Fischerdörfer und die 
 
 Die meisten Touren folgen einer Variante dieser Route, in dieser Reihenfolge.
 
-**Nazareth.** Die größte arabische Stadt Israels und die Stadt der Verkündigung. Die 1969 vollendete **Verkündigungsbasilika** ist die größte Kirche des Nahen Ostens und steht über der Grotte, die traditionell als Haus Marias gilt; der Hof ist mit Marienmosaiken gesäumt, die katholische Gemeinden aus aller Welt gestiftet haben. Die meisten Touren passieren auch die griechisch-orthodoxe Gabrielskirche am Marienbrunnen und gönnen dem Altstadtmarkt ein paar Minuten. Manche ergänzen **Kana**, 10 km entfernt, den Ort des Weinwunders.
+**Nazareth.** Die größte arabische Stadt Israels und die Stadt der Verkündigung. Die 1969 vollendete **Verkündigungsbasilika** ist die größte Kirche des Nahen Ostens und steht über der Grotte, die traditionell als Haus Marias gilt; der Hof ist mit Marienmosaiken gesäumt, die katholische Gemeinden aus aller Welt gestiftet haben. Die meisten Touren passieren auch die griechisch-orthodoxe Gabrielskirche am Marienbrunnen und gönnen dem Altstadtmarkt ein paar Minuten.
+
+**Kana (Kafr Kanna).** Eine kleine Stadt 10 km nordöstlich von Nazareth, an der Straße Richtung See, verbunden mit dem Weinwunder von Johannes 2. Sie stand in 8 der 12 Pilgerprogramme, die wir im September 2026 gelesen haben, fast alle davon katholisch, und dort erneuern Paare auf diesen Reisen ihr Eheversprechen. Planen Sie 15 bis 30 Minuten ein, keine Stunde; der Halt liegt ohnehin auf der Strecke zwischen Nazareth und dem See Genezareth. Jede Kirche im Ort hat eigene Öffnungszeiten; bestätigen Sie sie auf der offiziellen Seite oder bei Ihrer Reiseleitung, bevor Sie einen Vormittag darum herum planen.
+
+**Berg Tabor.** Der gerundete Hügel, der allein über der Jesreelebene südöstlich von Nazareth aufsteigt, mit einer franziskanischen Kirche auf dem Gipfel, entworfen von Antonio Barluzzi, demselben Architekten wie die Kirche auf dem Berg der Seligpreisungen. Auch er stand in 8 der 12 Programme, wieder überwiegend den katholischen, und der Blick über die Ebene ist der weiteste des Tages. Der Gipfel wird über eine schmale Serpentinenstraße erreicht; fragen Sie Ihren Veranstalter, wie der letzte Anstieg gelöst wird, statt anzunehmen, dass der Bus ganz hinauffährt. Die Öffnungszeiten setzen die Gemeinschaften auf dem Berg fest, und wir konnten sie im September 2026 auf keiner offiziellen Seite bestätigen.
 
 **Kafarnaum.** Das Dorf am See, das alle vier Evangelien Jesu eigene Stadt nennen. Die weiße Kalkstein-**Synagoge** aus dem 4. oder 5. Jahrhundert steht auf den schwarzen Basaltfundamenten einer früheren, und wenige Schritte entfernt schwebt eine moderne achteckige Kirche über dem ausgegrabenen **Haus des Petrus**, mit Glasboden, um die Reste darunter zu sehen. Es ist ein Nationalpark mit Eintritt; planen Sie eine Stunde ein.
 
@@ -56,9 +60,25 @@ Die meisten Touren folgen einer Variante dieser Route, in dieser Reihenfolge.
 
 **Tabgha.** Zwei Kirchen am Ufer: die **Brotvermehrungskirche** mit ihrem byzantinischen Mosaik der Brote und Fische vor dem Altar und die **Primatskapelle**, eine kleine Kapelle um einen Felsen am Wasserrand. Beide sind kostenlos.
 
+**Magdala.** Am Westufer zwischen Tiberias und Kafarnaum, ein archäologischer Park, der nach der Entdeckung einer Synagoge aus dem ersten Jahrhundert im Jahr 2009 eröffnet wurde, mit dem behauenen Magdala-Stein im Zentrum und dem modernen Zentrum Duc in Altum neben der Grabung. Es ist eher ein Rundgang durch eine Stadt des ersten Jahrhunderts als ein Kirchenbesuch, weshalb manche Touren ihn auslassen und weshalb es sich lohnt zu prüfen, ob Ihre ihn enthält. Er stand in 8 der 12 gelesenen Programme.
+
 **Yardenit.** Wo der Jordan den See an seinem Südende verlässt, eine vom Kibbuz Kinneret betriebene Taufstelle mit Umkleiden, Gewandverleih und Stufen in den Fluss. Pilgergruppen werden hier oft getauft oder erneuern ihre Gelübde; andere Besucher schauen zu.
 
-Manche Programme ergänzen eine **Überfahrt im Holzboot** über den See, einen Halt in **Magdala**, wo 2009 eine Synagoge aus dem ersten Jahrhundert entdeckt wurde, oder Zeit an der Uferpromenade von **Tiberias**. Lesen Sie das Programm vor der Buchung, denn zwei gleichnamige Touren können sich genau in diesen Extras unterscheiden.
+Manche Programme ergänzen eine **Überfahrt im Holzboot** über den See oder Zeit an der Uferpromenade von **Tiberias**. Lesen Sie das Programm vor der Buchung, denn zwei gleichnamige Touren können sich genau in diesen Extras unterscheiden.
+
+### Yardenit oder Qasr al-Yahud: welche Jordanstelle steht in Ihrem Programm
+
+Neun der zwölf im September 2026 gelesenen Pilgerprogramme nennen einen Halt am „Jordan", ohne zu sagen, welche der beiden Taufstellen gemeint ist. Sie liegen rund 100 km auseinander, fallen auf verschiedene Reisetage und sind nicht austauschbar.
+
+| | **Yardenit** | **Qasr al-Yahud** |
+|---|---|---|
+| **Wo es liegt** | Am Südausfluss des Sees Genezareth, wenige Minuten südlich von Tiberias an der Route 90 | Am Jordan bei Jericho, im Westjordanland, rund 50 km östlich von Jerusalem |
+| **An welchem Tag** | Am Galiläa-Tag, dem auf dieser Seite beschriebenen | Am [Tag Bethlehem, Jericho und Jordan](/de/jerusalem-bethlehem-day-trip) ab Jerusalem |
+| **Anfahrt** | Unkompliziert mit Auto oder Bus, kostenloser Parkplatz am Ort | Mit Tour oder lizenziertem Taxi. Die meisten israelischen Mietverträge schränken die Versicherung in Teilen des Westjordanlands ein oder heben sie auf: prüfen Sie Ihren Vertrag, siehe [Mietwagen-Guide](/de/car-rental-israel) |
+| **Was Sie erwartet** | Ein vom Kibbuz Kinneret betriebenes Besucherzentrum, Umkleiden, Gewand- und Handtuchverleih, Stufen ins Wasser und meist mehrere Gruppen gleichzeitig | Eine schlichtere Uferstelle mit weniger Infrastruktur, bei der das gegenüberliegende Ufer bereits Jordanien ist |
+| **Wer sie nutzt** | Gruppen, deren Programm um Galiläa herum gebaut ist, und Individualreisende, die keine zweite Anfahrt wollen | Gruppen, die die traditionell identifizierte Stelle wollen: die meisten katholischen und orthodoxen Programme sowie protestantische Gruppen, die einen vollständigen Immersionsgottesdienst ansetzen |
+
+Für keine der beiden Stellen konnten wir im September 2026 aktuelle Öffnungszeiten auf einer offiziellen Seite bestätigen, und beide schließen im Winter früher als erwartet. Wenn Ihnen das Hineingehen ins Wasser wichtig ist, fragen Sie den Veranstalter nach dem Namen der Stelle und der Uhrzeit — und nehmen Sie in jedem Fall Handtuch und Wechselkleidung mit.
 
 ## Tourformate im Vergleich
 

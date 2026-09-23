@@ -7,20 +7,20 @@ heroImage: /images/regions/galilee/hero.jpg
 latitude: 32.7833
 longitude: 35.55
 publishedAt: 2026-05-11
-updatedAt: 2026-07-06
+updatedAt: 2026-09-23
 faqs:
   - question: "Wie viele Tage sollte man für Galiläa einplanen?"
-    answer: "Zwei volle Tage reichen für den Hauptpilgerweg am See Genezareth — Kafarnaum, Berg der Seligpreisungen, Tabgha und Jarden­it — sowie einen Naturtag am Mount Arbel oder in Banias. Drei Tage erlauben zusätzlich Nazareth oder einen Abschnitt des Jesuswegs. Die meisten Erstbesucher übernachten zwei Nächte in Tiberias oder einem Kibbutz-Gästehaus am Seeufer."
+    answer: "Zwei volle Tage reichen für den Hauptpilgerweg am See Genezareth — Kafarnaum, Berg der Seligpreisungen, Tabgha und Yardenit — sowie einen Naturtag am Mount Arbel oder in Banias. Drei Tage erlauben zusätzlich Nazareth oder einen Abschnitt des Jesuswegs. Die meisten Erstbesucher übernachten zwei Nächte in Tiberias oder einem Kibbutz-Gästehaus am Seeufer."
   - question: "Ist der See Genezareth dasselbe wie der See von Tiberias oder der Kinneret?"
     answer: "Ja. See Genezareth, See von Tiberias und Kinneret bezeichnen denselben Süßwassersee — den tiefsten Süßwassersee der Erde auf etwa 209 Metern unter dem Meeresspiegel. Deutschsprachige Quellen verwenden häufig See Genezareth oder See von Tiberias, auf Hebräisch heißt er Kinneret. Der See ist Israels wichtigstes Süßwasserreservoir und Schauplatz wesentlicher Teile der Evangelienerzählung."
   - question: "Wann ist die beste Reisezeit für Galiläa?"
     answer: "März bis Mai (Frühlingsblumen, angenehme Badetemperaturen) und September bis November (noch warmes Seewasser ohne Sommerhitze) sind die besten Zeitfenster. Der Sommer ist heiß — 32 bis 36 °C im Inland —, aber die Seeuferhotels sind beliebt, weil Wassersport seinen Höhepunkt erreicht. Der Winter ist mild mit gelegentlichen Regenstürmen und Schnee auf dem nahen Berg Hermon."
   - question: "Welche christlichen Pilgerstätten gibt es am See Genezareth?"
-    answer: "Die wichtigsten Stätten liegen am Nordufer: Kafarnaum (Synagogenruinen und Petrushaus), der Berg der Seligpreisungen (Bergpredigt), Tabgha (Mosaik der Brotvermehrung) und Jarden­it am Südufer (symbolische Taufstätte im Jordan). Magdala am Westufer ist eine neuere archäologische Ausgrabung, die mit Maria Magdalena assoziiert wird."
+    answer: "Die wichtigsten Stätten liegen am Nordufer: Kafarnaum (Synagogenruinen und Petrushaus), der Berg der Seligpreisungen (Bergpredigt), Tabgha (Mosaik der Brotvermehrung) und Yardenit am Südufer (symbolische Taufstätte im Jordan). Magdala am Westufer ist eine neuere archäologische Ausgrabung, die mit Maria Magdalena assoziiert wird."
   - question: "Wie kommt man von Tel Aviv nach Galiläa?"
     answer: "Die praktischste Option ist ein Mietwagen — Tiberias liegt etwa zwei Autostunden vom Flughafen Ben Gurion entfernt über Route 6 und Route 65. Egged betreibt Direktbusse von Tel Aviv nach Tiberias (ca. zweieinhalb Stunden), aber für die Pilgerstätten und den Mount Arbel außerhalb der Stadt ist ein Auto unverzichtbar."
   - question: "Kann man im See Genezareth schwimmen?"
-    answer: "Ja — öffentliche Strände mit Duschen und Umkleidekabinen säumen die Ost- und Westküste; einige sind kostenlos, andere kostenpflichtig. Das Seewasser ist von Mai bis Oktober warm. Meiden Sie den See eine Stunde nach Sonnenauf- und -untergang in der Nähe von Jarden­it und dem Südufer, wo der Jordan-Ausfluss Strömungen erzeugen kann."
+    answer: "Ja — öffentliche Strände mit Duschen und Umkleidekabinen säumen die Ost- und Westküste; einige sind kostenlos, andere kostenpflichtig. Das Seewasser ist von Mai bis Oktober warm. Meiden Sie den See eine Stunde nach Sonnenauf- und -untergang in der Nähe von Yardenit und dem Südufer, wo der Jordan-Ausfluss Strömungen erzeugen kann."
   - question: "Ist Galiläa sicher für Touristen?"
     answer: "Ja. Galiläa ist ein gut etablierter Tourismuskorridor mit klar ausgeschilderten Stätten, englischsprachigen Führern an den wichtigsten Pilgerstätten und einem soliden Netz aus Kibbutz- und Seeufer-Gästehäusern. Übliche Vorsicht beim Wandern gilt — Wasser und Sonnenschutz für Mount Arbel und den Jesusweg mitbringen."
 ---
@@ -48,23 +48,49 @@ Drei praktische Übernachtungsoptionen stehen zur Auswahl, jede mit anderen Stä
 
 ## Christliche Pilgerstätten am See Genezareth
 
-Das Ufer des Sees Genezareth beherbergt die dichteste Konzentration neutestamentlicher Stätten weltweit — ein Großteil des Evangelienberichts über Jesu öffentliches Wirken spielte sich in einem Fünfzehn-Kilometer-Streifen von Kafarnaum bis Magdala ab. Die Stätten respektieren mehrere Traditionen: Die **franziskanische Kustodie** verwaltet den Berg der Seligpreisungen und die meisten lateinischen Stätten; die **griechisch-orthodoxe Jurisdiktion** umfasst die Kirchen in Kafarnaum und Jarden­it.
+Das Ufer des Sees Genezareth beherbergt die dichteste Konzentration neutestamentlicher Stätten weltweit — ein Großteil des Evangelienberichts über Jesu öffentliches Wirken spielte sich in einem Fünfzehn-Kilometer-Streifen von Kafarnaum bis Magdala ab. Die Stätten respektieren mehrere Traditionen: Die **franziskanische Kustodie** verwaltet den Berg der Seligpreisungen und die meisten lateinischen Stätten; die **griechisch-orthodoxe Jurisdiktion** umfasst die Kirchen in Kafarnaum und Yardenit.
+
+**Zu den Öffnungszeiten.** Nur sehr wenige dieser Stätten veröffentlichen Zeiten auf einer offiziellen Seite, und mehrere ändern sie zwischen der Sommer- und der Winterhälfte des Jahres. Wo es eine Quelle gibt, wird sie unten genannt; überall sonst lautet die ehrliche Anweisung: **auf der offiziellen Seite oder bei der Reiseleitung bestätigen lassen**, bevor Sie einen Vormittag um einen Halt herum planen. Das Muster, mit dem zu rechnen ist, ist eine **lange Mittagsschließung** in den meisten Kirchen — und genau daran scheitern Individualreisende.
 
 ### Kafarnaum (Kfar Nahum)
 
 **Kafarnaum** ist der archäologische Park am Nordufer, den die Evangelien als Jesu angenommene Stadt während seines galiläischen Wirkens bezeichnen. Die Stätte umfasst zwei Hauptattraktionen: die **Synagogenruinen** einer Kalkstein-Synagoge aus dem 4. Jahrhundert, die auf den Basaltfundamenten des früheren 1. Jahrhunderts gebaut wurde, und die 1990 errichtete **Gedächtniskirche** über der traditionellen Stätte des **Hauses des Petrus** (die Kirche steht auf Stelzen über den archäologischen Resten, die durch einen Glasboden sichtbar sind). Angemessene Kleidung erforderlich.
 
+**Öffnungszeiten und Eintritt.** Kafarnaum ist die einzige Stätte des Clusters mit Kasse und Eintrittsgeld. Aktuelle Öffnungszeiten ließen sich im September 2026 auf keiner offiziellen Seite bestätigen; prüfen Sie sie vor der Fahrt. Wie sie auch ausfallen: Wer von Mai bis Oktober vor 09:00 Uhr da ist, liegt vor den ersten Bussen, denn Kafarnaum ist der nördlichste Halt und füllt sich zuerst.
+
 ### Berg der Seligpreisungen
 
 Der **Berg der Seligpreisungen** ist der sanfte Hügel über dem Nordufer, der traditionell mit der Verkündigung der **Bergpredigt** (Matthäus 5–7) identifiziert wird. Die **achteckige katholische Kirche** am Gipfel, 1938 vom italienischen Architekten Antonio Barluzzi vollendet, repräsentiert die acht Seligpreisungen in ihren acht Seiten. Der Blick über den See Genezareth zu den Golanhöhen ist einer der meistfotografierten im Land.
+
+**Öffnungszeiten.** Die Stätte wird seit Langem mit etwa **08:00–11:45 und 14:30–17:00 Uhr geführt, von Oktober bis März mit Schluss um 16:00 Uhr** (seetheholyland.net, abgerufen am 23. September 2026). Das ist eine etablierte Drittquelle, keine offizielle Seite, und die Mittagsschließung ist das, was Besucher falsch einplanen; bestätigen Sie sie, bevor Sie eine Ankunft am späten Vormittag ansetzen.
 
 ### Tabgha
 
 **Tabgha**, unmittelbar westlich von Kafarnaum, vereint zwei benachbarte christliche Stätten: die **Kirche der Brotvermehrung** (benediktinische Kustodie) mit ihrem frühbyzantinischen Mosaik von Brot und Fisch vor dem Altar, und die **Kirche vom Primat des Petrus** (franziskanische Kustodie) auf einer kleinen Felsplattform am Seeufer.
 
-### Jarden­it
+**Öffnungszeiten.** Beide Kirchen schließen über einen Teil der Mittagszeit, und die Brotvermehrungskirche hat freitags einen abweichenden Plan. Aktuelle Zeiten ließen sich im September 2026 auf keiner offiziellen Seite bestätigen; bestätigen Sie sie auf der offiziellen Seite und planen Sie keine Ankunft zur Mittagszeit.
 
-**Jarden­it** ist die symbolische **Jordantaufstätte** am südlichen Ausfluss des Sees Genezareth, wo der Fluss den See verlässt und seinen Weg nach Süden zum Toten Meer beginnt. Die Stätte wird von der griechisch-orthodoxen Jurisdiktion verwaltet und von christlichen Gruppen aller Traditionen genutzt. Weiße Taufgewänder sind im Besucherzentrum zu leihen.
+### Yardenit
+
+**Yardenit** ist die symbolische **Jordantaufstätte** am südlichen Ausfluss des Sees Genezareth, wo der Fluss den See verlässt und seinen Weg nach Süden zum Toten Meer beginnt. Die Stätte wird von der griechisch-orthodoxen Jurisdiktion verwaltet und von christlichen Gruppen aller Traditionen genutzt. Weiße Taufgewänder sind im Besucherzentrum zu leihen.
+
+**Yardenit ist nicht dasselbe wie Qasr al-Yahud**, und die meisten Tourkataloge sagen nicht, welche der beiden Stellen sie meinen. Qasr al-Yahud liegt rund 100 km weiter südlich, am Jordan bei Jericho im Westjordanland, ist die traditionell identifizierte Taufstelle und fällt auf einen Jerusalem-Tag, nicht auf den Galiläa-Tag. Wenn Ihnen das Hineingehen ins Wasser wichtig ist, fragen Sie den Veranstalter, welche Stelle im Programm steht; der Guide zum [Tagesausflug Nazareth und See Genezareth](/de/nazareth-sea-of-galilee-day-trip) vergleicht beide nebeneinander. Die Öffnungszeiten von Yardenit setzt der Betreiber der Stätte fest; sie ließen sich im September 2026 auf keiner offiziellen Seite bestätigen.
+
+### Magdala
+
+**Magdala** am Westufer zwischen Tiberias und Kafarnaum ist eine 2009 begonnene Ausgrabung, die eine **Synagoge aus dem ersten Jahrhundert** freilegte, mit einem kunstvoll behauenen Steinblock in ihrer Mitte (dem Magdala-Stein). Der Ort gilt traditionell als Heimatstadt von **Maria Magdalena**; das moderne Zentrum **Duc in Altum** steht neben der Grabung und ist zu besichtigen. Magdala ist im Pilgerkreis untypisch, weil es ein archäologischer Park und kein aktiver Kultort ist: Der Besuch ist ein Rundgang durch eine Stadt des ersten Jahrhunderts.
+
+**Öffnungszeiten.** Magdala wird als Besucherstätte mit eigenem Zentrum, eigenem Eintritt und eigenen saisonalen Zeiten betrieben; bestätigen Sie sie auf der offiziellen Seite.
+
+### Kana (Kfar Kanna)
+
+**Kana** liegt 10 km nordöstlich von Nazareth an der Straße Richtung See und wird mit dem Weinwunder von Johannes 2 verbunden. Es liegt nicht am Seeufer, gehört aber zum selben Reisetag: Es stand in 8 der 12 Pilgerprogramme, die wir 2026 bei der Auswertung der Veranstalterkataloge gelesen haben, fast alle davon katholisch, und dort erneuern Paare auf diesen Reisen ihr Eheversprechen. Planen Sie 15 bis 30 Minuten ein, keine Stunde. Jede Kirche im Ort hat eigene Zeiten; bestätigen Sie sie auf der offiziellen Seite.
+
+### Das Boot, in beiden Bedeutungen
+
+Alle 12 im September 2026 ausgewerteten Pilgerprogramme enthalten den See Genezareth selbst, und fast alle eine **Überfahrt über den See im Holzboot**, meist zwischen Tiberias, Ginosar und Kibbuz Ein Gev. Die Überfahrten werden kommerziell betrieben und normalerweise vom Veranstalter als Teil des Tages gebucht; Individualreisende fragen besser am Hafen von Tiberias nach, statt einen veröffentlichten Fahrplan vorauszusetzen.
+
+Davon getrennt ist das **Fischerboot aus dem ersten Jahrhundert, das 1986 aus dem Seegrund geborgen wurde**, als eine Dürre den Wasserstand weit genug senkte, um es freizulegen; es steht überdacht im **Kibbuz Ginosar**. Es ist der einzige Halt der Runde, an dem man ein echtes Fahrzeug der Zeit sieht und keine Rekonstruktion, und die naheliegende Zuflucht bei Mittagshitze oder Winterregen. Die Öffnungszeiten veröffentlicht das Museum; bestätigen Sie sie auf der offiziellen Seite.
 
 ## Natur und Wandern in Galiläa
 

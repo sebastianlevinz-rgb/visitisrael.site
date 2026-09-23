@@ -5,7 +5,7 @@ heroImage: /images/regions/jerusalem/hero.jpg
 category: Touren
 verdictName: eine mehrtägige Israel-Pauschalreise
 verdictQuery: Israel multi day tour package
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Mehrtägige Israel-Touren durchsuchen"
 affiliateCtas:
   - partner: getyourguide
@@ -100,6 +100,37 @@ Zwei Pakete mit ähnlichen Gesamtpreisen können sich um ein Dutzend Mahlzeiten 
 ## Was Pauschalreisen kosten
 
 2026 kosten zwei- bis dreitägige Pakete in der Regel zwischen 600 und 1.100 US$ pro Person; sieben- bis achttägige geführte Rundreisen mit Drei- oder Viersternehotels zwischen 1.800 und 4.000 US$, wobei die Spanne vor allem von Hotelkategorie und Gruppengröße abhängt; und zehn- bis zwölftägige Israel-und-Jordanien-Kombinationen ab rund 3.000 US$. Alleinreisende zahlen einen Einzelzimmerzuschlag, sofern der Veranstalter keine Zimmerpartner vermittelt. Die Preise erreichen ihren Höhepunkt zu Ostern, im Oktober und zu Weihnachten.
+
+## Preise vergleichen: normalisieren Sie zuerst den Flug
+
+Veröffentlichte Pauschalpreise sind so, wie sie dastehen, nicht vergleichbar, und kaum ein Veranstalter sagt das. Bei der Lektüre der Pilgerkataloge am 23. September 2026 fanden wir Schlagzeilenpreise mit enthaltenem Interkontinentalflug, Preise, die erst am Flughafen Ben Gurion beginnen, und Preise, die jeden Flug ausschließen, auch den ab der Abflugstadt des Veranstalters selbst. Zwei Pakete namens „acht Tage im Heiligen Land" können sich um den Wert eines Langstreckentickets unterscheiden, bevor ein einziges Hotel verglichen wurde.
+
+Klären Sie, zu welchem dieser vier Formate ein Preis gehört, bevor Sie irgendetwas anderes vergleichen.
+
+| Preisformat | Wo die Reise beginnt | Was der Schlagzeilenpreis üblicherweise abdeckt | Was Sie zusätzlich bezahlen | Kaplan und tägliche Messe |
+|---|---|---|---|---|
+| **Mit Flug, europäischer Abflug** | Madrid, Barcelona, Valencia oder Málaga | Hin- und Rückflug, Hotels, die meisten Mahlzeiten, Reiseleitung und Bustransport | Trinkgelder, Einzelzimmerzuschlag, einige Mittagessen | **Ja** bei den an eine Pfarrei gebundenen Programmen; **nein** bei den allgemein-touristischen |
+| **Mit Flug, amerikanischer Abflug** | New York oder der Heimatflughafen; Mexiko-Stadt oder Bogotá bei lateinamerikanischen Veranstaltern | Hin- und Rückflug, Hotels, Halbpension, Reiseleitung und Bustransport | Trinkgelder in den meisten Fällen, Mittagessen, Einzelzimmerzuschlag | **Nein** bei den großen protestantischen Programmen; **ja** bei den mexikanischen und kolumbianischen katholischen |
+| **Land only (ohne Flug, Treffpunkt in Israel)** | Flughafen Ben Gurion, wo sich die Gruppe trifft | Hotels, Bustransport, Reiseleitung, Halb- oder Vollpension | **Der gesamte Interkontinentalflug**, dazu Trinkgelder, sofern nicht anders angegeben | **Ja** bei den franziskanischen Programmen, die auch die Trinkgelder vorab bezahlen; **nein** bei den protestantischen |
+| **Ohne Flug, Tickets separat** | Ihr eigener Heimatflughafen, auf Ihre eigene Buchung | Hotels, Bustransport, Reiseleitung | Sämtliche Flüge, auch die Inlandsetappe, die manche Veranstalter weglassen | **Erst ab einer Mindestgruppengröße** bei mindestens einem spanischen Veranstalter: 20 Pilger |
+
+**Wie die Spannen im September 2026 aussahen.** Achttägige Abflüge ab Spanien mit Flug veröffentlichten Ab-Preise von etwa 1.500 bis 2.800 € pro Person. Nordamerikanische Abflüge mit Flug lagen beim Standard von neun oder zehn Tagen bei etwa 3.000 bis 4.000 US$, während lateinamerikanische Veranstalter von rund 1.400 US$ für eine kurze Rundreise bis über 5.000 US$ für eine zweiwöchige reichten. Land-only-Programme von sieben bis elf Tagen, die am Flughafen in Israel beginnen, lagen bei etwa 1.400 bis 3.700 US$. Das sind veröffentlichte Ab-Preise, gelesen am 23. September 2026, keine Angebote: Die aktuelle Zahl steht nur auf der Seite des Veranstalters.
+
+### Die versteckten Kosten: Trinkgelder, Gebühren und Zuschläge
+
+**Die Trinkgelder sind die Position, die überrascht.** Sie werden auf jeder Reise für Reiseleitung und Fahrer erwartet, und die Veranstalter handhaben sie auf drei verschiedene Arten: im Preis enthalten, als fester vorausbezahlter Betrag berechnet, oder ganz Ihnen überlassen. Ein amerikanischer Pilgerveranstalter nennt die Zahl offen: Pilgrim Tours weist vorausbezahlte Trinkgelder von **110 bis 140 US$ pro Person** für die Reise als eigene Position aus (pilgrimtours.com, abgerufen am 23. September 2026). Franciscan Pilgrimage Programs und 206 Tours haben sie im Paketpreis; Educational Opportunities schließt nur das Hotelpersonal ein. Ein Paket, das 100 US$ günstiger wirkt, hat diese Position vielleicht nur aus dem Schlagzeilenpreis herausgenommen.
+
+**Die anderen separaten Positionen.** Italienische Veranstalter sind hier am deutlichsten: Brevivet führt eine Anmeldegebühr von 39 €, Flughafensteuern von 230 € und einen Einzelzimmerzuschlag von 360 € als eigene Posten neben dem Reisepreis auf (brevivet.it, abgerufen am 23. September 2026). Veranstalter, deren Routen nach Jordanien oder Ägypten führen, weisen die Grenzgebühren genauso aus. Nichts davon ist im unehrlichen Sinn versteckt; es steht nur nicht in der Zahl auf dem Prospektumschlag, und genau deshalb muss der Vergleich über die Leistungen laufen.
+
+### Kaplan und tägliche Messe: die Linie, die den Markt teilt
+
+Ob ein Priester mitreist und ob täglich Messe gefeiert wird, ist der größte Einzelunterschied zwischen zwei Paketen gleicher Länge und gleichen Preises — und es steht nicht immer auf der Produktseite. Aus den am 23. September 2026 gelesenen Katalogen:
+
+- **Schriftlich zugesagt:** 206 Tours und Franciscan Pilgrimage Programs in den USA, Halcón Viajes in Spanien (franziskanische Reiseleitung, Unterkunft in franziskanischen Häusern), San Juan del Hospital in Valencia und Peregrinaciones.mx in Mexiko.
+- **Gar nicht erwähnt:** die großen protestantischen und evangelikalen Programme sowie mehrere allgemein-touristische Veranstalter, die auf Spanisch verkaufen. Das Schweigen ist Absicht, denn diese Routen sind für eine andere Art von Gruppe gebaut.
+- **Erst ab einer Mindestgruppengröße:** Éxodo Peregrinaciones stellt einen Kaplan **erst ab 20 Pilgern**; Peregrino.travel verspricht Messe „wenn möglich", abgestimmt mit der Kustodie des Heiligen Landes.
+
+Die Route verrät es schneller als der Verkaufstext. Wenn die tägliche Messe der Grund der Reise ist, lassen Sie sie sich vor der Anzahlung schriftlich geben, und fragen Sie, wer die Termine in den Heiligtümern bucht: In Jerusalem werden sie zentral vergeben und nicht von der Reiseleitung am Morgen arrangiert.
 
 ## Buchung und Praktisches
 

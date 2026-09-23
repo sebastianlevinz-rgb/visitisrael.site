@@ -5,7 +5,7 @@ heroImage: /images/regions/jerusalem/old-city.jpg
 category: Touren
 verdictName: Bethlehem
 verdictQuery: Bethlehem half day tour from Jerusalem
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Ihre Bethlehem-Tour ab Jerusalem buchen"
 affiliateCtas:
   - partner: getyourguide
@@ -92,6 +92,22 @@ Das ist der Teil, der Erstbesucher beunruhigt, und er ist einfacher, als er klin
 
 Für Visa- und Einreisefragen zu Israel selbst siehe [Visa-Informationen](/de/visa-information). Für das breitere Sicherheitsbild siehe [Ist Israel sicher](/de/is-israel-safe).
 
+## Das Weihnachtsfenster: drei Termine, nicht einer
+
+Fast jeder Katalog verkauft „Weihnachten in Bethlehem" als den 24. und 25. Dezember. Tatsächlich feiert Bethlehem es dreimal über vier Wochen, nach den Kalendern der Kirchen, die sich die Geburtskirche teilen, und die palästinensische Tourismusbehörde führt alle drei Termine auf (travelpalestine.ps, abgerufen am 23. September 2026). Für Besucher sind das drei getrennte Mikrosaisons mit unterschiedlichem Andrang, unterschiedlicher Verfügbarkeit und unterschiedlichen Preisen.
+
+| | **24.–25. Dezember** | **6.–7. Januar** | **18.–19. Januar** |
+|---|---|---|---|
+| **Wessen** | Katholiken und Protestanten | Griechisch-Orthodoxe und andere Ostkirchen | Armenier |
+| **Was passiert** | Die Prozession des Lateinischen Patriarchen auf den Krippenplatz am Nachmittag des 24. und die Mitternachtsmesse in St. Katharina, auf den Platz übertragen | Eine zweite patriarchale Prozession mit Liturgie auf demselben Platz | Die dritte Prozession mit Liturgie; danach wird der Schmuck abgenommen |
+| **Andrang** | Der Höhepunkt des Jahres | Deutlich geringer, überwiegend regionale und lokale Besucher | Der geringste der drei |
+| **Buchung** | Die Mitternachtsmesse läuft über Karten des Lateinischen Patriarchats und ist ausverkauft; Hotels in Jerusalem und Tagestouren füllen sich Wochen vorher | Einfacher, aber immer noch die vollste Woche des Januars | Am einfachsten |
+| **Am besten für** | Wer den ganzen Anlass will und Monate im Voraus gebucht hat | Wer den geschmückten Krippenplatz ohne das Gedränge des 24. Dezember will | Wer den Platz fast für sich haben will, bei noch brennender Beleuchtung |
+
+Zwischen den drei Terminen bleibt der Platz geschmückt, sodass praktisch die gesamte Zeit vom 25. Dezember bis zum 19. Januar Weihnachten in Bethlehem ist. Wenn Sie wegen der Atmosphäre kommen und nicht wegen eines bestimmten Gottesdienstes, ist die erste Januarhälfte das beste Preis-Leistungs-Verhältnis der drei Fenster: derselbe Platz, derselbe Baum, ein Bruchteil der Nachfrage.
+
+Was sich nicht ändert, ist die Logistik. Checkpoint, Passpflicht und der Ausschluss des Mietwagens funktionieren an allen drei Terminen gleich, und die Schlange zur Grotte ist an jedem von ihnen lang. Den vollständigen christlichen Kalender 2027 samt beider Ostertermine finden Sie in unserem [Schabbat- und Feiertagsguide](/de/shabbat-and-holidays-israel).
+
 ## Praktische Details
 
 **Wie lange dauert es?** Die Fahrt dauert 25 bis 40 Minuten pro Richtung plus Checkpoint. Eine Halbtagstour braucht vier bis fünf Stunden von Tür zu Tür; die Jericho-Kombination neun bis elf.
@@ -100,7 +116,7 @@ Für Visa- und Einreisefragen zu Israel selbst siehe [Visa-Informationen](/de/vi
 
 **Schlangen an der Grotte.** Zwanzig bis vierzig Minuten sind mittags normal. Touren, die die Kirche vor 9 Uhr erreichen, oder Individualbesucher, die nach 16 Uhr kommen, warten deutlich kürzer.
 
-**Weihnachten.** Der Krippenplatz ist den ganzen Dezember geschmückt, und die lateinische Mitternachtsmesse am 24. Dezember wird Monate im Voraus über das Lateinische Patriarchat vergeben. Buchen Sie Touren und Hotels in Jerusalem für diese Zeit früh; siehe [Beste Hotels in Jerusalem](/de/best-hotels-jerusalem).
+**Das Weihnachtsfenster.** Der Krippenplatz ist von Ende Dezember bis zum armenischen Weihnachtsfest am 19. Januar geschmückt, und die drei Feiern sind drei verschiedene Erlebnisse; der Abschnitt oben vergleicht sie. Buchen Sie Touren und Hotels in Jerusalem früh für den Höhepunkt am 24. Dezember; siehe [Beste Hotels in Jerusalem](/de/best-hotels-jerusalem).
 
 **Ramadan und Schabbat.** Der Ramadan verändert einige Restaurantzeiten in Bethlehem, schließt aber keine Stätten. Der Schabbat betrifft Bethlehem nicht, was es zu einem nützlichen Samstagsausflug macht, wenn ein Großteil von West-Jerusalem geschlossen ist; Bus 231 und Tourabfahrten laufen weiter.
 

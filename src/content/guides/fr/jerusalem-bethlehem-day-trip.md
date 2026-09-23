@@ -5,7 +5,7 @@ heroImage: /images/regions/jerusalem/old-city.jpg
 category: Circuits
 verdictName: Bethléem
 verdictQuery: Bethlehem half day tour from Jerusalem
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Réservez votre circuit à Bethléem depuis Jérusalem"
 affiliateCtas:
   - partner: getyourguide
@@ -92,6 +92,22 @@ C'est ce qui inquiète les nouveaux venus, et c'est plus simple qu'il n'y paraî
 
 Pour les questions de visa et d'entrée en Israël, voir [informations visa](/fr/visa-information). Pour le tableau plus large de la sécurité, voir [Israël est-il sûr](/fr/is-israel-safe).
 
+## La fenêtre de Noël : trois dates, pas une
+
+Presque tous les catalogues vendent « Noël à Bethléem » comme les 24 et 25 décembre. Bethléem le célèbre en réalité trois fois sur quatre semaines, selon les calendriers des Églises qui se partagent la basilique de la Nativité, et l'autorité palestinienne du tourisme publie les trois dates (travelpalestine.ps, consulté le 23 septembre 2026). Pour un visiteur, ce sont trois micro-saisons distinctes, avec une affluence, une disponibilité et des prix différents.
+
+| | **24–25 décembre** | **6–7 janvier** | **18–19 janvier** |
+|---|---|---|---|
+| **De qui** | Catholiques et protestants | Grecs orthodoxes et autres Églises orientales | Arméniens |
+| **Ce qui se passe** | La procession du patriarche latin sur la place de la Mangeoire l'après-midi du 24, et la messe de minuit à Sainte-Catherine, retransmise sur la place | Une deuxième procession patriarcale et sa liturgie, sur la même place | La troisième procession et sa liturgie ; les décorations sont retirées ensuite |
+| **Affluence** | Le pic de l'année | Bien moindre, surtout des visiteurs régionaux et locaux | La plus faible des trois |
+| **Réservation** | La messe de minuit se fait sur billet du patriarcat latin et affiche complet ; hôtels de Jérusalem et excursions se remplissent des semaines à l'avance | Plus simple, même si c'est la semaine la plus chargée de janvier | La plus simple des trois |
+| **Pour qui** | Ceux qui veulent l'événement complet et ont réservé des mois à l'avance | Ceux qui veulent la place décorée sans la cohue du 24 décembre | Ceux qui veulent la place presque pour eux, les lumières encore allumées |
+
+Entre les trois dates, la place reste décorée : en pratique, toute la période du 25 décembre au 19 janvier est Noël à Bethléem. Si vous venez pour l'atmosphère plutôt que pour un office précis, la première moitié de janvier offre le meilleur rapport des trois fenêtres : la même place, le même arbre, une fraction de la demande.
+
+Ce qui ne change pas, c'est la logistique. Le checkpoint, l'obligation de passeport et l'exclusion de la voiture de location fonctionnent exactement de la même façon aux trois dates, et la file d'attente pour la grotte est longue à chacune. Pour le calendrier chrétien complet de 2027, avec les deux dates de Pâques, voir notre [guide du Shabbat et des fêtes](/fr/shabbat-and-holidays-israel).
+
 ## Informations pratiques
 
 **Combien de temps ?** Le trajet dure 25 à 40 minutes dans chaque sens, plus le checkpoint. Une demi-journée fait quatre à cinq heures porte à porte ; la combinaison avec Jéricho neuf à onze.
@@ -100,7 +116,7 @@ Pour les questions de visa et d'entrée en Israël, voir [informations visa](/fr
 
 **Files à la grotte.** Vingt à quarante minutes sont normales à midi. Les circuits qui atteignent l'église avant 9 h, ou les visiteurs indépendants qui arrivent après 16 h, attendent bien moins.
 
-**Noël.** La place de la Mangeoire est décorée tout décembre et la messe de minuit latine du 24 décembre se réserve des mois à l'avance auprès du Patriarcat latin. Réservez circuits et hôtels à Jérusalem tôt pour cette période ; voir [les meilleurs hôtels de Jérusalem](/fr/best-hotels-jerusalem).
+**La fenêtre de Noël.** La place de la Mangeoire est décorée de fin décembre au Noël arménien du 19 janvier, et les trois célébrations sont trois expériences différentes ; la section ci-dessus les compare. Réservez circuits et hôtels à Jérusalem tôt pour le pic du 24 décembre ; voir [les meilleurs hôtels de Jérusalem](/fr/best-hotels-jerusalem).
 
 **Ramadan et shabbat.** Le ramadan modifie certains horaires de restaurants à Bethléem mais ne ferme pas les sites. Le shabbat n'affecte pas Bethléem, ce qui en fait une excursion utile le samedi, quand une grande partie de Jérusalem-Ouest est fermée, le bus 231 et les départs de circuits continuant de fonctionner.
 

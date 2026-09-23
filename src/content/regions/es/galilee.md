@@ -7,7 +7,7 @@ heroImage: /images/regions/galilee/hero.jpg
 latitude: 32.7833
 longitude: 35.55
 publishedAt: 2026-05-11
-updatedAt: 2026-07-06
+updatedAt: 2026-09-23
 faqs:
   - question: "¿Cuántos días se necesitan para visitar Galilea?"
     answer: "Dos días completos son suficientes para cubrir el circuito de peregrinación del mar de Galilea — Cafarnaúm, monte de las Bienaventuranzas, Tabgha y Yardenit — además de una jornada en la naturaleza en el monte Arbel o en Banias. Con tres días se puede agregar Nazaret o un tramo del sendero de Jesús. La mayoría de los visitantes por primera vez se alojan en Tiberíades o en una casa de huéspedes de kibutz a orillas del lago durante dos noches."
@@ -50,21 +50,49 @@ Hay tres opciones prácticas, cada una con un equilibrio diferente.
 
 La orilla del mar de Galilea concentra el grupo de sitios neotestamentarios más denso del mundo — gran parte del ministerio público de Jesús transcurrió en un radio de quince kilómetros de Cafarnaúm a Magdala. Los sitios respetan varias tradiciones: **la custodia franciscana** administra el monte de las Bienaventuranzas y la mayoría de los sitios de rito latino; **la jurisdicción greco-ortodoxa** cubre las iglesias de Cafarnaúm y Yardenit.
 
+**Sobre los horarios.** Muy pocos de estos sitios publican horarios en una página oficial, y varios los cambian entre la mitad de verano y la de invierno del año. Donde hay fuente, se cita abajo; en todo lo demás la instrucción honesta es **confírmalo en el sitio oficial o con tu guía** antes de montar una mañana alrededor de una parada. El patrón con el que hay que contar es un **cierre largo al mediodía** en casi todas las iglesias, y es lo que pilla desprevenido al visitante independiente.
+
 ### Cafarnaúm (Kfar Nahum)
 
 **Cafarnaúm** es el parque arqueológico de la orilla norte que los Evangelios identifican como la ciudad adoptada de Jesús durante su ministerio galileo. El sitio presenta dos atractivos principales: las **ruinas de sinagoga** — una sinagoga de piedra caliza blanca del siglo IV construida sobre la base de basalto del siglo I que Jesús habría conocido — y la **iglesia memorial** erigida en 1990 sobre el sitio tradicional de la **casa de Pedro** (la iglesia descansa sobre pilotes sobre los restos arqueológicos, visibles a través de un piso de vidrio). Se requiere vestimenta apropiada.
+
+**Horarios y entrada.** Cafarnaúm es el único sitio del grupo con taquilla y entrada de pago. No pudimos confirmar los horarios vigentes en una página oficial en septiembre de 2026, así que compruébalos antes de ir; sean los que sean, llegar antes de las 09:00 de mayo a octubre te pone por delante de los primeros autocares, porque Cafarnaúm es la parada más al norte y la primera en llenarse.
 
 ### Monte de las Bienaventuranzas
 
 El **monte de las Bienaventuranzas** es la suave colina sobre la orilla norte identificada tradicionalmente con la proclamación del **Sermón de la Montaña** (Mateo 5–7). La **iglesia católica octagonal** en la cima, terminada en 1938 por el arquitecto Antonio Barluzzi, representa las ocho Bienaventuranzas en sus ocho lados. La vista sobre el mar de Galilea hasta el Golán es una de las más fotografiadas del país.
 
+**Horarios.** El sitio figura desde hace años como abierto aproximadamente de **08:00 a 11:45 y de 14:30 a 17:00, con cierre a las 16:00 de octubre a marzo** (seetheholyland.net, consultado el 23 de septiembre de 2026). Es una referencia de terceros consolidada, no una página oficial, y el cierre del mediodía es la parte que los visitantes calculan mal; confírmalo antes de planear una llegada a media mañana.
+
 ### Tabgha
 
 **Tabgha**, justo al oeste de Cafarnaúm, reúne dos sitios cristianos vecinos: la **iglesia de la Multiplicación de los panes y los peces** (custodia benedictina) con su mosaico bizantino de los panes y los peces frente al altar, y la **iglesia del Primado de san Pedro** (custodia franciscana) sobre una pequeña plataforma rocosa a orillas del lago.
 
+**Horarios.** Las dos iglesias cierran durante parte del mediodía, y la iglesia de la Multiplicación mantiene un horario distinto los viernes. No pudimos confirmar los horarios vigentes en una página oficial en septiembre de 2026; confírmalos en el sitio oficial y no planees llegar a la hora de comer.
+
 ### Yardenit
 
 **Yardenit** es el sitio simbólico de **bautismo en el Jordán** en la salida sur del mar de Galilea, administrado por la jurisdicción greco-ortodoxa y utilizado por grupos cristianos de todas las tradiciones. En el centro de recepción hay túnicas blancas disponibles para alquilar; las piscinas bautismales descienden en escalones hasta la orilla del río.
+
+**Yardenit no es lo mismo que Qasr al-Yahud**, y la mayoría de los catálogos de tours no aclaran a cuál de los dos se refieren. Qasr al-Yahud está unos 100 km al sur, sobre el Jordán cerca de Jericó, en Cisjordania; es el sitio identificado por la tradición y cae en un día de Jerusalén, no de Galilea. Si entrar en el agua te importa, pregunta al operador qué sitio lleva el itinerario; la guía del [día en Nazaret y el mar de Galilea](/es/nazareth-sea-of-galilee-day-trip) compara los dos lado a lado. Los horarios de Yardenit los fija el operador del sitio y no fue posible confirmarlos en una página oficial en septiembre de 2026.
+
+### Magdala
+
+**Magdala**, en la orilla oeste entre Tiberíades y Cafarnaúm, es una excavación iniciada en 2009 que sacó a la luz una **sinagoga del siglo I** con un bloque de piedra tallado en el centro (la piedra de Magdala). La localidad es la ciudad natal tradicional de **María Magdalena**; el moderno centro **Duc in Altum** está junto a la excavación y se puede visitar. Magdala es atípica en el circuito porque es un parque arqueológico y no un lugar de culto activo: la visita es un paseo por una ciudad del siglo I.
+
+**Horarios.** Magdala funciona como sitio de visita con su propio centro, su propia entrada y sus propios horarios de temporada; confírmalos en el sitio oficial.
+
+### Caná (Kafr Kanna)
+
+**Caná** está a 10 km al noreste de Nazaret, en la carretera hacia el lago, y se asocia al milagro de las bodas de Juan 2. No está a orillas del lago, pero pertenece a la misma jornada de recorrido: aparecía en 8 de los 12 itinerarios de peregrinación leídos en nuestro relevamiento de catálogos de operadores de 2026, casi todos católicos, y es donde las parejas de esos tours renuevan sus votos matrimoniales. Calcula de 15 a 30 minutos, no una hora. Cada iglesia del pueblo tiene su propio horario; confírmalo en el sitio oficial.
+
+### La barca, en los dos sentidos
+
+Los 12 itinerarios de peregrinación relevados en septiembre de 2026 incluyen el mar de Galilea, y casi todos incluyen una **travesía del lago en barca de madera**, normalmente entre Tiberíades, Ginosar y el kibutz Ein Gev. Las travesías son comerciales y suele reservarlas el operador como parte del día; quien viaja por su cuenta hará mejor en preguntar en el puerto de Tiberíades que en dar por hecho que existe un horario publicado.
+
+Aparte, la **barca de pesca del siglo I recuperada del fondo del lago en 1986**, cuando la sequía bajó el nivel del agua lo suficiente para dejarla a la vista, se expone bajo techo en el **kibutz Ginosar**. Es la única parada del circuito donde se ve una embarcación real de la época y no una reconstrucción, y es el refugio obvio con calor de mediodía o lluvia de invierno. Los horarios los publica el museo; confírmalos en el sitio oficial.
+
+Para ver cómo encaja este grupo en un itinerario completo junto a la mitad de Jerusalén y Belén, ver nuestra guía de [sitios cristianos de Israel](/es/christian-sites-israel); el día junto al lago está cubierto en el [día en Nazaret y el mar de Galilea](/es/nazareth-sea-of-galilee-day-trip).
 
 ## Senderismo y naturaleza en Galilea
 

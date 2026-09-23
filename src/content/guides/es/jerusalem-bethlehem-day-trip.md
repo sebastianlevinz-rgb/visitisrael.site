@@ -5,7 +5,7 @@ heroImage: /images/regions/jerusalem/old-city.jpg
 category: Tours
 verdictName: Belén
 verdictQuery: Bethlehem half day tour from Jerusalem
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Reserva tu tour a Belén desde Jerusalén"
 affiliateCtas:
   - partner: getyourguide
@@ -92,6 +92,22 @@ Es la parte que preocupa a quien viene por primera vez, y es más simple de lo q
 
 Para dudas de visado y entrada a Israel, ver [información sobre visados](/es/visa-information). Para el panorama general de seguridad, ver [¿Es seguro Israel?](/es/is-israel-safe).
 
+## La ventana navideña: tres fechas, no una
+
+Casi todos los catálogos venden "Navidad en Belén" como el 24 y el 25 de diciembre. Belén la celebra en realidad tres veces a lo largo de cuatro semanas, según los calendarios de las iglesias que comparten la basílica de la Natividad, y la autoridad palestina de turismo publica las tres (travelpalestine.ps, consultado el 23 de septiembre de 2026). Para el visitante funcionan como tres microtemporadas distintas, con distinta afluencia, distinta disponibilidad y distintos precios.
+
+| | **24–25 de diciembre** | **6–7 de enero** | **18–19 de enero** |
+|---|---|---|---|
+| **De quién** | Católicos y protestantes | Griegos ortodoxos y otras iglesias orientales | Armenios |
+| **Qué pasa** | La procesión del Patriarca Latino hasta la plaza del Pesebre la tarde del 24 y la misa del Gallo en Santa Catalina, retransmitida en la plaza | Una segunda procesión patriarcal y su liturgia, en la misma plaza | La tercera procesión y su liturgia; después se retira la decoración |
+| **Afluencia** | El pico del año | Mucho menor, sobre todo visitantes regionales y locales | La menor de las tres |
+| **Reservas** | La misa del Gallo es con entrada del Patriarcado Latino y se agota; los hoteles de Jerusalén y las excursiones se llenan con semanas de antelación | Más fácil, aunque sigue siendo la semana más cargada de enero | La más fácil de las tres |
+| **Ideal para** | Quien quiere la celebración completa y ha reservado con meses de antelación | Quien quiere la plaza del Pesebre decorada sin la aglomeración del 24 de diciembre | Quien quiere la plaza casi para sí con las luces todavía puestas |
+
+Entre las tres fechas la plaza sigue decorada, así que en la práctica todo el tramo del 25 de diciembre al 19 de enero es Navidad en Belén. Si vienes por el ambiente y no por una liturgia concreta, la primera mitad de enero es la mejor relación calidad-precio de las tres ventanas: la misma plaza, el mismo árbol y una fracción de la demanda.
+
+Lo que no cambia es la logística. El paso de control, la exigencia del pasaporte y la exclusión del coche de alquiler funcionan igual en las tres fechas, y la cola de la Gruta es larga en todas ellas. Para el calendario cristiano completo de 2027, incluidas las dos fechas de Pascua, ver nuestra [guía del Shabat y las fiestas](/es/shabbat-and-holidays-israel).
+
 ## Datos prácticos
 
 **¿Cuánto se tarda?** El trayecto es de 25 a 40 minutos en cada sentido más el checkpoint. Un tour de medio día son cuatro o cinco horas de puerta a puerta; la combinación con Jericó, de nueve a once.
@@ -100,7 +116,7 @@ Para dudas de visado y entrada a Israel, ver [información sobre visados](/es/vi
 
 **Colas en la gruta.** De veinte a cuarenta minutos es lo normal a mediodía. Los tours que llegan a la basílica antes de las 9, o los visitantes por libre que llegan después de las 16, esperan mucho menos.
 
-**Navidad.** La plaza del Pesebre está decorada todo diciembre y la misa del Gallo latina del 24 de diciembre se reserva con meses de antelación a través del Patriarcado Latino. Reserva tours y hoteles en Jerusalén pronto para esas fechas; ver [los mejores hoteles de Jerusalén](/es/best-hotels-jerusalem).
+**La ventana navideña.** La plaza del Pesebre está decorada desde finales de diciembre hasta la Navidad armenia del 19 de enero, y las tres celebraciones son tres experiencias distintas; la sección anterior las compara. Reserva tours y hoteles en Jerusalén pronto para el pico del 24 de diciembre; ver [los mejores hoteles de Jerusalén](/es/best-hotels-jerusalem).
 
 **Ramadán y sabbat.** El Ramadán cambia algunos horarios de restaurantes en Belén, pero no cierra los lugares de visita. El sabbat no afecta a Belén, lo que la convierte en una excursión útil para el sábado, cuando buena parte de Jerusalén Oeste está cerrada; el autobús 231 y las salidas de tours siguen funcionando.
 
@@ -110,4 +126,4 @@ Para quien pasa dos o más días en Jerusalén, sí. La basílica de la Nativida
 
 ## Planificar el resto del viaje
 
-Belén combina de forma natural con un día guiado por la Ciudad Vieja de Jerusalén; nuestra guía [Tours de Jerusalén comparados](/es/jerusalem-tours-compared) explica los formatos. La otra excursión cristiana clásica, [Nazaret y el mar de Galilea](/es/nazareth-sea-of-galilee-day-trip), cubre la mitad norte de la historia. Ambas son días estándar en la mayoría de los [paquetes de varios días por Israel](/es/israel-tour-packages), y ambas encajan en nuestro [itinerario de 7 días](/es/itineraries/7-days-in-israel).
+Belén combina de forma natural con un día guiado por la Ciudad Vieja de Jerusalén; nuestra guía [Tours de Jerusalén comparados](/es/jerusalem-tours-compared) explica los formatos, y el [Santo Sepulcro](/es/church-of-the-holy-sepulchre) es el equivalente jerosolimitano de la basílica de la Natividad, compartido por las mismas comunidades bajo un acuerdo parecido. La otra excursión cristiana clásica, [Nazaret y el mar de Galilea](/es/nazareth-sea-of-galilee-day-trip), cubre la mitad norte de la historia. Ambas son días estándar en la mayoría de los [paquetes de varios días por Israel](/es/israel-tour-packages), y ambas encajan en nuestro [itinerario de 7 días](/es/itineraries/7-days-in-israel).

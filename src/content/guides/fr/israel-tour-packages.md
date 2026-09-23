@@ -5,7 +5,7 @@ heroImage: /images/regions/jerusalem/hero.jpg
 category: Circuits
 verdictName: un circuit organisé de plusieurs jours en Israël
 verdictQuery: Israel multi day tour package
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Parcourez les circuits de plusieurs jours en Israël"
 affiliateCtas:
   - partner: getyourguide
@@ -100,6 +100,37 @@ Deux forfaits à prix voisins peuvent différer d'une douzaine de repas et de pl
 ## Ce que coûtent les circuits
 
 En 2026, les forfaits de deux à trois jours coûtent en général entre 600 et 1 100 US$ par personne ; les circuits guidés de sept à huit jours avec hôtels trois ou quatre étoiles entre 1 800 et 4 000 US$, la fourchette dépendant surtout de la catégorie d'hôtel et de la taille du groupe ; et les combinaisons Israël et Jordanie de dix à douze jours à partir de 3 000 US$ environ. Les voyageurs seuls paient un supplément sauf si l'opérateur apparie les chambres. Les prix culminent à Pâques, en octobre et à Noël.
+
+## Comparer les prix : normalisez d'abord le billet d'avion
+
+Les prix affichés des forfaits ne sont pas comparables en l'état, et presque aucun opérateur ne le précise. En lisant les catalogues de pèlerinage le 23 septembre 2026, nous avons trouvé des prix d'appel incluant le vol international, des prix qui commencent à l'aéroport Ben Gourion, et des prix qui excluent tous les vols, y compris celui au départ de la ville de l'opérateur. Deux forfaits « huit jours en Terre sainte » peuvent différer de la valeur d'un billet long-courrier avant même d'avoir comparé un seul hôtel.
+
+Déterminez auquel de ces quatre formats appartient un prix avant de comparer quoi que ce soit d'autre.
+
+| Format de prix | Où commence le voyage | Ce que couvre habituellement le prix affiché | Ce qu'il reste à payer | Aumônier et messe quotidienne |
+|---|---|---|---|---|
+| **Vol inclus, départ européen** | Madrid, Barcelone, Valence ou Malaga | Vol aller-retour, hôtels, la plupart des repas, guide et transport terrestre | Pourboires, supplément single, certains déjeuners | **Oui** sur les programmes liés à une paroisse ; **non** sur les programmes touristiques généralistes |
+| **Vol inclus, départ américain** | New York ou l'aéroport d'origine ; Mexico ou Bogotá pour les opérateurs latino-américains | Vol aller-retour, hôtels, demi-pension, guide et transport terrestre | Pourboires dans la plupart des cas, déjeuners, supplément single | **Non** sur les grands programmes protestants ; **oui** sur les programmes catholiques mexicains et colombiens |
+| **Land only (sans vol, rendez-vous en Israël)** | L'aéroport Ben Gourion, où le groupe se rassemble | Hôtels, transport terrestre, guide, demi-pension ou pension complète | **La totalité du vol international**, et les pourboires sauf mention contraire | **Oui** sur les programmes franciscains, qui prépaient aussi les pourboires ; **non** sur les programmes protestants |
+| **Sans vol, billets achetés séparément** | Votre propre aéroport, sur votre propre réservation | Hôtels, transport terrestre, guide | Tous les vols, y compris le trajet depuis le pays d'origine que certains opérateurs omettent | **Seulement à partir d'un effectif minimum** chez au moins un opérateur espagnol : 20 pèlerins |
+
+**À quoi ressemblaient les fourchettes en septembre 2026.** Les départs espagnols de huit jours avec vol inclus affichaient des prix « à partir de » d'environ 1 500 à 2 800 € par personne. Les départs nord-américains avec vol, sur le standard de neuf ou dix jours, se regroupaient entre 3 000 et 4 000 US$ environ, tandis que les opérateurs latino-américains allaient d'environ 1 400 US$ pour un circuit court à plus de 5 000 US$ pour un circuit de deux semaines. Les programmes land only de sept à onze jours, qui démarrent à l'aéroport en Israël, allaient d'environ 1 400 à 3 700 US$. Ce sont des prix d'appel publiés et relevés le 23 septembre 2026, pas des devis : seule la page de l'opérateur donne le chiffre du jour.
+
+### Les coûts cachés : pourboires, taxes et suppléments
+
+**Les pourboires sont la ligne qui surprend.** Ils sont attendus pour le guide et le chauffeur sur tous les itinéraires, et les opérateurs les traitent de trois manières : inclus dans le prix, facturés comme un montant fixe prépayé, ou entièrement à votre charge. Un opérateur de pèlerinage américain publie le chiffre ouvertement : Pilgrim Tours déclare des pourboires prépayés de **110 à 140 US$ par personne** pour le voyage, en ligne séparée (pilgrimtours.com, consulté le 23 septembre 2026). Franciscan Pilgrimage Programs et 206 Tours les incluent dans le prix du forfait ; Educational Opportunities n'inclut que le personnel hôtelier. Un forfait qui paraît 100 US$ moins cher a peut-être simplement sorti cette ligne du prix d'appel.
+
+**Les autres lignes séparées.** Les opérateurs italiens sont les plus explicites : Brevivet liste des frais d'inscription de 39 €, des taxes d'aéroport de 230 € et un supplément chambre individuelle de 360 € comme postes distincts, à côté du prix du circuit (brevivet.it, consulté le 23 septembre 2026). Les opérateurs dont les itinéraires passent en Jordanie ou en Égypte déclarent les taxes de passage de la même façon. Rien de tout cela n'est caché au sens malhonnête ; ce n'est simplement pas dans le chiffre de couverture de la brochure, et c'est pourquoi la comparaison doit se faire sur les inclusions.
+
+### Aumônier et messe quotidienne : la ligne qui coupe le marché en deux
+
+Qu'un prêtre voyage avec le groupe et qu'une messe soit célébrée chaque jour est la plus grande différence entre deux forfaits de même durée et de même prix — et ce n'est pas toujours indiqué sur la fiche produit. Parmi les catalogues lus le 23 septembre 2026 :
+
+- **Indiqué par écrit :** 206 Tours et Franciscan Pilgrimage Programs aux États-Unis, Halcón Viajes en Espagne (guide franciscain, hébergement dans les maisons franciscaines), San Juan del Hospital à Valence et Peregrinaciones.mx au Mexique.
+- **Jamais mentionné :** les grands programmes protestants et évangéliques, ainsi que plusieurs opérateurs touristiques généralistes vendant en espagnol. Le silence est délibéré : ces itinéraires sont construits pour un autre type de groupe.
+- **Seulement à partir d'un effectif minimum :** Éxodo Peregrinaciones n'affecte un aumônier **qu'à partir de 20 pèlerins** ; Peregrino.travel promet la messe « quand c'est possible », en coordination avec la Custodie de Terre sainte.
+
+L'itinéraire trahit la réponse plus vite que l'argumentaire de vente. Si la messe quotidienne est la raison du voyage, demandez-la par écrit avant de verser un acompte, et demandez qui réserve les créneaux dans les sanctuaires : à Jérusalem, ils sont attribués de façon centralisée, et non arrangés par le guide le matin même.
 
 ## Réservation et aspects pratiques
 

@@ -5,7 +5,7 @@ heroImage: /images/regions/galilee/sea-of-galilee.jpg
 category: Tours
 verdictName: the Galilee
 verdictQuery: Nazareth Sea of Galilee Christian day tour
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Book your Nazareth and Sea of Galilee tour"
 affiliateCtas:
   - partner: getyourguide
@@ -48,7 +48,11 @@ The Galilee is the landscape of the Gospels: the lake, the fishing villages and 
 
 Most tours follow a version of this route, in this order.
 
-**Nazareth.** The largest Arab city in Israel and the town of the Annunciation. The **Basilica of the Annunciation**, completed in 1969, is the largest church in the Middle East and stands over the grotto traditionally identified as Mary's home; the courtyard is lined with mosaics of the Madonna donated by Catholic communities around the world. Most tours also pass the Greek Orthodox Church of St Gabriel at Mary's Well and give a few minutes in the old-city market. Some add **Cana**, 10 km away, associated with the wedding miracle.
+**Nazareth.** The largest Arab city in Israel and the town of the Annunciation. The **Basilica of the Annunciation**, completed in 1969, is the largest church in the Middle East and stands over the grotto traditionally identified as Mary's home; the courtyard is lined with mosaics of the Madonna donated by Catholic communities around the world. Most tours also pass the Greek Orthodox Church of St Gabriel at Mary's Well and give a few minutes in the old-city market.
+
+**Cana (Kafr Kanna).** A small town 10 km north-east of Nazareth on the road towards the lake, associated with the wedding miracle of John 2. It appeared in 8 of the 12 pilgrimage itineraries we read in September 2026, almost all of them Catholic ones, and it is where couples on those tours renew their marriage vows. It is a 15 to 30 minute stop rather than an hour, and it sits naturally on the drive between Nazareth and the Sea of Galilee. Each church on the site keeps its own hours; confirm on the official site or with your guide before building a morning around it.
+
+**Mount Tabor.** The domed hill that rises on its own out of the Jezreel Valley south-east of Nazareth, with a Franciscan church at the summit designed by Antonio Barluzzi, the same architect as the church on the Mount of Beatitudes. It also appeared in 8 of the 12 itineraries, again mostly the Catholic ones, and the view over the valley is the widest of the day. The summit is reached by a narrow hairpin road, so ask your operator how the final ascent is handled rather than assuming the coach drives all the way up. Hours are set by the communities on the mountain and we could not confirm them on an official page in September 2026.
 
 **Capernaum.** The lakeside village that all four Gospels call Jesus's own town. The white limestone **synagogue** of the 4th or 5th century stands on the black basalt foundations of an earlier one, and a few steps away a modern octagonal church hovers over the excavated **house of Peter**, with a glass floor to see the remains below. This is a national park with an entry fee; allow an hour.
 
@@ -56,9 +60,25 @@ Most tours follow a version of this route, in this order.
 
 **Tabgha.** Two churches on the shore: the **Church of the Multiplication**, with its Byzantine mosaic of the loaves and fishes in front of the altar, and the **Church of the Primacy of Peter**, a small chapel built around a rock on the water's edge. Both are free.
 
+**Magdala.** On the western shore between Tiberias and Capernaum, an archaeological park that opened after a first-century synagogue was uncovered here in 2009, with the carved Magdala Stone at its centre and the modern Duc in Altum centre beside the dig. It is a first-century town walk rather than a church visit, which is why some tours skip it and why it is worth checking whether yours includes it. It was in 8 of the 12 itineraries we read.
+
 **Yardenit.** Where the Jordan River leaves the lake at its southern end, a baptism site run by Kibbutz Kinneret with changing rooms, robe rental and steps into the river. Pilgrim groups are often baptised or renew their vows here; other visitors simply watch.
 
-Some itineraries add a **wooden-boat crossing** on the lake, a stop at **Magdala**, where a first-century synagogue was discovered in 2009, or time on the **Tiberias** waterfront. Read the itinerary before booking, because two tours with the same name can differ in exactly these extras.
+Some itineraries add a **wooden-boat crossing** on the lake or time on the **Tiberias** waterfront. Read the itinerary before booking, because two tours with the same name can differ in exactly these extras.
+
+### Yardenit or Qasr al-Yahud: which Jordan River site is on your itinerary
+
+Nine of the twelve pilgrimage itineraries we read in September 2026 list a stop at "the Jordan River" without saying which of the two baptism sites they mean. They are roughly 100 km apart, they fall on different days of a trip, and they are not interchangeable.
+
+| | **Yardenit** | **Qasr al-Yahud** |
+|---|---|---|
+| **Where it is** | At the southern outflow of the Sea of Galilee, a few minutes south of Tiberias on Route 90 | On the Jordan near Jericho, in the West Bank, about 50 km east of Jerusalem |
+| **Which day it falls on** | The Galilee day, the one described on this page | The [Bethlehem, Jericho and Jordan River day](/jerusalem-bethlehem-day-trip) from Jerusalem |
+| **Getting there** | Straightforward by car or coach, with a free car park at the site | By tour or licensed taxi. Most Israeli rental contracts restrict or void insurance in parts of the West Bank, so check yours before driving; see the [car rental guide](/car-rental-israel) |
+| **What to expect** | A visitor centre run by Kibbutz Kinneret, changing rooms, robe and towel rental, stepped entry to the water, and usually several groups at once | A plainer riverbank site with fewer facilities, where the far bank of the river is Jordan |
+| **Who tends to use it** | Groups whose itinerary is built around the Galilee, and independent visitors who do not want to add a second trip | Groups that want the traditionally identified site: most Catholic and Orthodox itineraries, and the Protestant groups that schedule a full immersion service |
+
+We could not confirm current opening hours for either site on an official page in September 2026, and both close earlier in winter than most visitors expect. If entering the water matters to you, ask the operator by name which site the itinerary uses and at what time, and pack a towel and a change of clothes either way.
 
 ## Tour formats compared
 

@@ -5,7 +5,7 @@ heroImage: /images/regions/jerusalem/hero.jpg
 category: Tours
 verdictName: a multi-day Israel package
 verdictQuery: Israel multi day tour package
-updatedAt: 2026-09-16
+updatedAt: 2026-09-23
 ctaHeading: "Browse multi-day Israel tours"
 affiliateCtas:
   - partner: getyourguide
@@ -100,6 +100,37 @@ Two packages with similar headline prices can differ by a dozen meals and severa
 ## What packages cost
 
 As of 2026, two to three day packages generally cost between US$600 and US$1,100 per person; seven to eight day guided circuits with three or four star hotels between US$1,800 and US$4,000, with the range driven mainly by hotel category and group size; and ten to twelve day Israel and Jordan combinations from around US$3,000 upward. Solo travellers pay a single supplement unless the operator matches roommates. Prices peak at Easter, in October and at Christmas.
+
+## Comparing prices: normalise the airfare first
+
+Published package prices are not comparable as they stand, and almost no operator says so. Reading the pilgrimage catalogues on 23 September 2026, we found headline prices that included the international flight, headline prices that began at Ben Gurion Airport, and headline prices that excluded every flight, including the one from the operator's own departure city. Two "eight-day Holy Land" packages can differ by the cost of a long-haul ticket before you have compared a single hotel.
+
+Work out which of these four formats a price belongs to before you compare anything else.
+
+| Price format | Where your trip starts | What the headline price normally covers | What you still have to buy | Chaplain and daily mass |
+|---|---|---|---|---|
+| **Air-inclusive, European departure** | Madrid, Barcelona, Valencia or Málaga | Return flight, hotels, most meals, guide, ground transport | Tips, single supplement, some lunches | **Yes** on the parish-linked programmes; **no** on the general-tourism ones |
+| **Air-inclusive, American departure** | A New York or home-city gateway; Mexico City or Bogotá for Latin American operators | Return flight, hotels, half board, guide, ground transport | Tips in most cases, lunches, single supplement | **No** on the large Protestant programmes; **yes** on the Mexican and Colombian Catholic ones |
+| **Land only** | Ben Gurion Airport, where the group assembles | Hotels, ground transport, guide, half or full board | **The entire international flight**, plus tips unless stated otherwise | **Yes** on the Franciscan programmes, which also prepay tips; **no** on the Protestant ones |
+| **Ground only, flights sold separately** | Your own home airport, on your own booking | Hotels, ground transport, guide | Every flight, including the home-country leg that some operators leave out | **Only from a minimum group size** on at least one Spanish operator: 20 pilgrims |
+
+**What the ranges looked like in September 2026.** Air-inclusive eight-day departures from Spain published starting prices roughly between 1,500 and 2,800 euros per person. Air-inclusive departures from North America for the nine or ten day standard clustered around US$3,000 to US$4,000, while Latin American operators ran from about US$1,400 for a short circuit to over US$5,000 for a two-week one. Land-only programmes of seven to eleven days, which begin at the airport in Israel, ran from about US$1,400 to US$3,700. Those are published "from" prices read on 23 September 2026, not quotes; the operator's own page is the only current number.
+
+### The hidden costs: tips, taxes and supplements
+
+**Tips are the line that catches people out.** They are expected for the guide and the driver on every itinerary, and operators handle them in three different ways: built into the price, charged as a fixed prepaid amount, or left entirely to you. One American pilgrimage operator publishes the figure openly — Pilgrim Tours declares prepaid tips of **US$110 to US$140 per person** for the trip, as a separate line (pilgrimtours.com, consulted 23 September 2026). Franciscan Pilgrimage Programs and 206 Tours include tips in the package price; Educational Opportunities includes only the hotel staff. A package that looks US$100 cheaper may simply have moved that line off the headline.
+
+**The other separated lines.** Italian operators are the most explicit about this: Brevivet lists a registration fee of €39, airport taxes of €230 and a single-room supplement of €360 as separate items alongside the tour price (brevivet.it, consulted 23 September 2026). Operators whose itineraries cross into Jordan or Egypt usually declare the border fees the same way. None of it is hidden in the dishonest sense; it is simply not in the number on the brochure cover, which is why the comparison has to be done on the inclusions.
+
+### Chaplain and daily mass: the line that splits the market
+
+Whether a priest travels with the group, and whether mass is celebrated every day, is the biggest single difference between two packages of the same length and price — and it is not always on the product page. Of the catalogues read on 23 September 2026:
+
+- **Stated in writing:** 206 Tours and Franciscan Pilgrimage Programs in the United States, Halcón Viajes in Spain (a Franciscan guide, with accommodation in Franciscan houses), San Juan del Hospital in Valencia and Peregrinaciones.mx in Mexico.
+- **Not mentioned at all:** the large Protestant and evangelical programmes, and several general-tourism operators selling in Spanish. The silence is deliberate, because those itineraries are built for a different kind of group.
+- **Only from a minimum group size:** Éxodo Peregrinaciones assigns a chaplain **only from 20 pilgrims**; Peregrino.travel promises mass "when possible", coordinated with the Custody of the Holy Land.
+
+The itinerary gives it away faster than the sales copy does. If daily mass is the point of your trip, ask for it in writing before you pay a deposit, and ask who books the slots at the shrines: in Jerusalem those are allocated centrally rather than arranged by the guide on the morning. Our [Christian sites in Israel](/christian-sites-israel) guide sets out which sites the pilgrimage itineraries actually visit and how the traditions differ as a matter of routing.
 
 ## Booking and practicalities
 
