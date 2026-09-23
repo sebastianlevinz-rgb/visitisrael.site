@@ -1,0 +1,261 @@
+{
+  "generatedAt": "2026-09-23",
+  "purpose": "Relevamiento de video corto y creators sobre Israel en TikTok, Instagram y YouTube para gestion/negocio/contenido-video.md. Complementa data/video/youtube.json (datos duros de DataForSEO).",
+  "method": "Sin API de TikTok ni Instagram. Cifras de YouTube: DataForSEO SERP del 2026-09-23 (verificado). Cifras de TikTok/Instagram: snippets de buscador y páginas de terceros (Favikon, influData, Hive Influence, JTA, ynet) leídas el 2026-09-23. Las páginas de canal de YouTube y Social Blade/vidIQ no se pudieron leer (JS, 403, 429), así que los suscriptores de canales medianos quedan sin verificar.",
+  "verificationLegend": {
+    "verificado": "Cifra leída en la fuente primaria o en el SERP de YouTube vía DataForSEO el 2026-09-23.",
+    "parcial": "Cifra leída en un snippet de buscador o en un tercero (ranking, nota de prensa); orden de magnitud creíble, no contrastado con la fuente.",
+    "no_verificado": "No se encontró cifra o la fuente no se pudo abrir.",
+    "no_encontrado": "La cuenta o el video no aparecieron en ninguna búsqueda."
+  },
+  "creators": [
+    {
+      "name": "Luisito Comunica",
+      "origin": "México",
+      "language": "es",
+      "type": "mega-youtuber de viajes, de paso por Israel (2018)",
+      "items": [
+        { "platform": "youtube", "title": "¿Cómo es un día normal en JERUSALÉN? | Religión y conflicto", "url": "https://www.youtube.com/watch?v=665RRraY8R8", "views": 14915263, "likes": 363619, "comments": 20181, "duration": "14:14", "published": "~2018", "format": "vlog un día en la ciudad, a cámara + calle", "status": "verificado" },
+        { "platform": "youtube", "title": "Probando comida callejera en ISRAEL", "url": "https://www.youtube.com/watch?v=NWl5f2SKdwc", "views": 12771097, "likes": 280196, "comments": 14261, "duration": "12:23", "published": "~2018", "format": "food vlog, puestos callejeros, precios", "status": "verificado" },
+        { "platform": "tiktok", "handle": "@luisitocomunica", "followers": 18200000, "note": "Cuenta general, no hay pieza de Israel identificable", "status": "parcial" }
+      ],
+      "lesson": "El video de Jerusalén aparece en 13 de las 22 consultas en español: es el techo del género en ES y tiene 8 años. Nadie lo reemplazó."
+    },
+    {
+      "name": "Lethal Crysis (Rubén Díez)",
+      "origin": "España",
+      "language": "es",
+      "type": "youtuber de viajes 'extremos'",
+      "items": [
+        { "platform": "youtube", "title": "Así es un BARRIO RADICAL JUDÍO | ULTRAORTODOXOS en Jerusalén", "url": "https://www.youtube.com/watch?v=d-juY2rFKyE", "views": 10705474, "likes": 238282, "comments": 14281, "duration": "12:39", "published": "~2019", "format": "vlog barrio, voyeurismo cultural", "status": "verificado" },
+        { "platform": "youtube", "title": "La vida OCULTA de los JUDÍOS ULTRA ORTODOXOS de Israel", "url": "https://www.youtube.com/watch?v=mg92NewjoC8", "views": 8571124, "likes": 140571, "comments": 7293, "duration": "40:24", "published": "~2024", "format": "documental-vlog 40 min", "status": "verificado" },
+        { "platform": "youtube", "title": "Un día en JERUSALÉN | Conflicto ISRAEL-PALESTINA", "url": "https://www.youtube.com/watch?v=eMQLtvJVIVU", "views": 4861698, "duration": "13:47", "published": "~2019", "status": "verificado" },
+        { "platform": "tiktok", "handle": "@rubendiezz", "followers": 457500, "likes": 3900000, "status": "parcial" }
+      ],
+      "lesson": "El ángulo 'barrio ultraortodoxo' es el más viral en español (tres videos, 24 M de vistas). Es exactamente lo que una guía licenciada NO debe copiar: funciona por morbo, no por utilidad, y quema reputación local."
+    },
+    {
+      "name": "Araya Vlogs (Cristhoper Araya)",
+      "origin": "Chile",
+      "language": "es",
+      "type": "vlogger de viajes",
+      "items": [
+        { "platform": "youtube", "title": "Entré a un 'PELIGROSO' barrio JUDÍO ULTRAORTODOXO en Israel", "url": "https://www.youtube.com/watch?v=eVquRpNi-Lo", "views": 7778490, "likes": 112513, "comments": 7249, "duration": "28:17", "published": "~2023", "status": "verificado" },
+        { "platform": "youtube", "title": "Así es un día NORMAL en JERUSALÉN sin OCULTAR NADA | Conflicto y Religión", "url": "https://www.youtube.com/watch?v=TrywZAgz3ug", "views": 5052858, "duration": "24:53", "published": "~2023", "status": "verificado" },
+        { "platform": "youtube", "title": "En este país TODOS tienen un BÚNKER: ISRAEL", "url": "https://www.youtube.com/watch?v=leJ6XCSFHu8", "views": 2210676, "duration": "22:30", "status": "verificado" },
+        { "platform": "youtube", "title": "¿Cómo es FLOTAR en el MAR MUERTO?", "url": "https://www.youtube.com/watch?v=Ro8w0XcKU34", "views": 568315, "duration": "17:34", "status": "verificado", "note": "Único video ES de Mar Muerto con más de 500K en el set" },
+        { "platform": "facebook", "handle": "@arayavlogs", "followers": 5800000, "status": "parcial" },
+        { "platform": "tiktok", "handle": "@arayavlogs", "followers": null, "status": "no_verificado" }
+      ]
+    },
+    {
+      "name": "Oscar Alejandro",
+      "origin": "Venezuela",
+      "language": "es",
+      "type": "youtuber de viajes",
+      "items": [
+        { "platform": "youtube", "title": "Asi es ISRAEL 'LA TIERRA SANTA' ¿Es seguro venir?", "url": "https://www.youtube.com/watch?v=Zg1eAn2qj78", "views": 2250996, "duration": "41:49", "published": "2022-06-27", "format": "vlog largo con pregunta de seguridad en el título", "status": "verificado" },
+        { "platform": "youtube", "title": "Entré a PALESTINA ¿ES REALMENTE UN PAIS?", "url": "https://www.youtube.com/watch?v=1jPoC7Mxyhk", "views": 994004, "duration": "38:27", "published": "~2026-06", "status": "verificado" }
+      ],
+      "lesson": "Aparece en 8 consultas ES (viaje a israel, que ver, seguro, turismo, 2026). '¿Es seguro venir?' en el título es el gancho que rankea para toda la intención de viaje en español."
+    },
+    {
+      "name": "Drew Binsky",
+      "origin": "EE. UU.",
+      "language": "en",
+      "type": "mega-creator de viajes (todos los países)",
+      "items": [
+        { "platform": "youtube", "title": "6 Things To Know About Tel Aviv, Israel", "url": "https://www.youtube.com/watch?v=LfwMV0WrCQc", "views": 290743, "duration": "2:21", "published": "~2020", "format": "lista corta 'X things to know'", "status": "verificado", "note": "Rankea #2 en 'tel aviv vlog' con 2 minutos" },
+        { "platform": "tiktok", "handle": "@drewbinsky", "followers": 865300, "status": "parcial" },
+        { "platform": "tiktok", "title": "Israel & Palestine (2020)", "url": "https://www.tiktok.com/@drewbinsky/video/6848346823644417285", "likes": 2863, "comments": 266, "status": "parcial" },
+        { "platform": "instagram", "handle": "@drewbinsky", "followers": 1000000, "status": "parcial" },
+        { "platform": "youtube", "handle": "@drewbinsky", "subscribers": 7110000, "status": "parcial" }
+      ]
+    },
+    {
+      "name": "Kara and Nate",
+      "origin": "EE. UU.",
+      "language": "en",
+      "type": "pareja vlogger de viajes",
+      "items": [
+        { "platform": "youtube", "title": "ISRAEL First Impressions (one day in Tel Aviv)", "url": "https://www.youtube.com/watch?v=OdwAOnWTaqE", "views": 3453078, "duration": "11:46", "published": "~2020", "format": "primera vez / first impressions", "status": "verificado" },
+        { "platform": "youtube", "title": "JERUSALEM, ISRAEL'S OLD CITY (not what we expected)", "url": "https://www.youtube.com/watch?v=IJZAHy4JtZo", "views": 1804411, "duration": "18:47", "published": "~2020", "status": "verificado" },
+        { "platform": "facebook", "title": "Discover JERUSALEM, Israel's Old City", "url": "https://www.facebook.com/KaraandNate.Videos/videos/discover-jerusalem-israels-old-city/2820427428243122/", "views": 365000, "status": "parcial" },
+        { "platform": "tiktok", "handle": "@karaandnate", "followers": 368600, "status": "parcial" }
+      ]
+    },
+    {
+      "name": "Yes Theory",
+      "origin": "EE. UU.",
+      "language": "en",
+      "items": [
+        { "platform": "instagram", "handle": "@yestheoryisrael", "note": "Cuenta de comunidad local de fans, no del canal", "status": "parcial" },
+        { "platform": "youtube", "note": "No apareció ningún video de viaje a Israel en las 24 consultas EN ni en la búsqueda web; solo una declaración conjunta de 2023 sobre el conflicto", "status": "no_encontrado" }
+      ]
+    },
+    {
+      "name": "Harry Jaggard",
+      "origin": "Reino Unido",
+      "language": "en",
+      "type": "youtuber de viajes a 'países difíciles'",
+      "items": [
+        { "platform": "youtube", "title": "I Visited the World's Most Controversial Country", "url": "https://www.youtube.com/watch?v=x-pZDGUahsU", "views": 4971284, "duration": "39:02", "published": "2026-06-03", "viewsPerMonth": 1644776, "format": "vlog largo, gancho de controversia", "status": "verificado" },
+        { "platform": "youtube", "handle": "@harryjaggard", "subscribers": 2700000, "status": "parcial" }
+      ],
+      "lesson": "El video con más velocidad de todo el set (1,6 M vistas/mes). El género 'me dijeron que no vaya y fui' domina el EN en 2026 (también Piers Travels 228K en 3 semanas, Seal On Tour 454K en 1 mes, RiskyRegg 151K en 3 semanas). Es tráfico de conflicto, no de viaje: no es nuestro género, pero marca qué está consumiendo la audiencia EN."
+    },
+    {
+      "name": "Mark Wiens",
+      "origin": "EE. UU./Tailandia",
+      "language": "en",
+      "type": "food creator",
+      "items": [
+        { "platform": "youtube", "title": "The Ultimate JERUSALEM FOOD TOUR + Attractions", "url": "https://www.youtube.com/watch?v=FLmNLrog6dQ", "views": 15187489, "likes": 174023, "comments": 21103, "duration": "41:22", "published": "~2017", "format": "food tour largo, 8+ paradas, precios a cámara", "status": "verificado" },
+        { "platform": "youtube", "title": "Tel Aviv Food Tour - BEST Sabich, Hummus, and Lamb Pita", "url": "https://www.youtube.com/watch?v=NZ1dPdRHxME", "views": 2378950, "duration": "23:45", "published": "~2017", "status": "verificado" }
+      ],
+      "lesson": "El video turístico sobre Israel con más vistas de todo el relevamiento (EN y ES) es un food tour de 41 minutos. Aparece también en la consulta 'comida israelí' de España."
+    },
+    {
+      "name": "Team Coco (Conan O'Brien)",
+      "language": "en",
+      "type": "TV / comedia",
+      "items": [
+        { "platform": "youtube", "title": "Conan Floats In The Dead Sea", "url": "https://www.youtube.com/watch?v=kze1JkPl5_8", "views": 14020289, "duration": "2:08", "published": "~2017", "status": "verificado" },
+        { "platform": "youtube", "title": "Conan Hits The Streets & Beaches Of Tel Aviv", "url": "https://www.youtube.com/watch?v=mp_w0xZ9XFg", "views": 8637959, "duration": "9:05", "published": "~2017", "status": "verificado" }
+      ],
+      "lesson": "'Flotar en el Mar Muerto' es un momento visual universal: 14 M en 2 minutos. Es el short más obvio del plan."
+    },
+    {
+      "name": "Israel com Aline / Israel con Aline / Israel with Aline",
+      "origin": "Brasil, vive en Israel; guía de turismo",
+      "language": "pt, es, en, fr (canales separados por idioma)",
+      "type": "guía residente, el modelo más parecido a Mariluz",
+      "items": [
+        { "platform": "tiktok", "handle": "@israelcomaline", "followers": 215600, "status": "parcial" },
+        { "platform": "youtube", "channel": "Israel con Aline (ES)", "url": "https://www.youtube.com/@IsraelconAline", "note": "9 videos en el set, 2,6 M vistas sumadas; 'La mejor comida de Israel' 215K; '10 cosas que jamás debes hacer en Israel' 32K", "status": "verificado" },
+        { "platform": "youtube", "channel": "Mini Israel com a Aline (PT)", "title": "O TESOURO ESCONDIDO DE PETRA!", "url": "https://www.youtube.com/watch?v=ORjjKApPKUQ", "views": 134801, "published": "~2026-08", "status": "verificado" },
+        { "platform": "youtube", "channel": "Israel with Aline (EN)", "url": "https://www.youtube.com/@IsraelwithAline", "note": "4 videos en el set, 71K vistas sumadas: la versión EN rinde 30 veces menos que la ES/PT", "status": "verificado" }
+      ],
+      "lesson": "Prueba viva de la estrategia 'un canal por idioma' para una guía residente: la misma persona, cuatro canales. El de su idioma nativo (PT) y el ES rinden; el EN casi no."
+    },
+    {
+      "name": "travelingisrael.com (Oren Cahanovitc)",
+      "origin": "Israel; guía licenciado",
+      "language": "en",
+      "type": "guía residente con canal educativo",
+      "items": [
+        { "platform": "youtube", "channel": "travelingisrael.com", "url": "https://www.youtube.com/@Travelingisraelinfo", "subscribers": 445000, "note": "Suscriptores según su propio Instagram (snippet). 15 videos en el set (el canal que más aparece en EN): 'Living costs in ISRAEL' 130K, 'How to travel in Israel for less' 97K, '6 Tourist Pitfalls in JERUSALEM' 97K, 'Market Food Tour Machne Yehuda (Professional Tour)' 83K, 'Don't Travel to Israel Until You Watch This' 32K (ene-2026), '7- to 10-day Israel Itinerary' 42K, 'Traveling to Jerusalem? 3-day itinerary' 36K", "status": "parcial" },
+        { "platform": "instagram", "handle": "@travelingisrael", "status": "no_verificado" }
+      ],
+      "lesson": "Es el competidor directo del formato Mari en inglés: guía licenciado, a cámara, listas prácticas de 8–15 min, y rankea #1–#3 en costos, errores, itinerarios y seguridad. Sus videos tienen 3–8 años: hay lugar para la versión 2026."
+    },
+    {
+      "name": "HolyLandSite",
+      "origin": "EE. UU.; ministerio cristiano",
+      "language": "en",
+      "type": "sitios bíblicos, walking tours con mapas",
+      "items": [
+        { "platform": "youtube", "channel": "HolyLandSite", "url": "https://www.youtube.com/@HolyLandSite", "note": "14 videos en el set, 6,25 M vistas sumadas. 'Israel Holy Sites Tour' 3,49 M (68 min); 'Jerusalem Full Walking Tour: Every Site with Maps & Explanations' 481K (116 min); 'Petra Tour' 229K", "status": "verificado" }
+      ],
+      "lesson": "El walking tour CON explicación y mapas (481K) supera al walking tour mudo 4K de la misma zona (walking4k, 279K). La narración experta suma, no resta."
+    },
+    {
+      "name": "jeruwalks",
+      "origin": "Jerusalén",
+      "language": "en",
+      "type": "walks 4K cinematográficos con texto en pantalla",
+      "items": [
+        { "platform": "youtube", "channel": "jeruwalks", "url": "https://www.youtube.com/@jeruwalks", "note": "9 videos en el set, 1,96 M vistas sumadas. 'The REAL Jerusalem – What Tourists NEVER See on the News' 1,42 M (39 min, ~2025); 'The Real Jerusalem Everyone Visits — But Never Truly Sees' 425K (63 min). Suscriptores no verificados.", "status": "verificado" }
+      ]
+    },
+    {
+      "name": "P. José de Jesús Aguilar Valdés",
+      "origin": "México; sacerdote",
+      "language": "es",
+      "type": "serie de peregrinación por partes",
+      "items": [
+        { "platform": "youtube", "note": "17 videos en el set (el canal que más aparece en todo el relevamiento), 8,16 M vistas sumadas. 'Recorrido por la Vía Dolorosa hasta el Santo Sepulcro, con todos sus secretos' 5,43 M (82 min); 'Peregrinación a Tierra Santa 1a Parte' 556K; 'Nazaret' 547K", "status": "verificado" }
+      ],
+      "lesson": "La audiencia católica hispana consume series largas por lugar. Para 'tierra santa peregrinacion' en España y México el SERP es de él casi entero."
+    },
+    {
+      "name": "Otros creators hispanos residentes o de nicho (2K–200K por video)",
+      "language": "es",
+      "items": [
+        { "platform": "youtube", "channel": "JudeoHistoria (Ariel Kanievsky, guía licenciado)", "note": "'9 consejos imprescindibles para viajar a Israel' 76K (aparece en 7 consultas ES); 'Cómo VIAJAR a ISRAEL en 2025' 27K", "status": "verificado" },
+        { "platform": "youtube", "channel": "Israel con Gini (Gini Gómez, colombiana en Israel)", "note": "5 videos en el set, 24K vistas sumadas; TikTok @israelcongini existe", "status": "verificado" },
+        { "platform": "youtube", "channel": "Gastón y Oxana en Israel", "note": "4 videos, 296K sumadas; 'La VIDA SECRETA de los NIÑOS JUDÍOS ULTRAORTODOXOS' 179K", "status": "verificado" },
+        { "platform": "youtube", "channel": "Bacari suelto en Israel", "note": "4 videos, 507K sumadas (Mar Muerto, Qumrán)", "status": "verificado" },
+        { "platform": "youtube", "channel": "Israel Contado por mi", "title": "¿Cuánto cuesta viajar a Israel? Presupuesto real y consejos", "views": 57138, "duration": "6:25", "status": "verificado" },
+        { "platform": "youtube", "channel": "Vamos A Recorrer El Mundo", "title": "¿CUANTO DINERO NECESITO PARA VIAJAR A ISRAEL? Requisitos y Visado, Presupuesto", "views": 142965, "duration": "10:37", "status": "verificado" },
+        { "platform": "youtube", "channel": "El Viajero Feliz", "title": "Qué ver en Israel | 10 Lugares Imprescindibles", "views": 111874, "duration": "5:58", "status": "verificado" },
+        { "platform": "youtube", "channel": "Before You Go", "title": "Guía de viaje de Tel Aviv, Israel: 13 MEJORES cosas para hacer", "views": 92005, "duration": "8:30", "status": "verificado", "note": "#1 en 'tel aviv que hacer' (España)" }
+      ],
+      "lesson": "En español, entre los mega-youtubers de paso y las series de peregrinación, los residentes con contenido útil están en 5K–200K por video. Ese es el espacio de entrada de Mari, con el diferencial de la licencia y los tres idiomas."
+    },
+    {
+      "name": "Alan x el Mundo (Alan Estrada)",
+      "origin": "México",
+      "language": "es",
+      "items": [
+        { "platform": "youtube", "note": "Serie de Israel existe (alanxelmundo.com/tag/israel; video 'El Muro de los Lamentos conmovió a Alan'), pero ningún video suyo apareció en las 22 consultas ES del SERP. Vistas no verificadas.", "status": "no_verificado" }
+      ]
+    },
+    {
+      "name": "Enrique Álex",
+      "origin": "España",
+      "language": "es",
+      "items": [
+        { "platform": "youtube", "note": "No se encontró video de Israel del canal ni en el SERP ni en la búsqueda web.", "status": "no_encontrado" }
+      ]
+    },
+    {
+      "name": "Nas Daily (Nuseir Yassin)",
+      "language": "en",
+      "items": [
+        { "platform": "facebook/tiktok", "note": "Lo único con métrica pública sobre Israel es un video de opinión sobre el conflicto (2022) con 'millones de vistas en 24 h' según Middle East Eye. No hay pieza de turismo identificable. No es modelo.", "status": "parcial" }
+      ]
+    },
+    {
+      "name": "Creators de primera vez EN 2026 (el género que crece)",
+      "language": "en",
+      "items": [
+        { "platform": "youtube", "channel": "Julia Bautd", "title": "first time in Israel | what it's like to visit in 2026", "url": "https://www.youtube.com/watch?v=lm9M87jtT6k", "views": 292268, "duration": "25:27", "published": "2026-02", "note": "Aparece en 5 consultas EN (travel vlog, guide 2026, tel aviv vlog, first time tips, itinerary 7 days)", "status": "verificado" },
+        { "platform": "youtube", "channel": "Phils Guide to the World!", "title": "1st Day in Israel… I Didn't Expect This", "views": 399759, "duration": "33:09", "published": "2026-05", "status": "verificado" },
+        { "platform": "youtube", "channel": "Seal On Tour", "title": "24 Hours in Israel VS 24 Hours in Palestine", "url": "https://www.youtube.com/watch?v=twKER0135Qo", "views": 453637, "duration": "69:09", "published": "2026-08-23", "status": "verificado" },
+        { "platform": "youtube", "channel": "Piers Travels", "title": "I Ignored Everyone And Visited The World's Most Hated Country, Alone", "url": "https://www.youtube.com/watch?v=WeTvunUeNyk", "views": 227739, "duration": "25:04", "published": "2026-09", "status": "verificado" },
+        { "platform": "youtube", "channel": "Milk & Honey and The Promised Way", "title": "14 Things Tourists Should NEVER Do in Israel", "url": "https://www.youtube.com/watch?v=PXVtMCt88wI", "views": 69794, "duration": "14:10", "published": "2026-09", "note": "70K en dos semanas con formato lista: el formato 'NEVER do' sigue vivo", "status": "verificado" },
+        { "platform": "youtube", "channel": "Anna Goldman", "title": "17 Things You Should Never…NEVER EVER DO IN ISRAEL", "url": "https://www.youtube.com/watch?v=R_qA4clR9aY", "views": 199974, "duration": "15:03", "published": "2023-02-05", "note": "Aparece en 4 consultas EN (guide 2026, safe, first time tips, mistakes)", "status": "verificado" }
+      ]
+    },
+    {
+      "name": "BenGingi (Ben Siman-Tov)",
+      "origin": "Israel / EE. UU.",
+      "language": "en",
+      "type": "food TikToker",
+      "items": [
+        { "platform": "tiktok", "handle": "@bengingi", "followers": 1200000, "source": "JTA 2025-08-27", "status": "parcial" },
+        { "platform": "instagram", "handle": "@bengingi", "followers": 500000, "source": "JTA 2025-08-27", "status": "parcial" },
+        { "platform": "tiktok", "title": "Shakshuka! My favorite breakfast ever! Only 4 ingredients", "url": "https://www.tiktok.com/@bengingi/video/6949564552602193153", "likes": 278500, "format": "receta 30–60 s, vertical, manos + plato", "status": "parcial" }
+      ],
+      "lesson": "La comida israelí en formato receta corta escala a millones de seguidores. Para nosotros es el género de shorts sin Mari (cocina/plato + dato + dónde comerlo)."
+    }
+  ],
+  "accounts": [
+    { "name": "Israel Tourism (Ministerio)", "platform": "instagram", "handle": "@visit_israel", "url": "https://www.instagram.com/visit_israel/", "followers": 274000, "posts": 2746, "status": "parcial", "note": "También canal de YouTube 'Visit Israel' con piezas de 1:30 en ES ('La Ciudad Vieja de Jerusalén', 34K)" },
+    { "name": "Israel (Estado, cuenta oficial)", "platform": "tiktok", "handle": "@israel", "url": "https://www.tiktok.com/@israel", "followers": 1500000, "likes": 20500000, "status": "parcial", "note": "Institucional/política, no turismo" },
+    { "name": "Secret Tel Aviv", "platform": "instagram", "handle": "@secrettelaviv", "url": "https://www.instagram.com/secrettelaviv/", "followers": 39000, "note": "Cifra de su propia página 'social media' (relanzo dic-2022); dice ~40K vistas por reel. Grupo de Facebook 430K miembros.", "status": "parcial" },
+    { "name": "Tourist Israel", "platform": "instagram", "handle": "@touristisrael", "followers": 21000, "posts": 1515, "status": "parcial", "note": "El operador con más tráfico web (~105K/mes) tiene solo 21K en IG: el video no es su canal" },
+    { "name": "Abraham Hostels", "platform": "instagram", "handle": "@abrahamhostels", "followers": 13000, "status": "parcial" },
+    { "name": "@tastingisrael", "platform": "instagram", "status": "no_encontrado", "note": "No apareció. Lo más cercano: @deliciousisrael (food tours, blog parado desde mar-2024) y @debbestisrael (food blogger)." },
+    { "name": "Vibe Israel", "platform": "org", "url": "https://www.vibeisrael.com/", "note": "ONG que trae influencers desde 2011. Según ynet trajo a Richard Sales (9 M entre TikTok e IG), Luke Vernon (2,2 M), Beth Colley (1 M). No publica métricas de campaña.", "status": "parcial" },
+    { "name": "Rankings de TikTokers 'travel' de Israel", "platform": "tiktok", "source": "influData 2026-09-21; Hive Influence; Favikon may-2026", "note": "Los primeros puestos son lifestyle/baile con etiqueta travel (@noalevigur 286K, @shira_argaman 611K, @shadijab 927K) o creators palestinos (@naseem_imtair 548K). No existe una cuenta de TikTok de turismo receptivo de Israel con escala. Hueco.", "status": "parcial" }
+  ],
+  "notVerified": [
+    "Suscriptores de jeruwalks, HolyLandSite, Araya Vlogs, Israel con Aline, JudeoHistoria (páginas de YouTube no legibles sin JS; vidIQ 429, Social Blade 403).",
+    "Vistas de cualquier video de TikTok o reel de Instagram: los snippets muestran likes, no vistas.",
+    "Conteos de vistas de hashtags (#jerusalem, #telaviv, #israeltravel): solo visibles dentro de la app.",
+    "Si Alan x el Mundo tiene un video de Israel con métricas relevantes.",
+    "Fechas exactas de videos con más de un año: DataForSEO convierte 'hace 3 años' a fecha con precisión anual."
+  ]
+}

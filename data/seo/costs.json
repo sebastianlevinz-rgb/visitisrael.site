@@ -105,6 +105,31 @@
       "cachedCalls": 170,
       "firecrawlScrapes": 0,
       "errors": 0
+    },
+    {
+      "at": "2026-09-23T08:02:30.354Z",
+      "script": "video/youtube.mjs",
+      "usd": 0.18,
+      "calls": 60,
+      "cachedCalls": 1,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-23T08:04:49.912Z",
+      "script": "video/youtube.mjs",
+      "usd": 0,
+      "calls": 0,
+      "cachedCalls": 61,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-23T08:13:20.962Z",
+      "script": "video/youtube.mjs (probe manual)",
+      "usd": 0.002,
+      "calls": 1,
+      "cachedCalls": 0
     }
   ]
 }
