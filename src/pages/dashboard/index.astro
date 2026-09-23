@@ -9,7 +9,7 @@
 import { readFileSync } from 'node:fs';
 import { getCollection } from 'astro:content';
 import InternalLayout from '@/layouts/InternalLayout.astro';
-import { locales, PAGE_GROUPS, type Locale } from '@/i18n/ui';
+import { locales, localesForSlug, PAGE_GROUPS, type Locale } from '@/i18n/ui';
 import { AFFILIATE_IDS, AFFILIATE_MODE, PARTNERS, type Partner } from '@/config/affiliates';
 
 const ROOT = new URL('../../../', import.meta.url);
@@ -74,7 +74,11 @@ const legal = await getCollection('legal');
 const perLocale = Object.fromEntries(
   locales.map((l) => [l, rows.filter((r) => r.byLocale[l] !== null).length]),
 ) as Record<Locale, number>;
-const missing = rows.flatMap((r) => locales.filter((l) => r.byLocale[l] === null).map((l) => `${l}/${r.slug}`));
+// Una traducción ausente solo es un hueco si la página se planificó para ese idioma.
+// Las guías de PARTIAL_LOCALE_PAGES son EN+ES por decisión, no por olvido.
+const missing = rows.flatMap((r) =>
+  locales.filter((l) => r.byLocale[l] === null && localesForSlug(r.slug).includes(l)).map((l) => `${l}/${r.slug}`),
+);
 const contentPages = Object.values(perLocale).reduce((a, b) => a + b, 0);
 // Por idioma: home + plan-your-trip + itineraries index. Más búsqueda, 404, este panel,
 // /gestion, /gestion/competidores, /gestion/seo, /mariluz y /mariluz/paquetes (mismo conteo que

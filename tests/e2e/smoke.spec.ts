@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 import { ROUTES } from './routes';
-import { PAGE_GROUPS, locales } from '../../src/i18n/ui';
+import { PAGE_GROUPS, PARTIAL_LOCALE_PAGES, locales } from '../../src/i18n/ui';
 
 const prefixes = locales.map((l) => (l === 'en' ? '' : `/${l}`));
 
@@ -10,7 +10,12 @@ test('the build contains the expected v3 page set', () => {
   // /search, /dashboard, /gestion, /gestion/competidores, /gestion/seo, /mariluz and
   // /mariluz/paquetes and the static /gestion/video. 404.html is not an index route.
   const contentPerLocale = 7 + 21 + 2;
-  const expected = locales.length * (contentPerLocale + 3) + 6 + 8;
+  // The Christian-pilgrimage guides do NOT exist in all five locales (EN + ES only, see
+  // PARTIAL_LOCALE_PAGES in src/i18n/ui.ts), so they cannot ride on the per-locale term:
+  // multiplying them by locales.length would expect fr/de/he routes that are not built.
+  // They get their own term, summed over the locales each one actually has.
+  const partialLocaleRoutes = PARTIAL_LOCALE_PAGES.reduce((n, p) => n + p.locales.length, 0);
+  const expected = locales.length * (contentPerLocale + 3) + partialLocaleRoutes + 6 + 8;
   expect(ROUTES.length, ROUTES.join('\n')).toBe(expected);
 });
 

@@ -8,6 +8,7 @@ import {
   localePrefix as prefixFor,
   localePrefixRe,
   useTranslations,
+  localesForSlug,
   PAGE_GROUPS,
   type Locale,
 } from '@/i18n/ui';
@@ -24,12 +25,17 @@ const planLinks = [...PAGE_GROUPS.practical, PAGE_GROUPS.stay[0], PAGE_GROUPS.to
 }));
 planLinks.push({ href: `${localePrefix}/itineraries`, label: t('nav.itineraries') });
 
-// Language switcher: the same page in the other locale. Legal pages and search are
-// English-only, so those fall back to the locale home.
+// Language switcher: the same page in the other locale. Two kinds of page do not
+// exist in all five, and both fall back to the locale home rather than emitting a
+// 404: the legal/utility pages, which are English-only, and the content pages
+// listed in PARTIAL_LOCALE_PAGES, which were approved for a subset of locales.
 const EN_ONLY = new Set(['/404', '/search', '/about', '/contact', '/privacy', '/affiliate-disclosure', '/accessibility-statement', '/photo-credits', '/mariluz', '/gestion', '/gestion/competidores']);
 const pathNoLocale = Astro.url.pathname.replace(localePrefixRe, '').replace(/(.)\/$/, '$1') || '/';
+const existsIn = (l: Locale) => localesForSlug(pathNoLocale.replace(/^\//, '')).includes(l);
 const switchHref = (l: Locale) =>
-  pathNoLocale === '/' || EN_ONLY.has(pathNoLocale) ? localeHome(l) : `${prefixFor(l)}${pathNoLocale}`;
+  pathNoLocale === '/' || EN_ONLY.has(pathNoLocale) || !existsIn(l)
+    ? localeHome(l)
+    : `${prefixFor(l)}${pathNoLocale}`;
 ---
 
 <header

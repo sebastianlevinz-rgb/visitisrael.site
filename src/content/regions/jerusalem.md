@@ -18,7 +18,7 @@ secondaryKeywords:
 latitude: 31.7683
 longitude: 35.2137
 publishedAt: 2026-05-11
-updatedAt: 2026-09-22
+updatedAt: 2026-09-23
 faqs:
   - question: How many days do you need in Jerusalem?
     answer: Three full days is the sweet spot. Day one covers the Old City (Western Wall, Church of the Holy Sepulchre, Temple Mount / Haram al-Sharif, Via Dolorosa), day two the Mount of Olives, City of David and Mahane Yehuda, day three Yad Vashem and the Israel Museum or a day trip to the Dead Sea or Bethlehem. Two days is workable if you skip the day trip; four lets you slow down.
@@ -103,11 +103,11 @@ The Western Wall Tunnels run for 488 metres along the buried length of the wall,
 
 ### Church of the Holy Sepulchre
 
-The Church of the Holy Sepulchre is the holiest site in Christianity, venerated since at least the fourth century as the place of the crucifixion, burial and resurrection of Jesus. The first basilica was dedicated in 335 under Constantine; the present building is largely a Crusader reconstruction of 1149 wrapped around earlier remains. Inside, a single dim complex holds several distinct sites: the **Stone of Anointing** just inside the door, **Calvary (Golgotha)** up the steep stairs to the right, the **Rotunda** with the **Aedicule**, the small shrine enclosing the Tomb (restored in 2016 and 2017), the Greek Orthodox **Katholikon** under the main dome, and a descent to the **Chapel of St Helena** and the cistern where tradition says the True Cross was found.
+The holiest site in Christianity, venerated since at least the fourth century as the place of the crucifixion, burial and resurrection of Jesus. One dim complex holds several distinct places: the **Stone of Anointing** inside the door, **Calvary** up the steep stairs to the right, the **Rotunda** with the **Aedicule** over the Tomb, the Greek Orthodox **Katholikon**, and a long descent to the **Chapel of St Helena**.
 
-**Why it feels the way it does.** The church is shared by six denominations under the Status Quo, Ottoman-era arrangements codified in 1852 that fix who owns which altar and when each community may hold its liturgy. Greek Orthodox, Roman Catholic (the Franciscans), Armenian Apostolic, Coptic, Syriac and Ethiopian clergy all maintain chapels; the Ethiopian monks live in cells on the roof, and the ladder on a ledge above the entrance has not moved in well over a century because nobody may touch it without the others' consent. Loud and crowded by mid-morning, it is not a quiet church, and that is part of the experience.
+**How to visit.** Entry is free, there are no closed days, and the church opens before dawn and closes in the evening. The one rule that matters: **come in the first hour after opening** if you want to enter the Aedicule; by 10:00 the queue for the Tomb regularly runs past an hour. Cover shoulders and knees; no photography during services; allow 60 to 90 minutes.
 
-**How to visit.** Entry is free and there are no closed days. The church opens before dawn every day and closes in the early evening, later in summer than winter; we could not load the Custody of the Holy Land's official hours page in September 2026, so treat exact times as approximate. The one rule that matters: **come in the first hour after opening or the last before closing** if you want to enter the Aedicule; by 10:00 the queue for the Tomb regularly runs past an hour. Cover shoulders and knees; no photography during services; allow 60 to 90 minutes. **Combine with** the Via Dolorosa, which ends here, and the Church of the Redeemer's tower next door.
+The hours, the Tomb queue by time of day, Mass times and languages and the walk in from each gate are in our [Church of the Holy Sepulchre guide](/church-of-the-holy-sepulchre).
 
 ### Temple Mount / Haram al-Sharif
 
@@ -119,9 +119,11 @@ The raised platform in the south-east corner of the Old City is the Temple Mount
 
 ### Via Dolorosa
 
-The Via Dolorosa is the traditional route of the Passion, marked in fourteen stations from the site of the Roman Antonia Fortress near Lions' Gate to the Church of the Holy Sepulchre, where the last five stations lie. The route as walked today was fixed by the Franciscans in the eighteenth century and threads through the Muslim Quarter souks, past the Church of the Flagellation, the Ecce Homo Arch and a series of small chapels marked by numbered plaques and often locked doors.
+The traditional route of the Passion, marked in fourteen stations from near Lions' Gate to the Church of the Holy Sepulchre, where the last five lie. The route as walked today was fixed by the Franciscans in the eighteenth century and threads through the Muslim Quarter souks, past the Church of the Flagellation, the Ecce Homo Arch and a series of small chapels marked by numbered plaques and often locked doors.
 
-**How to visit.** The street is public and free at all hours; the chapels keep their own limited hours. Walking it slowly takes about 90 minutes, half a day with a guide who reads the archaeology. The Franciscans lead a public procession every Friday afternoon (the start time shifts between 15:00 and 16:00 with the season) that anyone may join; it is the best way to feel the route as a devotion rather than a shopping street. **Combine with** the Mount of Olives walk, which delivers you to Lions' Gate, and the Holy Sepulchre at the end.
+**How to visit.** The street is public and free at all hours; the chapels keep their own limited hours. Walking it slowly takes about 90 minutes. The Franciscans lead a public procession every Friday afternoon that anyone may join, at 16:00 and at 15:00 from November to March, and it is the best way to feel the route as a devotion rather than a shopping street.
+
+The fourteen stations one by one, which ones you can enter, and what changes on Good Friday are in our [Via Dolorosa guide](/via-dolorosa).
 
 ### Tower of David and the Ramparts Walk
 
@@ -152,6 +154,26 @@ The Mount of Olives is the ridge east of the Old City, separated from it by the 
 **Top to bottom, the sites are:** the small **Chapel of the Ascension** (a Crusader-era structure administered by a Muslim family, with a footprint in the rock), the **Church of the Pater Noster** (the Lord's Prayer in tiled panels in well over a hundred languages), the **lookout** by the Seven Arches Hotel, **Dominus Flevit** (Antonio Barluzzi's teardrop-shaped chapel of 1955, whose altar window frames the Dome of the Rock), the **Church of Mary Magdalene** (the Russian Orthodox church with seven gilded onion domes, open only a few mornings a week), the **Garden of Gethsemane** with its ancient olive trees, the **Church of All Nations** (Basilica of the Agony, Barluzzi again, 1924, with its mosaic façade), and across the road the **Tomb of the Virgin Mary**, a Crusader crypt reached by a broad staircase.
 
 **How to visit.** Take a taxi or bus to the top (the Seven Arches Hotel is the reference point) and walk down: a steep 20-minute descent on a road with no pavement in places, so wear proper shoes and go down, never up, in summer. With stops at every church it is a comfortable two hours; the churches are free and keep morning and afternoon hours with a midday closure, so start by 08:30. The **best light** for photographs of the Old City is morning, with the sun behind you. At the bottom you cross the road to Lions' Gate, where the Via Dolorosa begins, which makes a natural full morning: Mount of Olives, Gethsemane, Via Dolorosa, Holy Sepulchre. Most churches close on Sunday morning for services; if one is locked, the view remains.
+
+## The classic Jerusalem morning
+
+The best half-day in the city is a line down a hillside rather than a list of sites. It works because it runs with the light and stays ahead of the coaches.
+
+- **06:30, the top of the Mount of Olives.** Taxi up to the Seven Arches Hotel. The Old City lays itself out below with the sun behind you, which is the only time of day it photographs well.
+- **07:00, walk down.** Past the lookout, the Pater Noster church and Dominus Flevit to the **Garden of Gethsemane** and the Church of All Nations. Twenty minutes of walking; an hour if you go into the churches, which open around 08:00 and close at midday.
+- **08:30, Lions' Gate.** Cross the road at the bottom of the hill; the **Via Dolorosa** starts a few metres inside the gate.
+- **09:00 to 10:30, the Via Dolorosa** to the **Church of the Holy Sepulchre**, the last five stations of which are inside it.
+- **Lunch** in the Muslim Quarter souk, or on the Austrian Hospice terrace on the way.
+
+The one trade-off is that this delivers you to the Holy Sepulchre after the tour groups arrive, so the queue for the Tomb will be long. If entering the Tomb matters more than the sequence, do the church at opening instead and walk the Via Dolorosa backwards afterwards; the stations are numbered, so it is easier than it sounds.
+
+### Attending Mass, and how a group books one
+
+Catholic Masses run in the Holy Sepulchre every morning. The Custody of the Holy Land publishes a **Latin High Mass at 07:30 in summer and 06:30 in winter, daily except Friday**, Masses on Calvary in the hours before that, and a Franciscan procession inside the basilica at **17:00 in summer and 16:00 in winter** (read on `cicts.org` on 23 September 2026). An individual traveller does not book anything: you turn up to the High Mass or the procession.
+
+A group that wants **its own Mass at a particular altar** has to reserve one, and the early Calvary slots only run when a group has booked them. Reservations across the Franciscan sanctuaries go through the **Franciscan Pilgrims Office** at Jaffa Gate, on Omar Ibn el-Qattab Square: `fpo@cicts.org`, +972 2 627 2697, Monday to Friday 09:00 to 13:00, closed weekends and Christian holidays. It allocates slots and sells nothing, so every operator promising "daily Mass" is going through it.
+
+Mass times and working languages in the other Jerusalem churches — Notre Dame in English, St Anne's and St Stephen's in French, Gethsemane in Italian — are in our [Church of the Holy Sepulchre guide](/church-of-the-holy-sepulchre). For the wider route through Bethlehem, Nazareth and the Galilee, see [Christian sites in Israel](/christian-sites-israel).
 
 ## Top things to do in West Jerusalem
 

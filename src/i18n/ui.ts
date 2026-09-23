@@ -647,9 +647,39 @@ export const intlLocale: Record<Locale, string> = {
 };
 
 /**
+ * Content pages that deliberately exist in SOME locales only.
+ *
+ * `PAGE_GROUPS` below feeds the header, footer, home and plan-your-trip hub in all
+ * five locales at once, so anything listed there must exist in all five or the
+ * navigation emits broken links. These three Christian-pilgrimage pages were
+ * approved for EN and ES only (see `gestion/auditoria/peregrinacion-cristiana.md`
+ * §6.2: the French head is small and German was never measured), so they stay OUT
+ * of `PAGE_GROUPS` and are linked from `/jerusalem`, from the hub and from each
+ * other instead. `pnpm check:links` reports 0 orphans that way, and hreflang is
+ * already handled: `getStaticPaths` in `src/pages/[...slug].astro` emits alternates
+ * only for the locales whose file actually exists.
+ *
+ * This list is the single source of truth for that exception. Consumers: the route
+ * count in `tests/e2e/smoke.spec.ts` and the missing-translation report in
+ * `src/pages/dashboard/index.astro`, which would otherwise flag the nine absent
+ * fr/de/he files as a gap rather than a decision.
+ */
+export const PARTIAL_LOCALE_PAGES = [
+  { slug: 'church-of-the-holy-sepulchre', locales: ['en', 'es'] },
+  { slug: 'via-dolorosa', locales: ['en', 'es'] },
+  { slug: 'christian-sites-israel', locales: ['en', 'es'] },
+] as const satisfies readonly { slug: string; locales: readonly Locale[] }[];
+
+/** Locales a partial page exists in, or every locale for an ordinary page. */
+export function localesForSlug(slug: string): readonly Locale[] {
+  return PARTIAL_LOCALE_PAGES.find((p) => p.slug === slug)?.locales ?? locales;
+}
+
+/**
  * The site's page groups (the v3 taxonomy), shared by the header, footer, home and
  * plan-your-trip hub so every navigation surface lists the same, existing pages.
- * Paths have no locale prefix; every page exists in all locales.
+ * Paths have no locale prefix; every page listed here exists in all locales — see
+ * `PARTIAL_LOCALE_PAGES` above for the pages that do not and are linked in prose.
  */
 export const PAGE_GROUPS = {
   practical: [

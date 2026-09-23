@@ -17,7 +17,7 @@ secondaryKeywords:
 latitude: 31.7683
 longitude: 35.2137
 publishedAt: 2026-05-11
-updatedAt: 2026-09-22
+updatedAt: 2026-09-23
 faqs:
   - question: "¿Cuántos días se necesitan en Jerusalén?"
     answer: "Tres días completos es el punto ideal. El primer día cubre la Ciudad Vieja (Muro de los Lamentos, Iglesia del Santo Sepulcro, Explanada de las Mezquitas / Monte del Templo, Vía Dolorosa); el segundo, el Monte de los Olivos, la Ciudad de David y Mahane Yehuda; el tercero, Yad Vashem y el Museo de Israel o una excursión al Mar Muerto o a Belén. Con dos días se puede si se omite la excursión; con cuatro puedes bajar el ritmo."
@@ -102,11 +102,11 @@ Los Túneles del Muro de los Lamentos recorren 488 metros a lo largo del tramo e
 
 ### Iglesia del Santo Sepulcro
 
-La Iglesia del Santo Sepulcro es el lugar más sagrado del cristianismo, venerado al menos desde el siglo IV como el lugar de la crucifixión, sepultura y resurrección de Jesús. La primera basílica se dedicó en 335 bajo Constantino; el edificio actual es en gran parte una reconstrucción cruzada de 1149 envuelta alrededor de restos anteriores. Dentro, un único complejo en penumbra alberga varios sitios distintos: la **Piedra de la Unción** justo pasada la puerta, el **Calvario (Gólgota)** subiendo la empinada escalera a la derecha, la **Rotonda** con el **Edículo**, el pequeño santuario que encierra la Tumba (restaurado en 2016 y 2017), el **Katholikon** griego ortodoxo bajo la cúpula principal, y un descenso a la **Capilla de Santa Elena** y la cisterna donde la tradición dice que se encontró la Vera Cruz.
+El lugar más sagrado del cristianismo, venerado al menos desde el siglo IV como el lugar de la crucifixión, sepultura y resurrección de Jesús. Un único complejo en penumbra alberga varios sitios distintos: la **Piedra de la Unción** pasada la puerta, el **Calvario** subiendo la escalera de la derecha, la **Rotonda** con el **Edículo** sobre la Tumba, el **Katholikon** griego ortodoxo y un largo descenso a la **Capilla de Santa Elena**.
 
-**Por qué se siente como se siente.** La iglesia la comparten seis confesiones bajo el Statu Quo, un conjunto de acuerdos de época otomana codificados en 1852 que fijan a quién pertenece cada altar y cuándo puede cada comunidad celebrar su liturgia. Clérigos griegos ortodoxos, católicos romanos (los franciscanos), armenios apostólicos, coptos, siríacos y etíopes mantienen capillas; los monjes etíopes viven en celdas en el tejado, y la escalera apoyada en una cornisa sobre la entrada no se ha movido en más de un siglo porque nadie puede tocarla sin el consentimiento de los demás. Ruidosa y abarrotada a media mañana, no es una iglesia silenciosa, y eso es parte de la experiencia.
+**Cómo visitarla.** La entrada es gratuita, no hay días de cierre y la iglesia abre antes del amanecer y cierra por la noche. La única regla que importa: **ven en la primera hora tras la apertura** si quieres entrar en el Edículo; a las 10:00 la cola para la Tumba supera regularmente la hora. Cubre hombros y rodillas; sin fotografías durante los oficios; calcula de 60 a 90 minutos.
 
-**Cómo visitarla.** La entrada es gratuita y no hay días de cierre. La iglesia abre antes del amanecer todos los días y cierra a primera hora de la noche, más tarde en verano que en invierno; no pudimos cargar la página oficial de horarios de la Custodia de Tierra Santa en septiembre de 2026, así que toma las horas exactas como aproximadas. La única regla que importa: **ven en la primera hora tras la apertura o en la última antes del cierre** si quieres entrar en el Edículo; a las 10:00 la cola para la Tumba supera regularmente la hora. Cubre hombros y rodillas; sin fotografías durante los oficios; calcula de 60 a 90 minutos. **Combínala con** la Vía Dolorosa, que termina aquí, y la torre de la Iglesia del Redentor, al lado.
+Los horarios, la cola de la Tumba según la hora, las misas con sus idiomas y la llegada desde cada puerta están en nuestra [guía de la iglesia del Santo Sepulcro](/es/church-of-the-holy-sepulchre).
 
 ### Explanada de las Mezquitas / Monte del Templo
 
@@ -118,9 +118,11 @@ La plataforma elevada de la esquina sureste de la Ciudad Vieja es el Monte del T
 
 ### Vía Dolorosa
 
-La Vía Dolorosa es la ruta tradicional de la Pasión, marcada en catorce estaciones desde el emplazamiento de la Fortaleza Antonia romana, cerca de la Puerta de los Leones, hasta la Iglesia del Santo Sepulcro, donde están las últimas cinco. La ruta tal como se recorre hoy la fijaron los franciscanos en el siglo XVIII y se abre paso por los zocos del Barrio Musulmán, junto a la Iglesia de la Flagelación, el Arco del Ecce Homo y una serie de pequeñas capillas señaladas con placas numeradas y puertas a menudo cerradas.
+La ruta tradicional de la Pasión, marcada en catorce estaciones desde cerca de la Puerta de los Leones hasta la Iglesia del Santo Sepulcro, donde están las últimas cinco. La ruta tal como se recorre hoy la fijaron los franciscanos en el siglo XVIII y se abre paso por los zocos del Barrio Musulmán, junto a la Iglesia de la Flagelación, el Arco del Ecce Homo y una serie de pequeñas capillas señaladas con placas numeradas y puertas a menudo cerradas.
 
-**Cómo visitarla.** La calle es pública y gratuita a todas horas; las capillas tienen sus propios horarios limitados. Recorrerla despacio lleva unos 90 minutos, medio día con un guía que lea la arqueología. Los franciscanos encabezan una procesión pública cada viernes por la tarde (la hora de inicio varía entre las 15:00 y las 16:00 según la estación) a la que cualquiera puede unirse; es la mejor forma de sentir la ruta como una devoción y no como una calle comercial. **Combínala con** la bajada del Monte de los Olivos, que te deja en la Puerta de los Leones, y con el Santo Sepulcro al final.
+**Cómo visitarla.** La calle es pública y gratuita a todas horas; las capillas tienen sus propios horarios limitados. Recorrerla despacio lleva unos 90 minutos. Los franciscanos encabezan una procesión pública cada viernes por la tarde a la que cualquiera puede unirse, a las 16:00 y a las 15:00 de noviembre a marzo; es la mejor forma de sentir la ruta como una devoción y no como una calle comercial.
+
+Las catorce estaciones una a una, a cuáles se entra y qué cambia el Viernes Santo están en nuestra [guía de la Vía Dolorosa](/es/via-dolorosa).
 
 ### Torre de David y Paseo de las Murallas
 
@@ -151,6 +153,26 @@ El Monte de los Olivos es la cresta al este de la Ciudad Vieja, separada de ella
 **De arriba abajo, los sitios son:** la pequeña **Capilla de la Ascensión** (una estructura de época cruzada administrada por una familia musulmana, con una huella en la roca), la **Iglesia del Pater Noster** (el Padrenuestro en paneles de azulejos en más de cien idiomas), el **mirador** junto al hotel Seven Arches, **Dominus Flevit** (la capilla en forma de lágrima de Antonio Barluzzi, de 1955, cuya ventana del altar enmarca la Cúpula de la Roca), la **Iglesia de María Magdalena** (la iglesia rusa ortodoxa con siete cúpulas bulbosas doradas, abierta solo unas pocas mañanas a la semana), el **Jardín de Getsemaní** con sus olivos milenarios, la **Iglesia de Todas las Naciones** (Basílica de la Agonía, otra vez Barluzzi, 1924, con su fachada de mosaico) y, cruzando la carretera, la **Tumba de la Virgen María**, una cripta cruzada a la que se baja por una amplia escalinata.
 
 **Cómo visitarlo.** Toma un taxi o autobús hasta arriba (el hotel Seven Arches es el punto de referencia) y baja andando: un descenso empinado de 20 minutos por una carretera sin acera en algunos tramos, así que lleva calzado adecuado y en verano baja, nunca subas. Con paradas en cada iglesia son dos horas cómodas; las iglesias son gratuitas y tienen horario de mañana y de tarde con cierre al mediodía, así que empieza a las 8:30 como máximo. La **mejor luz** para fotografiar la Ciudad Vieja es la de la mañana, con el sol a tu espalda. Abajo cruzas la carretera hasta la Puerta de los Leones, donde empieza la Vía Dolorosa, lo que forma una mañana completa natural: Monte de los Olivos, Getsemaní, Vía Dolorosa, Santo Sepulcro. La mayoría de las iglesias cierran el domingo por la mañana para los oficios; si una está cerrada, la vista sigue ahí.
+
+## La mañana clásica de Jerusalén
+
+El mejor medio día de la ciudad es una línea que baja por una ladera, no una lista de monumentos. Funciona porque va con la luz y por delante de los autocares.
+
+- **06:30, lo alto del Monte de los Olivos.** Taxi hasta el hotel Seven Arches. La Ciudad Vieja se despliega abajo con el sol a tu espalda, que es la única hora del día en que sale bien en foto.
+- **07:00, bajar andando.** Pasando por el mirador, la iglesia del Pater Noster y Dominus Flevit hasta el **Jardín de Getsemaní** y la Iglesia de Todas las Naciones. Veinte minutos de bajada; una hora si entras en las iglesias, que abren hacia las 08:00 y cierran al mediodía.
+- **08:30, Puerta de los Leones.** Cruza la carretera al final de la bajada; la **Vía Dolorosa** empieza unos metros dentro de la puerta.
+- **09:00 a 10:30, la Vía Dolorosa** hasta la **Iglesia del Santo Sepulcro**, donde están sus últimas cinco estaciones.
+- **Comida** en el zoco del Barrio Musulmán, o en la terraza del Austrian Hospice, que queda de camino.
+
+La única contrapartida es que esto te deja en el Santo Sepulcro después de que lleguen los grupos, así que la cola de la Tumba será larga. Si entrar en la Tumba te importa más que la secuencia, haz la iglesia a la hora de apertura y recorre después la Vía Dolorosa al revés: las estaciones están numeradas, así que es más fácil de lo que suena.
+
+### Asistir a misa, y cómo reserva un grupo
+
+En el Santo Sepulcro hay misas católicas todas las mañanas. La Custodia de Tierra Santa publica una **misa solemne en latín a las 07:30 en verano y a las 06:30 en invierno, a diario salvo el viernes**, misas en el Calvario en las horas previas, y una procesión franciscana dentro de la basílica a las **17:00 en verano y a las 16:00 en invierno** (consultado en `cicts.org` el 23 de septiembre de 2026). Un viajero individual no reserva nada: se presenta a la misa solemne o a la procesión.
+
+Un grupo que quiera **su propia misa en un altar concreto** tiene que reservarla, y los turnos de primera hora en el Calvario solo se celebran cuando un grupo los ha pedido. Las reservas en todos los santuarios franciscanos pasan por la **Oficina Franciscana de Peregrinos**, junto a la Puerta de Jaffa, en la plaza Omar Ibn el-Qattab: `fpo@cicts.org`, +972 2 627 2697, de lunes a viernes de 09:00 a 13:00, cerrada los fines de semana y los festivos cristianos. Asigna turnos y no vende nada, así que todo operador que promete "misa diaria" pasa por ahí.
+
+Los horarios de misa y los idiomas de trabajo de las demás iglesias de Jerusalén —Notre Dame en inglés, Santa Ana y San Esteban en francés, Getsemaní en italiano— están en nuestra [guía de la iglesia del Santo Sepulcro](/es/church-of-the-holy-sepulchre). Para la ruta más amplia por Belén, Nazaret y Galilea, mira [Sitios cristianos en Israel](/es/christian-sites-israel).
 
 ## Qué ver en Jerusalén Oeste
 

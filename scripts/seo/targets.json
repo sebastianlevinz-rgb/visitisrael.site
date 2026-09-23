@@ -253,6 +253,23 @@
         "he": { "primary": "חבילות טיול בישראל", "secondary": ["טיול מאורגן בישראל", "סיורים מאורגנים בארץ"] }
       } },
 
+    { "_note": "Las tres páginas de peregrinación cristiana existen solo en EN y ES (ver PARTIAL_LOCALE_PAGES en src/i18n/ui.ts). Por eso llevan solo esas dos claves de keywords: buildTargets() en keywords.mjs saltea el idioma que falta.",
+      "slug": "church-of-the-holy-sepulchre", "collection": "guides", "path": "/church-of-the-holy-sepulchre",
+      "keywords": {
+        "en": { "primary": "church of the holy sepulchre", "secondary": ["holy sepulchre", "church of the holy sepulchre opening hours"] },
+        "es": { "primary": "santo sepulcro", "secondary": ["iglesia del santo sepulcro", "santo sepulcro jerusalén"] }
+      } },
+    { "slug": "via-dolorosa", "collection": "guides", "path": "/via-dolorosa",
+      "keywords": {
+        "en": { "primary": "via dolorosa", "secondary": ["via dolorosa stations", "stations of the cross jerusalem"] },
+        "es": { "primary": "via dolorosa", "secondary": ["vía dolorosa jerusalén", "estaciones del via crucis jerusalén"] }
+      } },
+    { "slug": "christian-sites-israel", "collection": "guides", "path": "/christian-sites-israel",
+      "keywords": {
+        "en": { "primary": "holy land tour", "secondary": ["christian tours israel", "christian sites in israel"] },
+        "es": { "primary": "viaje a tierra santa", "secondary": ["tierra santa israel", "lugares cristianos en israel"] }
+      } },
+
     { "slug": "7-days-in-israel", "collection": "itineraries", "path": "/itineraries/7-days-in-israel",
       "keywords": {
         "en": { "primary": "7 days in israel", "secondary": ["israel itinerary 7 days", "one week in israel"] },
