@@ -35,4 +35,4 @@ Israël réunit plusieurs zones climatiques dans un pays compact : la « meilleu
 
 ## Le calendrier des fêtes
 
-Les fêtes juives, chrétiennes et musulmanes influencent les fermetures et les prix. Le calendrier juif est luni-solaire ; le calendrier musulman recule d'environ 11 jours chaque année. Vérifiez les dates exactes avant de réserver et consultez notre guide du Shabbat pour comprendre le rythme hebdomadaire. Prêt à planifier ? Découvrez nos [itinéraires](/itineraries) et notre [guide du premier voyage](/fr/first-time-in-israel).
+Les fêtes juives, chrétiennes et musulmanes influencent les fermetures et les prix. Le calendrier juif est luni-solaire ; le calendrier musulman recule d'environ 11 jours chaque année. Vérifiez les dates exactes avant de réserver et consultez notre [guide du Shabbat et des fêtes](/fr/shabbat-and-holidays-israel) pour le rythme hebdomadaire, ce qui ferme à chaque fête et les dates 2026–2027. Prêt à planifier ? Découvrez nos [itinéraires](/itineraries) et notre [guide du premier voyage](/fr/first-time-in-israel).

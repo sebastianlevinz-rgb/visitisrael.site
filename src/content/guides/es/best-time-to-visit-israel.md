@@ -35,7 +35,7 @@ Israel concentra varios climas en un territorio pequeño, así que la «mejor» 
 
 ## No olvide el calendario de festividades
 
-Las festividades judías, cristianas y musulmanas influyen tanto en los cierres como en los precios. Las festividades judías siguen un calendario lunisolar; el Ramadán se adelanta unos 11 días cada año. Confirme las fechas exactas antes de reservar y lea la guía del Shabat para conocer el ritmo semanal.
+Las festividades judías, cristianas y musulmanas influyen tanto en los cierres como en los precios. Las festividades judías siguen un calendario lunisolar; el Ramadán se adelanta unos 11 días cada año. Confirme las fechas exactas antes de reservar y lea nuestra [guía del Shabat y las fiestas](/es/shabbat-and-holidays-israel) para conocer el ritmo semanal, qué cierra en cada fiesta y las fechas 2026–2027.
 
 Para un desglose detallado de los 12 meses —promedios climáticos de 30 años, niveles de afluencia, franjas de precios y notas sobre festividades— consulte el **calendario de viaje de Israel por mes**.
 

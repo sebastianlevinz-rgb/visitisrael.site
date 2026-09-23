@@ -130,6 +130,14 @@
         "de": { "primary": "esim israel", "secondary": ["beste esim israel", "sim karte israel flughafen"] },
         "he": { "primary": "esim ישראל", "secondary": ["איסים לישראל", "כרטיס סים לתיירים בישראל"] }
       } },
+    { "slug": "shabbat-and-holidays-israel", "collection": "guides", "path": "/shabbat-and-holidays-israel",
+      "keywords": {
+        "en": { "primary": "shabbat in jerusalem", "secondary": ["jewish holidays 2027", "what is closed on shabbat in israel"] },
+        "es": { "primary": "shabat en israel", "secondary": ["fiestas judías 2027", "shabat en jerusalén"] },
+        "fr": { "primary": "shabbat israël", "secondary": ["fêtes juives 2027", "shabbat jérusalem"] },
+        "de": { "primary": "schabbat israel", "secondary": ["jüdische feiertage 2027", "schabbat jerusalem"] },
+        "he": { "primary": "שבת בירושלים לתיירים", "secondary": ["חגי ישראל 2027", "מה פתוח בשבת בירושלים"] }
+      } },
 
     { "slug": "best-hotels-jerusalem", "collection": "guides", "path": "/best-hotels-jerusalem",
       "keywords": {

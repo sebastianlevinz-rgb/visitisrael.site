@@ -35,7 +35,7 @@ Israel packs several climates into a small country, so the "best" time depends o
 
 ## Don't forget the holiday calendar
 
-Jewish, Christian and Muslim holidays drive both closures and prices. Jewish holidays follow a lunar-solar calendar; Ramadan shifts about 11 days earlier each year — see the Ramadan in Israel guide for current-year dates, Damascus Gate atmosphere and Al-Aqsa access notes. Check exact dates before booking, and read the Shabbat guide for the weekly rhythm. Ready to plan? See our [itineraries](/itineraries) and [first-time guide](/first-time-in-israel).
+Jewish, Christian and Muslim holidays drive both closures and prices. Jewish holidays follow a lunar-solar calendar; Ramadan shifts about 11 days earlier each year — see the Ramadan in Israel guide for current-year dates, Damascus Gate atmosphere and Al-Aqsa access notes. Check exact dates before booking, and read our [Shabbat and holidays guide](/shabbat-and-holidays-israel) for the weekly rhythm, what closes on each holiday and the 2026–2027 dates. Ready to plan? See our [itineraries](/itineraries) and [first-time guide](/first-time-in-israel).
 
 For a detailed breakdown of all 12 months — 30-year climate averages, crowd levels, price tiers, Jewish and Christian holiday disruption notes, and standout experiences — see the **Israel by month travel calendar**.
 
