@@ -11,9 +11,20 @@
  * Cómo se leyó cada catálogo: Tourist Israel por curl (precio en `data-bp`, USD); Bein Harim por
  * WebFetch de sus páginas de categoría (USD); Abraham por WebFetch (ILS); Civitatis por WebFetch
  * (USD); GetYourGuide y Viator por navegador (bloquean el fetch; GYG en USD, Viator en ILS).
+ *
+ * Segunda tanda, 2026-09-23: sección de peregrinación cristiana. Salió de que Mariluz dijo que
+ * muchos de sus clientes son cristianos que vienen a ver Jerusalén y las iglesias. Se releyeron
+ * las páginas cristianas de Bein Harim (categoría y paquetes de 4, 6, 7 y 8 días), la categoría
+ * de Tierra Santa de Tourist Israel con sus 15 paquetes, Civitatis Jerusalén y Abraham, más tres
+ * operadores de peregrinación de fuera de Israel (206 Tours, Pilgrim Tours, Catholic Journeys)
+ * para ver el estándar del itinerario de 7–10 días. Los precios son los que cada uno publica;
+ * donde no publican, se dice que no publican.
  */
 
 export const FECHA_RELEVAMIENTO = '22-09-2026';
+
+/** Segunda tanda: el relevamiento cristiano de los paquetes de peregrinación. */
+export const FECHA_RELEVAMIENTO_CRISTIANO = '23-09-2026';
 
 export type Catalogo = { sigla: string; nombre: string; url: string; moneda: string; como: string };
 
@@ -24,6 +35,31 @@ export const CATALOGOS: Catalogo[] = [
   { sigla: 'CV', nombre: 'Civitatis', url: 'civitatis.com/es/israel', moneda: 'US$', como: 'página país en español' },
   { sigla: 'GYG', nombre: 'GetYourGuide', url: 'getyourguide.com/israel-l169033', moneda: 'US$', como: 'primera página (25 de 387 resultados)' },
   { sigla: 'VI', nombre: 'Viator', url: 'viator.com/Israel/d919-ttd', moneda: 'ILS', como: 'primera página (20 de 500+ resultados)' },
+];
+
+/**
+ * Operadores de peregrinación de fuera de Israel. No entran en la cuenta de "X de 6": son otro
+ * negocio (venden el viaje entero desde el país de origen, con capellán y aéreo) y se releen
+ * para saber cómo es el itinerario estándar de 7–10 días que después contrata un guía local.
+ */
+export type Operador = { nombre: string; url: string; que: string };
+
+export const OPERADORES_PEREGRINACION: Operador[] = [
+  {
+    nombre: '206 Tours',
+    url: '206tours.com',
+    que: 'Católico, desde 1985. Peregrinaciones de 10 días con sacerdote capellán y misa diaria; recluta capellanes para sus salidas. No publica el precio en la página del itinerario: solo el depósito de US$500.',
+  },
+  {
+    nombre: 'Pilgrim Tours',
+    url: 'pilgrimtours.com',
+    que: 'Protestante. "Best of Israel" de 10 días: US$2.679 por persona solo tierra en 2026 y US$2.129–2.779 en 2027, más US$125 de propinas, sin vuelos. Incluye el Garden Tomb y el sitio del bautismo en el Jordán; no hay misa diaria.',
+  },
+  {
+    nombre: 'Catholic Journeys',
+    url: 'catholicjourneys.com',
+    que: 'Católico, con sacerdote en plantilla. Cuatro itinerarios de Tierra Santa con capellán y misa diaria. No publica precios en la página de destino.',
+  },
 ];
 
 export type Frecuencia = {
@@ -154,6 +190,55 @@ export const FRECUENCIA: Frecuencia[] = [
     rango: 'BH Nochebuena Jerusalén + misa de medianoche en Belén US$125; BH procesión de Domingo de Ramos US$99; AB Nochebuena en Belén 340–370 ILS. Sucot, Pésaj, Rosh Hashaná: sin producto en ninguno de los 6.',
     nota: 'Hueco claro: nadie vende las fiestas judías con guía.',
   },
+  {
+    tour: 'Jerusalén de Jesús: Monte de los Olivos, Vía Dolorosa, Santo Sepulcro',
+    en: ['TI', 'BH', 'AB', 'CV'],
+    duracion: 'Día completo; hay versión de medio día',
+    salida: 'Jerusalén',
+    rango: 'US$45–99 por persona. BH "Christian Jerusalem Jesus Tour" 89 (martes y viernes) y "Mount of Olives, Temple Mount, Dome of the Rock" 89 (miércoles); BH Jerusalén día completo 75 y medio día 50; CV "Tour por el Monte de los Olivos" 45 y "Jerusalén al completo" 75. AB "Mount of Olives Tour" y "Holy City Tour Jerusalem": sin precio en el listado de hoy.',
+    nota: 'Tourist Israel no lo vende suelto: lo pone como día fijo ("Christian Jerusalem day tour") en sus nueve paquetes cristianos. Leído el 23-09-2026.',
+  },
+  {
+    tour: 'Belén, Jericó y el sitio del bautismo (Qasr el Yahud)',
+    en: ['TI', 'BH', 'CV'],
+    duracion: 'Día completo 8–9 h; Belén sola 4–5 h',
+    salida: 'Jerusalén',
+    rango: 'US$75–125 por persona. BH "Bethlehem & Church of the Nativity" 75, "Bethlehem and Jericho" 125 (con Qasr al-Yahud), "Jericho, Dead Sea and the Jordan River" 116; CV "Excursión a Belén" desde 75, "Belén y Jericó" 125, "Excursión a Jericó" 116.',
+    nota: 'El sitio del bautismo no se vende solo en ninguno de los 6: siempre va colgado de Jericó, del Mar Muerto o del día de Galilea. Leído el 23-09-2026.',
+  },
+  {
+    tour: 'Galilea cristiana: Bienaventuranzas, Tabgha, Cafarnaúm, Magdala, barco',
+    en: ['TI', 'BH'],
+    segunAuditoria: ['AB', 'CV', 'GYG', 'VI'],
+    duracion: '10–12 h',
+    salida: 'Tel Aviv, Jerusalén o Haifa (puerto)',
+    rango: 'BH "Christian Galilee Tour" US$105 desde Tel Aviv, 115 desde Jerusalén y 125 desde Herzliya, solo los jueves, con Magdala, Ginosar, Bienaventuranzas y Caná, sin paseo en barco. BH "Nazareth and Sea of Galilee" 98 y 120 desde el puerto de Haifa. TI lo pone como día fijo de sus paquetes (Cafarnaúm, Tabgha, Yardenit, Nazaret).',
+    nota: 'La versión genérica (Nazaret + Mar de Galilea) está en los 6 y ya cubre Anunciación, Cafarnaúm, Tabgha y Yardenit. La versión temática cristiana, con Magdala y Caná, solo en 2. Leído el 23-09-2026.',
+  },
+  {
+    tour: 'Paquete cristiano de varios días con hotel (3 a 13 días)',
+    en: ['TI', 'BH', 'AB'],
+    duracion: '3–13 días',
+    salida: 'Ben Gurion, Tel Aviv o Jerusalén',
+    rango: 'TI: 3 días US$568, 4 días 841, 5 días 1.027, 6 días 1.099, 7 días 1.319, 8 días 1.542, 9 días 1.599, 10 días con Jordania 2.923, 13 días con Jordania 3.536. BH, según categoría de hotel (turista / primera / superior / lujo): 4 días 849–1.359, 6 días 1.349–2.199, 7 días 1.459–2.479, 8 días 1.629–2.819. AB: Jesus Trail a pie, 5 días.',
+    nota: 'Los cuatro días que se repiten en todos: Galilea (Nazaret, Cafarnaúm, Tabgha), Belén con Jericó y Qasr el Yahud, Ciudad Vieja, y "en los pasos de Jesús". El quinto, siempre, es Masada y el Mar Muerto, que de cristiano no tiene nada. Leído el 23-09-2026.',
+  },
+  {
+    tour: 'Peregrinación separada por confesión (católica o protestante)',
+    en: ['TI'],
+    duracion: '8–11 días, privado',
+    salida: 'Tel Aviv',
+    rango: 'TI: 8 días católico US$4.498 por persona, 10 días católico 6.265, 10 días católico con Jordania 5.143, 9 días protestante 6.046, 11 días protestante con Jordania 7.429.',
+    nota: 'Es el único de los 6 que separa el producto por confesión. Fuera de Israel es el formato normal: 206 Tours y Catholic Journeys con capellán y misa diaria, Pilgrim Tours con Garden Tomb y bautismo en el Jordán (US$2.129–2.779 en 2027, solo tierra). Leído el 23-09-2026.',
+  },
+  {
+    tour: 'Semana Santa en Jerusalén con guía',
+    en: ['BH'],
+    duracion: 'Un día por fecha',
+    salida: 'Jerusalén',
+    rango: 'BH "Jerusalem Palm Sunday Procession Tour" US$99, los domingos. Jueves Santo, Viernes Santo, Vigilia y Pascua: sin producto en ninguno de los 6.',
+    nota: 'Los operadores de peregrinación venden la semana entera, con meses de anticipación y con capellán propio. En 2027 la Pascua latina cae el 28 de marzo y la ortodoxa el 2 de mayo: son dos semanas distintas. Leído el 23-09-2026.',
+  },
 ];
 
 export type Parada = { lugar: string; tiempo: string };
@@ -161,7 +246,7 @@ export type Parada = { lugar: string; tiempo: string };
 export type Paquete = {
   id: string;
   nombre: string;
-  tipo: 'clasico' | 'diferencial';
+  tipo: 'clasico' | 'diferencial' | 'peregrinacion';
   /** Por qué está en la lista: frecuencia o diferencial. */
   porQue: string;
   duracion: string;
@@ -469,6 +554,300 @@ export const PAQUETES: Paquete[] = [
       fuentes: 'Bein Harim "Christmas Eve in Israel: Jerusalem & Midnight Mass in Bethlehem" US$125 y "Jerusalem Palm Sunday Procession Tour" US$99; Abraham "Bethlehem Christmas Eve Tour" 340–370 ILS. Sucot, Pésaj, Rosh Hashaná: sin producto en ninguno de los seis. Leídos el 22-09-2026.',
     },
   },
+
+  // ── Peregrinación cristiana (relevamiento del 23-09-2026) ────────────────────────────────
+  {
+    id: 'jerusalen-de-jesus',
+    nombre: 'Jerusalén de Jesús, en un día',
+    tipo: 'peregrinacion',
+    porQue: 'Es el día que repiten todos. Bein Harim lo vende suelto ("Christian Jerusalem Jesus Tour", US$89, martes y viernes) y Tourist Israel lo pone como día fijo en sus nueve paquetes cristianos. Ojo: se pisa con el paquete 8 (Jerusalén para peregrinos). Mari: decidí si son dos productos o uno solo.',
+    duracion: '8–9 h a pie, bajando el Monte de los Olivos. Versión de medio día (4 h): Vía Dolorosa y Santo Sepulcro.',
+    salida: 'Jerusalén, arriba del Monte de los Olivos (se sube en taxi o minibús hasta el mirador).',
+    recorrido: [
+      { lugar: 'Mirador del Monte de los Olivos: la ciudad entera, el valle de Cedrón, el cementerio', tiempo: '≈ 20 min' },
+      { lugar: 'Capilla de la Ascensión y Pater Noster', tiempo: '≈ 40 min' },
+      { lugar: 'Dominus Flevit, bajando a pie', tiempo: '≈ 20 min' },
+      { lugar: 'Getsemaní: los olivos viejos e Iglesia de Todas las Naciones', tiempo: '≈ 40 min' },
+      { lugar: 'Tumba de María y subida a la Puerta de los Leones', tiempo: '≈ 30 min' },
+      { lugar: 'Santa Ana y piscina de Betesda', tiempo: '≈ 30 min' },
+      { lugar: 'Vía Dolorosa, estaciones I a IX', tiempo: '≈ 1 h' },
+      { lugar: 'Basílica del Santo Sepulcro: Gólgota, Piedra de la Unción, Edículo', tiempo: '≈ 1 h 15' },
+      { lugar: 'Almuerzo en el Barrio Cristiano', tiempo: '≈ 45 min' },
+      { lugar: 'Monte Sion: Cenáculo, Dormición, San Pedro in Gallicantu', tiempo: '≈ 1 h 15' },
+    ],
+    paraQuien: 'Peregrinos de cualquier confesión cristiana, grupos parroquiales, y quien tiene un solo día en Jerusalén y quiere los sitios de la Pasión. Se camina mucho y hay escaleras.',
+    incluye: ['Guía licenciada en español todo el día', 'Orden de las paradas armado sobre el horario real de cierre de cada iglesia', 'Tiempo de silencio o de oración en Getsemaní y en el Santo Sepulcro'],
+    noIncluye: ['Entradas y donaciones (Gallicantu, Dominus Flevit, Ascensión)', 'Subida en vehículo al Monte de los Olivos', 'Transporte', 'Comida', 'Misa o culto: se coordina con la parroquia; la guía no lo oficia'],
+    mejorEpoca: 'Todo el año; mejor marzo–mayo y octubre–noviembre. Cuaresma y Adviento son los meses de más peregrinos.',
+    diasAEvitar: 'Domingo a la mañana: las iglesias están con misa y el Santo Sepulcro se llena. Viernes a las 15:00 hay procesión franciscana por la Vía Dolorosa: es un plus, conviene incluirla.',
+    idiomas: 'Español, inglés, hebreo.',
+    notas: [
+      'Vestimenta: hombros y rodillas cubiertos en todas las iglesias. En verano, llevar un pañuelo o una camisa liviana para ponerse encima.',
+      'Casi todas las iglesias cierran al mediodía, más o menos de 12:00 a 14:00. El Santo Sepulcro no cierra, pero esa es su peor hora.',
+      'La guía no oficia ni interpreta teología: acompaña, explica historia y arqueología y coordina la logística. La misa, el culto o la lectura los lleva el sacerdote, el pastor o el responsable del grupo.',
+      'Se baja el Monte de los Olivos, no se sube: son 45 minutos de pendiente y adoquín.',
+      'Silla de ruedas: la Ciudad Vieja es muy difícil. Hay que avisar antes para armar otro orden.',
+    ],
+    referencia: {
+      grupal: 'US$45–99 por persona, en bus de grupo y en inglés.',
+      fuentes: 'Bein Harim "Christian Jerusalem Jesus Tour" US$89 (martes y viernes) y "Mount of Olives, Temple Mount, Dome of the Rock" US$89 (miércoles); Bein Harim Jerusalén día completo US$75 y medio día US$50; Civitatis "Tour por el Monte de los Olivos" US$45 y "Visita guiada por Jerusalén al completo" desde US$75; Tourist Israel lo incluye como día fijo ("Christian Jerusalem day tour") en sus paquetes cristianos; Abraham tiene "Mount of Olives Tour" y "Holy City Tour Jerusalem", sin precio en el listado de hoy. Leídos el 23-09-2026.',
+    },
+  },
+  {
+    id: 'belen-natividad',
+    nombre: 'Belén y la Natividad',
+    tipo: 'peregrinacion',
+    porQue: 'Belén está en los seis catálogos, sola de medio día o pegada a Jerusalén y a Jericó. Es el segundo sitio que pide todo peregrino cristiano y el que más explicación logística necesita.',
+    duracion: 'Medio día 4–5 h. Día completo 8–9 h sumando Jericó y el sitio del bautismo.',
+    salida: 'Jerusalén. Desde Tel Aviv, sumar 1 h por tramo.',
+    recorrido: [
+      { lugar: 'Salida de Jerusalén y llegada al puesto de control', tiempo: '≈ 30 min' },
+      { lugar: 'Cambio a guía y vehículo locales: Belén está bajo administración de la Autoridad Palestina y las licencias de guía israelíes no valen del otro lado, así que todos los operadores hacen el mismo cambio en el control', tiempo: '≈ 20 min' },
+      { lugar: 'Campo de los Pastores, en Beit Sahour', tiempo: '≈ 30 min' },
+      { lugar: 'Plaza del Pesebre', tiempo: '≈ 15 min' },
+      { lugar: 'Basílica de la Natividad: Puerta de la Humildad, la nave y la Gruta', tiempo: '≈ 1 h 15' },
+      { lugar: 'Santa Catalina y las grutas de San Jerónimo', tiempo: '≈ 30 min' },
+      { lugar: 'Gruta de la Leche', tiempo: '≈ 20 min' },
+      { lugar: 'Almuerzo y tiempo en los talleres de madera de olivo', tiempo: '≈ 1 h' },
+      { lugar: 'Opcional, día completo: Jericó, Monte de la Tentación en teleférico y Qasr el Yahud', tiempo: '≈ 3 h' },
+      { lugar: 'Regreso a Jerusalén y control de salida', tiempo: '≈ 40 min' },
+    ],
+    paraQuien: 'Todo peregrino cristiano, y también turistas sin interés religioso que quieren ver la Natividad. En Adviento y Navidad, con reserva muy anticipada.',
+    incluye: ['Guía licenciada en español hasta el puesto de control', 'Coordinación del guía y el vehículo locales del otro lado', 'Horario armado para esquivar la fila de la Gruta'],
+    noIncluye: ['Guía y vehículo locales en Belén (a definir: ¿lo cotiza Mari o lo paga el viajero aparte?)', 'Entradas y donaciones', 'Transporte', 'Comida', 'Misa en la Natividad o en el Campo de los Pastores: la reserva la hace la parroquia o el operador, no la guía'],
+    mejorEpoca: 'Todo el año. Navidad: 24–25 de diciembre (latina), 6–7 de enero (ortodoxa), 18–19 de enero (armenia), con demanda alta y calles cortadas.',
+    diasAEvitar: 'Domingo a la mañana: la Gruta se restringe por las misas. Viernes de Ramadán: el tránsito se complica. En las tres Navidades la Plaza del Pesebre está cortada y se entra a pie.',
+    idiomas: 'Español, inglés y hebreo de este lado. Del lado de Belén, el guía local suele trabajar en árabe, inglés o español.',
+    notas: [
+      'Pasaporte obligatorio para el cruce, a la ida y a la vuelta. Sin pasaporte no se entra ni se sale.',
+      'El control puede demorar. En temporada alta conviene dejar 45 minutos de colchón antes de cualquier cosa con hora fija.',
+      'Ropa cubierta en la Basílica. La Puerta de la Humildad obliga a agacharse: avisarlo antes evita golpes.',
+      'La fila para bajar a la Gruta puede pasar la hora. Primera hora de la mañana o última de la tarde es cuando menos hay.',
+      'Preguntar en qué moneda cobran los talleres y los comercios: conviene llevar efectivo chico.',
+      'La guía no oficia ni interpreta teología: acompaña, explica historia y arqueología y coordina la logística.',
+    ],
+    referencia: {
+      grupal: 'Medio día US$75 por persona; con Jericó, US$125; combinado con Jerusalén, US$106–121.',
+      fuentes: 'Bein Harim "Bethlehem & Church of the Nativity Day Tour" US$75 (todos los días), "Bethlehem and Jericho Tour" US$125 (lunes, miércoles y sábado) y "Jerusalem and Bethlehem Tour" US$106; Civitatis "Excursión a Belén" desde US$75, "Belén y Jericó" US$125, "Visita guiada por Jerusalén + Belén" desde US$106 y "Belén y Jerusalén para cruceros" desde US$120; Tourist Israel pone "Bethlehem, Jericho and Jordan River" como día fijo de sus paquetes cristianos; Abraham vende Belén desde Jerusalén, desde Tel Aviv y en versión privada, sin precio en el listado de hoy. Leídos el 23-09-2026.',
+    },
+  },
+  {
+    id: 'galilea-cristiana',
+    nombre: 'Galilea cristiana en un día',
+    tipo: 'peregrinacion',
+    porQue: 'La versión genérica (Nazaret y Mar de Galilea) está en los seis catálogos; la versión temática, con Magdala, Caná y barco, solo en dos. Es el día que un grupo parroquial pide entero y que el bus de 40 personas hace a las corridas.',
+    duracion: '11–12 h desde Jerusalén o Tel Aviv (≈ 2 h de ruta por tramo). Con noche en Tiberíades o Nazaret, se hace en dos días sin apuro.',
+    salida: 'Jerusalén o Tel Aviv. Mejor, dormir la noche anterior en Galilea y arrancar desde ahí.',
+    recorrido: [
+      { lugar: 'Nazaret: Basílica de la Anunciación, la Gruta y los mosaicos que mandó cada país', tiempo: '≈ 1 h 15' },
+      { lugar: 'Iglesia de San José y el pozo de María', tiempo: '≈ 30 min' },
+      { lugar: 'Caná: la iglesia del Matrimonio; los grupos de casados suelen renovar votos ahí', tiempo: '≈ 30 min' },
+      { lugar: 'Monte de las Bienaventuranzas: iglesia octogonal y jardín con vista al lago', tiempo: '≈ 45 min' },
+      { lugar: 'Tabgha: Multiplicación de los panes y los peces, y Primado de Pedro', tiempo: '≈ 45 min' },
+      { lugar: 'Cafarnaúm: la sinagoga blanca y la casa de Pedro', tiempo: '≈ 45 min' },
+      { lugar: 'Almuerzo en Tiberíades o en un kibutz (pescado de San Pedro)', tiempo: '≈ 1 h' },
+      { lugar: 'Barco de madera por el Mar de Galilea, de Ginosar a Cafarnaúm o ida y vuelta', tiempo: '≈ 45 min' },
+      { lugar: 'Opcional: Magdala (sinagoga del siglo I y capilla Duc in Altum) o Yardenit', tiempo: '≈ 45 min' },
+      { lugar: 'Regreso pasando por el monte Tabor', tiempo: '≈ 2 h' },
+    ],
+    paraQuien: 'Grupos parroquiales, grupos de estudio bíblico y familias. El barco lo disfrutan también los chicos y los que no vienen por religión.',
+    incluye: ['Guía licenciada en español todo el día', 'Orden armado sobre el cierre del mediodía de cada santuario', 'Reserva del barco y de Magdala, si el grupo los pide'],
+    noIncluye: ['Entradas y donaciones: Cafarnaúm, Bienaventuranzas, Tabgha, Magdala', 'Barco por el lago', 'Túnica y certificado si alguien se bautiza en Yardenit', 'Transporte', 'Comida', 'Misa o culto en los santuarios: se reservan con anticipación y la reserva la hace la parroquia o el operador'],
+    mejorEpoca: 'Octubre a mayo. De febrero a abril Galilea está verde y con flor. En julio y agosto el lago pasa de 35 °C y hay humedad.',
+    diasAEvitar: 'Las iglesias cierran de 12:00 a 14:00: si se llega tarde a Nazaret, se pierde la Anunciación. Domingo: en Nazaret muchos comercios cierran (el sábado sí abren).',
+    idiomas: 'Español, inglés, hebreo.',
+    notas: [
+      'Día largo: salir 7:00 o dormir en Galilea. Dos noches en Tiberíades o Nazaret cambian el viaje.',
+      'Vestimenta cubierta en todos los santuarios; hay control en la puerta de la Anunciación.',
+      'El cierre del mediodía manda: el almuerzo se arma alrededor de eso y no al revés.',
+      'El barco y Magdala se reservan; el resto no hace falta, salvo en Semana Santa.',
+      'La guía no oficia ni interpreta teología: acompaña, explica historia y arqueología y coordina la logística.',
+    ],
+    referencia: {
+      grupal: 'US$94–120 por persona en bus de grupo.',
+      privadoPublicado: 'Bein Harim "Nazareth and Sea of Galilee Private Tour" US$1.239 por grupo (relevamiento del 22-09-2026).',
+      fuentes: 'Bein Harim "Christian Galilee Tour" US$105 desde Tel Aviv, US$115 desde Jerusalén y US$125 desde Herzliya, solo los jueves, con Magdala, Ginosar, Bienaventuranzas y Caná, y sin paseo en barco; Bein Harim "Nazareth and Sea of Galilee Tour" US$98 (con Cafarnaúm, Tabgha y Yardenit) y US$120 desde el puerto de Haifa; Civitatis "Excursión a Nazaret, Tiberíades y Galilea" desde US$94 (Tel Aviv) y US$100 (Jerusalén); Tourist Israel lo pone como día fijo de sus paquetes cristianos (Cafarnaúm, Tabgha, Yardenit, Nazaret); Abraham vende Galilea de grupo y privada, sin precio en el listado de hoy. Leídos el 23-09-2026.',
+    },
+  },
+  {
+    id: 'jordan-bautismo',
+    nombre: 'Bautismo en el Jordán, con Jericó o el Mar Muerto',
+    tipo: 'peregrinacion',
+    porQue: 'Ninguno de los seis lo vende como producto propio: Yardenit y Qasr el Yahud van siempre colgados del día de Galilea o del de Belén y Jericó, con veinte minutos de parada. Un grupo que viene a bautizarse necesita tiempo, vestuario y un horario reservado.',
+    duracion: 'Día completo 8–9 h. Medio día 5 h si es solo Qasr el Yahud y el Mar Muerto.',
+    salida: 'Jerusalén (Qasr el Yahud a ≈ 50 min) o Tiberíades (Yardenit a ≈ 20 min).',
+    recorrido: [
+      { lugar: 'Bajada por el desierto de Judea: Posada del Buen Samaritano y el cartel del nivel del mar', tiempo: '≈ 45 min' },
+      { lugar: 'Qasr el Yahud, sobre el Jordán: el sitio tradicional del bautismo de Jesús, con vestuarios, escalera al agua y plataforma', tiempo: '≈ 1 h 30' },
+      { lugar: 'Jericó: el tel, el sicomoro de Zaqueo y el Monte de la Tentación en teleférico', tiempo: '≈ 2 h' },
+      { lugar: 'Almuerzo en Jericó o en el kibutz del Mar Muerto', tiempo: '≈ 1 h' },
+      { lugar: 'Opción A: Mar Muerto, flotación y barro en Kalia o Ein Bokek', tiempo: '≈ 1 h 30' },
+      { lugar: 'Opción B: Qumrán, donde aparecieron los rollos', tiempo: '≈ 1 h' },
+      { lugar: 'Alternativa del norte: Yardenit, a la salida del Mar de Galilea, con túnicas, vestuarios y certificado', tiempo: '≈ 1 h 30' },
+      { lugar: 'Regreso', tiempo: '≈ 1 h' },
+    ],
+    paraQuien: 'Grupos que vienen con un bautismo o una renovación de promesas bautismales ya programada, sobre todo evangélicos y protestantes. También quien quiere el Jordán sin el apuro del bus.',
+    incluye: ['Guía licenciada en español', 'Coordinación del horario con el sitio: los dos tienen hora de cierre y se llenan con los buses de la mañana'],
+    noIncluye: ['Túnica, toalla, vestuario y certificado (Yardenit los alquila y los vende)', 'Entradas: teleférico del Monte de la Tentación, Qumrán, playa del Mar Muerto', 'Transporte', 'Comida', 'El bautismo en sí: lo oficia el pastor o el sacerdote del grupo; la guía coordina lugar y hora, nada más'],
+    mejorEpoca: 'Octubre a abril. En verano el valle del Jordán pasa de 40 °C.',
+    diasAEvitar: 'Qasr el Yahud se llena de buses entre las 9:00 y las 11:00: ir temprano o después de las 14:00. En Epifanía (enero, con dos fechas según el calendario) hay ceremonias de las iglesias y mucha gente: confirmar las fechas cada año.',
+    idiomas: 'Español, inglés, hebreo.',
+    notas: [
+      'Son dos sitios distintos y conviene explicarlo antes: Qasr el Yahud, cerca de Jericó, es el tradicional del bautismo de Jesús; Yardenit, a la salida del Mar de Galilea, es un sitio preparado para bautismos, con instalaciones. Muchos itinerarios pasan por los dos.',
+      'Confirmar el día anterior que el sitio esté abierto y preguntar por el estado del agua: el nivel y la limpieza del río cambian.',
+      'Llevar ropa de cambio, toalla y ojotas: el fondo tiene barro.',
+      'Hombros y rodillas cubiertos fuera del agua.',
+      'La guía no oficia ni interpreta teología: acompaña, explica historia y arqueología y coordina la logística.',
+    ],
+    referencia: {
+      grupal: 'No hay producto suelto. El precio publicado es el del día combinado: US$116–125 por persona.',
+      fuentes: 'Bein Harim "Jericho, Dead Sea and the Jordan River Tour" US$116 (jueves) y "Bethlehem and Jericho Tour" US$125, que incluye Qasr al-Yahud; Civitatis "Excursión a Jericó" US$116 y "Belén y Jericó" US$125; Tourist Israel pone Qasr al Yahud en el día de Belén y Jericó, y Yardenit en el día de Galilea, en todos sus paquetes cristianos; Bein Harim pone Yardenit en "Nazareth and Sea of Galilee" (US$98) y Qasr el Yahud en el día 4 de sus paquetes de 4, 6, 7 y 8 días; Pilgrim Tours incluye el sitio del bautismo en el día 5 de su paquete de 10 días. Leídos el 23-09-2026.',
+    },
+  },
+  {
+    id: 'semana-santa-jerusalen',
+    nombre: 'Semana Santa en Jerusalén, día por día',
+    tipo: 'peregrinacion',
+    porQue: 'De los seis, solo Bein Harim vende un día suelto de la semana: la procesión del Domingo de Ramos, US$99. Los operadores de peregrinación arman la semana entera con meses de anticipación y con capellán propio. Lo que falta es una guía local que conozca el calendario real de cada año.',
+    duracion: 'Un día por fecha, o la semana entera.',
+    salida: 'Jerusalén.',
+    recorrido: [
+      { lugar: 'Domingo de Ramos: misa temprano en el Santo Sepulcro y, a la tarde, la procesión con palmas desde Betfagé, bajando el Monte de los Olivos hasta Santa Ana', tiempo: 'tarde entera' },
+      { lugar: 'Lunes a miércoles santos: los días buenos para los sitios que el resto de la semana están imposibles (Ein Karem, Betania, Monte Sion)', tiempo: 'día completo' },
+      { lugar: 'Jueves Santo: Cenáculo en el Monte Sion y, a la tarde, Getsemaní', tiempo: 'medio día' },
+      { lugar: 'Viernes Santo: Vía Crucis franciscano por la Vía Dolorosa a media mañana; hay que tomar posición temprano', tiempo: 'mañana' },
+      { lugar: 'Sábado Santo y Vigilia Pascual en el Santo Sepulcro: acceso limitado y control policial', tiempo: 'noche' },
+      { lugar: 'Domingo de Pascua latina', tiempo: 'mañana' },
+      { lugar: 'Calendario ortodoxo, que cae en otra fecha: en 2027 la Pascua latina es el 28 de marzo y la ortodoxa el 2 de mayo. El Sábado del Fuego Santo (1 de mayo de 2027) el Santo Sepulcro se cierra con cupo y la Ciudad Vieja se corta: se ve desde afuera', tiempo: 'día' },
+    ],
+    paraQuien: 'Grupos parroquiales y familias que viajan justo esa semana; quien ya conoce Jerusalén y vuelve por las ceremonias.',
+    incluye: ['Guía licenciada en español', 'Programa armado sobre el calendario real de ese año: las fechas se mueven y los dos calendarios casi nunca coinciden', 'Puntos de encuentro y hora de posicionamiento para cada procesión'],
+    noIncluye: ['Acceso a las celebraciones: lo maneja cada custodia o patriarcado, no la guía', 'Entradas', 'Transporte', 'Comida', 'Alojamiento: en Semana Santa hay que reservar con seis a nueve meses'],
+    mejorEpoca: 'Las fechas propias. 2027: Domingo de Ramos latino el 21 de marzo y Pascua latina el 28 de marzo; Domingo de Ramos ortodoxo el 25 de abril y Pascua ortodoxa el 2 de mayo.',
+    diasAEvitar: 'No hay días a evitar: hay horas. El Santo Sepulcro entre las 10:00 y las 14:00 del Viernes Santo es inmanejable con un grupo grande o con mayores. En 2027, Pésaj (21–28 de abril) se superpone con la semana ortodoxa: la ciudad está el doble de llena.',
+    idiomas: 'Español, inglés, hebreo.',
+    notas: [
+      'La guía no oficia ni interpreta teología: acompaña, explica qué está pasando, quién lo celebra y por qué, y resuelve la logística. Las celebraciones las llevan las iglesias.',
+      'Los horarios los publican cada año la Custodia de Tierra Santa y los patriarcados, y se confirman semanas antes, no meses. No se puede vender un horario fijo con un año de anticipación.',
+      'Grupos chicos y un punto de reencuentro fijo: con esa cantidad de gente, un grupo grande se parte.',
+      'En 2026 el Santo Sepulcro estuvo cerrado al público en Semana Santa: confirmar el estado con el Patriarcado antes de vender la fecha.',
+      'Vestimenta cubierta, siempre, y más esa semana.',
+    ],
+    referencia: {
+      grupal: 'Único producto publicado de la semana: US$99 por persona, la procesión del Domingo de Ramos.',
+      fuentes: 'Bein Harim "Jerusalem Palm Sunday Procession Tour" US$99 (domingos) y "Christmas Eve in Israel: Jerusalem & Midnight Mass in Bethlehem" US$125. Tourist Israel, Abraham, Civitatis, GetYourGuide y Viator: sin producto de Semana Santa visto. 206 Tours vende la semana como peregrinación con capellán y no publica el precio en la página del itinerario. Leídos el 23-09-2026.',
+    },
+  },
+  {
+    id: 'peregrinacion-7-dias',
+    nombre: 'Peregrinación de 7 días con guía privada',
+    tipo: 'peregrinacion',
+    porQue: 'Es el estándar del nicho. Bein Harim lo vende en 4, 6, 7 y 8 días (US$849–2.819 con hotel) y Tourist Israel en 3, 4, 5, 6, 7, 8, 9, 10 y 13 días (US$568–3.536). Los días que se repiten en todos son los mismos cuatro: Galilea, Belén con Jericó y el Jordán, Ciudad Vieja, y "en los pasos de Jesús". Acá va la versión con guía privada en español; el hotel y el bus los decide Mari.',
+    duracion: '7 días / 6 noches: Galilea 2–3 días, Jerusalén 3–4.',
+    salida: 'Ben Gurion o Tel Aviv. El orden se invierte si el vuelo llega de noche.',
+    recorrido: [
+      { lugar: 'Día 1: llegada y traslado; noche en Tel Aviv o en Nazaret. Si queda tiempo, Jaffa y la iglesia de San Pedro', tiempo: 'medio día' },
+      { lugar: 'Día 2: subida por la costa, Cesarea Marítima y el monte Carmelo; Nazaret, Anunciación y San José; noche en Galilea', tiempo: 'día completo' },
+      { lugar: 'Día 3: Galilea cristiana: Bienaventuranzas, Tabgha, Cafarnaúm, Magdala y barco por el lago; noche en Galilea', tiempo: 'día completo' },
+      { lugar: 'Día 4: monte Tabor, Caná y Yardenit; bajada por el valle del Jordán a Jerusalén', tiempo: 'día completo' },
+      { lugar: 'Día 5: Jerusalén, el día de la Pasión: Monte de los Olivos, Getsemaní, Vía Dolorosa, Santo Sepulcro, Monte Sion', tiempo: 'día completo' },
+      { lugar: 'Día 6: Belén y Jericó, con Qasr el Yahud y el Monte de la Tentación', tiempo: 'día completo' },
+      { lugar: 'Día 7: Ciudad Vieja completa (Muro, Cardo, los cuatro barrios) o Ein Karem y Emaús; salida', tiempo: 'día completo' },
+      { lugar: 'Si el grupo suma días: Masada, Ein Gedi y el Mar Muerto, que todos los operadores meten aunque de cristiano no tenga nada', tiempo: '1 día' },
+    ],
+    paraQuien: 'Grupos parroquiales, comunidades y familias hispanohablantes de Argentina, México, Colombia o España: el grupo que hoy compra el paquete en inglés y en bus de 40 personas porque no encuentra otra cosa.',
+    incluye: ['Guía licenciada en español los 7 días', 'Orden armado según el calendario del grupo: fiestas, Shabat y el cierre del mediodía de las iglesias', 'Coordinación con las parroquias o los santuarios donde el grupo vaya a celebrar'],
+    noIncluye: ['Hoteles: los operadores los venden con hotel y bus, por eso su precio incluye todo', 'Bus y chofer', 'Entradas y donaciones', 'Comidas', 'El tramo de Belén, que se cotiza con guía local', 'Misas o cultos: los lleva el capellán del grupo y la reserva la hace la parroquia o el operador'],
+    mejorEpoca: 'Marzo–mayo y septiembre–noviembre. Cuaresma, Semana Santa y Adviento son la temporada del nicho, y son las fechas más caras y más llenas.',
+    diasAEvitar: 'Armar el orden para que el Shabat caiga en Jerusalén o en Galilea, no en un día de ruta larga. En Pésaj y Sucot los hoteles duplican precio.',
+    idiomas: 'Español, inglés, hebreo.',
+    notas: [
+      'Galilea 2–3 noches y Jerusalén 3–4 es lo que hacen todos: mover el hotel una sola vez ahorra medio día de bus.',
+      'Pilgrim Tours, en su paquete de 10 días, agrega Dan, Cesarea de Filipo, Betsaida, Corazín y el monte Arbel. Si el grupo es de estudio bíblico, esos son los sitios que van a pedir.',
+      'Las iglesias cierran de 12:00 a 14:00: el almuerzo se arma alrededor de eso, no al revés.',
+      'La guía no oficia ni interpreta teología: acompaña, explica historia y arqueología y coordina la logística.',
+      'Vestimenta cubierta todos los días y calzado cerrado: es una semana entera de piedra y escalón.',
+    ],
+    referencia: {
+      grupal: 'Con hotel, bus y guía, en inglés: 7 días US$1.319 (Tourist Israel) y US$1.459–2.479 (Bein Harim, según categoría de hotel).',
+      privadoPublicado: 'Tourist Israel, paquetes privados con hotel: 8 días católico US$4.498 por persona, 9 días protestante US$6.046, 10 días católico US$6.265, 10 días católico con Jordania US$5.143, 11 días protestante con Jordania US$7.429.',
+      fuentes: 'Bein Harim, paquetes cristianos (turista / primera / superior / lujo): 4 días US$849 / 969 / 1.100 / 1.359; 6 días 1.349 / 1.549 / 1.767 / 2.199; 7 días 1.459 / 1.699 / 1.960 / 2.479; 8 días 1.629 / 1.909 / 2.214 / 2.819. Tourist Israel: 3 días US$568, 4 días 841, 5 días 1.027, 6 días 1.099, 7 días 1.319, 8 días 1.542, 9 días 1.599, 10 días con Jordania 2.923, 13 días con Jordania 3.536. Pilgrim Tours "Best of Israel" 10 días, solo tierra: US$2.679 en 2026 y US$2.129–2.779 en 2027, más US$125 de propinas y sin vuelos. Leídos el 23-09-2026.',
+    },
+  },
+  {
+    id: 'grupos-evangelicos',
+    nombre: 'Grupos protestantes y evangélicos',
+    tipo: 'peregrinacion',
+    porQue: 'Tourist Israel es el único de los seis que separa el producto por confesión: tiene un paquete privado protestante de 9 días (US$6.046) y otro de 11 con Jordania (US$7.429). El itinerario cambia de verdad: entra el Garden Tomb, el bautismo en el Jordán pesa mucho más y no hay misa diaria.',
+    duracion: '7–10 días. También sale como día suelto en Jerusalén.',
+    salida: 'Tel Aviv o Galilea.',
+    recorrido: [
+      { lugar: 'Galilea: Cafarnaúm, Bienaventuranzas, Tabgha, Magdala y barco por el lago, con tiempo de lectura a bordo', tiempo: '2 días' },
+      { lugar: 'Bautismo o renovación de promesas en el Jordán: Yardenit al norte, Qasr el Yahud al sur', tiempo: 'medio día' },
+      { lugar: 'Bet Shean, Meguido y el monte Carmelo, que es lo que pide el grupo de estudio bíblico', tiempo: '1 día' },
+      { lugar: 'Jerusalén: Monte de los Olivos, Getsemaní, Vía Dolorosa y Santo Sepulcro', tiempo: '1 día' },
+      { lugar: 'Garden Tomb: jardín, tumba excavada y salas de grupo; es el sitio de referencia del mundo protestante para la sepultura y la resurrección', tiempo: '≈ 1 h 30' },
+      { lugar: 'Ciudad de David, túnel de Ezequías y las excavaciones del muro sur', tiempo: 'medio día' },
+      { lugar: 'Belén, Jericó y el Monte de la Tentación', tiempo: '1 día' },
+      { lugar: 'Masada, Ein Gedi, Qumrán y el Mar Muerto', tiempo: '1 día' },
+    ],
+    paraQuien: 'Grupos evangélicos, bautistas, pentecostales y protestantes en general, con su pastor; grupos de estudio bíblico.',
+    incluye: ['Guía licenciada en español', 'Tiempos largos de lectura y de canto en cada sitio, que es lo que este grupo pide y el bus de 40 no da', 'Coordinación del turno en el Garden Tomb y del horario en el sitio del bautismo'],
+    noIncluye: ['Entradas y donaciones', 'El bautismo y el culto: los lleva el pastor; la guía coordina lugar, hora y logística', 'Transporte', 'Comidas', 'Alojamiento'],
+    mejorEpoca: 'Marzo–mayo y septiembre–noviembre. En Sucot llegan muchos grupos evangélicos por la Fiesta de los Tabernáculos de la ICEJ y la Marcha de Jerusalén.',
+    diasAEvitar: 'Confirmar siempre el horario y el cupo del Garden Tomb y del sitio del bautismo antes de armar el día: los dos manejan reserva de grupos y el jardín es chico. El Shabat, para los traslados largos.',
+    idiomas: 'Español, inglés, hebreo.',
+    notas: [
+      'No hay misa diaria: el ritmo lo marca el pastor, con lectura, canto y oración en cada sitio. Hay que reservarle tiempo en el itinerario, no encajarlo entre dos paradas.',
+      'Este grupo pide más Antiguo Testamento que el católico: Meguido, Bet Shean, Dan, Cesarea de Filipo, Siló. Pilgrim Tours los mete todos en su paquete de 10 días.',
+      'El Garden Tomb y el Santo Sepulcro no compiten en el itinerario: se visitan los dos y se explica qué sostiene cada tradición, sin tomar partido.',
+      'La guía no oficia ni interpreta teología: acompaña, explica historia y arqueología y coordina la logística.',
+      'Ropa cubierta en las iglesias; en el Garden Tomb no hay código estricto, pero conviene el mismo criterio.',
+    ],
+    referencia: {
+      grupal: 'Paquetes cristianos de grupo, en inglés y con hotel: US$568–1.629 según los días. Sin producto protestante de grupo en ninguno de los seis.',
+      privadoPublicado: 'Tourist Israel "9 Day Israel Protestant Private Tour Package" US$6.046 por persona y "11 Day Israel & Jordan Protestant Private Tour Package" US$7.429 por persona.',
+      fuentes: 'Tourist Israel, paquetes protestantes privados, con Yardenit, Qasr el Yahud, Meguido y el Garden Tomb en el itinerario publicado; Pilgrim Tours "Best of Israel" 10 días, con Garden Tomb y comunión en el jardín, US$2.679 solo tierra en 2026 y US$2.129–2.779 en 2027; Bein Harim, Abraham, Civitatis, GetYourGuide y Viator no separan por confesión. Leídos el 23-09-2026.',
+    },
+  },
+  {
+    id: 'grupos-catolicos',
+    nombre: 'Grupos católicos, con misa diaria',
+    tipo: 'peregrinacion',
+    porQue: 'Es el formato del nicho fuera de Israel: 206 Tours, Pilgrim Tours y Catholic Journeys venden la peregrinación con sacerdote capellán, y los dos católicos anuncian misa diaria. Tourist Israel es el único de los seis con algo equivalente: paquetes privados católicos de 8 y 10 días (US$4.498 y US$6.265).',
+    duracion: '8–10 días.',
+    salida: 'Tel Aviv, con noches en Galilea, Belén o Jerusalén.',
+    recorrido: [
+      { lugar: 'Jaffa, iglesia de San Pedro; monte Carmelo y la cueva de Elías', tiempo: 'medio día' },
+      { lugar: 'Nazaret: Anunciación y San José, con misa en la Gruta; Caná, donde los matrimonios renuevan votos', tiempo: '1 día' },
+      { lugar: 'Mar de Galilea: Bienaventuranzas, Tabgha, Cafarnaúm, Magdala y barco', tiempo: '1 día' },
+      { lugar: 'Monte Tabor, Basílica de la Transfiguración', tiempo: 'medio día' },
+      { lugar: 'Jericó, Monte de la Tentación y renovación de las promesas bautismales en el Jordán', tiempo: 'medio día' },
+      { lugar: 'Ein Karem: San Juan Bautista y la Visitación', tiempo: 'medio día' },
+      { lugar: 'Belén: Campo de los Pastores, Natividad y Santa Catalina', tiempo: '1 día' },
+      { lugar: 'Monte de los Olivos, Getsemaní, Monte Sion y el Cenáculo', tiempo: '1 día' },
+      { lugar: 'Emaús y Betania', tiempo: 'medio día' },
+      { lugar: 'Vía Crucis muy temprano por la Vía Dolorosa y misa en el Santo Sepulcro; después Santa Ana y Betesda', tiempo: '1 día' },
+    ],
+    paraQuien: 'Grupos parroquiales y diocesanos que viajan con su sacerdote; peregrinaciones organizadas por una agencia católica de LatAm o España que necesita guía local en español.',
+    incluye: ['Guía licenciada en español', 'Itinerario armado alrededor del horario de misa que la parroquia haya reservado', 'Coordinación con las casas de peregrinos (Notre Dame, Casa Nova y similares) si el grupo se aloja ahí'],
+    noIncluye: ['La reserva de la misa y el capellán: los pone la parroquia o el operador. Los santuarios asignan capilla y horario con meses de anticipación', 'Entradas y donaciones', 'Transporte', 'Comidas', 'Alojamiento'],
+    mejorEpoca: 'Cuaresma, Semana Santa, mayo y octubre. Adviento y Navidad para Belén.',
+    diasAEvitar: 'Sin reserva no hay misa, por mucho que el grupo la quiera ese día: las capillas de los santuarios se piden con meses. El Santo Sepulcro asigna horarios muy temprano, antes del desayuno.',
+    idiomas: 'Español, inglés, hebreo.',
+    notas: [
+      'La guía no oficia ni interpreta teología: acompaña, explica historia y arqueología, y coordina horarios, capillas y traslados. La misa la celebra el sacerdote que viaja con el grupo.',
+      '206 Tours, que es de los grandes del nicho, dice organizar misa diaria y busca sacerdotes capellanes para sus salidas: el capellán sale del operador o de la parroquia, nunca del guía local. Conviene decirlo por escrito antes de cerrar.',
+      'Ein Karem y Emaús son medio día cada uno y casi nadie los vende sueltos: son el diferencial de una peregrinación larga. Si Mari quiere un producto corto extra, ahí está.',
+      '206 Tours aloja en Notre Dame of Jerusalem Center, que tiene capilla propia: ese es el motivo, y es un dato útil a la hora de recomendar hotel.',
+      'Vestimenta cubierta todos los días; hay control en la puerta de varios santuarios.',
+    ],
+    referencia: {
+      grupal: 'Sin producto católico de grupo en los seis catálogos: lo más cercano es el paquete cristiano genérico, US$568–1.629.',
+      privadoPublicado: 'Tourist Israel "8 Day Catholic Holy Land Private Tour Package" US$4.498 por persona, "10 Day Israel Catholic Holy Land Private Tour Package" US$6.265 y "10 Day Catholic Holy Land Israel and Jordan Private Tour Package" US$5.143.',
+      fuentes: 'Tourist Israel, precios publicados en su categoría de paquetes de Tierra Santa. 206 Tours: peregrinación católica de 10 días con capellán y misa diaria (Nazaret, Caná, Tabor, Jordán, Ein Karem, Belén, Monte Sion, Emaús, Betania y misa en el Santo Sepulcro), alojada en Notre Dame of Jerusalem Center; no publica el precio en la página del itinerario, solo el depósito de US$500. Catholic Journeys anuncia capellán sacerdote y misa diaria en cuatro itinerarios y tampoco publica precio. Bein Harim, Abraham, Civitatis, GetYourGuide y Viator no separan por confesión. Leídos el 23-09-2026.',
+    },
+  },
 ];
 
 /** Campos vacíos que Mari completa en cada paquete (se imprimen como líneas de formulario). */
@@ -490,4 +869,7 @@ export const PREGUNTAS_MARI: string[] = [
   'De esta lista, ¿cuáles no hacés o no querés hacer? (Belén, Golán, Petra, Néguev, amanecer en Masada…)',
   '¿Qué tours agregarías que acá no están? (Yad Vashem, Ciudad de David, Golán, Néguev, Tel Aviv de noche, Safed…)',
   '¿Qué incluís siempre (entradas, agua, auriculares) y qué cobrás aparte? ¿Cómo cobrás: seña, efectivo, transferencia?',
+  '¿Acompañás grupos que vienen con su propio capellán, sacerdote o pastor? ¿Cómo se reparte el día entre la misa o el culto y el recorrido? ¿Te reservan ellos la capilla o lo terminás coordinando vos?',
+  '¿Trabajás con parroquias, diócesis o agencias de LatAm y España? ¿Con cuáles? ¿Los grupos te llegan por ellas o te buscan directo?',
+  '¿Hacés la ruta de Galilea de varios días, con alojamiento en Nazaret o Tiberíades? ¿O preferís bajar a dormir a Jerusalén o Tel Aviv? ¿Con qué hoteles o casas de peregrinos trabajás?',
 ];

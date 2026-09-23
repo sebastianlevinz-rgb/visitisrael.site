@@ -1,19 +1,57 @@
 ---
 /**
  * /mariluz/paquetes — borrador de paquetes para que Mariluz revise: qué venden los seis
- * catálogos (tabla de frecuencia), 10 paquetes ejemplares con recorrido, referencia de mercado
+ * catálogos (tabla de frecuencia), los paquetes ejemplares con recorrido, referencia de mercado
  * y un bloque de formulario para que ella complete, y las preguntas abiertas.
+ * Dos grupos: "Clásicos" y "Peregrinación cristiana" (agregado el 23-09-2026 porque Mari dijo
+ * que los cristianos son su público más frecuente).
  * Datos en src/data/mariluz-paquetes.ts. Copia del lenguaje visual de MariluzModelo.astro.
  *
  * noindex (InternalLayout), fuera del sitemap y del chequeo de huérfanas (prefijo /mariluz).
  * Una sola H1 (el smoke test la exige).
  */
 import InternalLayout from '@/layouts/InternalLayout.astro';
-import { CATALOGOS, FRECUENCIA, PAQUETES, CAMPOS_MARI, PREGUNTAS_MARI, FECHA_RELEVAMIENTO } from '@/data/mariluz-paquetes';
+import {
+  CATALOGOS,
+  OPERADORES_PEREGRINACION,
+  FRECUENCIA,
+  PAQUETES,
+  CAMPOS_MARI,
+  PREGUNTAS_MARI,
+  FECHA_RELEVAMIENTO,
+  FECHA_RELEVAMIENTO_CRISTIANO,
+} from '@/data/mariluz-paquetes';
 
 const total = CATALOGOS.length;
 const nombre = (sigla: string) => CATALOGOS.find((c) => c.sigla === sigla)?.nombre ?? sigla;
-const tipoLabel = { clasico: 'Clásico del mercado', diferencial: 'Diferencial de Mari' } as const;
+const tipoLabel = {
+  clasico: 'Clásico del mercado',
+  diferencial: 'Diferencial de Mari',
+  peregrinacion: 'Peregrinación cristiana',
+} as const;
+const tipoEstilo = {
+  clasico: { borde: 'border-primary/40', header: 'bg-primary', punto: 'bg-primary' },
+  diferencial: { borde: 'border-gold', header: 'bg-gold-deep', punto: 'bg-gold-deep' },
+  peregrinacion: { borde: 'border-primary', header: 'bg-primary-hover', punto: 'bg-primary-hover' },
+} as const;
+
+const clasicos = PAQUETES.filter((p) => p.tipo !== 'peregrinacion');
+const peregrinacion = PAQUETES.filter((p) => p.tipo === 'peregrinacion');
+
+const GRUPOS = [
+  {
+    id: 'clasicos',
+    titulo: 'Clásicos',
+    items: clasicos,
+    intro: 'Siete que todos venden y tres que aprovechan que sos guía privada y trilingüe. Los tiempos de cada parada son aproximados: vos sabés cuánto lleva de verdad.',
+  },
+  {
+    id: 'peregrinacion',
+    titulo: 'Peregrinación cristiana',
+    items: peregrinacion,
+    intro: `Esta sección salió de algo que dijiste vos: que buena parte de tus clientes son cristianos que vienen a ver Jerusalén y las iglesias. Relevado el ${FECHA_RELEVAMIENTO_CRISTIANO}, sumando a los ${total} catálogos tres operadores de peregrinación de afuera, que son los que arman el viaje de 7 a 10 días y después contratan guía local.`,
+  },
+];
 ---
 
 <InternalLayout title="Paquetes para revisar" documentTitle="Paquetes para revisar — Mariluz · VisitIsrael" bare>
@@ -26,12 +64,17 @@ const tipoLabel = { clasico: 'Clásico del mercado', diferencial: 'Diferencial d
         GetYourGuide y Viator. Elegimos lo que más se repite y sumamos tres cosas que ellos no tienen y vos sí.
       </p>
       <p>
+        La segunda sección, <strong class="text-ink">Peregrinación cristiana</strong>, salió de que nos dijiste que
+        muchos de tus clientes son cristianos que vienen a ver Jerusalén y las iglesias. Antes había un solo paquete
+        de ese tipo; ahora hay {peregrinacion.length}.
+      </p>
+      <p>
         Corregí, tachá, agregá. Los precios que aparecen son los que publican ellos para tours de grupo (en
         bus, en inglés); sirven de referencia, no son tuyos. <strong class="text-ink">Tu precio lo ponés vos</strong> en
         el recuadro dorado de cada paquete. Nada de esto es público todavía.
       </p>
       <p class="text-base">
-        Al final hay ocho preguntas. Podés contestar por WhatsApp o marcar acá arriba de una impresión.
+        Al final hay {PREGUNTAS_MARI.length} preguntas. Podés contestar por WhatsApp o marcar acá arriba de una impresión.
         <a href="/mariluz" class="text-primary">Volver a la propuesta</a>.
       </p>
     </div>
@@ -91,21 +134,40 @@ const tipoLabel = { clasico: 'Clásico del mercado', diferencial: 'Diferencial d
       <p class="eyebrow">Segundo</p>
       <h2 class="font-display text-2xl font-bold text-ink">{PAQUETES.length} paquetes para empezar</h2>
       <p class="mt-2 max-w-3xl text-ink-muted">
-        Siete que todos venden y tres que aprovechan que sos guía privada y trilingüe. Los tiempos de cada
-        parada son aproximados: vos sabés cuánto lleva de verdad.
+        Van en dos grupos: {clasicos.length} clásicos y {peregrinacion.length} de peregrinación cristiana.
       </p>
 
-      <div class="mt-8 space-y-10">
+      {
+        GRUPOS.map((g) => (
+          <div class="mt-12">
+            <h3 class="font-display text-xl font-bold text-ink">{g.titulo} · {g.items.length} paquetes</h3>
+            <p class="mt-2 max-w-3xl text-ink-muted">{g.intro}</p>
+
+            {g.id === 'peregrinacion' && (
+              <div class="mt-4 space-y-2 rounded-card border border-border bg-card p-4 text-sm shadow-card">
+                <p class="text-xs font-semibold uppercase tracking-widest text-ink-muted">
+                  Operadores de peregrinación mirados aparte
+                </p>
+                {OPERADORES_PEREGRINACION.map((o) => (
+                  <p class="text-ink">
+                    <strong>{o.nombre}</strong> <span class="text-ink-muted">({o.url})</span> — {o.que}
+                  </p>
+                ))}
+              </div>
+            )}
+
+            <div class="mt-8 space-y-10">
         {
-          PAQUETES.map((p, i) => {
-            const gold = p.tipo === 'diferencial';
+          g.items.map((p) => {
+            const i = PAQUETES.indexOf(p);
+            const est = tipoEstilo[p.tipo];
             return (
-              <article id={p.id} class={`overflow-hidden rounded-card border-2 bg-card shadow-card ${gold ? 'border-gold' : 'border-primary/40'}`}>
-                <header class={`px-5 py-5 sm:px-6 ${gold ? 'bg-gold-deep text-white' : 'bg-primary text-white'}`}>
+              <article id={p.id} class={`overflow-hidden rounded-card border-2 bg-card shadow-card ${est.borde}`}>
+                <header class={`px-5 py-5 text-white sm:px-6 ${est.header}`}>
                   <p class="text-xs font-semibold uppercase tracking-widest opacity-80">
                     Paquete {i + 1} · {tipoLabel[p.tipo]}
                   </p>
-                  <h3 class="mt-1 font-display text-2xl font-bold leading-tight">{p.nombre}</h3>
+                  <h4 class="mt-1 font-display text-2xl font-bold leading-tight">{p.nombre}</h4>
                   <p class="mt-2 text-sm opacity-90">{p.porQue}</p>
                 </header>
 
@@ -122,11 +184,11 @@ const tipoLabel = { clasico: 'Clásico del mercado', diferencial: 'Diferencial d
                   </dl>
 
                   <div>
-                    <h4 class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Recorrido</h4>
+                    <h5 class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Recorrido</h5>
                     <ol class="mt-2 space-y-2">
                       {p.recorrido.map((r, n) => (
                         <li class="flex gap-3 text-sm text-ink">
-                          <span class={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[11px] font-bold text-white ${gold ? 'bg-gold-deep' : 'bg-primary'}`}>{n + 1}</span>
+                          <span class={`mt-0.5 flex h-5 w-5 shrink-0 items-center justify-center rounded-full text-[11px] font-bold text-white ${est.punto}`}>{n + 1}</span>
                           <span class="flex-1">{r.lugar}</span>
                           <span class="shrink-0 text-ink-muted">{r.tiempo}</span>
                         </li>
@@ -136,13 +198,13 @@ const tipoLabel = { clasico: 'Clásico del mercado', diferencial: 'Diferencial d
 
                   <div class="grid gap-4 sm:grid-cols-2">
                     <div class="rounded-btn bg-sand-deep p-4">
-                      <h4 class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Incluye</h4>
+                      <h5 class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Incluye</h5>
                       <ul class="mt-2 space-y-1 text-sm text-ink">
                         {p.incluye.map((x) => <li class="flex gap-2"><span class="text-primary">✓</span><span>{x}</span></li>)}
                       </ul>
                     </div>
                     <div class="rounded-btn bg-sand-deep p-4">
-                      <h4 class="text-xs font-semibold uppercase tracking-widest text-ink-muted">No incluye (en general)</h4>
+                      <h5 class="text-xs font-semibold uppercase tracking-widest text-ink-muted">No incluye (en general)</h5>
                       <ul class="mt-2 space-y-1 text-sm text-ink">
                         {p.noIncluye.map((x) => <li class="flex gap-2"><span class="text-ink-muted">–</span><span>{x}</span></li>)}
                       </ul>
@@ -157,14 +219,14 @@ const tipoLabel = { clasico: 'Clásico del mercado', diferencial: 'Diferencial d
                   </dl>
 
                   <div>
-                    <h4 class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Notas prácticas</h4>
+                    <h5 class="text-xs font-semibold uppercase tracking-widest text-ink-muted">Notas prácticas</h5>
                     <ul class="mt-2 space-y-1 text-sm text-ink">
                       {p.notas.map((x) => <li class="flex gap-2"><span class="text-ink-muted">·</span><span>{x}</span></li>)}
                     </ul>
                   </div>
 
                   <div class="rounded-btn border border-primary/40 bg-primary-soft p-4">
-                    <h4 class="text-xs font-semibold uppercase tracking-widest text-primary">Referencia de mercado (tours de grupo, publicados)</h4>
+                    <h5 class="text-xs font-semibold uppercase tracking-widest text-primary">Referencia de mercado (tours de grupo, publicados)</h5>
                     <p class="mt-2 text-sm font-semibold text-ink">{p.referencia.grupal}</p>
                     {p.referencia.privadoPublicado && (
                       <p class="mt-1 text-sm text-ink">
@@ -175,7 +237,7 @@ const tipoLabel = { clasico: 'Clásico del mercado', diferencial: 'Diferencial d
                   </div>
 
                   <div class="rounded-btn border-2 border-gold bg-gold/10 p-4">
-                    <h4 class="text-xs font-semibold uppercase tracking-widest text-gold-deep">Para que complete Mari</h4>
+                    <h5 class="text-xs font-semibold uppercase tracking-widest text-gold-deep">Para que complete Mari</h5>
                     <dl class="mt-3 space-y-4">
                       {CAMPOS_MARI.map((campo) => (
                         <div>
@@ -190,7 +252,10 @@ const tipoLabel = { clasico: 'Clásico del mercado', diferencial: 'Diferencial d
             );
           })
         }
-      </div>
+            </div>
+          </div>
+        ))
+      }
     </section>
 
     <!-- Preguntas -->

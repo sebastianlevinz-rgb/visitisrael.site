@@ -139,6 +139,69 @@
       "cachedCalls": 46,
       "firecrawlScrapes": 0,
       "errors": 0
+    },
+    {
+      "at": "2026-09-23T12:14:15.134Z",
+      "script": "peregrinacion.mjs",
+      "usd": 0.8215,
+      "calls": 31,
+      "cachedCalls": 2,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-23T12:15:15.813Z",
+      "script": "peregrinacion.mjs",
+      "usd": 0.016,
+      "calls": 8,
+      "cachedCalls": 33,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-23T12:15:31.351Z",
+      "script": "peregrinacion.mjs",
+      "usd": 0,
+      "calls": 0,
+      "cachedCalls": 41,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-23T12:16:46.731Z",
+      "script": "peregrinacion-probe.mjs",
+      "usd": 0.36,
+      "calls": 4,
+      "cachedCalls": 0,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-23T12:17:22.018Z",
+      "script": "peregrinacion.mjs",
+      "usd": 0.36,
+      "calls": 4,
+      "cachedCalls": 41,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-23T12:17:47.123Z",
+      "script": "peregrinacion.mjs",
+      "usd": 0,
+      "calls": 0,
+      "cachedCalls": 45,
+      "firecrawlScrapes": 0,
+      "errors": 0
+    },
+    {
+      "at": "2026-09-23T12:32:25.729Z",
+      "script": "peregrinacion.mjs",
+      "usd": 0.1183,
+      "calls": 3,
+      "cachedCalls": 45,
+      "firecrawlScrapes": 0,
+      "errors": 0
     }
   ]
 }
