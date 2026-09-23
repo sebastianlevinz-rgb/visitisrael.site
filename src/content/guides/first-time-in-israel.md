@@ -30,7 +30,7 @@ From Friday afternoon until Saturday after dark, **Shabbat** slows the Jewish pa
 
 ## Money, connectivity and what to pack
 
-The currency is the **shekel**; cards work nearly everywhere, so carry only modest cash. A local **eSIM** is the easiest way to stay online. Pack **modest clothing** for religious sites (shoulders and knees covered), sun protection year-round, sturdy shoes for old-city cobbles, and a swimsuit for the Dead Sea and the Mediterranean. Israel uses the unique **Type H plug** — if your home plug is different, you need an adapter (see Israel power plug guide for exactly what to buy by country). For a full season-by-season breakdown — including what to bring for the Dead Sea, religious sites and Ben Gurion security — see our Israel packing guide.
+The currency is the **shekel**; cards work nearly everywhere, so carry only modest cash. A local **[eSIM](/esim-israel)** is the easiest way to stay online. Pack **modest clothing** for religious sites (shoulders and knees covered), sun protection year-round, sturdy shoes for old-city cobbles, and a swimsuit for the Dead Sea and the Mediterranean. Israel uses the unique **Type H plug** — if your home plug is different, you need an adapter (see Israel power plug guide for exactly what to buy by country). For a full season-by-season breakdown — including what to bring for the Dead Sea, religious sites and Ben Gurion security — see our Israel packing guide.
 
 ## Is it safe?
 

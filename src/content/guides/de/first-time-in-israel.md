@@ -30,7 +30,7 @@ Vom Freitagabend bis Samstagabend verlangsamt der **Schabbat** das Leben in jüd
 
 ## Geld, Konnektivität und Gepäck
 
-Die Währung ist der **Schekel**; Kartenzahlungen funktionieren fast überall, führen Sie also nur wenig Bargeld mit. Eine lokale **eSIM** ist die einfachste Möglichkeit, online zu bleiben. Packen Sie **bedeckende Kleidung** für religiöse Stätten (Schultern und Knie bedeckt), das ganze Jahr über Sonnenschutz, robuste Schuhe für das Pflaster der Altstadt sowie Badezeug für das Tote Meer und das Mittelmeer ein.
+Die Währung ist der **Schekel**; Kartenzahlungen funktionieren fast überall, führen Sie also nur wenig Bargeld mit. Eine lokale **[eSIM](/de/esim-israel)** ist die einfachste Möglichkeit, online zu bleiben. Packen Sie **bedeckende Kleidung** für religiöse Stätten (Schultern und Knie bedeckt), das ganze Jahr über Sonnenschutz, robuste Schuhe für das Pflaster der Altstadt sowie Badezeug für das Tote Meer und das Mittelmeer ein.
 
 ## Sicherheit
 

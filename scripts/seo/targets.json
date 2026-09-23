@@ -122,6 +122,14 @@
         "de": { "primary": "mietwagen israel", "secondary": ["auto mieten israel", "autofahren in israel"] },
         "he": { "primary": "השכרת רכב בישראל", "secondary": ["השכרת רכב נתבג", "השכרת רכב תל אביב"] }
       } },
+    { "slug": "esim-israel", "collection": "guides", "path": "/esim-israel",
+      "keywords": {
+        "en": { "primary": "israel esim", "secondary": ["best esim for israel", "sim card israel airport"] },
+        "es": { "primary": "esim israel", "secondary": ["mejor esim para israel", "tarjeta sim israel aeropuerto"] },
+        "fr": { "primary": "esim israël", "secondary": ["meilleure esim israël", "carte sim israël aéroport"] },
+        "de": { "primary": "esim israel", "secondary": ["beste esim israel", "sim karte israel flughafen"] },
+        "he": { "primary": "esim ישראל", "secondary": ["איסים לישראל", "כרטיס סים לתיירים בישראל"] }
+      } },
 
     { "slug": "best-hotels-jerusalem", "collection": "guides", "path": "/best-hotels-jerusalem",
       "keywords": {

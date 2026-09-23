@@ -76,4 +76,4 @@ Extras habituales que hay que presupuestar:
 
 ## Planifique el resto del viaje
 
-Contrate su eSIM para datos de navegación y su seguro de viaje antes de salir, y si prefiere no conducir desde el aeropuerto, consulte los traslados desde el Aeropuerto Ben Gurion. Para consejos detallados sobre normas de tráfico, peajes y estacionamiento ciudad por ciudad, consulte la guía de conducción en Israel.
+Contrate su [eSIM](/es/esim-israel) para datos de navegación y su seguro de viaje antes de salir, y si prefiere no conducir desde el aeropuerto, consulte los traslados desde el Aeropuerto Ben Gurion. Para consejos detallados sobre normas de tráfico, peajes y estacionamiento ciudad por ciudad, consulte la guía de conducción en Israel.

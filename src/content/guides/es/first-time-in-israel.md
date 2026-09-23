@@ -30,7 +30,7 @@ Desde el viernes por la tarde hasta el sábado por la noche, el **Shabat** ralen
 
 ## Dinero, conectividad y qué empacar
 
-La moneda es el **séquel**; las tarjetas funcionan casi en todas partes, así que lleve solo algo de efectivo. Una **eSIM** local es la forma más sencilla de mantenerse conectado. Incluya **ropa modesta** para los sitios religiosos (hombros y rodillas cubiertos), protección solar durante todo el año, calzado resistente para los adoquines de la Ciudad Vieja y un traje de baño para el Mar Muerto y el Mediterráneo. Israel usa el **enchufe Tipo H**; si su enchufe es diferente, necesitará un adaptador.
+La moneda es el **séquel**; las tarjetas funcionan casi en todas partes, así que lleve solo algo de efectivo. Una **[eSIM](/es/esim-israel)** local es la forma más sencilla de mantenerse conectado. Incluya **ropa modesta** para los sitios religiosos (hombros y rodillas cubiertos), protección solar durante todo el año, calzado resistente para los adoquines de la Ciudad Vieja y un traje de baño para el Mar Muerto y el Mediterráneo. Israel usa el **enchufe Tipo H**; si su enchufe es diferente, necesitará un adaptador.
 
 ## ¿Es seguro?
 

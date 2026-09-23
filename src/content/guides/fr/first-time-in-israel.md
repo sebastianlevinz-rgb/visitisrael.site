@@ -30,7 +30,7 @@ Du vendredi après-midi jusqu'au samedi soir, le **Shabbat** ralentit la vie dan
 
 ## Argent, connectivité et bagages
 
-La monnaie est le **shekel** ; les cartes bancaires fonctionnent presque partout, ne prenez donc que peu d'espèces. Une **eSIM** locale est le moyen le plus pratique de rester connecté. Emportez des **vêtements couvrants** pour les sites religieux (épaules et genoux couverts), une protection solaire adaptée à toutes les saisons, des chaussures robustes pour les pavés de la Vieille Ville et un maillot de bain pour la mer Morte et la Méditerranée.
+La monnaie est le **shekel** ; les cartes bancaires fonctionnent presque partout, ne prenez donc que peu d'espèces. Une **[eSIM](/fr/esim-israel)** locale est le moyen le plus pratique de rester connecté. Emportez des **vêtements couvrants** pour les sites religieux (épaules et genoux couverts), une protection solaire adaptée à toutes les saisons, des chaussures robustes pour les pavés de la Vieille Ville et un maillot de bain pour la mer Morte et la Méditerranée.
 
 ## La sécurité
 

@@ -5,11 +5,11 @@ import { PAGE_GROUPS, locales } from '../../src/i18n/ui';
 const prefixes = locales.map((l) => (l === 'en' ? '' : `/${l}`));
 
 test('the build contains the expected v3 page set', () => {
-  // Per locale: 20 content pages + home + plan-your-trip + itineraries index.
-  // Plus 6 legal/credits pages (EN only) and 7 internal/utility routes: /search, /dashboard,
-  // /gestion, /gestion/competidores, /gestion/seo, /mariluz and /mariluz/paquetes. 404.html is
-  // not an index route.
-  const contentPerLocale = 7 + 19 + 2;
+  // Per locale: 29 content pages (7 regions + 20 guides + 2 itineraries) + home + plan-your-trip
+  // + itineraries index. Plus 6 legal/credits pages (EN only) and 7 internal/utility routes:
+  // /search, /dashboard, /gestion, /gestion/competidores, /gestion/seo, /mariluz and
+  // /mariluz/paquetes. 404.html is not an index route.
+  const contentPerLocale = 7 + 20 + 2;
   const expected = locales.length * (contentPerLocale + 3) + 6 + 7;
   expect(ROUTES.length, ROUTES.join('\n')).toBe(expected);
 });
