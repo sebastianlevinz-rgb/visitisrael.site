@@ -1,0 +1,408 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<link rel="icon" href="/favicon.svg">
+<title>Playbook de video — VisitIsrael</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;800&family=Source+Sans+3:wght@400;600;700&display=swap">
+<style>
+  :root {
+    --bg: #f6f3ec; --card: #ffffff; --line: #e3dccf; --ink: #1e2320; --muted: #5d5850;
+    --teal: #175f7a; --teal-soft: #e0edf2; --gold: #b8963f; --gold-soft: #f4ecd6; --red: #a3452f;
+    --display: 'Playfair Display', Georgia, 'Times New Roman', serif;
+    --body: 'Source Sans 3', 'Segoe UI', Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #15191a; --card: #1e2426; --line: #33393b; --ink: #ece7dc; --muted: #a9a297;
+      --teal: #6fb6d0; --teal-soft: #1d3540; --gold: #d9b85c; --gold-soft: #3a3118; --red: #e07a5f;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #15191a; --card: #1e2426; --line: #33393b; --ink: #ece7dc; --muted: #a9a297;
+    --teal: #6fb6d0; --teal-soft: #1d3540; --gold: #d9b85c; --gold-soft: #3a3118; --red: #e07a5f;
+  }
+  body { background: var(--bg); color: var(--ink); font-family: var(--body); font-size: 17px; line-height: 1.55; margin: 0; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding-block: 32px 80px; padding-inline: 20px; }
+  h1, h2, h3, h4 { font-family: var(--display); line-height: 1.15; text-wrap: balance; margin: 0; }
+  h1 { font-size: clamp(34px, 5vw, 52px); font-weight: 800; }
+  h2 { font-size: clamp(26px, 3.4vw, 34px); margin-top: 64px; padding-top: 24px; border-top: 2px solid var(--ink); }
+  h3 { font-size: 22px; margin-top: 32px; }
+  p { max-width: 70ch; }
+  a { color: var(--teal); }
+  .eyebrow { font-size: 12px; font-weight: 700; letter-spacing: .14em; text-transform: uppercase; color: var(--gold); }
+  .lede { font-size: 19px; color: var(--muted); max-width: 66ch; margin-top: 12px; }
+  .meta { font-size: 14px; color: var(--muted); margin-top: 10px; }
+  nav.toc { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px; }
+  nav.toc a { font-size: 14px; font-weight: 600; text-decoration: none; border: 1px solid var(--line); background: var(--card); padding: 6px 12px; border-radius: 999px; color: var(--ink); }
+  nav.toc a:hover, nav.toc a:focus-visible { border-color: var(--teal); color: var(--teal); outline: none; }
+  .grid { display: grid; gap: 14px; margin-top: 20px; }
+  .g2 { grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); }
+  .g3 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 18px 20px; }
+  .card.gold { border-color: var(--gold); background: var(--gold-soft); }
+  .card.teal { border-color: var(--teal); background: var(--teal-soft); }
+  .num { font-family: var(--display); font-size: 40px; font-weight: 800; color: var(--teal); line-height: 1; font-variant-numeric: tabular-nums; }
+  .num small { font-family: var(--body); font-size: 13px; font-weight: 600; color: var(--muted); display: block; margin-top: 6px; letter-spacing: .04em; text-transform: uppercase; }
+  .finding { display: grid; grid-template-columns: 44px 1fr; gap: 12px; align-items: start; }
+  .finding .k { font-family: var(--display); font-size: 26px; font-weight: 800; color: var(--gold); line-height: 1.2; }
+  .finding p { margin: 0; font-size: 16px; }
+  .chip { display: inline-block; font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; padding: 3px 9px; border-radius: 999px; background: var(--teal-soft); color: var(--teal); margin-right: 6px; }
+  .chip.gold { background: var(--gold-soft); color: var(--gold); }
+  .chip.grey { background: var(--line); color: var(--muted); }
+  .vid { display: grid; grid-template-columns: 56px 1fr; gap: 14px; align-items: start; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; text-decoration: none; color: inherit; }
+  .vid:hover, .vid:focus-visible { border-color: var(--teal); outline: none; }
+  .vid .play { width: 56px; height: 40px; border-radius: 8px; background: var(--red); display: grid; place-items: center; color: #fff; font-size: 18px; margin-top: 2px; }
+  .vid .t { font-weight: 700; line-height: 1.3; }
+  .vid .s { font-size: 14px; color: var(--muted); margin-top: 3px; }
+  .vid .views { font-family: var(--display); font-weight: 800; color: var(--teal); font-variant-numeric: tabular-nums; }
+  ol.steps { counter-reset: s; list-style: none; padding: 0; margin: 16px 0 0; display: grid; gap: 10px; }
+  ol.steps li { counter-increment: s; display: grid; grid-template-columns: 40px 1fr; gap: 12px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; align-items: start; }
+  ol.steps li::before { content: counter(s); font-family: var(--display); font-weight: 800; font-size: 22px; color: var(--teal); line-height: 1.2; }
+  ol.steps li strong { display: block; }
+  .timeline { display: grid; gap: 0; margin-top: 16px; border-left: 3px solid var(--teal); padding-left: 18px; }
+  .timeline .t { padding: 10px 0 14px; }
+  .timeline .t b { font-family: var(--display); color: var(--teal); }
+  table { border-collapse: collapse; width: 100%; font-size: 15px; background: var(--card); }
+  th, td { text-align: left; vertical-align: top; padding: 10px 12px; border-bottom: 1px solid var(--line); }
+  th { font-size: 12px; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); background: var(--bg); }
+  .tablewrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 12px; margin-top: 16px; }
+  .idea { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px 18px; display: grid; gap: 8px; }
+  .idea .h { display: flex; gap: 10px; align-items: baseline; }
+  .idea .n { font-family: var(--display); font-weight: 800; font-size: 22px; color: var(--gold); min-width: 34px; }
+  .idea .title { font-weight: 700; font-size: 17px; line-height: 1.3; }
+  .idea .en { font-size: 14px; color: var(--muted); }
+  .idea dl { display: grid; grid-template-columns: 84px 1fr; gap: 4px 10px; margin: 0; font-size: 14px; }
+  .idea dt { color: var(--muted); font-weight: 600; }
+  .idea dd { margin: 0; }
+  .idea.top { border-color: var(--gold); box-shadow: inset 4px 0 0 var(--gold); }
+  .filters { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 16px; }
+  .filters button { font: inherit; font-size: 14px; font-weight: 600; border: 1px solid var(--line); background: var(--card); color: var(--ink); padding: 6px 12px; border-radius: 999px; cursor: pointer; }
+  .filters button[aria-pressed="true"] { background: var(--teal); border-color: var(--teal); color: #fff; }
+  .filters button:focus-visible { outline: 2px solid var(--gold); outline-offset: 2px; }
+  .dont li { margin-bottom: 8px; }
+  .qa { background: var(--gold-soft); border: 1px solid var(--gold); border-radius: 12px; padding: 18px 20px; margin-top: 20px; }
+  .qa ol { margin: 10px 0 0; padding-left: 22px; }
+  .note { font-size: 14px; color: var(--muted); }
+  @media (max-width: 640px) { .idea dl { grid-template-columns: 1fr; } .finding { grid-template-columns: 36px 1fr; } }
+  @media (prefers-reduced-motion: no-preference) { nav.toc a, .vid, .filters button { transition: border-color .15s, background .15s; } }
+
+  .vid { grid-template-columns: 120px 1fr; }
+  .thumb { position: relative; display: block; width: 120px; height: 68px; border-radius: 8px; overflow: hidden; background: #111; }
+  .thumb img { display: block; width: 120px; height: 68px; object-fit: cover; }
+  .thumb .play { position: absolute; inset: auto 6px 6px auto; width: 26px; height: 20px; font-size: 11px; margin: 0; border-radius: 5px; }
+  .topbar { display: flex; justify-content: space-between; gap: 12px; align-items: center; border-bottom: 1px solid var(--line); background: var(--card); padding: 10px 20px; font-size: 14px; }
+  .topbar a { text-decoration: none; font-weight: 700; }
+  @media (max-width: 640px) { .vid { grid-template-columns: 96px 1fr; } .thumb, .thumb img { width: 96px; height: 54px; } }
+</style>
+</head>
+<body>
+<div class="topbar"><a href="/gestion">← Mapa interno</a><span>Página privada de visitisrael.site · noindex · también en <a href="https://claude.ai/artifact/RdySjCjW5kiyzgGJZVAjxx">claude.ai</a></span></div>
+<div class="wrap">
+  <p class="eyebrow">VisitIsrael · research de contenido · 23-09-2026</p>
+  <h1>Videos que traen tráfico a visitisrael.site</h1>
+  <p class="lede">Qué funciona hoy en video sobre Israel, medido en YouTube con datos reales; el formato long-form del que salen los shorts; 30 ideas con su keyword, su guía y un video de referencia; y el top 10 para arrancar en dos jornadas de rodaje con Mari.</p>
+  <p class="meta">Base: 46 búsquedas en YouTube (EN desde EE. UU., ES desde España y Argentina), 523 videos, 469 turísticos, el 23-09-2026 vía DataForSEO (US$0,18). TikTok y YouTube Shorts leídos video por video en la plataforma (178 TikToks, 50 shorts); Instagram bloquea todo sin login, así que solo hay seguidores de cuentas. Las vistas son las del día; los videos de referencia abren en YouTube (el visor de este documento no permite incrustar reproductores).</p>
+  <nav class="toc" aria-label="Secciones">
+    <a href="#datos">Qué muestran los datos</a><a href="#top">Los más vistos</a><a href="#shorts">TikTok y Reels</a><a href="#formato">Formato</a><a href="#idioma">Idioma</a><a href="#ideas">30 ideas</a><a href="#top10">Top 10</a><a href="#rodaje">Rodaje</a><a href="#trafico">Tráfico al sitio</a><a href="#no">Qué no hacer</a><a href="#herramientas">Herramientas</a><a href="#preguntas">Preguntas</a>
+  </nav>
+
+  <div class="grid g3" style="margin-top:28px">
+    <div class="card"><div class="num">39 min<small>mediana del top 30 turístico</small></div><p class="note" style="margin:8px 0 0">19 de los 30 más vistos duran más de 30 minutos. Long-form no es riesgo: es la norma del nicho.</p></div>
+    <div class="card"><div class="num">3,5×<small>más vistas por video en español</small></div><p class="note" style="margin:8px 0 0">Mediana 68K (España) y 454K (Argentina) contra 19K en EE. UU., con menos oferta.</p></div>
+    <div class="card"><div class="num">2018<small>el video que domina el SERP hispano</small></div><p class="note" style="margin:8px 0 0">Luisito Comunica en Jerusalén aparece en 13 de 22 búsquedas en español. Nadie lo reemplazó en ocho años.</p></div>
+  </div>
+
+  <h2 id="datos">Qué muestran los datos</h2>
+  <div class="grid g2">
+    <div class="card finding"><span class="k">1</span><p><strong>El techo es comida y "un día en Jerusalén".</strong> El turístico más visto es un food tour de 41 min (Mark Wiens, 15,2 M). Le siguen Luisito en Jerusalén (14,9 M) y su comida callejera (12,8 M).</p></div>
+    <div class="card finding"><span class="k">2</span><p><strong>Los que rinden son largos.</strong> Mediana 39 min en el top 30; 14–17 min en todo el set sin shorts. Los de 5–8 min solo para "un lugar, una pregunta".</p></div>
+    <div class="card finding"><span class="k">3</span><p><strong>Español: menos oferta, más vistas.</strong> El SERP lo ocupan cuatro mega-youtubers de paso, series de peregrinación católica y residentes con 5K–200K por video.</p></div>
+    <div class="card finding"><span class="k">4</span><p><strong>El género más viral en español no lo vamos a hacer.</strong> "Barrio ultraortodoxo / vida oculta": 24 M en tres videos. Morbo, no utilidad; para una guía que vive en Jerusalén es reputación quemada.</p></div>
+    <div class="card finding"><span class="k">5</span><p><strong>En inglés, 2026 es "me dijeron que no vaya y fui".</strong> Harry Jaggard 5 M en tres meses. Tráfico de controversia: tampoco es nuestro, pero la audiencia EN volvió a mirar Israel.</p></div>
+    <div class="card finding"><span class="k">6</span><p><strong>Las búsquedas de guía están vacías de contenido fresco.</strong> "israel itinerary 7 days" (top de 2020, 41K), "jerusalem shabbat" (22K), "masada sunrise" (3K), "things to do in jerusalem" (#1 de 2022). Nadie con licencia y cámara lo cubre en 2026.</p></div>
+    <div class="card finding"><span class="k">7</span><p><strong>El formato lista "X cosas que NUNCA hagas" sigue vivo.</strong> Mediana 70K, 3,5 veces la general en EN; Lifeder 4,75 M en ES.</p></div>
+    <div class="card finding"><span class="k">8</span><p><strong>Costos y seguridad son las preguntas.</strong> "How expensive is Israel" 352K; "¿Cuánto dinero necesito para viajar a Israel?" 143K; "is israel safe to visit" tiene 4.400 búsquedas/mes en Google y casi cero video fresco en EN.</p></div>
+    <div class="card finding"><span class="k">9</span><p><strong>El walking tour explicado le gana al mudo.</strong> HolyLandSite con mapas y explicación 481K contra 279K del 4K sin narración en el mismo recorrido. La narración experta suma.</p></div>
+    <div class="card finding"><span class="k">10</span><p><strong>El modelo Mari ya está validado por otros.</strong> travelingisrael.com (guía licenciado, ~445K subs, EN, videos de 3–8 años), JudeoHistoria e Israel con Aline (un canal por idioma: el nativo rinde, el EN 30 veces menos). Hueco: español y 2026.</p></div>
+  </div>
+  <div class="card gold" style="margin-top:16px"><strong>Confirmado el 23-09:</strong> Mari acepta ser la cara a cámara, graba en español y en inglés, y hay equipo. Con eso el canal en inglés no espera: en cada jornada se graban los bloques a cámara en los dos idiomas sobre el mismo B-roll y las mismas piezas IA, y el canal EN arranca un mes después del ES.</div>
+  <p class="note" style="margin-top:14px">TikTok/Instagram: no existe una cuenta de turismo receptivo de Israel con escala. @visit_israel (Ministerio) 274K en IG; Secret Tel Aviv 39K; lo que escala es comida israelí en receta corta (BenGingi 1,2 M en TikTok). El hueco de short-form es mayor que el de YouTube.</p>
+
+  <h2 id="top">Los más vistos, por idioma</h2>
+  <p class="lede" style="font-size:17px">Solo turismo sobre Israel (fuera bandas, Eurovision, noticieros, política y el género "ultraortodoxos"). Son los más vistos <em>dentro de lo que YouTube devuelve para 54 búsquedas de viaje</em> (632 videos únicos), no un ranking global de la plataforma: YouTube ordena por relevancia, así que un video enorme que no rankea para esas búsquedas puede faltar. Para un ranking por vistas puro hace falta la YouTube Data API (gratis; ver herramientas). Las vistas son las del 23-09-2026; abren en YouTube.</p>
+  <div class="grid g2">
+    <div>
+      <p class="eyebrow">Inglés · top 10</p>
+      <div class="grid" style="margin-top:10px">
+    <a class="vid" href="https://www.youtube.com/watch?v=FLmNLrog6dQ" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/FLmNLrog6dQ/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">The Ultimate JERUSALEM FOOD TOUR</span><span class="s">Mark Wiens · 41 min · 2017 · <span class="views">15,2 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=kze1JkPl5_8" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/kze1JkPl5_8/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Conan Floats In The Dead Sea</span><span class="s">Team Coco · 2 min · 2017 · <span class="views">14,0 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=mp_w0xZ9XFg" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/mp_w0xZ9XFg/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Conan Hits The Streets &amp; Beaches Of Tel Aviv</span><span class="s">Team Coco · 9 min · 2017 · <span class="views">8,6 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=s3LZ1xXYTlI" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/s3LZ1xXYTlI/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Journey Through Israel – Travel Documentary</span><span class="s">Stef Hoffer · 42 min · 2022 · <span class="views">6,4 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=4tFXPbh3RC4" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/4tFXPbh3RC4/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Israel in 4K</span><span class="s">The Vine Studios · 10 min · 2018 · <span class="views">5,6 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=UFE4_hCe0OU" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/UFE4_hCe0OU/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Is the Dead Sea really dead?</span><span class="s">CBS Sunday Morning · 5 min · 2014 · <span class="views">4,8 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=xU44S7VbKZM" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/xU44S7VbKZM/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Israel Holy Sites Tour: Christian Sites, Bible Tour</span><span class="s">HolyLandSite · 68 min · 2020 · <span class="views">3,5 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=OdwAOnWTaqE" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/OdwAOnWTaqE/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">ISRAEL First Impressions (one day in Tel Aviv)</span><span class="s">Kara and Nate · 12 min · 2020 · <span class="views">3,45 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=MpNDn_qrR5A" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/MpNDn_qrR5A/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">JERUSALEM – A Holy City For Three Abrahamic Religions</span><span class="s">Kem Rogue · 22 min · 2024 · <span class="views">3,1 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=qZ9VrJAiF2I" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/qZ9VrJAiF2I/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Jerusalem by Night. An Incredible Stroll</span><span class="s">Relaxing WALKER · 63 min · 2023 · <span class="views">2,9 M</span></span></span></a>
+      </div>
+    </div>
+    <div>
+      <p class="eyebrow">Español · top 10</p>
+      <div class="grid" style="margin-top:10px">
+    <a class="vid" href="https://www.youtube.com/watch?v=665RRraY8R8" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/665RRraY8R8/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">¿Cómo es un día normal en JERUSALÉN?</span><span class="s">Luisito Comunica · 14 min · 2018 · <span class="views">14,9 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=NWl5f2SKdwc" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/NWl5f2SKdwc/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Probando comida callejera en ISRAEL</span><span class="s">Luisito Comunica · 12 min · 2018 · <span class="views">12,8 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=o4j3UZ9_ShI" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/o4j3UZ9_ShI/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Israel, La Tierra Prometida, parte 1</span><span class="s">Contacto Eduardo Batista · 40 min · 2019 · <span class="views">11,0 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=kLIHL0g5Xpo" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/kLIHL0g5Xpo/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Madrileños por el mundo: Jerusalén</span><span class="s">Telemadrid · 71 min · 2018 · <span class="views">8,1 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=hM8tW6xjOfM" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/hM8tW6xjOfM/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">¿Por qué Israel es un país Único?</span><span class="s">Explora Planet · 45 min · 2024 · <span class="views">7,8 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=DRcQKG6qQrc" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/DRcQKG6qQrc/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Así es Israel / La Tierra Prometida</span><span class="s">Explora Planet · 33 min · 2023 · <span class="views">5,9 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=pYeWR7F6X7c" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/pYeWR7F6X7c/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Recorrido por la Vía Dolorosa hasta el Santo Sepulcro</span><span class="s">P. José de Jesús Aguilar · 82 min · 2022 · <span class="views">5,4 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=TrywZAgz3ug" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/TrywZAgz3ug/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Así es un día NORMAL en JERUSALÉN</span><span class="s">Araya Vlogs · 25 min · 2023 · <span class="views">5,1 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=eMQLtvJVIVU" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/eMQLtvJVIVU/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">Un día en JERUSALÉN</span><span class="s">Lethal Crysis · 14 min · 2019 · <span class="views">4,9 M</span></span></span></a>
+    <a class="vid" href="https://www.youtube.com/watch?v=Zg1eAn2qj78" target="_blank" rel="noopener"><span class="thumb"><img src="https://i.ytimg.com/vi/Zg1eAn2qj78/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span><span><span class="t">¿Es seguro venir? (Oscar Alejandro)</span><span class="s">Oscar Alejandro · 42 min · <span class="views">2,25 M</span></span></span></a>
+      </div>
+    </div>
+  </div>
+  <p class="note" style="margin-top:12px">Lectura: en inglés el techo lo ponen un food tour (Wiens), dos piezas de TV (Conan) y documentales/4K de 40–70 min; en español, dos videos de 2018 de Luisito Comunica, programas de TV y peregrinación. En los dos idiomas, lo que más corre es largo y con una persona reconocible al frente.</p>
+
+  <h2 id="shorts">Short-form: 25 TikToks, Reels y Shorts que funcionan</h2>
+  <p class="lede" style="font-size:17px">Métricas leídas en la plataforma el 23-09-2026 (ninguna de buscador). "Gancho" es cuál de los 8 cortes del formato; "idea" es el número de la lista de 30 a la que se parece. Instagram no deja leer vistas sin login: quedan los seguidores de cuentas (@talesofisrael 300K, @visit2israel 137K, @itraveljerusalem 106K).</p>
+  <div class="grid g2" id="shorts-grid"></div>
+  <h3>Lo que dicen estos 25</h3>
+  <div class="grid g2">
+    <div class="card"><strong>Dos ganchos se llevan casi todo.</strong><p style="margin:6px 0 0;font-size:15px">Dato sorprendente (10 de 25: todo el Mar Muerto es eso) y momento visual puro (9 de 25). Lugar escondido escala con cuentas chicas (Barrabás 5,4 M). "Precio" solo rinde cuando es gratis; "no hagas esto" y "comparativa" casi no tienen ejemplos con escala: hueco, pero techo bajo.</p></div>
+    <div class="card"><strong>Duración: mudo de 10–25 s o explicación de guía de 50–90 s.</strong><p style="margin:6px 0 0;font-size:15px">Mediana 43 s; en los de más de 1 M, 24 s. Pero Santo Sepulcro explicado 87 s → 3,4 M; Nas Daily 156 s → 8,2 M. Lo del medio (vlog de 30–45 s sin dato) es lo que menos aparece.</p></div>
+    <div class="card gold"><strong>El español tiene ejemplos fuertes, todos de lugar o de fe.</strong><p style="margin:6px 0 0;font-size:15px">8 de 25: Barrabás 5,4 M, Santo Sepulcro 3,4 M, Ciudad Vieja 1,9 M, Aviel 788K. Ninguno práctico (visa, precio, Shabat). Aparecen residentes rioplatenses: Sasha Margot (129K) y Aviel: el hueco de Mari en vertical es el mismo que en long-form.</p></div>
+    <div class="card"><strong>No hace falta cuenta grande.</strong><p style="margin:6px 0 0;font-size:15px">76 M con 55K seguidores; 1,9 M con 10K; 788K con 8K; 146K con 6K. Lo que se repite: un solo lugar, un solo dato, texto en pantalla.</p></div>
+    <div class="card"><strong>Ya hay guías con shorts virales.</strong><p style="margin:6px 0 0;font-size:15px">Marcio Tour Guide Israel (37 M, 12 M y 10 M con planos + texto, sin cara), Aviel (788K a cámara con "comentá VIAJE"), Israelisteps (146K). Ninguno en español a cámara con criterio práctico.</p></div>
+    <div class="card"><strong>Mar Muerto es el tema con más techo, y la mitad de los virales son del lado jordano.</strong><p style="margin:6px 0 0;font-size:15px">Nadie con cuenta israelí de turismo lo capitaliza. Yom Kipur sin autos (600K en 4 días) y la sirena de Shabat (258K) confirman los shorts de las ideas 5, 18 y 27.</p></div>
+  </div>
+
+  <h2 id="formato">Formato: un long-form de YouTube, 5–8 shorts</h2>
+  <div class="grid g2">
+    <div class="card">
+      <h3 style="margin-top:0">El pilar: 12–25 minutos</h3>
+      <p>Listas, costos, seguridad, Shabat e itinerarios en 12–25 min. Walk tours guiados en 35–60 min. "Un lugar, una pregunta" (Masada al amanecer, cómo flotar) en 8–10.</p>
+      <div class="timeline">
+        <div class="t"><b>0:00–0:25</b> Gancho: Mari a cámara, en el lugar, con el dato o el error que el video resuelve. Sin intro de marca.</div>
+        <div class="t"><b>0:25–0:45</b> Qué va a ver y dónde está la guía completa: "con precios de hoy en visitisrael.site/…" (tarjeta).</div>
+        <div class="t"><b>Cuerpo</b> Bloques de 2–4 min: Mari a cámara (30–60 s) → B-roll con voz en off (60–90 s) → pieza IA de apoyo: mapa, línea de tiempo, comparativa (15–30 s).</div>
+        <div class="t"><b>Cierre 45 s</b> Tres puntos, CTA a la guía, pantalla final 20 s con el próximo video.</div>
+      </div>
+      <p class="note">Ritmo: corte cada 3–6 s en B-roll, plano fijo de 20–40 s cuando Mari explica. Subtítulos quemados siempre. Miniatura: cara de Mari + un objeto del lugar + tres palabras.</p>
+    </div>
+    <div class="card">
+      <h3 style="margin-top:0">Los 8 cortes que salen de cada video</h3>
+      <ol class="steps">
+        <li><span><strong>El dato sorprendente</strong> Por qué las puertas de la Ciudad Vieja están en ángulo; cuánto baja el Mar Muerto por año.</span></li>
+        <li><span><strong>El error típico</strong> "No vengas al Muro el sábado con cámara."</span></li>
+        <li><span><strong>El precio</strong> "Esto cuesta X shekels, esto es gratis", con la cifra en pantalla.</span></li>
+        <li><span><strong>El "no hagas esto"</strong> Vestimenta, fotos a personas, horarios de Shabat.</span></li>
+        <li><span><strong>El lugar escondido</strong> Azotea, cisterna, callejón, puesto del mercado.</span></li>
+        <li><span><strong>El momento visual puro</strong> Flotar, amanecer en Masada, la sirena de Shabat con la ciudad vaciándose. Sin voz.</span></li>
+        <li><span><strong>La pregunta directa</strong> "¿Es seguro? Te lo digo en 40 segundos."</span></li>
+        <li><span><strong>La comparativa</strong> Tour US$75 vs. por tu cuenta US$12.</span></li>
+      </ol>
+      <p class="note">Mismo archivo 9:16 para TikTok, Reels y Shorts; texto fijo "guía completa en visitisrael.site/es/…" (en TikTok va en la bio, un link por campaña).</p>
+    </div>
+  </div>
+  <div class="card teal" style="margin-top:14px">
+    <strong>Qué va con Mari a cámara y qué con IA.</strong> Mari: todo lo que es criterio y experiencia (qué evitar, en qué orden, qué horario, qué se paga). IA/motion: mapas animados, líneas de tiempo, tablas de precios y horarios, comparativas. Nada de imágenes generadas de lugares ni personas reales; la voz en off la graba Mari, no se clona.
+  </div>
+
+  <h2 id="idioma">Idioma: español primero, inglés como segundo canal</h2>
+  <div class="grid g3">
+    <div class="card gold"><strong>Canal principal en español.</strong><p style="margin:6px 0 0;font-size:15px">Menos oferta, medianas 3,5× más altas, cero guías licenciados hispanohablantes con canal grande, y el que rankea es de 2018. Subtítulos EN quemados; títulos y descripciones bilingües.</p></div>
+    <div class="card"><strong>Canal en inglés después.</strong><p style="margin:6px 0 0;font-size:15px">Con 12–15 videos ES publicados y medidos: se regraban a cámara los bloques de Mari en inglés sobre el mismo B-roll y las mismas piezas IA. Costo marginal: una tarde por cada 3–4 videos.</p></div>
+    <div class="card"><strong>Por qué no mezclar.</strong><p style="margin:6px 0 0;font-size:15px">Israel con Aline: misma persona, un canal por idioma; el nativo y el ES rinden, el EN 30 veces menos. Mezclar parte la audiencia. Hebreo: solo shorts ocasionales.</p></div>
+  </div>
+
+  <h2 id="ideas">Treinta ideas de video</h2>
+  <p class="lede" style="font-size:17px">Cada idea nombra su keyword (volumen mensual de Google Ads, EE. UU. para EN y España para ES; "YT" cuando el dato es del SERP de YouTube), la guía del sitio a la que manda tráfico (todas existen: no se crean páginas), los shorts que salen y un video real que funciona en ese formato. Las marcadas en dorado son el top 10.</p>
+  <div class="filters" role="group" aria-label="Filtrar por tipo">
+    <button type="button" data-f="all" aria-pressed="true">Todas</button>
+    <button type="button" data-f="top" aria-pressed="false">Top 10</button>
+    <button type="button" data-f="walk" aria-pressed="false">Walk guiado</button>
+    <button type="button" data-f="lista" aria-pressed="false">Listas</button>
+    <button type="button" data-f="practico" aria-pressed="false">Práctico</button>
+    <button type="button" data-f="lugar" aria-pressed="false">Lugar / day trip</button>
+    <button type="button" data-f="food" aria-pressed="false">Comida</button>
+    <button type="button" data-f="fiestas" aria-pressed="false">Shabat y fiestas</button>
+  </div>
+  <div class="grid g2" id="ideas-grid"></div>
+
+  <h2 id="top10">Top 10 para arrancar, en dos jornadas</h2>
+  <p class="lede" style="font-size:17px">Criterio: búsqueda × hueco (nadie fresco con criterio) × grabable por Mari en Jerusalén en dos jornadas × que mande tráfico a una guía con valor comercial (seguridad, tours comparados y Jerusalén son las tres con más déficit en la auditoría SEO).</p>
+  <div class="grid g2">
+    <div class="card">
+      <p class="eyebrow">Jornada A · Ciudad Vieja · martes o miércoles</p>
+      <ol class="steps">
+        <li><span><strong>#1 Jerusalén en un día con una guía licenciada</strong> 35–45'. El video ancla: el recorrido que Mari hace de memoria; produce B-roll para otros seis. Referencia 794K.</span></li>
+        <li><span><strong>#13 Los cuatro barrios caminando</strong> 45–60'. Mismo material, otro corte: continuo, con mapa y explicación (481K vs 279K del mudo).</span></li>
+        <li><span><strong>#17 Lo que NO hay que hacer en sitios religiosos</strong> 10–12'. 30 segundos por regla, en cada sitio. Formato "never do", mediana 70K.</span></li>
+        <li><span><strong>#30 Un día en el Muro Occidental</strong> 10–12'. Misma mañana; short casi garantizado.</span></li>
+        <li><span><strong>#2 12 errores que cometen los turistas</strong> 14–18'. Bloques a cámara en 40 minutos en una azotea; el B-roll ya está.</span></li>
+      </ol>
+    </div>
+    <div class="card">
+      <p class="eyebrow">Jornada B · Mahane Yehuda, ciudad nueva y viernes hacia Shabat</p>
+      <ol class="steps" style="counter-reset: s 5">
+        <li><span><strong>#8 Mahane Yehuda: 10 puestos y qué pedir</strong> 18–25'. Comida es el formato con más vistas totales (38 M); cada puesto es un short.</span></li>
+        <li><span><strong>#4 Cuánto cuesta viajar a Israel</strong> 12–15'. Se filma comprando: cada precio real a cámara. En ES el top tiene 143K con calidad amateur.</span></li>
+        <li><span><strong>#5 Shabat en Jerusalén</strong> 12–15'. La ciudad vaciándose, la sirena, el Muro llenándose. Hueco total; solo alguien de adentro lo cuenta bien.</span></li>
+        <li><span><strong>#3 ¿Es seguro viajar a Israel en 2026?</strong> 12–15'. Keyword de 4.400 con la guía más deficitaria del sitio. 30 minutos a cámara con luz de tarde.</span></li>
+        <li><span><strong>#15 Tours de Jerusalén: cuál elegir</strong> 12–15'. Criterio de guía sobre cada formato; manda tráfico a la guía de afiliación directa.</span></li>
+      </ol>
+    </div>
+  </div>
+  <p class="note" style="margin-top:12px">Después: Masada + Mar Muerto (#6, #7: una jornada con salida 4:00) y Tel Aviv (#14, #9: una jornada).</p>
+
+  <h2 id="rodaje">Plan de rodaje</h2>
+  <p>Equipo mínimo: celular reciente o cámara con gimbal, micrófono de solapa inalámbrico (dos cápsulas), batería externa, trípode chico. 4K 25/30 fps horizontal, Mari centrada con aire a los costados para que el 9:16 funcione. El audio limpio de Mari es lo que más importa.</p>
+  <h3>Jornada A — Ciudad Vieja</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Hora</th><th>Lugar</th><th>Qué se graba</th><th>Videos</th></tr></thead>
+    <tbody>
+      <tr><td>06:45</td><td>Puerta de Jaffa</td><td>Apertura a cámara; la puerta en ángulo (dato)</td><td>1, 13, shorts</td></tr>
+      <tr><td>07:00–08:00</td><td>Armenio → judío → Cardo → Hurva</td><td>Walk continuo con gimbal; Mari explica 3 paradas</td><td>1, 13</td></tr>
+      <tr><td>08:00–09:00</td><td>Muro Occidental</td><td>Antes de la multitud; reglas a cámara; bar mitzvá si es lunes o jueves</td><td>30, 17, 1</td></tr>
+      <tr><td>09:00–09:45</td><td>Rampa a la Explanada / Monte del Templo</td><td>Solo exteriores, sin personas de frente, nomenclatura doble</td><td>1, 17</td></tr>
+      <tr><td>09:45–11:00</td><td>Vía Dolorosa → Santo Sepulcro</td><td>Walk; vestimenta; dato de las escaleras</td><td>1, 13, 17</td></tr>
+      <tr><td>11:00–12:00</td><td>Mercado del barrio musulmán → Puerta de Damasco</td><td>B-roll de puestos; precios</td><td>1, 13, 4</td></tr>
+      <tr><td>12:00–13:00</td><td>Almuerzo, barrio cristiano</td><td>Hummus a cámara con precio</td><td>4, shorts</td></tr>
+      <tr><td>13:00–14:00</td><td>Azotea (Austrian Hospice o similar)</td><td>Bloques a cámara de los 12 errores, luz plana</td><td>2</td></tr>
+      <tr><td>14:00–15:00</td><td>Ciudad de David / Yemin Moshe</td><td>B-roll de vistas (opcional)</td><td>1</td></tr>
+      <tr><td>16:30–18:00</td><td>Monte de los Olivos</td><td>Atardecer: cierre de #1 y #13; plano largo para las pantallas finales</td><td>todos</td></tr>
+    </tbody></table></div>
+  <h3>Jornada B — Mercado, ciudad nueva y entrada de Shabat (viernes)</h3>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Hora</th><th>Lugar</th><th>Qué se graba</th><th>Videos</th></tr></thead>
+    <tbody>
+      <tr><td>08:30–09:00</td><td>Tranvía / Rav-Kav</td><td>Cómo se compra y carga, precio a cámara</td><td>4, 23</td></tr>
+      <tr><td>09:00–11:30</td><td>Mahane Yehuda a pleno</td><td>10 puestos: bocado + precio + qué pedir; B-roll intenso</td><td>8, 4, shorts</td></tr>
+      <tr><td>11:30–12:30</td><td>Calle Jaffa / Ben Yehuda</td><td>Bloques a cámara: presupuesto y tours</td><td>4, 15</td></tr>
+      <tr><td>13:30–14:30</td><td>Hostel/hotel amigo (con permiso)</td><td>Habitación y rango de precio en prosa</td><td>4, 25</td></tr>
+      <tr><td>14:30–15:30</td><td>Calle, mercado cerrando</td><td>Bloque a cámara de seguridad, con comercio de fondo</td><td>3</td></tr>
+      <tr><td>15:30–16:30</td><td>Sirena (20–40 min antes de la puesta del sol)</td><td>La ciudad que se apaga; sonido directo</td><td>5, shorts</td></tr>
+      <tr><td>16:30–17:30</td><td>Camino al Muro</td><td>Familias yendo al Muro; qué se puede y qué no en Shabat (sin filmar de frente a quien reza)</td><td>5</td></tr>
+      <tr><td>Puesta del sol</td><td>Muro, explanada alta</td><td>El Muro llenándose; cierre a cámara antes de Shabat; después la cámara se guarda</td><td>5</td></tr>
+    </tbody></table></div>
+  <p class="note">Reglas que Mari conoce mejor que nadie y se respetan sin discusión: no filmar personas religiosas de frente sin permiso, nada de cámara en barrios ortodoxos en Shabat, guardar el equipo cuando ella lo indique, vestimenta acorde. Es parte del mensaje del canal, no una limitación.</p>
+
+  <h2 id="trafico">Cómo cada video manda tráfico al sitio</h2>
+  <ol class="steps">
+    <li><span><strong>Una página por video, decidida antes de grabar.</strong> El URL se dice en voz alta en el 0:30 y en el cierre: "la guía completa, con precios de hoy, está en visitisrael.site/es/jerusalen".</span></li>
+    <li><span><strong>Descripción:</strong> las dos primeras líneas son el link a la guía con UTM (utm_source=youtube&amp;utm_campaign=slug) y una frase; después los capítulos; los links de afiliado del sitio recién al final, y nunca directos: el clic pasa por la guía, donde está el widget con precio real y la medición por caja.</span></li>
+    <li><span><strong>Comentario fijado</strong> con el mismo link.</span></li>
+    <li><span><strong>Pantalla final de 20 s:</strong> QR grande a la guía + siguiente video + suscribir. El QR se superpone 5 s cada vez que se menciona un precio.</span></li>
+    <li><span><strong>Tarjetas de YouTube</strong> en el minuto del dato y del precio.</span></li>
+    <li><span><strong>Shorts/TikTok/Reels:</strong> link en bio rotativo (uno por campaña, cada dos semanas); sticker de link en la story del día.</span></li>
+    <li><span><strong>En el sitio:</strong> cada guía linkeada embebe el video arriba del primer H2, con el mismo UTM de vuelta para medir el circuito. Sin páginas nuevas: Shabat y fiestas embeben en /jerusalem y /best-time-to-visit-israel y quedan como candidatas a página, pendientes de aprobación.</span></li>
+    <li><span><strong>Medición a los 30 días:</strong> vistas, retención al minuto 1 y al 50 %, clics al sitio (Vercel Analytics por utm_campaign, pendiente de configurar), clics a afiliados desde la guía.</span></li>
+  </ol>
+
+  <h2 id="no">Qué no hacer</h2>
+  <div class="card">
+    <ul class="dont" style="margin:0;padding-left:20px">
+      <li><strong>Nada de política ni conflicto:</strong> ni opinión, ni "la verdad que no te cuentan", ni títulos con "controversial / odiado / peligroso" aunque hoy den vistas en inglés. Tráfico que no reserva nada y quema la marca ante los operadores locales.</li>
+      <li><strong>Sitios en disputa con nomenclatura pareja</strong> en título, voz y subtítulos: Explanada de las Mezquitas – Monte del Templo / Haram al-Sharif – Temple Mount; Belén contada de forma neutra ("hay un control de entrada; llevá pasaporte").</li>
+      <li><strong>No copiar el género "barrio ultraortodoxo / vida oculta"</strong> aunque sea el más viral en español. Voyeurismo sobre una comunidad que no pidió cámara; Mari vive ahí.</li>
+      <li><strong>Nada generado sin curaduría:</strong> cada pieza IA pasa por Mari; nada de imágenes generadas de lugares o personas reales; no clonar su voz; no inventar precios ni "el 80 % de los turistas…". Rangos en prosa y "a septiembre de 2026" dicho a cámara.</li>
+      <li><strong>No filmar personas religiosas de frente sin permiso, no filmar en Shabat dentro de barrios religiosos, no drones sobre la Ciudad Vieja</strong> (prohibido).</li>
+      <li><strong>No mezclar idiomas en un canal</strong> ni doblar con IA: dos canales, dos grabaciones a cámara.</li>
+      <li><strong>No arrancar por Tel Aviv nightlife ni hoteles:</strong> poco volumen en YouTube y el SERP de hoteles lo ocupa el pack de Google. Van después.</li>
+      <li><strong>No prometer números a Mari:</strong> el primer mes de un canal nuevo en este nicho son cientos de vistas por video. Los primeros 90 días miden retención y clics al sitio, no vistas.</li>
+    </ul>
+  </div>
+
+  <h2 id="herramientas">Herramientas para ir más allá</h2>
+  <div class="tablewrap"><table>
+    <thead><tr><th>Herramienta</th><th>Para qué</th><th>Costo</th></tr></thead>
+    <tbody>
+      <tr><td><strong>YouTube Data API v3</strong> (key en Google Cloud)</td><td>Vistas exactas, likes, fecha real, suscriptores y crecimiento de canales; búsqueda por keyword. Reemplaza al SERP para el seguimiento mensual.</td><td><strong>US$0</strong>: 10.000 unidades/día (miles de videos por día; 100 búsquedas por día)</td></tr>
+      <tr><td><strong>DataForSEO YouTube SERP</strong> (ya lo tenemos)</td><td>Qué rankea por consulta y país, con caché.</td><td>US$0,002 por consulta; las 46 + 15 fichas costaron US$0,18</td></tr>
+      <tr><td><strong>Apify</strong> (TikTok / Instagram Scraper)</td><td>Vistas y likes por video, seguidores, hashtags: lo que no se pudo verificar de TikTok/IG.</td><td>US$0,30–5 por 1.000 resultados; US$5 gratis al empezar. Un relevamiento de 20 cuentas × 50 posts ≈ US$1–5</td></tr>
+      <tr><td><strong>vidIQ</strong> o <strong>TubeBuddy</strong></td><td>Volumen de búsqueda dentro de YouTube, competencia, títulos/tags, A/B de miniaturas.</td><td>US$4,50–17,50/mes; alcanza el plan base de uno</td></tr>
+      <tr><td><strong>YouTube Studio</strong></td><td>Retención, fuentes de tráfico, clics en tarjetas y pantalla final, CTR.</td><td>US$0</td></tr>
+      <tr><td><strong>Search Console</strong> (pendiente)</td><td>Cuánto tráfico de Google trae el video embebido en cada guía.</td><td>US$0</td></tr>
+    </tbody></table></div>
+  <p class="note">Total razonable para medir en serio: US$0–20/mes (YouTube API gratis + un plan base de vidIQ) y US$5–10 por trimestre de Apify.</p>
+
+  <h2 id="preguntas">Preguntas para cerrar el plan</h2>
+  <div class="qa">
+    <strong>Lo que el plan asume y conviene confirmar:</strong>
+    <ol>
+      <li>¿Mari acepta ser la cara a cámara en long-form, o prefiere voz en off con presencia puntual? Todo el plan asume cara.</li>
+      <li>¿En qué idioma se siente más cómoda a cámara? Recomendación: español primero; si su fuerte es el inglés, cambia el orden.</li>
+      <li>¿Frecuencia realista de rodaje? El plan asume dos jornadas para diez videos; ¿una jornada por mes es viable?</li>
+      <li>Equipo: ¿hay gimbal y micrófono de solapa inalámbrico? ¿Quién opera cámara? Si Mari graba sola, el walk guiado se simplifica.</li>
+      <li>¿Se aprueba una futura página "Shabat y fiestas para el viajero"? Tres ideas (5, 18, 27) no tienen guía propia; hoy linkean a Jerusalén y a "cuándo viajar".</li>
+    </ol>
+  </div>
+  <p class="note" style="margin-top:28px">Datos crudos y script re-ejecutable en el repo: data/video/youtube.json, data/video/social.json, scripts/video/youtube.mjs; propuesta completa en gestion/negocio/contenido-video.md.</p>
+</div>
+
+<script>
+  const IDEAS = [
+    {n:1,es:'Jerusalén en un día con una guía licenciada',en:'One day in Jerusalem with a licensed guide',tipo:'walk',dur:'walk guiado 35–45\'',kw:'que ver en jerusalén 40 ES · things to do in jerusalem 1.000 EN',guia:'/es/jerusalem · /jerusalem',shorts:'orden del recorrido; puerta en ángulo; azotea; precio entradas; error del sábado; el callejón',ref:{t:'Island Hopper TV',v:'794K · 25\'',u:'https://www.youtube.com/watch?v=UkrWHk7bcIY'},top:true},
+    {n:2,es:'12 errores que cometen los turistas en Israel',en:'12 mistakes tourists make in Israel',tipo:'lista',dur:'lista 14–18\'',kw:'israel travel tips 30 EN · formato "never do" mediana 70K YT',guia:'/first-time-in-israel · /es/first-time-in-israel',shorts:'uno por error (6–8 shorts)',ref:{t:'Anna Goldman',v:'200K · 15\'',u:'https://www.youtube.com/watch?v=R_qA4clR9aY'},top:true},
+    {n:3,es:'¿Es seguro viajar a Israel en 2026? Te lo dice una guía que vive acá',en:'Is Israel safe to visit in 2026?',tipo:'practico',dur:'safety 12–15\'',kw:'is israel safe to visit 4.400 EN · es seguro viajar a israel 110 ES',guia:'/is-israel-safe · /es/is-israel-safe',shorts:'respuesta en 40 s; qué pasa con una sirena; qué zonas; seguro',ref:{t:'Oscar Alejandro "¿Es seguro venir?"',v:'2,25 M · 42\'',u:'https://www.youtube.com/watch?v=Zg1eAn2qj78'},top:true},
+    {n:4,es:'Cuánto cuesta viajar a Israel: presupuesto real por día',en:'What Israel really costs per day',tipo:'practico',dur:'costos 12–15\'',kw:'cuanto cuesta viajar a israel YT #1 143K · israel travel cost YT 130–548K',guia:'/plan-your-trip · /es/plan-your-trip',shorts:'hummus; taxi aeropuerto; entrada Masada; hotel vs hostel; SIM',ref:{t:'Vamos A Recorrer El Mundo',v:'143K · 10\'',u:'https://www.youtube.com/watch?v=QcJUxmgJAlU'},top:true},
+    {n:5,es:'Shabat en Jerusalén: qué abre, qué cierra, qué hacer',en:'Shabbat in Jerusalem: what to do when the city stops',tipo:'fiestas',dur:'fiestas 12–15\'',kw:'jerusalem shabbat YT (top 22K)',guia:'/jerusalem · /best-time-to-visit-israel',shorts:'la sirena; el Muro el viernes; qué transporte hay; dónde comer',ref:{t:'Zahi Shaked (guía)',v:'22K · 8\' — hueco total',u:'https://www.youtube.com/watch?v=0gYxY9C0x8A'},top:true},
+    {n:6,es:'Masada al amanecer: cómo subir, cuándo y por qué de noche',en:'Masada at sunrise: the guide\'s way up',tipo:'lugar',dur:'lugar 10–12\'',kw:'masada 14.800 EN · masada israel 590 ES',guia:'/masada-visitor-guide · /es/masada-visitor-guide',shorts:'amanecer timelapse; rampa vs sendero; precio teleférico; qué llevar',ref:{t:'Paige Brasington (vlog amateur)',v:'3,3K · 13\' — hueco',u:'https://www.youtube.com/watch?v=02Zw6qG6NrM'}},
+    {n:7,es:'Mar Muerto: cómo flotar sin arruinarte los ojos',en:'Dead Sea: how to float (and what nobody tells you)',tipo:'lugar',dur:'lugar 8–10\'',kw:'dead sea israel 1.300 EN · mar muerto israel 70 ES · dead sea float YT 14 M',guia:'/dead-sea · /dead-sea-tours-compared · /es/dead-sea',shorts:'flotar (visual puro); barro; qué playa es gratis; cuánto baja por año',ref:{t:'Araya "¿Cómo es FLOTAR?"',v:'568K · 18\'',u:'https://www.youtube.com/watch?v=Ro8w0XcKU34'}},
+    {n:8,es:'Tour del mercado Mahane Yehuda: 10 puestos y qué pedir',en:'Machane Yehuda market food tour',tipo:'food',dur:'food 18–25\'',kw:'israel food tour YT 15 M · tel aviv food tour 40 EN',guia:'/tel-aviv-food-tours · /jerusalem',shorts:'cada puesto es un short (precio + bocado)',ref:{t:'Mark Wiens',v:'15,2 M · 41\'',u:'https://www.youtube.com/watch?v=FLmNLrog6dQ'},top:true},
+    {n:9,es:'Comida callejera de Tel Aviv: sabich, hummus, shawarma',en:'Tel Aviv street food: what to eat and where',tipo:'food',dur:'food 15–20\'',kw:'tel aviv street food YT 130–350K',guia:'/tel-aviv-food-tours · /tel-aviv',shorts:'un plato por short',ref:{t:'LivingBobby',v:'350K · 11\'',u:'https://www.youtube.com/watch?v=ZbhDObUUW6w'}},
+    {n:10,es:'Itinerario de 7 días en Israel armado por una guía',en:'7 days in Israel: a licensed guide\'s itinerary',tipo:'practico',dur:'itinerario 15–18\'',kw:'israel itinerary 7 days 30 EN (YT top 41K, 2020) · israel itinerary 90',guia:'/itineraries/7-days-in-israel · /es/itineraries/7-days-in-israel',shorts:'mapa animado; día 1; el error de orden',ref:{t:'travelingisrael (2020)',v:'41K · 11\' — hueco',u:'https://www.youtube.com/watch?v=ZkEaD65Viqk'}},
+    {n:11,es:'10 días en Israel: el itinerario completo',en:'10 days in Israel',tipo:'practico',dur:'itinerario 18–22\'',kw:'israel itinerary 10 days 50 EN',guia:'/itineraries/10-days-in-israel',shorts:'idem #10',ref:{t:'idem #10',v:'hueco',u:'https://www.youtube.com/watch?v=ZkEaD65Viqk'}},
+    {n:12,es:'Primera vez en Israel: lo que hay que saber antes de volar',en:'First time in Israel: what to know before you fly',tipo:'lista',dur:'lista 15–18\'',kw:'first time in israel tips YT 292K · traveling to israel 1.600 EN',guia:'/first-time-in-israel · /visa-information',shorts:'ETA-IL; aduana; SIM; efectivo; enchufes',ref:{t:'Julia Bautd (2026)',v:'292K · 25\'',u:'https://www.youtube.com/watch?v=lm9M87jtT6k'}},
+    {n:13,es:'Ciudad Vieja de Jerusalén: los 4 barrios explicados caminando',en:'Old City walking tour: the four quarters',tipo:'walk',dur:'walk guiado 45–60\'',kw:'jerusalem walking tour 4k YT 279–481K · old city jerusalem tour 480 EN',guia:'/jerusalem · /jerusalem-tours-compared',shorts:'6–8 momentos de lugar',ref:{t:'HolyLandSite "Every Site with Maps & Explanations"',v:'481K · 116\'',u:'https://www.youtube.com/watch?v=k8kxakd06bg'},top:true},
+    {n:14,es:'Tel Aviv en un día: playa, Jaffa, Rothschild',en:'Tel Aviv in one day',tipo:'walk',dur:'walk guiado 25–35\'',kw:'things to do in tel aviv 880 EN · que ver en tel aviv 90 ES · tel aviv que hacer YT 92K',guia:'/tel-aviv · /es/tel-aviv',shorts:'Jaffa al atardecer; bicis; precio del brunch',ref:{t:'Kara and Nate',v:'3,45 M · 12\'',u:'https://www.youtube.com/watch?v=OdwAOnWTaqE'}},
+    {n:15,es:'Tours de Jerusalén: cuál elegir y cuál evitar',en:'Jerusalem tours compared: which to take, which to skip',tipo:'practico',dur:'comparativa 12–15\'',kw:'jerusalem tours 880 EN (afiliado directo)',guia:'/jerusalem-tours-compared',shorts:'tour vs por tu cuenta (precio); qué incluye; cuándo conviene privado',ref:{t:'travelingisrael "Which to TAKE and which to AVOID"',v:'57K · 11\'',u:'https://www.youtube.com/results?search_query=travelingisrael+jerusalem+tours+which+to+take'},top:true},
+    {n:16,es:'Petra desde Israel en un día: ¿vale la pena?',en:'Petra from Israel in one day: is it worth it?',tipo:'lugar',dur:'comparativa 12–15\'',kw:'petra from israel 50 EN · tel aviv to petra 70',guia:'/petra-from-israel',shorts:'frontera Eilat; costo real; horarios',ref:{t:'HolyLandSite',v:'229K · 46\'',u:'https://www.youtube.com/watch?v=PMwS37-f9Zc'}},
+    {n:17,es:'Lo que NO debés hacer en sitios religiosos (Muro, Santo Sepulcro, Explanada)',en:'What not to do at holy sites',tipo:'lista',dur:'lista 10–12\'',kw:'formato "never do" YT',guia:'/jerusalem',shorts:'vestimenta; fotos; horarios de rezo',ref:{t:'Israel con Aline "10 cosas que jamás debes hacer"',v:'32K · 9\'',u:'https://www.youtube.com/watch?v=swUDNJNhPrQ'},top:true},
+    {n:18,es:'Cuándo viajar a Israel: mes por mes, fiestas incluidas',en:'Best time to visit Israel, month by month',tipo:'fiestas',dur:'práctico 12–15\'',kw:'best time to visit israel 720 EN · clima en israel 50 ES',guia:'/best-time-to-visit-israel · /es/best-time-to-visit-israel',shorts:'Pésaj; Yom Kipur (la ciudad sin autos); agosto; lluvias',ref:{t:'World Festa "Yom Kippur 2026"',v:'100K en 2 semanas · 24\'',u:'https://www.youtube.com/watch?v=2MZevSOg4cY'}},
+    {n:19,es:'Belén desde Jerusalén: cómo ir por tu cuenta',en:'Bethlehem from Jerusalem on your own',tipo:'lugar',dur:'day trip 12–15\'',kw:'bethlehem tour 170 EN',guia:'/jerusalem-bethlehem-day-trip',shorts:'el bus 231; el control de entrada (neutro); precio',ref:{t:'Wolters World "What NOT to Do in Bethlehem"',v:'12K — hueco',u:'https://www.youtube.com/results?search_query=wolters+world+bethlehem'}},
+    {n:20,es:'Nazaret y Mar de Galilea en un día',en:'Nazareth and the Sea of Galilee in a day',tipo:'lugar',dur:'day trip 15–20\'',kw:'sea of galilee 40.500 EN · mar de galilea 1.600 ES',guia:'/nazareth-sea-of-galilee-day-trip · /galilee · /es/galilee',shorts:'Cafarnaúm; el barco; cuánto cuesta el auto',ref:{t:'P. José de Jesús "Nazaret" (peregrinación)',v:'547K · 52\'',u:'https://www.youtube.com/results?search_query=jose+de+jesus+aguilar+nazaret'}},
+    {n:21,es:'Cesarea, Haifa y Acre: la costa en un día',en:'Caesarea, Haifa and Akko',tipo:'lugar',dur:'day trip 15–20\'',kw:'haifa israel 6.600 EN · bahai gardens haifa 590 · acre israel 390 ES',guia:'/caesarea-haifa-akko-day-trip · /haifa',shorts:'jardines Bahá\'í (horario gratis); túnel templario',ref:{t:'P. José de Jesús "Cesarea"',v:'556K',u:'https://www.youtube.com/results?search_query=jose+de+jesus+aguilar+cesarea'}},
+    {n:22,es:'Alquilar auto en Israel: lo que hay que saber',en:'Renting a car in Israel',tipo:'practico',dur:'práctico 10–12\'',kw:'car rental israel 1.300 EN',guia:'/car-rental-israel',shorts:'peaje ruta 6; estacionar en Tel Aviv; Shabat',ref:{t:'sin referencia fuerte en el set',v:'hueco',u:'https://www.youtube.com/results?search_query=renting+a+car+in+israel'}},
+    {n:23,es:'Cómo moverse en Israel sin auto: tren, bus, Rav-Kav',en:'Getting around Israel without a car',tipo:'practico',dur:'práctico 10–12\'',kw:'budget travel YT 97K (travelingisrael)',guia:'/plan-your-trip · /day-trips-from-tel-aviv',shorts:'Rav-Kav en 30 s; tren aeropuerto; sherut',ref:{t:'travelingisrael "How to travel for less"',v:'97K',u:'https://www.youtube.com/results?search_query=travelingisrael+how+to+travel+israel+for+less'}},
+    {n:24,es:'Eilat y el Néguev: desierto, cráter y Mar Rojo',en:'Eilat and the Negev',tipo:'lugar',dur:'región 15–20\'',kw:'eilat israel 4.400 EN / 320 ES · negev desert 14.800 · mitzpe ramon 1.900',guia:'/eilat · /negev · /es/negev',shorts:'cráter Ramón al amanecer; snorkel; precios',ref:{t:'sin referencia turística fuerte',v:'hueco',u:'https://www.youtube.com/results?search_query=eilat+negev+travel+guide'}},
+    {n:25,es:'Dónde dormir en Jerusalén: barrio por barrio',en:'Where to stay in Jerusalem',tipo:'practico',dur:'hoteles 10–12\'',kw:'jerusalem hotels 2.900 EN · hoteles en jerusalén 50 ES',guia:'/best-hotels-jerusalem',shorts:'un barrio por short con rango de precio en prosa',ref:{t:'sin referencia; el pack de Google ocupa el SERP web',v:'—',u:'https://www.youtube.com/results?search_query=where+to+stay+in+jerusalem'}},
+    {n:26,es:'Dónde dormir en Tel Aviv',en:'Where to stay in Tel Aviv',tipo:'practico',dur:'hoteles 10–12\'',kw:'tel aviv hotels 5.400 EN',guia:'/best-hotels-tel-aviv',shorts:'idem #25',ref:{t:'idem',v:'—',u:'https://www.youtube.com/results?search_query=where+to+stay+in+tel+aviv'}},
+    {n:27,es:'Fiestas judías para el viajero: qué cambia cada una',en:'Jewish holidays explained for travelers',tipo:'fiestas',dur:'fiestas 12–15\' (IA + Mari)',kw:'israel weather by month 260 EN',guia:'/best-time-to-visit-israel',shorts:'una fiesta por short (Pésaj, Sucot, Yom Kipur, Purim)',ref:{t:'All Israel News "Yom Kippur 2026"',v:'66K en 2 semanas',u:'https://www.youtube.com/results?search_query=yom+kippur+2026+israel'}},
+    {n:28,es:'Semana Santa en Jerusalén: dónde estar cada día',en:'Holy Week in Jerusalem',tipo:'fiestas',dur:'fiestas 15–20\'',kw:'christian tour israel 390 EN · tierra santa peregrinacion YT',guia:'/jerusalem · /nazareth-sea-of-galilee-day-trip',shorts:'Vía Dolorosa el viernes; fuego santo; horarios',ref:{t:'206 Tours "Holy Week: Where it Happened"',v:'3 M · 36\'',u:'https://www.youtube.com/watch?v=Uq56ectzwno'}},
+    {n:29,es:'Israel con chicos: qué funciona y qué no',en:'Israel with kids',tipo:'practico',dur:'familia 12–15\'',kw:'israel with kids YT (Travel Kids 20K)',guia:'/plan-your-trip',shorts:'museo de ciencias; playa; Mar Muerto con niños',ref:{t:'Travel Kids',v:'20K · 28\' — hueco, demanda dudosa',u:'https://www.youtube.com/watch?v=Ip0xabr1y_k'}},
+    {n:30,es:'Un día en el Muro Occidental: qué pasa, qué se puede, qué no',en:'A day at the Western Wall',tipo:'lugar',dur:'lugar 10–12\'',kw:'visit jerusalem 210 EN',guia:'/jerusalem',shorts:'bar mitzvá del lunes/jueves; papelitos; horarios',ref:{t:'jeruwalks (cinematográfico)',v:'1,42 M · 39\'',u:'https://www.youtube.com/watch?v=61ExOy36b_g'},top:true},
+  ];
+  const TIPO = {walk:'Walk guiado',lista:'Lista',practico:'Práctico',lugar:'Lugar / day trip',food:'Comida',fiestas:'Shabat y fiestas'};
+  const grid = document.getElementById('ideas-grid');
+  const esc = (s) => String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  function render(f) {
+    grid.innerHTML = IDEAS.filter(i => f === 'all' || (f === 'top' ? i.top : i.tipo === f)).map(i => `
+      <article class="idea${i.top ? ' top' : ''}" id="idea-${i.n}">
+        <div class="h"><span class="n">${i.n}</span><div><div class="title">${esc(i.es)}</div><div class="en">${esc(i.en)}</div></div></div>
+        <div><span class="chip">${TIPO[i.tipo]}</span><span class="chip grey">${esc(i.dur)}</span>${i.top ? '<span class="chip gold">Top 10</span>' : ''}</div>
+        <dl>
+          <dt>Keyword</dt><dd>${esc(i.kw)}</dd>
+          <dt>Manda a</dt><dd>${esc(i.guia)}</dd>
+          <dt>Shorts</dt><dd>${esc(i.shorts)}</dd>
+          <dt>Referencia</dt><dd><a href="${esc(i.ref.u)}" target="_blank" rel="noopener">${esc(i.ref.t)}</a> · ${esc(i.ref.v)}</dd>
+        </dl>
+      </article>`).join('');
+  }
+
+  const SHORTS = [["TikTok","@edenvinik","https://www.tiktok.com/@edenvinik/video/7193707419212516610","Una persona flotando en el Mar Muerto, sin voz.","visual puro","76,2 M","10 s","EN","7"],["Shorts","Marcio Tour Guide Israel","https://www.youtube.com/shorts/2KPzpb_PBpQ","\"Welcome to Jerusalem\": planos de la Ciudad Vieja con texto, publicado por un guía.","visual puro","37,0 M","26 s","EN/PT","1, 13"],["TikTok","@risky_reg","https://www.tiktok.com/@risky_reg/video/7680937205501529366","\"Lowest point on earth −430 m\": flota y lee un libro.","dato","9,2 M","18 s","EN","7"],["TikTok","@nasdaily","https://www.tiktok.com/@nasdaily/video/7678514894659980565","La física del Mar Muerto explicada a cámara.","dato","8,2 M","156 s","EN","7"],["Shorts","FootieGrase","https://www.youtube.com/shorts/GOI-B-liMBo","\"Ever wondered why you can’t drown in the Dead Sea?\"","dato","6,6 M","15 s","EN","7"],["TikTok","@mr_baez","https://www.tiktok.com/@mr_baez/video/7212835468172381483","La \"prisión de Barrabás\" en la Ciudad Vieja: un lugar raro donde la gente tira monedas.","lugar escondido","5,4 M","15 s","ES","13, 1"],["Shorts","KarissaEats","https://www.youtube.com/shorts/EDuBqIUEWLY","Un día comiendo solo comida callejera en Jerusalén.","reto de comida","4,45 M","60 s","EN","8, 9"],["TikTok","@seba.explora","https://www.tiktok.com/@seba.explora/video/7352645668701326597","El Santo Sepulcro explicado: qué es, quién lo custodia, dónde está la tumba.","dato","3,4 M","87 s","ES","13, 28"],["Shorts","Learn History Simply","https://www.youtube.com/shorts/RROvHpEI9A8","El sitio de Masada: cómo los romanos construyeron la rampa, con animación.","dato","3,07 M","91 s","EN","6"],["TikTok","@journeytoholyland1","https://www.tiktok.com/@journeytoholyland1/video/7651608919567076628","La Cúpula de la Roca y la Menorá dorada del barrio judío, con contexto.","visual puro","2,6 M","12 s","EN","13"],["TikTok","@nikkionherway","https://www.tiktok.com/@nikkionherway/video/7306978443009297695","\"Spoiler: you do actually float\": se tira y flota.","visual puro","2,4 M","24 s","EN","7"],["TikTok","@unabetsyenisrael","https://www.tiktok.com/@unabetsyenisrael/video/7609874053200956693","Recorrido cámara en mano por los callejones de la Ciudad Vieja, música, sin voz.","visual puro","1,9 M","22 s","ES","13"],["TikTok","@brent.timm.travel","https://www.tiktok.com/@brent.timm.travel/video/7488001740957076782","\"Visit the Dead Sea soon, it’s going to disappear\": cuánto baja por año.","dato","1,8 M","77 s","EN","7"],["TikTok","@telaviv_city","https://www.tiktok.com/@telaviv_city/video/7675740973292424456","Tel Aviv desde un dron: costa, rascacielos, playa.","visual puro","971K","15 s","EN","14"],["TikTok","@aviel.en.israel","https://www.tiktok.com/@aviel.en.israel/video/7610185797819452680","\"¿Sabías que en el Monte Sión están algunos de los lugares más sagrados?\": guía a cámara con CTA \"comentá VIAJE\" (2.900 comentarios).","dato + pregunta","788K","58 s","ES","13, 30"],["TikTok","@vamosarecorrerelmundo","https://www.tiktok.com/@vamosarecorrerelmundo/video/7170108200262323462","\"Sitios que no te puedes perder si viajas a Jerusalén\": lista con texto en pantalla.","lista","669K","39 s","ES","1"],["TikTok","@visit_israel","https://www.tiktok.com/@visit_israel/video/7607371933059009810","\"Israel 2026: take this as a sign to start planning\": montaje de lugares.","pregunta / señal","609K","14 s","EN","18"],["TikTok","@yallabikestlv","https://www.tiktok.com/@yallabikestlv/video/7687295410074832141","Yom Kipur: un día sin autos, autopistas llenas de bicis y chicos, explicado a cámara.","dato","600K","43 s","EN","27, 18"],["TikTok","@pozito.89","https://www.tiktok.com/@pozito.89/video/7241801019351371013","\"Jerusalén, huella de Jesús: este lugar puedes visitarlo totalmente gratis\".","precio (gratis)","368K","13 s","ES","30, 1"],["Shorts","Israel con Gini","https://www.youtube.com/shorts/9q04Hf_k2ck","\"Stunning Tel Aviv\": plano de la costa y la ciudad.","visual puro","339K","11 s","ES (cuenta)","14"],["TikTok","@michu.cardenas8","https://www.tiktok.com/@michu.cardenas8/video/7624565682809720072","Viernes Santo en la Vía Dolorosa: la marea de gente y \"¿sabías dónde termina?\".","dato + pregunta","289K","79 s","ES","28"],["TikTok","@kaitlyn_amor","https://www.tiktok.com/@kaitlyn_amor/video/7438424432932064555","\"Everything you need to know about floating\": no te afeites antes, no te mojes la cara.","no hagas esto","270K","61 s","EN","7"],["TikTok","@therealmelindastrauss","https://www.tiktok.com/@therealmelindastrauss/video/7118035927833840938","La sirena de Shabat en Jerusalén, explicada, con sonido directo.","visual puro (sonido)","258K","46 s","EN","5"],["Shorts","HolyLandSite","https://www.youtube.com/shorts/Bgd7I1Rq2cc","\"How is the old city divided?\": los cuatro barrios con mapa.","dato (mapa)","233K","52 s","EN","13"],["TikTok","@israelisteps","https://www.tiktok.com/@israelisteps/video/7687237274832063752","El Camino de los Peregrinos bajo la Ciudad de David: \"no te lo pierdas\".","lugar escondido","146K","66 s","EN","30, 13"]];
+  document.getElementById('shorts-grid').innerHTML = SHORTS.map(([p,a,u,w,h,v,d,l,i]) => '<a class="vid" href="' + esc(u) + '" target="_blank" rel="noopener">' + (u.includes('youtube.com/shorts/') ? '<span class="thumb"><img src="https://i.ytimg.com/vi/' + u.split('/shorts/')[1] + '/mqdefault.jpg" alt="" loading="lazy" width="120" height="68"><span class="play">▶</span></span>' : '<span class="play" style="background:#111">▶</span>')<span><span class="t">' + esc(a) + ' <span class="chip grey" style="margin-inline-start:6px">' + esc(p) + '</span></span><span class="s" style="display:block;color:var(--ink);margin-top:4px">' + esc(w) + '</span><span class="s"><span class="views">' + esc(v) + '</span> · ' + esc(d) + ' · ' + esc(l) + ' · gancho: ' + esc(h) + ' · idea ' + esc(i) + '</span></span></a>').join('');
+  render('all');
+  document.querySelectorAll('.filters button').forEach(b => b.addEventListener('click', () => {
+    document.querySelectorAll('.filters button').forEach(x => x.setAttribute('aria-pressed', 'false'));
+    b.setAttribute('aria-pressed', 'true');
+    render(b.dataset.f);
+  }));
+</script>
+
+</body>
+</html>

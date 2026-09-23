@@ -80,7 +80,7 @@ const contentPages = Object.values(perLocale).reduce((a, b) => a + b, 0);
 // /gestion, /gestion/competidores, /gestion/seo, /mariluz y /mariluz/paquetes (mismo conteo que
 // tests/e2e/smoke.spec.ts).
 const hubPages = locales.length * 3;
-const totalPages = contentPages + legal.length + hubPages + 8;
+const totalPages = contentPages + legal.length + hubPages + 9;
 
 const thin = rows.filter((r) => (r.byLocale.en ?? 0) < 700);
 const stale = rows.filter((r) => r.updatedAt && Date.now() - r.updatedAt.getTime() > 180 * 86400e3);
