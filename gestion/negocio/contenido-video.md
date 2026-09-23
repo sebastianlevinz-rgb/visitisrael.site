@@ -20,8 +20,18 @@ SERPs en español las estimé yo del texto (marcadas `publishedAtEstimated`). El
 devolvió vistas en cero (DataForSEO no parseó el formato) y se ignora. "Vistas por mes" es
 vistas ÷ meses desde publicación, mínimo medio mes: sirve para comparar, no para proyectar.
 Suscriptores de canales medianos no se pudieron verificar (YouTube sin JS, vidIQ 429, Social
-Blade 403). TikTok e Instagram: sin API; solo snippets y rankings de terceros, marcados en
-`social.json` como verificado / parcial / no verificado.
+Blade 403). TikTok e Instagram (`social.json`): sin API; cuentas y seguidores por snippets y
+rankings de terceros, marcados como verificado / parcial / no verificado. **Short-form
+(`shorts.json`, §2b)**: la web de TikTok carga búsqueda y tags sin login; de ahí salieron los
+links y después se leyó cada página de video con `curl` (el HTML trae el JSON con vistas, likes,
+comentarios, fecha, duración y seguidores): 178 videos de TikTok y 50 shorts de YouTube leídos en
+la fuente el 2026-09-23, sin captcha. Instagram: cero verificado, cada reel pide login y los
+snippets no traen métricas. Los "top" de la búsqueda de TikTok son los que TikTok muestra a un
+visitante sin login, no un ranking objetivo.
+
+---
+
+**Confirmado por Sebastian el 23-09-2026**: Mari acepta ser la cara a cámara; graba en español y en inglés; hay equipo de grabación. Con eso, el segundo canal en inglés no necesita esperar a los 12–15 videos: en cada jornada se graban los bloques a cámara en los dos idiomas (mismo B-roll, mismas piezas IA) y el canal EN arranca un mes después del ES, con la biblioteca ya editada.
 
 ---
 
@@ -74,8 +84,8 @@ En TikTok/Instagram (`social.json`): no existe una cuenta de turismo receptivo d
 escala. @visit_israel (Ministerio) 274K en IG; @israel (Estado) 1,5 M en TikTok pero es
 político; Secret Tel Aviv 39K en IG (~40K vistas por reel, según ellos); Tourist Israel 21K.
 Los rankings de "travel TikTokers de Israel" los encabezan cuentas de lifestyle y baile. Lo que
-sí escala es comida israelí en receta corta (BenGingi 1,2 M TikTok). El hueco de short-form es
-mayor que el de YouTube.
+sí escala es comida israelí en receta corta (BenGingi 1,1 M TikTok, verificado). El hueco de
+short-form es mayor que el de YouTube. Ejemplos concretos con métricas en §2b.
 
 ---
 
@@ -152,6 +162,83 @@ Recomendación:
   como shorts ocasionales si Mari quiere, sin invertir edición.
 - Shorts: el mismo recorte se publica en ES y EN (dos exports con subtítulos distintos), porque
   en vertical el costo marginal es cero.
+
+---
+
+## 2b. Ejemplos de short-form que funcionan
+
+Veinticinco videos cortos reales sobre viajar a Israel, con métricas leídas en la plataforma el
+2026-09-23 (todos "verificado"; ninguno de snippet). Datos completos, 29 verificados más y los
+descartados en `data/video/shorts.json`. Gancho = cuál de los 8 tipos de corte de §2. "Idea" =
+número de la tabla de §3 a la que se parece.
+
+| # | Plataforma | Cuenta (seguidores) | Qué muestra | Gancho | Vistas · likes | Dur. | Idioma | Idea | URL |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | TikTok | @edenvinik (55K) | Una persona flotando en el Mar Muerto, sin voz | 6 visual puro | 76,2 M · 10,6 M | 10 s | en | 7 | tiktok.com/@edenvinik/video/7193707419212516610 |
+| 2 | YT Shorts | Marcio Tour Guide Israel (guía) | "Welcome to Jerusalem": planos de la Ciudad Vieja + texto | 6 visual puro | 37,0 M · 643K | 26 s | en/pt | 1, 13 | youtube.com/shorts/2KPzpb_PBpQ |
+| 3 | TikTok | @risky_reg (222K) | "Lowest point on earth -430m", flota leyendo un libro | 1 dato | 9,2 M · 486K | 18 s | en | 7 | tiktok.com/@risky_reg/video/7680937205501529366 |
+| 4 | TikTok | @nasdaily (8,8 M) | La física del Mar Muerto explicada a cámara | 1 dato | 8,2 M · 738K | 156 s | en | 7 | tiktok.com/@nasdaily/video/7678514894659980565 |
+| 5 | YT Shorts | FootieGrase | "Why you can't drown in the Dead Sea" | 1 dato | 6,6 M · — | 15 s | en | 7 | youtube.com/shorts/GOI-B-liMBo |
+| 6 | TikTok | @mr_baez (105K) | La "prisión de Barrabás": rincón raro, monedas en la celda | 5 lugar escondido | 5,4 M · 361K | 15 s | es | 13 | tiktok.com/@mr_baez/video/7212835468172381483 |
+| 7 | YT Shorts | KarissaEats | Un día comiendo solo comida callejera en Jerusalén | otro (reto de comida) | 4,45 M · 307K | 60 s | en | 8, 9 | youtube.com/shorts/EDuBqIUEWLY |
+| 8 | TikTok | @seba.explora (127K) | El Santo Sepulcro explicado: quién lo custodia, dónde está la tumba | 1 dato | 3,4 M · 143K | 87 s | es | 13, 28 | tiktok.com/@seba.explora/video/7352645668701326597 |
+| 9 | YT Shorts | Learn History Simply | El sitio de Masada: cómo los romanos hicieron la rampa | 1 dato | 3,07 M · 72K | 91 s | en | 6 | youtube.com/shorts/RROvHpEI9A8 |
+| 10 | TikTok | @journeytoholyland1 (100K) | Cúpula de la Roca y Menorá dorada, plano de 12 s con contexto en caption | 6 visual puro | 2,6 M · 184K | 12 s | en | 13 | tiktok.com/@journeytoholyland1/video/7651608919567076628 |
+| 11 | TikTok | @nikkionherway (196K) | "Spoiler: you do actually float" (lado jordano) | 6 visual puro | 2,4 M · 136K | 24 s | en | 7 | tiktok.com/@nikkionherway/video/7306978443009297695 |
+| 12 | TikTok | @unabetsyenisrael (10K) | Callejones de la Ciudad Vieja, cámara en mano, música | 6 visual puro | 1,9 M · 76K | 22 s | es | 13 | tiktok.com/@unabetsyenisrael/video/7609874053200956693 |
+| 13 | TikTok | @brent.timm.travel (1,1 M) | "El Mar Muerto va a desaparecer": cuánto baja por año | 1 dato | 1,8 M · 122K | 77 s | en | 7 | tiktok.com/@brent.timm.travel/video/7488001740957076782 |
+| 14 | TikTok | @telaviv_city (87K) | Tel Aviv desde un dron | 6 visual puro | 971K · 70K (75,6K compartidos) | 15 s | en | 14 | tiktok.com/@telaviv_city/video/7675740973292424456 |
+| 15 | TikTok | @aviel.en.israel (8K, guía latino-israelí) | "¿Sabías que en el Monte Sión…?" a cámara + "comentá VIAJE" | 1 dato + 7 pregunta | 788K · 27K (2.900 comentarios) | 58 s | es | 13, 30 | tiktok.com/@aviel.en.israel/video/7610185797819452680 |
+| 16 | TikTok | @vamosarecorrerelmundo (65K) | Sitios que no te podés perder en Jerusalén (lista) | otro (lista) | 669K · 16K | 39 s | es | 1 | tiktok.com/@vamosarecorrerelmundo/video/7170108200262323462 |
+| 17 | TikTok | @visit_israel (33K, Ministerio) | "Israel 2026: take this as a sign", montaje | 7 pregunta / señal | 609K · 27K (44K compartidos) | 14 s | en | 18 | tiktok.com/@visit_israel/video/7607371933059009810 |
+| 18 | TikTok | @yallabikestlv (27K, residente) | Yom Kipur: un día sin autos, autopistas llenas de bicis | 1 dato | 600K · 64K | 43 s | en | 27, 18 | tiktok.com/@yallabikestlv/video/7687295410074832141 |
+| 19 | TikTok | @pozito.89 (3K) | "Huella de Jesús: se visita totalmente gratis" | 3 precio (gratis) | 368K · 11K | 13 s | es | 30, 1 | tiktok.com/@pozito.89/video/7241801019351371013 |
+| 20 | YT Shorts | Israel con Gini (residente, ES) | Tel Aviv, plano de la costa, sin voz | 6 visual puro | 339K · 4,7K | 11 s | es | 14 | youtube.com/shorts/9q04Hf_k2ck |
+| 21 | TikTok | @michu.cardenas8 (135K) | Viernes Santo en la Vía Dolorosa + "¿sabías que termina dentro del Santo Sepulcro?" | 1 dato + 7 pregunta | 289K · 16K | 79 s | es | 28 | tiktok.com/@michu.cardenas8/video/7624565682809720072 |
+| 22 | TikTok | @kaitlyn_amor (45K) | Todo lo que hay que saber para flotar: no afeitarse, ojos, barro | 2 error típico | 270K · 28K (3,4K guardados) | 61 s | en | 7 | tiktok.com/@kaitlyn_amor/video/7438424432932064555 |
+| 23 | TikTok | @therealmelindastrauss (1,5 M) | La sirena de Shabat en Jerusalén, con sonido directo | 6 visual puro | 258K · 33K | 46 s | en | 5 | tiktok.com/@therealmelindastrauss/video/7118035927833840938 |
+| 24 | YT Shorts | HolyLandSite | Los cuatro barrios de la Ciudad Vieja con mapa | 1 dato (mapa) | 233K · 12K | 52 s | en | 13 | youtube.com/shorts/Bgd7I1Rq2cc |
+| 25 | TikTok | @israelisteps (6K, guía privado) | El Camino de los Peregrinos bajo la Ciudad de David: "no te lo pierdas" | 5 lugar escondido | 146K · 3,4K | 66 s | en | 30, 13 | tiktok.com/@israelisteps/video/7687237274832063752 |
+
+**Lectura**
+
+1. **Dos ganchos se llevan casi todo**: el **dato sorprendente** (10 de 25; todo el Mar Muerto es
+   eso: "no te podés ahogar", "-430 m", "34 % de sal", "desaparece") y el **momento visual puro**
+   (9 de 25). Los cortes 1 y 6 de §2 van primero. **Lugar escondido** tiene tres ejemplos y dos son
+   de guías chicos que escalaron con eso (Barrabás 5,4 M; Camino de los Peregrinos 146K con 6K
+   seguidores). **Precio** solo rinde cuando es "gratis" (368K); con cifra real queda en 30K
+   (`@estamosbienma`) salvo en hebreo para público local (625K, Sarona). **No hagas esto** y
+   **comparativa** casi no tienen ejemplos con escala (Cal McKinley 9K; travelingisrael 49K):
+   hueco, pero con techo bajo; conviene grabarlos como bloque del long-form y no esperar viral.
+2. **Duración**: mediana 43 s en los 25; en los de más de 1 M, 24 s. Pero los explicados a cámara
+   de 50–90 s también escalan (Santo Sepulcro 87 s → 3,4 M; Nas Daily 156 s → 8,2 M; Aviel 58 s
+   → 788K). Regla práctica: plano mudo de 10–25 s **o** explicación de guía de 50–90 s; lo del
+   medio (30–45 s de vlog sin dato) es lo que menos aparece.
+3. **El español tiene ejemplos fuertes**: 8 de 25 (Barrabás 5,4 M, Santo Sepulcro 3,4 M, Ciudad
+   Vieja 1,9 M, Aviel 788K, lista de Jerusalén 669K, Huella 368K, Vía Dolorosa 289K, Gini 339K).
+   Todos con ángulo de lugar o de fe cristiana, ninguno práctico (visa, precio, Shabat). Y aparecen
+   creators rioplatenses residentes: Sasha Margot (Buenos Aires → Tel Aviv, 129K seguidores, "cosas
+   que nadie te explica" 46K) y Aviel ("coach viajero" latino-israelí). La cuenta hispana sobre
+   Israel más grande es `@israelinspanish` (957K), de actualidad, no de turismo.
+4. **No hace falta cuenta grande**: 76 M con 55K seguidores, 1,9 M con 10K, 788K con 8K, 146K
+   con 6K, 130K con 830 (top 5 hamburguesas en alemán). El algoritmo distribuye por pieza. Lo que
+   sí se repite en los que escalan con cuenta chica: un solo lugar, un solo dato, texto en pantalla.
+5. **Ya hay guías con shorts virales**: Marcio Tour Guide Israel (37 M, 12 M y 10 M en YouTube con
+   planos + texto, sin cara), Aviel (788K a cámara con CTA), Israelisteps (146K). Ninguno en
+   español a cámara con criterio práctico: ese es el hueco de Mari, igual que en long-form.
+6. **Mar Muerto es el tema con más techo en vertical** (5 de los 10 mayores) y la mitad de esos
+   son del lado jordano (Jorden Tually 43,5 M, nikkionherway 2,4 M, Brent Timm 1,8 M, Kaitlyn
+   270K). Nadie con cuenta israelí de turismo lo capitaliza: el #7 se graba primero de la jornada
+   de desierto, con los cuatro shorts ya escritos (flotar, barro, "cuánto baja", "no hagas").
+7. **Yom Kipur sin autos** (600K en cuatro días, Yalla Bikes) y **la sirena de Shabat** (258K)
+   confirman los shorts de las ideas #5, #18 y #27. **Masada** rinde por la historia (3 M) y no
+   por el amanecer (todo entre 500 y 56K en TikTok): el short del #6 lleva el dato de la rampa
+   romana, no solo el sol.
+8. **Traducción a nuestros cortes**: de cada long-form, el primer short que sale es el visual puro
+   (10–25 s, texto, sin voz) y el segundo es el dato de Mari a cámara (50–90 s, subtítulos, cierre
+   con pregunta y "guía completa en visitisrael.site/es/…"). Error típico, precio y comparativa se
+   publican igual, pero se miden por guardados y comentarios, no por vistas. Comida (#8, #9) se
+   corta como "un puesto, un bocado, un precio", que es lo que KarissaEats hace en 60 s con 4,45 M.
 
 ---
 
@@ -363,7 +450,10 @@ vidIQ) y **US$5–10 por trimestre** de Apify para TikTok/IG.
 - `data/video/youtube.json`: 46 consultas, 523 videos con vistas, fecha, duración, canal, URL;
   top 30 por vistas y por velocidad (totales y solo turismo), por mercado, canales, formatos por
   regex, duraciones, `video_info` de los 15 mayores.
-- `data/video/social.json`: 22 creators/cuentas con estado de verificación.
+- `data/video/social.json`: 22 creators/cuentas con estado de verificación, más las cuentas de
+  short-form encontradas en §2b (`shortFormAccounts`).
+- `data/video/shorts.json`: 25 shorts verificados (tabla de §2b), 29 verificados más, 10
+  descartados con motivo, método y límites.
 - `scripts/video/youtube.mjs`: re-ejecutable; `--probe` para una consulta, `--info` para pedir
   likes/comentarios.
 - `data/seo/costs.json`: corridas `video/youtube.mjs` (US$0,18 + US$0,002).
